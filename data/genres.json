@@ -59,8 +59,8 @@
               "icon": "🧠",
               "description": "リスクと脅威の基礎知識",
               "file": "data/sg/questions_sg_overview.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sg_management",
@@ -68,8 +68,8 @@
               "icon": "🛡",
               "description": "ISMSと管理策の基礎",
               "file": "data/sg/questions_sg_management.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sg_measures",
@@ -77,8 +77,8 @@
               "icon": "🔐",
               "description": "認証とアクセス制御",
               "file": "data/sg/questions_sg_measures.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sg_law",
@@ -86,8 +86,8 @@
               "icon": "⚖️",
               "description": "関連法規とコンプライアンス",
               "file": "data/sg/questions_sg_law.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             }
           ]
         },
