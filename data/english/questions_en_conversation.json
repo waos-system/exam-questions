@@ -1,0 +1,216 @@
+{
+  "genre": "会話・リスニング",
+  "exam": "英語",
+  "questions": [
+    {
+      "id": "en_conv_001",
+      "question": "A: \"How are you doing?\"\nB: ___\n\nWhich response is most natural?",
+      "choices": [
+        "I'm doing fine, thanks. How about you?",
+        "I do fine yesterday.",
+        "Yes, I am.",
+        "Fine I am, thank you."
+      ],
+      "answer": 0,
+      "explanation": "「How are you doing?」への自然な返答は「I'm doing fine, thanks. How about you?（元気ですよ。あなたは？）」です。挨拶には挨拶を返すのが自然な会話のパターンです。"
+    },
+    {
+      "id": "en_conv_002",
+      "question": "A: \"Would you mind if I opened the window?\"\nB: ___\n\nWhich response AGREES to the request?",
+      "choices": [
+        "Yes, I would.",
+        "No, go ahead.",
+        "No, I would.",
+        "Yes, please don't."
+      ],
+      "answer": 1,
+      "explanation": "「Would you mind if〜?」は「〜してもいいですか？」という許可を求める表現です。「No, go ahead.（はい、どうぞ）」が許可を与える正解です。「No」で答えると「気にしない→してもいい」となります。"
+    },
+    {
+      "id": "en_conv_003",
+      "question": "A: \"I'm sorry I'm late.\"\nB: ___\n\nWhich is the most appropriate response?",
+      "choices": [
+        "You should be sorry.",
+        "Don't worry about it. Come on in.",
+        "Yes, you are very late.",
+        "I will not forgive you."
+      ],
+      "answer": 1,
+      "explanation": "謝罪への適切な返答は「Don't worry about it.（気にしないで）」「That's okay.」「No problem.」などです。相手を責める表現は不自然で失礼です。"
+    },
+    {
+      "id": "en_conv_004",
+      "question": "A: \"Can I take your order?\"\nB: \"Yes, ___ the pasta, please.\"\n\nWhich fits the blank?",
+      "choices": ["I'd like", "I want have", "I having", "I would wanting"],
+      "answer": 0,
+      "explanation": "レストランで注文するときは「I'd like〜（〜をお願いします）」が最も自然です。「I'd like the pasta, please.」がきれいな表現です。「I want have」「I having」は文法的に誤りです。"
+    },
+    {
+      "id": "en_conv_005",
+      "question": "A: \"What time does the movie start?\"\nB: \"It starts ___ 7:30.\"\n\nWhich is correct?",
+      "choices": ["in", "on", "at", "by"],
+      "answer": 2,
+      "explanation": "具体的な時刻には前置詞 at を使います。「It starts at 7:30.（7時30分に始まります）」が正解です。at noon（正午に）、at midnight（深夜に）も同様です。"
+    },
+    {
+      "id": "en_conv_006",
+      "question": "A: \"Do you have this shirt in a larger size?\"\nB: ___\n\nWhich is the most appropriate shop assistant's response?",
+      "choices": [
+        "No, buy something else.",
+        "Let me check in the stockroom for you.",
+        "Shirts are over there.",
+        "I don't know."
+      ],
+      "answer": 1,
+      "explanation": "「ストックルームで確認してまいります（Let me check in the stockroom for you.）」が最も丁寧で適切な店員の返答です。顧客サービスとして積極的に対応する姿勢を示します。"
+    },
+    {
+      "id": "en_conv_007",
+      "question": "A: \"Excuse me, could you tell me the way to the station?\"\nB: ___\n\nWhich is the most helpful response?",
+      "choices": [
+        "I don't live here.",
+        "Sure! Go straight and turn left at the traffic light.",
+        "Why do you want to go there?",
+        "The station is a station."
+      ],
+      "answer": 1,
+      "explanation": "道を尋ねられたときの適切な返答は具体的な案内です。「Sure! Go straight and turn left at the traffic light.（まっすぐ行って信号を左に曲がってください）」が最も役立つ返答です。"
+    },
+    {
+      "id": "en_conv_008",
+      "question": "A: \"Happy birthday!\"\nB: ___\n\nWhich is the most natural response?",
+      "choices": [
+        "Thank you so much!",
+        "I know.",
+        "Happy birthday to you too.",
+        "Please stop."
+      ],
+      "answer": 0,
+      "explanation": "誕生日を祝われたときは「Thank you so much!（ありがとうございます！）」が最も自然な返答です。「Happy birthday to you too」は相手の誕生日でなければ不自然です。"
+    },
+    {
+      "id": "en_conv_009",
+      "question": "A: \"What do you do for a living?\"\nB: ___\n\nWhich is the correct interpretation of the question?",
+      "choices": [
+        "They're asking about your hobbies",
+        "They're asking about your job/profession",
+        "They're asking where you live",
+        "They're asking how you stay healthy"
+      ],
+      "answer": 1,
+      "explanation": "「What do you do for a living?」は「お仕事は何をされていますか？（職業・生業は？）」という意味です。「for a living（生計のために）」がポイントで、職業を尋ねる表現です。"
+    },
+    {
+      "id": "en_conv_010",
+      "question": "A: \"Shall we split the bill?\"\nB: ___\n\nWhat does \"split the bill\" mean?",
+      "choices": [
+        "To pay the entire bill",
+        "To divide the bill equally between people",
+        "To refuse to pay",
+        "To ask for a discount"
+      ],
+      "answer": 1,
+      "explanation": "「split the bill」は「割り勘にする・会計を均等に分ける」という表現です。別の言い方は「go Dutch」「divide the cost」などです。"
+    },
+    {
+      "id": "en_conv_011",
+      "question": "A: \"You look a bit under the weather.\"\nB: \"Yeah, I've had a headache all day.\"\n\nWhat does A's statement mean?",
+      "choices": [
+        "You look cold from the weather",
+        "You look unwell/sick",
+        "You look wet from rain",
+        "You look worried about the weather"
+      ],
+      "answer": 1,
+      "explanation": "「under the weather」は「体調が悪い・気分がすぐれない」という意味のイディオムです。BがHeadache（頭痛）と答えていることからも文脈が確認できます。"
+    },
+    {
+      "id": "en_conv_012",
+      "question": "A: \"I'm thinking of taking up a new hobby.\"\nB: \"Really? ___ have you thought about?\"\n\nWhich fits the blank?",
+      "choices": ["How", "What", "Who", "Where"],
+      "answer": 1,
+      "explanation": "「What have you thought about?（何を考えていますか？）」が正解です。趣味の種類（what）を尋ねる文脈です。How「どのように」、Who「誰」、Where「どこ」は文脈に合いません。"
+    },
+    {
+      "id": "en_conv_013",
+      "question": "A: \"Could I speak to Mr. Park, please?\"\nB: ___（電話にて）\n\nWhich is the most appropriate response?",
+      "choices": [
+        "He is not here. Goodbye.",
+        "Speaking. How can I help you?",
+        "Who are you?",
+        "Why do you want to speak to him?"
+      ],
+      "answer": 1,
+      "explanation": "電話で本人が出た場合「Speaking.（私ですが）」と答えます。「Speaking. How can I help you?（はい、私ですが、どのようなご用件でしょうか？）」が最も適切で丁寧な返答です。"
+    },
+    {
+      "id": "en_conv_014",
+      "question": "A: \"Could you do me a favor?\"\nB: ___\n\nWhich response is most appropriate to agree?",
+      "choices": [
+        "No, I'm busy.",
+        "Sure, what is it?",
+        "Favors are not my thing.",
+        "You owe me one."
+      ],
+      "answer": 1,
+      "explanation": "「お願いがあるのですが」に対して「もちろん、何ですか？（Sure, what is it?）」が最も自然な承諾の返答です。具体的な依頼内容を聞く前に快く応じる会話の流れです。"
+    },
+    {
+      "id": "en_conv_015",
+      "question": "A: \"What's the weather like today?\"\nB: \"It's ___ and warm.\"\n\nWhich word fits if it's a nice, clear day?",
+      "choices": ["raining", "snowing", "cloudy", "sunny"],
+      "answer": 3,
+      "explanation": "「warm（暖かい）」と組み合わせて「良い天気」を表すのは「sunny（晴れ）」が最も自然です。「sunny and warm（晴れて暖かい）」はよく使われる天気の表現です。"
+    },
+    {
+      "id": "en_conv_016",
+      "question": "A: \"Are you free this weekend?\"\nB: \"I'm ___ I have other plans.\"\n\nWhich fills the blank to politely decline?",
+      "choices": ["sure", "afraid", "happy", "glad"],
+      "answer": 1,
+      "explanation": "「I'm afraid（残念ながら・恐れ入りますが）」は丁寧に断ったり、悪いニュースを伝えたりするときの前置き表現です。「I'm afraid I have other plans.（残念ながら予定があります）」が正解です。"
+    },
+    {
+      "id": "en_conv_017",
+      "question": "A: \"How long have you been studying English?\"\nB: \"___ three years.\"\n\nWhich fits correctly?",
+      "choices": ["Since", "During", "For", "From"],
+      "answer": 2,
+      "explanation": "期間（3年間）を表すときは for を使います。「For three years（3年間）」が正解。since は起点（since 2020）を表します。「For vs Since」の区別は頻出事項です。"
+    },
+    {
+      "id": "en_conv_018",
+      "question": "A: \"I can't believe I failed the exam.\"\nB: ___\n\nWhich is the most empathetic response?",
+      "choices": [
+        "I told you to study harder.",
+        "That must be really disappointing. Don't give up!",
+        "Well, that's your problem.",
+        "You should have been smarter."
+      ],
+      "answer": 1,
+      "explanation": "共感的な返答として「That must be really disappointing. Don't give up!（それは本当に残念ですね。諦めないで！）」が最も適切です。empathy（共感）を示し、励ます表現です。"
+    },
+    {
+      "id": "en_conv_019",
+      "question": "A: \"What would you recommend at this restaurant?\"\nB: ___\n\nWhich is the most helpful response?",
+      "choices": [
+        "I've never been here before either.",
+        "The grilled salmon is excellent — it's our most popular dish.",
+        "Everything is on the menu.",
+        "You should decide for yourself."
+      ],
+      "answer": 1,
+      "explanation": "レストランでのオススメを聞かれたとき、「グリルサーモンが素晴らしく、最も人気のある料理です（The grilled salmon is excellent — it's our most popular dish.）」が最も役立つ返答です。"
+    },
+    {
+      "id": "en_conv_020",
+      "question": "A: \"Let's keep in touch.\"\nB: ___\n\nWhat does \"keep in touch\" mean?",
+      "choices": [
+        "To touch each other",
+        "To maintain contact/communication",
+        "To stay physically close",
+        "To stop communicating"
+      ],
+      "answer": 1,
+      "explanation": "「keep in touch」は「連絡を取り合う・繋がり続ける」という意味のイディオムです。別れ際によく使われる表現で、「Stay in touch」とも言います。"
+    }
+  ]
+}

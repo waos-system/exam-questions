@@ -1,0 +1,86 @@
+{
+  "subjects": [
+    {
+      "id": "it_exam",
+      "name": "情報技術者試験",
+      "icon": "💻",
+      "description": "IPA主催の国家資格試験",
+      "exams": [
+        {
+          "id": "fe",
+          "name": "基本情報技術者試験",
+          "short": "FE",
+          "level": "レベル2",
+          "icon": "🟢",
+          "description": "ITエンジニアの登竜門。幅広い分野から出題。",
+          "color": "#00c97a",
+          "sections": [
+            { "id": "fe_computer",   "name": "コンピュータ構成要素",     "icon": "🖥️", "description": "CPU・メモリ・入出力装置・ストレージ",      "file": "data/fe/questions_fe_computer.json",   "count": 10 },
+            { "id": "fe_system",     "name": "システム構成要素",         "icon": "🔧", "description": "システム性能・信頼性・稼働率計算",          "file": "data/fe/questions_fe_system.json",     "count": 10 },
+            { "id": "fe_software",   "name": "ソフトウェア",             "icon": "📦", "description": "OS・プロセス管理・ミドルウェア",            "file": "data/fe/questions_fe_software.json",   "count": 10 },
+            { "id": "fe_hardware",   "name": "ハードウェア",             "icon": "⚙️", "description": "論理回路・進数変換・半導体",               "file": "data/fe/questions_fe_hardware.json",   "count": 10 },
+            { "id": "fe_network",    "name": "ネットワーク",             "icon": "🌐", "description": "TCP/IP・プロトコル・ネットワーク設計",    "file": "data/fe/questions_fe_network.json",    "count": 10 },
+            { "id": "fe_db",         "name": "データベース",             "icon": "🗄️", "description": "SQL・正規化・トランザクション",            "file": "data/fe/questions_fe_db.json",         "count": 10 },
+            { "id": "fe_security",   "name": "セキュリティ",             "icon": "🔒", "description": "暗号化・認証・脆弱性・攻撃手法",          "file": "data/fe/questions_fe_security.json",   "count": 10 },
+            { "id": "fe_algorithm",  "name": "アルゴリズムとプログラミング", "icon": "⌨️", "description": "アルゴリズム・データ構造・擬似言語",  "file": "data/fe/questions_fe_algorithm.json",  "count": 10 },
+            { "id": "fe_management", "name": "システム開発・マネジメント", "icon": "📋", "description": "開発手法・プロジェクト管理・品質管理",   "file": "data/fe/questions_fe_management.json", "count": 10 },
+            { "id": "fe_strategy",   "name": "ストラテジ・経営",         "icon": "📊", "description": "経営戦略・法務・会計・ビジネス知識",      "file": "data/fe/questions_fe_strategy.json",   "count": 10 }
+          ]
+        },
+        {
+          "id": "ap",
+          "name": "応用情報技術者試験",
+          "short": "AP",
+          "level": "レベル3",
+          "icon": "🔵",
+          "description": "より深い技術知識と応用力が問われる上位資格。",
+          "color": "#3b82f6",
+          "sections": [
+            { "id": "ap_network",  "name": "ネットワーク",          "icon": "🌐", "description": "応用レベルのネットワーク設計・プロトコル", "file": "data/ap/questions_ap_network.json",  "count": 0, "coming_soon": true },
+            { "id": "ap_db",       "name": "データベース",          "icon": "🗄️", "description": "応用レベルのSQL・設計・チューニング",    "file": "data/ap/questions_ap_db.json",       "count": 0, "coming_soon": true },
+            { "id": "ap_security", "name": "セキュリティ",          "icon": "🔒", "description": "応用レベルのセキュリティ設計・リスク管理","file": "data/ap/questions_ap_security.json", "count": 0, "coming_soon": true },
+            { "id": "ap_system",   "name": "システムアーキテクチャ", "icon": "🏗️", "description": "システム設計・方式設計・性能評価",        "file": "data/ap/questions_ap_system.json",   "count": 0, "coming_soon": true }
+          ]
+        },
+        {
+          "id": "sg",
+          "name": "情報セキュリティマネジメント試験",
+          "short": "SG",
+          "level": "レベル2",
+          "icon": "🟡",
+          "description": "セキュリティマネジメントの知識・技能を認定。",
+          "color": "#f59e0b",
+          "sections": [
+            { "id": "sg_management", "name": "情報セキュリティ管理", "icon": "🛡️", "description": "ISMS・リスク管理・セキュリティポリシー", "file": "data/sg/questions_sg_management.json", "count": 0, "coming_soon": true },
+            { "id": "sg_technical", "name": "情報セキュリティ技術",  "icon": "🔐", "description": "暗号・認証・ネットワークセキュリティ",    "file": "data/sg/questions_sg_technical.json",  "count": 0, "coming_soon": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "英語",
+      "icon": "🇬🇧",
+      "description": "文法・語彙・読解・会話・ビジネス英語",
+      "exams": [
+        {
+          "id": "en_general",
+          "name": "英語総合",
+          "short": "EN",
+          "level": "基礎〜上級",
+          "icon": "🟣",
+          "description": "文法・熟語・語彙・読解・会話・ビジネスを網羅。",
+          "color": "#a855f7",
+          "sections": [
+            { "id": "en_grammar",      "name": "文法",             "icon": "📐", "description": "時制・接続詞・比較・関係詞・受動態など",       "file": "data/english/questions_en_grammar.json",      "count": 20 },
+            { "id": "en_idioms",       "name": "熟語・イディオム", "icon": "💬", "description": "句動詞・イディオム・決まり文句",               "file": "data/english/questions_en_idioms.json",       "count": 20 },
+            { "id": "en_vocabulary",   "name": "語彙・単語",       "icon": "📖", "description": "TOEIC頻出単語・長文頻出語彙",                  "file": "data/english/questions_en_vocabulary.json",   "count": 20 },
+            { "id": "en_reading",      "name": "読解・長文",       "icon": "📄", "description": "パッセージを読んで設問に答える形式",            "file": "data/english/questions_en_reading.json",      "count": 20 },
+            { "id": "en_business",     "name": "ビジネス英語・TOEIC", "icon": "💼", "description": "メール・会議・ビジネス表現・TOEIC頻出",   "file": "data/english/questions_en_business.json",     "count": 20 },
+            { "id": "en_conversation", "name": "会話・リスニング", "icon": "🎧", "description": "日常会話・応答選択・会話パターン",             "file": "data/english/questions_en_conversation.json", "count": 20 }
+          ]
+        }
+      ]
+    }
+  ]
+}

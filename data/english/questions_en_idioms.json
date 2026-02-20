@@ -1,0 +1,146 @@
+{
+  "genre": "熟語・イディオム",
+  "exam": "英語",
+  "questions": [
+    {
+      "id": "en_idiom_001",
+      "question": "What does \"break a leg\" mean?",
+      "choices": ["To injure yourself", "Good luck", "To run fast", "To be careless"],
+      "answer": 1,
+      "explanation": "「Break a leg」は「頑張って！／幸運を！」という意味の英語イディオムです。特に舞台・演劇の世界でよく使われます。直訳（足を折れ）とは全く異なる意味です。"
+    },
+    {
+      "id": "en_idiom_002",
+      "question": "「〜を諦める、断念する」を意味する熟語はどれか。",
+      "choices": ["give in", "give up", "give out", "give away"],
+      "answer": 1,
+      "explanation": "give up は「諦める・断念する」という意味です。give in「屈服する」、give out「配る・尽きる」、give away「ただで渡す・秘密を漏らす」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_003",
+      "question": "「It's raining cats and dogs.」の意味はどれか。",
+      "choices": ["猫と犬が仲良く遊んでいる", "動物が外で遊んでいる", "土砂降りの雨が降っている", "天気が不安定だ"],
+      "answer": 2,
+      "explanation": "「It's raining cats and dogs.」は「土砂降り（どしゃ降り）の雨だ」という意味のイディオムです。直訳は「猫と犬が降っている」ですが、実際は非常に激しい雨を表します。"
+    },
+    {
+      "id": "en_idiom_004",
+      "question": "「〜に気づく、〜を見つける」を意味する熟語はどれか。",
+      "choices": ["look into", "look after", "look for", "look out for"],
+      "answer": 3,
+      "explanation": "look out for は「〜に気をつける・〜を探して見つける」という意味です。look into「調べる」、look after「世話をする」、look for「〜を探す（まだ見つかっていない）」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_005",
+      "question": "「Hit the hay」の意味はどれか。",
+      "choices": ["農業を始める", "床につく・寝る", "勉強を始める", "旅を始める"],
+      "answer": 1,
+      "explanation": "「Hit the hay（またはhit the sack）」は「床につく・寝る」という意味のスラングです。hay（干し草）の上で寝ていた昔の習慣に由来します。"
+    },
+    {
+      "id": "en_idiom_006",
+      "question": "「〜の面倒を見る」を意味する熟語はどれか。",
+      "choices": ["take off", "take up", "take care of", "take over"],
+      "answer": 2,
+      "explanation": "take care of は「〜の面倒を見る・〜を処理する」という意味です。take off「離陸する・脱ぐ」、take up「（趣味を）始める・占める」、take over「引き継ぐ」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_007",
+      "question": "「Once in a blue moon」の意味はどれか。",
+      "choices": ["毎月一度", "月明かりの下で", "めったに・ごくまれに", "突然"],
+      "answer": 2,
+      "explanation": "「Once in a blue moon」は「めったに（ない）・ごくまれに」という意味のイディオムです。blue moon（ひと月に2度起こる満月）が非常にまれなことから来ています。"
+    },
+    {
+      "id": "en_idiom_008",
+      "question": "「〜に頼る、〜を当てにする」を意味する熟語はどれか。",
+      "choices": ["count on", "count up", "count out", "count down"],
+      "answer": 0,
+      "explanation": "count on は「〜を当てにする・頼る」という意味です。「You can count on me.（私に任せて）」のように使います。count out「〜を除外する」、count down「カウントダウンする」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_009",
+      "question": "「Bite off more than you can chew」の意味はどれか。",
+      "choices": ["食べすぎる", "力不足なのに無謀な挑戦をする", "粘り強く努力する", "積極的に行動する"],
+      "answer": 1,
+      "explanation": "「Bite off more than you can chew」は「身の程知らずのことをしようとする・無謀な挑戦をする」という意味のイディオムです。食べきれないほど大きなひと口を噛み取るイメージです。"
+    },
+    {
+      "id": "en_idiom_010",
+      "question": "「〜を延期する、先延ばしにする」を意味する熟語はどれか。",
+      "choices": ["put away", "put out", "put off", "put up"],
+      "answer": 2,
+      "explanation": "put off は「〜を延期する・先延ばしにする（= postpone）」という意味です。put away「片付ける」、put out「消す・出す」、put up「掲げる・宿泊させる」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_011",
+      "question": "「Spill the beans」の意味はどれか。",
+      "choices": ["豆を料理する", "秘密を漏らす", "食事をする", "農業をする"],
+      "answer": 1,
+      "explanation": "「Spill the beans」は「秘密を漏らす・うっかり話してしまう」という意味のイディオムです。古代ギリシャの選挙で豆を使っていたことに由来するとも言われます。"
+    },
+    {
+      "id": "en_idiom_012",
+      "question": "「〜を調べる、〜を検討する」を意味する熟語はどれか。",
+      "choices": ["look up to", "look into", "look up", "look forward to"],
+      "answer": 1,
+      "explanation": "look into は「〜を調べる・検討する（= investigate）」という意味です。look up「辞書で調べる」、look up to「〜を尊敬する」、look forward to「〜を楽しみにする」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_013",
+      "question": "「Cost an arm and a leg」の意味はどれか。",
+      "choices": ["体を使った仕事をする", "非常に高価である", "危険な仕事をする", "長い旅をする"],
+      "answer": 1,
+      "explanation": "「Cost an arm and a leg」は「非常に高価である・莫大な費用がかかる」という意味のイディオムです。腕や脚というかけがえのないものに例えて、非常に高いコストを表します。"
+    },
+    {
+      "id": "en_idiom_014",
+      "question": "「〜を乗り越える、〜から立ち直る」を意味する熟語はどれか。",
+      "choices": ["get over", "get away", "get into", "get across"],
+      "answer": 0,
+      "explanation": "get over は「〜を乗り越える・回復する」という意味です。「get over an illness（病気から回復する）」のように使います。get away「逃げる」、get into「〜に入る・興味を持つ」、get across「伝える」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_015",
+      "question": "「Under the weather」の意味はどれか。",
+      "choices": ["天気が悪い", "体調が悪い", "屋外にいる", "天気予報を見る"],
+      "answer": 1,
+      "explanation": "「Feel under the weather」は「体調が優れない・気分が悪い」という意味のイディオムです。昔、船乗りが嵐（悪天候）のときに船室へ入ったことに由来するとも言われます。"
+    },
+    {
+      "id": "en_idiom_016",
+      "question": "「〜を我慢する、耐える」を意味する熟語はどれか。",
+      "choices": ["put up with", "put off", "put on", "put down"],
+      "answer": 0,
+      "explanation": "put up with は「〜を我慢する・耐える（= tolerate）」という意味です。put off「延期する」、put on「着る・演じる」、put down「置く・書き留める・批判する」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_017",
+      "question": "「Burn the midnight oil」の意味はどれか。",
+      "choices": ["キャンプファイヤーをする", "夜遅くまで働く・勉強する", "石油産業で働く", "料理が上手だ"],
+      "answer": 1,
+      "explanation": "「Burn the midnight oil」は「深夜まで仕事・勉強をする」という意味のイディオムです。電灯のない時代にランプの油（oil）を使って深夜に作業したことに由来します。"
+    },
+    {
+      "id": "en_idiom_018",
+      "question": "「〜を思い出す」を意味する熟語はどれか。",
+      "choices": ["come up with", "come across", "come back to", "come up against"],
+      "answer": 2,
+      "explanation": "come back to（something）は「〜を思い出す・〜に戻ってくる」という意味です。come up with「〜を思いつく（新アイデア）」、come across「偶然出会う」、come up against「〜に直面する」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_019",
+      "question": "「Hit the nail on the head」の意味はどれか。",
+      "choices": ["頭を打つ", "正確に要点を突く・まさにその通り", "建設作業をする", "激しく怒る"],
+      "answer": 1,
+      "explanation": "「Hit the nail on the head」は「正確に要点を突く・ズバリ図星だ」という意味のイディオムです。釘を正確に頭に打ち付けるイメージから来ています。"
+    },
+    {
+      "id": "en_idiom_020",
+      "question": "「〜に追いつく」を意味する熟語はどれか。",
+      "choices": ["catch on", "catch out", "catch up with", "catch up to"],
+      "answer": 2,
+      "explanation": "catch up with は「〜に追いつく」という意味です。「I need to catch up with the class（授業に追いつかなければ）」のように使います。catch on「流行る・理解する」、catch out「不正を見つける」と区別しましょう。"
+    }
+  ]
+}

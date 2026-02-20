@@ -1,0 +1,146 @@
+{
+  "genre": "読解・長文",
+  "exam": "英語",
+  "questions": [
+    {
+      "id": "en_read_001",
+      "question": "Read the passage and answer:\n\n\"The Amazon rainforest, often called the 'lungs of the Earth', produces about 20% of the world's oxygen. However, deforestation threatens this vital ecosystem.\"\n\nWhat does the Amazon rainforest produce?",
+      "choices": ["50% of the world's oxygen", "About 20% of the world's oxygen", "All of the world's oxygen", "10% of the world's oxygen"],
+      "answer": 1,
+      "explanation": "本文に「produces about 20% of the world's oxygen（世界の酸素の約20%を生産する）」と明記されています。パッセージの情報を正確に読み取ることがポイントです。"
+    },
+    {
+      "id": "en_read_002",
+      "question": "Read and answer:\n\n\"Remote work has become increasingly common since 2020. While it offers flexibility and saves commuting time, it can also lead to feelings of isolation and difficulty separating work from personal life.\"\n\nWhat is a DISADVANTAGE of remote work mentioned?",
+      "choices": ["Saving commuting time", "Feeling isolated", "Working from home", "Having flexibility"],
+      "answer": 1,
+      "explanation": "本文は遠隔勤務のメリット（flexibility, saves commuting time）とデメリットを紹介しています。「feelings of isolation（孤立感）」がデメリットとして挙げられています。"
+    },
+    {
+      "id": "en_read_003",
+      "question": "Read and answer:\n\n\"Coffee is the second most traded commodity in the world, after oil. It is grown in more than 50 countries and provides a livelihood for over 125 million people.\"\n\nWhich commodity is traded MORE than coffee?",
+      "choices": ["Tea", "Oil", "Gold", "Sugar"],
+      "answer": 1,
+      "explanation": "本文に「second most traded commodity in the world, after oil（石油に次いで世界で2番目に取引される商品）」とあります。石油（oil）がコーヒーより多く取引されます。"
+    },
+    {
+      "id": "en_read_004",
+      "question": "Read and answer:\n\n\"Artificial intelligence is transforming many industries. In healthcare, AI can analyze medical images with remarkable accuracy, sometimes surpassing human doctors in detecting certain diseases.\"\n\nIn what field is AI mentioned as being transformative?",
+      "choices": ["Education", "Healthcare", "Transportation", "Agriculture"],
+      "answer": 1,
+      "explanation": "本文は「healthcare（医療）」分野でのAI活用について述べています。医療画像の分析や疾患の検出での高精度について言及されています。"
+    },
+    {
+      "id": "en_read_005",
+      "question": "Read and answer:\n\n\"Mount Everest, the world's highest mountain at 8,849 meters, was first summited in 1953 by Sir Edmund Hillary and Tenzing Norgay. Today, hundreds of climbers attempt the ascent each year.\"\n\nWho was the FIRST person to reach the summit?",
+      "choices": ["Only Sir Edmund Hillary", "Only Tenzing Norgay", "Both Sir Edmund Hillary and Tenzing Norgay", "An anonymous climber"],
+      "answer": 2,
+      "explanation": "本文に「first summited in 1953 by Sir Edmund Hillary and Tenzing Norgay（1953年にエドモンド・ヒラリーとテンジン・ノルゲイによって初登頂された）」とあります。2人同時に初登頂しました。"
+    },
+    {
+      "id": "en_read_006",
+      "question": "Read and answer:\n\n\"The Mediterranean diet, rich in vegetables, fruits, whole grains, and olive oil, has been associated with numerous health benefits, including reduced risk of heart disease and longer lifespan.\"\n\nWhat is the Mediterranean diet mainly composed of?",
+      "choices": ["Meat and dairy products", "Vegetables, fruits, whole grains and olive oil", "Fish and rice", "Fast food and processed food"],
+      "answer": 1,
+      "explanation": "本文に「rich in vegetables, fruits, whole grains, and olive oil（野菜・果物・全粒穀物・オリーブオイルが豊富）」と書かれています。地中海式食事のメインの構成要素です。"
+    },
+    {
+      "id": "en_read_007",
+      "question": "Read and answer:\n\n\"Social media platforms have connected billions of people worldwide. However, studies suggest excessive use may contribute to anxiety, depression, and decreased attention spans, particularly in teenagers.\"\n\nWhich GROUP is particularly affected?",
+      "choices": ["Elderly people", "Children under 10", "Teenagers", "Working adults"],
+      "answer": 2,
+      "explanation": "本文の最後に「particularly in teenagers（特に十代の若者において）」と明記されています。teenagers（10代の若者）が特に影響を受けると述べられています。"
+    },
+    {
+      "id": "en_read_008",
+      "question": "Read and answer:\n\n\"Electric vehicles (EVs) produce zero direct emissions, but their environmental impact depends largely on how the electricity they use is generated. In regions using renewable energy, EVs are significantly greener than fossil fuel cars.\"\n\nWhen are EVs MOST environmentally friendly?",
+      "choices": ["Always, regardless of electricity source", "When charged at night", "When electricity comes from renewable energy", "When used in cities"],
+      "answer": 2,
+      "explanation": "本文に「In regions using renewable energy, EVs are significantly greener（再生可能エネルギーを使用している地域では、EVは大幅にクリーンだ）」とあります。電力源が重要なポイントです。"
+    },
+    {
+      "id": "en_read_009",
+      "question": "Read and answer:\n\n\"The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It spans over 2,300 kilometers and is home to thousands of species of marine life.\"\n\nWhere is the Great Barrier Reef located?",
+      "choices": ["Off the coast of New Zealand", "Off the coast of Queensland, Australia", "In the Caribbean Sea", "Near Hawaii"],
+      "answer": 1,
+      "explanation": "本文に「located off the coast of Queensland, Australia（オーストラリアのクイーンズランド州沿岸に位置する）」と明記されています。"
+    },
+    {
+      "id": "en_read_010",
+      "question": "Read and answer:\n\n\"While many people believe multitasking increases productivity, research shows that the human brain cannot truly focus on multiple tasks simultaneously. Instead, it rapidly switches between tasks, reducing overall efficiency.\"\n\nWhat does research show about multitasking?",
+      "choices": ["It greatly increases productivity", "The brain can focus on multiple tasks perfectly", "It reduces overall efficiency", "It is only effective for simple tasks"],
+      "answer": 2,
+      "explanation": "本文に「reducing overall efficiency（全体的な効率を下げる）」とあります。マルチタスクは実際には脳が素早く切り替えているだけで、効率が下がるという研究結果が示されています。"
+    },
+    {
+      "id": "en_read_011",
+      "question": "Read and answer:\n\n\"Renewable energy sources such as solar and wind power have seen dramatic cost reductions over the past decade. Solar energy costs have fallen by over 90%, making it one of the cheapest sources of electricity in many regions.\"\n\nBy how much have solar energy costs fallen?",
+      "choices": ["By about 50%", "By about 70%", "By over 90%", "By about 30%"],
+      "answer": 2,
+      "explanation": "本文に「Solar energy costs have fallen by over 90%（太陽エネルギーのコストは90%以上低下した）」と明記されています。数字を正確に読み取ることが大切です。"
+    },
+    {
+      "id": "en_read_012",
+      "question": "Read and answer:\n\n\"Japan is known for its unique blend of tradition and modernity. While ancient temples and traditional arts like kabuki and tea ceremony thrive, the country also leads in technology, robotics, and animation.\"\n\nWhich of the following is mentioned as a traditional Japanese art?",
+      "choices": ["Robotics", "Kabuki", "Animation", "Technology"],
+      "answer": 1,
+      "explanation": "本文に「traditional arts like kabuki and tea ceremony（歌舞伎や茶道のような伝統芸術）」とあります。Kabuki（歌舞伎）が伝統芸術として挙げられています。"
+    },
+    {
+      "id": "en_read_013",
+      "question": "Read and answer:\n\n\"The global population is expected to reach 10 billion by 2050. This growth will put enormous pressure on food systems, water resources, and urban infrastructure, requiring innovative solutions.\"\n\nWhat challenge is mentioned regarding population growth?",
+      "choices": ["Decreased birth rates", "Pressure on food, water, and infrastructure", "Rapid urbanization only", "Economic prosperity"],
+      "answer": 1,
+      "explanation": "本文に「enormous pressure on food systems, water resources, and urban infrastructure（食料システム・水資源・都市インフラへの大きな圧力）」と述べられています。"
+    },
+    {
+      "id": "en_read_014",
+      "question": "Read and answer:\n\n\"Sleep is essential for physical and mental health. Adults need 7-9 hours per night, yet surveys show that many people regularly get less than 6 hours. Chronic sleep deprivation is linked to obesity, diabetes, and cardiovascular disease.\"\n\nHow many hours of sleep do adults need per night?",
+      "choices": ["5-6 hours", "6-7 hours", "7-9 hours", "9-11 hours"],
+      "answer": 2,
+      "explanation": "本文に「Adults need 7-9 hours per night（大人は1晩に7〜9時間必要）」と明記されています。"
+    },
+    {
+      "id": "en_read_015",
+      "question": "Read and answer:\n\n\"The invention of the printing press by Johannes Gutenberg around 1440 revolutionized the spread of information in Europe. Books that once took months to copy by hand could now be printed in days.\"\n\nWhat was the main impact of Gutenberg's printing press?",
+      "choices": ["It made books more expensive", "It made copying by hand faster", "It revolutionized the spread of information", "It created a new art form"],
+      "answer": 2,
+      "explanation": "本文に「revolutionized the spread of information in Europe（ヨーロッパにおける情報の普及に革命をもたらした）」とあります。印刷機の主な影響は情報普及の革命です。"
+    },
+    {
+      "id": "en_read_016",
+      "question": "Read and answer:\n\n\"Urbanization is accelerating worldwide. By 2050, it is estimated that nearly 70% of the world's population will live in cities. This migration creates opportunities for economic growth but also challenges like traffic congestion and pollution.\"\n\nWhat percentage of the world's population will live in cities by 2050?",
+      "choices": ["About 50%", "Nearly 70%", "About 80%", "Nearly 60%"],
+      "answer": 1,
+      "explanation": "本文に「nearly 70% of the world's population will live in cities（世界人口の約70%が都市に住む）」と明記されています。"
+    },
+    {
+      "id": "en_read_017",
+      "question": "Read and answer:\n\n\"Plastic pollution has reached alarming levels in the world's oceans. An estimated 8 million tons of plastic enter the ocean every year. Microplastics have been found in fish, drinking water, and even human blood.\"\n\nWhere have microplastics been found?",
+      "choices": ["Only in ocean fish", "In fish, drinking water, and human blood", "Only in the deep ocean", "Only in drinking water"],
+      "answer": 1,
+      "explanation": "本文に「Microplastics have been found in fish, drinking water, and even human blood（マイクロプラスチックは魚・飲料水・さらには人間の血液でも発見された）」とあります。"
+    },
+    {
+      "id": "en_read_018",
+      "question": "Read and answer:\n\n\"The concept of a four-day work week is gaining attention globally. Pilot programs in several countries have shown that productivity does not decrease, and employee well-being and satisfaction significantly improve.\"\n\nWhat do pilot programs suggest about a four-day work week?",
+      "choices": ["Productivity decreases", "Employee satisfaction does not change", "Productivity stays the same and well-being improves", "It only works in small companies"],
+      "answer": 2,
+      "explanation": "本文に「productivity does not decrease, and employee well-being and satisfaction significantly improve（生産性は低下せず、従業員のウェルビーイングと満足度が大幅に向上する）」とあります。"
+    },
+    {
+      "id": "en_read_019",
+      "question": "Read and answer:\n\n\"Languages are disappearing at an alarming rate. Linguists estimate that half of the world's 7,000 languages will become extinct by the end of this century, as younger generations increasingly adopt dominant languages.\"\n\nWhat is causing languages to disappear?",
+      "choices": ["Natural disasters", "New languages being created", "Younger generations adopting dominant languages", "Government policies banning languages"],
+      "answer": 2,
+      "explanation": "本文に「as younger generations increasingly adopt dominant languages（若い世代が主要言語を採用するにつれて）」とあります。若い世代が支配的な言語を選ぶことが言語消滅の原因として述べられています。"
+    },
+    {
+      "id": "en_read_020",
+      "question": "Read and answer:\n\n\"The concept of emotional intelligence (EQ) refers to the ability to recognize, understand, and manage one's own emotions, as well as to empathize with others. Research suggests that EQ may be more important than IQ in determining life success.\"\n\nWhat does EQ stand for?",
+      "choices": ["Educational Quotient", "Emotional Intelligence", "Energy Quality", "Environmental Quantity"],
+      "answer": 1,
+      "explanation": "本文に「The concept of emotional intelligence (EQ)（感情的知性（EQ）の概念）」と明記されています。EQはEmotional Intelligence（Quotient）の略です。"
+    }
+  ]
+}

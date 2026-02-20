@@ -1,0 +1,151 @@
+{
+  "genre": "文法",
+  "exam": "英語",
+  "questions": [
+    {
+      "id": "en_gram_001",
+      "question": "Choose the correct form:\n「彼女は昨日から熱があります」\nShe ___ a fever since yesterday.",
+      "choices": ["has", "have", "had", "is having"],
+      "answer": 0,
+      "explanation": "「since yesterday（昨日から）」という継続を表す表現があるため、現在完了形 has を使います。現在完了は「have/has + 過去分詞」の形です。"
+    },
+    {
+      "id": "en_gram_002",
+      "question": "Choose the correct word:\n「もし明日雨なら、私は家にいます」\nIf it ___ tomorrow, I will stay home.",
+      "choices": ["will rain", "rains", "rained", "is raining"],
+      "answer": 1,
+      "explanation": "if節（条件節）では未来のことでも現在形を使います。「If it rains（もし雨なら）」が正解。主節では will を使います。"
+    },
+    {
+      "id": "en_gram_003",
+      "question": "Choose the correct form:\n「この本は英語で書かれています」\nThis book ___ in English.",
+      "choices": ["writes", "is written", "was writing", "has written"],
+      "answer": 1,
+      "explanation": "「書かれている」という受動態の文です。受動態は「be動詞 + 過去分詞」の形で、現在の状態なので is written が正解です。"
+    },
+    {
+      "id": "en_gram_004",
+      "question": "Choose the correct word:\n「私は彼女が正直だと思います」\nI think ___ she is honest.",
+      "choices": ["what", "which", "that", "who"],
+      "answer": 2,
+      "explanation": "think の目的語になる名詞節を導く接続詞は that です。「I think that + 文」の構造で、that は省略することもできます。"
+    },
+    {
+      "id": "en_gram_005",
+      "question": "Choose the correct form:\n「彼は私より背が高い」\nHe is ___ than me.",
+      "choices": ["tall", "taller", "tallest", "more tall"],
+      "answer": 1,
+      "explanation": "2つのものを比べる「比較級」では、短い形容詞には -er をつけます。tall → taller。「more tall」は誤りで、「taller」が正解です。"
+    },
+    {
+      "id": "en_gram_006",
+      "question": "Choose the correct word:\n「私には話せる友達がいない」\nI have no friends ___ I can talk with.",
+      "choices": ["who", "what", "which", "whose"],
+      "answer": 0,
+      "explanation": "先行詞が「friends（人）」なので、関係代名詞は who を使います。who は主格・目的格どちらにも使え、ここでは talk with の目的語として機能しています。"
+    },
+    {
+      "id": "en_gram_007",
+      "question": "Choose the correct form:\n「彼女は歌うのが上手です」\nShe is good ___ singing.",
+      "choices": ["at", "in", "for", "with"],
+      "answer": 0,
+      "explanation": "「〜が得意」は「be good at ～ing」の形です。at は技能・得意なことを表すのに使います。「good in」「good for」は不正解です。"
+    },
+    {
+      "id": "en_gram_008",
+      "question": "Choose the correct form:\n「私が到着したとき、彼女はすでに出かけていた」\nWhen I arrived, she ___ already left.",
+      "choices": ["has", "have", "had", "was"],
+      "answer": 2,
+      "explanation": "過去のある時点より前に起きた出来事は「過去完了形（had + 過去分詞）」で表します。「到着した（過去）」より前に「出かけた」ので had left が正解です。"
+    },
+    {
+      "id": "en_gram_009",
+      "question": "Choose the correct word:\n「私は毎朝コーヒーを飲みます」\nI drink coffee ___ the morning.",
+      "choices": ["at", "in", "on", "by"],
+      "answer": 1,
+      "explanation": "「朝に」は in the morning です。「at noon（正午に）」「on Monday（月曜日に）」のように前置詞は場面によって変わります。時間帯（morning/afternoon/evening）には in を使います。"
+    },
+    {
+      "id": "en_gram_010",
+      "question": "Choose the grammatically correct sentence.",
+      "choices": [
+        "She don't like coffee.",
+        "She doesn't likes coffee.",
+        "She doesn't like coffee.",
+        "She isn't like coffee."
+      ],
+      "answer": 2,
+      "explanation": "三人称単数（She/He/It）の否定文は「doesn't + 動詞の原形」です。「doesn't likes」は誤り（原形を使う）、「don't」は一人称・二人称用です。"
+    },
+    {
+      "id": "en_gram_011",
+      "question": "Choose the correct form:\n「私はその映画を見たことがあります」\nI ___ seen that movie.",
+      "choices": ["am", "was", "have", "had"],
+      "answer": 2,
+      "explanation": "「〜したことがある」という経験を表すのは現在完了形「have/has + 過去分詞」です。I have seen が正解です。"
+    },
+    {
+      "id": "en_gram_012",
+      "question": "Choose the correct form:\n「彼に電話するように彼女に頼みました」\nI asked her ___ him.",
+      "choices": ["call", "calling", "to call", "called"],
+      "answer": 2,
+      "explanation": "ask + 人 + to不定詞（〜するよう頼む）の形です。「ask her to call」が正解。「ask + 動名詞」は使えません。"
+    },
+    {
+      "id": "en_gram_013",
+      "question": "Choose the correct form:\n「走ることは健康に良い」\n___ is good for your health.",
+      "choices": ["Run", "Runs", "To running", "Running"],
+      "answer": 3,
+      "explanation": "文の主語として動詞を使う場合、動名詞（〜ing）または不定詞（to + 動詞原形）を使います。ここでは「Running（走ること）」が自然な主語です。"
+    },
+    {
+      "id": "en_gram_014",
+      "question": "Choose the correct word:\n「彼女は美しいだけでなく頭も良い」\nShe is not only beautiful ___ also smart.",
+      "choices": ["or", "but", "and", "yet"],
+      "answer": 1,
+      "explanation": "「not only A but also B（AだけでなくBも）」というペアの表現です。but が正解です。これは相関接続詞と呼ばれます。"
+    },
+    {
+      "id": "en_gram_015",
+      "question": "Choose the correct form:\n「彼が来るまで待ちましょう」\nLet's wait ___ he comes.",
+      "choices": ["until", "since", "after", "before"],
+      "answer": 0,
+      "explanation": "「〜するまで待つ」は wait until で表します。since は「〜以来」、after は「〜の後」、before は「〜の前」という意味です。"
+    },
+    {
+      "id": "en_gram_016",
+      "question": "Choose the correct form:\n「私は医者に診てもらう必要があります」\nI need ___ by a doctor.",
+      "choices": ["to examine", "to be examined", "examining", "examined"],
+      "answer": 1,
+      "explanation": "「私は診てもらう」は受動態の不定詞「to be examined」です。「examine（診察する）」は他動詞で、私は診察される側（受動）なので to be examined が正解です。"
+    },
+    {
+      "id": "en_gram_017",
+      "question": "Choose the correct word:\n「彼女は病気だったにもかかわらず、来てくれた」\n___ she was sick, she came.",
+      "choices": ["Because", "Although", "Unless", "Since"],
+      "answer": 1,
+      "explanation": "「〜にもかかわらず」は Although（= Though / Even though）です。Because「なぜなら」、Unless「〜でない限り」、Since「〜なので・以来」とは意味が異なります。"
+    },
+    {
+      "id": "en_gram_018",
+      "question": "Choose the correct form:\n「私の自転車は壊れています」\nMy bike ___.",
+      "choices": ["is broken", "is breaking", "broke", "has breaking"],
+      "answer": 0,
+      "explanation": "「壊れている（状態）」は is broken（受動態）で表します。「broke」は過去形で動作を表します。is broken は形容詞的に使われる過去分詞で状態を示します。"
+    },
+    {
+      "id": "en_gram_019",
+      "question": "Choose the correct word:\n「私はその知らせを聞いてうれしかった」\nI was glad ___ hear the news.",
+      "choices": ["to", "of", "for", "with"],
+      "answer": 0,
+      "explanation": "感情を表す形容詞（glad, happy, sorry など）の後に理由・原因を表す不定詞をつける場合「形容詞 + to 不定詞」の形を使います。glad to hear が正解です。"
+    },
+    {
+      "id": "en_gram_020",
+      "question": "Choose the correct form:\n「これは今まで読んだ中で最もおもしろい本です」\nThis is the most interesting book ___ I have ever read.",
+      "choices": ["who", "whose", "which", "what"],
+      "answer": 2,
+      "explanation": "先行詞が「book（物）」なので関係代名詞は which（または that）を使います。「the most interesting book (that) I have ever read」の構造で、最上級 + 関係詞節でよく使われます。"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "genre": "語彙・単語",
+  "exam": "英語",
+  "questions": [
+    {
+      "id": "en_vocab_001",
+      "question": "「ambitious」の意味として最も適切なものはどれか。",
+      "choices": ["怠惰な", "野心的な・意欲的な", "親切な", "慎重な"],
+      "answer": 1,
+      "explanation": "ambitious は「野心的な・意欲的な・大望を持つ」という形容詞です。「an ambitious plan（野心的な計画）」「an ambitious person（意欲的な人）」のように使います。"
+    },
+    {
+      "id": "en_vocab_002",
+      "question": "「subsequent」の意味として最も適切なものはどれか。",
+      "choices": ["以前の", "それ以降の・後続の", "同時の", "根本的な"],
+      "answer": 1,
+      "explanation": "subsequent は「その後の・後続の・次の」という形容詞です。「subsequent events（その後の出来事）」のように使います。previous（以前の）が反意語です。"
+    },
+    {
+      "id": "en_vocab_003",
+      "question": "「We need to ___ the problem before it gets worse.」の空欄に最も適切な語はどれか。",
+      "choices": ["ignore", "address", "avoid", "delay"],
+      "answer": 1,
+      "explanation": "address は「（問題に）取り組む・対処する」という意味で使われます。「address a problem/issue（問題に取り組む）」は頻出表現です。ignore「無視する」、avoid「避ける」、delay「遅らせる」とは意味が異なります。"
+    },
+    {
+      "id": "en_vocab_004",
+      "question": "「inevitable」の意味として最も適切なものはどれか。",
+      "choices": ["避けられない・必然的な", "予測不可能な", "一時的な", "重要でない"],
+      "answer": 0,
+      "explanation": "inevitable は「避けられない・必然的な（= unavoidable）」という形容詞です。「Death is inevitable.（死は避けられない）」のように使います。inevitably（副詞）も重要です。"
+    },
+    {
+      "id": "en_vocab_005",
+      "question": "「The company decided to ___ its operations to three new countries.」の空欄に最も適切な語はどれか。",
+      "choices": ["reduce", "expand", "transfer", "divide"],
+      "answer": 1,
+      "explanation": "expand は「拡大する・展開する」という動詞です。「expand operations（事業を拡大する）」「expand into new markets（新市場に進出する）」は頻出表現です。"
+    },
+    {
+      "id": "en_vocab_006",
+      "question": "「eloquent」の意味として最も適切なものはどれか。",
+      "choices": ["雄弁な・説得力のある", "無口な", "攻撃的な", "混乱した"],
+      "answer": 0,
+      "explanation": "eloquent は「雄弁な・説得力のある・表現豊かな」という形容詞です。「an eloquent speaker（雄弁な話し手）」「an eloquent speech（説得力のあるスピーチ）」のように使います。"
+    },
+    {
+      "id": "en_vocab_007",
+      "question": "「The new regulation will ___ companies to reduce their carbon emissions.」の空欄に最も適切な語はどれか。",
+      "choices": ["allow", "require", "prevent", "encourage"],
+      "answer": 1,
+      "explanation": "require は「〜を義務付ける・要求する」という動詞で、「require + 目的語 + to不定詞」の形で使います。「規制が企業に排出量削減を義務付ける」という文脈に合います。"
+    },
+    {
+      "id": "en_vocab_008",
+      "question": "「meticulous」の意味として最も適切なものはどれか。",
+      "choices": ["大雑把な", "細心の注意を払う・几帳面な", "衝動的な", "寛大な"],
+      "answer": 1,
+      "explanation": "meticulous は「細心の注意を払う・几帳面な・綿密な」という形容詞です。「meticulous attention to detail（細部への細心の注意）」のように使います。"
+    },
+    {
+      "id": "en_vocab_009",
+      "question": "「The research results were ___ because of the small sample size.」の空欄に最も適切な語はどれか。",
+      "choices": ["reliable", "significant", "inconclusive", "accurate"],
+      "answer": 2,
+      "explanation": "inconclusive は「決定的でない・結論が出ない」という形容詞です。サンプルサイズが小さいため結果が確実とは言えない、という文脈に合います。"
+    },
+    {
+      "id": "en_vocab_010",
+      "question": "「pragmatic」の意味として最も適切なものはどれか。",
+      "choices": ["理想主義的な", "実用的な・現実的な", "理論的な", "感情的な"],
+      "answer": 1,
+      "explanation": "pragmatic は「実用的な・現実的な・実際的な」という形容詞です。「a pragmatic approach（現実的なアプローチ）」「pragmatic solutions（実用的な解決策）」のように使います。"
+    },
+    {
+      "id": "en_vocab_011",
+      "question": "「She has a ___ knowledge of Japanese history.」の空欄に最も適切な語はどれか。",
+      "choices": ["shallow", "narrow", "comprehensive", "brief"],
+      "answer": 2,
+      "explanation": "comprehensive は「包括的な・広範にわたる」という形容詞です。「comprehensive knowledge（包括的な知識）」は「広い範囲の深い知識」を意味します。"
+    },
+    {
+      "id": "en_vocab_012",
+      "question": "「ambiguous」の意味として最も適切なものはどれか。",
+      "choices": ["明確な", "曖昧な・多義的な", "誇張した", "直接的な"],
+      "answer": 1,
+      "explanation": "ambiguous は「曖昧な・多義的な・明確でない」という形容詞です。「an ambiguous statement（曖昧な発言）」のように使います。反意語は unambiguous / clear です。"
+    },
+    {
+      "id": "en_vocab_013",
+      "question": "「The new law will ___ the rights of workers.」の空欄に最も適切な語はどれか。",
+      "choices": ["diminish", "reinforce", "abolish", "complicate"],
+      "answer": 1,
+      "explanation": "reinforce は「強化する・補強する」という動詞です。「reinforce rights（権利を強化する）」という文脈に合います。diminish「減少させる」、abolish「廃止する」、complicate「複雑にする」とは意味が異なります。"
+    },
+    {
+      "id": "en_vocab_014",
+      "question": "「unprecedented」の意味として最も適切なものはどれか。",
+      "choices": ["繰り返しの", "前例のない・空前の", "一般的な", "予想された"],
+      "answer": 1,
+      "explanation": "unprecedented は「前例のない・前代未聞の・空前の」という形容詞です。「unprecedented growth（前例のない成長）」「unprecedented situation（空前の事態）」のように使います。"
+    },
+    {
+      "id": "en_vocab_015",
+      "question": "「The manager ___ the team's success at the annual meeting.」の空欄に最も適切な語はどれか。",
+      "choices": ["regretted", "neglected", "acknowledged", "ignored"],
+      "answer": 2,
+      "explanation": "acknowledge は「認める・表明する・感謝する」という動詞です。「acknowledge success（成功を認める）」という文脈に合います。"
+    },
+    {
+      "id": "en_vocab_016",
+      "question": "「tentative」の意味として最も適切なものはどれか。",
+      "choices": ["最終的な", "暫定的な・仮の・躊躇した", "積極的な", "強制的な"],
+      "answer": 1,
+      "explanation": "tentative は「暫定的な・仮の・試験的な」という形容詞です。「a tentative plan（暫定計画）」「tentative conclusions（仮の結論）」のように使います。"
+    },
+    {
+      "id": "en_vocab_017",
+      "question": "「The scientist ___ a new theory to explain the phenomenon.」の空欄に最も適切な語はどれか。",
+      "choices": ["dismissed", "proposed", "rejected", "doubted"],
+      "answer": 1,
+      "explanation": "propose は「提案する・（理論を）提唱する」という動詞です。「propose a theory（理論を提唱する）」は科学的文脈でよく使われます。"
+    },
+    {
+      "id": "en_vocab_018",
+      "question": "「prominent」の意味として最も適切なものはどれか。",
+      "choices": ["無名の", "著名な・目立つ・突出した", "謙虚な", "普通の"],
+      "answer": 1,
+      "explanation": "prominent は「著名な・目立つ・突出した・重要な」という形容詞です。「a prominent figure（著名人）」「a prominent role（重要な役割）」のように使います。"
+    },
+    {
+      "id": "en_vocab_019",
+      "question": "「The two sides reached a ___ agreement after hours of negotiation.」の空欄に最も適切な語はどれか。",
+      "choices": ["hostile", "mutual", "individual", "temporary"],
+      "answer": 1,
+      "explanation": "mutual は「相互の・互いの」という形容詞です。「mutual agreement（相互合意）」は「双方が合意した」という意味です。hostile「敵対的な」、individual「個別の」とは意味が異なります。"
+    },
+    {
+      "id": "en_vocab_020",
+      "question": "「detrimental」の意味として最も適切なものはどれか。",
+      "choices": ["有益な", "有害な・不利な", "中立的な", "必要な"],
+      "answer": 1,
+      "explanation": "detrimental は「有害な・不利な・損害をもたらす」という形容詞です。「detrimental to health（健康に有害な）」「have a detrimental effect（悪影響を及ぼす）」のように使います。"
+    }
+  ]
+}
