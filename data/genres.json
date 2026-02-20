@@ -7,24 +7,179 @@
       "description": "IPA主催の国家資格試験",
       "exams": [
         {
+          "id": "ip",
+          "name": "ITパスポート試験",
+          "short": "IP",
+          "level": "レベル1",
+          "icon": "🟢",
+          "description": "ITの基礎知識を幅広く問う入門試験",
+          "color": "#22c55e",
+          "sections": [
+            {
+              "id": "ip_strategy",
+              "name": "ストラテジ系",
+              "icon": "📊",
+              "description": "企業活動・法務・経営戦略",
+              "file": "data/ip/questions_ip_strategy.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ip_management",
+              "name": "マネジメント系",
+              "icon": "📋",
+              "description": "開発技術・プロジェクトマネジメント・サービス管理",
+              "file": "data/ip/questions_ip_management.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ip_technology",
+              "name": "テクノロジ系",
+              "icon": "🖥",
+              "description": "基礎理論・コンピュータ・ネットワーク・セキュリティ",
+              "file": "data/ip/questions_ip_technology.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "sg",
+          "name": "情報セキュリティマネジメント試験",
+          "short": "SG",
+          "level": "レベル1",
+          "icon": "🟡",
+          "description": "情報セキュリティ管理の知識と実務力を問う試験",
+          "color": "#f59e0b",
+          "sections": [
+            {
+              "id": "sg_overview",
+              "name": "情報セキュリティ全般",
+              "icon": "🧠",
+              "description": "リスクと脅威の基礎知識",
+              "file": "data/sg/questions_sg_overview.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sg_management",
+              "name": "情報セキュリティ管理",
+              "icon": "🛡",
+              "description": "ISMSと管理策の基礎",
+              "file": "data/sg/questions_sg_management.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sg_measures",
+              "name": "情報セキュリティ対策",
+              "icon": "🔐",
+              "description": "認証とアクセス制御",
+              "file": "data/sg/questions_sg_measures.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sg_law",
+              "name": "法務・コンプライアンス",
+              "icon": "⚖️",
+              "description": "関連法規とコンプライアンス",
+              "file": "data/sg/questions_sg_law.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
           "id": "fe",
           "name": "基本情報技術者試験",
           "short": "FE",
           "level": "レベル2",
-          "icon": "🟢",
-          "description": "ITエンジニアの登竜門。幅広い分野から出題。",
+          "icon": "🟩",
+          "description": "ITエンジニアの基礎知識を幅広く問う試験",
           "color": "#00c97a",
           "sections": [
-            { "id": "fe_computer",   "name": "コンピュータ構成要素",     "icon": "🖥️", "description": "CPU・メモリ・入出力装置・ストレージ",      "file": "data/fe/questions_fe_computer.json",   "count": 10 },
-            { "id": "fe_system",     "name": "システム構成要素",         "icon": "🔧", "description": "システム性能・信頼性・稼働率計算",          "file": "data/fe/questions_fe_system.json",     "count": 10 },
-            { "id": "fe_software",   "name": "ソフトウェア",             "icon": "📦", "description": "OS・プロセス管理・ミドルウェア",            "file": "data/fe/questions_fe_software.json",   "count": 10 },
-            { "id": "fe_hardware",   "name": "ハードウェア",             "icon": "⚙️", "description": "論理回路・進数変換・半導体",               "file": "data/fe/questions_fe_hardware.json",   "count": 10 },
-            { "id": "fe_network",    "name": "ネットワーク",             "icon": "🌐", "description": "TCP/IP・プロトコル・ネットワーク設計",    "file": "data/fe/questions_fe_network.json",    "count": 10 },
-            { "id": "fe_db",         "name": "データベース",             "icon": "🗄️", "description": "SQL・正規化・トランザクション",            "file": "data/fe/questions_fe_db.json",         "count": 10 },
-            { "id": "fe_security",   "name": "セキュリティ",             "icon": "🔒", "description": "暗号化・認証・脆弱性・攻撃手法",          "file": "data/fe/questions_fe_security.json",   "count": 10 },
-            { "id": "fe_algorithm",  "name": "アルゴリズムとプログラミング", "icon": "⌨️", "description": "アルゴリズム・データ構造・擬似言語",  "file": "data/fe/questions_fe_algorithm.json",  "count": 10 },
-            { "id": "fe_management", "name": "システム開発・マネジメント", "icon": "📋", "description": "開発手法・プロジェクト管理・品質管理",   "file": "data/fe/questions_fe_management.json", "count": 10 },
-            { "id": "fe_strategy",   "name": "ストラテジ・経営",         "icon": "📊", "description": "経営戦略・法務・会計・ビジネス知識",      "file": "data/fe/questions_fe_strategy.json",   "count": 10 }
+            {
+              "id": "fe_computer",
+              "name": "コンピュータ構成要素",
+              "icon": "🖥️",
+              "description": "CPU・メモリ・入出力装置・ストレージ",
+              "file": "data/fe/questions_fe_computer.json",
+              "count": 10
+            },
+            {
+              "id": "fe_system",
+              "name": "システム構成要素",
+              "icon": "🔧",
+              "description": "性能・信頼性・稼働率",
+              "file": "data/fe/questions_fe_system.json",
+              "count": 10
+            },
+            {
+              "id": "fe_software",
+              "name": "ソフトウェア",
+              "icon": "📦",
+              "description": "OS・プロセス・ミドルウェア",
+              "file": "data/fe/questions_fe_software.json",
+              "count": 10
+            },
+            {
+              "id": "fe_hardware",
+              "name": "ハードウェア",
+              "icon": "⚙️",
+              "description": "論理回路・半導体・入出力",
+              "file": "data/fe/questions_fe_hardware.json",
+              "count": 10
+            },
+            {
+              "id": "fe_network",
+              "name": "ネットワーク",
+              "icon": "🌐",
+              "description": "TCP/IP・プロトコル・設計",
+              "file": "data/fe/questions_fe_network.json",
+              "count": 10
+            },
+            {
+              "id": "fe_db",
+              "name": "データベース",
+              "icon": "🗄️",
+              "description": "SQL・正規化・トランザクション",
+              "file": "data/fe/questions_fe_db.json",
+              "count": 10
+            },
+            {
+              "id": "fe_security",
+              "name": "セキュリティ",
+              "icon": "🔒",
+              "description": "暗号・認証・脆弱性・攻撃手法",
+              "file": "data/fe/questions_fe_security.json",
+              "count": 10
+            },
+            {
+              "id": "fe_algorithm",
+              "name": "アルゴリズムとプログラミング",
+              "icon": "⌨️",
+              "description": "アルゴリズム・データ構造・擬似言語",
+              "file": "data/fe/questions_fe_algorithm.json",
+              "count": 10
+            },
+            {
+              "id": "fe_management",
+              "name": "システム開発・マネジメント",
+              "icon": "📋",
+              "description": "開発手法・プロジェクト管理・品質管理",
+              "file": "data/fe/questions_fe_management.json",
+              "count": 10
+            },
+            {
+              "id": "fe_strategy",
+              "name": "ストラテジ・経営",
+              "icon": "📊",
+              "description": "経営戦略・法務・会計",
+              "file": "data/fe/questions_fe_strategy.json",
+              "count": 10
+            }
           ]
         },
         {
@@ -33,26 +188,763 @@
           "short": "AP",
           "level": "レベル3",
           "icon": "🔵",
-          "description": "より深い技術知識と応用力が問われる上位資格。",
+          "description": "より深い技術知識と応用力を問う試験",
           "color": "#3b82f6",
           "sections": [
-            { "id": "ap_network",  "name": "ネットワーク",          "icon": "🌐", "description": "応用レベルのネットワーク設計・プロトコル", "file": "data/ap/questions_ap_network.json",  "count": 0, "coming_soon": true },
-            { "id": "ap_db",       "name": "データベース",          "icon": "🗄️", "description": "応用レベルのSQL・設計・チューニング",    "file": "data/ap/questions_ap_db.json",       "count": 0, "coming_soon": true },
-            { "id": "ap_security", "name": "セキュリティ",          "icon": "🔒", "description": "応用レベルのセキュリティ設計・リスク管理","file": "data/ap/questions_ap_security.json", "count": 0, "coming_soon": true },
-            { "id": "ap_system",   "name": "システムアーキテクチャ", "icon": "🏗️", "description": "システム設計・方式設計・性能評価",        "file": "data/ap/questions_ap_system.json",   "count": 0, "coming_soon": true }
+            {
+              "id": "ap_tech",
+              "name": "テクノロジ系",
+              "icon": "🖥",
+              "description": "基礎理論・コンピュータ構成要素・ソフトウェア・ハードウェア",
+              "file": "data/ap/questions_ap_tech.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ap_network",
+              "name": "ネットワーク",
+              "icon": "🌐",
+              "description": "TCP/IP・ネットワーク設計・運用",
+              "file": "data/ap/questions_ap_network.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ap_db",
+              "name": "データベース",
+              "icon": "🗄",
+              "description": "データモデル・SQL・設計・運用管理",
+              "file": "data/ap/questions_ap_db.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ap_security",
+              "name": "セキュリティ",
+              "icon": "🔒",
+              "description": "脅威対策・管理策・情報セキュリティ技術",
+              "file": "data/ap/questions_ap_security.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ap_dev",
+              "name": "開発技術",
+              "icon": "💻",
+              "description": "システム開発技術・アルゴリズム・プログラミング",
+              "file": "data/ap/questions_ap_dev.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ap_management",
+              "name": "マネジメント系",
+              "icon": "📋",
+              "description": "プロジェクトマネジメント・サービスマネジメント",
+              "file": "data/ap/questions_ap_management.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "ap_strategy",
+              "name": "ストラテジ系",
+              "icon": "📊",
+              "description": "企業戦略・法務・経営戦略マネジメント",
+              "file": "data/ap/questions_ap_strategy.json",
+              "count": 0,
+              "coming_soon": true
+            }
           ]
         },
         {
-          "id": "sg",
-          "name": "情報セキュリティマネジメント試験",
-          "short": "SG",
-          "level": "レベル2",
-          "icon": "🟡",
-          "description": "セキュリティマネジメントの知識・技能を認定。",
-          "color": "#f59e0b",
+          "id": "st",
+          "name": "ITストラテジスト試験",
+          "short": "ST",
+          "level": "レベル4",
+          "icon": "🟣",
+          "description": "経営戦略に基づくIT戦略立案力を問う試験",
+          "color": "#7c3aed",
           "sections": [
-            { "id": "sg_management", "name": "情報セキュリティ管理", "icon": "🛡️", "description": "ISMS・リスク管理・セキュリティポリシー", "file": "data/sg/questions_sg_management.json", "count": 0, "coming_soon": true },
-            { "id": "sg_technical", "name": "情報セキュリティ技術",  "icon": "🔐", "description": "暗号・認証・ネットワークセキュリティ",    "file": "data/sg/questions_sg_technical.json",  "count": 0, "coming_soon": true }
+            {
+              "id": "st_strategy",
+              "name": "経営戦略とIT戦略",
+              "icon": "📊",
+              "description": "事業戦略と整合したIT戦略立案",
+              "file": "data/st/questions_st_strategy.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "st_enterprise",
+              "name": "業務改革と投資評価",
+              "icon": "📈",
+              "description": "業務プロセス改善・IT投資評価",
+              "file": "data/st/questions_st_enterprise.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "st_governance",
+              "name": "ガバナンスとマネジメント",
+              "icon": "🛡",
+              "description": "ITガバナンス・リスクマネジメント",
+              "file": "data/st/questions_st_governance.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "st_architecture",
+              "name": "システム企画",
+              "icon": "🏗",
+              "description": "情報システム化計画と全体構想",
+              "file": "data/st/questions_st_architecture.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "sa",
+          "name": "システムアーキテクト試験",
+          "short": "SA",
+          "level": "レベル4",
+          "icon": "🟦",
+          "description": "情報システムの設計・構築を担う上級試験",
+          "color": "#2563eb",
+          "sections": [
+            {
+              "id": "sa_requirements",
+              "name": "要件定義",
+              "icon": "📝",
+              "description": "業務要件・機能要件・非機能要件",
+              "file": "data/sa/questions_sa_requirements.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sa_design",
+              "name": "システム設計",
+              "icon": "🏗",
+              "description": "論理設計・物理設計・方式設計",
+              "file": "data/sa/questions_sa_design.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sa_quality",
+              "name": "評価と品質保証",
+              "icon": "✅",
+              "description": "テスト設計・品質確保・レビュー",
+              "file": "data/sa/questions_sa_quality.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sa_maintenance",
+              "name": "運用・保守と移行",
+              "icon": "🔧",
+              "description": "移行計画・運用設計・保守性",
+              "file": "data/sa/questions_sa_maintenance.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "pm",
+          "name": "プロジェクトマネージャ試験",
+          "short": "PM",
+          "level": "レベル4",
+          "icon": "🟪",
+          "description": "大規模プロジェクト管理能力を問う試験",
+          "color": "#8b5cf6",
+          "sections": [
+            {
+              "id": "pm_initiation",
+              "name": "立上げと計画",
+              "icon": "📋",
+              "description": "目標定義・WBS・スケジュール・体制構築",
+              "file": "data/pm/questions_pm_initiation.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "pm_execution",
+              "name": "実行とチームマネジメント",
+              "icon": "👥",
+              "description": "進捗推進・ステークホルダ調整・人的資源管理",
+              "file": "data/pm/questions_pm_execution.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "pm_control",
+              "name": "モニタリングと統制",
+              "icon": "📈",
+              "description": "コスト・品質・スコープ・変更管理",
+              "file": "data/pm/questions_pm_control.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "pm_risk",
+              "name": "リスクと調達管理",
+              "icon": "⚠️",
+              "description": "リスク分析・対応計画・調達・契約管理",
+              "file": "data/pm/questions_pm_risk.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "pm_closing",
+              "name": "終結と評価",
+              "icon": "🏁",
+              "description": "成果物受入・振り返り・知見共有",
+              "file": "data/pm/questions_pm_closing.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "nw",
+          "name": "ネットワークスペシャリスト試験",
+          "short": "NW",
+          "level": "レベル4",
+          "icon": "🌐",
+          "description": "ネットワーク設計・運用・障害対応を問う試験",
+          "color": "#06b6d4",
+          "sections": [
+            {
+              "id": "nw_design",
+              "name": "ネットワーク設計",
+              "icon": "🌐",
+              "description": "要求定義・論理設計・物理設計",
+              "file": "data/nw/questions_nw_design.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "nw_protocol",
+              "name": "プロトコル技術",
+              "icon": "📡",
+              "description": "TCP/IP・ルーティング・スイッチング",
+              "file": "data/nw/questions_nw_protocol.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "nw_security",
+              "name": "セキュリティと可用性",
+              "icon": "🔒",
+              "description": "認証・暗号・凗長化・耐障害設計",
+              "file": "data/nw/questions_nw_security.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "nw_operation",
+              "name": "運用・監視・障害対応",
+              "icon": "🔧",
+              "description": "運用管理・トラブルシューティング",
+              "file": "data/nw/questions_nw_operation.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "db",
+          "name": "データベーススペシャリスト試験",
+          "short": "DB",
+          "level": "レベル4",
+          "icon": "🗄️",
+          "description": "データベース設計・運用・最適化を問う試験",
+          "color": "#10b981",
+          "sections": [
+            {
+              "id": "db_modeling",
+              "name": "データモデリング",
+              "icon": "🗄",
+              "description": "ER図・正規化・論理データ設計",
+              "file": "data/db/questions_db_modeling.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "db_sql",
+              "name": "SQLとアプリケーション設計",
+              "icon": "💻",
+              "description": "SQL・ビュー・トリガ・ストアドプロシージャ",
+              "file": "data/db/questions_db_sql.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "db_operation",
+              "name": "運用管理",
+              "icon": "🔧",
+              "description": "バックアップ・リカバリ・可用性管理",
+              "file": "data/db/questions_db_operation.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "db_performance",
+              "name": "性能評価と最適化",
+              "icon": "📈",
+              "description": "チューニング・インデックス・クエリ最適化",
+              "file": "data/db/questions_db_performance.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "db_security",
+              "name": "セキュリティと監査",
+              "icon": "🔒",
+              "description": "権限管理・監査ログ・コンプライアンス",
+              "file": "data/db/questions_db_security.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "es",
+          "name": "エンベデッドシステムスペシャリスト試験",
+          "short": "ES",
+          "level": "レベル4",
+          "icon": "🟧",
+          "description": "組込みシステムの設計・開発を問う試験",
+          "color": "#d97706",
+          "sections": [
+            {
+              "id": "es_requirements",
+              "name": "組込み要求定義",
+              "icon": "📝",
+              "description": "制約条件・非機能要件・システム構想",
+              "file": "data/es/questions_es_requirements.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "es_hardware",
+              "name": "ハードウェア設計",
+              "icon": "⚙️",
+              "description": "マイコン・センサ・制御回路設計",
+              "file": "data/es/questions_es_hardware.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "es_software",
+              "name": "ソフトウェア設計",
+              "icon": "💻",
+              "description": "リアルタイムOS・タスク制御・ドライバ",
+              "file": "data/es/questions_es_software.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "es_verification",
+              "name": "検証・評価・保守",
+              "icon": "✅",
+              "description": "試験設計・品質保証・保守運用",
+              "file": "data/es/questions_es_verification.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "sm",
+          "name": "ITサービスマネージャ試験",
+          "short": "SM",
+          "level": "レベル4",
+          "icon": "🔴",
+          "description": "ITサービスの運用管理能力を問う試験",
+          "color": "#ef4444",
+          "sections": [
+            {
+              "id": "sm_strategy",
+              "name": "サービス戦略と設計",
+              "icon": "📊",
+              "description": "サービスポートフォリオ・SLA設計",
+              "file": "data/sm/questions_sm_strategy.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sm_transition",
+              "name": "移行とリリース管理",
+              "icon": "🚚",
+              "description": "変更管理・リリース管理・構成管理",
+              "file": "data/sm/questions_sm_transition.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sm_operation",
+              "name": "運用管理",
+              "icon": "🔧",
+              "description": "インシデント管理・問題管理・運用監視",
+              "file": "data/sm/questions_sm_operation.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sm_improvement",
+              "name": "継続的改善と評価",
+              "icon": "📈",
+              "description": "サービス評価・KPI・継続的改善",
+              "file": "data/sm/questions_sm_improvement.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "au",
+          "name": "システム監査技術者試験",
+          "short": "AU",
+          "level": "レベル4",
+          "icon": "⚪",
+          "description": "システム監査の専門能力を問う試験",
+          "color": "#475569",
+          "sections": [
+            {
+              "id": "au_planning",
+              "name": "システム監査計画",
+              "icon": "📋",
+              "description": "監査方針・監査体制・監査手続",
+              "file": "data/au/questions_au_planning.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "au_execution",
+              "name": "監査実施",
+              "icon": "🔍",
+              "description": "証拠収集・評価・監査調書作成",
+              "file": "data/au/questions_au_execution.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "au_itgovernance",
+              "name": "ITガバナンス評価",
+              "icon": "🛡",
+              "description": "統制環境・リスク管理・内部統制",
+              "file": "data/au/questions_au_itgovernance.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "au_compliance",
+              "name": "法規・基準・コンプライアンス",
+              "icon": "⚖️",
+              "description": "関連基準と順守状況の監査",
+              "file": "data/au/questions_au_compliance.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "sc",
+          "name": "情報処理安全確保支援士試験",
+          "short": "SC",
+          "level": "レベル4",
+          "icon": "🔐",
+          "description": "高度な情報セキュリティ実践力を問う試験",
+          "color": "#0ea5e9",
+          "sections": [
+            {
+              "id": "sc_governance",
+              "name": "情報セキュリティ管理",
+              "icon": "🛡",
+              "description": "ポリシー策定・組織体制・リスク管理",
+              "file": "data/sc/questions_sc_governance.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sc_technology",
+              "name": "セキュリティ技術",
+              "icon": "🔒",
+              "description": "暗号・認証・ネットワークセキュリティ",
+              "file": "data/sc/questions_sc_technology.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sc_incident",
+              "name": "インシデント対応",
+              "icon": "⚠️",
+              "description": "検知・初動対応・復旧・再発防止",
+              "file": "data/sc/questions_sc_incident.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sc_assessment",
+              "name": "監査・評価・法務",
+              "icon": "⚖️",
+              "description": "脆弱性評価・ペネトレーションテスト・関連法規",
+              "file": "data/sc/questions_sc_assessment.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "プログラミング言語",
+      "icon": "🧩",
+      "description": "主要言語ごとの基礎と実践",
+      "exams": [
+        {
+          "id": "lang_python",
+          "name": "Python",
+          "short": "PY",
+          "level": "基礎〜実務",
+          "icon": "🐍",
+          "description": "文法・標準ライブラリ・データ処理",
+          "color": "#3776ab",
+          "sections": [
+            {
+              "id": "python_syntax",
+              "name": "基礎文法",
+              "icon": "📘",
+              "description": "データ型・制御構文・関数基礎",
+              "file": "data/lang/questions_python_syntax.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "python_data",
+              "name": "コレクションとデータ操作",
+              "icon": "🧮",
+              "description": "リスト・タプル・辞書・集合の活用",
+              "file": "data/lang/questions_python_data.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "python_oop",
+              "name": "クラスとオブジェクト指向",
+              "icon": "🧩",
+              "description": "クラス・継承・ポリモーフィズム",
+              "file": "data/lang/questions_python_oop.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "python_lib",
+              "name": "標準ライブラリ",
+              "icon": "🛠",
+              "description": "datetime・pathlib・json・reなどの基本活用",
+              "file": "data/lang/questions_python_lib.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "python_io",
+              "name": "ファイル・例外・テスト",
+              "icon": "🧪",
+              "description": "ファイルI/O・例外処理・ユニットテスト",
+              "file": "data/lang/questions_python_io.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "lang_java",
+          "name": "Java",
+          "short": "JV",
+          "level": "基礎〜実務",
+          "icon": "☕",
+          "description": "オブジェクト指向・例外・コレクション",
+          "color": "#f97316",
+          "sections": [
+            {
+              "id": "java_basics",
+              "name": "基礎文法",
+              "icon": "📘",
+              "description": "クラス構造・変数・型・演算子",
+              "file": "data/lang/questions_java_basics.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_flow",
+              "name": "制御構文と配列",
+              "icon": "📝",
+              "description": "if/switch・for/while・配列の操作",
+              "file": "data/lang/questions_java_flow.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_oop",
+              "name": "オブジェクト指向",
+              "icon": "☕",
+              "description": "クラス・継承・カプセル化・多態性",
+              "file": "data/lang/questions_java_oop.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_api",
+              "name": "標準APIと文字列操作",
+              "icon": "🛠",
+              "description": "String・Math・Collections・Date/Timeの基礎",
+              "file": "data/lang/questions_java_api.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_exception",
+              "name": "例外処理と入出力",
+              "icon": "🧪",
+              "description": "try-catch・throws・ファイルI/O・ストリーム",
+              "file": "data/lang/questions_java_exception.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "lang_sql",
+          "name": "SQL",
+          "short": "SQL",
+          "level": "基礎〜実務",
+          "icon": "🗄️",
+          "description": "DDL・DML・結合・集計・トランザクション",
+          "color": "#0ea5e9",
+          "sections": [
+            {
+              "id": "sql_select",
+              "name": "問合せ基礎",
+              "icon": "🔍",
+              "description": "SELECT・WHERE・ORDER BY・NULLハンドリング",
+              "file": "data/lang/questions_sql_select.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_functions",
+              "name": "単一行関数",
+              "icon": "🧮",
+              "description": "文字・数値・日付・変換関数",
+              "file": "data/lang/questions_sql_functions.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_group",
+              "name": "グループ関数と集約",
+              "icon": "📊",
+              "description": "GROUP BY・HAVING・集計関数",
+              "file": "data/lang/questions_sql_group.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_join",
+              "name": "結合問合せ",
+              "icon": "🔗",
+              "description": "INNER/OUTER JOIN・自己結合・外部結合",
+              "file": "data/lang/questions_sql_join.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_subquery",
+              "name": "副問合せ",
+              "icon": "🧠",
+              "description": "単一行・複数行・相関副問合せ",
+              "file": "data/lang/questions_sql_subquery.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_dml_ddl",
+              "name": "DML/DDL/TCL",
+              "icon": "🧱",
+              "description": "INSERT/UPDATE/DELETE・CREATE/ALTER・COMMIT/ROLLBACK",
+              "file": "data/lang/questions_sql_dml_ddl.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_constraints",
+              "name": "制約とデータ辞書",
+              "icon": "🔒",
+              "description": "PK/FK/UNIQUE/CHECK・データ辞書ビュー",
+              "file": "data/lang/questions_sql_constraints.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "lang_linux",
+          "name": "Linux",
+          "short": "LNX",
+          "level": "基礎〜実務",
+          "icon": "🐧",
+          "description": "コマンド・シェル・権限・運用",
+          "color": "#84cc16",
+          "sections": [
+            {
+              "id": "linux_commands",
+              "name": "コマンド操作",
+              "icon": "🐧",
+              "description": "ファイル操作・テキスト処理・パイプ・リダイレクト",
+              "file": "data/lang/questions_linux_commands.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_filesystem",
+              "name": "ファイルシステムと権限",
+              "icon": "🔒",
+              "description": "ディレクトリ構造・パーミッション・所有者管理",
+              "file": "data/lang/questions_linux_filesystem.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_process",
+              "name": "プロセスとシステム管理",
+              "icon": "🔧",
+              "description": "プロセス監視・systemd・ログ管理",
+              "file": "data/lang/questions_linux_process.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_network",
+              "name": "ネットワークとセキュリティ",
+              "icon": "🌐",
+              "description": "TCP/IP基礎・SSH・ファイアウォール",
+              "file": "data/lang/questions_linux_network.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_packages",
+              "name": "パッケージとシェルスクリプト",
+              "icon": "📦",
+              "description": "apt/yum・ジョブ自動化・bash基礎",
+              "file": "data/lang/questions_linux_packages.json",
+              "count": 0,
+              "coming_soon": true
+            }
           ]
         }
       ]
@@ -69,15 +961,57 @@
           "short": "EN",
           "level": "基礎〜上級",
           "icon": "🟣",
-          "description": "文法・熟語・語彙・読解・会話・ビジネスを網羅。",
+          "description": "文法・熟語・語彙・読解・会話・ビジネスを網羅",
           "color": "#a855f7",
           "sections": [
-            { "id": "en_grammar",      "name": "文法",             "icon": "📐", "description": "時制・接続詞・比較・関係詞・受動態など",       "file": "data/english/questions_en_grammar.json",      "count": 20 },
-            { "id": "en_idioms",       "name": "熟語・イディオム", "icon": "💬", "description": "句動詞・イディオム・決まり文句",               "file": "data/english/questions_en_idioms.json",       "count": 20 },
-            { "id": "en_vocabulary",   "name": "語彙・単語",       "icon": "📖", "description": "TOEIC頻出単語・長文頻出語彙",                  "file": "data/english/questions_en_vocabulary.json",   "count": 20 },
-            { "id": "en_reading",      "name": "読解・長文",       "icon": "📄", "description": "パッセージを読んで設問に答える形式",            "file": "data/english/questions_en_reading.json",      "count": 20 },
-            { "id": "en_business",     "name": "ビジネス英語・TOEIC", "icon": "💼", "description": "メール・会議・ビジネス表現・TOEIC頻出",   "file": "data/english/questions_en_business.json",     "count": 20 },
-            { "id": "en_conversation", "name": "会話・リスニング", "icon": "🎧", "description": "日常会話・応答選択・会話パターン",             "file": "data/english/questions_en_conversation.json", "count": 20 }
+            {
+              "id": "en_grammar",
+              "name": "文法",
+              "icon": "📐",
+              "description": "時制・関係詞・比較・仮定法",
+              "file": "data/english/questions_en_grammar.json",
+              "count": 30
+            },
+            {
+              "id": "en_idioms",
+              "name": "熟語・イディオム",
+              "icon": "💬",
+              "description": "句動詞・慣用表現・定型表現",
+              "file": "data/english/questions_en_idioms.json",
+              "count": 30
+            },
+            {
+              "id": "en_vocabulary",
+              "name": "語彙・単語",
+              "icon": "📖",
+              "description": "頻出語彙・多義語・類義語",
+              "file": "data/english/questions_en_vocabulary.json",
+              "count": 30
+            },
+            {
+              "id": "en_reading",
+              "name": "読解・長文",
+              "icon": "📄",
+              "description": "パッセージ読解と設問対応",
+              "file": "data/english/questions_en_reading.json",
+              "count": 30
+            },
+            {
+              "id": "en_business",
+              "name": "ビジネス英語・TOEIC",
+              "icon": "💼",
+              "description": "メール・会議・業務表現",
+              "file": "data/english/questions_en_business.json",
+              "count": 30
+            },
+            {
+              "id": "en_conversation",
+              "name": "会話・リスニング",
+              "icon": "🎧",
+              "description": "日常会話・応答・聞き取り",
+              "file": "data/english/questions_en_conversation.json",
+              "count": 30
+            }
           ]
         }
       ]

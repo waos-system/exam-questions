@@ -172,7 +172,7 @@
       border-bottom: 1px solid var(--border);
     }
     .subject-head-icon { font-size: 1.2rem; }
-    .subject-head-name { font-size: 1rem; font-weight: 700; }
+    .subject-head-name { font-size: 1rem; font-weight: 700; color: #fff; }
     .subject-head-desc { font-size: .75rem; color: var(--muted); margin-left: .15rem; }
 
     /* Exam accordion */
@@ -208,7 +208,7 @@
       border-radius: 6px;
       flex-shrink: 0;
     }
-    .exam-name { font-size: .93rem; font-weight: 700; flex: 1; text-align: left; }
+    .exam-name { font-size: .93rem; font-weight: 700; flex: 1; text-align: left; color: #fff; }
     .exam-level {
       font-family: 'Space Mono', monospace;
       font-size: .58rem;
@@ -281,7 +281,7 @@
     .sec-card.coming:hover::before { transform: scaleX(0); }
 
     .sec-icon { font-size: 1.2rem; }
-    .sec-name { font-size: .82rem; font-weight: 700; line-height: 1.3; }
+    .sec-name { font-size: .82rem; font-weight: 700; line-height: 1.3; color: #fff; }
     .sec-desc { font-size: .7rem; color: var(--muted); line-height: 1.4; }
     .sec-count {
       font-family: 'Space Mono', monospace;
@@ -298,28 +298,6 @@
       padding: 1px 6px;
       border-radius: 4px;
       align-self: flex-start;
-    }
-
-    /* coming subjects row */
-    .coming-row {
-      margin-top: 2rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-    }
-    .coming-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: .5rem;
-      margin-top: .6rem;
-    }
-    .coming-chip {
-      background: var(--card);
-      border: 1px dashed var(--border2);
-      border-radius: 8px;
-      padding: .4rem .8rem;
-      font-size: .78rem;
-      color: var(--muted);
-      opacity: .6;
     }
 
     /* ══════════════════════════════════════
@@ -1019,17 +997,6 @@ function renderHome(data) {
     }
     html += `</div>`; // subject-block
   }
-
-  html += `
-    <div class="coming-row">
-      <div class="section-label">// 今後追加予定</div>
-      <div class="coming-chips">
-        <span class="coming-chip">📐 数学・理系</span>
-        <span class="coming-chip">📜 社会・歴史</span>
-        <span class="coming-chip">⚖️ 法律・行政書士</span>
-        <span class="coming-chip">🏥 医療系資格</span>
-      </div>
-    </div>`;
 
   wrap.innerHTML = html;
 }
