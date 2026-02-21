@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="theme-color" content="#0b0e17">
-  <title>QuizForge — 試験問題集</title>
+  <title>QuizForge - 試験問題演習</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* ══════════════════════════════════════
+    /* ---------------------------------------------------
        DESIGN TOKENS
-    ══════════════════════════════════════ */
+    --------------------------------------------------- */
     :root {
       --bg:       #0b0e17;
       --card:     #131720;
@@ -29,9 +29,9 @@
       --rx:       24px;
     }
 
-    /* ══════════════════════════════════════
+    /* ---------------------------------------------------
        RESET & BASE
-    ══════════════════════════════════════ */
+    --------------------------------------------------- */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
     body {
@@ -58,9 +58,9 @@
       z-index: 0;
     }
 
-    /* ══════════════════════════════════════
+    /* ---------------------------------------------------
        HEADER
-    ══════════════════════════════════════ */
+    --------------------------------------------------- */
     .site-header {
       position: fixed;
       inset: 0 0 auto 0;
@@ -103,9 +103,9 @@
       border-radius: 20px;
     }
 
-    /* ══════════════════════════════════════
+    /* ---------------------------------------------------
        VIEWS
-    ══════════════════════════════════════ */
+    --------------------------------------------------- */
     main { position: relative; z-index: 1; padding-top: 52px; }
     .view { display: none; }
     .view.active {
@@ -121,9 +121,9 @@
     .page { max-width: 680px; margin: 0 auto; padding: 1.5rem 1rem 5rem; }
     .page-wide { max-width: 980px; margin: 0 auto; padding: 1.5rem 1rem 5rem; }
 
-    /* ══════════════════════════════════════
+    /* ---------------------------------------------------
        SECTION TITLE (shared)
-    ══════════════════════════════════════ */
+    --------------------------------------------------- */
     .section-label {
       font-family: 'Space Mono', monospace;
       font-size: .62rem;
@@ -133,9 +133,9 @@
       margin-bottom: .6rem;
     }
 
-    /* ══════════════════════════════════════
+    /* ---------------------------------------------------
        HOME
-    ══════════════════════════════════════ */
+    --------------------------------------------------- */
     .hero {
       text-align: center;
       padding: 2rem 0 2.5rem;
@@ -300,9 +300,9 @@
       align-self: flex-start;
     }
 
-    /* ══════════════════════════════════════
+    /* -------------------
        SETUP MODAL (question count selector)
-    ══════════════════════════════════════ */
+    ------------------- */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -445,9 +445,9 @@
     .btn-start:hover { background: #74b7ff; box-shadow: 0 0 20px rgba(79,158,255,.35); }
     .btn-start:active { transform: scale(.98); }
 
-    /* ══════════════════════════════════════
+    /* -------------------
        QUIZ PAGE
-    ══════════════════════════════════════ */
+    ------------------- */
     /* Breadcrumb */
     .quiz-nav {
       display: flex;
@@ -656,10 +656,26 @@
       cursor: default;
       box-shadow: none;
     }
+    .btn-gemini {
+      width: 100%;
+      padding: .72rem;
+      border-radius: var(--r);
+      border: 1px solid var(--border2);
+      color: var(--dim);
+      font-size: .82rem;
+      font-weight: 700;
+      margin-top: .6rem;
+      transition: all .15s;
+    }
+    .btn-gemini:hover {
+      color: var(--text);
+      border-color: var(--accent);
+      background: rgba(79,158,255,.08);
+    }
 
-    /* ══════════════════════════════════════
+    /* -------------------
        RESULT PAGE
-    ══════════════════════════════════════ */
+    ------------------- */
     .result-page { max-width: 480px; margin: 0 auto; padding: 2rem 1rem 5rem; text-align: center; }
 
     .result-ring-wrap {
@@ -782,56 +798,47 @@
   </style>
 </head>
 <body>
-
-<!-- ── HEADER ── -->
 <header class="site-header">
   <div class="logo" onclick="goHome()">
     <span class="logo-dot"></span>
     Quiz<b>Forge</b>
   </div>
   <div style="display:flex; align-items:center; gap:.5rem;">
-    <span class="header-tag">勉強</span>
+    <span class="header-tag">JAPANESE</span>
     <button class="btn-reset" onclick="resetQuestionHistory()">履歴リセット</button>
   </div>
 </header>
 
-<!-- ── SETUP MODAL (question count) ── -->
 <div class="modal-overlay" id="modal" onclick="handleOverlayClick(event)">
   <div class="modal-box">
     <div class="modal-drag"></div>
-    <div class="modal-title">何問解きますか？</div>
-    <div class="modal-sub">ジャンル：<span class="modal-genre-name" id="modal-genre-name">—</span></div>
-
+    <div class="modal-title">問題数を選択</div>
+    <div class="modal-sub">ジャンル: <span class="modal-genre-name" id="modal-genre-name">-</span></div>
     <div class="count-grid" id="count-grid"></div>
-
     <div class="count-custom">
-      <label for="custom-count">カスタム問題数（1〜<span id="max-count-label">?</span>問）</label>
-      <input type="number" id="custom-count" min="1" placeholder="数字を入力" inputmode="numeric">
+      <label for="custom-count">カスタム問題数（最大 <span id="max-count-label">?</span> 問）</label>
+      <input type="number" id="custom-count" min="1" placeholder="問題数を入力" inputmode="numeric">
     </div>
-
     <div class="modal-actions">
       <button class="btn-cancel" onclick="closeModal()">キャンセル</button>
-      <button class="btn-start" onclick="confirmStart()">スタート ▶</button>
+      <button class="btn-start" onclick="confirmStart()">スタート</button>
     </div>
   </div>
 </div>
 
 <main>
-
-  <!-- ══════════ HOME ══════════ -->
   <div id="view-home" class="view active">
     <div class="page-wide" id="home-content"></div>
   </div>
 
-  <!-- ══════════ QUIZ ══════════ -->
   <div id="view-quiz" class="view">
     <div class="page">
       <div class="quiz-nav">
-        <a onclick="goHome()">🏠 ホーム</a>
+        <a onclick="goHome()">ホーム</a>
         <span class="quiz-nav-sep">›</span>
-        <span id="bc-exam">—</span>
+        <span id="bc-exam">-</span>
         <span class="quiz-nav-sep">›</span>
-        <span id="bc-section">—</span>
+        <span id="bc-section">-</span>
       </div>
 
       <div class="quiz-progress">
@@ -859,7 +866,7 @@
 
       <div class="result-badge" id="result-badge"></div>
       <div class="explanation" id="explanation">
-        <div class="expl-label">📖 解説</div>
+        <div class="expl-label">解説</div>
         <div class="expl-text" id="expl-text"></div>
       </div>
 
@@ -867,7 +874,6 @@
     </div>
   </div>
 
-  <!-- ══════════ RESULT ══════════ -->
   <div id="view-result" class="view">
     <div class="result-page">
       <div class="result-ring-wrap">
@@ -898,15 +904,15 @@
       <div class="result-stats">
         <div class="stat">
           <div class="stat-val green" id="stat-ok">0</div>
-          <div class="stat-label">✓ 正解</div>
+          <div class="stat-label">正解</div>
         </div>
         <div class="stat">
           <div class="stat-val red" id="stat-ng">0</div>
-          <div class="stat-label">✗ 不正解</div>
+          <div class="stat-label">不正解</div>
         </div>
         <div class="stat">
           <div class="stat-val" id="stat-pct">0%</div>
-          <div class="stat-label">正解率</div>
+          <div class="stat-label">正答率</div>
         </div>
         <div class="stat">
           <div class="stat-val" id="stat-total" style="color:var(--dim)">10</div>
@@ -915,18 +921,17 @@
       </div>
 
       <div class="result-actions">
-        <button class="btn-retry" id="btn-retry" onclick="retryQuiz()">もう一度この問題数で挑戦 🔄</button>
-        <button class="btn-home" onclick="goHome()">ジャンル選択へ戻る</button>
+        <button class="btn-retry" id="btn-retry" onclick="retryQuiz()">もう一度</button>
+        <button class="btn-home" onclick="goHome()">ホームへ戻る</button>
       </div>
     </div>
   </div>
-
 </main>
 
 <script>
-/* ══════════════════════════════════════════
+/* ---------------------
    STATE
-══════════════════════════════════════════ */
+--------------------- */
 let allQuestions  = [];   // loaded from JSON
 let sessionQs     = [];   // sliced & shuffled for this session
 let currentIdx    = 0;
@@ -1018,9 +1023,9 @@ function buildSessionQuestions(file, questions, count) {
   return prioritized.slice(0, Math.min(count, prioritized.length)).map((x) => x.q);
 }
 
-/* ══════════════════════════════════════════
+/* ---------------------
    NAVIGATION
-══════════════════════════════════════════ */
+--------------------- */
 function showView(id) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.getElementById('view-' + id).classList.add('active');
@@ -1028,9 +1033,52 @@ function showView(id) {
 }
 function goHome() { showView('home'); }
 
-/* ══════════════════════════════════════════
+function looksMojibake(text) {
+  return !!text && /[縺繧繝蜈ｦ笊窶ｼ｢�]/.test(text);
+}
+
+function fallbackById(id, kind) {
+  const map = {
+    subject: {
+      it_exam: 'IT試験',
+      programming: 'プログラム言語',
+      english: '英語'
+    },
+    exam: {
+      ip: 'ITパスポート試験',
+      sg: '情報セキュリティマネジメント試験',
+      fe: '基本情報技術者試験',
+      ap: '応用情報技術者試験',
+      st: 'ITストラテジスト試験',
+      sa: 'システムアーキテクト試験',
+      pm: 'プロジェクトマネージャ試験',
+      nw: 'ネットワークスペシャリスト試験',
+      db: 'データベーススペシャリスト試験',
+      es: 'エンベデッドシステムスペシャリスト試験',
+      sm: 'ITサービスマネージャ試験',
+      au: 'システム監査技術者試験',
+      sc: '情報処理安全確保支援士試験',
+      lang_python: 'Python',
+      lang_java: 'Java',
+      lang_sql: 'SQL',
+      lang_linux: 'Linux',
+      english_general: '英語総合'
+    }
+  };
+  if (kind === 'section') {
+    return id ? id.replace(/^.*?_/, '').replace(/_/g, ' ') : '';
+  }
+  return map[kind]?.[id] || id || '';
+}
+
+function labelOf(obj, kind) {
+  const raw = obj?.name || '';
+  return looksMojibake(raw) || !raw ? fallbackById(obj?.id, kind) : raw;
+}
+
+/* ---------------------
    INIT / HOME
-══════════════════════════════════════════ */
+--------------------- */
 async function init() {
   try {
     const res = await fetch('data/genres.json');
@@ -1040,8 +1088,8 @@ async function init() {
   } catch (e) {
     document.getElementById('home-content').innerHTML = `
       <div class="error-box">
-        <h2>⚠️ データ読み込みエラー</h2>
-        <p>Webサーバ経由でアクセスしてください。</p>
+        <h2>データ読み込みエラー</h2>
+        <p>Webサーバー経由でアクセスしてください。</p>
         <pre>npx serve .\n# または\npython3 -m http.server 8080</pre>
       </div>`;
   }
@@ -1051,19 +1099,23 @@ function renderHome(data) {
   const wrap = document.getElementById('home-content');
   let html = `
     <div class="hero">
-      <h1 class="hero-title">試験で<em>合格</em>をつかむ</h1>
-      <p class="hero-sub">ジャンルを選んで、問題数を決めてスタート。解説で理解を深める反復学習。</p>
+      <h1 class="hero-title">試験で<em>実力</em>をつける</h1>
+      <p class="hero-sub">ジャンルを選んで問題数を決めてスタート。解説で理解を深めましょう。</p>
     </div>`;
 
   for (const subject of data.subjects) {
+    const subjectName = labelOf(subject, 'subject');
+    const subjectDesc = looksMojibake(subject.description) ? '' : (subject.description || '');
     html += `<div class="subject-block">
       <div class="subject-head">
         <span class="subject-head-icon">${subject.icon}</span>
-        <span class="subject-head-name">${subject.name}</span>
-        <span class="subject-head-desc">${subject.description}</span>
+        <span class="subject-head-name">${subjectName}</span>
+        <span class="subject-head-desc">${subjectDesc}</span>
       </div>`;
 
     for (const exam of subject.exams) {
+      const examName = labelOf(exam, 'exam');
+      const examLevel = looksMojibake(exam.level) ? '' : (exam.level || '');
       html += `
         <div class="exam-block" id="exam-${exam.id}">
           <button class="exam-trigger" onclick="toggleExam('${exam.id}')">
@@ -1071,8 +1123,8 @@ function renderHome(data) {
               style="background:${exam.color}22;color:${exam.color};border:1px solid ${exam.color}44">
               ${exam.short}
             </span>
-            <span class="exam-name">${exam.name}</span>
-            <span class="exam-level">${exam.level}</span>
+            <span class="exam-name">${examName}</span>
+            <span class="exam-level">${examLevel}</span>
             <span class="exam-arrow">▼</span>
           </button>
           <div class="sections-wrap">
@@ -1080,13 +1132,15 @@ function renderHome(data) {
 
       for (const sec of exam.sections) {
         const cs = !!sec.coming_soon;
+        const sectionName = labelOf(sec, 'section');
+        const sectionDesc = looksMojibake(sec.description) ? '' : (sec.description || '');
         html += `
           <div class="sec-card${cs ? ' coming' : ''}"
             style="--c:${exam.color}"
-            ${cs ? '' : `onclick="openModal('${sec.file}','${exam.name}','${sec.name}',${sec.count})"`}>
+            ${cs ? '' : `onclick="openModal('${sec.file}','${examName}','${sectionName}',${sec.count})"`}>
             <div class="sec-icon">${sec.icon}</div>
-            <div class="sec-name">${sec.name}</div>
-            <div class="sec-desc">${sec.description}</div>
+            <div class="sec-name">${sectionName}</div>
+            <div class="sec-desc">${sectionDesc}</div>
             ${cs
               ? `<span class="sec-soon">準備中</span>`
               : `<div class="sec-count" style="color:${exam.color}">${sec.count}問</div>`}
@@ -1105,9 +1159,9 @@ function toggleExam(id) {
   document.getElementById('exam-' + id).classList.toggle('open');
 }
 
-/* ══════════════════════════════════════════
+/* ---------------------
    MODAL (question count picker)
-══════════════════════════════════════════ */
+--------------------- */
 const PRESETS = [5, 10, 15, 20];
 
 function openModal(file, exam, section, totalCount) {
@@ -1120,7 +1174,7 @@ function openModal(file, exam, section, totalCount) {
   document.getElementById('custom-count').value = '';
   document.getElementById('custom-count').max = totalCount;
 
-  // Build preset buttons (only those ≤ totalCount)
+  // Build preset buttons (only those 竕､ totalCount)
   const grid = document.getElementById('count-grid');
   grid.innerHTML = '';
   let defaultSet = false;
@@ -1175,16 +1229,16 @@ function confirmStart() {
   const custom = document.getElementById('custom-count').value;
   if (custom) {
     const n = parseInt(custom, 10);
-    if (!n || n < 1) { alert('1以上の数字を入力してください'); return; }
+    if (!n || n < 1) { alert('1以上の問題数を入力してください。'); return; }
     selectedCount = n;
   }
   closeModal();
   startQuiz(currentFile, currentExam, currentSection, selectedCount);
 }
 
-/* ══════════════════════════════════════════
+/* ---------------------
    QUIZ
-══════════════════════════════════════════ */
+--------------------- */
 async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
   try {
     const res = await fetch(file);
@@ -1211,7 +1265,7 @@ async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
     showView('quiz');
     renderQuestion();
   } catch(e) {
-    alert('問題ファイルを読み込めませんでした。\nWebサーバ経由でアクセスしてください。\n\n' + e);
+    alert('問題ファイルを読み込めませんでした。\nWebサーバー経由でアクセスしてください。\n\n' + e);
   }
 }
 
@@ -1223,8 +1277,85 @@ function shuffle(arr) {
   return arr;
 }
 
+function ensureGeminiButton() {
+  if (document.getElementById('btn-gemini')) return;
+  const nextBtn = document.getElementById('btn-next');
+  if (!nextBtn || !nextBtn.parentElement) return;
+  const btn = document.createElement('button');
+  btn.className = 'btn-gemini';
+  btn.id = 'btn-gemini';
+  btn.textContent = 'この問題の詳細を調べる';
+  btn.onclick = askGeminiAboutCurrentQuestion;
+  nextBtn.insertAdjacentElement('afterend', btn);
+}
+
+function buildGeminiPrompt(q, exam, section) {
+  const keys = ['A', 'B', 'C', 'D', 'E', 'F'];
+  const choiceLines = q.choices.map((c, i) => `${keys[i]}. ${c}`).join('\n');
+  const answerText = q.choices[q.answer] ?? '';
+  return [
+    '以下の問題を日本語で解説してください。',
+    `カテゴリ: ${exam} / ${section}`,
+    '',
+    `問題: ${q.question}`,
+    '',
+    '選択肢:',
+    choiceLines,
+    '',
+    `正答: ${answerText}`,
+    `解説: ${q.explanation}`,
+    '',
+    '依頼:',
+    '1) 正答の根拠',
+    '2) 不正解選択肢の誤り',
+    '3) 関連ポイントの補足'
+  ].join('\n');
+}
+
+async function askGeminiAboutCurrentQuestion() {
+  const q = sessionQs[currentIdx];
+  if (!q) return;
+  const prompt = buildGeminiPrompt(q, currentExam, currentSection);
+
+  let copied = false;
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(prompt);
+      copied = true;
+    }
+  } catch (_) {
+    copied = false;
+  }
+
+  if (!copied) {
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = prompt;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      ta.style.top = '-9999px';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, ta.value.length);
+      copied = document.execCommand('copy');
+      document.body.removeChild(ta);
+    } catch (_) {
+      copied = false;
+    }
+  }
+
+  window.open('https://gemini.google.com/app', '_blank', 'noopener,noreferrer');
+  if (copied) {
+    alert('Geminiを開きました。質問文をコピー済みです。貼り付けて送信してください。');
+  } else {
+    alert('Geminiを開きました。コピーできなかったため、問題文を手動で貼り付けてください。');
+  }
+}
 function renderQuestion() {
   answered = false;
+  ensureGeminiButton();
   const q     = sessionQs[currentIdx];
   const total = sessionQs.length;
   const pct   = Math.round((currentIdx / total) * 100);
@@ -1248,7 +1379,7 @@ function renderQuestion() {
   document.getElementById('explanation').className   = 'explanation';
   const nb = document.getElementById('btn-next');
   nb.disabled = true;
-  nb.textContent = (currentIdx < total - 1) ? '次の問題へ →' : '結果を見る 🏆';
+  nb.textContent = (currentIdx < total - 1) ? '次の問題へ →' : '結果を見る →';
 }
 
 function selectAnswer(idx) {
@@ -1268,7 +1399,7 @@ function selectAnswer(idx) {
 
   const badge = document.getElementById('result-badge');
   badge.className = `result-badge show ${ok ? 'correct' : 'wrong'}`;
-  badge.textContent = ok ? '✓ 正解！' : '✗ 不正解';
+  badge.textContent = ok ? '正解！' : '不正解';
 
   document.getElementById('expl-text').textContent = q.explanation;
   document.getElementById('explanation').className = 'explanation show';
@@ -1284,9 +1415,9 @@ function nextQuestion() {
   }
 }
 
-/* ══════════════════════════════════════════
+/* ---------------------
    RESULT
-══════════════════════════════════════════ */
+--------------------- */
 function showResult() {
   const total = sessionQs.length;
   const pct   = Math.round((score / total) * 100);
@@ -1309,16 +1440,26 @@ function showResult() {
   }, 80);
 
   let grade, sub;
-  if (pct === 100)    { grade = '🎉 パーフェクト！'; sub = `${total}問全問正解！完璧です！`; }
-  else if (pct >= 80) { grade = '🌟 優秀！';        sub = `${total}問中${score}問正解（${pct}%）— あと一歩！`; }
-  else if (pct >= 60) { grade = '👍 合格圏内！';    sub = `${total}問中${score}問正解（${pct}%）— さらに上を目指そう`; }
-  else if (pct >= 40) { grade = '📚 要復習';        sub = `${total}問中${score}問正解（${pct}%）— もう一度挑戦！`; }
-  else                 { grade = '💪 頑張ろう！';   sub = `${total}問中${score}問正解（${pct}%）— 基礎から見直そう`; }
+  if (pct === 100) {
+    grade = 'パーフェクト';
+    sub = `${total}問すべて正解です。`;
+  } else if (pct >= 80) {
+    grade = '優秀';
+    sub = `${total}問中${score}問正解（${pct}%）です。`;
+  } else if (pct >= 60) {
+    grade = '合格圏';
+    sub = `${total}問中${score}問正解（${pct}%）です。`;
+  } else if (pct >= 40) {
+    grade = '要復習';
+    sub = `${total}問中${score}問正解（${pct}%）です。もう一度挑戦しましょう。`;
+  } else {
+    grade = '基礎固め';
+    sub = `${total}問中${score}問正解（${pct}%）です。基礎から見直しましょう。`;
+  }
 
   document.getElementById('result-grade').textContent = grade;
   document.getElementById('result-sub').textContent   = sub;
-  document.getElementById('btn-retry').textContent    =
-    `同じ${total}問でもう一度 🔄`;
+  document.getElementById('btn-retry').textContent = `同じ${total}問でもう一度`;
 }
 
 function retryQuiz() {
@@ -1337,9 +1478,9 @@ function resetQuestionHistory() {
   }
 }
 
-/* ══════════════════════════════════════════
+/* ---------------------
    START
-══════════════════════════════════════════ */
+--------------------- */
 init();
 </script>
 </body>
