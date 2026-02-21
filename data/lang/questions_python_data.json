@@ -1,0 +1,366 @@
+{
+  "genre": "コレクションとデータ構造",
+  "exam": "Python試験",
+  "questions": [
+    {
+      "id": "py_dat_001",
+      "question": "listの末尾に要素を追加するメソッドはどれか。",
+      "choices": [
+        "add",
+        "append",
+        "push",
+        "insert_last"
+      ],
+      "answer": 1,
+      "explanation": "append は末尾追加。"
+    },
+    {
+      "id": "py_dat_002",
+      "question": "list.insert(i, x)の説明として正しいものはどれか。",
+      "choices": [
+        "末尾追加",
+        "位置iに挿入",
+        "要素xを削除",
+        "すべて置換"
+      ],
+      "answer": 1,
+      "explanation": "insert は指定位置へ挿入する。"
+    },
+    {
+      "id": "py_dat_003",
+      "question": "list.pop()の既定の動作はどれか。",
+      "choices": [
+        "先頭を削除して返す",
+        "末尾を削除して返す",
+        "全要素削除",
+        "削除のみで返さない"
+      ],
+      "answer": 1,
+      "explanation": "引数なし pop は末尾要素を返して削除する。"
+    },
+    {
+      "id": "py_dat_004",
+      "question": "タプルの特徴として適切なものはどれか。",
+      "choices": [
+        "要素の追加削除が自由",
+        "変更可能な可変型",
+        "不変(イミュータブル)である",
+        "キーと値を持つ"
+      ],
+      "answer": 2,
+      "explanation": "タプルは不変オブジェクト。"
+    },
+    {
+      "id": "py_dat_005",
+      "question": "dictでキーの存在を確認する式はどれか。",
+      "choices": [
+        "key in d",
+        "d.has(key)",
+        "contains(d,key)",
+        "exists key d"
+      ],
+      "answer": 0,
+      "explanation": "in 演算子でキー存在を判定する。"
+    },
+    {
+      "id": "py_dat_006",
+      "question": "d.get('k', 0)の動作として正しいものはどれか。",
+      "choices": [
+        "kを削除する",
+        "kがなければ0を返す",
+        "kを追加する",
+        "辞書を初期化する"
+      ],
+      "answer": 1,
+      "explanation": "get は未存在時の既定値を指定できる。"
+    },
+    {
+      "id": "py_dat_007",
+      "question": "set型の特徴として適切なものはどれか。",
+      "choices": [
+        "順序を保持する",
+        "重複要素を許す",
+        "重複を許さない",
+        "キーと値を持つ"
+      ],
+      "answer": 2,
+      "explanation": "setは重複を持たない集合。"
+    },
+    {
+      "id": "py_dat_008",
+      "question": "集合A,Bの共通部分を求める演算子はどれか。",
+      "choices": [
+        "|",
+        "&",
+        "^",
+        "-"
+      ],
+      "answer": 1,
+      "explanation": "共通部分は &。"
+    },
+    {
+      "id": "py_dat_009",
+      "question": "文字列s[2:5]の意味として正しいものはどれか。",
+      "choices": [
+        "2文字目のみ",
+        "2以上5未満の部分文字列",
+        "5から2まで逆順",
+        "2文字削除"
+      ],
+      "answer": 1,
+      "explanation": "スライスは終端を含まない。"
+    },
+    {
+      "id": "py_dat_010",
+      "question": "s[-1]で取得される要素はどれか。",
+      "choices": [
+        "先頭",
+        "2番目",
+        "末尾",
+        "長さ"
+      ],
+      "answer": 2,
+      "explanation": "負の添字 -1 は末尾。"
+    },
+    {
+      "id": "py_dat_011",
+      "question": "copy.copyの説明として正しいものはどれか。",
+      "choices": [
+        "深いコピー",
+        "浅いコピー",
+        "参照渡しのみ",
+        "型変換"
+      ],
+      "answer": 1,
+      "explanation": "copy.copy は浅いコピーを作る。"
+    },
+    {
+      "id": "py_dat_012",
+      "question": "copy.deepcopyが必要になりやすい場面はどれか。",
+      "choices": [
+        "整数だけをコピー",
+        "入れ子の可変オブジェクトを独立複製",
+        "文字列比較",
+        "四則演算"
+      ],
+      "answer": 1,
+      "explanation": "内側のオブジェクトまで複製するには deepcopy を使う。"
+    },
+    {
+      "id": "py_dat_013",
+      "question": "list.sort()とsorted(list)の違いとして適切なものはどれか。",
+      "choices": [
+        "どちらも新規リストを返す",
+        "sortは破壊的、sortedは新規を返す",
+        "sortは文字列専用",
+        "sortedは辞書専用"
+      ],
+      "answer": 1,
+      "explanation": "sort は元リストを並べ替える。"
+    },
+    {
+      "id": "py_dat_014",
+      "question": "sorted(data, key=len)の意味はどれか。",
+      "choices": [
+        "長さを削除する",
+        "要素長を基準に並べ替える",
+        "辞書キーのみ並べる",
+        "逆順固定"
+      ],
+      "answer": 1,
+      "explanation": "key に評価関数を渡せる。"
+    },
+    {
+      "id": "py_dat_015",
+      "question": "collections.Counterの主な用途はどれか。",
+      "choices": [
+        "出現回数集計",
+        "要素削除",
+        "ファイル圧縮",
+        "日付計算"
+      ],
+      "answer": 0,
+      "explanation": "Counter は頻度集計に使う。"
+    },
+    {
+      "id": "py_dat_016",
+      "question": "dequeの特徴として適切なものはどれか。",
+      "choices": [
+        "両端操作が高速",
+        "辞書専用",
+        "重複不可",
+        "自動ソート"
+      ],
+      "answer": 0,
+      "explanation": "deque は先頭末尾の追加削除に強い。"
+    },
+    {
+      "id": "py_dat_017",
+      "question": "namedtupleの利点として適切なものはどれか。",
+      "choices": [
+        "添字のみでアクセスする",
+        "フィールド名で読みやすく扱える",
+        "JSON専用型",
+        "常に可変"
+      ],
+      "answer": 1,
+      "explanation": "属性名で参照できる軽量タプル。"
+    },
+    {
+      "id": "py_dat_018",
+      "question": "dataclassの主な効果はどれか。",
+      "choices": [
+        "SQL生成",
+        "__init__等の定型コードを自動生成",
+        "例外無効化",
+        "暗号化"
+      ],
+      "answer": 1,
+      "explanation": "データ保持クラスの定型記述を減らせる。"
+    },
+    {
+      "id": "py_dat_019",
+      "question": "辞書内包表記として正しいものはどれか。",
+      "choices": [
+        "{k:v for k,v in pairs}",
+        "[k:v for k,v in pairs]",
+        "{for k,v in pairs: k:v}",
+        "(k:v for k,v in pairs)"
+      ],
+      "answer": 0,
+      "explanation": "辞書内包は {key:value for ...}。"
+    },
+    {
+      "id": "py_dat_020",
+      "question": "set内包表記として正しいものはどれか。",
+      "choices": [
+        "{x*x for x in nums}",
+        "[x*x for x in nums]",
+        "(x*x for x in nums)",
+        "{x:x*x for x in nums}"
+      ],
+      "answer": 0,
+      "explanation": "set は波括弧で値のみを並べる。"
+    },
+    {
+      "id": "py_dat_021",
+      "question": "ジェネレータ式の特徴として適切なものはどれか。",
+      "choices": [
+        "必ず即時に全要素を生成",
+        "遅延評価で順次生成",
+        "forで使えない",
+        "listより常に高速"
+      ],
+      "answer": 1,
+      "explanation": "必要時に値を生成するためメモリ効率が良い。"
+    },
+    {
+      "id": "py_dat_022",
+      "question": "itertools.zip_longestが属するモジュールはどれか。",
+      "choices": [
+        "collections",
+        "itertools",
+        "functools",
+        "operator"
+      ],
+      "answer": 1,
+      "explanation": "zip_longest は itertools。"
+    },
+    {
+      "id": "py_dat_023",
+      "question": "range(1, 10, 3)の結果はどれか。",
+      "choices": [
+        "1,4,7",
+        "1,3,6,9",
+        "0,3,6,9",
+        "1,4,7,10"
+      ],
+      "answer": 0,
+      "explanation": "開始1、終了10未満、刻み3。"
+    },
+    {
+      "id": "py_dat_024",
+      "question": "list.extend(iterable)の効果はどれか。",
+      "choices": [
+        "iterableを1要素として追加",
+        "要素を展開して末尾に追加",
+        "先頭挿入",
+        "重複削除"
+      ],
+      "answer": 1,
+      "explanation": "extend は反復可能要素を展開追加する。"
+    },
+    {
+      "id": "py_dat_025",
+      "question": "dict.items()が返すものはどれか。",
+      "choices": [
+        "キーのみ",
+        "値のみ",
+        "(キー,値)ペア",
+        "辞書コピー"
+      ],
+      "answer": 2,
+      "explanation": "items はキーと値の組を返す。"
+    },
+    {
+      "id": "py_dat_026",
+      "question": "setdefaultの説明として適切なものはどれか。",
+      "choices": [
+        "未存在キーに既定値を入れて値を返す",
+        "必ず削除する",
+        "辞書をソートする",
+        "型変換する"
+      ],
+      "answer": 0,
+      "explanation": "キーがなければ既定値で作成し、その値を返す。"
+    },
+    {
+      "id": "py_dat_027",
+      "question": "list.remove(x)の動作として正しいものはどれか。",
+      "choices": [
+        "添字xを削除",
+        "値xと一致する最初の要素を削除",
+        "末尾を削除",
+        "全一致削除"
+      ],
+      "answer": 1,
+      "explanation": "remove は値指定、pop は添字指定。"
+    },
+    {
+      "id": "py_dat_028",
+      "question": "defaultdict(int)の初期値として正しいものはどれか。",
+      "choices": [
+        "None",
+        "0",
+        "空文字",
+        "空リスト"
+      ],
+      "answer": 1,
+      "explanation": "int() の既定値は 0。"
+    },
+    {
+      "id": "py_dat_029",
+      "question": "frozensetの特徴として適切なものはどれか。",
+      "choices": [
+        "変更可能な集合",
+        "不変の集合",
+        "重複許可",
+        "順序保持"
+      ],
+      "answer": 1,
+      "explanation": "frozenset は不変でハッシュ可能。"
+    },
+    {
+      "id": "py_dat_030",
+      "question": "bisectモジュールの用途として適切なものはどれか。",
+      "choices": [
+        "正規表現",
+        "整列済みリストへの挿入位置探索",
+        "JSON処理",
+        "日付処理"
+      ],
+      "answer": 1,
+      "explanation": "二分探索で挿入位置を求める。"
+    }
+  ]
+}

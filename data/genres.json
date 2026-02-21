@@ -720,8 +720,8 @@
               "icon": "📘",
               "description": "データ型・制御構文・関数基礎",
               "file": "data/lang/questions_python_syntax.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30,
+              "coming_soon": false
             },
             {
               "id": "python_data",
@@ -729,8 +729,8 @@
               "icon": "🧮",
               "description": "リスト・タプル・辞書・集合の活用",
               "file": "data/lang/questions_python_data.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30,
+              "coming_soon": false
             },
             {
               "id": "python_oop",
@@ -738,8 +738,8 @@
               "icon": "🧩",
               "description": "クラス・継承・ポリモーフィズム",
               "file": "data/lang/questions_python_oop.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30,
+              "coming_soon": false
             },
             {
               "id": "python_lib",
@@ -747,8 +747,8 @@
               "icon": "🛠",
               "description": "datetime・pathlib・json・reなどの基本活用",
               "file": "data/lang/questions_python_lib.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30,
+              "coming_soon": false
             },
             {
               "id": "python_io",
@@ -756,8 +756,8 @@
               "icon": "🧪",
               "description": "ファイルI/O・例外処理・ユニットテスト",
               "file": "data/lang/questions_python_io.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30,
+              "coming_soon": false
             }
           ]
         },

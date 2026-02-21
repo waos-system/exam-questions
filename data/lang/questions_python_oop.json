@@ -1,0 +1,366 @@
+{
+  "genre": "クラスとオブジェクト指向",
+  "exam": "Python試験",
+  "questions": [
+    {
+      "id": "py_oop_001",
+      "question": "クラス定義の開始キーワードはどれか。",
+      "choices": [
+        "class",
+        "struct",
+        "type",
+        "object"
+      ],
+      "answer": 0,
+      "explanation": "クラス定義は class で始める。"
+    },
+    {
+      "id": "py_oop_002",
+      "question": "インスタンスメソッド第1引数の慣習名はどれか。",
+      "choices": [
+        "this",
+        "self",
+        "me",
+        "obj"
+      ],
+      "answer": 1,
+      "explanation": "Pythonでは self が慣習。"
+    },
+    {
+      "id": "py_oop_003",
+      "question": "コンストラクタとして呼ばれるメソッドはどれか。",
+      "choices": [
+        "__new__",
+        "__init__",
+        "init",
+        "constructor"
+      ],
+      "answer": 1,
+      "explanation": "初期化処理は __init__。"
+    },
+    {
+      "id": "py_oop_004",
+      "question": "文字列表現を返す特殊メソッドはどれか。",
+      "choices": [
+        "__print__",
+        "__str__",
+        "__reprs__",
+        "__text__"
+      ],
+      "answer": 1,
+      "explanation": "人間向けの表現は __str__。"
+    },
+    {
+      "id": "py_oop_005",
+      "question": "開発者向けの再現可能表現に使うのはどれか。",
+      "choices": [
+        "__repr__",
+        "__str__",
+        "__format__",
+        "__dump__"
+      ],
+      "answer": 0,
+      "explanation": "__repr__ はデバッグ向け表現。"
+    },
+    {
+      "id": "py_oop_006",
+      "question": "継承を表す書き方として正しいものはどれか。",
+      "choices": [
+        "class Child extends Parent:",
+        "class Child(Parent):",
+        "class Child <- Parent:",
+        "inherit Child(Parent):"
+      ],
+      "answer": 1,
+      "explanation": "基底クラスは括弧内に書く。"
+    },
+    {
+      "id": "py_oop_007",
+      "question": "親クラスのメソッド呼出しに使う関数はどれか。",
+      "choices": [
+        "parent()",
+        "super()",
+        "base()",
+        "root()"
+      ],
+      "answer": 1,
+      "explanation": "super() でMROに従って親実装を呼ぶ。"
+    },
+    {
+      "id": "py_oop_008",
+      "question": "カプセル化の説明として適切なものはどれか。",
+      "choices": [
+        "すべて公開する",
+        "内部実装を隠し公開インタフェース経由で操作する",
+        "継承を禁止する",
+        "型を固定する"
+      ],
+      "answer": 1,
+      "explanation": "利用者は公開メソッドを通して操作する。"
+    },
+    {
+      "id": "py_oop_009",
+      "question": "名前修飾(マングリング)が起きる命名はどれか。",
+      "choices": [
+        "_x",
+        "__x",
+        "x__",
+        "___x___"
+      ],
+      "answer": 1,
+      "explanation": "先頭二重アンダースコアは _ClassName__x に変換される。"
+    },
+    {
+      "id": "py_oop_010",
+      "question": "プロパティを定義するデコレータはどれか。",
+      "choices": [
+        "@property",
+        "@getter",
+        "@field",
+        "@accessor"
+      ],
+      "answer": 0,
+      "explanation": "@property でメソッドを属性風に使える。"
+    },
+    {
+      "id": "py_oop_011",
+      "question": "classmethodの第1引数として渡るものはどれか。",
+      "choices": [
+        "self",
+        "cls",
+        "obj",
+        "module"
+      ],
+      "answer": 1,
+      "explanation": "クラス自身が cls に渡る。"
+    },
+    {
+      "id": "py_oop_012",
+      "question": "staticmethodの特徴として正しいものはどれか。",
+      "choices": [
+        "selfが必須",
+        "clsが必須",
+        "self/clsを自動で受け取らない",
+        "継承不可"
+      ],
+      "answer": 2,
+      "explanation": "ユーティリティ関数的に使える。"
+    },
+    {
+      "id": "py_oop_013",
+      "question": "抽象基底クラスで抽象メソッドを作るデコレータはどれか。",
+      "choices": [
+        "@abstract",
+        "@abc",
+        "@abstractmethod",
+        "@virtual"
+      ],
+      "answer": 2,
+      "explanation": "abcモジュールの @abstractmethod を使う。"
+    },
+    {
+      "id": "py_oop_014",
+      "question": "多態性(ポリモーフィズム)の説明として適切なものはどれか。",
+      "choices": [
+        "同名操作が型ごとに異なる振る舞いをする",
+        "常に同じ実装を使う",
+        "継承しない",
+        "関数を使わない"
+      ],
+      "answer": 0,
+      "explanation": "共通インタフェースで複数型を扱える。"
+    },
+    {
+      "id": "py_oop_015",
+      "question": "メソッドオーバーライドの説明として正しいものはどれか。",
+      "choices": [
+        "同名メソッドを子クラスで再定義",
+        "関数名変更",
+        "引数を削除",
+        "モジュール分割"
+      ],
+      "answer": 0,
+      "explanation": "子クラス側で振る舞いを差し替える。"
+    },
+    {
+      "id": "py_oop_016",
+      "question": "ダックタイピングの考え方として適切なものはどれか。",
+      "choices": [
+        "型名一致が必須",
+        "必要なメソッドを持てば利用可能",
+        "継承関係が必須",
+        "ジェネリクス必須"
+      ],
+      "answer": 1,
+      "explanation": "振る舞い重視で利用可否を判断する。"
+    },
+    {
+      "id": "py_oop_017",
+      "question": "MROが関係するのはどの場面か。",
+      "choices": [
+        "ファイルI/O",
+        "多重継承時のメソッド探索順",
+        "整数演算",
+        "例外処理"
+      ],
+      "answer": 1,
+      "explanation": "Method Resolution Order で探索順が決まる。"
+    },
+    {
+      "id": "py_oop_018",
+      "question": "データクラスで不変オブジェクト化する指定はどれか。",
+      "choices": [
+        "frozen=True",
+        "immutable=True",
+        "const=True",
+        "final=True"
+      ],
+      "answer": 0,
+      "explanation": "@dataclass(frozen=True) で再代入を防ぎやすくする。"
+    },
+    {
+      "id": "py_oop_019",
+      "question": "__slots__の主な効果はどれか。",
+      "choices": [
+        "必ず高速化",
+        "属性名を固定しメモリ削減に寄与",
+        "継承禁止",
+        "例外無効化"
+      ],
+      "answer": 1,
+      "explanation": "不要な __dict__ を持たせない設計ができる。"
+    },
+    {
+      "id": "py_oop_020",
+      "question": "演算子オーバーロードで加算に対応する特殊メソッドはどれか。",
+      "choices": [
+        "__sum__",
+        "__add__",
+        "__plus__",
+        "__calc__"
+      ],
+      "answer": 1,
+      "explanation": "+ 演算子は __add__ を呼ぶ。"
+    },
+    {
+      "id": "py_oop_021",
+      "question": "比較演算<に対応する特殊メソッドはどれか。",
+      "choices": [
+        "__cmp__",
+        "__lt__",
+        "__less__",
+        "__low__"
+      ],
+      "answer": 1,
+      "explanation": "< は __lt__。"
+    },
+    {
+      "id": "py_oop_022",
+      "question": "インスタンスが呼び出し可能になる特殊メソッドはどれか。",
+      "choices": [
+        "__run__",
+        "__call__",
+        "__invoke__",
+        "__exec__"
+      ],
+      "answer": 1,
+      "explanation": "__call__ 実装で obj() が可能。"
+    },
+    {
+      "id": "py_oop_023",
+      "question": "__iter__で返すべきものはどれか。",
+      "choices": [
+        "リスト",
+        "文字列",
+        "イテレータ",
+        "整数"
+      ],
+      "answer": 2,
+      "explanation": "反復プロトコルではイテレータを返す。"
+    },
+    {
+      "id": "py_oop_024",
+      "question": "__next__が送出すべき終了例外はどれか。",
+      "choices": [
+        "EOFError",
+        "StopIteration",
+        "RuntimeError",
+        "ValueError"
+      ],
+      "answer": 1,
+      "explanation": "反復終了は StopIteration。"
+    },
+    {
+      "id": "py_oop_025",
+      "question": "例外クラスの作成として適切なものはどれか。",
+      "choices": [
+        "class MyErr(object):",
+        "class MyErr(Exception):",
+        "def MyErr(Exception):",
+        "exception MyErr:"
+      ],
+      "answer": 1,
+      "explanation": "独自例外は Exception かその派生を継承する。"
+    },
+    {
+      "id": "py_oop_026",
+      "question": "mix-inクラスの狙いとして適切なものはどれか。",
+      "choices": [
+        "単一責務の機能を横断的に追加",
+        "巨大クラスを作る",
+        "I/O専用にする",
+        "継承を減らせない"
+      ],
+      "answer": 0,
+      "explanation": "再利用しやすい小さな機能単位を合成する。"
+    },
+    {
+      "id": "py_oop_027",
+      "question": "isinstance(obj, C)の目的はどれか。",
+      "choices": [
+        "同一性判定",
+        "型・継承関係の判定",
+        "等価比較",
+        "属性追加"
+      ],
+      "answer": 1,
+      "explanation": "継承を含めてインスタンス判定する。"
+    },
+    {
+      "id": "py_oop_028",
+      "question": "hasattr(obj, 'name')の意味はどれか。",
+      "choices": [
+        "属性nameが存在するか確認",
+        "属性nameを削除",
+        "属性nameを追加",
+        "型を比較"
+      ],
+      "answer": 0,
+      "explanation": "存在チェックに使う。"
+    },
+    {
+      "id": "py_oop_029",
+      "question": "getattr(obj, 'x', 0)の説明として正しいものはどれか。",
+      "choices": [
+        "必ず0を返す",
+        "xが無ければ0を返す",
+        "xを削除する",
+        "xを追加する"
+      ],
+      "answer": 1,
+      "explanation": "第3引数は未存在時の既定値。"
+    },
+    {
+      "id": "py_oop_030",
+      "question": "setattr(obj, 'x', 1)の効果はどれか。",
+      "choices": [
+        "属性xを取得",
+        "属性xに1を設定",
+        "属性xを削除",
+        "属性xを比較"
+      ],
+      "answer": 1,
+      "explanation": "動的に属性値を設定できる。"
+    }
+  ]
+}

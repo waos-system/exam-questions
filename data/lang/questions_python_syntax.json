@@ -1,0 +1,366 @@
+{
+  "genre": "Python基礎文法",
+  "exam": "Python試験",
+  "questions": [
+    {
+      "id": "py_syn_001",
+      "question": "Pythonで単一行コメントを記述する書き方はどれか。",
+      "choices": [
+        "//",
+        "#",
+        "/* */",
+        "--"
+      ],
+      "answer": 1,
+      "explanation": "コメントは # で始める。"
+    },
+    {
+      "id": "py_syn_002",
+      "question": "変数xに10を代入する文として適切なものはどれか。",
+      "choices": [
+        "x := 10",
+        "int x = 10",
+        "x = 10",
+        "let x = 10"
+      ],
+      "answer": 2,
+      "explanation": "Pythonでは型宣言なしで x = 10 と書く。"
+    },
+    {
+      "id": "py_syn_003",
+      "question": "条件分岐で使用するキーワードはどれか。",
+      "choices": [
+        "if",
+        "case",
+        "switch",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "条件分岐の基本は if。"
+    },
+    {
+      "id": "py_syn_004",
+      "question": "0から4まで反復するfor文として正しいものはどれか。",
+      "choices": [
+        "for i in range(5):",
+        "for(i=0;i<5;i++)",
+        "foreach i range(5)",
+        "for i to 5"
+      ],
+      "answer": 0,
+      "explanation": "range(5) は 0,1,2,3,4 を生成する。"
+    },
+    {
+      "id": "py_syn_005",
+      "question": "whileループを途中で終了させる文はどれか。",
+      "choices": [
+        "continue",
+        "pass",
+        "break",
+        "stop"
+      ],
+      "answer": 2,
+      "explanation": "break はループ自体を終了する。"
+    },
+    {
+      "id": "py_syn_006",
+      "question": "現在の反復を飛ばして次に進める文はどれか。",
+      "choices": [
+        "break",
+        "continue",
+        "pass",
+        "return"
+      ],
+      "answer": 1,
+      "explanation": "continue は現在回をスキップして次へ進む。"
+    },
+    {
+      "id": "py_syn_007",
+      "question": "関数定義に使うキーワードはどれか。",
+      "choices": [
+        "func",
+        "def",
+        "lambda",
+        "function"
+      ],
+      "answer": 1,
+      "explanation": "通常の関数定義は def を使う。"
+    },
+    {
+      "id": "py_syn_008",
+      "question": "関数から値を返す文はどれか。",
+      "choices": [
+        "yield",
+        "return",
+        "pass",
+        "break"
+      ],
+      "answer": 1,
+      "explanation": "返却には return を使う。"
+    },
+    {
+      "id": "py_syn_009",
+      "question": "何もしない文として使われるものはどれか。",
+      "choices": [
+        "null",
+        "pass",
+        "void",
+        "skip"
+      ],
+      "answer": 1,
+      "explanation": "pass は構文上必要だが処理不要なときに使う。"
+    },
+    {
+      "id": "py_syn_010",
+      "question": "f文字列でnameを埋め込む書き方はどれか。",
+      "choices": [
+        "{name}",
+        "f{name}",
+        "$name",
+        "fmt(name)"
+      ],
+      "answer": 1,
+      "explanation": "f...{name}... で式を埋め込める。"
+    },
+    {
+      "id": "py_syn_011",
+      "question": "リスト内包表記として正しいものはどれか。",
+      "choices": [
+        "[x*x for x in range(5)]",
+        "{x*x in range(5)}",
+        "(x*x where x in range(5))",
+        "[for x in range(5): x*x]"
+      ],
+      "answer": 0,
+      "explanation": "リスト内包表記は [式 for 変数 in 反復可能オブジェクト]。"
+    },
+    {
+      "id": "py_syn_012",
+      "question": "論理ANDを表す演算子はどれか。",
+      "choices": [
+        "&&",
+        "and",
+        "&",
+        "AND"
+      ],
+      "answer": 1,
+      "explanation": "論理演算子は and / or / not。"
+    },
+    {
+      "id": "py_syn_013",
+      "question": "等価比較に使う演算子はどれか。",
+      "choices": [
+        "=",
+        "==",
+        ":=",
+        "is"
+      ],
+      "answer": 1,
+      "explanation": "== は値の等価比較。"
+    },
+    {
+      "id": "py_syn_014",
+      "question": "同一オブジェクトかどうかを判定する演算子はどれか。",
+      "choices": [
+        "==",
+        "is",
+        "=",
+        "eq"
+      ],
+      "answer": 1,
+      "explanation": "is は同一性判定で、値比較は ==。"
+    },
+    {
+      "id": "py_syn_015",
+      "question": "可変長の位置引数を受け取る書き方はどれか。",
+      "choices": [
+        "*args",
+        "&args",
+        "args*",
+        "#args"
+      ],
+      "answer": 0,
+      "explanation": "*args で位置引数をタプルとして受け取る。"
+    },
+    {
+      "id": "py_syn_016",
+      "question": "可変長のキーワード引数を受け取る書き方はどれか。",
+      "choices": [
+        "*kwargs",
+        "**kwargs",
+        "kwargs*",
+        "##kwargs"
+      ],
+      "answer": 1,
+      "explanation": "**kwargs で辞書として受け取る。"
+    },
+    {
+      "id": "py_syn_017",
+      "question": "デフォルト引数の評価タイミングとして正しいものはどれか。",
+      "choices": [
+        "関数呼び出し時",
+        "モジュール読み込み時",
+        "return時",
+        "毎行実行時"
+      ],
+      "answer": 1,
+      "explanation": "デフォルト引数は関数定義時に評価される。"
+    },
+    {
+      "id": "py_syn_018",
+      "question": "global宣言の説明として正しいものはどれか。",
+      "choices": [
+        "ローカル変数を作る",
+        "外側関数の変数を指す",
+        "モジュールレベル変数を更新可能にする",
+        "定数宣言する"
+      ],
+      "answer": 2,
+      "explanation": "global はモジュールスコープの変数を代入対象にする。"
+    },
+    {
+      "id": "py_syn_019",
+      "question": "nonlocal宣言の説明として正しいものはどれか。",
+      "choices": [
+        "グローバル変数を更新する",
+        "直近の外側関数スコープ変数を更新する",
+        "定数を作る",
+        "クラス変数を定義する"
+      ],
+      "answer": 1,
+      "explanation": "nonlocal はネストした外側関数の変数を再束縛する。"
+    },
+    {
+      "id": "py_syn_020",
+      "question": "enumerate(seq)の主な用途はどれか。",
+      "choices": [
+        "要素の型変換",
+        "インデックス付き反復",
+        "逆順反復",
+        "要素削除"
+      ],
+      "answer": 1,
+      "explanation": "enumerate は (index, value) を返す。"
+    },
+    {
+      "id": "py_syn_021",
+      "question": "zip(a, b)の動作として適切なものはどれか。",
+      "choices": [
+        "aとbを連結する",
+        "aとbを要素ごとに組にする",
+        "aからbを引く",
+        "aとbをソートする"
+      ],
+      "answer": 1,
+      "explanation": "zip は同位置の要素をまとめる。"
+    },
+    {
+      "id": "py_syn_022",
+      "question": "assert文の目的として適切なものはどれか。",
+      "choices": [
+        "本番エラーを必ず抑止する",
+        "デバッグ時に前提条件を検証する",
+        "関数を定義する",
+        "型を固定する"
+      ],
+      "answer": 1,
+      "explanation": "assert は前提が偽なら AssertionError を送出する。"
+    },
+    {
+      "id": "py_syn_023",
+      "question": "代入式(ウォルラス演算子)として正しいものはどれか。",
+      "choices": [
+        "x == 10",
+        "x := 10",
+        "x => 10",
+        "x =: 10"
+      ],
+      "answer": 1,
+      "explanation": ":= で式内代入ができる。"
+    },
+    {
+      "id": "py_syn_024",
+      "question": "リスト内包表記で偶数のみ抽出する式はどれか。",
+      "choices": [
+        "[x for x in nums if x % 2 == 0]",
+        "[if x%2==0 for x in nums]",
+        "[x if x%2==0 in nums]",
+        "[x from nums where even]"
+      ],
+      "answer": 0,
+      "explanation": "条件は for 句の後ろに if で記述する。"
+    },
+    {
+      "id": "py_syn_025",
+      "question": "三項演算子の書式として正しいものはどれか。",
+      "choices": [
+        "a ? b : c",
+        "b if a else c",
+        "if a then b else c",
+        "a ?: b : c"
+      ],
+      "answer": 1,
+      "explanation": "Pythonの条件式は 値1 if 条件 else 値2。"
+    },
+    {
+      "id": "py_syn_026",
+      "question": "with文を使う主な目的はどれか。",
+      "choices": [
+        "グローバル変数の宣言",
+        "リソースの自動解放",
+        "繰返し回数の固定",
+        "型の強制"
+      ],
+      "answer": 1,
+      "explanation": "with を使うと終了時に後始末が自動実行される。"
+    },
+    {
+      "id": "py_syn_027",
+      "question": "多重代入として正しいものはどれか。",
+      "choices": [
+        "a,b = 1,2",
+        "a:=1,b:=2",
+        "int a,b = 1,2",
+        "a=1; b:=2"
+      ],
+      "answer": 0,
+      "explanation": "タプルのアンパックで同時代入できる。"
+    },
+    {
+      "id": "py_syn_028",
+      "question": "関数アノテーションの説明として適切なものはどれか。",
+      "choices": [
+        "必ず実行時型チェックされる",
+        "可読性向上や静的解析に使う",
+        "コンパイルを高速化する",
+        "例外を無効化する"
+      ],
+      "answer": 1,
+      "explanation": "型ヒントは主に補助情報で、実行時強制はされない。"
+    },
+    {
+      "id": "py_syn_029",
+      "question": "例外を発生させる文はどれか。",
+      "choices": [
+        "throw",
+        "raise",
+        "except",
+        "error"
+      ],
+      "answer": 1,
+      "explanation": "例外送出は raise。"
+    },
+    {
+      "id": "py_syn_030",
+      "question": "モジュールを別名で読み込む構文はどれか。",
+      "choices": [
+        "import numpy as np",
+        "using numpy np",
+        "load numpy as np",
+        "module numpy -> np"
+      ],
+      "answer": 0,
+      "explanation": "import ... as ... で別名を付ける。"
+    }
+  ]
+}
