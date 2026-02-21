@@ -21,8 +21,8 @@
               "icon": "📊",
               "description": "企業活動・法務・経営戦略",
               "file": "data/ip/questions_ip_strategy.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 20,
+              "coming_soon": false
             },
             {
               "id": "ip_management",
@@ -30,8 +30,8 @@
               "icon": "📋",
               "description": "開発技術・プロジェクトマネジメント・サービス管理",
               "file": "data/ip/questions_ip_management.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 20,
+              "coming_soon": false
             },
             {
               "id": "ip_technology",
@@ -39,8 +39,8 @@
               "icon": "🖥",
               "description": "基礎理論・コンピュータ・ネットワーク・セキュリティ",
               "file": "data/ip/questions_ip_technology.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 20,
+              "coming_soon": false
             }
           ]
         },
