@@ -741,6 +741,22 @@
       transition: all .15s;
     }
     .btn-home:hover { color: var(--text); border-color: var(--muted); }
+    .btn-reset {
+      padding: .35rem .65rem;
+      border-radius: 8px;
+      border: 1px solid #5b2a2a;
+      color: #f1b4b4;
+      font-size: .72rem;
+      font-weight: 700;
+      transition: all .15s;
+      background: rgba(122, 30, 30, .18);
+      white-space: nowrap;
+    }
+    .btn-reset:hover {
+      color: #ffd1d1;
+      border-color: #8f3b3b;
+      background: rgba(122, 30, 30, .28);
+    }
 
     /* error state */
     .error-box {
@@ -773,7 +789,10 @@
     <span class="logo-dot"></span>
     Quiz<b>Forge</b>
   </div>
-  <span class="header-tag">β版</span>
+  <div style="display:flex; align-items:center; gap:.5rem;">
+    <span class="header-tag">勉強</span>
+    <button class="btn-reset" onclick="resetQuestionHistory()">履歴リセット</button>
+  </div>
 </header>
 
 <!-- ── SETUP MODAL (question count) ── -->
@@ -917,6 +936,87 @@ let currentFile   = '';
 let currentExam   = '';
 let currentSection = '';
 let selectedCount = 10;   // chosen by user
+let lastSessionQuestionIds = [];
+const QUESTION_STATS_KEY = 'quizforge_question_stats_v1';
+
+function loadQuestionStats() {
+  try {
+    const raw = localStorage.getItem(QUESTION_STATS_KEY);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw);
+    return (parsed && typeof parsed === 'object') ? parsed : {};
+  } catch (_) {
+    return {};
+  }
+}
+
+function saveQuestionStats(stats) {
+  try {
+    localStorage.setItem(QUESTION_STATS_KEY, JSON.stringify(stats));
+  } catch (_) {
+    // ignore localStorage write failures
+  }
+}
+
+function getQuestionStatsEntry(stats, file, qid) {
+  const key = `${file}::${qid}`;
+  if (!stats[key]) {
+    stats[key] = { shown: 0, answered: 0, correct: 0, wrong: 0, lastResult: null, lastAt: 0 };
+  }
+  return stats[key];
+}
+
+function recordQuestionShown(file, qid) {
+  const stats = loadQuestionStats();
+  const entry = getQuestionStatsEntry(stats, file, qid);
+  entry.shown += 1;
+  entry.lastAt = Date.now();
+  saveQuestionStats(stats);
+}
+
+function recordQuestionAnswer(file, qid, ok) {
+  const stats = loadQuestionStats();
+  const entry = getQuestionStatsEntry(stats, file, qid);
+  entry.answered += 1;
+  if (ok) entry.correct += 1;
+  else entry.wrong += 1;
+  entry.lastResult = ok ? 'correct' : 'wrong';
+  entry.lastAt = Date.now();
+  saveQuestionStats(stats);
+}
+
+function buildSessionQuestions(file, questions, count) {
+  const stats = loadQuestionStats();
+  const prioritized = questions.map((q) => {
+    const entry = getQuestionStatsEntry(stats, file, q.id);
+    const unanswered = entry.answered === 0 ? 1 : 0;
+    const hasWrong = entry.wrong > 0 ? 1 : 0;
+    const wrongRate = entry.answered > 0 ? (entry.wrong / entry.answered) : 0;
+    return {
+      q,
+      unanswered,
+      hasWrong,
+      wrongRate,
+      shown: entry.shown,
+      rnd: Math.random()
+    };
+  });
+
+  prioritized.sort((a, b) => {
+    // 1) unanswered first
+    if (a.unanswered !== b.unanswered) return b.unanswered - a.unanswered;
+    // 2) questions with wrong history first
+    if (a.hasWrong !== b.hasWrong) return b.hasWrong - a.hasWrong;
+    // 3) among wrong-history questions, higher wrong rate first
+    if (a.hasWrong && b.hasWrong && a.wrongRate !== b.wrongRate) return b.wrongRate - a.wrongRate;
+    // 4) otherwise, less shown first for even distribution
+    if (a.shown !== b.shown) return a.shown - b.shown;
+    // 5) stable randomness for ties
+    return a.rnd - b.rnd;
+  });
+
+  return prioritized.slice(0, Math.min(count, prioritized.length)).map((x) => x.q);
+}
 
 /* ══════════════════════════════════════════
    NAVIGATION
@@ -1085,15 +1185,19 @@ function confirmStart() {
 /* ══════════════════════════════════════════
    QUIZ
 ══════════════════════════════════════════ */
-async function startQuiz(file, exam, section, count) {
+async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
   try {
     const res = await fetch(file);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allQuestions = data.questions;
-
-    const shuffled = shuffle([...allQuestions]);
-    sessionQs = shuffled.slice(0, Math.min(count, shuffled.length));
+    if (Array.isArray(fixedQuestionIds) && fixedQuestionIds.length) {
+      const qMap = new Map(allQuestions.map((q) => [q.id, q]));
+      sessionQs = fixedQuestionIds.map((id) => qMap.get(id)).filter(Boolean);
+    } else {
+      sessionQs = buildSessionQuestions(file, allQuestions, count);
+    }
+    lastSessionQuestionIds = sessionQs.map((q) => q.id);
 
     currentIdx = 0;
     score = 0;
@@ -1124,6 +1228,7 @@ function renderQuestion() {
   const q     = sessionQs[currentIdx];
   const total = sessionQs.length;
   const pct   = Math.round((currentIdx / total) * 100);
+  if (q && q.id) recordQuestionShown(currentFile, q.id);
 
   document.getElementById('qp-label').textContent = `問題 ${currentIdx+1} / ${total}`;
   document.getElementById('qp-pct').textContent   = pct + '%';
@@ -1156,6 +1261,7 @@ function selectAnswer(idx) {
 
   const ok = (idx === q.answer);
   if (ok) score++;
+  if (q && q.id) recordQuestionAnswer(currentFile, q.id, ok);
 
   btns[q.answer].classList.add('correct');
   if (!ok) btns[idx].classList.add('wrong');
@@ -1216,7 +1322,19 @@ function showResult() {
 }
 
 function retryQuiz() {
-  startQuiz(currentFile, currentExam, currentSection, sessionQs.length);
+  startQuiz(currentFile, currentExam, currentSection, sessionQs.length, lastSessionQuestionIds);
+}
+
+function resetQuestionHistory() {
+  const ok = confirm('\u51fa\u984c\u5c65\u6b74\u3092\u30ea\u30bb\u30c3\u30c8\u3057\u307e\u3059\u304b\uff1f');
+  if (!ok) return;
+  try {
+    localStorage.removeItem(QUESTION_STATS_KEY);
+    lastSessionQuestionIds = [];
+    alert('\u51fa\u984c\u5c65\u6b74\u3092\u30ea\u30bb\u30c3\u30c8\u3057\u307e\u3057\u305f\u3002');
+  } catch (_) {
+    alert('\u5c65\u6b74\u306e\u30ea\u30bb\u30c3\u30c8\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002');
+  }
 }
 
 /* ══════════════════════════════════════════
