@@ -1,0 +1,366 @@
+{
+  "genre": "ファイル・例外・テスト",
+  "exam": "Python試験",
+  "questions": [
+    {
+      "id": "py_io_001",
+      "question": "テキストファイルを読み取り専用で開くモードはどれか。",
+      "choices": [
+        "w",
+        "a",
+        "r",
+        "x"
+      ],
+      "answer": 2,
+      "explanation": "r は読み取り専用。"
+    },
+    {
+      "id": "py_io_002",
+      "question": "追記モードはどれか。",
+      "choices": [
+        "w",
+        "a",
+        "r+",
+        "x"
+      ],
+      "answer": 1,
+      "explanation": "a は末尾へ追記する。"
+    },
+    {
+      "id": "py_io_003",
+      "question": "with open(...)を使う利点はどれか。",
+      "choices": [
+        "速度向上のみ",
+        "自動でcloseされる",
+        "エラー無効化",
+        "常に書込専用"
+      ],
+      "answer": 1,
+      "explanation": "コンテキスト終了時にクローズされる。"
+    },
+    {
+      "id": "py_io_004",
+      "question": "UTF-8を指定して開く書き方はどれか。",
+      "choices": [
+        "open(p,'r',codec='utf8')",
+        "open(p,'r',encoding='utf-8')",
+        "open(p,'r',charset='utf-8')",
+        "open(p,'r',utf8=True)"
+      ],
+      "answer": 1,
+      "explanation": "encoding引数で文字コードを指定する。"
+    },
+    {
+      "id": "py_io_005",
+      "question": "readline()の動作として適切なものはどれか。",
+      "choices": [
+        "全行読み込む",
+        "1行ずつ読み込む",
+        "1文字読む",
+        "末尾に追記"
+      ],
+      "answer": 1,
+      "explanation": "readlineは1行取得。"
+    },
+    {
+      "id": "py_io_006",
+      "question": "readlines()の戻り値はどれか。",
+      "choices": [
+        "文字列1つ",
+        "行文字列のリスト",
+        "整数",
+        "辞書"
+      ],
+      "answer": 1,
+      "explanation": "各行を要素とするリスト。"
+    },
+    {
+      "id": "py_io_007",
+      "question": "バイナリ書込モードはどれか。",
+      "choices": [
+        "wb",
+        "wt",
+        "rb",
+        "ab+"
+      ],
+      "answer": 0,
+      "explanation": "wb はバイナリ書込み。"
+    },
+    {
+      "id": "py_io_008",
+      "question": "jsonファイルを読み込む関数はどれか。",
+      "choices": [
+        "json.dump",
+        "json.loads",
+        "json.load",
+        "json.dumps"
+      ],
+      "answer": 2,
+      "explanation": "load はファイルオブジェクトから読む。"
+    },
+    {
+      "id": "py_io_009",
+      "question": "json.dump(obj, f)の説明として正しいものはどれか。",
+      "choices": [
+        "JSON文字列を返す",
+        "ファイルへJSONとして書き出す",
+        "ファイル削除",
+        "辞書作成"
+      ],
+      "answer": 1,
+      "explanation": "dumpはファイルへ出力する。"
+    },
+    {
+      "id": "py_io_010",
+      "question": "例外捕捉の構文として正しいものはどれか。",
+      "choices": [
+        "catch ValueError:",
+        "except ValueError:",
+        "rescue ValueError:",
+        "error ValueError:"
+      ],
+      "answer": 1,
+      "explanation": "except で捕捉する。"
+    },
+    {
+      "id": "py_io_011",
+      "question": "finally節の役割として適切なものはどれか。",
+      "choices": [
+        "例外時のみ実行",
+        "成功時のみ実行",
+        "成否に関わらず後始末を実行",
+        "任意で無視"
+      ],
+      "answer": 2,
+      "explanation": "クリーンアップ処理を置く。"
+    },
+    {
+      "id": "py_io_012",
+      "question": "例外を明示的に送出する文はどれか。",
+      "choices": [
+        "raise",
+        "throw",
+        "except",
+        "error"
+      ],
+      "answer": 0,
+      "explanation": "raiseで例外を発生させる。"
+    },
+    {
+      "id": "py_io_013",
+      "question": "except Exception as e の e は何を表すか。",
+      "choices": [
+        "ファイル名",
+        "捕捉した例外オブジェクト",
+        "関数名",
+        "行番号"
+      ],
+      "answer": 1,
+      "explanation": "例外情報を参照できる。"
+    },
+    {
+      "id": "py_io_014",
+      "question": "複数例外をまとめて捕捉する正しい書式はどれか。",
+      "choices": [
+        "except ValueError, TypeError:",
+        "except (ValueError, TypeError):",
+        "except [ValueError, TypeError]:",
+        "except ValueError|TypeError:"
+      ],
+      "answer": 1,
+      "explanation": "タプルで指定する。"
+    },
+    {
+      "id": "py_io_015",
+      "question": "存在確認してから削除する安全な書き方はどれか。",
+      "choices": [
+        "os.remove(path)",
+        "if os.path.exists(path): os.remove(path)",
+        "delete(path)",
+        "path.unlink(force=True)"
+      ],
+      "answer": 1,
+      "explanation": "存在しない場合の例外を避けやすい。"
+    },
+    {
+      "id": "py_io_016",
+      "question": "pathlibでファイルを削除するメソッドはどれか。",
+      "choices": [
+        "remove",
+        "delete",
+        "unlink",
+        "erase"
+      ],
+      "answer": 2,
+      "explanation": "Path.unlink() を使う。"
+    },
+    {
+      "id": "py_io_017",
+      "question": "WindowsでCSV書込み時に空行問題を避ける指定はどれか。",
+      "choices": [
+        "encoding='utf-8'",
+        "newline=''",
+        "mode='rb'",
+        "dialect='unix'"
+      ],
+      "answer": 1,
+      "explanation": "open時に newline='' を指定する。"
+    },
+    {
+      "id": "py_io_018",
+      "question": "標準入力から1行受け取る関数はどれか。",
+      "choices": [
+        "read",
+        "scan",
+        "input",
+        "gets"
+      ],
+      "answer": 2,
+      "explanation": "input() が標準入力を読む。"
+    },
+    {
+      "id": "py_io_019",
+      "question": "標準エラー出力へ出す書き方はどれか。",
+      "choices": [
+        "print(msg, file=sys.stderr)",
+        "print.stderr(msg)",
+        "stderr.print(msg)",
+        "sys.error(msg)"
+      ],
+      "answer": 0,
+      "explanation": "printのfile引数で切替える。"
+    },
+    {
+      "id": "py_io_020",
+      "question": "logging.exception()の特徴として適切なものはどれか。",
+      "choices": [
+        "例外情報付きでログ出力",
+        "例外を無効化",
+        "ログ削除",
+        "DEBUG固定"
+      ],
+      "answer": 0,
+      "explanation": "トレースバック情報を含めて記録する。"
+    },
+    {
+      "id": "py_io_021",
+      "question": "unittestでテストケース基底クラスはどれか。",
+      "choices": [
+        "unittest.Test",
+        "unittest.Case",
+        "unittest.TestCase",
+        "unittest.BaseCase"
+      ],
+      "answer": 2,
+      "explanation": "TestCase を継承してテストを書く。"
+    },
+    {
+      "id": "py_io_022",
+      "question": "unittestで等価比較に使うメソッドはどれか。",
+      "choices": [
+        "assertEqual",
+        "assertSame",
+        "assertEq",
+        "assertIdentity"
+      ],
+      "answer": 0,
+      "explanation": "期待値と実測値の比較に使う。"
+    },
+    {
+      "id": "py_io_023",
+      "question": "指定例外の発生を検証する書き方はどれか。",
+      "choices": [
+        "with self.assertRaise(...):",
+        "with self.assertRaises(...):",
+        "with self.raises(...):",
+        "with raise.assert(...):"
+      ],
+      "answer": 1,
+      "explanation": "assertRaisesをコンテキストで使う。"
+    },
+    {
+      "id": "py_io_024",
+      "question": "contextlib.suppress(FileNotFoundError)の用途はどれか。",
+      "choices": [
+        "すべての例外を隠す",
+        "対象例外のみ握りつぶして続行",
+        "ログを止める",
+        "強制終了"
+      ],
+      "answer": 1,
+      "explanation": "特定例外だけ無視したいときに使う。"
+    },
+    {
+      "id": "py_io_025",
+      "question": "shutil.move(src, dst)の説明として正しいものはどれか。",
+      "choices": [
+        "コピーのみ",
+        "移動する",
+        "圧縮する",
+        "暗号化する"
+      ],
+      "answer": 1,
+      "explanation": "ファイル/ディレクトリを移動する。"
+    },
+    {
+      "id": "py_io_026",
+      "question": "pickle利用時の注意として適切なものはどれか。",
+      "choices": [
+        "常に安全",
+        "信頼できないデータは読み込まない",
+        "JSONより可読性が高い",
+        "文字列専用"
+      ],
+      "answer": 1,
+      "explanation": "任意コード実行リスクがあるため入力元を限定する。"
+    },
+    {
+      "id": "py_io_027",
+      "question": "TemporaryDirectory()の利点はどれか。",
+      "choices": [
+        "常に永続化",
+        "終了時に自動削除",
+        "Windows専用",
+        "圧縮専用"
+      ],
+      "answer": 1,
+      "explanation": "with終了で一時ディレクトリを片付ける。"
+    },
+    {
+      "id": "py_io_028",
+      "question": "open(..., 'x')の意味はどれか。",
+      "choices": [
+        "追記",
+        "新規作成専用(存在時エラー)",
+        "読取専用",
+        "バイナリ専用"
+      ],
+      "answer": 1,
+      "explanation": "既存ファイルを誤上書きしにくい。"
+    },
+    {
+      "id": "py_io_029",
+      "question": "バッファを明示的に書き出すメソッドはどれか。",
+      "choices": [
+        "flush",
+        "commit",
+        "sync",
+        "save"
+      ],
+      "answer": 0,
+      "explanation": "flushでバッファ内容を出力先へ送る。"
+    },
+    {
+      "id": "py_io_030",
+      "question": "トランザクション的に安全に更新する方針として適切なものはどれか。",
+      "choices": [
+        "直接上書きのみ",
+        "一時ファイルへ書いてから置換",
+        "失敗時は無視",
+        "読み取り専用で開く"
+      ],
+      "answer": 1,
+      "explanation": "中断時の破損リスクを減らせる。"
+    }
+  ]
+}

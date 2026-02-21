@@ -1,0 +1,366 @@
+{
+  "genre": "標準ライブラリ",
+  "exam": "Python試験",
+  "questions": [
+    {
+      "id": "py_lib_001",
+      "question": "日付時刻を扱う標準ライブラリはどれか。",
+      "choices": [
+        "datetime",
+        "timelib",
+        "calendarx",
+        "clock"
+      ],
+      "answer": 0,
+      "explanation": "datetime が基本。"
+    },
+    {
+      "id": "py_lib_002",
+      "question": "JSON文字列をPythonオブジェクトへ変換する関数はどれか。",
+      "choices": [
+        "json.dump",
+        "json.loads",
+        "json.load",
+        "json.dumps"
+      ],
+      "answer": 1,
+      "explanation": "loads は文字列入力。"
+    },
+    {
+      "id": "py_lib_003",
+      "question": "PythonオブジェクトをJSON文字列にする関数はどれか。",
+      "choices": [
+        "json.dump",
+        "json.loads",
+        "json.load",
+        "json.dumps"
+      ],
+      "answer": 3,
+      "explanation": "dumps は文字列出力。"
+    },
+    {
+      "id": "py_lib_004",
+      "question": "正規表現検索に使う標準モジュールはどれか。",
+      "choices": [
+        "regex",
+        "re",
+        "pattern",
+        "regexp"
+      ],
+      "answer": 1,
+      "explanation": "標準は re。"
+    },
+    {
+      "id": "py_lib_005",
+      "question": "ファイルパスをオブジェクト指向で扱うモジュールはどれか。",
+      "choices": [
+        "os.path",
+        "pathlib",
+        "filepath",
+        "dirlib"
+      ],
+      "answer": 1,
+      "explanation": "pathlib.Path で操作できる。"
+    },
+    {
+      "id": "py_lib_006",
+      "question": "コマンドライン引数解析に使う標準モジュールはどれか。",
+      "choices": [
+        "getopt2",
+        "argparse",
+        "cli",
+        "params"
+      ],
+      "answer": 1,
+      "explanation": "argparse が標準。"
+    },
+    {
+      "id": "py_lib_007",
+      "question": "CSV読み書きに使う標準モジュールはどれか。",
+      "choices": [
+        "csv",
+        "table",
+        "spread",
+        "sheet"
+      ],
+      "answer": 0,
+      "explanation": "csv モジュールを使う。"
+    },
+    {
+      "id": "py_lib_008",
+      "question": "ハッシュ計算に使う標準モジュールはどれか。",
+      "choices": [
+        "digest",
+        "crypto",
+        "hashlib",
+        "checksum"
+      ],
+      "answer": 2,
+      "explanation": "SHA-256等は hashlib。"
+    },
+    {
+      "id": "py_lib_009",
+      "question": "Base64エンコードに使う標準モジュールはどれか。",
+      "choices": [
+        "binascii",
+        "base64",
+        "codec64",
+        "ascii64"
+      ],
+      "answer": 1,
+      "explanation": "base64 が基本。"
+    },
+    {
+      "id": "py_lib_010",
+      "question": "一時ファイル生成に使う標準モジュールはどれか。",
+      "choices": [
+        "tmp",
+        "temp",
+        "tempfile",
+        "scratch"
+      ],
+      "answer": 2,
+      "explanation": "tempfile で安全に作成する。"
+    },
+    {
+      "id": "py_lib_011",
+      "question": "ログ出力をレベル管理する標準モジュールはどれか。",
+      "choices": [
+        "trace",
+        "logging",
+        "logger",
+        "syslogx"
+      ],
+      "answer": 1,
+      "explanation": "logging はINFO/ERROR等を扱える。"
+    },
+    {
+      "id": "py_lib_012",
+      "question": "itertools.product(A,B)の意味はどれか。",
+      "choices": [
+        "共通部分",
+        "直積(全組合せ)",
+        "差集合",
+        "重複削除"
+      ],
+      "answer": 1,
+      "explanation": "全組合せを生成する。"
+    },
+    {
+      "id": "py_lib_013",
+      "question": "itertools.chain(a,b)の用途はどれか。",
+      "choices": [
+        "和集合",
+        "複数イテラブルの連結",
+        "並列化",
+        "辞書化"
+      ],
+      "answer": 1,
+      "explanation": "順に要素を取り出せる。"
+    },
+    {
+      "id": "py_lib_014",
+      "question": "functools.partialの主な用途はどれか。",
+      "choices": [
+        "一部引数を固定した関数を作る",
+        "関数を削除",
+        "例外を隠す",
+        "並列実行"
+      ],
+      "answer": 0,
+      "explanation": "同じ引数を何度も渡す場面で有用。"
+    },
+    {
+      "id": "py_lib_015",
+      "question": "functools.lru_cacheの効果として適切なものはどれか。",
+      "choices": [
+        "ログ保存",
+        "関数結果のキャッシュ",
+        "型検査",
+        "並べ替え"
+      ],
+      "answer": 1,
+      "explanation": "同一入力の再計算を抑える。"
+    },
+    {
+      "id": "py_lib_016",
+      "question": "operator.itemgetter(1)の主な用途はどれか。",
+      "choices": [
+        "要素削除",
+        "添字1の要素を取り出す関数生成",
+        "型変換",
+        "和集合"
+      ],
+      "answer": 1,
+      "explanation": "sortedのkey等で使える。"
+    },
+    {
+      "id": "py_lib_017",
+      "question": "decimal.Decimalを使う理由として適切なものはどれか。",
+      "choices": [
+        "速度最優先",
+        "10進小数の誤差を抑えた計算",
+        "文字列比較",
+        "画像処理"
+      ],
+      "answer": 1,
+      "explanation": "金額計算などで有用。"
+    },
+    {
+      "id": "py_lib_018",
+      "question": "fractions.Fraction(1,3)の特徴はどれか。",
+      "choices": [
+        "浮動小数で保持",
+        "有理数として厳密表現",
+        "文字列化専用",
+        "整数化する"
+      ],
+      "answer": 1,
+      "explanation": "分数のまま演算できる。"
+    },
+    {
+      "id": "py_lib_019",
+      "question": "uuid.uuid4()の用途はどれか。",
+      "choices": [
+        "連番生成",
+        "ランダムUUID生成",
+        "日付作成",
+        "暗号鍵生成"
+      ],
+      "answer": 1,
+      "explanation": "識別子として衝突しにくい値を作れる。"
+    },
+    {
+      "id": "py_lib_020",
+      "question": "subprocess.runの主な用途はどれか。",
+      "choices": [
+        "HTTP通信",
+        "外部コマンド実行",
+        "画像表示",
+        "DB接続"
+      ],
+      "answer": 1,
+      "explanation": "シェルコマンドの実行制御に使う。"
+    },
+    {
+      "id": "py_lib_021",
+      "question": "glob('*.py')の説明として正しいものはどれか。",
+      "choices": [
+        "正規表現検索",
+        "パターン一致するファイル一覧取得",
+        "CSV解析",
+        "圧縮"
+      ],
+      "answer": 1,
+      "explanation": "ワイルドカードでファイル探索する。"
+    },
+    {
+      "id": "py_lib_022",
+      "question": "shutil.copy(src, dst)の効果はどれか。",
+      "choices": [
+        "移動する",
+        "コピーする",
+        "削除する",
+        "圧縮する"
+      ],
+      "answer": 1,
+      "explanation": "コピーして元ファイルは残る。"
+    },
+    {
+      "id": "py_lib_023",
+      "question": "os.environの用途はどれか。",
+      "choices": [
+        "時刻取得",
+        "環境変数の参照・設定",
+        "例外記録",
+        "暗号化"
+      ],
+      "answer": 1,
+      "explanation": "実行環境の設定値を扱う。"
+    },
+    {
+      "id": "py_lib_024",
+      "question": "urllib.parse.urlencodeの主用途はどれか。",
+      "choices": [
+        "HTML整形",
+        "クエリ文字列生成",
+        "TLS通信",
+        "DNS解決"
+      ],
+      "answer": 1,
+      "explanation": "辞書等からクエリを作る。"
+    },
+    {
+      "id": "py_lib_025",
+      "question": "pathlibで存在確認に使うメソッドはどれか。",
+      "choices": [
+        "exists()",
+        "isthere()",
+        "check()",
+        "present()"
+      ],
+      "answer": 0,
+      "explanation": "Path.exists()で存在確認できる。"
+    },
+    {
+      "id": "py_lib_026",
+      "question": "statistics.meanの説明として適切なものはどれか。",
+      "choices": [
+        "中央値",
+        "平均値",
+        "最頻値",
+        "分散"
+      ],
+      "answer": 1,
+      "explanation": "mean は算術平均。"
+    },
+    {
+      "id": "py_lib_027",
+      "question": "collections.defaultdict(list)の利点はどれか。",
+      "choices": [
+        "キー未存在時に空リストを自動生成",
+        "重複禁止",
+        "順序固定",
+        "型固定"
+      ],
+      "answer": 0,
+      "explanation": "初期化コードを簡潔にできる。"
+    },
+    {
+      "id": "py_lib_028",
+      "question": "heapq.heappush/heappopの用途はどれか。",
+      "choices": [
+        "連結リスト",
+        "ヒープ(優先度付きキュー)",
+        "正規表現",
+        "JSON"
+      ],
+      "answer": 1,
+      "explanation": "最小要素を効率よく取り出せる。"
+    },
+    {
+      "id": "py_lib_029",
+      "question": "random.sample(pop, k)の説明として正しいものはどれか。",
+      "choices": [
+        "重複あり抽出",
+        "重複なし抽出",
+        "常に先頭k件",
+        "常に同一結果"
+      ],
+      "answer": 1,
+      "explanation": "sampleは重複なし抽出。"
+    },
+    {
+      "id": "py_lib_030",
+      "question": "typing.Optional[int]の意味はどれか。",
+      "choices": [
+        "intのみ",
+        "intまたはNone",
+        "Noneのみ",
+        "任意型"
+      ],
+      "answer": 1,
+      "explanation": "Optional[T]は T | None を表す。"
+    }
+  ]
+}
