@@ -41,14 +41,24 @@
     {
       "id": "en_conv_004",
       "question": "A: \"Can I take your order?\"\nB: \"Yes, ___ the pasta, please.\"\n\nWhich fits the blank?",
-      "choices": ["I'd like", "I want have", "I having", "I would wanting"],
+      "choices": [
+        "I'd like",
+        "I want have",
+        "I having",
+        "I would wanting"
+      ],
       "answer": 0,
       "explanation": "レストランで注文するときは「I'd like〜（〜をお願いします）」が最も自然です。「I'd like the pasta, please.」がきれいな表現です。「I want have」「I having」は文法的に誤りです。"
     },
     {
       "id": "en_conv_005",
       "question": "A: \"What time does the movie start?\"\nB: \"It starts ___ 7:30.\"\n\nWhich is correct?",
-      "choices": ["in", "on", "at", "by"],
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
       "answer": 2,
       "explanation": "具体的な時刻には前置詞 at を使います。「It starts at 7:30.（7時30分に始まります）」が正解です。at noon（正午に）、at midnight（深夜に）も同様です。"
     },
@@ -127,7 +137,12 @@
     {
       "id": "en_conv_012",
       "question": "A: \"I'm thinking of taking up a new hobby.\"\nB: \"Really? ___ have you thought about?\"\n\nWhich fits the blank?",
-      "choices": ["How", "What", "Who", "Where"],
+      "choices": [
+        "How",
+        "What",
+        "Who",
+        "Where"
+      ],
       "answer": 1,
       "explanation": "「What have you thought about?（何を考えていますか？）」が正解です。趣味の種類（what）を尋ねる文脈です。How「どのように」、Who「誰」、Where「どこ」は文脈に合いません。"
     },
@@ -158,21 +173,36 @@
     {
       "id": "en_conv_015",
       "question": "A: \"What's the weather like today?\"\nB: \"It's ___ and warm.\"\n\nWhich word fits if it's a nice, clear day?",
-      "choices": ["raining", "snowing", "cloudy", "sunny"],
+      "choices": [
+        "raining",
+        "snowing",
+        "cloudy",
+        "sunny"
+      ],
       "answer": 3,
       "explanation": "「warm（暖かい）」と組み合わせて「良い天気」を表すのは「sunny（晴れ）」が最も自然です。「sunny and warm（晴れて暖かい）」はよく使われる天気の表現です。"
     },
     {
       "id": "en_conv_016",
       "question": "A: \"Are you free this weekend?\"\nB: \"I'm ___ I have other plans.\"\n\nWhich fills the blank to politely decline?",
-      "choices": ["sure", "afraid", "happy", "glad"],
+      "choices": [
+        "sure",
+        "afraid",
+        "happy",
+        "glad"
+      ],
       "answer": 1,
       "explanation": "「I'm afraid（残念ながら・恐れ入りますが）」は丁寧に断ったり、悪いニュースを伝えたりするときの前置き表現です。「I'm afraid I have other plans.（残念ながら予定があります）」が正解です。"
     },
     {
       "id": "en_conv_017",
       "question": "A: \"How long have you been studying English?\"\nB: \"___ three years.\"\n\nWhich fits correctly?",
-      "choices": ["Since", "During", "For", "From"],
+      "choices": [
+        "Since",
+        "During",
+        "For",
+        "From"
+      ],
       "answer": 2,
       "explanation": "期間（3年間）を表すときは for を使います。「For three years（3年間）」が正解。since は起点（since 2020）を表します。「For vs Since」の区別は頻出事項です。"
     },
@@ -211,6 +241,5766 @@
       ],
       "answer": 1,
       "explanation": "「keep in touch」は「連絡を取り合う・繋がり続ける」という意味のイディオムです。別れ際によく使われる表現で、「Stay in touch」とも言います。"
+    },
+    {
+      "id": "en_conv_021",
+      "question": "How do you greet someone for the first time?",
+      "choices": [
+        "Nice to meet you!",
+        "Good to see you!",
+        "How are you?",
+        "What's up?"
+      ],
+      "answer": 0,
+      "explanation": "Nice to meet you! が初対面の挨拶"
+    },
+    {
+      "id": "en_conv_022",
+      "question": "What do you say when you don't understand?",
+      "choices": [
+        "Could you say that again?",
+        "What?",
+        "Huh?",
+        "Repeat."
+      ],
+      "answer": 0,
+      "explanation": "Could you say that again? が丁寧な聞き返し"
+    },
+    {
+      "id": "en_conv_023",
+      "question": "How do you excuse yourself from a conversation?",
+      "choices": [
+        "Excuse me, I need to get going.",
+        "Bye.",
+        "I'm leaving.",
+        "I have to go."
+      ],
+      "answer": 0,
+      "explanation": "Excuse me, I need to get going が丁寧な退席"
+    },
+    {
+      "id": "en_conv_024",
+      "question": "How do you introduce a friend?",
+      "choices": [
+        "This is my friend, [name].",
+        "Meet my friend.",
+        "Here is [name].",
+        "[Name] is my friend."
+      ],
+      "answer": 0,
+      "explanation": "This is my friend, [name] が自然な紹介"
+    },
+    {
+      "id": "en_conv_025",
+      "question": "What do you say when someone helps you?",
+      "choices": [
+        "Thank you so much, I really appreciate it.",
+        "Thanks.",
+        "OK.",
+        "Cool."
+      ],
+      "answer": 0,
+      "explanation": "Thank you so much, I really appreciate it が最も丁寧"
+    },
+    {
+      "id": "en_conv_026",
+      "question": "How do you ask someone's name?",
+      "choices": [
+        "May I ask your name?",
+        "What's your name?",
+        "Name?",
+        "Who are you?"
+      ],
+      "answer": 0,
+      "explanation": "May I ask your name? が最も丁寧"
+    },
+    {
+      "id": "en_conv_027",
+      "question": "What do you say when you're late?",
+      "choices": [
+        "I'm so sorry I'm late.",
+        "I'm late.",
+        "Sorry.",
+        "Late again."
+      ],
+      "answer": 0,
+      "explanation": "I'm so sorry I'm late が最も丁寧な謝罪"
+    },
+    {
+      "id": "en_conv_028",
+      "question": "How do you compliment someone's work?",
+      "choices": [
+        "You did a fantastic job!",
+        "Good work.",
+        "Nice.",
+        "Not bad."
+      ],
+      "answer": 0,
+      "explanation": "You did a fantastic job! が最も励みになる褒め言葉"
+    },
+    {
+      "id": "en_conv_029",
+      "question": "How do you ask for someone's contact information?",
+      "choices": [
+        "Could I have your contact details?",
+        "Give me your number.",
+        "Number?",
+        "Contact?"
+      ],
+      "answer": 0,
+      "explanation": "Could I have your contact details? が丁寧"
+    },
+    {
+      "id": "en_conv_030",
+      "question": "What do you say to start a conversation with a stranger?",
+      "choices": [
+        "Lovely weather today, isn't it?",
+        "Hi.",
+        "Talk to me.",
+        "Nice day."
+      ],
+      "answer": 0,
+      "explanation": "Lovely weather today, isn't it? が典型的な会話の糸口"
+    },
+    {
+      "id": "en_conv_031",
+      "question": "How do you express sympathy?",
+      "choices": [
+        "I'm so sorry to hear that.",
+        "That's bad.",
+        "Oh no.",
+        "Too bad."
+      ],
+      "answer": 0,
+      "explanation": "I'm so sorry to hear that が最も共感的"
+    },
+    {
+      "id": "en_conv_032",
+      "question": "What do you say to show interest?",
+      "choices": [
+        "That sounds really interesting! Tell me more.",
+        "Interesting.",
+        "OK.",
+        "Go on."
+      ],
+      "answer": 0,
+      "explanation": "That sounds really interesting! Tell me more が最も積極的"
+    },
+    {
+      "id": "en_conv_033",
+      "question": "How do you politely change the subject?",
+      "choices": [
+        "By the way, have you heard about...?",
+        "Let's talk about something else.",
+        "New topic.",
+        "Different subject."
+      ],
+      "answer": 0,
+      "explanation": "By the way が自然な話題転換"
+    },
+    {
+      "id": "en_conv_034",
+      "question": "What do you say when you agree strongly?",
+      "choices": [
+        "Absolutely! I couldn't agree more.",
+        "Yes.",
+        "I agree.",
+        "Sure."
+      ],
+      "answer": 0,
+      "explanation": "Absolutely! I couldn't agree more が最も強い同意"
+    },
+    {
+      "id": "en_conv_035",
+      "question": "How do you politely express doubt?",
+      "choices": [
+        "I'm not entirely sure about that.",
+        "That's wrong.",
+        "I doubt it.",
+        "No."
+      ],
+      "answer": 0,
+      "explanation": "I'm not entirely sure about that が最も丁寧な疑念表現"
+    },
+    {
+      "id": "en_conv_036",
+      "question": "What do you say when you want to think about something?",
+      "choices": [
+        "Let me think about that.",
+        "Maybe.",
+        "I don't know.",
+        "Hmm."
+      ],
+      "answer": 0,
+      "explanation": "Let me think about that が自然"
+    },
+    {
+      "id": "en_conv_037",
+      "question": "How do you ask for someone's opinion?",
+      "choices": [
+        "What do you think about this?",
+        "Opinion?",
+        "Tell me.",
+        "Your thoughts?"
+      ],
+      "answer": 0,
+      "explanation": "What do you think about this? が自然"
+    },
+    {
+      "id": "en_conv_038",
+      "question": "What do you say when you offer help?",
+      "choices": [
+        "Is there anything I can do to help?",
+        "Need help?",
+        "I can help.",
+        "Help?"
+      ],
+      "answer": 0,
+      "explanation": "Is there anything I can do to help? が最も丁寧"
+    },
+    {
+      "id": "en_conv_039",
+      "question": "How do you end a phone conversation?",
+      "choices": [
+        "It was great talking with you. Take care!",
+        "Bye.",
+        "OK goodbye.",
+        "Hanging up."
+      ],
+      "answer": 0,
+      "explanation": "It was great talking with you. Take care! が丁寧な締め"
+    },
+    {
+      "id": "en_conv_040",
+      "question": "What do you say when you meet someone you know?",
+      "choices": [
+        "It's great to see you again!",
+        "Oh hi.",
+        "Hey.",
+        "Long time."
+      ],
+      "answer": 0,
+      "explanation": "It's great to see you again! が最も温かい再会の挨拶"
+    },
+    {
+      "id": "en_conv_041",
+      "question": "How do you ask for directions?",
+      "choices": [
+        "Excuse me, could you tell me how to get to...?",
+        "Where is...?",
+        "How do I get to...?",
+        "Direction to...?"
+      ],
+      "answer": 0,
+      "explanation": "Excuse me, could you tell me が最も丁寧"
+    },
+    {
+      "id": "en_conv_042",
+      "question": "What do you say when you don't know the answer?",
+      "choices": [
+        "I'm afraid I don't know, but I can find out.",
+        "I don't know.",
+        "No idea.",
+        "Can't help."
+      ],
+      "answer": 0,
+      "explanation": "I'm afraid I don't know, but I can find out が最もプロフェッショナル"
+    },
+    {
+      "id": "en_conv_043",
+      "question": "How do you express excitement?",
+      "choices": [
+        "That's amazing! I'm so excited!",
+        "Wow.",
+        "Cool.",
+        "Nice."
+      ],
+      "answer": 0,
+      "explanation": "That's amazing! I'm so excited! が最も感情豊か"
+    },
+    {
+      "id": "en_conv_044",
+      "question": "What do you say when you want to leave a party?",
+      "choices": [
+        "I've had a wonderful time, but I'm afraid I have to leave now.",
+        "I'm going.",
+        "Bye.",
+        "I need to leave."
+      ],
+      "answer": 0,
+      "explanation": "I've had a wonderful time, but が最も丁寧"
+    },
+    {
+      "id": "en_conv_045",
+      "question": "How do you ask someone to wait?",
+      "choices": [
+        "Would you mind waiting just a moment?",
+        "Wait.",
+        "Hold on.",
+        "One second."
+      ],
+      "answer": 0,
+      "explanation": "Would you mind waiting が最も丁寧"
+    },
+    {
+      "id": "en_conv_046",
+      "question": "What do you say when someone is upset?",
+      "choices": [
+        "I can see you're upset. Would you like to talk about it?",
+        "Calm down.",
+        "Don't be upset.",
+        "What's wrong?"
+      ],
+      "answer": 0,
+      "explanation": "I can see you're upset. Would you like to talk が最も共感的"
+    },
+    {
+      "id": "en_conv_047",
+      "question": "How do you decline an invitation politely?",
+      "choices": [
+        "Thank you for the invitation, but I won't be able to make it.",
+        "No thanks.",
+        "Can't come.",
+        "I'm busy."
+      ],
+      "answer": 0,
+      "explanation": "Thank you for the invitation, but が最も丁寧"
+    },
+    {
+      "id": "en_conv_048",
+      "question": "What do you say when you want to confirm plans?",
+      "choices": [
+        "Just checking—are we still on for...?",
+        "Still happening?",
+        "Confirmed?",
+        "Are we meeting?"
+      ],
+      "answer": 0,
+      "explanation": "Just checking—are we still on for が自然"
+    },
+    {
+      "id": "en_conv_049",
+      "question": "How do you apologize for a misunderstanding?",
+      "choices": [
+        "I'm sorry for the misunderstanding. Let me clarify.",
+        "Sorry I was wrong.",
+        "My mistake.",
+        "My bad."
+      ],
+      "answer": 0,
+      "explanation": "I'm sorry for the misunderstanding. Let me clarify が最も丁寧"
+    },
+    {
+      "id": "en_conv_050",
+      "question": "What do you say when you want to include someone in a conversation?",
+      "choices": [
+        "[Name], what do you think about this?",
+        "Hey you.",
+        "Include this person.",
+        "Join us."
+      ],
+      "answer": 0,
+      "explanation": "[Name], what do you think? が自然な参加の促し"
+    },
+    {
+      "id": "en_conv_051",
+      "question": "How do you ask someone how they've been?",
+      "choices": [
+        "How have you been? I haven't seen you in a while!",
+        "How are you?",
+        "What's new?",
+        "Been good?"
+      ],
+      "answer": 0,
+      "explanation": "How have you been? が久しぶりの再会に自然"
+    },
+    {
+      "id": "en_conv_052",
+      "question": "What do you say to encourage someone?",
+      "choices": [
+        "You can do it! I believe in you.",
+        "Try harder.",
+        "Good luck.",
+        "Keep going."
+      ],
+      "answer": 0,
+      "explanation": "You can do it! I believe in you が最も励みになる"
+    },
+    {
+      "id": "en_conv_053",
+      "question": "How do you ask for a favor?",
+      "choices": [
+        "Could I ask you a favor?",
+        "Do this for me.",
+        "I need a favor.",
+        "Help me."
+      ],
+      "answer": 0,
+      "explanation": "Could I ask you a favor? が最も丁寧"
+    },
+    {
+      "id": "en_conv_054",
+      "question": "What do you say when you're confused?",
+      "choices": [
+        "I'm a bit confused. Could you explain that again?",
+        "What?",
+        "Huh?",
+        "I don't get it."
+      ],
+      "answer": 0,
+      "explanation": "I'm a bit confused. Could you explain が最も丁寧"
+    },
+    {
+      "id": "en_conv_055",
+      "question": "How do you express gratitude for a gift?",
+      "choices": [
+        "This is so thoughtful of you! Thank you so much.",
+        "Thanks.",
+        "I like it.",
+        "Nice gift."
+      ],
+      "answer": 0,
+      "explanation": "This is so thoughtful が最も心のこもった感謝"
+    },
+    {
+      "id": "en_conv_056",
+      "question": "What do you say when you meet someone's partner?",
+      "choices": [
+        "It's a pleasure to meet you. I've heard so much about you!",
+        "Hi.",
+        "Nice to meet you.",
+        "Hello there."
+      ],
+      "answer": 0,
+      "explanation": "It's a pleasure to meet you が最もフォーマル"
+    },
+    {
+      "id": "en_conv_057",
+      "question": "How do you ask to borrow something?",
+      "choices": [
+        "Would you mind if I borrowed...?",
+        "Can I borrow...?",
+        "Let me use...",
+        "Give me..."
+      ],
+      "answer": 0,
+      "explanation": "Would you mind if I borrowed が最も丁寧"
+    },
+    {
+      "id": "en_conv_058",
+      "question": "What do you say at the end of a meal?",
+      "choices": [
+        "That was delicious! Thank you for the meal.",
+        "It was OK.",
+        "Nice food.",
+        "Good meal."
+      ],
+      "answer": 0,
+      "explanation": "That was delicious! Thank you が最も感謝を示す"
+    },
+    {
+      "id": "en_conv_059",
+      "question": "How do you make plans with someone?",
+      "choices": [
+        "What are you up to this weekend? Would you like to...?",
+        "Let's meet.",
+        "Plans?",
+        "What are you doing?"
+      ],
+      "answer": 0,
+      "explanation": "What are you up to this weekend? Would you like to が最も自然"
+    },
+    {
+      "id": "en_conv_060",
+      "question": "What do you say when someone shares good news?",
+      "choices": [
+        "That's wonderful! Congratulations!",
+        "Good.",
+        "Nice.",
+        "Really?"
+      ],
+      "answer": 0,
+      "explanation": "That's wonderful! Congratulations! が最も温かい反応"
+    },
+    {
+      "id": "en_conv_061",
+      "question": "How do you ask if someone had a good time?",
+      "choices": [
+        "Did you enjoy yourself?",
+        "Fun?",
+        "How was it?",
+        "Good time?"
+      ],
+      "answer": 0,
+      "explanation": "Did you enjoy yourself? が最も自然"
+    },
+    {
+      "id": "en_conv_062",
+      "question": "What do you say to comfort someone?",
+      "choices": [
+        "I'm here for you if you need anything.",
+        "Don't worry.",
+        "It'll be fine.",
+        "Cheer up."
+      ],
+      "answer": 0,
+      "explanation": "I'm here for you が最も寄り添った表現"
+    },
+    {
+      "id": "en_conv_063",
+      "question": "How do you respond when complimented?",
+      "choices": [
+        "Thank you, that's very kind of you to say.",
+        "Thanks.",
+        "I know.",
+        "Not really."
+      ],
+      "answer": 0,
+      "explanation": "Thank you, that's very kind of you が最も丁寧"
+    },
+    {
+      "id": "en_conv_064",
+      "question": "What do you say when returning a call?",
+      "choices": [
+        "Hi, this is [name]. I'm returning your call.",
+        "You called?",
+        "Calling back.",
+        "I got your message."
+      ],
+      "answer": 0,
+      "explanation": "Hi, this is [name]. I'm returning your call が最も丁寧"
+    },
+    {
+      "id": "en_conv_065",
+      "question": "How do you start an email to a friend?",
+      "choices": [
+        "Hope you're doing well!",
+        "Hi.",
+        "Hey there.",
+        "Hello."
+      ],
+      "answer": 0,
+      "explanation": "Hope you're doing well! が最も温かいメール書き出し"
+    },
+    {
+      "id": "en_conv_066",
+      "question": "What do you say when you want to share news?",
+      "choices": [
+        "You'll never guess what happened!",
+        "I have news.",
+        "Listen to this.",
+        "Guess what?"
+      ],
+      "answer": 0,
+      "explanation": "You'll never guess what happened! が最も会話的"
+    },
+    {
+      "id": "en_conv_067",
+      "question": "How do you politely ask someone to lower their voice?",
+      "choices": [
+        "Could you keep it down a little, please?",
+        "Be quiet.",
+        "Lower your voice.",
+        "Shush."
+      ],
+      "answer": 0,
+      "explanation": "Could you keep it down a little, please? が最も丁寧"
+    },
+    {
+      "id": "en_conv_068",
+      "question": "What do you say when accepting an apology?",
+      "choices": [
+        "No worries at all. These things happen.",
+        "OK fine.",
+        "Whatever.",
+        "It's OK."
+      ],
+      "answer": 0,
+      "explanation": "No worries at all. These things happen が最も温かい受け入れ方"
+    },
+    {
+      "id": "en_conv_069",
+      "question": "How do you ask about someone's job?",
+      "choices": [
+        "What do you do for a living?",
+        "Job?",
+        "What's your work?",
+        "Occupation?"
+      ],
+      "answer": 0,
+      "explanation": "What do you do for a living? が最も自然"
+    },
+    {
+      "id": "en_conv_070",
+      "question": "What do you say when you bump into someone?",
+      "choices": [
+        "Oh, what a coincidence! How have you been?",
+        "Oh hi.",
+        "Hey!",
+        "Surprise!"
+      ],
+      "answer": 0,
+      "explanation": "Oh, what a coincidence! How have you been? が最も自然"
+    },
+    {
+      "id": "en_conv_071",
+      "question": "How do you ask for a recommendation?",
+      "choices": [
+        "Could you recommend a good...?",
+        "What's good?",
+        "Recommend something.",
+        "What do you suggest?"
+      ],
+      "answer": 0,
+      "explanation": "Could you recommend a good が最も丁寧"
+    },
+    {
+      "id": "en_conv_072",
+      "question": "What do you say when you want to check on someone?",
+      "choices": [
+        "Just wanted to check in and see how you're doing.",
+        "How are you?",
+        "Check-in.",
+        "Are you OK?"
+      ],
+      "answer": 0,
+      "explanation": "Just wanted to check in が最も温かい"
+    },
+    {
+      "id": "en_conv_073",
+      "question": "How do you express disbelief?",
+      "choices": [
+        "Are you serious? I can't believe it!",
+        "Really?",
+        "No way.",
+        "That's crazy."
+      ],
+      "answer": 0,
+      "explanation": "Are you serious? I can't believe it が最も会話的"
+    },
+    {
+      "id": "en_conv_074",
+      "question": "What do you say when you want to keep in touch?",
+      "choices": [
+        "Let's stay in touch! Here's my number.",
+        "Call me.",
+        "Stay in touch.",
+        "Contact me."
+      ],
+      "answer": 0,
+      "explanation": "Let's stay in touch! Here's my number が最も積極的"
+    },
+    {
+      "id": "en_conv_075",
+      "question": "How do you respond when asked 'How are you?'",
+      "choices": [
+        "I'm doing great, thanks for asking! How about you?",
+        "Fine.",
+        "Good.",
+        "OK."
+      ],
+      "answer": 0,
+      "explanation": "I'm doing great, thanks for asking! How about you? が最も会話的"
+    },
+    {
+      "id": "en_conv_076",
+      "question": "What do you say when you're running late?",
+      "choices": [
+        "I'm running a bit behind. I'll be there in about [X] minutes.",
+        "I'm late.",
+        "Coming soon.",
+        "Almost there."
+      ],
+      "answer": 0,
+      "explanation": "I'm running a bit behind が最も丁寧な連絡"
+    },
+    {
+      "id": "en_conv_077",
+      "question": "How do you ask if someone speaks English?",
+      "choices": [
+        "Do you speak English?",
+        "English?",
+        "Speak English?",
+        "English please?"
+      ],
+      "answer": 0,
+      "explanation": "Do you speak English? が最も自然"
+    },
+    {
+      "id": "en_conv_078",
+      "question": "What do you say at a birthday party?",
+      "choices": [
+        "Happy birthday! I hope your day is wonderful!",
+        "Happy birthday.",
+        "Congrats.",
+        "Good birthday."
+      ],
+      "answer": 0,
+      "explanation": "Happy birthday! I hope your day is wonderful! が最も心のこもった表現"
+    },
+    {
+      "id": "en_conv_079",
+      "question": "How do you ask someone to repeat something slower?",
+      "choices": [
+        "Could you speak a little more slowly, please?",
+        "Slower.",
+        "Speak slowly.",
+        "Again, slower."
+      ],
+      "answer": 0,
+      "explanation": "Could you speak a little more slowly, please? が最も丁寧"
+    },
+    {
+      "id": "en_conv_080",
+      "question": "What do you say when leaving someone's home?",
+      "choices": [
+        "Thank you so much for having me. I had a wonderful time.",
+        "Bye.",
+        "Thanks.",
+        "See you."
+      ],
+      "answer": 0,
+      "explanation": "Thank you so much for having me が最も礼儀正しい"
+    },
+    {
+      "id": "en_conv_081",
+      "question": "How do you express that you're nervous?",
+      "choices": [
+        "I have to admit, I'm feeling a bit nervous.",
+        "I'm nervous.",
+        "Scared.",
+        "Anxious."
+      ],
+      "answer": 0,
+      "explanation": "I have to admit, I'm feeling a bit nervous が最も会話的"
+    },
+    {
+      "id": "en_conv_082",
+      "question": "What do you say to start a speech?",
+      "choices": [
+        "Good evening, everyone. Thank you for being here tonight.",
+        "Hi.",
+        "Hello everyone.",
+        "Start."
+      ],
+      "answer": 0,
+      "explanation": "Good evening, everyone. Thank you for being here が最もフォーマル"
+    },
+    {
+      "id": "en_conv_083",
+      "question": "How do you ask about someone's weekend?",
+      "choices": [
+        "Did you have a good weekend?",
+        "Good weekend?",
+        "How was it?",
+        "Weekend?"
+      ],
+      "answer": 0,
+      "explanation": "Did you have a good weekend? が最も自然"
+    },
+    {
+      "id": "en_conv_084",
+      "question": "What do you say when you want to share a funny story?",
+      "choices": [
+        "You're going to love this! So, the funniest thing happened...",
+        "Funny story.",
+        "Listen to this.",
+        "This is hilarious."
+      ],
+      "answer": 0,
+      "explanation": "You're going to love this が最も会話的な導入"
+    },
+    {
+      "id": "en_conv_085",
+      "question": "How do you express that you're hungry?",
+      "choices": [
+        "I'm absolutely starving! I could really go for some food.",
+        "I'm hungry.",
+        "Food please.",
+        "Starving."
+      ],
+      "answer": 0,
+      "explanation": "I'm absolutely starving! が最も会話的"
+    },
+    {
+      "id": "en_conv_086",
+      "question": "What do you say when something unexpected happens?",
+      "choices": [
+        "Well, I certainly didn't see that coming!",
+        "Surprised.",
+        "Wow.",
+        "Unexpected!"
+      ],
+      "answer": 0,
+      "explanation": "I certainly didn't see that coming が最も自然な驚き表現"
+    },
+    {
+      "id": "en_conv_087",
+      "question": "How do you ask someone's age politely?",
+      "choices": [
+        "Do you mind me asking how old you are?",
+        "How old are you?",
+        "Age?",
+        "What's your age?"
+      ],
+      "answer": 0,
+      "explanation": "Do you mind me asking が最も丁寧"
+    },
+    {
+      "id": "en_conv_088",
+      "question": "What do you say when you want to split the bill?",
+      "choices": [
+        "Shall we split the bill?",
+        "You pay half.",
+        "Let's share.",
+        "Dutch treat?"
+      ],
+      "answer": 0,
+      "explanation": "Shall we split the bill? が最も礼儀正しい"
+    },
+    {
+      "id": "en_conv_089",
+      "question": "How do you express that you're tired?",
+      "choices": [
+        "I'm completely exhausted. It's been a long day!",
+        "Tired.",
+        "I'm sleepy.",
+        "So tired."
+      ],
+      "answer": 0,
+      "explanation": "I'm completely exhausted が最も会話的"
+    },
+    {
+      "id": "en_conv_090",
+      "question": "What do you say to wish someone good luck?",
+      "choices": [
+        "Good luck! I know you'll do great!",
+        "Good luck.",
+        "Best wishes.",
+        "You'll be fine."
+      ],
+      "answer": 0,
+      "explanation": "Good luck! I know you'll do great が最も励みになる"
+    },
+    {
+      "id": "en_conv_091",
+      "question": "How do you ask about someone's family?",
+      "choices": [
+        "How is your family doing?",
+        "Family OK?",
+        "How's home?",
+        "How are they?"
+      ],
+      "answer": 0,
+      "explanation": "How is your family doing? が最も自然"
+    },
+    {
+      "id": "en_conv_092",
+      "question": "What do you say when someone is crying?",
+      "choices": [
+        "It's OK. Take your time. I'm here.",
+        "Don't cry.",
+        "Stop crying.",
+        "What's wrong?"
+      ],
+      "answer": 0,
+      "explanation": "It's OK. Take your time. I'm here が最も寄り添った表現"
+    },
+    {
+      "id": "en_conv_093",
+      "question": "How do you ask about someone's plans?",
+      "choices": [
+        "Do you have any plans for...?",
+        "Plans?",
+        "What are you doing?",
+        "Busy?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have any plans for が最も自然"
+    },
+    {
+      "id": "en_conv_094",
+      "question": "What do you say when you're impressed?",
+      "choices": [
+        "I'm really impressed! That's incredible!",
+        "Wow.",
+        "Nice.",
+        "That's cool."
+      ],
+      "answer": 0,
+      "explanation": "I'm really impressed! が最も強い印象表現"
+    },
+    {
+      "id": "en_conv_095",
+      "question": "How do you politely leave a conversation?",
+      "choices": [
+        "It's been lovely chatting with you. I'll let you go now.",
+        "Bye.",
+        "Leaving now.",
+        "I'm done."
+      ],
+      "answer": 0,
+      "explanation": "It's been lovely chatting with you が最も礼儀正しい"
+    },
+    {
+      "id": "en_conv_096",
+      "question": "What do you say when you want someone's honest opinion?",
+      "choices": [
+        "I'd love to hear your honest thoughts on this.",
+        "Tell me the truth.",
+        "What do you really think?",
+        "Honest opinion?"
+      ],
+      "answer": 0,
+      "explanation": "I'd love to hear your honest thoughts が最も丁寧"
+    },
+    {
+      "id": "en_conv_097",
+      "question": "How do you express that you're happy?",
+      "choices": [
+        "I couldn't be happier right now!",
+        "I'm happy.",
+        "Very happy.",
+        "Great!"
+      ],
+      "answer": 0,
+      "explanation": "I couldn't be happier right now が最も会話的"
+    },
+    {
+      "id": "en_conv_098",
+      "question": "What do you say when you're overwhelmed?",
+      "choices": [
+        "I'm feeling a bit overwhelmed at the moment.",
+        "Too much.",
+        "I can't handle this.",
+        "Overwhelmed."
+      ],
+      "answer": 0,
+      "explanation": "I'm feeling a bit overwhelmed が最も誠実な表現"
+    },
+    {
+      "id": "en_conv_099",
+      "question": "How do you ask someone to explain something?",
+      "choices": [
+        "Could you walk me through that?",
+        "Explain.",
+        "Tell me how.",
+        "What do you mean?"
+      ],
+      "answer": 0,
+      "explanation": "Could you walk me through that が最も丁寧"
+    },
+    {
+      "id": "en_conv_100",
+      "question": "What do you say when you haven't seen someone in a long time?",
+      "choices": [
+        "It's been ages! How have you been?",
+        "Long time.",
+        "Haven't seen you.",
+        "Where have you been?"
+      ],
+      "answer": 0,
+      "explanation": "It's been ages! How have you been? が最も自然"
+    },
+    {
+      "id": "en_conv_101",
+      "question": "How do you ask about someone's hobbies?",
+      "choices": [
+        "What do you like to do in your free time?",
+        "Hobbies?",
+        "What do you do?",
+        "What are your interests?"
+      ],
+      "answer": 0,
+      "explanation": "What do you like to do in your free time? が最も自然"
+    },
+    {
+      "id": "en_conv_102",
+      "question": "What do you say to celebrate an achievement?",
+      "choices": [
+        "Congratulations! You must be so proud!",
+        "Congrats.",
+        "Well done.",
+        "Good job."
+      ],
+      "answer": 0,
+      "explanation": "Congratulations! You must be so proud が最も心のこもった祝福"
+    },
+    {
+      "id": "en_conv_103",
+      "question": "How do you start a conversation at a networking event?",
+      "choices": [
+        "Hi, I'm [name]. What brings you here today?",
+        "Hi, I'm [name].",
+        "Hello.",
+        "Nice event, right?"
+      ],
+      "answer": 0,
+      "explanation": "Hi, I'm [name]. What brings you here today? が最も会話を広げやすい"
+    },
+    {
+      "id": "en_conv_104",
+      "question": "What do you say when someone doesn't look well?",
+      "choices": [
+        "Are you feeling OK? You don't look quite yourself.",
+        "Are you sick?",
+        "You look bad.",
+        "Bad day?"
+      ],
+      "answer": 0,
+      "explanation": "Are you feeling OK? You don't look quite yourself が最も思いやりある表現"
+    },
+    {
+      "id": "en_conv_105",
+      "question": "How do you ask someone about their experience?",
+      "choices": [
+        "How was your experience with...?",
+        "How was it?",
+        "Good or bad?",
+        "Did you like it?"
+      ],
+      "answer": 0,
+      "explanation": "How was your experience with が最も具体的"
+    },
+    {
+      "id": "en_conv_106",
+      "question": "What do you say to express you're bored?",
+      "choices": [
+        "I'm not going to lie, I'm a bit bored.",
+        "Bored.",
+        "This is boring.",
+        "Nothing to do."
+      ],
+      "answer": 0,
+      "explanation": "I'm not going to lie, I'm a bit bored が最も会話的"
+    },
+    {
+      "id": "en_conv_107",
+      "question": "How do you ask about someone's flight?",
+      "choices": [
+        "How was your flight? Did you have a good journey?",
+        "Flight OK?",
+        "How was it?",
+        "Long flight?"
+      ],
+      "answer": 0,
+      "explanation": "How was your flight? Did you have a good journey? が最も自然"
+    },
+    {
+      "id": "en_conv_108",
+      "question": "What do you say when you're leaving for vacation?",
+      "choices": [
+        "I'm heading off on holiday tomorrow. So exciting!",
+        "I'm going on vacation.",
+        "Holiday time!",
+        "Bye, I'm leaving."
+      ],
+      "answer": 0,
+      "explanation": "I'm heading off on holiday tomorrow が最も会話的"
+    },
+    {
+      "id": "en_conv_109",
+      "question": "How do you express you're looking forward to something?",
+      "choices": [
+        "I'm really looking forward to it!",
+        "Can't wait.",
+        "Excited.",
+        "Looking forward."
+      ],
+      "answer": 0,
+      "explanation": "I'm really looking forward to it が最も丁寧"
+    },
+    {
+      "id": "en_conv_110",
+      "question": "What do you say when you're returning from vacation?",
+      "choices": [
+        "I'm back! It was absolutely wonderful.",
+        "I'm back.",
+        "Back from vacation.",
+        "Had a great trip."
+      ],
+      "answer": 0,
+      "explanation": "I'm back! It was absolutely wonderful が最も会話的"
+    },
+    {
+      "id": "en_conv_111",
+      "question": "How do you ask for someone's email address?",
+      "choices": [
+        "Could I get your email address?",
+        "Email?",
+        "Give me your email.",
+        "What's your email?"
+      ],
+      "answer": 0,
+      "explanation": "Could I get your email address? が最も丁寧"
+    },
+    {
+      "id": "en_conv_112",
+      "question": "What do you say when something goes wrong?",
+      "choices": [
+        "Oh no, this isn't good. Let's figure out what to do.",
+        "Problem!",
+        "This is bad.",
+        "Uh oh."
+      ],
+      "answer": 0,
+      "explanation": "Oh no, this isn't good. Let's figure out が最も建設的"
+    },
+    {
+      "id": "en_conv_113",
+      "question": "How do you express that you're busy?",
+      "choices": [
+        "I'm absolutely swamped right now.",
+        "I'm busy.",
+        "Too busy.",
+        "No time."
+      ],
+      "answer": 0,
+      "explanation": "I'm absolutely swamped が最も会話的"
+    },
+    {
+      "id": "en_conv_114",
+      "question": "What do you say to show you're listening?",
+      "choices": [
+        "I see. Go on.",
+        "OK.",
+        "Right.",
+        "Mm."
+      ],
+      "answer": 0,
+      "explanation": "I see. Go on が最も積極的な傾聴の示し方"
+    },
+    {
+      "id": "en_conv_115",
+      "question": "How do you ask if someone needs anything?",
+      "choices": [
+        "Is there anything I can get you?",
+        "Need anything?",
+        "Want something?",
+        "What do you want?"
+      ],
+      "answer": 0,
+      "explanation": "Is there anything I can get you? が最も丁寧"
+    },
+    {
+      "id": "en_conv_116",
+      "question": "What do you say when you want to share a photo?",
+      "choices": [
+        "Oh, you have to see this photo!",
+        "Look at this.",
+        "See this photo.",
+        "Photo time."
+      ],
+      "answer": 0,
+      "explanation": "Oh, you have to see this photo! が最も会話的"
+    },
+    {
+      "id": "en_conv_117",
+      "question": "How do you greet someone on their first day at work?",
+      "choices": [
+        "Welcome! We're so glad to have you on the team!",
+        "Hi.",
+        "Welcome.",
+        "Hello new person."
+      ],
+      "answer": 0,
+      "explanation": "Welcome! We're so glad to have you が最も温かい"
+    },
+    {
+      "id": "en_conv_118",
+      "question": "What do you say when you receive bad news?",
+      "choices": [
+        "I'm so sorry to hear that. Is there anything I can do?",
+        "That's bad.",
+        "Poor you.",
+        "Too bad."
+      ],
+      "answer": 0,
+      "explanation": "I'm so sorry to hear that. Is there anything I can do? が最も共感的"
+    },
+    {
+      "id": "en_conv_119",
+      "question": "How do you ask about someone's children?",
+      "choices": [
+        "How are the kids?",
+        "Kids OK?",
+        "How are your children?",
+        "Babies?"
+      ],
+      "answer": 0,
+      "explanation": "How are the kids? が最も自然"
+    },
+    {
+      "id": "en_conv_120",
+      "question": "What do you say when you want to discuss something?",
+      "choices": [
+        "Do you have a moment to talk about something?",
+        "Can we talk?",
+        "Talk?",
+        "I need to speak with you."
+      ],
+      "answer": 0,
+      "explanation": "Do you have a moment to talk? が最も丁寧"
+    },
+    {
+      "id": "en_conv_121",
+      "question": "How do you respond when someone says 'Nice to meet you'?",
+      "choices": [
+        "Likewise! It's great to meet you too.",
+        "Same.",
+        "You too.",
+        "OK."
+      ],
+      "answer": 0,
+      "explanation": "Likewise! It's great to meet you too が最も温かい"
+    },
+    {
+      "id": "en_conv_122",
+      "question": "What do you say when you want to try something new?",
+      "choices": [
+        "I've never tried it before, but I'm game!",
+        "I'll try.",
+        "Why not?",
+        "Sure."
+      ],
+      "answer": 0,
+      "explanation": "I've never tried it before, but I'm game! が最も会話的"
+    },
+    {
+      "id": "en_conv_123",
+      "question": "How do you ask someone if they're free?",
+      "choices": [
+        "Are you free this...?",
+        "Free?",
+        "Busy?",
+        "Available?"
+      ],
+      "answer": 0,
+      "explanation": "Are you free this...? が最も自然"
+    },
+    {
+      "id": "en_conv_124",
+      "question": "What do you say when you want to celebrate?",
+      "choices": [
+        "Let's celebrate! This calls for a toast!",
+        "Celebrate!",
+        "Time to party.",
+        "Let's party."
+      ],
+      "answer": 0,
+      "explanation": "Let's celebrate! This calls for a toast が最も会話的"
+    },
+    {
+      "id": "en_conv_125",
+      "question": "How do you express that you feel great?",
+      "choices": [
+        "I'm on top of the world today!",
+        "I feel great.",
+        "Feeling good.",
+        "I'm well."
+      ],
+      "answer": 0,
+      "explanation": "I'm on top of the world が最も表現豊か"
+    },
+    {
+      "id": "en_conv_126",
+      "question": "What do you say when you want to watch TV together?",
+      "choices": [
+        "Do you want to watch something together?",
+        "Watch TV?",
+        "TV time?",
+        "Let's watch."
+      ],
+      "answer": 0,
+      "explanation": "Do you want to watch something together? が最も自然"
+    },
+    {
+      "id": "en_conv_127",
+      "question": "How do you ask what someone's reading?",
+      "choices": [
+        "What are you reading? It looks interesting!",
+        "Reading what?",
+        "Good book?",
+        "What's that?"
+      ],
+      "answer": 0,
+      "explanation": "What are you reading? It looks interesting が最も会話を広げる"
+    },
+    {
+      "id": "en_conv_128",
+      "question": "What do you say when you want to go out to eat?",
+      "choices": [
+        "I'm thinking of getting something to eat. Want to join me?",
+        "Let's eat out.",
+        "Food?",
+        "Hungry?"
+      ],
+      "answer": 0,
+      "explanation": "I'm thinking of getting something to eat. Want to join me? が最も自然"
+    },
+    {
+      "id": "en_conv_129",
+      "question": "How do you express surprise?",
+      "choices": [
+        "Oh wow, I had no idea! That's really surprising!",
+        "Wow.",
+        "Really?",
+        "Surprising."
+      ],
+      "answer": 0,
+      "explanation": "Oh wow, I had no idea! が最も自然な驚き表現"
+    },
+    {
+      "id": "en_conv_130",
+      "question": "What do you say when you want to share a song?",
+      "choices": [
+        "You have to hear this song. I think you'll love it!",
+        "Listen to this.",
+        "Great song.",
+        "Music time."
+      ],
+      "answer": 0,
+      "explanation": "You have to hear this song が最も会話的"
+    },
+    {
+      "id": "en_conv_131",
+      "question": "How do you ask about someone's health?",
+      "choices": [
+        "How are you feeling? Are you better now?",
+        "Better?",
+        "Health OK?",
+        "Feeling well?"
+      ],
+      "answer": 0,
+      "explanation": "How are you feeling? Are you better now? が最も自然"
+    },
+    {
+      "id": "en_conv_132",
+      "question": "What do you say when you want to take a photo?",
+      "choices": [
+        "Would you mind if I took a photo here?",
+        "Photo?",
+        "Can I take a pic?",
+        "Smile!"
+      ],
+      "answer": 0,
+      "explanation": "Would you mind if I took a photo? が最も丁寧"
+    },
+    {
+      "id": "en_conv_133",
+      "question": "How do you ask about someone's vacation plans?",
+      "choices": [
+        "Do you have any holiday plans coming up?",
+        "Vacation?",
+        "Going away?",
+        "Plans for holidays?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have any holiday plans coming up? が最も自然"
+    },
+    {
+      "id": "en_conv_134",
+      "question": "What do you say when something is very funny?",
+      "choices": [
+        "That is absolutely hilarious! I can't stop laughing!",
+        "Ha!",
+        "Funny!",
+        "LOL."
+      ],
+      "answer": 0,
+      "explanation": "That is absolutely hilarious! が最も会話的"
+    },
+    {
+      "id": "en_conv_135",
+      "question": "How do you express disappointment?",
+      "choices": [
+        "I have to say, I'm a bit disappointed.",
+        "Disappointed.",
+        "This is bad.",
+        "Not happy."
+      ],
+      "answer": 0,
+      "explanation": "I have to say, I'm a bit disappointed が最も誠実"
+    },
+    {
+      "id": "en_conv_136",
+      "question": "What do you say when you want to make a toast?",
+      "choices": [
+        "Here's to [person/thing]! Cheers!",
+        "Cheers!",
+        "Toast!",
+        "Drinks up!"
+      ],
+      "answer": 0,
+      "explanation": "Here's to [person/thing]! Cheers! が最も会話的"
+    },
+    {
+      "id": "en_conv_137",
+      "question": "How do you ask about someone's relationship status?",
+      "choices": [
+        "Are you seeing anyone at the moment?",
+        "Single?",
+        "Boyfriend/girlfriend?",
+        "Dating?"
+      ],
+      "answer": 0,
+      "explanation": "Are you seeing anyone at the moment? が最も自然"
+    },
+    {
+      "id": "en_conv_138",
+      "question": "What do you say when you find something delicious?",
+      "choices": [
+        "This is absolutely delicious! What's in it?",
+        "Yummy.",
+        "Good food.",
+        "Tasty."
+      ],
+      "answer": 0,
+      "explanation": "This is absolutely delicious! What's in it? が最も会話的"
+    },
+    {
+      "id": "en_conv_139",
+      "question": "How do you express that you're cold?",
+      "choices": [
+        "I'm absolutely freezing! Do you have a heater?",
+        "Cold.",
+        "I'm cold.",
+        "Freezing."
+      ],
+      "answer": 0,
+      "explanation": "I'm absolutely freezing! が最も会話的"
+    },
+    {
+      "id": "en_conv_140",
+      "question": "What do you say when you're hot?",
+      "choices": [
+        "It's boiling in here! Could we open a window?",
+        "Hot.",
+        "Too warm.",
+        "Open window."
+      ],
+      "answer": 0,
+      "explanation": "It's boiling in here! Could we open a window? が最も自然"
+    },
+    {
+      "id": "en_conv_141",
+      "question": "How do you ask someone to pass something?",
+      "choices": [
+        "Could you pass me the...?",
+        "Pass the...",
+        "Give me...",
+        "Hand me..."
+      ],
+      "answer": 0,
+      "explanation": "Could you pass me the が最も丁寧"
+    },
+    {
+      "id": "en_conv_142",
+      "question": "What do you say when you want to listen to music?",
+      "choices": [
+        "Mind if I put some music on?",
+        "Music time.",
+        "Can we play music?",
+        "Radio?"
+      ],
+      "answer": 0,
+      "explanation": "Mind if I put some music on? が最も丁寧"
+    },
+    {
+      "id": "en_conv_143",
+      "question": "How do you express that you're anxious?",
+      "choices": [
+        "To be honest, I'm feeling pretty anxious about it.",
+        "Anxious.",
+        "Nervous.",
+        "Worried."
+      ],
+      "answer": 0,
+      "explanation": "To be honest, I'm feeling pretty anxious が最も誠実"
+    },
+    {
+      "id": "en_conv_144",
+      "question": "What do you say when someone cooks for you?",
+      "choices": [
+        "This is amazing! You're such a great cook!",
+        "Good food.",
+        "Thanks.",
+        "Yummy."
+      ],
+      "answer": 0,
+      "explanation": "This is amazing! You're such a great cook! が最も感謝を示す"
+    },
+    {
+      "id": "en_conv_145",
+      "question": "How do you ask for a second helping?",
+      "choices": [
+        "Could I have a little more, please?",
+        "More please.",
+        "Second helping.",
+        "Give me more."
+      ],
+      "answer": 0,
+      "explanation": "Could I have a little more, please? が最も丁寧"
+    },
+    {
+      "id": "en_conv_146",
+      "question": "What do you say when you've had enough to eat?",
+      "choices": [
+        "I'm completely full! That was absolutely delicious.",
+        "Full.",
+        "No more.",
+        "I've had enough."
+      ],
+      "answer": 0,
+      "explanation": "I'm completely full! That was absolutely delicious が最も会話的"
+    },
+    {
+      "id": "en_conv_147",
+      "question": "How do you ask someone to slow down?",
+      "choices": [
+        "Could you slow down a little? I'm having trouble keeping up.",
+        "Slow down.",
+        "Too fast.",
+        "Wait for me."
+      ],
+      "answer": 0,
+      "explanation": "Could you slow down a little? が最も丁寧"
+    },
+    {
+      "id": "en_conv_148",
+      "question": "What do you say when you want to introduce a topic?",
+      "choices": [
+        "Speaking of which, have you heard about...?",
+        "By the way...",
+        "On another topic...",
+        "I wanted to say..."
+      ],
+      "answer": 0,
+      "explanation": "Speaking of which が最も自然なトピック導入"
+    },
+    {
+      "id": "en_conv_149",
+      "question": "How do you express that you love someone's idea?",
+      "choices": [
+        "That's a brilliant idea! I love it!",
+        "Good idea.",
+        "Nice.",
+        "Sounds good."
+      ],
+      "answer": 0,
+      "explanation": "That's a brilliant idea! I love it! が最も会話的"
+    },
+    {
+      "id": "en_conv_150",
+      "question": "What do you say when you want to leave a voicemail?",
+      "choices": [
+        "Hi, this is [name]. I'm calling about... Please call me back when you get a chance.",
+        "This is [name].",
+        "Call me.",
+        "Message for you."
+      ],
+      "answer": 0,
+      "explanation": "Hi, this is [name]. Please call me back when you get a chance が最もフォーマル"
+    },
+    {
+      "id": "en_conv_151",
+      "question": "How do you ask about someone's day?",
+      "choices": [
+        "How's your day going so far?",
+        "Day OK?",
+        "Good day?",
+        "How are you?"
+      ],
+      "answer": 0,
+      "explanation": "How's your day going so far? が最も自然"
+    },
+    {
+      "id": "en_conv_152",
+      "question": "What do you say when you want someone's help?",
+      "choices": [
+        "Would you be able to give me a hand with something?",
+        "Help me.",
+        "Can you help?",
+        "I need help."
+      ],
+      "answer": 0,
+      "explanation": "Would you be able to give me a hand が最も丁寧"
+    },
+    {
+      "id": "en_conv_153",
+      "question": "How do you express frustration?",
+      "choices": [
+        "I have to say, this is really frustrating.",
+        "This is bad.",
+        "Frustrated.",
+        "So annoying."
+      ],
+      "answer": 0,
+      "explanation": "I have to say, this is really frustrating が最も誠実"
+    },
+    {
+      "id": "en_conv_154",
+      "question": "What do you say when you're relieved?",
+      "choices": [
+        "Phew! I'm so relieved that's over!",
+        "Relief!",
+        "Finally.",
+        "Glad it's done."
+      ],
+      "answer": 0,
+      "explanation": "Phew! I'm so relieved が最も会話的"
+    },
+    {
+      "id": "en_conv_155",
+      "question": "How do you ask about someone's commute?",
+      "choices": [
+        "How long is your commute?",
+        "Long way?",
+        "How do you get to work?",
+        "Commute time?"
+      ],
+      "answer": 0,
+      "explanation": "How long is your commute? が最も自然"
+    },
+    {
+      "id": "en_conv_156",
+      "question": "What do you say when you're moved by something?",
+      "choices": [
+        "That really touched my heart. It was so moving.",
+        "Touching.",
+        "Beautiful.",
+        "Moved."
+      ],
+      "answer": 0,
+      "explanation": "That really touched my heart が最も表現豊か"
+    },
+    {
+      "id": "en_conv_157",
+      "question": "How do you ask about someone's studies?",
+      "choices": [
+        "What are you studying?",
+        "Studying what?",
+        "What's your major?",
+        "School?"
+      ],
+      "answer": 0,
+      "explanation": "What are you studying? が最も自然"
+    },
+    {
+      "id": "en_conv_158",
+      "question": "What do you say when saying goodbye forever?",
+      "choices": [
+        "It's been a real pleasure knowing you. All the best in everything!",
+        "Goodbye.",
+        "Farewell.",
+        "Good luck."
+      ],
+      "answer": 0,
+      "explanation": "It's been a real pleasure knowing you が最も心のこもったお別れ"
+    },
+    {
+      "id": "en_conv_159",
+      "question": "How do you congratulate someone on a job offer?",
+      "choices": [
+        "Congratulations on the new job! You deserve it!",
+        "Good job.",
+        "Nice.",
+        "Well done."
+      ],
+      "answer": 0,
+      "explanation": "Congratulations on the new job! You deserve it! が最も温かい"
+    },
+    {
+      "id": "en_conv_160",
+      "question": "What do you say when someone is sick?",
+      "choices": [
+        "I hope you feel better soon! Take care of yourself.",
+        "Get well.",
+        "Hope you're OK.",
+        "Feel better."
+      ],
+      "answer": 0,
+      "explanation": "I hope you feel better soon! Take care of yourself が最も心のこもった表現"
+    },
+    {
+      "id": "en_conv_161",
+      "question": "How do you ask about someone's previous job?",
+      "choices": [
+        "What did you do before this?",
+        "Old job?",
+        "Previous work?",
+        "Before here?"
+      ],
+      "answer": 0,
+      "explanation": "What did you do before this? が最も自然"
+    },
+    {
+      "id": "en_conv_162",
+      "question": "What do you say to wish someone well on a journey?",
+      "choices": [
+        "Have a safe journey! Let me know when you arrive.",
+        "Safe travels.",
+        "Good trip.",
+        "Bon voyage!"
+      ],
+      "answer": 0,
+      "explanation": "Have a safe journey! Let me know when you arrive が最も思いやりある"
+    },
+    {
+      "id": "en_conv_163",
+      "question": "How do you ask about someone's hometown?",
+      "choices": [
+        "Where are you originally from?",
+        "Where are you from?",
+        "Hometown?",
+        "Origin?"
+      ],
+      "answer": 0,
+      "explanation": "Where are you originally from? が最も自然"
+    },
+    {
+      "id": "en_conv_164",
+      "question": "What do you say when you can't remember someone's name?",
+      "choices": [
+        "I'm so sorry, I've forgotten your name.",
+        "What's your name?",
+        "Name?",
+        "Who are you?"
+      ],
+      "answer": 0,
+      "explanation": "I'm so sorry, I've forgotten your name が最も丁寧"
+    },
+    {
+      "id": "en_conv_165",
+      "question": "How do you tell someone to take their time?",
+      "choices": [
+        "There's no rush. Take all the time you need.",
+        "Take your time.",
+        "No hurry.",
+        "Whenever you're ready."
+      ],
+      "answer": 0,
+      "explanation": "There's no rush. Take all the time you need が最も温かい"
+    },
+    {
+      "id": "en_conv_166",
+      "question": "What do you say when someone spills something?",
+      "choices": [
+        "Don't worry, these things happen. I'll clean it up.",
+        "Careful!",
+        "Oops.",
+        "It's fine."
+      ],
+      "answer": 0,
+      "explanation": "Don't worry, these things happen が最も寛大"
+    },
+    {
+      "id": "en_conv_167",
+      "question": "How do you ask about someone's new haircut?",
+      "choices": [
+        "I like your haircut! Did you just get it done?",
+        "New hair?",
+        "Different hair?",
+        "Haircut?"
+      ],
+      "answer": 0,
+      "explanation": "I like your haircut! Did you just get it done? が最も自然"
+    },
+    {
+      "id": "en_conv_168",
+      "question": "What do you say when someone looks great?",
+      "choices": [
+        "Wow, you look fantastic today!",
+        "You look good.",
+        "Nice.",
+        "Looking well."
+      ],
+      "answer": 0,
+      "explanation": "Wow, you look fantastic today! が最も会話的"
+    },
+    {
+      "id": "en_conv_169",
+      "question": "How do you express that you miss someone?",
+      "choices": [
+        "I've been thinking about you. I really miss you!",
+        "Miss you.",
+        "Thinking of you.",
+        "Haven't seen you."
+      ],
+      "answer": 0,
+      "explanation": "I've been thinking about you. I really miss you! が最も温かい"
+    },
+    {
+      "id": "en_conv_170",
+      "question": "What do you say when you're running late but almost there?",
+      "choices": [
+        "I'm almost there! Just give me five more minutes.",
+        "Coming soon.",
+        "Almost!",
+        "Five minutes."
+      ],
+      "answer": 0,
+      "explanation": "I'm almost there! Just give me five more minutes が最も自然"
+    },
+    {
+      "id": "en_conv_171",
+      "question": "How do you ask if someone enjoyed a movie?",
+      "choices": [
+        "What did you think of the movie?",
+        "Like the movie?",
+        "Good film?",
+        "How was it?"
+      ],
+      "answer": 0,
+      "explanation": "What did you think of the movie? が最も自然"
+    },
+    {
+      "id": "en_conv_172",
+      "question": "What do you say when you want to get someone's attention?",
+      "choices": [
+        "Excuse me, could I have your attention for a moment?",
+        "Hey!",
+        "Listen!",
+        "Attention please."
+      ],
+      "answer": 0,
+      "explanation": "Excuse me, could I have your attention が最も丁寧"
+    },
+    {
+      "id": "en_conv_173",
+      "question": "How do you ask about someone's reading preferences?",
+      "choices": [
+        "What kind of books do you usually read?",
+        "Like books?",
+        "What do you read?",
+        "Favorite genre?"
+      ],
+      "answer": 0,
+      "explanation": "What kind of books do you usually read? が最も自然"
+    },
+    {
+      "id": "en_conv_174",
+      "question": "What do you say when you want to try something first?",
+      "choices": [
+        "Mind if I go first?",
+        "Me first.",
+        "I'll go first.",
+        "First?"
+      ],
+      "answer": 0,
+      "explanation": "Mind if I go first? が最も丁寧"
+    },
+    {
+      "id": "en_conv_175",
+      "question": "How do you express that you can't believe your luck?",
+      "choices": [
+        "I can't believe how lucky I am! This is incredible!",
+        "So lucky.",
+        "Lucky me.",
+        "Wow."
+      ],
+      "answer": 0,
+      "explanation": "I can't believe how lucky I am が最も会話的"
+    },
+    {
+      "id": "en_conv_176",
+      "question": "What do you say when you've just remembered something?",
+      "choices": [
+        "Oh! That just reminded me of something.",
+        "Wait.",
+        "Oh yes!",
+        "Remembered!"
+      ],
+      "answer": 0,
+      "explanation": "Oh! That just reminded me of something が最も自然"
+    },
+    {
+      "id": "en_conv_177",
+      "question": "How do you ask someone if they've eaten?",
+      "choices": [
+        "Have you eaten yet? Would you like to grab something?",
+        "Ate?",
+        "Hungry?",
+        "Had food?"
+      ],
+      "answer": 0,
+      "explanation": "Have you eaten yet? Would you like to grab something? が最も自然"
+    },
+    {
+      "id": "en_conv_178",
+      "question": "What do you say when you want to ask a personal question?",
+      "choices": [
+        "Do you mind if I ask you something personal?",
+        "Personal question...",
+        "Can I ask you something?",
+        "Question..."
+      ],
+      "answer": 0,
+      "explanation": "Do you mind if I ask you something personal? が最も丁寧"
+    },
+    {
+      "id": "en_conv_179",
+      "question": "How do you express that you're nervous about a performance?",
+      "choices": [
+        "I have to admit, I've got butterflies in my stomach!",
+        "Nervous.",
+        "Scared.",
+        "Anxious."
+      ],
+      "answer": 0,
+      "explanation": "I've got butterflies in my stomach が最も会話的"
+    },
+    {
+      "id": "en_conv_180",
+      "question": "What do you say when you want to continue later?",
+      "choices": [
+        "Could we pick this up again tomorrow?",
+        "Continue later?",
+        "Let's finish later.",
+        "Later?"
+      ],
+      "answer": 0,
+      "explanation": "Could we pick this up again tomorrow? が最も丁寧"
+    },
+    {
+      "id": "en_conv_181",
+      "question": "How do you ask what someone's favorite food is?",
+      "choices": [
+        "What's your favorite food?",
+        "Fave food?",
+        "Like food?",
+        "Best food?"
+      ],
+      "answer": 0,
+      "explanation": "What's your favorite food? が最も自然"
+    },
+    {
+      "id": "en_conv_182",
+      "question": "What do you say when you want to teach someone something?",
+      "choices": [
+        "Here, let me show you how it's done.",
+        "Watch me.",
+        "I'll show you.",
+        "Learn from me."
+      ],
+      "answer": 0,
+      "explanation": "Here, let me show you how it's done が最も親切"
+    },
+    {
+      "id": "en_conv_183",
+      "question": "How do you ask about someone's travel experiences?",
+      "choices": [
+        "Have you done much traveling?",
+        "Traveled?",
+        "Been places?",
+        "Like to travel?"
+      ],
+      "answer": 0,
+      "explanation": "Have you done much traveling? が最も自然"
+    },
+    {
+      "id": "en_conv_184",
+      "question": "What do you say when you've achieved something difficult?",
+      "choices": [
+        "I finally did it! I can't believe I pulled it off!",
+        "Done it!",
+        "Success!",
+        "I made it!"
+      ],
+      "answer": 0,
+      "explanation": "I finally did it! I can't believe I pulled it off! が最も会話的"
+    },
+    {
+      "id": "en_conv_185",
+      "question": "How do you express appreciation for something beautiful?",
+      "choices": [
+        "This is absolutely stunning! I love it.",
+        "Beautiful.",
+        "Wow.",
+        "So nice."
+      ],
+      "answer": 0,
+      "explanation": "This is absolutely stunning! I love it が最も表現豊か"
+    },
+    {
+      "id": "en_conv_186",
+      "question": "What do you say when you're about to do something scary?",
+      "choices": [
+        "Here goes nothing!",
+        "Wish me luck.",
+        "Going for it.",
+        "OK let's do this."
+      ],
+      "answer": 0,
+      "explanation": "Here goes nothing! が最も会話的"
+    },
+    {
+      "id": "en_conv_187",
+      "question": "How do you ask about someone's sleep?",
+      "choices": [
+        "Did you sleep well?",
+        "Sleep OK?",
+        "Good sleep?",
+        "Tired?"
+      ],
+      "answer": 0,
+      "explanation": "Did you sleep well? が最も自然"
+    },
+    {
+      "id": "en_conv_188",
+      "question": "What do you say when you want to make someone laugh?",
+      "choices": [
+        "Wait, you're going to love this!",
+        "Funny story.",
+        "Listen to this.",
+        "Joke time."
+      ],
+      "answer": 0,
+      "explanation": "Wait, you're going to love this! が最も会話的"
+    },
+    {
+      "id": "en_conv_189",
+      "question": "How do you express that something was worth it?",
+      "choices": [
+        "It was totally worth it!",
+        "Good decision.",
+        "Worth it.",
+        "Glad I did it."
+      ],
+      "answer": 0,
+      "explanation": "It was totally worth it! が最も会話的"
+    },
+    {
+      "id": "en_conv_190",
+      "question": "What do you say when you feel proud of someone?",
+      "choices": [
+        "I'm so proud of you! You worked so hard for this.",
+        "Good job.",
+        "Well done.",
+        "Congrats."
+      ],
+      "answer": 0,
+      "explanation": "I'm so proud of you! が最も心のこもった表現"
+    },
+    {
+      "id": "en_conv_191",
+      "question": "How do you ask if someone can join a call?",
+      "choices": [
+        "Would you be able to join a quick call?",
+        "Join a call?",
+        "Can you call?",
+        "Talk on phone?"
+      ],
+      "answer": 0,
+      "explanation": "Would you be able to join a quick call? が最も丁寧"
+    },
+    {
+      "id": "en_conv_192",
+      "question": "What do you say when you see a beautiful view?",
+      "choices": [
+        "Wow, what an incredible view! This takes my breath away.",
+        "Nice view.",
+        "Beautiful.",
+        "Wow."
+      ],
+      "answer": 0,
+      "explanation": "What an incredible view! This takes my breath away が最も表現豊か"
+    },
+    {
+      "id": "en_conv_193",
+      "question": "How do you ask what someone is cooking?",
+      "choices": [
+        "Something smells amazing! What are you making?",
+        "What's cooking?",
+        "Food?",
+        "Smells good."
+      ],
+      "answer": 0,
+      "explanation": "Something smells amazing! What are you making? が最も自然"
+    },
+    {
+      "id": "en_conv_194",
+      "question": "What do you say when you want to learn from someone?",
+      "choices": [
+        "You know so much about this. Could you teach me?",
+        "Teach me.",
+        "I want to learn.",
+        "Show me."
+      ],
+      "answer": 0,
+      "explanation": "You know so much about this. Could you teach me? が最も丁寧"
+    },
+    {
+      "id": "en_conv_195",
+      "question": "How do you ask if someone is on social media?",
+      "choices": [
+        "Are you on Instagram/Twitter?",
+        "Social media?",
+        "On Instagram?",
+        "Facebook?"
+      ],
+      "answer": 0,
+      "explanation": "Are you on Instagram/Twitter? が最も自然"
+    },
+    {
+      "id": "en_conv_196",
+      "question": "What do you say when something is too expensive?",
+      "choices": [
+        "That's a bit out of my budget, to be honest.",
+        "Too expensive.",
+        "Too much.",
+        "I can't afford it."
+      ],
+      "answer": 0,
+      "explanation": "That's a bit out of my budget が最も自然"
+    },
+    {
+      "id": "en_conv_197",
+      "question": "How do you express gratitude to a host?",
+      "choices": [
+        "Thank you so much for your hospitality. I've had a wonderful time.",
+        "Thanks for everything.",
+        "Good host.",
+        "Thank you."
+      ],
+      "answer": 0,
+      "explanation": "Thank you for your hospitality が最もフォーマル"
+    },
+    {
+      "id": "en_conv_198",
+      "question": "What do you say when you've made a difficult decision?",
+      "choices": [
+        "It wasn't easy, but I've made up my mind.",
+        "I've decided.",
+        "Made my choice.",
+        "Decision made."
+      ],
+      "answer": 0,
+      "explanation": "It wasn't easy, but I've made up my mind が最も会話的"
+    },
+    {
+      "id": "en_conv_199",
+      "question": "How do you ask about someone's morning?",
+      "choices": [
+        "How's your morning going?",
+        "Morning OK?",
+        "Good morning?",
+        "How are you?"
+      ],
+      "answer": 0,
+      "explanation": "How's your morning going? が最も自然"
+    },
+    {
+      "id": "en_conv_200",
+      "question": "What do you say when you want to close a conversation warmly?",
+      "choices": [
+        "It's been so great catching up with you! We should do this more often.",
+        "Bye.",
+        "See you.",
+        "Good chat."
+      ],
+      "answer": 0,
+      "explanation": "It's been so great catching up が最も温かい締め方"
+    },
+    {
+      "id": "en_conv_201",
+      "question": "How do you ask someone to hold on?",
+      "choices": [
+        "Could you hold on just one second?",
+        "Wait.",
+        "Hold on.",
+        "One sec."
+      ],
+      "answer": 0,
+      "explanation": "Could you hold on just one second? が最も丁寧"
+    },
+    {
+      "id": "en_conv_202",
+      "question": "What do you say when someone arrives?",
+      "choices": [
+        "There you are! We've been waiting for you!",
+        "You're here.",
+        "Finally!",
+        "Hi."
+      ],
+      "answer": 0,
+      "explanation": "There you are! We've been waiting for you が最も温かい"
+    },
+    {
+      "id": "en_conv_203",
+      "question": "How do you ask what someone does for fun?",
+      "choices": [
+        "What do you like to do for fun?",
+        "Fun activities?",
+        "Hobbies?",
+        "What do you enjoy?"
+      ],
+      "answer": 0,
+      "explanation": "What do you like to do for fun? が最も自然"
+    },
+    {
+      "id": "en_conv_204",
+      "question": "What do you say when you're about to leave?",
+      "choices": [
+        "I should probably get going. It's been a pleasure!",
+        "I'm leaving.",
+        "Time to go.",
+        "Gotta go."
+      ],
+      "answer": 0,
+      "explanation": "I should probably get going. It's been a pleasure! が最も丁寧"
+    },
+    {
+      "id": "en_conv_205",
+      "question": "How do you ask about a movie recommendation?",
+      "choices": [
+        "Could you recommend a good movie to watch?",
+        "Good movie?",
+        "Movie rec?",
+        "What should I watch?"
+      ],
+      "answer": 0,
+      "explanation": "Could you recommend a good movie が最も丁寧"
+    },
+    {
+      "id": "en_conv_206",
+      "question": "What do you say when you get something right?",
+      "choices": [
+        "Yes! I knew it! I was right!",
+        "Correct.",
+        "I was right.",
+        "Got it!"
+      ],
+      "answer": 0,
+      "explanation": "Yes! I knew it! I was right! が最も会話的"
+    },
+    {
+      "id": "en_conv_207",
+      "question": "How do you express that you're listening carefully?",
+      "choices": [
+        "I'm all ears. Tell me everything.",
+        "Listening.",
+        "Go on.",
+        "Tell me."
+      ],
+      "answer": 0,
+      "explanation": "I'm all ears が最も会話的な傾聴表現"
+    },
+    {
+      "id": "en_conv_208",
+      "question": "What do you say when something is very important?",
+      "choices": [
+        "This is really crucial. Please pay attention.",
+        "Important!",
+        "Listen carefully.",
+        "This matters."
+      ],
+      "answer": 0,
+      "explanation": "This is really crucial. Please pay attention が最も丁寧"
+    },
+    {
+      "id": "en_conv_209",
+      "question": "How do you ask about someone's love of sports?",
+      "choices": [
+        "Are you into sports?",
+        "Like sports?",
+        "Sports fan?",
+        "Play sports?"
+      ],
+      "answer": 0,
+      "explanation": "Are you into sports? が最も自然"
+    },
+    {
+      "id": "en_conv_210",
+      "question": "What do you say when you want to make up after an argument?",
+      "choices": [
+        "I'm sorry about what happened. Can we talk it out?",
+        "Sorry.",
+        "Let's make up.",
+        "Forgive me."
+      ],
+      "answer": 0,
+      "explanation": "I'm sorry about what happened. Can we talk it out? が最も丁寧"
+    },
+    {
+      "id": "en_conv_211",
+      "question": "How do you ask for clarification in a casual way?",
+      "choices": [
+        "Sorry, just to make sure I understand...",
+        "What?",
+        "Huh?",
+        "Again?"
+      ],
+      "answer": 0,
+      "explanation": "Sorry, just to make sure I understand が最も自然"
+    },
+    {
+      "id": "en_conv_212",
+      "question": "What do you say when you want to cheer someone up?",
+      "choices": [
+        "Come on, chin up! Things will get better.",
+        "Cheer up.",
+        "Be happy.",
+        "Don't be sad."
+      ],
+      "answer": 0,
+      "explanation": "Come on, chin up! Things will get better が最も励みになる"
+    },
+    {
+      "id": "en_conv_213",
+      "question": "How do you ask someone out on a date?",
+      "choices": [
+        "I was wondering if you'd like to go out sometime?",
+        "Date?",
+        "Want to go out?",
+        "Dinner?"
+      ],
+      "answer": 0,
+      "explanation": "I was wondering if you'd like to go out sometime? が最も丁寧"
+    },
+    {
+      "id": "en_conv_214",
+      "question": "What do you say when plans change?",
+      "choices": [
+        "Something has come up. I'm afraid I'll have to cancel our plans.",
+        "Can't make it.",
+        "Canceling.",
+        "Plans changed."
+      ],
+      "answer": 0,
+      "explanation": "Something has come up. I'm afraid I'll have to cancel が最も丁寧"
+    },
+    {
+      "id": "en_conv_215",
+      "question": "How do you ask what time it is?",
+      "choices": [
+        "Excuse me, do you have the time?",
+        "What time?",
+        "Time?",
+        "Clock?"
+      ],
+      "answer": 0,
+      "explanation": "Excuse me, do you have the time? が最も丁寧"
+    },
+    {
+      "id": "en_conv_216",
+      "question": "What do you say when you want to exchange numbers?",
+      "choices": [
+        "We should exchange numbers so we can stay in touch.",
+        "Number exchange.",
+        "Give me your number.",
+        "Let's swap numbers."
+      ],
+      "answer": 0,
+      "explanation": "We should exchange numbers so we can stay in touch が最も自然"
+    },
+    {
+      "id": "en_conv_217",
+      "question": "How do you ask someone to keep a secret?",
+      "choices": [
+        "Could you keep this between us?",
+        "Don't tell.",
+        "Secret.",
+        "Don't share this."
+      ],
+      "answer": 0,
+      "explanation": "Could you keep this between us? が最も丁寧"
+    },
+    {
+      "id": "en_conv_218",
+      "question": "What do you say when someone does something nice for you?",
+      "choices": [
+        "That was really sweet of you. Thank you so much!",
+        "Thanks.",
+        "Nice.",
+        "Appreciated."
+      ],
+      "answer": 0,
+      "explanation": "That was really sweet of you が最も感謝を示す"
+    },
+    {
+      "id": "en_conv_219",
+      "question": "How do you ask someone for advice?",
+      "choices": [
+        "I'd love to get your thoughts on something. Do you have a minute?",
+        "Advice?",
+        "Help me decide.",
+        "What should I do?"
+      ],
+      "answer": 0,
+      "explanation": "I'd love to get your thoughts が最も丁寧"
+    },
+    {
+      "id": "en_conv_220",
+      "question": "What do you say when you finally meet someone you've only talked to online?",
+      "choices": [
+        "It's so great to finally meet you in person!",
+        "Nice to finally meet.",
+        "At last!",
+        "Hello in real life!"
+      ],
+      "answer": 0,
+      "explanation": "It's so great to finally meet you in person! が最も自然"
+    },
+    {
+      "id": "en_conv_221",
+      "question": "How do you ask about weekend plans?",
+      "choices": [
+        "Any fun plans for the weekend?",
+        "Weekend plans?",
+        "Busy weekend?",
+        "Free this weekend?"
+      ],
+      "answer": 0,
+      "explanation": "Any fun plans for the weekend? が最も自然"
+    },
+    {
+      "id": "en_conv_222",
+      "question": "What do you say when you want to express love?",
+      "choices": [
+        "You mean the world to me.",
+        "I love you.",
+        "You're special.",
+        "Care about you."
+      ],
+      "answer": 0,
+      "explanation": "You mean the world to me が最も表現豊か"
+    },
+    {
+      "id": "en_conv_223",
+      "question": "How do you ask someone to trust you?",
+      "choices": [
+        "Trust me on this one.",
+        "Believe me.",
+        "You can trust me.",
+        "I'm honest."
+      ],
+      "answer": 0,
+      "explanation": "Trust me on this one が最も自然"
+    },
+    {
+      "id": "en_conv_224",
+      "question": "What do you say when something is very surprising?",
+      "choices": [
+        "I never would have guessed! How unexpected!",
+        "Surprising!",
+        "Didn't expect that.",
+        "Wow."
+      ],
+      "answer": 0,
+      "explanation": "I never would have guessed! How unexpected! が最も会話的"
+    },
+    {
+      "id": "en_conv_225",
+      "question": "How do you encourage someone to try something new?",
+      "choices": [
+        "You should give it a try! You might love it!",
+        "Try it.",
+        "Just do it.",
+        "Go for it."
+      ],
+      "answer": 0,
+      "explanation": "You should give it a try! You might love it! が最も励みになる"
+    },
+    {
+      "id": "en_conv_226",
+      "question": "What do you say when you've been talking for a long time?",
+      "choices": [
+        "Look at the time! We've been talking for hours!",
+        "Long chat.",
+        "So long.",
+        "Time flies!"
+      ],
+      "answer": 0,
+      "explanation": "Look at the time! We've been talking for hours! が最も会話的"
+    },
+    {
+      "id": "en_conv_227",
+      "question": "How do you ask someone's preference?",
+      "choices": [
+        "Which would you prefer?",
+        "Like this or that?",
+        "Choose.",
+        "Your pick."
+      ],
+      "answer": 0,
+      "explanation": "Which would you prefer? が最も丁寧"
+    },
+    {
+      "id": "en_conv_228",
+      "question": "What do you say to end a good evening?",
+      "choices": [
+        "What a lovely evening! Thank you so much for everything.",
+        "Good night.",
+        "Great night.",
+        "Thanks, bye."
+      ],
+      "answer": 0,
+      "explanation": "What a lovely evening! Thank you so much が最も礼儀正しい"
+    },
+    {
+      "id": "en_conv_229",
+      "question": "How do you tell someone they have something on their face?",
+      "choices": [
+        "Oh, you have a little something on your face.",
+        "Food on face.",
+        "Dirty face.",
+        "Check your face."
+      ],
+      "answer": 0,
+      "explanation": "Oh, you have a little something on your face が最も丁寧"
+    },
+    {
+      "id": "en_conv_230",
+      "question": "What do you say when you finally understand something?",
+      "choices": [
+        "Oh, I see! Now it makes complete sense!",
+        "I get it now.",
+        "Understood.",
+        "Oh!"
+      ],
+      "answer": 0,
+      "explanation": "Oh, I see! Now it makes complete sense! が最も自然"
+    },
+    {
+      "id": "en_conv_231",
+      "question": "How do you ask someone to describe something?",
+      "choices": [
+        "Could you describe it a bit more?",
+        "What's it like?",
+        "Describe it.",
+        "Tell me more."
+      ],
+      "answer": 0,
+      "explanation": "Could you describe it a bit more? が最も丁寧"
+    },
+    {
+      "id": "en_conv_232",
+      "question": "What do you say when you're pleasantly surprised?",
+      "choices": [
+        "This is a lovely surprise! I didn't expect this at all!",
+        "Oh wow.",
+        "Surprised.",
+        "Nice surprise."
+      ],
+      "answer": 0,
+      "explanation": "This is a lovely surprise! が最も感情豊か"
+    },
+    {
+      "id": "en_conv_233",
+      "question": "How do you ask if someone is comfortable?",
+      "choices": [
+        "Are you comfortable? Is there anything you need?",
+        "OK?",
+        "Comfortable?",
+        "Need anything?"
+      ],
+      "answer": 0,
+      "explanation": "Are you comfortable? Is there anything you need? が最も思いやりある"
+    },
+    {
+      "id": "en_conv_234",
+      "question": "What do you say when you want to celebrate a friendship?",
+      "choices": [
+        "I'm really grateful to have you in my life.",
+        "Good friend.",
+        "Thanks for being my friend.",
+        "You're great."
+      ],
+      "answer": 0,
+      "explanation": "I'm really grateful to have you in my life が最も誠実"
+    },
+    {
+      "id": "en_conv_235",
+      "question": "How do you ask someone to make a decision?",
+      "choices": [
+        "Take your time, but let me know when you've decided.",
+        "Decide.",
+        "Choose now.",
+        "What's it gonna be?"
+      ],
+      "answer": 0,
+      "explanation": "Take your time, but let me know when you've decided が最も丁寧"
+    },
+    {
+      "id": "en_conv_236",
+      "question": "What do you say when you've learned something new?",
+      "choices": [
+        "Wow, I never knew that! You learn something new every day!",
+        "Interesting.",
+        "I didn't know.",
+        "Really?"
+      ],
+      "answer": 0,
+      "explanation": "Wow, I never knew that! You learn something new every day! が最も会話的"
+    },
+    {
+      "id": "en_conv_237",
+      "question": "How do you express that you understand someone's feelings?",
+      "choices": [
+        "I know exactly how you feel.",
+        "I understand.",
+        "Same feeling.",
+        "I get it."
+      ],
+      "answer": 0,
+      "explanation": "I know exactly how you feel が最も共感的"
+    },
+    {
+      "id": "en_conv_238",
+      "question": "What do you say when you want to leave the party first?",
+      "choices": [
+        "I hate to be the first to leave, but I have an early start tomorrow.",
+        "Bye.",
+        "Leaving early.",
+        "I'm going."
+      ],
+      "answer": 0,
+      "explanation": "I hate to be the first to leave が最も礼儀正しい"
+    },
+    {
+      "id": "en_conv_239",
+      "question": "How do you ask someone to move aside?",
+      "choices": [
+        "Excuse me, could I just squeeze past you?",
+        "Move please.",
+        "Make way.",
+        "Excuse me."
+      ],
+      "answer": 0,
+      "explanation": "Excuse me, could I just squeeze past you? が最も丁寧"
+    },
+    {
+      "id": "en_conv_240",
+      "question": "What do you say when you're genuinely grateful?",
+      "choices": [
+        "I can't thank you enough. This really means a lot to me.",
+        "Thanks a lot.",
+        "Very grateful.",
+        "So thankful."
+      ],
+      "answer": 0,
+      "explanation": "I can't thank you enough が最も心のこもった感謝"
+    },
+    {
+      "id": "en_conv_241",
+      "question": "How do you ask someone to help you choose?",
+      "choices": [
+        "I'm torn between these two. Which would you go for?",
+        "Help me choose.",
+        "Which is better?",
+        "Pick one."
+      ],
+      "answer": 0,
+      "explanation": "I'm torn between these two. Which would you go for? が最も自然"
+    },
+    {
+      "id": "en_conv_242",
+      "question": "What do you say when someone is being too loud?",
+      "choices": [
+        "I'm sorry, but could you keep it down a little?",
+        "Be quiet.",
+        "Too loud.",
+        "Shush."
+      ],
+      "answer": 0,
+      "explanation": "I'm sorry, but could you keep it down が最も丁寧"
+    },
+    {
+      "id": "en_conv_243",
+      "question": "How do you ask if someone is done?",
+      "choices": [
+        "Are you all done?",
+        "Finished?",
+        "Done?",
+        "Done yet?"
+      ],
+      "answer": 0,
+      "explanation": "Are you all done? が最も自然"
+    },
+    {
+      "id": "en_conv_244",
+      "question": "What do you say when you're waiting for someone?",
+      "choices": [
+        "Take your time! I'll be right here.",
+        "Hurry up.",
+        "I'm waiting.",
+        "Where are you?"
+      ],
+      "answer": 0,
+      "explanation": "Take your time! I'll be right here が最も寛大"
+    },
+    {
+      "id": "en_conv_245",
+      "question": "How do you express admiration?",
+      "choices": [
+        "I'm really impressed by what you've accomplished!",
+        "Good.",
+        "Nice work.",
+        "Impressed."
+      ],
+      "answer": 0,
+      "explanation": "I'm really impressed by what you've accomplished! が最も誠実な称賛"
+    },
+    {
+      "id": "en_conv_246",
+      "question": "What do you say when you want honest advice?",
+      "choices": [
+        "Be honest with me. What do you really think?",
+        "Tell me truth.",
+        "Honestly?",
+        "Real opinion?"
+      ],
+      "answer": 0,
+      "explanation": "Be honest with me. What do you really think? が最も自然"
+    },
+    {
+      "id": "en_conv_247",
+      "question": "How do you ask about someone's language skills?",
+      "choices": [
+        "How many languages do you speak?",
+        "Languages?",
+        "Multilingual?",
+        "Speak other languages?"
+      ],
+      "answer": 0,
+      "explanation": "How many languages do you speak? が最も自然"
+    },
+    {
+      "id": "en_conv_248",
+      "question": "What do you say when you're reunited with old friends?",
+      "choices": [
+        "I can't believe it's really you! It's been so long!",
+        "Wow, hi!",
+        "Long time no see!",
+        "I missed you!"
+      ],
+      "answer": 0,
+      "explanation": "I can't believe it's really you! It's been so long! が最も会話的"
+    },
+    {
+      "id": "en_conv_249",
+      "question": "How do you ask someone about their morning routine?",
+      "choices": [
+        "Are you a morning person?",
+        "Early riser?",
+        "Wake up early?",
+        "Morning routine?"
+      ],
+      "answer": 0,
+      "explanation": "Are you a morning person? が最も自然"
+    },
+    {
+      "id": "en_conv_250",
+      "question": "What do you say when you need space?",
+      "choices": [
+        "I just need a little time to myself right now.",
+        "Leave me alone.",
+        "I need space.",
+        "Go away."
+      ],
+      "answer": 0,
+      "explanation": "I just need a little time to myself が最も礼儀正しい"
+    },
+    {
+      "id": "en_conv_251",
+      "question": "How do you ask about someone's favorite season?",
+      "choices": [
+        "What's your favorite time of year?",
+        "Favorite season?",
+        "Like summer?",
+        "Prefer winter?"
+      ],
+      "answer": 0,
+      "explanation": "What's your favorite time of year? が最も自然"
+    },
+    {
+      "id": "en_conv_252",
+      "question": "What do you say when something is beyond your control?",
+      "choices": [
+        "It's out of my hands, I'm afraid.",
+        "Can't help it.",
+        "Not my problem.",
+        "Nothing I can do."
+      ],
+      "answer": 0,
+      "explanation": "It's out of my hands, I'm afraid が最も丁寧"
+    },
+    {
+      "id": "en_conv_253",
+      "question": "How do you ask what someone is thinking?",
+      "choices": [
+        "Penny for your thoughts?",
+        "Thinking what?",
+        "What's on your mind?",
+        "What are you thinking?"
+      ],
+      "answer": 0,
+      "explanation": "Penny for your thoughts? が最も会話的"
+    },
+    {
+      "id": "en_conv_254",
+      "question": "What do you say when you want to start over?",
+      "choices": [
+        "Let's wipe the slate clean and start fresh.",
+        "Start over.",
+        "New start.",
+        "Fresh start."
+      ],
+      "answer": 0,
+      "explanation": "Let's wipe the slate clean and start fresh が最も自然"
+    },
+    {
+      "id": "en_conv_255",
+      "question": "How do you express discomfort?",
+      "choices": [
+        "I have to be honest, I'm not very comfortable with that.",
+        "I don't like it.",
+        "Not OK.",
+        "Uncomfortable."
+      ],
+      "answer": 0,
+      "explanation": "I have to be honest, I'm not very comfortable が最も丁寧"
+    },
+    {
+      "id": "en_conv_256",
+      "question": "What do you say when you want to make a fresh start?",
+      "choices": [
+        "Let's start over with a clean slate.",
+        "Fresh start.",
+        "New beginning.",
+        "Start again."
+      ],
+      "answer": 0,
+      "explanation": "Let's start over with a clean slate が最も自然"
+    },
+    {
+      "id": "en_conv_257",
+      "question": "How do you ask about someone's first impression?",
+      "choices": [
+        "What was your first impression of...?",
+        "First thoughts?",
+        "Impression?",
+        "What did you think?"
+      ],
+      "answer": 0,
+      "explanation": "What was your first impression of が最も自然"
+    },
+    {
+      "id": "en_conv_258",
+      "question": "What do you say when you're leaving for good?",
+      "choices": [
+        "Take care of yourself. It's been wonderful knowing you.",
+        "Goodbye.",
+        "Farewell.",
+        "See you never."
+      ],
+      "answer": 0,
+      "explanation": "Take care of yourself. It's been wonderful knowing you が最も温かい別れ"
+    },
+    {
+      "id": "en_conv_259",
+      "question": "How do you ask someone to be patient?",
+      "choices": [
+        "Just bear with me for a moment.",
+        "Wait.",
+        "Be patient.",
+        "Hold on."
+      ],
+      "answer": 0,
+      "explanation": "Just bear with me for a moment が最も丁寧"
+    },
+    {
+      "id": "en_conv_260",
+      "question": "What do you say when something doesn't go as planned?",
+      "choices": [
+        "Well, that didn't go quite as planned! But let's make the best of it.",
+        "Failed.",
+        "Didn't work.",
+        "Went wrong."
+      ],
+      "answer": 0,
+      "explanation": "Well, that didn't go quite as planned! But let's make the best of it が最もポジティブ"
+    },
+    {
+      "id": "en_conv_261",
+      "question": "How do you ask someone to think about it?",
+      "choices": [
+        "Why don't you sleep on it and let me know?",
+        "Think about it.",
+        "Decide later.",
+        "Consider it."
+      ],
+      "answer": 0,
+      "explanation": "Why don't you sleep on it が最も自然"
+    },
+    {
+      "id": "en_conv_262",
+      "question": "What do you say when you want to give someone credit?",
+      "choices": [
+        "That was all you! You deserve all the credit.",
+        "Good job.",
+        "Well done.",
+        "You did great."
+      ],
+      "answer": 0,
+      "explanation": "That was all you! You deserve all the credit が最も誠実な称賛"
+    },
+    {
+      "id": "en_conv_263",
+      "question": "How do you express that you're grateful for support?",
+      "choices": [
+        "I really couldn't have done this without you.",
+        "Thanks for help.",
+        "Grateful.",
+        "Couldn't do it alone."
+      ],
+      "answer": 0,
+      "explanation": "I really couldn't have done this without you が最も心のこもった感謝"
+    },
+    {
+      "id": "en_conv_264",
+      "question": "What do you say when you want to motivate someone?",
+      "choices": [
+        "Don't give up! You're so close!",
+        "Keep going.",
+        "Don't stop.",
+        "Almost there."
+      ],
+      "answer": 0,
+      "explanation": "Don't give up! You're so close! が最も会話的な励まし"
+    },
+    {
+      "id": "en_conv_265",
+      "question": "How do you ask about someone's pet?",
+      "choices": [
+        "How's your [pet]? I'd love to meet them sometime!",
+        "How's the dog?",
+        "Pet OK?",
+        "Dog/cat?"
+      ],
+      "answer": 0,
+      "explanation": "How's your [pet]? I'd love to meet them sometime! が最も温かい"
+    },
+    {
+      "id": "en_conv_266",
+      "question": "What do you say when something is beautiful?",
+      "choices": [
+        "It's absolutely gorgeous! I can't take my eyes off it.",
+        "Beautiful.",
+        "Pretty.",
+        "So nice."
+      ],
+      "answer": 0,
+      "explanation": "It's absolutely gorgeous! が最も表現豊か"
+    },
+    {
+      "id": "en_conv_267",
+      "question": "How do you ask someone to join in?",
+      "choices": [
+        "Why don't you join us?",
+        "Come join.",
+        "Come here.",
+        "Want to join?"
+      ],
+      "answer": 0,
+      "explanation": "Why don't you join us? が最も自然"
+    },
+    {
+      "id": "en_conv_268",
+      "question": "What do you say when someone confides in you?",
+      "choices": [
+        "Thank you for trusting me with that.",
+        "I won't tell.",
+        "Your secret is safe.",
+        "OK."
+      ],
+      "answer": 0,
+      "explanation": "Thank you for trusting me with that が最も誠実"
+    },
+    {
+      "id": "en_conv_269",
+      "question": "How do you express curiosity?",
+      "choices": [
+        "That's really fascinating! Tell me more about it.",
+        "Interesting.",
+        "Really?",
+        "Tell me more."
+      ],
+      "answer": 0,
+      "explanation": "That's really fascinating! Tell me more が最も会話的"
+    },
+    {
+      "id": "en_conv_270",
+      "question": "What do you say when something is very difficult?",
+      "choices": [
+        "I won't lie, this is really tough.",
+        "This is hard.",
+        "Very difficult.",
+        "Struggling."
+      ],
+      "answer": 0,
+      "explanation": "I won't lie, this is really tough が最も誠実"
+    },
+    {
+      "id": "en_conv_271",
+      "question": "How do you ask someone's opinion on food?",
+      "choices": [
+        "What do you think of the food?",
+        "Good food?",
+        "Like it?",
+        "Food OK?"
+      ],
+      "answer": 0,
+      "explanation": "What do you think of the food? が最も自然"
+    },
+    {
+      "id": "en_conv_272",
+      "question": "What do you say when you achieve a goal?",
+      "choices": [
+        "I did it! All that hard work finally paid off!",
+        "Done!",
+        "Made it!",
+        "Achieved it!"
+      ],
+      "answer": 0,
+      "explanation": "I did it! All that hard work finally paid off! が最も会話的"
+    },
+    {
+      "id": "en_conv_273",
+      "question": "How do you ask where someone is from?",
+      "choices": [
+        "Where are you from originally?",
+        "Where from?",
+        "Hometown?",
+        "Country?"
+      ],
+      "answer": 0,
+      "explanation": "Where are you from originally? が最も自然"
+    },
+    {
+      "id": "en_conv_274",
+      "question": "What do you say when you need more time?",
+      "choices": [
+        "Could we possibly schedule this for a little later?",
+        "Later.",
+        "Need more time.",
+        "Not now."
+      ],
+      "answer": 0,
+      "explanation": "Could we possibly schedule this for a little later? が最も丁寧"
+    },
+    {
+      "id": "en_conv_275",
+      "question": "How do you express that something is very easy?",
+      "choices": [
+        "This is a piece of cake!",
+        "Very easy.",
+        "So easy.",
+        "Simple."
+      ],
+      "answer": 0,
+      "explanation": "This is a piece of cake! が最も会話的"
+    },
+    {
+      "id": "en_conv_276",
+      "question": "What do you say when something is very difficult?",
+      "choices": [
+        "This is no walk in the park, I can tell you that!",
+        "Hard.",
+        "Difficult.",
+        "Tough."
+      ],
+      "answer": 0,
+      "explanation": "This is no walk in the park が最も会話的"
+    },
+    {
+      "id": "en_conv_277",
+      "question": "How do you tell someone you've been thinking about them?",
+      "choices": [
+        "I've been thinking about you. Hope everything is going well.",
+        "Thinking of you.",
+        "How are you?",
+        "Miss you."
+      ],
+      "answer": 0,
+      "explanation": "I've been thinking about you. Hope everything is going well が最も温かい"
+    },
+    {
+      "id": "en_conv_278",
+      "question": "What do you say when someone looks tired?",
+      "choices": [
+        "You look a bit tired. Are you getting enough sleep?",
+        "You look tired.",
+        "Sleepy?",
+        "Rest?"
+      ],
+      "answer": 0,
+      "explanation": "You look a bit tired. Are you getting enough sleep? が最も思いやりある"
+    },
+    {
+      "id": "en_conv_279",
+      "question": "How do you ask someone to keep the noise down?",
+      "choices": [
+        "Do you think you could keep the noise down a bit, please?",
+        "Be quiet.",
+        "Quieter please.",
+        "Shh."
+      ],
+      "answer": 0,
+      "explanation": "Do you think you could keep the noise down が最も丁寧"
+    },
+    {
+      "id": "en_conv_280",
+      "question": "What do you say when someone shares a problem?",
+      "choices": [
+        "That sounds really tough. How can I help?",
+        "That's bad.",
+        "Sorry.",
+        "Poor you."
+      ],
+      "answer": 0,
+      "explanation": "That sounds really tough. How can I help? が最も寄り添った表現"
+    },
+    {
+      "id": "en_conv_281",
+      "question": "How do you ask about future goals?",
+      "choices": [
+        "What are your plans for the future?",
+        "Future plans?",
+        "Goals?",
+        "Ambitions?"
+      ],
+      "answer": 0,
+      "explanation": "What are your plans for the future? が最も自然"
+    },
+    {
+      "id": "en_conv_282",
+      "question": "What do you say when you want to be left alone?",
+      "choices": [
+        "I just need some alone time right now, if that's OK.",
+        "Leave me alone.",
+        "Go away.",
+        "Privacy please."
+      ],
+      "answer": 0,
+      "explanation": "I just need some alone time right now が最も丁寧"
+    },
+    {
+      "id": "en_conv_283",
+      "question": "How do you ask what someone did over the weekend?",
+      "choices": [
+        "How was your weekend? Did you do anything fun?",
+        "Weekend?",
+        "Do anything?",
+        "Fun weekend?"
+      ],
+      "answer": 0,
+      "explanation": "How was your weekend? Did you do anything fun? が最も自然"
+    },
+    {
+      "id": "en_conv_284",
+      "question": "What do you say when something is absolutely perfect?",
+      "choices": [
+        "This is exactly what I was looking for! It's perfect!",
+        "Great.",
+        "Good.",
+        "Love it."
+      ],
+      "answer": 0,
+      "explanation": "This is exactly what I was looking for! It's perfect! が最も会話的"
+    },
+    {
+      "id": "en_conv_285",
+      "question": "How do you ask if someone has time to catch up?",
+      "choices": [
+        "Do you have time for a coffee and a catch-up?",
+        "Coffee?",
+        "Free?",
+        "Time to talk?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have time for a coffee and a catch-up? が最も自然"
+    },
+    {
+      "id": "en_conv_286",
+      "question": "What do you say when you've been misunderstood?",
+      "choices": [
+        "I think there's been a bit of a misunderstanding.",
+        "You're wrong.",
+        "That's not what I said.",
+        "Misunderstood."
+      ],
+      "answer": 0,
+      "explanation": "I think there's been a bit of a misunderstanding が最も丁寧"
+    },
+    {
+      "id": "en_conv_287",
+      "question": "How do you express that you really enjoy something?",
+      "choices": [
+        "I absolutely love this! It's one of my favorite things!",
+        "I like it.",
+        "Great.",
+        "Love it."
+      ],
+      "answer": 0,
+      "explanation": "I absolutely love this! It's one of my favorite things! が最も会話的"
+    },
+    {
+      "id": "en_conv_288",
+      "question": "What do you say when you want to end an argument?",
+      "choices": [
+        "Let's agree to disagree and move on.",
+        "Enough.",
+        "Stop arguing.",
+        "Let's stop."
+      ],
+      "answer": 0,
+      "explanation": "Let's agree to disagree and move on が最も成熟した解決法"
+    },
+    {
+      "id": "en_conv_289",
+      "question": "How do you ask someone about their relationship?",
+      "choices": [
+        "How are things going with [person]?",
+        "Relationship?",
+        "Still together?",
+        "How's [name]?"
+      ],
+      "answer": 0,
+      "explanation": "How are things going with [person]? が最も自然"
+    },
+    {
+      "id": "en_conv_290",
+      "question": "What do you say when something goes perfectly?",
+      "choices": [
+        "Everything fell into place! I couldn't be happier.",
+        "Went well.",
+        "Perfect.",
+        "Success!"
+      ],
+      "answer": 0,
+      "explanation": "Everything fell into place! I couldn't be happier が最も会話的"
+    },
+    {
+      "id": "en_conv_291",
+      "question": "How do you tell someone to relax?",
+      "choices": [
+        "Why don't you take it easy for a while?",
+        "Relax.",
+        "Chill.",
+        "Rest."
+      ],
+      "answer": 0,
+      "explanation": "Why don't you take it easy for a while? が最も自然"
+    },
+    {
+      "id": "en_conv_292",
+      "question": "What do you say when someone has been generous?",
+      "choices": [
+        "That's incredibly generous of you. I don't know what to say!",
+        "Thanks.",
+        "So kind.",
+        "Very generous."
+      ],
+      "answer": 0,
+      "explanation": "That's incredibly generous of you が最も誠実"
+    },
+    {
+      "id": "en_conv_293",
+      "question": "How do you ask about someone's career goals?",
+      "choices": [
+        "What are you hoping to achieve in your career?",
+        "Career goals?",
+        "Ambitions?",
+        "Job plans?"
+      ],
+      "answer": 0,
+      "explanation": "What are you hoping to achieve in your career? が最も自然"
+    },
+    {
+      "id": "en_conv_294",
+      "question": "What do you say when you want to keep a conversation going?",
+      "choices": [
+        "So, tell me more! I'm really interested.",
+        "Go on.",
+        "Tell me.",
+        "More?"
+      ],
+      "answer": 0,
+      "explanation": "So, tell me more! I'm really interested が最も積極的"
+    },
+    {
+      "id": "en_conv_295",
+      "question": "How do you ask what time someone wakes up?",
+      "choices": [
+        "What time do you usually get up?",
+        "Wake up time?",
+        "Early riser?",
+        "Morning schedule?"
+      ],
+      "answer": 0,
+      "explanation": "What time do you usually get up? が最も自然"
+    },
+    {
+      "id": "en_conv_296",
+      "question": "What do you say when you receive a compliment you don't expect?",
+      "choices": [
+        "Oh, that's so kind of you to say! You've made my day!",
+        "Thanks.",
+        "Really?",
+        "Oh wow!"
+      ],
+      "answer": 0,
+      "explanation": "Oh, that's so kind of you to say! You've made my day! が最も会話的"
+    },
+    {
+      "id": "en_conv_297",
+      "question": "How do you ask about someone's favorite movie?",
+      "choices": [
+        "What's your all-time favorite movie?",
+        "Favorite film?",
+        "Best movie?",
+        "Like movies?"
+      ],
+      "answer": 0,
+      "explanation": "What's your all-time favorite movie? が最も自然"
+    },
+    {
+      "id": "en_conv_298",
+      "question": "What do you say when you're finishing a project together?",
+      "choices": [
+        "We did it! What a team effort!",
+        "Done.",
+        "Finished.",
+        "All done."
+      ],
+      "answer": 0,
+      "explanation": "We did it! What a team effort! が最も会話的"
+    },
+    {
+      "id": "en_conv_299",
+      "question": "How do you ask if someone has tried a restaurant?",
+      "choices": [
+        "Have you ever been to [restaurant]?",
+        "Tried [restaurant]?",
+        "Know [restaurant]?",
+        "Been there?"
+      ],
+      "answer": 0,
+      "explanation": "Have you ever been to [restaurant]? が最も自然"
+    },
+    {
+      "id": "en_conv_300",
+      "question": "What do you say when you want to thank someone for their time?",
+      "choices": [
+        "Thank you so much for taking the time to speak with me.",
+        "Thanks for time.",
+        "Thanks.",
+        "Appreciate it."
+      ],
+      "answer": 0,
+      "explanation": "Thank you so much for taking the time が最もフォーマル"
+    },
+    {
+      "id": "en_conv_301",
+      "question": "How do you express that you've had a great time?",
+      "choices": [
+        "I've had the most wonderful time! Thank you so much!",
+        "Good time.",
+        "Enjoyed it.",
+        "Had fun."
+      ],
+      "answer": 0,
+      "explanation": "I've had the most wonderful time! が最も会話的"
+    },
+    {
+      "id": "en_conv_302",
+      "question": "What do you say when you want to invite someone?",
+      "choices": [
+        "I'd love it if you could join us!",
+        "Come with us.",
+        "Join us.",
+        "Want to come?"
+      ],
+      "answer": 0,
+      "explanation": "I'd love it if you could join us! が最も丁寧"
+    },
+    {
+      "id": "en_conv_303",
+      "question": "How do you ask if someone needs a ride?",
+      "choices": [
+        "Would you like a lift?",
+        "Need a ride?",
+        "Can I drive you?",
+        "Want a ride?"
+      ],
+      "answer": 0,
+      "explanation": "Would you like a lift? が最も丁寧"
+    },
+    {
+      "id": "en_conv_304",
+      "question": "What do you say when you're returning something?",
+      "choices": [
+        "I wanted to return this. Thank you for lending it to me.",
+        "Here's your thing.",
+        "Returning this.",
+        "Take this back."
+      ],
+      "answer": 0,
+      "explanation": "I wanted to return this. Thank you for lending it が最も丁寧"
+    },
+    {
+      "id": "en_conv_305",
+      "question": "How do you say you'll call someone back?",
+      "choices": [
+        "I'll get back to you as soon as I can.",
+        "I'll call back.",
+        "Return your call later.",
+        "Talk later."
+      ],
+      "answer": 0,
+      "explanation": "I'll get back to you as soon as I can が最も丁寧"
+    },
+    {
+      "id": "en_conv_306",
+      "question": "What do you say when you want to disagree gently?",
+      "choices": [
+        "I see what you're saying, but I have a slightly different view.",
+        "I disagree.",
+        "That's wrong.",
+        "Not quite."
+      ],
+      "answer": 0,
+      "explanation": "I see what you're saying, but I have a slightly different view が最も丁寧"
+    },
+    {
+      "id": "en_conv_307",
+      "question": "How do you ask about someone's commute?",
+      "choices": [
+        "How do you usually get to work?",
+        "Commute?",
+        "Bus or train?",
+        "Drive to work?"
+      ],
+      "answer": 0,
+      "explanation": "How do you usually get to work? が最も自然"
+    },
+    {
+      "id": "en_conv_308",
+      "question": "What do you say when you're caught off guard?",
+      "choices": [
+        "Wow, that completely caught me off guard!",
+        "Surprised!",
+        "Didn't see that coming.",
+        "Unexpected."
+      ],
+      "answer": 0,
+      "explanation": "Wow, that completely caught me off guard! が最も会話的"
+    },
+    {
+      "id": "en_conv_309",
+      "question": "How do you ask if someone needs help moving?",
+      "choices": [
+        "Do you need any help moving?",
+        "Moving help?",
+        "Need movers?",
+        "Can I help move?"
+      ],
+      "answer": 0,
+      "explanation": "Do you need any help moving? が最も自然"
+    },
+    {
+      "id": "en_conv_310",
+      "question": "What do you say when something is not your fault?",
+      "choices": [
+        "I'm afraid I had nothing to do with that.",
+        "Not my fault.",
+        "I didn't do it.",
+        "Wasn't me."
+      ],
+      "answer": 0,
+      "explanation": "I'm afraid I had nothing to do with that が最も丁寧"
+    },
+    {
+      "id": "en_conv_311",
+      "question": "How do you ask if someone has a good recipe?",
+      "choices": [
+        "Do you have a good recipe for...?",
+        "Recipe for...?",
+        "How do you make...?",
+        "Cook this?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have a good recipe for が最も自然"
+    },
+    {
+      "id": "en_conv_312",
+      "question": "What do you say when you want to acknowledge an error?",
+      "choices": [
+        "I owe you an apology. I made a mistake.",
+        "My bad.",
+        "I was wrong.",
+        "Error."
+      ],
+      "answer": 0,
+      "explanation": "I owe you an apology. I made a mistake が最も誠実"
+    },
+    {
+      "id": "en_conv_313",
+      "question": "How do you ask someone to write something down?",
+      "choices": [
+        "Could you note that down?",
+        "Write this.",
+        "Note this.",
+        "Remember this."
+      ],
+      "answer": 0,
+      "explanation": "Could you note that down? が最も丁寧"
+    },
+    {
+      "id": "en_conv_314",
+      "question": "What do you say when you're deeply moved by music?",
+      "choices": [
+        "This music is absolutely beautiful. It gives me chills.",
+        "Nice music.",
+        "Beautiful.",
+        "Love this song."
+      ],
+      "answer": 0,
+      "explanation": "This music is absolutely beautiful. It gives me chills が最も表現豊か"
+    },
+    {
+      "id": "en_conv_315",
+      "question": "How do you ask someone their sign?",
+      "choices": [
+        "What's your star sign?",
+        "Sign?",
+        "Horoscope?",
+        "Zodiac?"
+      ],
+      "answer": 0,
+      "explanation": "What's your star sign? が最も自然"
+    },
+    {
+      "id": "en_conv_316",
+      "question": "What do you say when you don't have strong feelings about something?",
+      "choices": [
+        "Either way works for me. You choose!",
+        "Don't mind.",
+        "Up to you.",
+        "I don't care."
+      ],
+      "answer": 0,
+      "explanation": "Either way works for me. You choose! が最も丁寧"
+    },
+    {
+      "id": "en_conv_317",
+      "question": "How do you ask about someone's dream destination?",
+      "choices": [
+        "Where would you love to travel to?",
+        "Dream destination?",
+        "Where to visit?",
+        "Bucket list place?"
+      ],
+      "answer": 0,
+      "explanation": "Where would you love to travel to? が最も自然"
+    },
+    {
+      "id": "en_conv_318",
+      "question": "What do you say when you're completely lost?",
+      "choices": [
+        "I have absolutely no idea where we are! We might be lost.",
+        "Lost!",
+        "Wrong way.",
+        "Where are we?"
+      ],
+      "answer": 0,
+      "explanation": "I have absolutely no idea where we are! が最も会話的"
+    },
+    {
+      "id": "en_conv_319",
+      "question": "How do you ask if someone slept well?",
+      "choices": [
+        "Did you get a good night's sleep?",
+        "Sleep well?",
+        "Good rest?",
+        "Sleep OK?"
+      ],
+      "answer": 0,
+      "explanation": "Did you get a good night's sleep? が最も自然"
+    },
+    {
+      "id": "en_conv_320",
+      "question": "What do you say when you've had a rough day?",
+      "choices": [
+        "What a day! I'm completely drained.",
+        "Bad day.",
+        "Rough day.",
+        "Hard day."
+      ],
+      "answer": 0,
+      "explanation": "What a day! I'm completely drained が最も会話的"
+    },
+    {
+      "id": "en_conv_321",
+      "question": "How do you ask about someone's taste in music?",
+      "choices": [
+        "What kind of music do you like?",
+        "Music preference?",
+        "Favorite genre?",
+        "Like music?"
+      ],
+      "answer": 0,
+      "explanation": "What kind of music do you like? が最も自然"
+    },
+    {
+      "id": "en_conv_322",
+      "question": "What do you say when you think someone is making a mistake?",
+      "choices": [
+        "I'm not sure that's the best idea. Have you thought about...?",
+        "Bad idea.",
+        "You're wrong.",
+        "Don't do that."
+      ],
+      "answer": 0,
+      "explanation": "I'm not sure that's the best idea が最も丁寧"
+    },
+    {
+      "id": "en_conv_323",
+      "question": "How do you ask someone if they want to take a break?",
+      "choices": [
+        "Shall we take a short break?",
+        "Break?",
+        "Rest?",
+        "Stop for a moment?"
+      ],
+      "answer": 0,
+      "explanation": "Shall we take a short break? が最も丁寧"
+    },
+    {
+      "id": "en_conv_324",
+      "question": "What do you say when you want to give a toast?",
+      "choices": [
+        "I'd like to raise a glass to...!",
+        "Toast time.",
+        "Let's drink to...",
+        "Cheers to..."
+      ],
+      "answer": 0,
+      "explanation": "I'd like to raise a glass to が最もフォーマルなトーストの始め方"
+    },
+    {
+      "id": "en_conv_325",
+      "question": "How do you ask what someone had for lunch?",
+      "choices": [
+        "What did you have for lunch?",
+        "Lunch?",
+        "Eat something?",
+        "What did you eat?"
+      ],
+      "answer": 0,
+      "explanation": "What did you have for lunch? が最も自然"
+    },
+    {
+      "id": "en_conv_326",
+      "question": "What do you say when you've finally finished something?",
+      "choices": [
+        "That's finally done! What a relief!",
+        "Done!",
+        "Finally!",
+        "Finished!"
+      ],
+      "answer": 0,
+      "explanation": "That's finally done! What a relief! が最も会話的"
+    },
+    {
+      "id": "en_conv_327",
+      "question": "How do you ask if someone is from the area?",
+      "choices": [
+        "Are you from around here?",
+        "Local?",
+        "From here?",
+        "Live nearby?"
+      ],
+      "answer": 0,
+      "explanation": "Are you from around here? が最も自然"
+    },
+    {
+      "id": "en_conv_328",
+      "question": "What do you say when you're deeply worried?",
+      "choices": [
+        "I have to say, I'm really quite worried about this.",
+        "Worried.",
+        "Concerned.",
+        "Not good."
+      ],
+      "answer": 0,
+      "explanation": "I have to say, I'm really quite worried が最も誠実"
+    },
+    {
+      "id": "en_conv_329",
+      "question": "How do you ask someone to work together?",
+      "choices": [
+        "Why don't we work on this together?",
+        "Team up?",
+        "Let's collaborate.",
+        "Work together?"
+      ],
+      "answer": 0,
+      "explanation": "Why don't we work on this together? が最も自然"
+    },
+    {
+      "id": "en_conv_330",
+      "question": "What do you say when you have a feeling something will happen?",
+      "choices": [
+        "Call it a feeling, but I think something's about to happen.",
+        "I feel it.",
+        "Something's up.",
+        "Just a hunch."
+      ],
+      "answer": 0,
+      "explanation": "Call it a feeling, but I think something's about to happen が最も会話的"
+    },
+    {
+      "id": "en_conv_331",
+      "question": "How do you ask about someone's childhood memories?",
+      "choices": [
+        "Do you have any fond memories of growing up?",
+        "Childhood memories?",
+        "Remember being a kid?",
+        "Good old days?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have any fond memories of growing up? が最も自然"
+    },
+    {
+      "id": "en_conv_332",
+      "question": "What do you say when you don't want to get involved?",
+      "choices": [
+        "I'd rather stay out of it, if you don't mind.",
+        "Not involved.",
+        "Not my business.",
+        "Leave me out."
+      ],
+      "answer": 0,
+      "explanation": "I'd rather stay out of it, if you don't mind が最も丁寧"
+    },
+    {
+      "id": "en_conv_333",
+      "question": "How do you ask what someone's reading this week?",
+      "choices": [
+        "What have you been reading lately?",
+        "Reading anything?",
+        "Good book?",
+        "Recent reads?"
+      ],
+      "answer": 0,
+      "explanation": "What have you been reading lately? が最も自然"
+    },
+    {
+      "id": "en_conv_334",
+      "question": "What do you say when you want to start over in a conversation?",
+      "choices": [
+        "Actually, let me rephrase that.",
+        "Start over.",
+        "Let me redo that.",
+        "Again..."
+      ],
+      "answer": 0,
+      "explanation": "Actually, let me rephrase that が最も自然"
+    },
+    {
+      "id": "en_conv_335",
+      "question": "How do you ask someone about their dreams?",
+      "choices": [
+        "What do you dream about doing one day?",
+        "Dreams?",
+        "Aspirations?",
+        "Goals?"
+      ],
+      "answer": 0,
+      "explanation": "What do you dream about doing one day? が最も自然"
+    },
+    {
+      "id": "en_conv_336",
+      "question": "What do you say when you want to get someone's opinion?",
+      "choices": [
+        "I'd be really curious to hear your take on this.",
+        "Opinion?",
+        "Thoughts?",
+        "What do you think?"
+      ],
+      "answer": 0,
+      "explanation": "I'd be really curious to hear your take が最も丁寧"
+    },
+    {
+      "id": "en_conv_337",
+      "question": "How do you ask someone to walk with you?",
+      "choices": [
+        "Want to walk with me?",
+        "Walk together?",
+        "Join me for a walk?",
+        "Come along?"
+      ],
+      "answer": 0,
+      "explanation": "Want to walk with me? が最も自然"
+    },
+    {
+      "id": "en_conv_338",
+      "question": "What do you say when something is very strange?",
+      "choices": [
+        "That's the strangest thing I've ever seen!",
+        "Weird.",
+        "Strange.",
+        "Bizarre."
+      ],
+      "answer": 0,
+      "explanation": "That's the strangest thing I've ever seen! が最も会話的"
+    },
+    {
+      "id": "en_conv_339",
+      "question": "How do you ask about someone's New Year's resolutions?",
+      "choices": [
+        "Do you have any resolutions for this year?",
+        "Resolutions?",
+        "New year plans?",
+        "Goals for year?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have any resolutions for this year? が最も自然"
+    },
+    {
+      "id": "en_conv_340",
+      "question": "What do you say when a child does something clever?",
+      "choices": [
+        "That's so clever! You're so smart!",
+        "Smart kid.",
+        "Good job.",
+        "Clever!"
+      ],
+      "answer": 0,
+      "explanation": "That's so clever! You're so smart! が最も子どもへの声がけとして自然"
+    },
+    {
+      "id": "en_conv_341",
+      "question": "How do you express wonder at nature?",
+      "choices": [
+        "I'm completely in awe of this. Nature is incredible!",
+        "So beautiful.",
+        "Amazing nature.",
+        "Wow."
+      ],
+      "answer": 0,
+      "explanation": "I'm completely in awe of this が最も表現豊か"
+    },
+    {
+      "id": "en_conv_342",
+      "question": "What do you say when you want to try cooking something?",
+      "choices": [
+        "I'm going to try making... for the first time!",
+        "Cooking now.",
+        "Making food.",
+        "New recipe."
+      ],
+      "answer": 0,
+      "explanation": "I'm going to try making... for the first time! が最も会話的"
+    },
+    {
+      "id": "en_conv_343",
+      "question": "How do you ask someone if they need company?",
+      "choices": [
+        "Would you like some company?",
+        "Need company?",
+        "Want me here?",
+        "Alone OK?"
+      ],
+      "answer": 0,
+      "explanation": "Would you like some company? が最も丁寧"
+    },
+    {
+      "id": "en_conv_344",
+      "question": "What do you say when plans work out perfectly?",
+      "choices": [
+        "This worked out even better than I expected!",
+        "Perfect.",
+        "Better than planned.",
+        "Great result."
+      ],
+      "answer": 0,
+      "explanation": "This worked out even better than I expected! が最も会話的"
+    },
+    {
+      "id": "en_conv_345",
+      "question": "How do you ask someone about their inspiration?",
+      "choices": [
+        "What or who inspires you?",
+        "Inspiration?",
+        "Who's your role model?",
+        "What motivates you?"
+      ],
+      "answer": 0,
+      "explanation": "What or who inspires you? が最も自然"
+    },
+    {
+      "id": "en_conv_346",
+      "question": "What do you say when you're leaving on a trip?",
+      "choices": [
+        "I'm heading off! I'll be in touch when I land.",
+        "Leaving now.",
+        "Bye, going.",
+        "Trip time."
+      ],
+      "answer": 0,
+      "explanation": "I'm heading off! I'll be in touch when I land が最も自然"
+    },
+    {
+      "id": "en_conv_347",
+      "question": "How do you ask what someone did for the holidays?",
+      "choices": [
+        "How did you spend the holidays?",
+        "Holiday fun?",
+        "Good holidays?",
+        "What did you do?"
+      ],
+      "answer": 0,
+      "explanation": "How did you spend the holidays? が最も自然"
+    },
+    {
+      "id": "en_conv_348",
+      "question": "What do you say when you're moved by a person?",
+      "choices": [
+        "You really inspire me. I'm so grateful to know you.",
+        "Inspiring.",
+        "You're great.",
+        "Thanks."
+      ],
+      "answer": 0,
+      "explanation": "You really inspire me. I'm so grateful to know you が最も誠実"
+    },
+    {
+      "id": "en_conv_349",
+      "question": "How do you ask about someone's bucket list?",
+      "choices": [
+        "What's on your bucket list?",
+        "Bucket list?",
+        "Life goals?",
+        "Dreams?"
+      ],
+      "answer": 0,
+      "explanation": "What's on your bucket list? が最も自然"
+    },
+    {
+      "id": "en_conv_350",
+      "question": "What do you say at the end of a phone interview?",
+      "choices": [
+        "Thank you so much for your time. I look forward to hearing from you!",
+        "Thanks.",
+        "Bye.",
+        "Good interview."
+      ],
+      "answer": 0,
+      "explanation": "Thank you so much for your time. I look forward to hearing from you! が最もフォーマル"
+    },
+    {
+      "id": "en_conv_351",
+      "question": "How do you ask someone to do a favor?",
+      "choices": [
+        "I was wondering if you could do me a favor?",
+        "Favor please.",
+        "Can you help me?",
+        "I need something."
+      ],
+      "answer": 0,
+      "explanation": "I was wondering if you could do me a favor? が最も丁寧"
+    },
+    {
+      "id": "en_conv_352",
+      "question": "What do you say when something goes viral?",
+      "choices": [
+        "This is everywhere right now! Everyone's talking about it.",
+        "Going viral.",
+        "So popular.",
+        "Trending."
+      ],
+      "answer": 0,
+      "explanation": "This is everywhere right now! が最も会話的"
+    },
+    {
+      "id": "en_conv_353",
+      "question": "How do you ask if someone knows something?",
+      "choices": [
+        "Do you happen to know...?",
+        "Know this?",
+        "You know...?",
+        "Ever heard of...?"
+      ],
+      "answer": 0,
+      "explanation": "Do you happen to know が最も丁寧"
+    },
+    {
+      "id": "en_conv_354",
+      "question": "What do you say when you haven't spoken to someone in ages?",
+      "choices": [
+        "It feels like forever since we last spoke! How have you been?",
+        "Long time.",
+        "Haven't talked.",
+        "Where have you been?"
+      ],
+      "answer": 0,
+      "explanation": "It feels like forever since we last spoke! が最も自然"
+    },
+    {
+      "id": "en_conv_355",
+      "question": "How do you express that you love someone's fashion sense?",
+      "choices": [
+        "I love your style! That looks amazing on you.",
+        "Nice clothes.",
+        "Good style.",
+        "Like your outfit."
+      ],
+      "answer": 0,
+      "explanation": "I love your style! That looks amazing on you が最も自然"
+    },
+    {
+      "id": "en_conv_356",
+      "question": "What do you say when someone visits your home?",
+      "choices": [
+        "Welcome! Make yourself at home!",
+        "Come in.",
+        "Welcome.",
+        "Hi, come in."
+      ],
+      "answer": 0,
+      "explanation": "Welcome! Make yourself at home! が最も温かい歓迎"
+    },
+    {
+      "id": "en_conv_357",
+      "question": "How do you ask if someone likes surprises?",
+      "choices": [
+        "Do you like surprises?",
+        "Surprise fan?",
+        "Like unexpected things?",
+        "Hate surprises?"
+      ],
+      "answer": 0,
+      "explanation": "Do you like surprises? が最も自然"
+    },
+    {
+      "id": "en_conv_358",
+      "question": "What do you say when you've had a breakthrough?",
+      "choices": [
+        "I've just had an idea! This might actually work!",
+        "Got it!",
+        "Eureka!",
+        "Idea!"
+      ],
+      "answer": 0,
+      "explanation": "I've just had an idea! This might actually work! が最も会話的"
+    },
+    {
+      "id": "en_conv_359",
+      "question": "How do you ask someone to give you feedback?",
+      "choices": [
+        "I'd really value your feedback on this.",
+        "Feedback?",
+        "Thoughts?",
+        "What do you think?"
+      ],
+      "answer": 0,
+      "explanation": "I'd really value your feedback on this が最も丁寧"
+    },
+    {
+      "id": "en_conv_360",
+      "question": "What do you say when you're really tired but keeping going?",
+      "choices": [
+        "I'm running on fumes, but I'll keep at it!",
+        "Still going.",
+        "Almost done.",
+        "Pushing through."
+      ],
+      "answer": 0,
+      "explanation": "I'm running on fumes, but I'll keep at it! が最も会話的"
+    },
+    {
+      "id": "en_conv_361",
+      "question": "How do you ask if someone wants dessert?",
+      "choices": [
+        "Would you like some dessert?",
+        "Dessert?",
+        "Sweet?",
+        "Room for dessert?"
+      ],
+      "answer": 0,
+      "explanation": "Would you like some dessert? が最も丁寧"
+    },
+    {
+      "id": "en_conv_362",
+      "question": "What do you say when someone returns a favor?",
+      "choices": [
+        "You didn't have to do that! But thank you so much.",
+        "Thanks.",
+        "You didn't need to.",
+        "Kind of you."
+      ],
+      "answer": 0,
+      "explanation": "You didn't have to do that! But thank you so much が最も会話的"
+    },
+    {
+      "id": "en_conv_363",
+      "question": "How do you ask someone their opinion on an idea?",
+      "choices": [
+        "What's your initial reaction to this idea?",
+        "Like it?",
+        "Thoughts?",
+        "Good or bad?"
+      ],
+      "answer": 0,
+      "explanation": "What's your initial reaction to this idea? が最も自然"
+    },
+    {
+      "id": "en_conv_364",
+      "question": "What do you say when you make a wrong turn?",
+      "choices": [
+        "Oops, I think we've gone the wrong way!",
+        "Wrong turn.",
+        "Lost.",
+        "Wrong direction."
+      ],
+      "answer": 0,
+      "explanation": "Oops, I think we've gone the wrong way! が最も会話的"
+    },
+    {
+      "id": "en_conv_365",
+      "question": "How do you ask someone if they want to try your food?",
+      "choices": [
+        "Would you like to try some?",
+        "Want a bite?",
+        "Taste this?",
+        "Try this?"
+      ],
+      "answer": 0,
+      "explanation": "Would you like to try some? が最も丁寧"
+    },
+    {
+      "id": "en_conv_366",
+      "question": "What do you say when you get an unexpected gift?",
+      "choices": [
+        "Oh my goodness! You really didn't have to! Thank you so much!",
+        "Thanks!",
+        "Wow!",
+        "For me?"
+      ],
+      "answer": 0,
+      "explanation": "Oh my goodness! You really didn't have to! が最も会話的"
+    },
+    {
+      "id": "en_conv_367",
+      "question": "How do you ask someone to recap?",
+      "choices": [
+        "Could you give me a quick summary of what happened?",
+        "What happened?",
+        "Recap?",
+        "Summary?"
+      ],
+      "answer": 0,
+      "explanation": "Could you give me a quick summary が最も丁寧"
+    },
+    {
+      "id": "en_conv_368",
+      "question": "What do you say when someone is going through a hard time?",
+      "choices": [
+        "I know things are tough right now, but I'm here for you.",
+        "Things will improve.",
+        "It's OK.",
+        "Hang in there."
+      ],
+      "answer": 0,
+      "explanation": "I know things are tough right now, but I'm here for you が最も寄り添った表現"
+    },
+    {
+      "id": "en_conv_369",
+      "question": "How do you ask if someone has any allergies?",
+      "choices": [
+        "Do you have any food allergies?",
+        "Allergies?",
+        "Can eat anything?",
+        "Any restrictions?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have any food allergies? が最も丁寧"
+    },
+    {
+      "id": "en_conv_370",
+      "question": "What do you say when you're at a loss for words?",
+      "choices": [
+        "I honestly don't know what to say. I'm speechless.",
+        "No words.",
+        "Speechless.",
+        "Can't say."
+      ],
+      "answer": 0,
+      "explanation": "I honestly don't know what to say. I'm speechless が最も自然"
+    },
+    {
+      "id": "en_conv_371",
+      "question": "How do you ask where a conversation was going?",
+      "choices": [
+        "Sorry, where were we?",
+        "Topic?",
+        "What were we saying?",
+        "Lost track."
+      ],
+      "answer": 0,
+      "explanation": "Sorry, where were we? が最も自然"
+    },
+    {
+      "id": "en_conv_372",
+      "question": "What do you say when someone makes you feel good?",
+      "choices": [
+        "You always know how to make me smile!",
+        "Thanks.",
+        "You're great.",
+        "Cheers."
+      ],
+      "answer": 0,
+      "explanation": "You always know how to make me smile! が最も会話的"
+    },
+    {
+      "id": "en_conv_373",
+      "question": "How do you ask about someone's music background?",
+      "choices": [
+        "Did you ever play an instrument?",
+        "Musical?",
+        "Play music?",
+        "Instruments?"
+      ],
+      "answer": 0,
+      "explanation": "Did you ever play an instrument? が最も自然"
+    },
+    {
+      "id": "en_conv_374",
+      "question": "What do you say when you've been working too hard?",
+      "choices": [
+        "I think I need to take a proper break. I'm burning out.",
+        "Tired.",
+        "Need rest.",
+        "Too much work."
+      ],
+      "answer": 0,
+      "explanation": "I think I need to take a proper break. I'm burning out が最も誠実"
+    },
+    {
+      "id": "en_conv_375",
+      "question": "How do you ask if it's OK to sit next to someone?",
+      "choices": [
+        "Excuse me, is this seat taken?",
+        "Can I sit?",
+        "Free seat?",
+        "Seat here?"
+      ],
+      "answer": 0,
+      "explanation": "Excuse me, is this seat taken? が最も丁寧"
+    },
+    {
+      "id": "en_conv_376",
+      "question": "What do you say when someone is being too negative?",
+      "choices": [
+        "Try to look on the bright side! Things aren't that bad.",
+        "Be positive.",
+        "Cheer up.",
+        "Stop being negative."
+      ],
+      "answer": 0,
+      "explanation": "Try to look on the bright side! が最も丁寧"
+    },
+    {
+      "id": "en_conv_377",
+      "question": "How do you ask someone about life lessons?",
+      "choices": [
+        "What's the best life advice you've ever received?",
+        "Life lessons?",
+        "Best advice?",
+        "Wisdom?"
+      ],
+      "answer": 0,
+      "explanation": "What's the best life advice you've ever received? が最も自然"
+    },
+    {
+      "id": "en_conv_378",
+      "question": "What do you say when you find something you've been looking for?",
+      "choices": [
+        "There it is! I've been looking for this everywhere!",
+        "Found it!",
+        "There!",
+        "At last!"
+      ],
+      "answer": 0,
+      "explanation": "There it is! I've been looking for this everywhere! が最も会話的"
+    },
+    {
+      "id": "en_conv_379",
+      "question": "How do you ask if someone has a good book to recommend?",
+      "choices": [
+        "Do you have any book recommendations?",
+        "Good book?",
+        "Read anything good?",
+        "Books to suggest?"
+      ],
+      "answer": 0,
+      "explanation": "Do you have any book recommendations? が最も自然"
+    },
+    {
+      "id": "en_conv_380",
+      "question": "What do you say when you're trying something for the first time?",
+      "choices": [
+        "Here goes! This is my first time doing this!",
+        "First time.",
+        "Trying this.",
+        "Never done this."
+      ],
+      "answer": 0,
+      "explanation": "Here goes! This is my first time doing this! が最も会話的"
+    },
+    {
+      "id": "en_conv_381",
+      "question": "How do you ask if someone has eaten at a certain place?",
+      "choices": [
+        "Have you been to [place] before?",
+        "Tried [place]?",
+        "Know [place]?",
+        "Been there?"
+      ],
+      "answer": 0,
+      "explanation": "Have you been to [place] before? が最も自然"
+    },
+    {
+      "id": "en_conv_382",
+      "question": "What do you say when you don't mind either way?",
+      "choices": [
+        "I'm easy! Whatever you prefer is fine by me.",
+        "Don't mind.",
+        "Up to you.",
+        "No preference."
+      ],
+      "answer": 0,
+      "explanation": "I'm easy! Whatever you prefer is fine by me が最も自然"
+    },
+    {
+      "id": "en_conv_383",
+      "question": "How do you ask about upcoming events?",
+      "choices": [
+        "Is there anything coming up that you're excited about?",
+        "Events?",
+        "Anything planned?",
+        "Upcoming?"
+      ],
+      "answer": 0,
+      "explanation": "Is there anything coming up that you're excited about? が最も自然"
+    },
+    {
+      "id": "en_conv_384",
+      "question": "What do you say when you're done with work for the day?",
+      "choices": [
+        "That's me done for today! I'm heading home.",
+        "Done.",
+        "Leaving now.",
+        "Finished work."
+      ],
+      "answer": 0,
+      "explanation": "That's me done for today! I'm heading home が最も自然"
+    },
+    {
+      "id": "en_conv_385",
+      "question": "How do you ask someone if they need a moment?",
+      "choices": [
+        "Do you need a minute?",
+        "Need a break?",
+        "Moment?",
+        "Time?"
+      ],
+      "answer": 0,
+      "explanation": "Do you need a minute? が最も自然"
+    },
+    {
+      "id": "en_conv_386",
+      "question": "What do you say when something is really impressive?",
+      "choices": [
+        "I have to say, that's incredibly impressive!",
+        "Impressive.",
+        "Wow.",
+        "Very good."
+      ],
+      "answer": 0,
+      "explanation": "I have to say, that's incredibly impressive! が最も誠実な称賛"
+    },
+    {
+      "id": "en_conv_387",
+      "question": "How do you ask if someone remembers something?",
+      "choices": [
+        "Do you remember when...?",
+        "Remember?",
+        "Recall?",
+        "Think back?"
+      ],
+      "answer": 0,
+      "explanation": "Do you remember when が最も自然"
+    },
+    {
+      "id": "en_conv_388",
+      "question": "What do you say when you're in a rush?",
+      "choices": [
+        "I'm in a bit of a rush, but let's catch up soon!",
+        "In a hurry.",
+        "Rushing.",
+        "Can't talk."
+      ],
+      "answer": 0,
+      "explanation": "I'm in a bit of a rush, but let's catch up soon! が最も自然"
+    },
+    {
+      "id": "en_conv_389",
+      "question": "How do you ask someone to be careful?",
+      "choices": [
+        "Please be careful! I don't want you to get hurt.",
+        "Be careful.",
+        "Watch out.",
+        "Careful!"
+      ],
+      "answer": 0,
+      "explanation": "Please be careful! I don't want you to get hurt が最も思いやりある"
+    },
+    {
+      "id": "en_conv_390",
+      "question": "What do you say when you learn exciting news?",
+      "choices": [
+        "Oh wow, that's incredible! Tell me everything!",
+        "Wow.",
+        "Really?",
+        "No way!"
+      ],
+      "answer": 0,
+      "explanation": "Oh wow, that's incredible! Tell me everything! が最も会話的"
+    },
+    {
+      "id": "en_conv_391",
+      "question": "How do you ask about someone's strengths?",
+      "choices": [
+        "What do you think you're best at?",
+        "Strengths?",
+        "Good at?",
+        "Talents?"
+      ],
+      "answer": 0,
+      "explanation": "What do you think you're best at? が最も自然"
+    },
+    {
+      "id": "en_conv_392",
+      "question": "What do you say when you're ready to go?",
+      "choices": [
+        "All set? Shall we head off?",
+        "Ready?",
+        "Let's go.",
+        "Going now."
+      ],
+      "answer": 0,
+      "explanation": "All set? Shall we head off? が最も自然"
+    },
+    {
+      "id": "en_conv_393",
+      "question": "How do you ask someone about what they studied?",
+      "choices": [
+        "What did you study at university?",
+        "Major?",
+        "Subject?",
+        "University study?"
+      ],
+      "answer": 0,
+      "explanation": "What did you study at university? が最も自然"
+    },
+    {
+      "id": "en_conv_394",
+      "question": "What do you say when you've bumped into someone?",
+      "choices": [
+        "Oh! I'm so sorry, I didn't see you there!",
+        "Sorry!",
+        "My bad.",
+        "Oops."
+      ],
+      "answer": 0,
+      "explanation": "Oh! I'm so sorry, I didn't see you there! が最も丁寧"
+    },
+    {
+      "id": "en_conv_395",
+      "question": "How do you ask if something tasted good?",
+      "choices": [
+        "Did you enjoy it?",
+        "Taste OK?",
+        "Good?",
+        "Like it?"
+      ],
+      "answer": 0,
+      "explanation": "Did you enjoy it? が最も自然"
+    },
+    {
+      "id": "en_conv_396",
+      "question": "What do you say when someone tells you their age?",
+      "choices": [
+        "Oh, you don't look your age at all!",
+        "Really?",
+        "Wow.",
+        "Nice."
+      ],
+      "answer": 0,
+      "explanation": "Oh, you don't look your age at all! が最も自然な反応"
+    },
+    {
+      "id": "en_conv_397",
+      "question": "How do you ask about someone's favorite sport?",
+      "choices": [
+        "Do you play any sports?",
+        "Sporty?",
+        "Favorite sport?",
+        "Exercise?"
+      ],
+      "answer": 0,
+      "explanation": "Do you play any sports? が最も自然"
+    },
+    {
+      "id": "en_conv_398",
+      "question": "What do you say when you feel nostalgic?",
+      "choices": [
+        "Those were the good old days! I really miss them.",
+        "Old times.",
+        "Nostalgic.",
+        "Remember?"
+      ],
+      "answer": 0,
+      "explanation": "Those were the good old days! I really miss them が最も会話的"
+    },
+    {
+      "id": "en_conv_399",
+      "question": "How do you ask what someone is doing this evening?",
+      "choices": [
+        "Any plans for this evening?",
+        "Plans tonight?",
+        "Busy tonight?",
+        "Free tonight?"
+      ],
+      "answer": 0,
+      "explanation": "Any plans for this evening? が最も自然"
+    },
+    {
+      "id": "en_conv_400",
+      "question": "What do you say when you finish a good book?",
+      "choices": [
+        "That was such a great read! I didn't want it to end.",
+        "Finished.",
+        "Done.",
+        "Good book."
+      ],
+      "answer": 0,
+      "explanation": "That was such a great read! I didn't want it to end が最も会話的"
+    },
+    {
+      "id": "en_conv_401",
+      "question": "How do you ask about someone's work-life balance?",
+      "choices": [
+        "How do you manage to balance work and personal life?",
+        "Balance?",
+        "Work-life?",
+        "Busy?"
+      ],
+      "answer": 0,
+      "explanation": "How do you manage to balance work and personal life? が最も自然"
+    },
+    {
+      "id": "en_conv_402",
+      "question": "What do you say when you're starting a new adventure?",
+      "choices": [
+        "I'm so excited! This is the start of something amazing!",
+        "New adventure.",
+        "Exciting!",
+        "Let's go!"
+      ],
+      "answer": 0,
+      "explanation": "I'm so excited! This is the start of something amazing! が最も会話的"
+    },
+    {
+      "id": "en_conv_403",
+      "question": "How do you ask someone to repeat their name?",
+      "choices": [
+        "I'm sorry, could you remind me of your name?",
+        "Name?",
+        "Again?",
+        "What was your name?"
+      ],
+      "answer": 0,
+      "explanation": "I'm sorry, could you remind me of your name? が最も丁寧"
+    },
+    {
+      "id": "en_conv_404",
+      "question": "What do you say when something takes longer than expected?",
+      "choices": [
+        "This is taking a bit longer than I expected.",
+        "Taking too long.",
+        "Slow.",
+        "What's taking so long?"
+      ],
+      "answer": 0,
+      "explanation": "This is taking a bit longer than I expected が最も丁寧"
+    },
+    {
+      "id": "en_conv_405",
+      "question": "How do you ask someone to tell you more about themselves?",
+      "choices": [
+        "Tell me a bit more about yourself.",
+        "About you?",
+        "More info?",
+        "Background?"
+      ],
+      "answer": 0,
+      "explanation": "Tell me a bit more about yourself が最も自然"
+    },
+    {
+      "id": "en_conv_406",
+      "question": "What do you say when someone sings beautifully?",
+      "choices": [
+        "You have an amazing voice! You should sing professionally!",
+        "Good singer.",
+        "Nice voice.",
+        "Beautiful voice."
+      ],
+      "answer": 0,
+      "explanation": "You have an amazing voice! が最も自然な称賛"
+    },
+    {
+      "id": "en_conv_407",
+      "question": "How do you ask if someone has any news?",
+      "choices": [
+        "Anything new with you?",
+        "News?",
+        "What's new?",
+        "Anything happening?"
+      ],
+      "answer": 0,
+      "explanation": "Anything new with you? が最も自然"
+    },
+    {
+      "id": "en_conv_408",
+      "question": "What do you say when you finally understand someone's humor?",
+      "choices": [
+        "Oh, I get it now! That's actually really funny!",
+        "Oh I see.",
+        "Got it.",
+        "Haha."
+      ],
+      "answer": 0,
+      "explanation": "Oh, I get it now! That's actually really funny! が最も自然"
+    },
+    {
+      "id": "en_conv_409",
+      "question": "How do you ask someone what they think about a place?",
+      "choices": [
+        "What do you think of [place]?",
+        "Like [place]?",
+        "Impressions?",
+        "[Place] good?"
+      ],
+      "answer": 0,
+      "explanation": "What do you think of [place]? が最も自然"
+    },
+    {
+      "id": "en_conv_410",
+      "question": "What do you say when you notice something has changed?",
+      "choices": [
+        "Something looks different! Have you changed something?",
+        "Different!",
+        "Changed?",
+        "What's new?"
+      ],
+      "answer": 0,
+      "explanation": "Something looks different! Have you changed something? が最も自然"
+    },
+    {
+      "id": "en_conv_411",
+      "question": "How do you ask someone about their biggest challenge?",
+      "choices": [
+        "What has been your biggest challenge lately?",
+        "Challenges?",
+        "Tough times?",
+        "Difficulties?"
+      ],
+      "answer": 0,
+      "explanation": "What has been your biggest challenge lately? が最も自然"
+    },
+    {
+      "id": "en_conv_412",
+      "question": "What do you say when you want to share a discovery?",
+      "choices": [
+        "I just found out about something amazing! You have to hear this!",
+        "Cool discovery.",
+        "Found something.",
+        "Interesting thing."
+      ],
+      "answer": 0,
+      "explanation": "I just found out about something amazing! が最も会話的"
+    },
+    {
+      "id": "en_conv_413",
+      "question": "How do you ask someone if they're enjoying themselves?",
+      "choices": [
+        "Are you having a good time?",
+        "Enjoying?",
+        "Fun?",
+        "Good time?"
+      ],
+      "answer": 0,
+      "explanation": "Are you having a good time? が最も自然"
+    },
+    {
+      "id": "en_conv_414",
+      "question": "What do you say when you feel genuinely happy for someone?",
+      "choices": [
+        "I'm so happy for you! You really deserve this!",
+        "Happy for you.",
+        "Good for you.",
+        "Well done."
+      ],
+      "answer": 0,
+      "explanation": "I'm so happy for you! You really deserve this! が最も誠実"
+    },
+    {
+      "id": "en_conv_415",
+      "question": "How do you ask about someone's love life?",
+      "choices": [
+        "Are you dating anyone special?",
+        "In a relationship?",
+        "Seeing someone?",
+        "Single?"
+      ],
+      "answer": 0,
+      "explanation": "Are you dating anyone special? が最も自然"
+    },
+    {
+      "id": "en_conv_416",
+      "question": "What do you say when you've just woken up?",
+      "choices": [
+        "Good morning! I'm still half asleep!",
+        "Morning.",
+        "Hi.",
+        "Just woke up."
+      ],
+      "answer": 0,
+      "explanation": "Good morning! I'm still half asleep! が最も会話的"
+    },
+    {
+      "id": "en_conv_417",
+      "question": "How do you ask what someone does on weekends?",
+      "choices": [
+        "What do you usually get up to on weekends?",
+        "Weekend activities?",
+        "Free time?",
+        "What do you do on weekends?"
+      ],
+      "answer": 0,
+      "explanation": "What do you usually get up to on weekends? が最も自然"
+    },
+    {
+      "id": "en_conv_418",
+      "question": "What do you say when you're about to start cooking?",
+      "choices": [
+        "Right, I'm going to start cooking! Any requests?",
+        "Cooking now.",
+        "Making food.",
+        "Dinner time."
+      ],
+      "answer": 0,
+      "explanation": "Right, I'm going to start cooking! Any requests? が最も会話的"
+    },
+    {
+      "id": "en_conv_419",
+      "question": "How do you ask someone where they usually shop?",
+      "choices": [
+        "Where do you usually shop?",
+        "Shops?",
+        "Favorite store?",
+        "Where to buy?"
+      ],
+      "answer": 0,
+      "explanation": "Where do you usually shop? が最も自然"
+    },
+    {
+      "id": "en_conv_420",
+      "question": "What do you say when someone surprises you with a visit?",
+      "choices": [
+        "What a lovely surprise! I wasn't expecting you!",
+        "Oh hi!",
+        "Surprise!",
+        "Didn't know you were coming."
+      ],
+      "answer": 0,
+      "explanation": "What a lovely surprise! I wasn't expecting you! が最も会話的"
+    },
+    {
+      "id": "en_conv_421",
+      "question": "How do you ask about someone's earliest memory?",
+      "choices": [
+        "What's your earliest memory?",
+        "First memory?",
+        "Oldest memory?",
+        "Remember childhood?"
+      ],
+      "answer": 0,
+      "explanation": "What's your earliest memory? が最も自然"
+    },
+    {
+      "id": "en_conv_422",
+      "question": "What do you say when something goes wrong at work?",
+      "choices": [
+        "We've hit a snag, but let's figure out how to get back on track.",
+        "Problem.",
+        "Issue.",
+        "Went wrong."
+      ],
+      "answer": 0,
+      "explanation": "We've hit a snag, but let's figure out how to get back on track が最も建設的"
+    },
+    {
+      "id": "en_conv_423",
+      "question": "How do you ask if someone has heard of something?",
+      "choices": [
+        "Have you heard of...?",
+        "Know this?",
+        "Ever heard of...?",
+        "Familiar with...?"
+      ],
+      "answer": 0,
+      "explanation": "Have you heard of が最も自然"
+    },
+    {
+      "id": "en_conv_424",
+      "question": "What do you say when someone is worrying too much?",
+      "choices": [
+        "Don't worry so much! Everything will work out!",
+        "Relax.",
+        "Stop worrying.",
+        "It'll be fine."
+      ],
+      "answer": 0,
+      "explanation": "Don't worry so much! Everything will work out! が最も会話的"
+    },
+    {
+      "id": "en_conv_425",
+      "question": "How do you ask someone what they recommend to eat?",
+      "choices": [
+        "What would you recommend?",
+        "Good here?",
+        "Best dish?",
+        "What's good?"
+      ],
+      "answer": 0,
+      "explanation": "What would you recommend? が最も丁寧"
+    },
+    {
+      "id": "en_conv_426",
+      "question": "What do you say when you want to give good news?",
+      "choices": [
+        "I have some really exciting news to share!",
+        "Good news!",
+        "Guess what!",
+        "News!"
+      ],
+      "answer": 0,
+      "explanation": "I have some really exciting news to share! が最も自然"
+    },
+    {
+      "id": "en_conv_427",
+      "question": "How do you ask what someone's proudest achievement is?",
+      "choices": [
+        "What are you most proud of in your life?",
+        "Proudest moment?",
+        "Biggest achievement?",
+        "Best thing you've done?"
+      ],
+      "answer": 0,
+      "explanation": "What are you most proud of in your life? が最も自然"
+    },
+    {
+      "id": "en_conv_428",
+      "question": "What do you say when you want to tell an anecdote?",
+      "choices": [
+        "That reminds me of a story...",
+        "Story time.",
+        "Something happened once...",
+        "Can I tell you something?"
+      ],
+      "answer": 0,
+      "explanation": "That reminds me of a story が最も自然な話の導入"
+    },
+    {
+      "id": "en_conv_429",
+      "question": "How do you ask someone if they've seen the latest news?",
+      "choices": [
+        "Have you seen the news about...?",
+        "Heard the news?",
+        "Know about...?",
+        "Did you see...?"
+      ],
+      "answer": 0,
+      "explanation": "Have you seen the news about が最も自然"
+    },
+    {
+      "id": "en_conv_430",
+      "question": "What do you say when it's getting late?",
+      "choices": [
+        "Oh gosh, look at the time! It's getting really late.",
+        "It's late.",
+        "Time to go.",
+        "Getting late."
+      ],
+      "answer": 0,
+      "explanation": "Oh gosh, look at the time! It's getting really late が最も会話的"
+    },
+    {
+      "id": "en_conv_431",
+      "question": "How do you ask someone to slow down when eating?",
+      "choices": [
+        "Take your time! There's no rush!",
+        "Slow down.",
+        "Don't rush.",
+        "Eat slowly."
+      ],
+      "answer": 0,
+      "explanation": "Take your time! There's no rush! が最も自然"
+    },
+    {
+      "id": "en_conv_432",
+      "question": "What do you say when you want to be more efficient?",
+      "choices": [
+        "Let's try to get this done more efficiently.",
+        "Be faster.",
+        "Quicker.",
+        "Efficient."
+      ],
+      "answer": 0,
+      "explanation": "Let's try to get this done more efficiently が最も丁寧"
+    },
+    {
+      "id": "en_conv_433",
+      "question": "How do you ask someone to trust your judgment?",
+      "choices": [
+        "You're going to have to trust me on this one.",
+        "Trust me.",
+        "Believe me.",
+        "I know best."
+      ],
+      "answer": 0,
+      "explanation": "You're going to have to trust me on this one が最も自然"
+    },
+    {
+      "id": "en_conv_434",
+      "question": "What do you say when something is very nostalgic?",
+      "choices": [
+        "This brings back so many memories!",
+        "Nostalgic.",
+        "Reminds me of old times.",
+        "Throwback!"
+      ],
+      "answer": 0,
+      "explanation": "This brings back so many memories! が最も会話的"
+    },
+    {
+      "id": "en_conv_435",
+      "question": "How do you ask if something is working correctly?",
+      "choices": [
+        "Is everything working OK?",
+        "Working?",
+        "OK?",
+        "Any issues?"
+      ],
+      "answer": 0,
+      "explanation": "Is everything working OK? が最も自然"
+    },
+    {
+      "id": "en_conv_436",
+      "question": "What do you say when someone shares their opinion?",
+      "choices": [
+        "That's a really interesting perspective. I hadn't thought of it that way.",
+        "Good point.",
+        "Interesting.",
+        "Right."
+      ],
+      "answer": 0,
+      "explanation": "That's a really interesting perspective. I hadn't thought of it that way が最も会話的"
+    },
+    {
+      "id": "en_conv_437",
+      "question": "How do you ask about someone's biggest dream?",
+      "choices": [
+        "What's your biggest dream in life?",
+        "Life dream?",
+        "Biggest goal?",
+        "Ambition?"
+      ],
+      "answer": 0,
+      "explanation": "What's your biggest dream in life? が最も自然"
+    },
+    {
+      "id": "en_conv_438",
+      "question": "What do you say when you're ready to try something daring?",
+      "choices": [
+        "Let's do this! No turning back now!",
+        "Going for it.",
+        "Here we go.",
+        "Do it."
+      ],
+      "answer": 0,
+      "explanation": "Let's do this! No turning back now! が最も会話的"
+    },
+    {
+      "id": "en_conv_439",
+      "question": "How do you ask someone about their sense of humor?",
+      "choices": [
+        "What kind of things make you laugh?",
+        "Funny things?",
+        "Sense of humor?",
+        "Like comedy?"
+      ],
+      "answer": 0,
+      "explanation": "What kind of things make you laugh? が最も自然"
+    },
+    {
+      "id": "en_conv_440",
+      "question": "What do you say when you're really close to success?",
+      "choices": [
+        "We're almost there! Just a little bit more!",
+        "Almost done.",
+        "So close.",
+        "Nearly there."
+      ],
+      "answer": 0,
+      "explanation": "We're almost there! Just a little bit more! が最も会話的"
+    },
+    {
+      "id": "en_conv_441",
+      "question": "How do you ask someone's favorite childhood memory?",
+      "choices": [
+        "What's your favorite childhood memory?",
+        "Best childhood memory?",
+        "Remember being a kid?",
+        "Childhood fun?"
+      ],
+      "answer": 0,
+      "explanation": "What's your favorite childhood memory? が最も自然"
+    },
+    {
+      "id": "en_conv_442",
+      "question": "What do you say when something is taking too long?",
+      "choices": [
+        "How much longer is this going to take?",
+        "Too long.",
+        "Slow.",
+        "When?"
+      ],
+      "answer": 0,
+      "explanation": "How much longer is this going to take? が最も自然"
+    },
+    {
+      "id": "en_conv_443",
+      "question": "How do you ask if someone has any concerns?",
+      "choices": [
+        "Is there anything that's worrying you?",
+        "Concerns?",
+        "Any worries?",
+        "Something bothering you?"
+      ],
+      "answer": 0,
+      "explanation": "Is there anything that's worrying you? が最も丁寧"
+    },
+    {
+      "id": "en_conv_444",
+      "question": "What do you say when you witness something remarkable?",
+      "choices": [
+        "I can't believe what I just saw! That was extraordinary!",
+        "Amazing!",
+        "Wow.",
+        "Incredible!"
+      ],
+      "answer": 0,
+      "explanation": "I can't believe what I just saw! That was extraordinary! が最も会話的"
+    },
+    {
+      "id": "en_conv_445",
+      "question": "How do you ask someone to explain something simpler?",
+      "choices": [
+        "Could you break that down a bit more simply?",
+        "Simpler?",
+        "Explain easier.",
+        "More simply?"
+      ],
+      "answer": 0,
+      "explanation": "Could you break that down a bit more simply? が最も丁寧"
+    },
+    {
+      "id": "en_conv_446",
+      "question": "What do you say when you're glad something is over?",
+      "choices": [
+        "I'm so relieved that's finally over!",
+        "Relief!",
+        "Finally done.",
+        "Thank goodness."
+      ],
+      "answer": 0,
+      "explanation": "I'm so relieved that's finally over! が最も会話的"
+    },
+    {
+      "id": "en_conv_447",
+      "question": "How do you ask someone about their most memorable travel?",
+      "choices": [
+        "What's the most memorable trip you've ever taken?",
+        "Best trip?",
+        "Favorite travel?",
+        "Greatest journey?"
+      ],
+      "answer": 0,
+      "explanation": "What's the most memorable trip you've ever taken? が最も自然"
+    },
+    {
+      "id": "en_conv_448",
+      "question": "What do you say when everything goes wrong at once?",
+      "choices": [
+        "When it rains, it pours! Everything is going wrong today.",
+        "Bad day.",
+        "Everything's wrong.",
+        "Disaster."
+      ],
+      "answer": 0,
+      "explanation": "When it rains, it pours! が最も会話的"
+    },
+    {
+      "id": "en_conv_449",
+      "question": "How do you ask if someone is enjoying a book?",
+      "choices": [
+        "Are you enjoying your book?",
+        "Good read?",
+        "Like the book?",
+        "How's the book?"
+      ],
+      "answer": 0,
+      "explanation": "Are you enjoying your book? が最も自然"
+    },
+    {
+      "id": "en_conv_450",
+      "question": "What do you say when you haven't prepared?",
+      "choices": [
+        "I'll just have to wing it and hope for the best!",
+        "Not prepared.",
+        "Going in blind.",
+        "No prep."
+      ],
+      "answer": 0,
+      "explanation": "I'll just have to wing it and hope for the best! が最も会話的"
+    },
+    {
+      "id": "en_conv_451",
+      "question": "How do you ask someone about their expectations?",
+      "choices": [
+        "What were you expecting?",
+        "Expectations?",
+        "What did you think?",
+        "Surprised?"
+      ],
+      "answer": 0,
+      "explanation": "What were you expecting? が最も自然"
+    },
+    {
+      "id": "en_conv_452",
+      "question": "What do you say when you're frustrated but holding it together?",
+      "choices": [
+        "I'm keeping it together, but this is really testing my patience!",
+        "Frustrated.",
+        "Annoyed.",
+        "Trying to stay calm."
+      ],
+      "answer": 0,
+      "explanation": "I'm keeping it together, but this is really testing my patience! が最も会話的"
+    },
+    {
+      "id": "en_conv_453",
+      "question": "How do you ask for someone's Wi-Fi password?",
+      "choices": [
+        "Could I trouble you for the Wi-Fi password?",
+        "Wi-Fi?",
+        "Password?",
+        "Internet access?"
+      ],
+      "answer": 0,
+      "explanation": "Could I trouble you for the Wi-Fi password? が最も丁寧"
+    },
+    {
+      "id": "en_conv_454",
+      "question": "What do you say when you want to learn from someone's experience?",
+      "choices": [
+        "I'd love to hear about your experience with this.",
+        "Tell me more.",
+        "Experience?",
+        "What happened?"
+      ],
+      "answer": 0,
+      "explanation": "I'd love to hear about your experience with this が最も丁寧"
+    },
+    {
+      "id": "en_conv_455",
+      "question": "How do you ask if someone is ready to order?",
+      "choices": [
+        "Are you ready to order?",
+        "Order now?",
+        "Know what you want?",
+        "Decided?"
+      ],
+      "answer": 0,
+      "explanation": "Are you ready to order? が最も自然"
+    },
+    {
+      "id": "en_conv_456",
+      "question": "What do you say when you've had too much food?",
+      "choices": [
+        "I've completely overdone it! I can't eat another bite.",
+        "Too full.",
+        "Ate too much.",
+        "Stuffed."
+      ],
+      "answer": 0,
+      "explanation": "I've completely overdone it! I can't eat another bite が最も会話的"
+    },
+    {
+      "id": "en_conv_457",
+      "question": "How do you ask what someone's looking forward to?",
+      "choices": [
+        "What are you most looking forward to?",
+        "Excited about?",
+        "Upcoming highlight?",
+        "Best thing coming?"
+      ],
+      "answer": 0,
+      "explanation": "What are you most looking forward to? が最も自然"
+    },
+    {
+      "id": "en_conv_458",
+      "question": "What do you say when you've been proven right?",
+      "choices": [
+        "I told you so! I knew that was going to happen!",
+        "Was right.",
+        "See?",
+        "Told you."
+      ],
+      "answer": 0,
+      "explanation": "I told you so! I knew that was going to happen! が最も会話的"
+    },
+    {
+      "id": "en_conv_459",
+      "question": "How do you ask someone if they've noticed a change?",
+      "choices": [
+        "Have you noticed anything different lately?",
+        "Notice anything?",
+        "Different?",
+        "Changed?"
+      ],
+      "answer": 0,
+      "explanation": "Have you noticed anything different lately? が最も自然"
+    },
+    {
+      "id": "en_conv_460",
+      "question": "What do you say when you want to express pride in your team?",
+      "choices": [
+        "I'm really proud of what we've achieved together!",
+        "Proud.",
+        "We did it.",
+        "Great team."
+      ],
+      "answer": 0,
+      "explanation": "I'm really proud of what we've achieved together! が最も会話的"
+    },
+    {
+      "id": "en_conv_461",
+      "question": "How do you ask someone about a recent experience?",
+      "choices": [
+        "How did that go?",
+        "Good experience?",
+        "How was it?",
+        "Went well?"
+      ],
+      "answer": 0,
+      "explanation": "How did that go? が最も自然"
+    },
+    {
+      "id": "en_conv_462",
+      "question": "What do you say when you're losing track of time?",
+      "choices": [
+        "Time really flies when you're having fun!",
+        "Lost track of time.",
+        "Time went fast.",
+        "Wow, time flew."
+      ],
+      "answer": 0,
+      "explanation": "Time really flies when you're having fun! が最も会話的"
+    },
+    {
+      "id": "en_conv_463",
+      "question": "How do you ask someone if they've heard back from someone?",
+      "choices": [
+        "Have you heard back from them yet?",
+        "Response?",
+        "Got an answer?",
+        "Heard anything?"
+      ],
+      "answer": 0,
+      "explanation": "Have you heard back from them yet? が最も自然"
+    },
+    {
+      "id": "en_conv_464",
+      "question": "What do you say when you're confident about a decision?",
+      "choices": [
+        "I feel really good about this. I'm confident we made the right choice.",
+        "Good decision.",
+        "Right choice.",
+        "Confident."
+      ],
+      "answer": 0,
+      "explanation": "I feel really good about this. I'm confident が最も会話的"
+    },
+    {
+      "id": "en_conv_465",
+      "question": "How do you ask if someone has experience with something?",
+      "choices": [
+        "Have you had any experience with...?",
+        "Done this before?",
+        "Experience?",
+        "Know how?"
+      ],
+      "answer": 0,
+      "explanation": "Have you had any experience with が最も自然"
+    },
+    {
+      "id": "en_conv_466",
+      "question": "What do you say when something happens at just the right time?",
+      "choices": [
+        "Talk about perfect timing! This couldn't have happened at a better moment.",
+        "Perfect timing.",
+        "Lucky timing.",
+        "Just in time."
+      ],
+      "answer": 0,
+      "explanation": "Talk about perfect timing! が最も会話的"
+    },
+    {
+      "id": "en_conv_467",
+      "question": "How do you ask someone about their social life?",
+      "choices": [
+        "Do you get out much?",
+        "Social?",
+        "Go out often?",
+        "Active social life?"
+      ],
+      "answer": 0,
+      "explanation": "Do you get out much? が最も自然"
+    },
+    {
+      "id": "en_conv_468",
+      "question": "What do you say when something is not what you expected?",
+      "choices": [
+        "That's not quite what I was expecting!",
+        "Different.",
+        "Not what I thought.",
+        "Unexpected."
+      ],
+      "answer": 0,
+      "explanation": "That's not quite what I was expecting! が最も自然"
+    },
+    {
+      "id": "en_conv_469",
+      "question": "How do you ask someone if they want to try something adventurous?",
+      "choices": [
+        "Want to try something a bit adventurous?",
+        "Adventure?",
+        "Try something daring?",
+        "Up for a challenge?"
+      ],
+      "answer": 0,
+      "explanation": "Want to try something a bit adventurous? が最も自然"
+    },
+    {
+      "id": "en_conv_470",
+      "question": "What do you say when you're grateful for a second chance?",
+      "choices": [
+        "I'm so grateful for this opportunity to make things right.",
+        "Second chance.",
+        "Thank you.",
+        "Grateful."
+      ],
+      "answer": 0,
+      "explanation": "I'm so grateful for this opportunity to make things right が最も誠実"
+    },
+    {
+      "id": "en_conv_471",
+      "question": "How do you ask someone to be more specific?",
+      "choices": [
+        "Could you be more specific about what you mean?",
+        "More specific?",
+        "What exactly?",
+        "Details please."
+      ],
+      "answer": 0,
+      "explanation": "Could you be more specific about what you mean? が最も丁寧"
+    },
+    {
+      "id": "en_conv_472",
+      "question": "What do you say when you're pleasantly surprised by service?",
+      "choices": [
+        "This was way better than I expected! What great service!",
+        "Good service.",
+        "Better than expected.",
+        "Impressed."
+      ],
+      "answer": 0,
+      "explanation": "This was way better than I expected! が最も会話的"
+    },
+    {
+      "id": "en_conv_473",
+      "question": "How do you ask someone to check something for you?",
+      "choices": [
+        "Would you mind checking this for me?",
+        "Check this?",
+        "Look at this?",
+        "Review this?"
+      ],
+      "answer": 0,
+      "explanation": "Would you mind checking this for me? が最も丁寧"
+    },
+    {
+      "id": "en_conv_474",
+      "question": "What do you say when you realize you're wrong?",
+      "choices": [
+        "Actually, I think I've got that wrong. Let me correct myself.",
+        "Wrong.",
+        "My mistake.",
+        "I was wrong."
+      ],
+      "answer": 0,
+      "explanation": "Actually, I think I've got that wrong. Let me correct myself が最も自然"
+    },
+    {
+      "id": "en_conv_475",
+      "question": "How do you ask if someone is open to new ideas?",
+      "choices": [
+        "Are you open to trying something different?",
+        "Open-minded?",
+        "Try something new?",
+        "Flexible?"
+      ],
+      "answer": 0,
+      "explanation": "Are you open to trying something different? が最も自然"
+    },
+    {
+      "id": "en_conv_476",
+      "question": "What do you say when you're reconnecting after a misunderstanding?",
+      "choices": [
+        "I'm glad we had a chance to clear the air.",
+        "Made up.",
+        "All good now.",
+        "Better now."
+      ],
+      "answer": 0,
+      "explanation": "I'm glad we had a chance to clear the air が最も自然"
+    },
+    {
+      "id": "en_conv_477",
+      "question": "How do you ask about someone's current mood?",
+      "choices": [
+        "How are you feeling today?",
+        "Mood?",
+        "Happy?",
+        "Feeling OK?"
+      ],
+      "answer": 0,
+      "explanation": "How are you feeling today? が最も自然"
+    },
+    {
+      "id": "en_conv_478",
+      "question": "What do you say when you discover common ground?",
+      "choices": [
+        "We have so much in common! I didn't know that!",
+        "Same!",
+        "We're alike.",
+        "Common interests."
+      ],
+      "answer": 0,
+      "explanation": "We have so much in common! I didn't know that! が最も会話的"
+    },
+    {
+      "id": "en_conv_479",
+      "question": "How do you ask if someone needs to use the bathroom?",
+      "choices": [
+        "Do you need to use the restroom before we head off?",
+        "Bathroom?",
+        "Restroom?",
+        "Need to go?"
+      ],
+      "answer": 0,
+      "explanation": "Do you need to use the restroom before we head off? が最も丁寧"
+    },
+    {
+      "id": "en_conv_480",
+      "question": "What do you say at the close of a great conversation?",
+      "choices": [
+        "This has been such a great chat. I really enjoy talking with you!",
+        "Good talk.",
+        "Great chat.",
+        "Nice talking."
+      ],
+      "answer": 0,
+      "explanation": "This has been such a great chat. I really enjoy talking with you! が最も温かい締め方"
+    },
+    {
+      "id": "en_conv_481",
+      "question": "What do you say when you're in the middle of something and can't talk?",
+      "choices": [
+        "Could I call you back? I'm in the middle of something.",
+        "Can't talk.",
+        "Busy.",
+        "Later."
+      ],
+      "answer": 0,
+      "explanation": "Could I call you back? I'm in the middle of something が最も丁寧"
+    },
+    {
+      "id": "en_conv_482",
+      "question": "How do you ask someone to give you a moment?",
+      "choices": [
+        "Could you give me just one moment?",
+        "Wait.",
+        "Hold on.",
+        "Moment."
+      ],
+      "answer": 0,
+      "explanation": "Could you give me just one moment? が最も丁寧"
+    },
+    {
+      "id": "en_conv_483",
+      "question": "What do you say when you've shared everything?",
+      "choices": [
+        "That's pretty much everything I know!",
+        "Done.",
+        "That's all.",
+        "Nothing more."
+      ],
+      "answer": 0,
+      "explanation": "That's pretty much everything I know! が最も自然"
+    },
+    {
+      "id": "en_conv_484",
+      "question": "How do you ask someone to be honest with you?",
+      "choices": [
+        "Please be honest with me.",
+        "Tell the truth.",
+        "No lies.",
+        "Honestly?"
+      ],
+      "answer": 0,
+      "explanation": "Please be honest with me が最も丁寧"
+    },
+    {
+      "id": "en_conv_485",
+      "question": "What do you say when someone asks too many questions?",
+      "choices": [
+        "You certainly have a lot of questions! But I'm happy to answer them.",
+        "Too many questions.",
+        "Stop asking.",
+        "Enough."
+      ],
+      "answer": 0,
+      "explanation": "You certainly have a lot of questions! But I'm happy to answer them が最も丁寧"
+    },
+    {
+      "id": "en_conv_486",
+      "question": "How do you ask someone to help you understand something?",
+      "choices": [
+        "Could you help me understand this better?",
+        "Help me.",
+        "Explain.",
+        "I don't get it."
+      ],
+      "answer": 0,
+      "explanation": "Could you help me understand this better? が最も丁寧"
+    },
+    {
+      "id": "en_conv_487",
+      "question": "What do you say when someone has done the impossible?",
+      "choices": [
+        "I can't believe you actually did it! That's incredible!",
+        "Did it!",
+        "Amazing.",
+        "Wow."
+      ],
+      "answer": 0,
+      "explanation": "I can't believe you actually did it! That's incredible! が最も会話的"
+    },
+    {
+      "id": "en_conv_488",
+      "question": "How do you ask someone to save you a seat?",
+      "choices": [
+        "Could you save me a seat?",
+        "Keep my seat.",
+        "Hold my place.",
+        "Save a spot."
+      ],
+      "answer": 0,
+      "explanation": "Could you save me a seat? が最も丁寧"
+    },
+    {
+      "id": "en_conv_489",
+      "question": "What do you say when you've had a truly unforgettable experience?",
+      "choices": [
+        "That was absolutely unforgettable. I'll treasure this memory forever.",
+        "Amazing experience.",
+        "Unforgettable.",
+        "Loved it."
+      ],
+      "answer": 0,
+      "explanation": "That was absolutely unforgettable が最も表現豊か"
+    },
+    {
+      "id": "en_conv_490",
+      "question": "How do you end a conversation on a positive note?",
+      "choices": [
+        "It's been wonderful talking to you. Let's do this again soon!",
+        "Bye.",
+        "See you.",
+        "Good talk."
+      ],
+      "answer": 0,
+      "explanation": "It's been wonderful talking to you. Let's do this again soon! が最も温かい"
+    },
+    {
+      "id": "en_conv_491",
+      "question": "What do you say when you want to avoid a topic?",
+      "choices": [
+        "I'd rather not talk about that, if you don't mind.",
+        "No.",
+        "Not talking about that.",
+        "Change subject."
+      ],
+      "answer": 0,
+      "explanation": "I'd rather not talk about that, if you don't mind が最も丁寧"
+    },
+    {
+      "id": "en_conv_492",
+      "question": "How do you express that you're touched by someone's words?",
+      "choices": [
+        "That means so much to me. Thank you.",
+        "Thanks.",
+        "Nice.",
+        "Touched."
+      ],
+      "answer": 0,
+      "explanation": "That means so much to me. Thank you が最も誠実"
+    },
+    {
+      "id": "en_conv_493",
+      "question": "What do you say when you can't attend an event?",
+      "choices": [
+        "I'm so sorry I can't make it. I hope it goes really well!",
+        "Can't come.",
+        "Not coming.",
+        "Sorry miss it."
+      ],
+      "answer": 0,
+      "explanation": "I'm so sorry I can't make it. I hope it goes really well! が最も丁寧"
+    },
+    {
+      "id": "en_conv_494",
+      "question": "How do you ask someone what they look for in a friend?",
+      "choices": [
+        "What do you value most in a friendship?",
+        "Friend qualities?",
+        "Best friend traits?",
+        "What makes a good friend?"
+      ],
+      "answer": 0,
+      "explanation": "What do you value most in a friendship? が最も自然"
+    },
+    {
+      "id": "en_conv_495",
+      "question": "What do you say when you want to make someone feel welcome?",
+      "choices": [
+        "Please, make yourself completely at home!",
+        "Welcome.",
+        "Come in.",
+        "Feel free."
+      ],
+      "answer": 0,
+      "explanation": "Please, make yourself completely at home! が最も温かい"
+    },
+    {
+      "id": "en_conv_496",
+      "question": "How do you ask someone what they're passionate about?",
+      "choices": [
+        "What are you really passionate about?",
+        "Passions?",
+        "What do you love?",
+        "Interests?"
+      ],
+      "answer": 0,
+      "explanation": "What are you really passionate about? が最も自然"
+    },
+    {
+      "id": "en_conv_497",
+      "question": "What do you say when you realize you have a lot in common?",
+      "choices": [
+        "It's funny, we have so much in common!",
+        "Same.",
+        "We're alike.",
+        "Common!"
+      ],
+      "answer": 0,
+      "explanation": "It's funny, we have so much in common! が最も会話的"
+    },
+    {
+      "id": "en_conv_498",
+      "question": "How do you ask someone for their first impression of a place?",
+      "choices": [
+        "What's your first impression of this place?",
+        "Like it?",
+        "How is it?",
+        "Impression?"
+      ],
+      "answer": 0,
+      "explanation": "What's your first impression of this place? が最も自然"
+    },
+    {
+      "id": "en_conv_499",
+      "question": "What do you say when something is better than you expected?",
+      "choices": [
+        "This is so much better than I expected! I'm genuinely impressed.",
+        "Better than I thought.",
+        "Surprised.",
+        "Really good."
+      ],
+      "answer": 0,
+      "explanation": "This is so much better than I expected! I'm genuinely impressed が最も会話的"
+    },
+    {
+      "id": "en_conv_500",
+      "question": "What is the best way to end a warm, friendly conversation?",
+      "choices": [
+        "It's been so great catching up! We definitely need to do this more often!",
+        "Bye.",
+        "See ya.",
+        "Good chat."
+      ],
+      "answer": 0,
+      "explanation": "It's been so great catching up! We definitely need to do this more often! が最も温かい締め方"
     }
   ]
 }

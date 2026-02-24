@@ -5,142 +5,6002 @@
     {
       "id": "en_vocab_001",
       "question": "「ambitious」の意味として最も適切なものはどれか。",
-      "choices": ["怠惰な", "野心的な・意欲的な", "親切な", "慎重な"],
+      "choices": [
+        "怠惰な",
+        "野心的な・意欲的な",
+        "親切な",
+        "慎重な"
+      ],
       "answer": 1,
       "explanation": "ambitious は「野心的な・意欲的な・大望を持つ」という形容詞です。「an ambitious plan（野心的な計画）」「an ambitious person（意欲的な人）」のように使います。"
     },
     {
       "id": "en_vocab_002",
       "question": "「subsequent」の意味として最も適切なものはどれか。",
-      "choices": ["以前の", "それ以降の・後続の", "同時の", "根本的な"],
+      "choices": [
+        "以前の",
+        "それ以降の・後続の",
+        "同時の",
+        "根本的な"
+      ],
       "answer": 1,
       "explanation": "subsequent は「その後の・後続の・次の」という形容詞です。「subsequent events（その後の出来事）」のように使います。previous（以前の）が反意語です。"
     },
     {
       "id": "en_vocab_003",
       "question": "「We need to ___ the problem before it gets worse.」の空欄に最も適切な語はどれか。",
-      "choices": ["ignore", "address", "avoid", "delay"],
+      "choices": [
+        "ignore",
+        "address",
+        "avoid",
+        "delay"
+      ],
       "answer": 1,
       "explanation": "address は「（問題に）取り組む・対処する」という意味で使われます。「address a problem/issue（問題に取り組む）」は頻出表現です。ignore「無視する」、avoid「避ける」、delay「遅らせる」とは意味が異なります。"
     },
     {
       "id": "en_vocab_004",
       "question": "「inevitable」の意味として最も適切なものはどれか。",
-      "choices": ["避けられない・必然的な", "予測不可能な", "一時的な", "重要でない"],
+      "choices": [
+        "避けられない・必然的な",
+        "予測不可能な",
+        "一時的な",
+        "重要でない"
+      ],
       "answer": 0,
       "explanation": "inevitable は「避けられない・必然的な（= unavoidable）」という形容詞です。「Death is inevitable.（死は避けられない）」のように使います。inevitably（副詞）も重要です。"
     },
     {
       "id": "en_vocab_005",
       "question": "「The company decided to ___ its operations to three new countries.」の空欄に最も適切な語はどれか。",
-      "choices": ["reduce", "expand", "transfer", "divide"],
+      "choices": [
+        "reduce",
+        "expand",
+        "transfer",
+        "divide"
+      ],
       "answer": 1,
       "explanation": "expand は「拡大する・展開する」という動詞です。「expand operations（事業を拡大する）」「expand into new markets（新市場に進出する）」は頻出表現です。"
     },
     {
       "id": "en_vocab_006",
       "question": "「eloquent」の意味として最も適切なものはどれか。",
-      "choices": ["雄弁な・説得力のある", "無口な", "攻撃的な", "混乱した"],
+      "choices": [
+        "雄弁な・説得力のある",
+        "無口な",
+        "攻撃的な",
+        "混乱した"
+      ],
       "answer": 0,
       "explanation": "eloquent は「雄弁な・説得力のある・表現豊かな」という形容詞です。「an eloquent speaker（雄弁な話し手）」「an eloquent speech（説得力のあるスピーチ）」のように使います。"
     },
     {
       "id": "en_vocab_007",
       "question": "「The new regulation will ___ companies to reduce their carbon emissions.」の空欄に最も適切な語はどれか。",
-      "choices": ["allow", "require", "prevent", "encourage"],
+      "choices": [
+        "allow",
+        "require",
+        "prevent",
+        "encourage"
+      ],
       "answer": 1,
       "explanation": "require は「〜を義務付ける・要求する」という動詞で、「require + 目的語 + to不定詞」の形で使います。「規制が企業に排出量削減を義務付ける」という文脈に合います。"
     },
     {
       "id": "en_vocab_008",
       "question": "「meticulous」の意味として最も適切なものはどれか。",
-      "choices": ["大雑把な", "細心の注意を払う・几帳面な", "衝動的な", "寛大な"],
+      "choices": [
+        "大雑把な",
+        "細心の注意を払う・几帳面な",
+        "衝動的な",
+        "寛大な"
+      ],
       "answer": 1,
       "explanation": "meticulous は「細心の注意を払う・几帳面な・綿密な」という形容詞です。「meticulous attention to detail（細部への細心の注意）」のように使います。"
     },
     {
       "id": "en_vocab_009",
       "question": "「The research results were ___ because of the small sample size.」の空欄に最も適切な語はどれか。",
-      "choices": ["reliable", "significant", "inconclusive", "accurate"],
+      "choices": [
+        "reliable",
+        "significant",
+        "inconclusive",
+        "accurate"
+      ],
       "answer": 2,
       "explanation": "inconclusive は「決定的でない・結論が出ない」という形容詞です。サンプルサイズが小さいため結果が確実とは言えない、という文脈に合います。"
     },
     {
       "id": "en_vocab_010",
       "question": "「pragmatic」の意味として最も適切なものはどれか。",
-      "choices": ["理想主義的な", "実用的な・現実的な", "理論的な", "感情的な"],
+      "choices": [
+        "理想主義的な",
+        "実用的な・現実的な",
+        "理論的な",
+        "感情的な"
+      ],
       "answer": 1,
       "explanation": "pragmatic は「実用的な・現実的な・実際的な」という形容詞です。「a pragmatic approach（現実的なアプローチ）」「pragmatic solutions（実用的な解決策）」のように使います。"
     },
     {
       "id": "en_vocab_011",
       "question": "「She has a ___ knowledge of Japanese history.」の空欄に最も適切な語はどれか。",
-      "choices": ["shallow", "narrow", "comprehensive", "brief"],
+      "choices": [
+        "shallow",
+        "narrow",
+        "comprehensive",
+        "brief"
+      ],
       "answer": 2,
       "explanation": "comprehensive は「包括的な・広範にわたる」という形容詞です。「comprehensive knowledge（包括的な知識）」は「広い範囲の深い知識」を意味します。"
     },
     {
       "id": "en_vocab_012",
       "question": "「ambiguous」の意味として最も適切なものはどれか。",
-      "choices": ["明確な", "曖昧な・多義的な", "誇張した", "直接的な"],
+      "choices": [
+        "明確な",
+        "曖昧な・多義的な",
+        "誇張した",
+        "直接的な"
+      ],
       "answer": 1,
       "explanation": "ambiguous は「曖昧な・多義的な・明確でない」という形容詞です。「an ambiguous statement（曖昧な発言）」のように使います。反意語は unambiguous / clear です。"
     },
     {
       "id": "en_vocab_013",
       "question": "「The new law will ___ the rights of workers.」の空欄に最も適切な語はどれか。",
-      "choices": ["diminish", "reinforce", "abolish", "complicate"],
+      "choices": [
+        "diminish",
+        "reinforce",
+        "abolish",
+        "complicate"
+      ],
       "answer": 1,
       "explanation": "reinforce は「強化する・補強する」という動詞です。「reinforce rights（権利を強化する）」という文脈に合います。diminish「減少させる」、abolish「廃止する」、complicate「複雑にする」とは意味が異なります。"
     },
     {
       "id": "en_vocab_014",
       "question": "「unprecedented」の意味として最も適切なものはどれか。",
-      "choices": ["繰り返しの", "前例のない・空前の", "一般的な", "予想された"],
+      "choices": [
+        "繰り返しの",
+        "前例のない・空前の",
+        "一般的な",
+        "予想された"
+      ],
       "answer": 1,
       "explanation": "unprecedented は「前例のない・前代未聞の・空前の」という形容詞です。「unprecedented growth（前例のない成長）」「unprecedented situation（空前の事態）」のように使います。"
     },
     {
       "id": "en_vocab_015",
       "question": "「The manager ___ the team's success at the annual meeting.」の空欄に最も適切な語はどれか。",
-      "choices": ["regretted", "neglected", "acknowledged", "ignored"],
+      "choices": [
+        "regretted",
+        "neglected",
+        "acknowledged",
+        "ignored"
+      ],
       "answer": 2,
       "explanation": "acknowledge は「認める・表明する・感謝する」という動詞です。「acknowledge success（成功を認める）」という文脈に合います。"
     },
     {
       "id": "en_vocab_016",
       "question": "「tentative」の意味として最も適切なものはどれか。",
-      "choices": ["最終的な", "暫定的な・仮の・躊躇した", "積極的な", "強制的な"],
+      "choices": [
+        "最終的な",
+        "暫定的な・仮の・躊躇した",
+        "積極的な",
+        "強制的な"
+      ],
       "answer": 1,
       "explanation": "tentative は「暫定的な・仮の・試験的な」という形容詞です。「a tentative plan（暫定計画）」「tentative conclusions（仮の結論）」のように使います。"
     },
     {
       "id": "en_vocab_017",
       "question": "「The scientist ___ a new theory to explain the phenomenon.」の空欄に最も適切な語はどれか。",
-      "choices": ["dismissed", "proposed", "rejected", "doubted"],
+      "choices": [
+        "dismissed",
+        "proposed",
+        "rejected",
+        "doubted"
+      ],
       "answer": 1,
       "explanation": "propose は「提案する・（理論を）提唱する」という動詞です。「propose a theory（理論を提唱する）」は科学的文脈でよく使われます。"
     },
     {
       "id": "en_vocab_018",
       "question": "「prominent」の意味として最も適切なものはどれか。",
-      "choices": ["無名の", "著名な・目立つ・突出した", "謙虚な", "普通の"],
+      "choices": [
+        "無名の",
+        "著名な・目立つ・突出した",
+        "謙虚な",
+        "普通の"
+      ],
       "answer": 1,
       "explanation": "prominent は「著名な・目立つ・突出した・重要な」という形容詞です。「a prominent figure（著名人）」「a prominent role（重要な役割）」のように使います。"
     },
     {
       "id": "en_vocab_019",
       "question": "「The two sides reached a ___ agreement after hours of negotiation.」の空欄に最も適切な語はどれか。",
-      "choices": ["hostile", "mutual", "individual", "temporary"],
+      "choices": [
+        "hostile",
+        "mutual",
+        "individual",
+        "temporary"
+      ],
       "answer": 1,
       "explanation": "mutual は「相互の・互いの」という形容詞です。「mutual agreement（相互合意）」は「双方が合意した」という意味です。hostile「敵対的な」、individual「個別の」とは意味が異なります。"
     },
     {
       "id": "en_vocab_020",
       "question": "「detrimental」の意味として最も適切なものはどれか。",
-      "choices": ["有益な", "有害な・不利な", "中立的な", "必要な"],
+      "choices": [
+        "有益な",
+        "有害な・不利な",
+        "中立的な",
+        "必要な"
+      ],
       "answer": 1,
       "explanation": "detrimental は「有害な・不利な・損害をもたらす」という形容詞です。「detrimental to health（健康に有害な）」「have a detrimental effect（悪影響を及ぼす）」のように使います。"
+    },
+    {
+      "id": "en_vocab_021",
+      "question": "「上昇する」\nThe stock price ___ sharply yesterday.",
+      "choices": [
+        "raised",
+        "rose",
+        "lifted",
+        "elevated"
+      ],
+      "answer": 1,
+      "explanation": "rise（自動詞）の過去形 rose「上昇する」が正解。raise は他動詞。"
+    },
+    {
+      "id": "en_vocab_022",
+      "question": "「廃止する」\nThe company decided to ___ the old policy.",
+      "choices": [
+        "abolish",
+        "abandon",
+        "avoid",
+        "abstain"
+      ],
+      "answer": 0,
+      "explanation": "abolish「廃止する・撤廃する」が正解。"
+    },
+    {
+      "id": "en_vocab_023",
+      "question": "「妨げる」\nNoise can ___ concentration.",
+      "choices": [
+        "disturb",
+        "hinder",
+        "obstruct",
+        "interrupt"
+      ],
+      "answer": 1,
+      "explanation": "hinder「妨げる・邪魔する」が正解。"
+    },
+    {
+      "id": "en_vocab_024",
+      "question": "「隣接した」\nThe two buildings are ___ to each other.",
+      "choices": [
+        "adjacent",
+        "attached",
+        "close",
+        "near"
+      ],
+      "answer": 0,
+      "explanation": "adjacent「隣接した・隣の」が正解。"
+    },
+    {
+      "id": "en_vocab_025",
+      "question": "「不可欠な」\nSleep is ___ for good health.",
+      "choices": [
+        "essential",
+        "important",
+        "necessary",
+        "required"
+      ],
+      "answer": 0,
+      "explanation": "essential「不可欠な・必須の」が正解。"
+    },
+    {
+      "id": "en_vocab_026",
+      "question": "「達成する」\nShe worked hard to ___ her goals.",
+      "choices": [
+        "achieve",
+        "accomplish",
+        "complete",
+        "fulfill"
+      ],
+      "answer": 0,
+      "explanation": "achieve「達成する」が正解。"
+    },
+    {
+      "id": "en_vocab_027",
+      "question": "「誤解する」\nHe ___ her intentions completely.",
+      "choices": [
+        "misunderstood",
+        "misread",
+        "misjudged",
+        "mistook"
+      ],
+      "answer": 0,
+      "explanation": "misunderstand「誤解する」の過去形 misunderstood が正解。"
+    },
+    {
+      "id": "en_vocab_028",
+      "question": "「却下する」\nThe proposal was ___ by the committee.",
+      "choices": [
+        "rejected",
+        "refused",
+        "denied",
+        "declined"
+      ],
+      "answer": 0,
+      "explanation": "reject「却下する」の受動態が正解。"
+    },
+    {
+      "id": "en_vocab_029",
+      "question": "「証明する」\nThe experiment ___ the theory.",
+      "choices": [
+        "proved",
+        "verified",
+        "confirmed",
+        "demonstrated"
+      ],
+      "answer": 0,
+      "explanation": "prove「証明する」の過去形 proved が正解。"
+    },
+    {
+      "id": "en_vocab_030",
+      "question": "「独自の」\nThis design has a very ___ style.",
+      "choices": [
+        "unique",
+        "special",
+        "individual",
+        "personal"
+      ],
+      "answer": 0,
+      "explanation": "unique「独自の・唯一の」が正解。"
+    },
+    {
+      "id": "en_vocab_031",
+      "question": "「影響を与える」\nThe weather ___ our plans.",
+      "choices": [
+        "affected",
+        "influenced",
+        "impacted",
+        "changed"
+      ],
+      "answer": 0,
+      "explanation": "affect「影響を与える」の過去形 affected が正解。"
+    },
+    {
+      "id": "en_vocab_032",
+      "question": "「緊急の」\nThis is an ___ matter.",
+      "choices": [
+        "urgent",
+        "emergency",
+        "critical",
+        "immediate"
+      ],
+      "answer": 0,
+      "explanation": "urgent「緊急の」が正解。"
+    },
+    {
+      "id": "en_vocab_033",
+      "question": "「明確な」\nPlease give a ___ explanation.",
+      "choices": [
+        "clear",
+        "obvious",
+        "explicit",
+        "apparent"
+      ],
+      "answer": 0,
+      "explanation": "clear「明確な」が最も一般的。"
+    },
+    {
+      "id": "en_vocab_034",
+      "question": "「提案する」\nShe ___ a new approach.",
+      "choices": [
+        "proposed",
+        "suggested",
+        "recommended",
+        "advised"
+      ],
+      "answer": 0,
+      "explanation": "propose「提案する」の過去形 proposed が正解。"
+    },
+    {
+      "id": "en_vocab_035",
+      "question": "「困難な」\nThis is a very ___ task.",
+      "choices": [
+        "challenging",
+        "difficult",
+        "hard",
+        "tough"
+      ],
+      "answer": 0,
+      "explanation": "challenging「困難だが刺激的な」が最もポジティブなニュアンス。"
+    },
+    {
+      "id": "en_vocab_036",
+      "question": "「協力する」\nWe need to ___ to finish this project.",
+      "choices": [
+        "cooperate",
+        "collaborate",
+        "coordinate",
+        "combine"
+      ],
+      "answer": 0,
+      "explanation": "cooperate「協力する」が正解。"
+    },
+    {
+      "id": "en_vocab_037",
+      "question": "「評価する」\nThe teacher ___ the students' work.",
+      "choices": [
+        "evaluated",
+        "assessed",
+        "judged",
+        "measured"
+      ],
+      "answer": 0,
+      "explanation": "evaluate「評価する・査定する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_038",
+      "question": "「維持する」\nWe must ___ quality standards.",
+      "choices": [
+        "maintain",
+        "keep",
+        "preserve",
+        "sustain"
+      ],
+      "answer": 0,
+      "explanation": "maintain「維持する」が正解。"
+    },
+    {
+      "id": "en_vocab_039",
+      "question": "「実施する」\nThe new policy will be ___ next month.",
+      "choices": [
+        "implemented",
+        "applied",
+        "executed",
+        "enforced"
+      ],
+      "answer": 0,
+      "explanation": "implement「実施する・実行する」の受動態が正解。"
+    },
+    {
+      "id": "en_vocab_040",
+      "question": "「削減する」\nThe company needs to ___ costs.",
+      "choices": [
+        "reduce",
+        "decrease",
+        "cut",
+        "lower"
+      ],
+      "answer": 0,
+      "explanation": "reduce「削減する」が正解。"
+    },
+    {
+      "id": "en_vocab_041",
+      "question": "「最終的な」\nWhat is the ___ decision?",
+      "choices": [
+        "final",
+        "last",
+        "ultimate",
+        "conclusive"
+      ],
+      "answer": 0,
+      "explanation": "final「最終的な」が正解。"
+    },
+    {
+      "id": "en_vocab_042",
+      "question": "「代替する」\nCan you find a ___ for this material?",
+      "choices": [
+        "substitute",
+        "replacement",
+        "alternative",
+        "option"
+      ],
+      "answer": 0,
+      "explanation": "substitute「代替物」が正解。"
+    },
+    {
+      "id": "en_vocab_043",
+      "question": "「増加する」\nSales have ___ significantly.",
+      "choices": [
+        "increased",
+        "risen",
+        "grown",
+        "expanded"
+      ],
+      "answer": 0,
+      "explanation": "increase「増加する」の過去分詞が正解。"
+    },
+    {
+      "id": "en_vocab_044",
+      "question": "「解決する」\nWe need to ___ this problem quickly.",
+      "choices": [
+        "resolve",
+        "solve",
+        "fix",
+        "settle"
+      ],
+      "answer": 0,
+      "explanation": "resolve「解決する」が正解。"
+    },
+    {
+      "id": "en_vocab_045",
+      "question": "「説明する」\nPlease ___ your decision.",
+      "choices": [
+        "explain",
+        "describe",
+        "clarify",
+        "justify"
+      ],
+      "answer": 0,
+      "explanation": "explain「説明する」が正解。"
+    },
+    {
+      "id": "en_vocab_046",
+      "question": "「優先する」\nYou should ___ your health.",
+      "choices": [
+        "prioritize",
+        "prefer",
+        "choose",
+        "select"
+      ],
+      "answer": 0,
+      "explanation": "prioritize「優先する」が正解。"
+    },
+    {
+      "id": "en_vocab_047",
+      "question": "「競争する」\nMany companies ___ for this market.",
+      "choices": [
+        "compete",
+        "race",
+        "rival",
+        "contest"
+      ],
+      "answer": 0,
+      "explanation": "compete「競争する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_048",
+      "question": "「予測する」\nExperts ___ a rise in demand.",
+      "choices": [
+        "predict",
+        "forecast",
+        "expect",
+        "anticipate"
+      ],
+      "answer": 0,
+      "explanation": "predict「予測する」が正解。"
+    },
+    {
+      "id": "en_vocab_049",
+      "question": "「検討する」\nLet me ___ your request.",
+      "choices": [
+        "consider",
+        "examine",
+        "review",
+        "evaluate"
+      ],
+      "answer": 0,
+      "explanation": "consider「検討する」が正解。"
+    },
+    {
+      "id": "en_vocab_050",
+      "question": "「調査する」\nThe police are ___ the crime.",
+      "choices": [
+        "investigating",
+        "examining",
+        "researching",
+        "studying"
+      ],
+      "answer": 0,
+      "explanation": "investigate「調査する」の進行形が正解。"
+    },
+    {
+      "id": "en_vocab_051",
+      "question": "「増やす」\nWe plan to ___ our team size.",
+      "choices": [
+        "expand",
+        "increase",
+        "grow",
+        "enlarge"
+      ],
+      "answer": 0,
+      "explanation": "expand「拡張する・増やす」が正解。"
+    },
+    {
+      "id": "en_vocab_052",
+      "question": "「支援する」\nThe organization ___ local communities.",
+      "choices": [
+        "supports",
+        "helps",
+        "aids",
+        "assists"
+      ],
+      "answer": 0,
+      "explanation": "support「支援する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_053",
+      "question": "「比較する」\nLet's ___ the two options.",
+      "choices": [
+        "compare",
+        "contrast",
+        "examine",
+        "analyze"
+      ],
+      "answer": 0,
+      "explanation": "compare「比較する」が正解。"
+    },
+    {
+      "id": "en_vocab_054",
+      "question": "「影響を受けた」\nShe was deeply ___ by the experience.",
+      "choices": [
+        "affected",
+        "moved",
+        "touched",
+        "impressed"
+      ],
+      "answer": 0,
+      "explanation": "affect「影響を与える」の受動態 affected が正解。"
+    },
+    {
+      "id": "en_vocab_055",
+      "question": "「予算内で」\nWe must stay ___ budget.",
+      "choices": [
+        "within",
+        "under",
+        "inside",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "within budget「予算内で」が正解。"
+    },
+    {
+      "id": "en_vocab_056",
+      "question": "「申請する」\nHe decided to ___ for the position.",
+      "choices": [
+        "apply",
+        "request",
+        "submit",
+        "propose"
+      ],
+      "answer": 0,
+      "explanation": "apply for「申請する」が正解。"
+    },
+    {
+      "id": "en_vocab_057",
+      "question": "「分析する」\nWe need to ___ the data carefully.",
+      "choices": [
+        "analyze",
+        "examine",
+        "study",
+        "investigate"
+      ],
+      "answer": 0,
+      "explanation": "analyze「分析する」が正解。"
+    },
+    {
+      "id": "en_vocab_058",
+      "question": "「発表する」\nThe CEO will ___ the results.",
+      "choices": [
+        "announce",
+        "declare",
+        "reveal",
+        "disclose"
+      ],
+      "answer": 0,
+      "explanation": "announce「発表する」が正解。"
+    },
+    {
+      "id": "en_vocab_059",
+      "question": "「相談する」\nPlease ___ with your manager.",
+      "choices": [
+        "consult",
+        "discuss",
+        "talk",
+        "advise"
+      ],
+      "answer": 0,
+      "explanation": "consult「相談する」が正解。"
+    },
+    {
+      "id": "en_vocab_060",
+      "question": "「挑戦する」\nShe decided to ___ herself.",
+      "choices": [
+        "challenge",
+        "push",
+        "test",
+        "try"
+      ],
+      "answer": 0,
+      "explanation": "challenge「挑戦する」が正解。"
+    },
+    {
+      "id": "en_vocab_061",
+      "question": "「採用する」\nThey decided to ___ a new strategy.",
+      "choices": [
+        "adopt",
+        "accept",
+        "choose",
+        "select"
+      ],
+      "answer": 0,
+      "explanation": "adopt「採用する・取り入れる」が正解。"
+    },
+    {
+      "id": "en_vocab_062",
+      "question": "「主張する」\nHe ___ that he was innocent.",
+      "choices": [
+        "claimed",
+        "argued",
+        "insisted",
+        "asserted"
+      ],
+      "answer": 0,
+      "explanation": "claim「主張する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_063",
+      "question": "「構成する」\nThis report ___ three sections.",
+      "choices": [
+        "consists of",
+        "comprises",
+        "contains",
+        "includes"
+      ],
+      "answer": 0,
+      "explanation": "consist of「〜から構成される」が正解。"
+    },
+    {
+      "id": "en_vocab_064",
+      "question": "「確認する」\nPlease ___ your reservation.",
+      "choices": [
+        "confirm",
+        "check",
+        "verify",
+        "validate"
+      ],
+      "answer": 0,
+      "explanation": "confirm「確認する」が正解。"
+    },
+    {
+      "id": "en_vocab_065",
+      "question": "「期待に応える」\nShe always ___ expectations.",
+      "choices": [
+        "meets",
+        "fulfills",
+        "satisfies",
+        "exceeds"
+      ],
+      "answer": 0,
+      "explanation": "meet expectations「期待に応える」が正解。"
+    },
+    {
+      "id": "en_vocab_066",
+      "question": "「拡大する」\nThe company plans to ___ overseas.",
+      "choices": [
+        "expand",
+        "extend",
+        "grow",
+        "develop"
+      ],
+      "answer": 0,
+      "explanation": "expand「拡大する」が正解。"
+    },
+    {
+      "id": "en_vocab_067",
+      "question": "「効率的な」\nWe need a more ___ method.",
+      "choices": [
+        "efficient",
+        "effective",
+        "productive",
+        "practical"
+      ],
+      "answer": 0,
+      "explanation": "efficient「効率的な」が正解。"
+    },
+    {
+      "id": "en_vocab_068",
+      "question": "「推定する」\nExperts ___ the cost at $1 million.",
+      "choices": [
+        "estimate",
+        "calculate",
+        "guess",
+        "predict"
+      ],
+      "answer": 0,
+      "explanation": "estimate「推定する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_069",
+      "question": "「完了する」\nHe ___ the project on time.",
+      "choices": [
+        "completed",
+        "finished",
+        "accomplished",
+        "achieved"
+      ],
+      "answer": 0,
+      "explanation": "complete「完了する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_070",
+      "question": "「適用する」\nThis rule ___ to all employees.",
+      "choices": [
+        "applies",
+        "relates",
+        "applies to",
+        "refers"
+      ],
+      "answer": 0,
+      "explanation": "apply「適用する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_071",
+      "question": "「適切な」\nPlease wear ___ clothing.",
+      "choices": [
+        "appropriate",
+        "proper",
+        "suitable",
+        "fitting"
+      ],
+      "answer": 0,
+      "explanation": "appropriate「適切な」が正解。"
+    },
+    {
+      "id": "en_vocab_072",
+      "question": "「反応する」\nHow did he ___ to the news?",
+      "choices": [
+        "react",
+        "respond",
+        "reply",
+        "answer"
+      ],
+      "answer": 0,
+      "explanation": "react「反応する」が正解。"
+    },
+    {
+      "id": "en_vocab_073",
+      "question": "「設立する」\nThe company was ___ in 1990.",
+      "choices": [
+        "founded",
+        "established",
+        "created",
+        "built"
+      ],
+      "answer": 0,
+      "explanation": "found「設立する」の受動態 founded が正解。"
+    },
+    {
+      "id": "en_vocab_074",
+      "question": "「修正する」\nWe need to ___ the plan.",
+      "choices": [
+        "revise",
+        "correct",
+        "fix",
+        "amend"
+      ],
+      "answer": 0,
+      "explanation": "revise「修正する」が正解。"
+    },
+    {
+      "id": "en_vocab_075",
+      "question": "「記録する」\nPlease ___ all transactions.",
+      "choices": [
+        "record",
+        "document",
+        "note",
+        "track"
+      ],
+      "answer": 0,
+      "explanation": "record「記録する」が正解。"
+    },
+    {
+      "id": "en_vocab_076",
+      "question": "「示す」\nData ___ an increase in sales.",
+      "choices": [
+        "indicates",
+        "shows",
+        "suggests",
+        "demonstrates"
+      ],
+      "answer": 0,
+      "explanation": "indicate「示す」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_077",
+      "question": "「改善する」\nWe need to ___ our service.",
+      "choices": [
+        "improve",
+        "enhance",
+        "better",
+        "upgrade"
+      ],
+      "answer": 0,
+      "explanation": "improve「改善する」が正解。"
+    },
+    {
+      "id": "en_vocab_078",
+      "question": "「求める」\nThe job ___ five years of experience.",
+      "choices": [
+        "requires",
+        "needs",
+        "demands",
+        "asks"
+      ],
+      "answer": 0,
+      "explanation": "require「求める・必要とする」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_079",
+      "question": "「議論する」\nLet's ___ the proposal.",
+      "choices": [
+        "discuss",
+        "argue",
+        "debate",
+        "talk about"
+      ],
+      "answer": 0,
+      "explanation": "discuss「議論する」が正解。"
+    },
+    {
+      "id": "en_vocab_080",
+      "question": "「依存する」\nSuccess ___ on hard work.",
+      "choices": [
+        "depends",
+        "relies",
+        "rests",
+        "counts"
+      ],
+      "answer": 0,
+      "explanation": "depend on「依存する・次第だ」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_081",
+      "question": "「貢献する」\nShe ___ to the team's success.",
+      "choices": [
+        "contributed",
+        "helped",
+        "supported",
+        "added"
+      ],
+      "answer": 0,
+      "explanation": "contribute「貢献する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_082",
+      "question": "「確立する」\nWe need to ___ clear guidelines.",
+      "choices": [
+        "establish",
+        "set",
+        "create",
+        "build"
+      ],
+      "answer": 0,
+      "explanation": "establish「確立する」が正解。"
+    },
+    {
+      "id": "en_vocab_083",
+      "question": "「対処する」\nHow do you ___ with stress?",
+      "choices": [
+        "deal",
+        "cope",
+        "handle",
+        "manage"
+      ],
+      "answer": 0,
+      "explanation": "deal with「対処する」が正解。"
+    },
+    {
+      "id": "en_vocab_084",
+      "question": "「期限」\nThe ___ for the report is Friday.",
+      "choices": [
+        "deadline",
+        "due date",
+        "limit",
+        "cutoff"
+      ],
+      "answer": 0,
+      "explanation": "deadline「締め切り・期限」が正解。"
+    },
+    {
+      "id": "en_vocab_085",
+      "question": "「強化する」\nWe need to ___ security measures.",
+      "choices": [
+        "strengthen",
+        "enhance",
+        "improve",
+        "boost"
+      ],
+      "answer": 0,
+      "explanation": "strengthen「強化する」が正解。"
+    },
+    {
+      "id": "en_vocab_086",
+      "question": "「要因」\nCost is a major ___ in the decision.",
+      "choices": [
+        "factor",
+        "element",
+        "reason",
+        "component"
+      ],
+      "answer": 0,
+      "explanation": "factor「要因・因子」が正解。"
+    },
+    {
+      "id": "en_vocab_087",
+      "question": "「対応する」\nPlease ___ to all customer inquiries.",
+      "choices": [
+        "respond",
+        "reply",
+        "answer",
+        "react"
+      ],
+      "answer": 0,
+      "explanation": "respond「対応する・返答する」が正解。"
+    },
+    {
+      "id": "en_vocab_088",
+      "question": "「概念」\nThis is a complex ___ to understand.",
+      "choices": [
+        "concept",
+        "idea",
+        "notion",
+        "theory"
+      ],
+      "answer": 0,
+      "explanation": "concept「概念」が正解。"
+    },
+    {
+      "id": "en_vocab_089",
+      "question": "「影響する」\nThe new law will ___ many businesses.",
+      "choices": [
+        "affect",
+        "impact",
+        "influence",
+        "change"
+      ],
+      "answer": 0,
+      "explanation": "affect「影響する」が正解。"
+    },
+    {
+      "id": "en_vocab_090",
+      "question": "「目的」\nWhat is the ___ of this meeting?",
+      "choices": [
+        "purpose",
+        "goal",
+        "aim",
+        "objective"
+      ],
+      "answer": 0,
+      "explanation": "purpose「目的・意図」が正解。"
+    },
+    {
+      "id": "en_vocab_091",
+      "question": "「測定する」\nWe need to ___ performance.",
+      "choices": [
+        "measure",
+        "evaluate",
+        "assess",
+        "test"
+      ],
+      "answer": 0,
+      "explanation": "measure「測定する」が正解。"
+    },
+    {
+      "id": "en_vocab_092",
+      "question": "「取り組む」\nWe need to ___ this issue immediately.",
+      "choices": [
+        "address",
+        "tackle",
+        "deal with",
+        "handle"
+      ],
+      "answer": 0,
+      "explanation": "address「取り組む・対処する」が正解。"
+    },
+    {
+      "id": "en_vocab_093",
+      "question": "「開発する」\nThe company plans to ___ new products.",
+      "choices": [
+        "develop",
+        "create",
+        "design",
+        "produce"
+      ],
+      "answer": 0,
+      "explanation": "develop「開発する」が正解。"
+    },
+    {
+      "id": "en_vocab_094",
+      "question": "「一致する」\nHis story doesn't ___ with the facts.",
+      "choices": [
+        "match",
+        "agree",
+        "correspond",
+        "align"
+      ],
+      "answer": 0,
+      "explanation": "match「一致する・合う」が正解。"
+    },
+    {
+      "id": "en_vocab_095",
+      "question": "「保護する」\nWe must ___ our customers' data.",
+      "choices": [
+        "protect",
+        "secure",
+        "guard",
+        "preserve"
+      ],
+      "answer": 0,
+      "explanation": "protect「保護する」が正解。"
+    },
+    {
+      "id": "en_vocab_096",
+      "question": "「特徴」\nOne ___ of this product is its durability.",
+      "choices": [
+        "feature",
+        "characteristic",
+        "property",
+        "quality"
+      ],
+      "answer": 0,
+      "explanation": "feature「特徴」が正解。"
+    },
+    {
+      "id": "en_vocab_097",
+      "question": "「評価する・鑑賞する」\nI really ___ your help.",
+      "choices": [
+        "appreciate",
+        "value",
+        "respect",
+        "admire"
+      ],
+      "answer": 0,
+      "explanation": "appreciate「感謝する・評価する」が正解。"
+    },
+    {
+      "id": "en_vocab_098",
+      "question": "「戦略」\nWe need a new marketing ___.",
+      "choices": [
+        "strategy",
+        "plan",
+        "approach",
+        "method"
+      ],
+      "answer": 0,
+      "explanation": "strategy「戦略」が正解。"
+    },
+    {
+      "id": "en_vocab_099",
+      "question": "「分野」\nShe is an expert in her ___.",
+      "choices": [
+        "field",
+        "area",
+        "domain",
+        "sector"
+      ],
+      "answer": 0,
+      "explanation": "field「分野・領域」が正解。"
+    },
+    {
+      "id": "en_vocab_100",
+      "question": "「管理する」\nHe ___ a team of 20 people.",
+      "choices": [
+        "manages",
+        "leads",
+        "directs",
+        "supervises"
+      ],
+      "answer": 0,
+      "explanation": "manage「管理する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_101",
+      "question": "「明白な」\nThe answer is ___.",
+      "choices": [
+        "obvious",
+        "clear",
+        "evident",
+        "apparent"
+      ],
+      "answer": 0,
+      "explanation": "obvious「明白な」が正解。"
+    },
+    {
+      "id": "en_vocab_102",
+      "question": "「急速な」\nThere has been ___ growth.",
+      "choices": [
+        "rapid",
+        "fast",
+        "quick",
+        "swift"
+      ],
+      "answer": 0,
+      "explanation": "rapid「急速な」が正解。"
+    },
+    {
+      "id": "en_vocab_103",
+      "question": "「経験豊富な」\nShe is a very ___ manager.",
+      "choices": [
+        "experienced",
+        "skilled",
+        "competent",
+        "qualified"
+      ],
+      "answer": 0,
+      "explanation": "experienced「経験豊富な」が正解。"
+    },
+    {
+      "id": "en_vocab_104",
+      "question": "「コスト削減」\nOur goal is ___ reduction.",
+      "choices": [
+        "cost",
+        "expense",
+        "budget",
+        "spending"
+      ],
+      "answer": 0,
+      "explanation": "cost reduction「コスト削減」が正解。"
+    },
+    {
+      "id": "en_vocab_105",
+      "question": "「収益」\nThe company reported strong ___.",
+      "choices": [
+        "revenue",
+        "income",
+        "profit",
+        "earnings"
+      ],
+      "answer": 0,
+      "explanation": "revenue「収益・売上」が正解。"
+    },
+    {
+      "id": "en_vocab_106",
+      "question": "「信頼できる」\nWe need ___ data.",
+      "choices": [
+        "reliable",
+        "trustworthy",
+        "dependable",
+        "accurate"
+      ],
+      "answer": 0,
+      "explanation": "reliable「信頼できる・信頼性の高い」が正解。"
+    },
+    {
+      "id": "en_vocab_107",
+      "question": "「手順」\nFollow the standard ___ carefully.",
+      "choices": [
+        "procedure",
+        "process",
+        "method",
+        "step"
+      ],
+      "answer": 0,
+      "explanation": "procedure「手順・手続き」が正解。"
+    },
+    {
+      "id": "en_vocab_108",
+      "question": "「現在の」\nWhat is the ___ situation?",
+      "choices": [
+        "current",
+        "present",
+        "existing",
+        "actual"
+      ],
+      "answer": 0,
+      "explanation": "current「現在の」が正解。"
+    },
+    {
+      "id": "en_vocab_109",
+      "question": "「持続可能な」\nWe need a ___ business model.",
+      "choices": [
+        "sustainable",
+        "lasting",
+        "permanent",
+        "stable"
+      ],
+      "answer": 0,
+      "explanation": "sustainable「持続可能な」が正解。"
+    },
+    {
+      "id": "en_vocab_110",
+      "question": "「複雑な」\nThis is a ___ problem.",
+      "choices": [
+        "complex",
+        "complicated",
+        "difficult",
+        "involved"
+      ],
+      "answer": 0,
+      "explanation": "complex「複雑な」が正解。"
+    },
+    {
+      "id": "en_vocab_111",
+      "question": "「消費者」\nThe new product targets young ___.",
+      "choices": [
+        "consumers",
+        "customers",
+        "clients",
+        "buyers"
+      ],
+      "answer": 0,
+      "explanation": "consumer「消費者」が正解。"
+    },
+    {
+      "id": "en_vocab_112",
+      "question": "「需要」\nThere is high ___ for this product.",
+      "choices": [
+        "demand",
+        "need",
+        "requirement",
+        "desire"
+      ],
+      "answer": 0,
+      "explanation": "demand「需要」が正解。"
+    },
+    {
+      "id": "en_vocab_113",
+      "question": "「標準的な」\nThis is ___ practice.",
+      "choices": [
+        "standard",
+        "normal",
+        "usual",
+        "common"
+      ],
+      "answer": 0,
+      "explanation": "standard「標準的な」が正解。"
+    },
+    {
+      "id": "en_vocab_114",
+      "question": "「義務」\nYou have an ___ to report this.",
+      "choices": [
+        "obligation",
+        "duty",
+        "responsibility",
+        "requirement"
+      ],
+      "answer": 0,
+      "explanation": "obligation「義務」が正解。"
+    },
+    {
+      "id": "en_vocab_115",
+      "question": "「資源」\nWe need to manage our ___ wisely.",
+      "choices": [
+        "resources",
+        "assets",
+        "materials",
+        "supplies"
+      ],
+      "answer": 0,
+      "explanation": "resource「資源・リソース」が正解。"
+    },
+    {
+      "id": "en_vocab_116",
+      "question": "「急いで・至急」\nPlease handle this ___.",
+      "choices": [
+        "urgently",
+        "immediately",
+        "quickly",
+        "promptly"
+      ],
+      "answer": 0,
+      "explanation": "urgently「急いで・至急」が正解。"
+    },
+    {
+      "id": "en_vocab_117",
+      "question": "「重要な」\nThis is a ___ decision.",
+      "choices": [
+        "significant",
+        "important",
+        "major",
+        "key"
+      ],
+      "answer": 0,
+      "explanation": "significant「重要な・意義深い」が正解。"
+    },
+    {
+      "id": "en_vocab_118",
+      "question": "「指示する」\nHe ___ the team to change direction.",
+      "choices": [
+        "directed",
+        "told",
+        "ordered",
+        "commanded"
+      ],
+      "answer": 0,
+      "explanation": "direct「指示する・向ける」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_119",
+      "question": "「提供する」\nThe company ___ excellent services.",
+      "choices": [
+        "provides",
+        "offers",
+        "delivers",
+        "supplies"
+      ],
+      "answer": 0,
+      "explanation": "provide「提供する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_120",
+      "question": "「将来の」\nWhat are your ___ plans?",
+      "choices": [
+        "future",
+        "upcoming",
+        "prospective",
+        "eventual"
+      ],
+      "answer": 0,
+      "explanation": "future「将来の」が正解。"
+    },
+    {
+      "id": "en_vocab_121",
+      "question": "「期間」\nThe project will take a ___ of six months.",
+      "choices": [
+        "period",
+        "duration",
+        "time",
+        "term"
+      ],
+      "answer": 0,
+      "explanation": "period「期間」が正解。"
+    },
+    {
+      "id": "en_vocab_122",
+      "question": "「組み合わせる」\nWe need to ___ these two ideas.",
+      "choices": [
+        "combine",
+        "merge",
+        "integrate",
+        "mix"
+      ],
+      "answer": 0,
+      "explanation": "combine「組み合わせる」が正解。"
+    },
+    {
+      "id": "en_vocab_123",
+      "question": "「証拠」\nThere is no ___ of wrongdoing.",
+      "choices": [
+        "evidence",
+        "proof",
+        "sign",
+        "indication"
+      ],
+      "answer": 0,
+      "explanation": "evidence「証拠」が正解。"
+    },
+    {
+      "id": "en_vocab_124",
+      "question": "「選択肢」\nWe have several ___ to choose from.",
+      "choices": [
+        "options",
+        "choices",
+        "alternatives",
+        "possibilities"
+      ],
+      "answer": 0,
+      "explanation": "option「選択肢」が正解。"
+    },
+    {
+      "id": "en_vocab_125",
+      "question": "「傾向」\nThere is a ___ toward remote work.",
+      "choices": [
+        "trend",
+        "tendency",
+        "shift",
+        "movement"
+      ],
+      "answer": 0,
+      "explanation": "trend「傾向・動向」が正解。"
+    },
+    {
+      "id": "en_vocab_126",
+      "question": "「挑戦」\nThis presents a real ___ for us.",
+      "choices": [
+        "challenge",
+        "difficulty",
+        "problem",
+        "obstacle"
+      ],
+      "answer": 0,
+      "explanation": "challenge「挑戦・難題」が正解。"
+    },
+    {
+      "id": "en_vocab_127",
+      "question": "「議論・論争」\nThere is much ___ about this topic.",
+      "choices": [
+        "debate",
+        "argument",
+        "discussion",
+        "controversy"
+      ],
+      "answer": 3,
+      "explanation": "controversy「論争・物議」が正解。"
+    },
+    {
+      "id": "en_vocab_128",
+      "question": "「一貫した」\nWe need ___ communication.",
+      "choices": [
+        "consistent",
+        "regular",
+        "steady",
+        "uniform"
+      ],
+      "answer": 0,
+      "explanation": "consistent「一貫した・矛盾のない」が正解。"
+    },
+    {
+      "id": "en_vocab_129",
+      "question": "「期待する」\nWe ___ good results.",
+      "choices": [
+        "expect",
+        "anticipate",
+        "hope for",
+        "await"
+      ],
+      "answer": 0,
+      "explanation": "expect「期待する」が正解。"
+    },
+    {
+      "id": "en_vocab_130",
+      "question": "「詳細」\nPlease check the ___ carefully.",
+      "choices": [
+        "details",
+        "information",
+        "specifics",
+        "particulars"
+      ],
+      "answer": 0,
+      "explanation": "detail「詳細」が正解。"
+    },
+    {
+      "id": "en_vocab_131",
+      "question": "「持続する」\nThe positive trend ___.",
+      "choices": [
+        "continues",
+        "persists",
+        "lasts",
+        "remains"
+      ],
+      "answer": 0,
+      "explanation": "continue「持続する・続く」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_132",
+      "question": "「相当な」\nThis requires ___ effort.",
+      "choices": [
+        "significant",
+        "substantial",
+        "considerable",
+        "major"
+      ],
+      "answer": 0,
+      "explanation": "significant「相当な・重要な」が正解。"
+    },
+    {
+      "id": "en_vocab_133",
+      "question": "「見積もる」\nWe ___ the cost at $50,000.",
+      "choices": [
+        "estimated",
+        "calculated",
+        "projected",
+        "valued"
+      ],
+      "answer": 0,
+      "explanation": "estimate「見積もる」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_134",
+      "question": "「結果として」\nAs a ___, sales increased.",
+      "choices": [
+        "result",
+        "consequence",
+        "outcome",
+        "effect"
+      ],
+      "answer": 0,
+      "explanation": "result「結果」が正解。"
+    },
+    {
+      "id": "en_vocab_135",
+      "question": "「具体的な」\nCan you give me a ___ example?",
+      "choices": [
+        "specific",
+        "concrete",
+        "particular",
+        "definite"
+      ],
+      "answer": 0,
+      "explanation": "specific「具体的な」が正解。"
+    },
+    {
+      "id": "en_vocab_136",
+      "question": "「達成」\nThis is a great ___.",
+      "choices": [
+        "achievement",
+        "accomplishment",
+        "success",
+        "attainment"
+      ],
+      "answer": 0,
+      "explanation": "achievement「達成・成果」が正解。"
+    },
+    {
+      "id": "en_vocab_137",
+      "question": "「機会」\nThis is a great ___ for growth.",
+      "choices": [
+        "opportunity",
+        "chance",
+        "possibility",
+        "opening"
+      ],
+      "answer": 0,
+      "explanation": "opportunity「機会」が正解。"
+    },
+    {
+      "id": "en_vocab_138",
+      "question": "「課題」\nThe main ___ is communication.",
+      "choices": [
+        "challenge",
+        "issue",
+        "problem",
+        "concern"
+      ],
+      "answer": 0,
+      "explanation": "challenge「課題」が正解。"
+    },
+    {
+      "id": "en_vocab_139",
+      "question": "「革新的な」\nThis is a very ___ idea.",
+      "choices": [
+        "innovative",
+        "creative",
+        "new",
+        "original"
+      ],
+      "answer": 0,
+      "explanation": "innovative「革新的な」が正解。"
+    },
+    {
+      "id": "en_vocab_140",
+      "question": "「強み」\nWhat is your greatest ___?",
+      "choices": [
+        "strength",
+        "advantage",
+        "ability",
+        "asset"
+      ],
+      "answer": 0,
+      "explanation": "strength「強み」が正解。"
+    },
+    {
+      "id": "en_vocab_141",
+      "question": "「リスク」\nThis ___ is too high to ignore.",
+      "choices": [
+        "risk",
+        "danger",
+        "threat",
+        "hazard"
+      ],
+      "answer": 0,
+      "explanation": "risk「リスク」が正解。"
+    },
+    {
+      "id": "en_vocab_142",
+      "question": "「協議する」\nWe will ___ with experts.",
+      "choices": [
+        "consult",
+        "discuss",
+        "negotiate",
+        "confer"
+      ],
+      "answer": 0,
+      "explanation": "consult「協議する・相談する」が正解。"
+    },
+    {
+      "id": "en_vocab_143",
+      "question": "「条件」\nThe ___ of the contract are clear.",
+      "choices": [
+        "terms",
+        "conditions",
+        "clauses",
+        "provisions"
+      ],
+      "answer": 0,
+      "explanation": "term「条件・条項」が正解。"
+    },
+    {
+      "id": "en_vocab_144",
+      "question": "「促進する」\nThis policy will ___ growth.",
+      "choices": [
+        "promote",
+        "encourage",
+        "support",
+        "boost"
+      ],
+      "answer": 0,
+      "explanation": "promote「促進する」が正解。"
+    },
+    {
+      "id": "en_vocab_145",
+      "question": "「批判的な」\nShe gave ___ feedback.",
+      "choices": [
+        "critical",
+        "negative",
+        "constructive",
+        "harsh"
+      ],
+      "answer": 0,
+      "explanation": "critical「批判的な・重大な」が正解。"
+    },
+    {
+      "id": "en_vocab_146",
+      "question": "「透明性」\nWe value ___ in our operations.",
+      "choices": [
+        "transparency",
+        "openness",
+        "clarity",
+        "honesty"
+      ],
+      "answer": 0,
+      "explanation": "transparency「透明性」が正解。"
+    },
+    {
+      "id": "en_vocab_147",
+      "question": "「優先度」\nThis task has high ___.",
+      "choices": [
+        "priority",
+        "importance",
+        "urgency",
+        "significance"
+      ],
+      "answer": 0,
+      "explanation": "priority「優先度」が正解。"
+    },
+    {
+      "id": "en_vocab_148",
+      "question": "「専門知識」\nShe has great ___ in this area.",
+      "choices": [
+        "expertise",
+        "knowledge",
+        "experience",
+        "skill"
+      ],
+      "answer": 0,
+      "explanation": "expertise「専門知識」が正解。"
+    },
+    {
+      "id": "en_vocab_149",
+      "question": "「可能性」\nThere is a good ___ of success.",
+      "choices": [
+        "possibility",
+        "chance",
+        "probability",
+        "likelihood"
+      ],
+      "answer": 0,
+      "explanation": "possibility「可能性」が正解。"
+    },
+    {
+      "id": "en_vocab_150",
+      "question": "「利点」\nWhat are the ___ of this plan?",
+      "choices": [
+        "advantages",
+        "benefits",
+        "merits",
+        "pros"
+      ],
+      "answer": 0,
+      "explanation": "advantage「利点」が正解。"
+    },
+    {
+      "id": "en_vocab_151",
+      "question": "「推薦する」\nCan you ___ a good restaurant?",
+      "choices": [
+        "recommend",
+        "suggest",
+        "advise",
+        "propose"
+      ],
+      "answer": 0,
+      "explanation": "recommend「推薦する」が正解。"
+    },
+    {
+      "id": "en_vocab_152",
+      "question": "「検証する」\nWe need to ___ these results.",
+      "choices": [
+        "verify",
+        "confirm",
+        "check",
+        "validate"
+      ],
+      "answer": 0,
+      "explanation": "verify「検証する・確認する」が正解。"
+    },
+    {
+      "id": "en_vocab_153",
+      "question": "「弱点」\nEvery plan has ___.",
+      "choices": [
+        "weaknesses",
+        "flaws",
+        "drawbacks",
+        "limitations"
+      ],
+      "answer": 0,
+      "explanation": "weakness「弱点」が正解。"
+    },
+    {
+      "id": "en_vocab_154",
+      "question": "「長期的な」\nWe need a ___ solution.",
+      "choices": [
+        "long-term",
+        "permanent",
+        "lasting",
+        "sustained"
+      ],
+      "answer": 0,
+      "explanation": "long-term「長期的な」が正解。"
+    },
+    {
+      "id": "en_vocab_155",
+      "question": "「同意する」\nDo you ___ with this proposal?",
+      "choices": [
+        "agree",
+        "consent",
+        "approve",
+        "concur"
+      ],
+      "answer": 0,
+      "explanation": "agree「同意する」が正解。"
+    },
+    {
+      "id": "en_vocab_156",
+      "question": "「問題点」\nWe need to address several ___.",
+      "choices": [
+        "issues",
+        "problems",
+        "concerns",
+        "challenges"
+      ],
+      "answer": 0,
+      "explanation": "issue「問題点・課題」が正解。"
+    },
+    {
+      "id": "en_vocab_157",
+      "question": "「強調する」\nHe ___ the importance of teamwork.",
+      "choices": [
+        "emphasized",
+        "stressed",
+        "highlighted",
+        "underlined"
+      ],
+      "answer": 0,
+      "explanation": "emphasize「強調する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_158",
+      "question": "「取り除く」\nWe need to ___ all obstacles.",
+      "choices": [
+        "eliminate",
+        "remove",
+        "delete",
+        "erase"
+      ],
+      "answer": 0,
+      "explanation": "eliminate「取り除く・排除する」が正解。"
+    },
+    {
+      "id": "en_vocab_159",
+      "question": "「収集する」\nWe are ___ customer feedback.",
+      "choices": [
+        "collecting",
+        "gathering",
+        "obtaining",
+        "acquiring"
+      ],
+      "answer": 0,
+      "explanation": "collect「収集する」の進行形が正解。"
+    },
+    {
+      "id": "en_vocab_160",
+      "question": "「関連する」\nThis information is ___ to the topic.",
+      "choices": [
+        "relevant",
+        "related",
+        "applicable",
+        "pertinent"
+      ],
+      "answer": 0,
+      "explanation": "relevant「関連する」が正解。"
+    },
+    {
+      "id": "en_vocab_161",
+      "question": "「多様な」\nWe have a ___ team.",
+      "choices": [
+        "diverse",
+        "varied",
+        "mixed",
+        "different"
+      ],
+      "answer": 0,
+      "explanation": "diverse「多様な」が正解。"
+    },
+    {
+      "id": "en_vocab_162",
+      "question": "「予算」\nWe have a limited ___.",
+      "choices": [
+        "budget",
+        "fund",
+        "resource",
+        "capital"
+      ],
+      "answer": 0,
+      "explanation": "budget「予算」が正解。"
+    },
+    {
+      "id": "en_vocab_163",
+      "question": "「投資する」\nWe will ___ in new technology.",
+      "choices": [
+        "invest",
+        "spend",
+        "put",
+        "allocate"
+      ],
+      "answer": 0,
+      "explanation": "invest「投資する」が正解。"
+    },
+    {
+      "id": "en_vocab_164",
+      "question": "「成果物」\nWhat are the project ___?",
+      "choices": [
+        "deliverables",
+        "outputs",
+        "results",
+        "products"
+      ],
+      "answer": 0,
+      "explanation": "deliverable「成果物」が正解。"
+    },
+    {
+      "id": "en_vocab_165",
+      "question": "「困惑した」\nShe was ___ by the question.",
+      "choices": [
+        "confused",
+        "puzzled",
+        "perplexed",
+        "baffled"
+      ],
+      "answer": 0,
+      "explanation": "confused「困惑した」が正解。"
+    },
+    {
+      "id": "en_vocab_166",
+      "question": "「一時的な」\nThis is a ___ solution.",
+      "choices": [
+        "temporary",
+        "short-term",
+        "interim",
+        "provisional"
+      ],
+      "answer": 0,
+      "explanation": "temporary「一時的な」が正解。"
+    },
+    {
+      "id": "en_vocab_167",
+      "question": "「評判」\nThe company has a good ___.",
+      "choices": [
+        "reputation",
+        "image",
+        "standing",
+        "name"
+      ],
+      "answer": 0,
+      "explanation": "reputation「評判」が正解。"
+    },
+    {
+      "id": "en_vocab_168",
+      "question": "「共有する」\nLet's ___ this information.",
+      "choices": [
+        "share",
+        "exchange",
+        "distribute",
+        "circulate"
+      ],
+      "answer": 0,
+      "explanation": "share「共有する」が正解。"
+    },
+    {
+      "id": "en_vocab_169",
+      "question": "「基本的な」\nThis is a ___ requirement.",
+      "choices": [
+        "fundamental",
+        "basic",
+        "essential",
+        "core"
+      ],
+      "answer": 0,
+      "explanation": "fundamental「基本的な」が正解。"
+    },
+    {
+      "id": "en_vocab_170",
+      "question": "「有益な」\nThis is a ___ experience.",
+      "choices": [
+        "beneficial",
+        "useful",
+        "helpful",
+        "valuable"
+      ],
+      "answer": 0,
+      "explanation": "beneficial「有益な・ためになる」が正解。"
+    },
+    {
+      "id": "en_vocab_171",
+      "question": "「整理する」\nWe need to ___ our files.",
+      "choices": [
+        "organize",
+        "sort",
+        "arrange",
+        "order"
+      ],
+      "answer": 0,
+      "explanation": "organize「整理する」が正解。"
+    },
+    {
+      "id": "en_vocab_172",
+      "question": "「報告する」\nPlease ___ any issues.",
+      "choices": [
+        "report",
+        "inform",
+        "notify",
+        "advise"
+      ],
+      "answer": 0,
+      "explanation": "report「報告する」が正解。"
+    },
+    {
+      "id": "en_vocab_173",
+      "question": "「ライバル」\nOur main ___ is very aggressive.",
+      "choices": [
+        "competitor",
+        "rival",
+        "opponent",
+        "adversary"
+      ],
+      "answer": 0,
+      "explanation": "competitor「競争相手」が正解。"
+    },
+    {
+      "id": "en_vocab_174",
+      "question": "「測定可能な」\nWe need ___ results.",
+      "choices": [
+        "measurable",
+        "quantifiable",
+        "countable",
+        "trackable"
+      ],
+      "answer": 0,
+      "explanation": "measurable「測定可能な」が正解。"
+    },
+    {
+      "id": "en_vocab_175",
+      "question": "「承認する」\nThe board ___ the new plan.",
+      "choices": [
+        "approved",
+        "accepted",
+        "endorsed",
+        "authorized"
+      ],
+      "answer": 0,
+      "explanation": "approve「承認する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_176",
+      "question": "「制限する」\nWe had to ___ access.",
+      "choices": [
+        "restrict",
+        "limit",
+        "reduce",
+        "control"
+      ],
+      "answer": 0,
+      "explanation": "restrict「制限する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_177",
+      "question": "「交渉する」\nWe will ___ the terms.",
+      "choices": [
+        "negotiate",
+        "discuss",
+        "settle",
+        "bargain"
+      ],
+      "answer": 0,
+      "explanation": "negotiate「交渉する」が正解。"
+    },
+    {
+      "id": "en_vocab_178",
+      "question": "「満足した」\nAre you ___ with the results?",
+      "choices": [
+        "satisfied",
+        "happy",
+        "pleased",
+        "content"
+      ],
+      "answer": 0,
+      "explanation": "satisfied「満足した」が正解。"
+    },
+    {
+      "id": "en_vocab_179",
+      "question": "「課題を特定する」\nWe need to ___ the problem.",
+      "choices": [
+        "identify",
+        "find",
+        "discover",
+        "detect"
+      ],
+      "answer": 0,
+      "explanation": "identify「特定する・識別する」が正解。"
+    },
+    {
+      "id": "en_vocab_180",
+      "question": "「手順を踏む」\nPlease follow the ___.",
+      "choices": [
+        "procedure",
+        "process",
+        "protocol",
+        "routine"
+      ],
+      "answer": 0,
+      "explanation": "procedure「手順」が正解。"
+    },
+    {
+      "id": "en_vocab_181",
+      "question": "「合意する」\nWe ___ on the price.",
+      "choices": [
+        "agreed",
+        "settled",
+        "decided",
+        "concluded"
+      ],
+      "answer": 0,
+      "explanation": "agree「合意する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_182",
+      "question": "「包括的な」\nWe need a ___ review.",
+      "choices": [
+        "comprehensive",
+        "complete",
+        "thorough",
+        "full"
+      ],
+      "answer": 0,
+      "explanation": "comprehensive「包括的な」が正解。"
+    },
+    {
+      "id": "en_vocab_183",
+      "question": "「応答する」\nPlease ___ to my email.",
+      "choices": [
+        "respond",
+        "reply",
+        "answer",
+        "react"
+      ],
+      "answer": 0,
+      "explanation": "respond「応答する」が正解。"
+    },
+    {
+      "id": "en_vocab_184",
+      "question": "「依頼する」\nShe ___ help from her colleagues.",
+      "choices": [
+        "requested",
+        "asked for",
+        "sought",
+        "demanded"
+      ],
+      "answer": 0,
+      "explanation": "request「依頼する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_185",
+      "question": "「危機」\nWe are in a financial ___.",
+      "choices": [
+        "crisis",
+        "emergency",
+        "situation",
+        "problem"
+      ],
+      "answer": 0,
+      "explanation": "crisis「危機」が正解。"
+    },
+    {
+      "id": "en_vocab_186",
+      "question": "「解雇する」\nThree employees were ___.",
+      "choices": [
+        "dismissed",
+        "fired",
+        "terminated",
+        "laid off"
+      ],
+      "answer": 0,
+      "explanation": "dismiss「解雇する」の受動態が正解。"
+    },
+    {
+      "id": "en_vocab_187",
+      "question": "「成功率」\nWhat is the ___ rate?",
+      "choices": [
+        "success",
+        "achievement",
+        "completion",
+        "passing"
+      ],
+      "answer": 0,
+      "explanation": "success rate「成功率」が正解。"
+    },
+    {
+      "id": "en_vocab_188",
+      "question": "「革命的な」\nThis is a ___ technology.",
+      "choices": [
+        "revolutionary",
+        "breakthrough",
+        "transformative",
+        "radical"
+      ],
+      "answer": 0,
+      "explanation": "revolutionary「革命的な」が正解。"
+    },
+    {
+      "id": "en_vocab_189",
+      "question": "「状況」\nWhat is the current ___?",
+      "choices": [
+        "situation",
+        "condition",
+        "status",
+        "state"
+      ],
+      "answer": 0,
+      "explanation": "situation「状況」が正解。"
+    },
+    {
+      "id": "en_vocab_190",
+      "question": "「解消する」\nWe need to ___ the misunderstanding.",
+      "choices": [
+        "resolve",
+        "clear up",
+        "fix",
+        "address"
+      ],
+      "answer": 0,
+      "explanation": "resolve「解消する・解決する」が正解。"
+    },
+    {
+      "id": "en_vocab_191",
+      "question": "「有能な」\nShe is a very ___ engineer.",
+      "choices": [
+        "competent",
+        "capable",
+        "skilled",
+        "talented"
+      ],
+      "answer": 0,
+      "explanation": "competent「有能な」が正解。"
+    },
+    {
+      "id": "en_vocab_192",
+      "question": "「ネットワーク」\nBuild your professional ___.",
+      "choices": [
+        "network",
+        "connections",
+        "relationships",
+        "contacts"
+      ],
+      "answer": 0,
+      "explanation": "network「ネットワーク」が正解。"
+    },
+    {
+      "id": "en_vocab_193",
+      "question": "「パフォーマンス」\nWe need to improve ___.",
+      "choices": [
+        "performance",
+        "productivity",
+        "output",
+        "efficiency"
+      ],
+      "answer": 0,
+      "explanation": "performance「パフォーマンス・業績」が正解。"
+    },
+    {
+      "id": "en_vocab_194",
+      "question": "「適応する」\nWe must ___ to changes.",
+      "choices": [
+        "adapt",
+        "adjust",
+        "accommodate",
+        "conform"
+      ],
+      "answer": 0,
+      "explanation": "adapt「適応する」が正解。"
+    },
+    {
+      "id": "en_vocab_195",
+      "question": "「追跡する」\nPlease ___ the progress.",
+      "choices": [
+        "track",
+        "monitor",
+        "follow",
+        "trace"
+      ],
+      "answer": 0,
+      "explanation": "track「追跡する」が正解。"
+    },
+    {
+      "id": "en_vocab_196",
+      "question": "「差別化する」\nWe need to ___ our product.",
+      "choices": [
+        "differentiate",
+        "distinguish",
+        "separate",
+        "vary"
+      ],
+      "answer": 0,
+      "explanation": "differentiate「差別化する」が正解。"
+    },
+    {
+      "id": "en_vocab_197",
+      "question": "「参加する」\nAll staff will ___ in the meeting.",
+      "choices": [
+        "participate",
+        "attend",
+        "join",
+        "engage"
+      ],
+      "answer": 0,
+      "explanation": "participate「参加する」が正解。"
+    },
+    {
+      "id": "en_vocab_198",
+      "question": "「チームを率いる」\nShe ___ a large team.",
+      "choices": [
+        "leads",
+        "manages",
+        "heads",
+        "directs"
+      ],
+      "answer": 0,
+      "explanation": "lead「率いる」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_199",
+      "question": "「採用する」\nWe are planning to ___ 50 people.",
+      "choices": [
+        "hire",
+        "recruit",
+        "employ",
+        "take on"
+      ],
+      "answer": 0,
+      "explanation": "hire「採用する」が正解。"
+    },
+    {
+      "id": "en_vocab_200",
+      "question": "「改善点」\nThere is room for ___.",
+      "choices": [
+        "improvement",
+        "enhancement",
+        "progress",
+        "development"
+      ],
+      "answer": 0,
+      "explanation": "improvement「改善・向上」が正解。"
+    },
+    {
+      "id": "en_vocab_201",
+      "question": "「有効な」\nIs this ticket still ___?",
+      "choices": [
+        "valid",
+        "effective",
+        "usable",
+        "active"
+      ],
+      "answer": 0,
+      "explanation": "valid「有効な」が正解。"
+    },
+    {
+      "id": "en_vocab_202",
+      "question": "「負担する」\nWho will ___ the cost?",
+      "choices": [
+        "bear",
+        "carry",
+        "shoulder",
+        "cover"
+      ],
+      "answer": 0,
+      "explanation": "bear「負担する・耐える」が正解。"
+    },
+    {
+      "id": "en_vocab_203",
+      "question": "「廃棄する」\nPlease ___ old documents.",
+      "choices": [
+        "discard",
+        "throw away",
+        "dispose of",
+        "get rid of"
+      ],
+      "answer": 0,
+      "explanation": "discard「廃棄する・捨てる」が正解。"
+    },
+    {
+      "id": "en_vocab_204",
+      "question": "「強烈な」\nThis is an ___ experience.",
+      "choices": [
+        "intense",
+        "strong",
+        "powerful",
+        "extreme"
+      ],
+      "answer": 0,
+      "explanation": "intense「強烈な・激しい」が正解。"
+    },
+    {
+      "id": "en_vocab_205",
+      "question": "「定義する」\nPlease ___ the key terms.",
+      "choices": [
+        "define",
+        "explain",
+        "describe",
+        "clarify"
+      ],
+      "answer": 0,
+      "explanation": "define「定義する」が正解。"
+    },
+    {
+      "id": "en_vocab_206",
+      "question": "「透明な」\nThe process should be ___.",
+      "choices": [
+        "transparent",
+        "clear",
+        "open",
+        "honest"
+      ],
+      "answer": 0,
+      "explanation": "transparent「透明な・明瞭な」が正解。"
+    },
+    {
+      "id": "en_vocab_207",
+      "question": "「圧倒的な」\nThere is ___ evidence.",
+      "choices": [
+        "overwhelming",
+        "abundant",
+        "plenty of",
+        "massive"
+      ],
+      "answer": 0,
+      "explanation": "overwhelming「圧倒的な」が正解。"
+    },
+    {
+      "id": "en_vocab_208",
+      "question": "「完全に」\nShe ___ understood the issue.",
+      "choices": [
+        "fully",
+        "completely",
+        "totally",
+        "entirely"
+      ],
+      "answer": 0,
+      "explanation": "fully「完全に」が正解。"
+    },
+    {
+      "id": "en_vocab_209",
+      "question": "「転換点」\nThis is a ___ in our history.",
+      "choices": [
+        "turning point",
+        "milestone",
+        "landmark",
+        "watershed"
+      ],
+      "answer": 0,
+      "explanation": "turning point「転換点」が正解。"
+    },
+    {
+      "id": "en_vocab_210",
+      "question": "「ゴールを設定する」\nLet's ___ clear goals.",
+      "choices": [
+        "set",
+        "establish",
+        "define",
+        "create"
+      ],
+      "answer": 0,
+      "explanation": "set goals「目標を設定する」が正解。"
+    },
+    {
+      "id": "en_vocab_211",
+      "question": "「持続可能な成長」\n___ growth is our target.",
+      "choices": [
+        "sustainable",
+        "steady",
+        "stable",
+        "continuous"
+      ],
+      "answer": 0,
+      "explanation": "sustainable「持続可能な」が正解。"
+    },
+    {
+      "id": "en_vocab_212",
+      "question": "「欠点」\nEvery plan has ___ and weaknesses.",
+      "choices": [
+        "flaws",
+        "errors",
+        "mistakes",
+        "faults"
+      ],
+      "answer": 0,
+      "explanation": "flaw「欠点・欠陥」が正解。"
+    },
+    {
+      "id": "en_vocab_213",
+      "question": "「幅広い」\nShe has a ___ range of skills.",
+      "choices": [
+        "broad",
+        "wide",
+        "extensive",
+        "diverse"
+      ],
+      "answer": 0,
+      "explanation": "broad「幅広い」が正解。"
+    },
+    {
+      "id": "en_vocab_214",
+      "question": "「障害」\nWe face many ___.",
+      "choices": [
+        "obstacles",
+        "barriers",
+        "challenges",
+        "difficulties"
+      ],
+      "answer": 0,
+      "explanation": "obstacle「障害」が正解。"
+    },
+    {
+      "id": "en_vocab_215",
+      "question": "「手頃な価格の」\nWe want ___ products.",
+      "choices": [
+        "affordable",
+        "cheap",
+        "inexpensive",
+        "reasonable"
+      ],
+      "answer": 0,
+      "explanation": "affordable「手頃な価格の」が正解。"
+    },
+    {
+      "id": "en_vocab_216",
+      "question": "「主要な」\nThis is the ___ objective.",
+      "choices": [
+        "primary",
+        "main",
+        "key",
+        "core"
+      ],
+      "answer": 0,
+      "explanation": "primary「主要な・第一の」が正解。"
+    },
+    {
+      "id": "en_vocab_217",
+      "question": "「構造的な」\nThere are ___ problems.",
+      "choices": [
+        "structural",
+        "systemic",
+        "fundamental",
+        "deep-rooted"
+      ],
+      "answer": 0,
+      "explanation": "structural「構造的な」が正解。"
+    },
+    {
+      "id": "en_vocab_218",
+      "question": "「評価基準」\nWe use specific ___ to measure success.",
+      "choices": [
+        "criteria",
+        "standards",
+        "benchmarks",
+        "metrics"
+      ],
+      "answer": 0,
+      "explanation": "criteria「評価基準」が正解（criterion の複数形）。"
+    },
+    {
+      "id": "en_vocab_219",
+      "question": "「動機づける」\nHow do you ___ your team?",
+      "choices": [
+        "motivate",
+        "inspire",
+        "encourage",
+        "drive"
+      ],
+      "answer": 0,
+      "explanation": "motivate「動機づける」が正解。"
+    },
+    {
+      "id": "en_vocab_220",
+      "question": "「節約する」\nWe need to ___ energy.",
+      "choices": [
+        "conserve",
+        "save",
+        "reduce",
+        "minimize"
+      ],
+      "answer": 0,
+      "explanation": "conserve「節約する・保護する」が正解。"
+    },
+    {
+      "id": "en_vocab_221",
+      "question": "「成長を促す」\nThis will ___ growth.",
+      "choices": [
+        "stimulate",
+        "trigger",
+        "drive",
+        "fuel"
+      ],
+      "answer": 0,
+      "explanation": "stimulate「刺激する・促す」が正解。"
+    },
+    {
+      "id": "en_vocab_222",
+      "question": "「持続する」\nThe effort must ___ over time.",
+      "choices": [
+        "persist",
+        "continue",
+        "last",
+        "endure"
+      ],
+      "answer": 0,
+      "explanation": "persist「持続する・続く」が正解。"
+    },
+    {
+      "id": "en_vocab_223",
+      "question": "「批評する」\nHe ___ her work harshly.",
+      "choices": [
+        "criticized",
+        "judged",
+        "evaluated",
+        "assessed"
+      ],
+      "answer": 0,
+      "explanation": "criticize「批評する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_224",
+      "question": "「バランスを取る」\nYou need to ___ work and life.",
+      "choices": [
+        "balance",
+        "manage",
+        "coordinate",
+        "harmonize"
+      ],
+      "answer": 0,
+      "explanation": "balance「バランスを取る」が正解。"
+    },
+    {
+      "id": "en_vocab_225",
+      "question": "「明示する」\nPlease ___ your expectations.",
+      "choices": [
+        "clarify",
+        "explain",
+        "state",
+        "specify"
+      ],
+      "answer": 0,
+      "explanation": "clarify「明示する・明確にする」が正解。"
+    },
+    {
+      "id": "en_vocab_226",
+      "question": "「代表する」\nShe ___ the company at the conference.",
+      "choices": [
+        "represented",
+        "stood for",
+        "spoke for",
+        "acted for"
+      ],
+      "answer": 0,
+      "explanation": "represent「代表する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_227",
+      "question": "「最適化する」\nWe need to ___ our workflow.",
+      "choices": [
+        "optimize",
+        "improve",
+        "streamline",
+        "enhance"
+      ],
+      "answer": 0,
+      "explanation": "optimize「最適化する」が正解。"
+    },
+    {
+      "id": "en_vocab_228",
+      "question": "「予算を超える」\nWe went ___ budget.",
+      "choices": [
+        "over",
+        "above",
+        "beyond",
+        "past"
+      ],
+      "answer": 0,
+      "explanation": "go over budget「予算を超える」が正解。"
+    },
+    {
+      "id": "en_vocab_229",
+      "question": "「計画を立てる」\nLet's ___ a plan.",
+      "choices": [
+        "devise",
+        "create",
+        "make",
+        "develop"
+      ],
+      "answer": 0,
+      "explanation": "devise「計画を立てる・考案する」が正解。"
+    },
+    {
+      "id": "en_vocab_230",
+      "question": "「品質を保証する」\nWe ___ product quality.",
+      "choices": [
+        "guarantee",
+        "ensure",
+        "assure",
+        "warrant"
+      ],
+      "answer": 0,
+      "explanation": "guarantee「保証する」が正解。"
+    },
+    {
+      "id": "en_vocab_231",
+      "question": "「勘案する」\nLet's ___ all options.",
+      "choices": [
+        "consider",
+        "weigh",
+        "evaluate",
+        "assess"
+      ],
+      "answer": 0,
+      "explanation": "consider「勘案する」が正解。"
+    },
+    {
+      "id": "en_vocab_232",
+      "question": "「精度」\nWe need higher ___.",
+      "choices": [
+        "accuracy",
+        "precision",
+        "exactness",
+        "correctness"
+      ],
+      "answer": 0,
+      "explanation": "accuracy「精度・正確さ」が正解。"
+    },
+    {
+      "id": "en_vocab_233",
+      "question": "「委任する」\nYou should ___ tasks to your team.",
+      "choices": [
+        "delegate",
+        "assign",
+        "entrust",
+        "transfer"
+      ],
+      "answer": 0,
+      "explanation": "delegate「委任する」が正解。"
+    },
+    {
+      "id": "en_vocab_234",
+      "question": "「事例」\nCan you share a specific ___?",
+      "choices": [
+        "example",
+        "case",
+        "instance",
+        "illustration"
+      ],
+      "answer": 0,
+      "explanation": "example「事例・例」が正解。"
+    },
+    {
+      "id": "en_vocab_235",
+      "question": "「短所」\nWhat are the ___ of this approach?",
+      "choices": [
+        "disadvantages",
+        "drawbacks",
+        "weaknesses",
+        "downsides"
+      ],
+      "answer": 0,
+      "explanation": "disadvantage「短所」が正解。"
+    },
+    {
+      "id": "en_vocab_236",
+      "question": "「共通の」\nWe share a ___ goal.",
+      "choices": [
+        "common",
+        "mutual",
+        "shared",
+        "joint"
+      ],
+      "answer": 0,
+      "explanation": "common「共通の」が正解。"
+    },
+    {
+      "id": "en_vocab_237",
+      "question": "「判断する」\nWe need to ___ the risk.",
+      "choices": [
+        "assess",
+        "evaluate",
+        "judge",
+        "measure"
+      ],
+      "answer": 0,
+      "explanation": "assess「判断する・査定する」が正解。"
+    },
+    {
+      "id": "en_vocab_238",
+      "question": "「明細書」\nPlease send us an ___.",
+      "choices": [
+        "invoice",
+        "bill",
+        "receipt",
+        "statement"
+      ],
+      "answer": 0,
+      "explanation": "invoice「明細書・請求書」が正解。"
+    },
+    {
+      "id": "en_vocab_239",
+      "question": "「供給する」\nWe ___ products globally.",
+      "choices": [
+        "supply",
+        "provide",
+        "deliver",
+        "distribute"
+      ],
+      "answer": 0,
+      "explanation": "supply「供給する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_240",
+      "question": "「潜在的な」\nWe see ___ in this market.",
+      "choices": [
+        "potential",
+        "possibility",
+        "opportunity",
+        "promise"
+      ],
+      "answer": 0,
+      "explanation": "potential「潜在的な可能性」が正解。"
+    },
+    {
+      "id": "en_vocab_241",
+      "question": "「割当てる」\nPlease ___ tasks fairly.",
+      "choices": [
+        "allocate",
+        "assign",
+        "distribute",
+        "divide"
+      ],
+      "answer": 0,
+      "explanation": "allocate「割当てる」が正解。"
+    },
+    {
+      "id": "en_vocab_242",
+      "question": "「将来の見通し」\nThe ___ for growth is positive.",
+      "choices": [
+        "outlook",
+        "forecast",
+        "prediction",
+        "expectation"
+      ],
+      "answer": 0,
+      "explanation": "outlook「将来の見通し」が正解。"
+    },
+    {
+      "id": "en_vocab_243",
+      "question": "「困難を乗り越える」\nWe managed to ___ all challenges.",
+      "choices": [
+        "overcome",
+        "conquer",
+        "beat",
+        "tackle"
+      ],
+      "answer": 0,
+      "explanation": "overcome「乗り越える」が正解。"
+    },
+    {
+      "id": "en_vocab_244",
+      "question": "「厳格な」\nWe have ___ quality standards.",
+      "choices": [
+        "strict",
+        "rigorous",
+        "tough",
+        "high"
+      ],
+      "answer": 0,
+      "explanation": "strict「厳格な」が正解。"
+    },
+    {
+      "id": "en_vocab_245",
+      "question": "「報酬」\nHard work brings great ___.",
+      "choices": [
+        "rewards",
+        "benefits",
+        "returns",
+        "gains"
+      ],
+      "answer": 0,
+      "explanation": "reward「報酬」が正解。"
+    },
+    {
+      "id": "en_vocab_246",
+      "question": "「意図的な」\nThis was an ___ decision.",
+      "choices": [
+        "intentional",
+        "deliberate",
+        "purposeful",
+        "planned"
+      ],
+      "answer": 0,
+      "explanation": "intentional「意図的な」が正解。"
+    },
+    {
+      "id": "en_vocab_247",
+      "question": "「見通す」\nCan you ___ the future?",
+      "choices": [
+        "predict",
+        "see",
+        "forecast",
+        "foresee"
+      ],
+      "answer": 3,
+      "explanation": "foresee「見通す・予見する」が正解。"
+    },
+    {
+      "id": "en_vocab_248",
+      "question": "「革新」\nWe focus on ___ and creativity.",
+      "choices": [
+        "innovation",
+        "invention",
+        "development",
+        "progress"
+      ],
+      "answer": 0,
+      "explanation": "innovation「革新・イノベーション」が正解。"
+    },
+    {
+      "id": "en_vocab_249",
+      "question": "「文脈」\nUnderstand the ___ of the message.",
+      "choices": [
+        "context",
+        "background",
+        "situation",
+        "circumstances"
+      ],
+      "answer": 0,
+      "explanation": "context「文脈・背景」が正解。"
+    },
+    {
+      "id": "en_vocab_250",
+      "question": "「展開する」\nThe situation ___ quickly.",
+      "choices": [
+        "unfolded",
+        "developed",
+        "evolved",
+        "progressed"
+      ],
+      "answer": 0,
+      "explanation": "unfold「展開する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_251",
+      "question": "「リスクを評価する」\nWe should ___ the risks carefully.",
+      "choices": [
+        "assess",
+        "evaluate",
+        "analyze",
+        "measure"
+      ],
+      "answer": 0,
+      "explanation": "assess「評価する」が正解。"
+    },
+    {
+      "id": "en_vocab_252",
+      "question": "「段階的な」\nThis is a ___ improvement.",
+      "choices": [
+        "gradual",
+        "step-by-step",
+        "incremental",
+        "steady"
+      ],
+      "answer": 0,
+      "explanation": "gradual「段階的な・徐々の」が正解。"
+    },
+    {
+      "id": "en_vocab_253",
+      "question": "「意思決定」\n___ is a critical skill for managers.",
+      "choices": [
+        "Decision-making",
+        "Decision",
+        "Judgment",
+        "Reasoning"
+      ],
+      "answer": 0,
+      "explanation": "decision-making「意思決定」が正解。"
+    },
+    {
+      "id": "en_vocab_254",
+      "question": "「コアバリュー」\nOur ___ guide our decisions.",
+      "choices": [
+        "core values",
+        "principles",
+        "standards",
+        "beliefs"
+      ],
+      "answer": 0,
+      "explanation": "core values「コアバリュー・核となる価値観」が正解。"
+    },
+    {
+      "id": "en_vocab_255",
+      "question": "「フレームワーク」\nWe use a strategic ___.",
+      "choices": [
+        "framework",
+        "structure",
+        "model",
+        "system"
+      ],
+      "answer": 0,
+      "explanation": "framework「枠組み・フレームワーク」が正解。"
+    },
+    {
+      "id": "en_vocab_256",
+      "question": "「収益性」\nWe improved ___.",
+      "choices": [
+        "profitability",
+        "revenue",
+        "profit",
+        "income"
+      ],
+      "answer": 0,
+      "explanation": "profitability「収益性」が正解。"
+    },
+    {
+      "id": "en_vocab_257",
+      "question": "「行動計画」\nLet's create an ___ plan.",
+      "choices": [
+        "action",
+        "implementation",
+        "execution",
+        "operational"
+      ],
+      "answer": 0,
+      "explanation": "action plan「行動計画」が正解。"
+    },
+    {
+      "id": "en_vocab_258",
+      "question": "「期待を超える」\nShe always ___ our expectations.",
+      "choices": [
+        "exceeds",
+        "surpasses",
+        "goes beyond",
+        "outperforms"
+      ],
+      "answer": 0,
+      "explanation": "exceed「期待を超える」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_259",
+      "question": "「拒否する」\nHe ___ the offer politely.",
+      "choices": [
+        "declined",
+        "refused",
+        "rejected",
+        "denied"
+      ],
+      "answer": 0,
+      "explanation": "decline「断る・辞退する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_260",
+      "question": "「カスタマーサポート」\nOur ___ is available 24/7.",
+      "choices": [
+        "customer support",
+        "customer service",
+        "helpdesk",
+        "support team"
+      ],
+      "answer": 0,
+      "explanation": "customer support「カスタマーサポート」が正解。"
+    },
+    {
+      "id": "en_vocab_261",
+      "question": "「増大する」\nDemand continues to ___.",
+      "choices": [
+        "grow",
+        "increase",
+        "rise",
+        "expand"
+      ],
+      "answer": 0,
+      "explanation": "grow「増大する」が正解。"
+    },
+    {
+      "id": "en_vocab_262",
+      "question": "「分かりやすい」\nThe explanation was very ___.",
+      "choices": [
+        "clear",
+        "simple",
+        "easy to understand",
+        "straightforward"
+      ],
+      "answer": 3,
+      "explanation": "straightforward「分かりやすい・単純な」が最も適切。"
+    },
+    {
+      "id": "en_vocab_263",
+      "question": "「方向性」\nWe need a clear ___.",
+      "choices": [
+        "direction",
+        "goal",
+        "objective",
+        "aim"
+      ],
+      "answer": 0,
+      "explanation": "direction「方向性」が正解。"
+    },
+    {
+      "id": "en_vocab_264",
+      "question": "「流通する」\nThe product is ___ globally.",
+      "choices": [
+        "distributed",
+        "sold",
+        "spread",
+        "circulated"
+      ],
+      "answer": 0,
+      "explanation": "distribute「流通する」の受動態が正解。"
+    },
+    {
+      "id": "en_vocab_265",
+      "question": "「意義深い」\nThis is a ___ contribution.",
+      "choices": [
+        "meaningful",
+        "significant",
+        "important",
+        "valuable"
+      ],
+      "answer": 0,
+      "explanation": "meaningful「意義深い」が正解。"
+    },
+    {
+      "id": "en_vocab_266",
+      "question": "「監査する」\nWe ___ our financials annually.",
+      "choices": [
+        "audit",
+        "review",
+        "check",
+        "examine"
+      ],
+      "answer": 0,
+      "explanation": "audit「監査する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_267",
+      "question": "「依存関係」\nThere is a ___ between the two teams.",
+      "choices": [
+        "dependency",
+        "relationship",
+        "connection",
+        "link"
+      ],
+      "answer": 0,
+      "explanation": "dependency「依存関係」が正解。"
+    },
+    {
+      "id": "en_vocab_268",
+      "question": "「予期しない」\nAn ___ issue came up.",
+      "choices": [
+        "unexpected",
+        "unforeseen",
+        "surprising",
+        "sudden"
+      ],
+      "answer": 0,
+      "explanation": "unexpected「予期しない」が正解。"
+    },
+    {
+      "id": "en_vocab_269",
+      "question": "「反復する」\nPlease ___ the key points.",
+      "choices": [
+        "repeat",
+        "reiterate",
+        "restate",
+        "review"
+      ],
+      "answer": 1,
+      "explanation": "reiterate「反復する・重ねて言う」が正解。"
+    },
+    {
+      "id": "en_vocab_270",
+      "question": "「仕様」\nCheck the technical ___.",
+      "choices": [
+        "specifications",
+        "requirements",
+        "details",
+        "features"
+      ],
+      "answer": 0,
+      "explanation": "specification「仕様」が正解。"
+    },
+    {
+      "id": "en_vocab_271",
+      "question": "「傑出した」\nShe is an ___ leader.",
+      "choices": [
+        "outstanding",
+        "excellent",
+        "exceptional",
+        "remarkable"
+      ],
+      "answer": 0,
+      "explanation": "outstanding「傑出した」が正解。"
+    },
+    {
+      "id": "en_vocab_272",
+      "question": "「改革する」\nWe need to ___ the system.",
+      "choices": [
+        "reform",
+        "overhaul",
+        "change",
+        "restructure"
+      ],
+      "answer": 0,
+      "explanation": "reform「改革する」が正解。"
+    },
+    {
+      "id": "en_vocab_273",
+      "question": "「協定」\nWe signed an ___.",
+      "choices": [
+        "agreement",
+        "contract",
+        "deal",
+        "arrangement"
+      ],
+      "answer": 0,
+      "explanation": "agreement「協定・合意」が正解。"
+    },
+    {
+      "id": "en_vocab_274",
+      "question": "「組織する」\nShe helped to ___ the event.",
+      "choices": [
+        "organize",
+        "plan",
+        "arrange",
+        "coordinate"
+      ],
+      "answer": 0,
+      "explanation": "organize「組織する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_275",
+      "question": "「プロセス」\nThis is a long ___.",
+      "choices": [
+        "process",
+        "procedure",
+        "journey",
+        "path"
+      ],
+      "answer": 0,
+      "explanation": "process「プロセス」が正解。"
+    },
+    {
+      "id": "en_vocab_276",
+      "question": "「再構築する」\nWe ___ our strategy.",
+      "choices": [
+        "restructured",
+        "rebuilt",
+        "reformed",
+        "reorganized"
+      ],
+      "answer": 0,
+      "explanation": "restructure「再構築する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_277",
+      "question": "「意見を述べる」\nPlease ___ your concerns.",
+      "choices": [
+        "voice",
+        "express",
+        "state",
+        "raise"
+      ],
+      "answer": 0,
+      "explanation": "voice「意見を述べる」が正解。"
+    },
+    {
+      "id": "en_vocab_278",
+      "question": "「成熟した」\nThis is a ___ market.",
+      "choices": [
+        "mature",
+        "developed",
+        "established",
+        "settled"
+      ],
+      "answer": 0,
+      "explanation": "mature「成熟した」が正解。"
+    },
+    {
+      "id": "en_vocab_279",
+      "question": "「計画を変更する」\nWe had to ___ our plans.",
+      "choices": [
+        "revise",
+        "change",
+        "update",
+        "adjust"
+      ],
+      "answer": 0,
+      "explanation": "revise「計画を変更する・修正する」が正解。"
+    },
+    {
+      "id": "en_vocab_280",
+      "question": "「自律的な」\nWe need ___ teams.",
+      "choices": [
+        "autonomous",
+        "independent",
+        "self-managed",
+        "self-directed"
+      ],
+      "answer": 0,
+      "explanation": "autonomous「自律的な」が正解。"
+    },
+    {
+      "id": "en_vocab_281",
+      "question": "「根本的な」\nThere is a ___ issue.",
+      "choices": [
+        "fundamental",
+        "basic",
+        "underlying",
+        "core"
+      ],
+      "answer": 0,
+      "explanation": "fundamental「根本的な」が正解。"
+    },
+    {
+      "id": "en_vocab_282",
+      "question": "「期限を設ける」\nWe need to ___ a deadline.",
+      "choices": [
+        "set",
+        "establish",
+        "create",
+        "fix"
+      ],
+      "answer": 0,
+      "explanation": "set a deadline「期限を設ける」が正解。"
+    },
+    {
+      "id": "en_vocab_283",
+      "question": "「フォローアップする」\nI'll ___ with you next week.",
+      "choices": [
+        "follow up",
+        "check in",
+        "touch base",
+        "reconnect"
+      ],
+      "answer": 0,
+      "explanation": "follow up「フォローアップする」が正解。"
+    },
+    {
+      "id": "en_vocab_284",
+      "question": "「達成可能な」\nSet ___ goals.",
+      "choices": [
+        "achievable",
+        "realistic",
+        "attainable",
+        "feasible"
+      ],
+      "answer": 0,
+      "explanation": "achievable「達成可能な」が正解。"
+    },
+    {
+      "id": "en_vocab_285",
+      "question": "「コミュニケーション」\nGood ___ is key to success.",
+      "choices": [
+        "communication",
+        "interaction",
+        "dialogue",
+        "exchange"
+      ],
+      "answer": 0,
+      "explanation": "communication「コミュニケーション」が正解。"
+    },
+    {
+      "id": "en_vocab_286",
+      "question": "「明確化する」\nPlease ___ the requirements.",
+      "choices": [
+        "clarify",
+        "explain",
+        "describe",
+        "specify"
+      ],
+      "answer": 0,
+      "explanation": "clarify「明確化する」が正解。"
+    },
+    {
+      "id": "en_vocab_287",
+      "question": "「詳細を詰める」\nLet's ___ out the details.",
+      "choices": [
+        "work",
+        "iron",
+        "sort",
+        "figure"
+      ],
+      "answer": 1,
+      "explanation": "iron out「詳細を詰める・解決する」が正解。"
+    },
+    {
+      "id": "en_vocab_288",
+      "question": "「競合他社」\nMonitor your ___.",
+      "choices": [
+        "competitors",
+        "rivals",
+        "opposition",
+        "alternatives"
+      ],
+      "answer": 0,
+      "explanation": "competitor「競合他社」が正解。"
+    },
+    {
+      "id": "en_vocab_289",
+      "question": "「利害関係者」\nInform all ___.",
+      "choices": [
+        "stakeholders",
+        "shareholders",
+        "investors",
+        "parties"
+      ],
+      "answer": 0,
+      "explanation": "stakeholder「利害関係者」が正解。"
+    },
+    {
+      "id": "en_vocab_290",
+      "question": "「目標達成率」\nOur ___ rate is 90%.",
+      "choices": [
+        "achievement",
+        "completion",
+        "success",
+        "attainment"
+      ],
+      "answer": 0,
+      "explanation": "achievement rate「目標達成率」が正解。"
+    },
+    {
+      "id": "en_vocab_291",
+      "question": "「業務上の」\nThis is an ___ decision.",
+      "choices": [
+        "operational",
+        "business",
+        "professional",
+        "organizational"
+      ],
+      "answer": 0,
+      "explanation": "operational「業務上の・運営上の」が正解。"
+    },
+    {
+      "id": "en_vocab_292",
+      "question": "「基盤を作る」\nWe need to ___ a solid foundation.",
+      "choices": [
+        "build",
+        "create",
+        "establish",
+        "lay"
+      ],
+      "answer": 3,
+      "explanation": "lay a foundation「基盤を作る」が正解。"
+    },
+    {
+      "id": "en_vocab_293",
+      "question": "「全体的な」\nWhat is the ___ plan?",
+      "choices": [
+        "overall",
+        "entire",
+        "whole",
+        "complete"
+      ],
+      "answer": 0,
+      "explanation": "overall「全体的な」が正解。"
+    },
+    {
+      "id": "en_vocab_294",
+      "question": "「関わる」\nThis ___ many departments.",
+      "choices": [
+        "involves",
+        "includes",
+        "concerns",
+        "affects"
+      ],
+      "answer": 0,
+      "explanation": "involve「関わる・含む」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_295",
+      "question": "「コスト効率」\n___ is important in business.",
+      "choices": [
+        "Cost-efficiency",
+        "Cost-effectiveness",
+        "Economy",
+        "Thrift"
+      ],
+      "answer": 0,
+      "explanation": "cost-efficiency「コスト効率」が正解。"
+    },
+    {
+      "id": "en_vocab_296",
+      "question": "「具体化する」\nLet's ___ the idea.",
+      "choices": [
+        "materialize",
+        "realize",
+        "implement",
+        "execute"
+      ],
+      "answer": 0,
+      "explanation": "materialize「具体化する」が正解。"
+    },
+    {
+      "id": "en_vocab_297",
+      "question": "「大幅な」\nThere was a ___ improvement.",
+      "choices": [
+        "significant",
+        "major",
+        "substantial",
+        "dramatic"
+      ],
+      "answer": 0,
+      "explanation": "significant「大幅な・重要な」が正解。"
+    },
+    {
+      "id": "en_vocab_298",
+      "question": "「アウトソーシングする」\nWe ___ the work to a vendor.",
+      "choices": [
+        "outsourced",
+        "subcontracted",
+        "delegated",
+        "hired out"
+      ],
+      "answer": 0,
+      "explanation": "outsource「アウトソーシングする」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_299",
+      "question": "「目に見える」\nWe need ___ results.",
+      "choices": [
+        "visible",
+        "measurable",
+        "tangible",
+        "concrete"
+      ],
+      "answer": 2,
+      "explanation": "tangible「目に見える・有形の」が正解。"
+    },
+    {
+      "id": "en_vocab_300",
+      "question": "「全力を傾ける」\nShe is ___ committed to this project.",
+      "choices": [
+        "fully",
+        "completely",
+        "totally",
+        "wholeheartedly"
+      ],
+      "answer": 3,
+      "explanation": "wholeheartedly「全力を傾けて」が正解。"
+    },
+    {
+      "id": "en_vocab_301",
+      "question": "「不振な」\nSales have been ___ this quarter.",
+      "choices": [
+        "sluggish",
+        "slow",
+        "poor",
+        "weak"
+      ],
+      "answer": 0,
+      "explanation": "sluggish「不振な・鈍い」が正解。"
+    },
+    {
+      "id": "en_vocab_302",
+      "question": "「主導する」\nShe ___ the new initiative.",
+      "choices": [
+        "spearheaded",
+        "led",
+        "headed",
+        "directed"
+      ],
+      "answer": 0,
+      "explanation": "spearhead「主導する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_303",
+      "question": "「顕著な」\nThere is a ___ difference.",
+      "choices": [
+        "noticeable",
+        "obvious",
+        "clear",
+        "distinct"
+      ],
+      "answer": 0,
+      "explanation": "noticeable「顕著な・気づきやすい」が正解。"
+    },
+    {
+      "id": "en_vocab_304",
+      "question": "「急に変化する」\nThe market ___ drastically.",
+      "choices": [
+        "shifted",
+        "changed",
+        "moved",
+        "transformed"
+      ],
+      "answer": 0,
+      "explanation": "shift「急に変化する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_305",
+      "question": "「主流の」\nThis is now a ___ idea.",
+      "choices": [
+        "mainstream",
+        "popular",
+        "common",
+        "widespread"
+      ],
+      "answer": 0,
+      "explanation": "mainstream「主流の」が正解。"
+    },
+    {
+      "id": "en_vocab_306",
+      "question": "「高める」\nThis will ___ productivity.",
+      "choices": [
+        "boost",
+        "increase",
+        "improve",
+        "enhance"
+      ],
+      "answer": 0,
+      "explanation": "boost「高める・促進する」が正解。"
+    },
+    {
+      "id": "en_vocab_307",
+      "question": "「貢献する」\nEveryone can ___ to the team.",
+      "choices": [
+        "contribute",
+        "add",
+        "give",
+        "help"
+      ],
+      "answer": 0,
+      "explanation": "contribute「貢献する」が正解。"
+    },
+    {
+      "id": "en_vocab_308",
+      "question": "「方針」\nWe follow the company ___.",
+      "choices": [
+        "policy",
+        "rule",
+        "guideline",
+        "standard"
+      ],
+      "answer": 0,
+      "explanation": "policy「方針・ポリシー」が正解。"
+    },
+    {
+      "id": "en_vocab_309",
+      "question": "「効果的な」\nThis is an ___ strategy.",
+      "choices": [
+        "effective",
+        "efficient",
+        "productive",
+        "successful"
+      ],
+      "answer": 0,
+      "explanation": "effective「効果的な」が正解。"
+    },
+    {
+      "id": "en_vocab_310",
+      "question": "「フィードバックを与える」\nPlease ___ feedback on this.",
+      "choices": [
+        "provide",
+        "give",
+        "offer",
+        "share"
+      ],
+      "answer": 0,
+      "explanation": "provide feedback「フィードバックを与える」が正解。"
+    },
+    {
+      "id": "en_vocab_311",
+      "question": "「専門家」\nShe is a leading ___ in her field.",
+      "choices": [
+        "expert",
+        "specialist",
+        "professional",
+        "authority"
+      ],
+      "answer": 0,
+      "explanation": "expert「専門家」が正解。"
+    },
+    {
+      "id": "en_vocab_312",
+      "question": "「要点」\nWhat is the ___ of your message?",
+      "choices": [
+        "key point",
+        "main point",
+        "gist",
+        "summary"
+      ],
+      "answer": 2,
+      "explanation": "gist「要点・骨子」が正解。"
+    },
+    {
+      "id": "en_vocab_313",
+      "question": "「正確な」\nWe need ___ data.",
+      "choices": [
+        "accurate",
+        "exact",
+        "precise",
+        "correct"
+      ],
+      "answer": 0,
+      "explanation": "accurate「正確な」が正解。"
+    },
+    {
+      "id": "en_vocab_314",
+      "question": "「柔軟な」\nWe need a ___ approach.",
+      "choices": [
+        "flexible",
+        "adaptable",
+        "versatile",
+        "open"
+      ],
+      "answer": 0,
+      "explanation": "flexible「柔軟な」が正解。"
+    },
+    {
+      "id": "en_vocab_315",
+      "question": "「新興市場」\nWe are focusing on ___ markets.",
+      "choices": [
+        "emerging",
+        "developing",
+        "new",
+        "growing"
+      ],
+      "answer": 0,
+      "explanation": "emerging「新興の」が正解。"
+    },
+    {
+      "id": "en_vocab_316",
+      "question": "「重要な役割を担う」\nHe plays a ___ role in the company.",
+      "choices": [
+        "crucial",
+        "key",
+        "vital",
+        "central"
+      ],
+      "answer": 0,
+      "explanation": "crucial「重要な・決定的な」が正解。"
+    },
+    {
+      "id": "en_vocab_317",
+      "question": "「明示的な」\nGive ___ instructions.",
+      "choices": [
+        "explicit",
+        "clear",
+        "direct",
+        "specific"
+      ],
+      "answer": 0,
+      "explanation": "explicit「明示的な・明確な」が正解。"
+    },
+    {
+      "id": "en_vocab_318",
+      "question": "「前提条件」\nThis is a ___ for success.",
+      "choices": [
+        "prerequisite",
+        "requirement",
+        "condition",
+        "necessity"
+      ],
+      "answer": 0,
+      "explanation": "prerequisite「前提条件」が正解。"
+    },
+    {
+      "id": "en_vocab_319",
+      "question": "「急激な」\nThere was a ___ drop in sales.",
+      "choices": [
+        "sharp",
+        "sudden",
+        "rapid",
+        "steep"
+      ],
+      "answer": 0,
+      "explanation": "sharp「急激な・鋭い」が正解。"
+    },
+    {
+      "id": "en_vocab_320",
+      "question": "「包含する」\nThe package ___ all fees.",
+      "choices": [
+        "includes",
+        "covers",
+        "contains",
+        "encompasses"
+      ],
+      "answer": 0,
+      "explanation": "include「包含する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_321",
+      "question": "「損失」\nThe company suffered major ___.",
+      "choices": [
+        "losses",
+        "damages",
+        "setbacks",
+        "deficits"
+      ],
+      "answer": 0,
+      "explanation": "loss「損失」が正解。"
+    },
+    {
+      "id": "en_vocab_322",
+      "question": "「変動する」\nPrices ___ daily.",
+      "choices": [
+        "fluctuate",
+        "vary",
+        "change",
+        "shift"
+      ],
+      "answer": 0,
+      "explanation": "fluctuate「変動する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_323",
+      "question": "「廃止された」\nThis technology is now ___.",
+      "choices": [
+        "obsolete",
+        "outdated",
+        "old",
+        "retired"
+      ],
+      "answer": 0,
+      "explanation": "obsolete「廃止された・時代遅れの」が正解。"
+    },
+    {
+      "id": "en_vocab_324",
+      "question": "「統合する」\nWe ___ the two departments.",
+      "choices": [
+        "merged",
+        "integrated",
+        "combined",
+        "unified"
+      ],
+      "answer": 1,
+      "explanation": "integrate「統合する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_325",
+      "question": "「スケジュール通りに」\nWe are ___ schedule.",
+      "choices": [
+        "on",
+        "following",
+        "meeting",
+        "keeping"
+      ],
+      "answer": 0,
+      "explanation": "on schedule「スケジュール通りに」が正解。"
+    },
+    {
+      "id": "en_vocab_326",
+      "question": "「費用負担する」\nWho will ___ the expense?",
+      "choices": [
+        "cover",
+        "pay",
+        "bear",
+        "handle"
+      ],
+      "answer": 0,
+      "explanation": "cover「費用負担する」が正解。"
+    },
+    {
+      "id": "en_vocab_327",
+      "question": "「勢い」\nWe are gaining ___.",
+      "choices": [
+        "momentum",
+        "speed",
+        "pace",
+        "force"
+      ],
+      "answer": 0,
+      "explanation": "momentum「勢い」が正解。"
+    },
+    {
+      "id": "en_vocab_328",
+      "question": "「要求が厳しい」\nThis is a ___ client.",
+      "choices": [
+        "demanding",
+        "difficult",
+        "tough",
+        "challenging"
+      ],
+      "answer": 0,
+      "explanation": "demanding「要求が厳しい」が正解。"
+    },
+    {
+      "id": "en_vocab_329",
+      "question": "「発足する」\nThe new project will ___ in April.",
+      "choices": [
+        "launch",
+        "start",
+        "begin",
+        "kick off"
+      ],
+      "answer": 0,
+      "explanation": "launch「発足する・開始する」が正解。"
+    },
+    {
+      "id": "en_vocab_330",
+      "question": "「成果を測定する」\nWe need to ___ our progress.",
+      "choices": [
+        "measure",
+        "track",
+        "monitor",
+        "assess"
+      ],
+      "answer": 0,
+      "explanation": "measure「成果を測定する」が正解。"
+    },
+    {
+      "id": "en_vocab_331",
+      "question": "「環境への影響」\nReduce the ___ impact.",
+      "choices": [
+        "environmental",
+        "ecological",
+        "green",
+        "natural"
+      ],
+      "answer": 0,
+      "explanation": "environmental impact「環境への影響」が正解。"
+    },
+    {
+      "id": "en_vocab_332",
+      "question": "「統計データ」\nCheck the ___ data.",
+      "choices": [
+        "statistical",
+        "numeric",
+        "quantitative",
+        "analytical"
+      ],
+      "answer": 0,
+      "explanation": "statistical data「統計データ」が正解。"
+    },
+    {
+      "id": "en_vocab_333",
+      "question": "「議題」\nWhat is on the ___?",
+      "choices": [
+        "agenda",
+        "schedule",
+        "program",
+        "list"
+      ],
+      "answer": 0,
+      "explanation": "agenda「議題」が正解。"
+    },
+    {
+      "id": "en_vocab_334",
+      "question": "「失敗に終わる」\nThe experiment ___ to produce results.",
+      "choices": [
+        "failed",
+        "didn't manage",
+        "was unable",
+        "couldn't"
+      ],
+      "answer": 0,
+      "explanation": "fail「失敗に終わる」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_335",
+      "question": "「妥協する」\nWe had to ___ on the price.",
+      "choices": [
+        "compromise",
+        "settle",
+        "agree",
+        "negotiate"
+      ],
+      "answer": 0,
+      "explanation": "compromise「妥協する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_336",
+      "question": "「プロジェクト管理」\n___ skills are critical for success.",
+      "choices": [
+        "Project management",
+        "Leadership",
+        "Time management",
+        "Communication"
+      ],
+      "answer": 0,
+      "explanation": "project management「プロジェクト管理」が正解。"
+    },
+    {
+      "id": "en_vocab_337",
+      "question": "「目の前の問題」\nFocus on the ___ issue.",
+      "choices": [
+        "immediate",
+        "current",
+        "present",
+        "urgent"
+      ],
+      "answer": 0,
+      "explanation": "immediate「目の前の・即時の」が正解。"
+    },
+    {
+      "id": "en_vocab_338",
+      "question": "「完全な」\nThis requires ___ commitment.",
+      "choices": [
+        "full",
+        "complete",
+        "total",
+        "absolute"
+      ],
+      "answer": 0,
+      "explanation": "full commitment「完全なコミットメント」が正解。"
+    },
+    {
+      "id": "en_vocab_339",
+      "question": "「外部の」\nWe use ___ consultants.",
+      "choices": [
+        "external",
+        "outside",
+        "third-party",
+        "independent"
+      ],
+      "answer": 0,
+      "explanation": "external「外部の」が正解。"
+    },
+    {
+      "id": "en_vocab_340",
+      "question": "「ボトルネック」\nIdentify the ___ in the process.",
+      "choices": [
+        "bottleneck",
+        "obstacle",
+        "barrier",
+        "constraint"
+      ],
+      "answer": 0,
+      "explanation": "bottleneck「ボトルネック」が正解。"
+    },
+    {
+      "id": "en_vocab_341",
+      "question": "「説明責任」\nEveryone has ___ for their work.",
+      "choices": [
+        "accountability",
+        "responsibility",
+        "obligation",
+        "duty"
+      ],
+      "answer": 0,
+      "explanation": "accountability「説明責任」が正解。"
+    },
+    {
+      "id": "en_vocab_342",
+      "question": "「移行する」\nWe will ___ to a new system.",
+      "choices": [
+        "transition",
+        "switch",
+        "shift",
+        "change"
+      ],
+      "answer": 0,
+      "explanation": "transition「移行する」が正解。"
+    },
+    {
+      "id": "en_vocab_343",
+      "question": "「総じて」\n___, the results were positive.",
+      "choices": [
+        "Overall",
+        "Generally",
+        "In total",
+        "Broadly"
+      ],
+      "answer": 0,
+      "explanation": "overall「総じて・全体的に」が正解。"
+    },
+    {
+      "id": "en_vocab_344",
+      "question": "「追加コスト」\nAre there any ___ costs?",
+      "choices": [
+        "additional",
+        "extra",
+        "added",
+        "supplementary"
+      ],
+      "answer": 0,
+      "explanation": "additional「追加の」が正解。"
+    },
+    {
+      "id": "en_vocab_345",
+      "question": "「ベンチマーク」\nWe use this as a ___.",
+      "choices": [
+        "benchmark",
+        "standard",
+        "reference",
+        "measure"
+      ],
+      "answer": 0,
+      "explanation": "benchmark「ベンチマーク・基準」が正解。"
+    },
+    {
+      "id": "en_vocab_346",
+      "question": "「革新的なアプローチ」\nWe need an ___ approach.",
+      "choices": [
+        "innovative",
+        "creative",
+        "novel",
+        "fresh"
+      ],
+      "answer": 0,
+      "explanation": "innovative「革新的な」が正解。"
+    },
+    {
+      "id": "en_vocab_347",
+      "question": "「投資対効果」\nCalculate the ___ before investing.",
+      "choices": [
+        "ROI",
+        "return",
+        "profit",
+        "benefit"
+      ],
+      "answer": 0,
+      "explanation": "ROI (Return on Investment)「投資対効果」が正解。"
+    },
+    {
+      "id": "en_vocab_348",
+      "question": "「明文化する」\nPlease ___ the agreement.",
+      "choices": [
+        "document",
+        "record",
+        "write",
+        "formalize"
+      ],
+      "answer": 0,
+      "explanation": "document「明文化する・記録する」が正解。"
+    },
+    {
+      "id": "en_vocab_349",
+      "question": "「段階的な変化」\nThis is an ___ change.",
+      "choices": [
+        "incremental",
+        "gradual",
+        "step-by-step",
+        "slow"
+      ],
+      "answer": 0,
+      "explanation": "incremental「段階的な・少しずつの」が正解。"
+    },
+    {
+      "id": "en_vocab_350",
+      "question": "「コミュニティ」\nEngage with the local ___.",
+      "choices": [
+        "community",
+        "society",
+        "group",
+        "population"
+      ],
+      "answer": 0,
+      "explanation": "community「コミュニティ」が正解。"
+    },
+    {
+      "id": "en_vocab_351",
+      "question": "「見直す」\nWe need to ___ our approach.",
+      "choices": [
+        "reconsider",
+        "rethink",
+        "reassess",
+        "review"
+      ],
+      "answer": 3,
+      "explanation": "review「見直す」が正解。"
+    },
+    {
+      "id": "en_vocab_352",
+      "question": "「整合性がある」\nThe plan must be ___ with our goals.",
+      "choices": [
+        "aligned",
+        "consistent",
+        "in line",
+        "compatible"
+      ],
+      "answer": 0,
+      "explanation": "aligned「整合性がある」が正解。"
+    },
+    {
+      "id": "en_vocab_353",
+      "question": "「展示する」\nWe will ___ our products at the show.",
+      "choices": [
+        "showcase",
+        "display",
+        "exhibit",
+        "demonstrate"
+      ],
+      "answer": 0,
+      "explanation": "showcase「展示する」が正解。"
+    },
+    {
+      "id": "en_vocab_354",
+      "question": "「倫理的な」\nAll our practices are ___.",
+      "choices": [
+        "ethical",
+        "moral",
+        "responsible",
+        "fair"
+      ],
+      "answer": 0,
+      "explanation": "ethical「倫理的な」が正解。"
+    },
+    {
+      "id": "en_vocab_355",
+      "question": "「重要度の高い」\n___ issues must be resolved first.",
+      "choices": [
+        "High-priority",
+        "Urgent",
+        "Critical",
+        "Top"
+      ],
+      "answer": 0,
+      "explanation": "high-priority「重要度の高い」が正解。"
+    },
+    {
+      "id": "en_vocab_356",
+      "question": "「明確な目標」\nSet ___ goals.",
+      "choices": [
+        "clear",
+        "specific",
+        "defined",
+        "concrete"
+      ],
+      "answer": 0,
+      "explanation": "clear goals「明確な目標」が正解。"
+    },
+    {
+      "id": "en_vocab_357",
+      "question": "「確実にする」\nWe need to ___ quality.",
+      "choices": [
+        "ensure",
+        "guarantee",
+        "assure",
+        "secure"
+      ],
+      "answer": 0,
+      "explanation": "ensure「確実にする」が正解。"
+    },
+    {
+      "id": "en_vocab_358",
+      "question": "「競争上の優位性」\nWe have a ___ advantage.",
+      "choices": [
+        "competitive",
+        "strategic",
+        "market",
+        "business"
+      ],
+      "answer": 0,
+      "explanation": "competitive advantage「競争上の優位性」が正解。"
+    },
+    {
+      "id": "en_vocab_359",
+      "question": "「リスク管理」\n___ is critical in finance.",
+      "choices": [
+        "Risk management",
+        "Risk control",
+        "Risk assessment",
+        "Risk mitigation"
+      ],
+      "answer": 0,
+      "explanation": "risk management「リスク管理」が正解。"
+    },
+    {
+      "id": "en_vocab_360",
+      "question": "「シナジー」\nWe are looking for ___ between teams.",
+      "choices": [
+        "synergy",
+        "cooperation",
+        "collaboration",
+        "integration"
+      ],
+      "answer": 0,
+      "explanation": "synergy「シナジー・相乗効果」が正解。"
+    },
+    {
+      "id": "en_vocab_361",
+      "question": "「時間厳守の」\nPlease be ___ for all meetings.",
+      "choices": [
+        "punctual",
+        "on time",
+        "timely",
+        "prompt"
+      ],
+      "answer": 0,
+      "explanation": "punctual「時間厳守の」が正解。"
+    },
+    {
+      "id": "en_vocab_362",
+      "question": "「問題解決力」\n___ is a valuable skill.",
+      "choices": [
+        "Problem-solving",
+        "Critical thinking",
+        "Analytical thinking",
+        "Reasoning"
+      ],
+      "answer": 0,
+      "explanation": "problem-solving「問題解決力」が正解。"
+    },
+    {
+      "id": "en_vocab_363",
+      "question": "「フレキシブルな勤務形態」\nWe offer ___ work options.",
+      "choices": [
+        "flexible",
+        "remote",
+        "hybrid",
+        "alternative"
+      ],
+      "answer": 0,
+      "explanation": "flexible work「フレキシブルな勤務形態」が正解。"
+    },
+    {
+      "id": "en_vocab_364",
+      "question": "「能率を上げる」\nWe need to ___ operations.",
+      "choices": [
+        "streamline",
+        "optimize",
+        "improve",
+        "enhance"
+      ],
+      "answer": 0,
+      "explanation": "streamline「能率を上げる」が正解。"
+    },
+    {
+      "id": "en_vocab_365",
+      "question": "「傾注する」\nShe ___ her energy on the project.",
+      "choices": [
+        "focused",
+        "concentrated",
+        "poured",
+        "directed"
+      ],
+      "answer": 2,
+      "explanation": "pour「傾注する・注ぐ」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_366",
+      "question": "「明らかにする」\nThe report ___ several issues.",
+      "choices": [
+        "highlighted",
+        "revealed",
+        "showed",
+        "uncovered"
+      ],
+      "answer": 1,
+      "explanation": "reveal「明らかにする」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_367",
+      "question": "「収益を最大化する」\nWe want to ___ revenue.",
+      "choices": [
+        "maximize",
+        "increase",
+        "grow",
+        "boost"
+      ],
+      "answer": 0,
+      "explanation": "maximize「最大化する」が正解。"
+    },
+    {
+      "id": "en_vocab_368",
+      "question": "「市場占有率」\nWe want to grow our market ___.",
+      "choices": [
+        "share",
+        "portion",
+        "stake",
+        "position"
+      ],
+      "answer": 0,
+      "explanation": "market share「市場占有率」が正解。"
+    },
+    {
+      "id": "en_vocab_369",
+      "question": "「ワークロード」\nManage your ___ carefully.",
+      "choices": [
+        "workload",
+        "tasks",
+        "duties",
+        "responsibilities"
+      ],
+      "answer": 0,
+      "explanation": "workload「ワークロード・仕事量」が正解。"
+    },
+    {
+      "id": "en_vocab_370",
+      "question": "「利益相反」\nDisclosure of ___ of interest is required.",
+      "choices": [
+        "conflicts",
+        "issues",
+        "problems",
+        "matters"
+      ],
+      "answer": 0,
+      "explanation": "conflict of interest「利益相反」が正解。"
+    },
+    {
+      "id": "en_vocab_371",
+      "question": "「多才な」\nShe is a ___ professional.",
+      "choices": [
+        "versatile",
+        "skilled",
+        "talented",
+        "capable"
+      ],
+      "answer": 0,
+      "explanation": "versatile「多才な・多目的の」が正解。"
+    },
+    {
+      "id": "en_vocab_372",
+      "question": "「組織文化」\n___ is key to employee retention.",
+      "choices": [
+        "Organizational culture",
+        "Work environment",
+        "Company culture",
+        "Corporate culture"
+      ],
+      "answer": 0,
+      "explanation": "organizational culture「組織文化」が正解。"
+    },
+    {
+      "id": "en_vocab_373",
+      "question": "「ビジョンを共有する」\nAll members ___ a common vision.",
+      "choices": [
+        "share",
+        "hold",
+        "have",
+        "adopt"
+      ],
+      "answer": 0,
+      "explanation": "share a vision「ビジョンを共有する」が正解。"
+    },
+    {
+      "id": "en_vocab_374",
+      "question": "「製品ライン」\nExpand the product ___.",
+      "choices": [
+        "line",
+        "range",
+        "catalog",
+        "portfolio"
+      ],
+      "answer": 0,
+      "explanation": "product line「製品ライン」が正解。"
+    },
+    {
+      "id": "en_vocab_375",
+      "question": "「総合的に考えると」\n___ considered, the plan is good.",
+      "choices": [
+        "All things",
+        "Overall",
+        "Generally",
+        "Broadly"
+      ],
+      "answer": 0,
+      "explanation": "all things considered「総合的に考えると」が正解。"
+    },
+    {
+      "id": "en_vocab_376",
+      "question": "「洗練された」\nThis is a ___ solution.",
+      "choices": [
+        "sophisticated",
+        "advanced",
+        "elegant",
+        "refined"
+      ],
+      "answer": 0,
+      "explanation": "sophisticated「洗練された・高度な」が正解。"
+    },
+    {
+      "id": "en_vocab_377",
+      "question": "「事業拡大」\nWe are focusing on business ___.",
+      "choices": [
+        "expansion",
+        "growth",
+        "development",
+        "scaling"
+      ],
+      "answer": 0,
+      "explanation": "business expansion「事業拡大」が正解。"
+    },
+    {
+      "id": "en_vocab_378",
+      "question": "「効率よく完了する」\nHe ___ the task efficiently.",
+      "choices": [
+        "completed",
+        "finished",
+        "accomplished",
+        "executed"
+      ],
+      "answer": 3,
+      "explanation": "execute「効率よく実行する」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_379",
+      "question": "「多様性を推進する」\nWe promote ___ and inclusion.",
+      "choices": [
+        "diversity",
+        "variety",
+        "representation",
+        "equality"
+      ],
+      "answer": 0,
+      "explanation": "diversity「多様性」が正解。"
+    },
+    {
+      "id": "en_vocab_380",
+      "question": "「課題解決」\n___ is at the core of our mission.",
+      "choices": [
+        "Problem-solving",
+        "Issue resolution",
+        "Challenge management",
+        "Solution finding"
+      ],
+      "answer": 0,
+      "explanation": "problem-solving「課題解決」が正解。"
+    },
+    {
+      "id": "en_vocab_381",
+      "question": "「コスト意識が高い」\nWe need to be more ___ conscious.",
+      "choices": [
+        "cost",
+        "price",
+        "budget",
+        "finance"
+      ],
+      "answer": 0,
+      "explanation": "cost-conscious「コスト意識が高い」が正解。"
+    },
+    {
+      "id": "en_vocab_382",
+      "question": "「重要な指標」\nTrack the key ___.",
+      "choices": [
+        "metrics",
+        "indicators",
+        "measures",
+        "benchmarks"
+      ],
+      "answer": 0,
+      "explanation": "metrics「重要な指標」が正解。"
+    },
+    {
+      "id": "en_vocab_383",
+      "question": "「市場動向」\nMonitor ___ trends.",
+      "choices": [
+        "market",
+        "industry",
+        "business",
+        "economic"
+      ],
+      "answer": 0,
+      "explanation": "market trends「市場動向」が正解。"
+    },
+    {
+      "id": "en_vocab_384",
+      "question": "「持続的な関与」\nWe need ___ engagement.",
+      "choices": [
+        "sustained",
+        "continuous",
+        "ongoing",
+        "consistent"
+      ],
+      "answer": 0,
+      "explanation": "sustained「持続的な」が正解。"
+    },
+    {
+      "id": "en_vocab_385",
+      "question": "「効率化を図る」\nWe need to ___ the process.",
+      "choices": [
+        "streamline",
+        "simplify",
+        "optimize",
+        "improve"
+      ],
+      "answer": 0,
+      "explanation": "streamline「効率化を図る」が正解。"
+    },
+    {
+      "id": "en_vocab_386",
+      "question": "「積極的に取り組む」\nShe ___ engaged with the project.",
+      "choices": [
+        "proactively",
+        "actively",
+        "eagerly",
+        "enthusiastically"
+      ],
+      "answer": 0,
+      "explanation": "proactively「積極的に」が正解。"
+    },
+    {
+      "id": "en_vocab_387",
+      "question": "「意思決定の権限を与える」\nWe ___ our employees to make decisions.",
+      "choices": [
+        "empower",
+        "allow",
+        "enable",
+        "permit"
+      ],
+      "answer": 0,
+      "explanation": "empower「権限を与える」が正解。"
+    },
+    {
+      "id": "en_vocab_388",
+      "question": "「行動を起こす」\nIt's time to ___ action.",
+      "choices": [
+        "take",
+        "make",
+        "do",
+        "start"
+      ],
+      "answer": 0,
+      "explanation": "take action「行動を起こす」が正解。"
+    },
+    {
+      "id": "en_vocab_389",
+      "question": "「業界標準」\nThis is now the ___ standard.",
+      "choices": [
+        "industry",
+        "market",
+        "trade",
+        "sector"
+      ],
+      "answer": 0,
+      "explanation": "industry standard「業界標準」が正解。"
+    },
+    {
+      "id": "en_vocab_390",
+      "question": "「コスト削減策」\n___ measures were implemented.",
+      "choices": [
+        "Cost-cutting",
+        "Budget-saving",
+        "Cost-reduction",
+        "Expense-cutting"
+      ],
+      "answer": 0,
+      "explanation": "cost-cutting「コスト削減の」が正解。"
+    },
+    {
+      "id": "en_vocab_391",
+      "question": "「対話を促進する」\nWe aim to ___ dialogue.",
+      "choices": [
+        "facilitate",
+        "promote",
+        "encourage",
+        "enable"
+      ],
+      "answer": 0,
+      "explanation": "facilitate「対話を促進する」が正解。"
+    },
+    {
+      "id": "en_vocab_392",
+      "question": "「利害を調整する」\nWe need to ___ competing interests.",
+      "choices": [
+        "balance",
+        "align",
+        "coordinate",
+        "manage"
+      ],
+      "answer": 0,
+      "explanation": "balance「調整する」が正解。"
+    },
+    {
+      "id": "en_vocab_393",
+      "question": "「コンプライアンス」\nEnsure ___ with all regulations.",
+      "choices": [
+        "compliance",
+        "adherence",
+        "conformity",
+        "observance"
+      ],
+      "answer": 0,
+      "explanation": "compliance「コンプライアンス・法令遵守」が正解。"
+    },
+    {
+      "id": "en_vocab_394",
+      "question": "「ポートフォリオ」\nManage the investment ___.",
+      "choices": [
+        "portfolio",
+        "collection",
+        "range",
+        "set"
+      ],
+      "answer": 0,
+      "explanation": "portfolio「ポートフォリオ」が正解。"
+    },
+    {
+      "id": "en_vocab_395",
+      "question": "「プロアクティブ」\nWe take a ___ approach.",
+      "choices": [
+        "proactive",
+        "active",
+        "preventive",
+        "forward-looking"
+      ],
+      "answer": 0,
+      "explanation": "proactive「積極的な・先手を打つ」が正解。"
+    },
+    {
+      "id": "en_vocab_396",
+      "question": "「多様な観点から」\nConsider the issue from ___ perspectives.",
+      "choices": [
+        "diverse",
+        "multiple",
+        "various",
+        "different"
+      ],
+      "answer": 0,
+      "explanation": "diverse「多様な」が正解。"
+    },
+    {
+      "id": "en_vocab_397",
+      "question": "「相互作用」\nEncourage ___ between teams.",
+      "choices": [
+        "interaction",
+        "collaboration",
+        "communication",
+        "cooperation"
+      ],
+      "answer": 0,
+      "explanation": "interaction「相互作用」が正解。"
+    },
+    {
+      "id": "en_vocab_398",
+      "question": "「高度な技術力」\n___ expertise is required.",
+      "choices": [
+        "Advanced technical",
+        "High technical",
+        "Sophisticated",
+        "Expert"
+      ],
+      "answer": 0,
+      "explanation": "advanced technical expertise「高度な技術力」が正解。"
+    },
+    {
+      "id": "en_vocab_399",
+      "question": "「製品品質を高める」\nWe must ___ product quality.",
+      "choices": [
+        "enhance",
+        "improve",
+        "raise",
+        "elevate"
+      ],
+      "answer": 0,
+      "explanation": "enhance「高める」が正解。"
+    },
+    {
+      "id": "en_vocab_400",
+      "question": "「意思決定プロセス」\nImprove the ___ process.",
+      "choices": [
+        "decision-making",
+        "management",
+        "planning",
+        "approval"
+      ],
+      "answer": 0,
+      "explanation": "decision-making process「意思決定プロセス」が正解。"
+    },
+    {
+      "id": "en_vocab_401",
+      "question": "「マーケティング戦略」\nDevelop a new ___ strategy.",
+      "choices": [
+        "marketing",
+        "sales",
+        "business",
+        "commercial"
+      ],
+      "answer": 0,
+      "explanation": "marketing strategy「マーケティング戦略」が正解。"
+    },
+    {
+      "id": "en_vocab_402",
+      "question": "「ターゲット顧客」\nIdentify the ___ customer.",
+      "choices": [
+        "target",
+        "ideal",
+        "potential",
+        "key"
+      ],
+      "answer": 0,
+      "explanation": "target customer「ターゲット顧客」が正解。"
+    },
+    {
+      "id": "en_vocab_403",
+      "question": "「成功の基盤」\nBuild a strong ___ for success.",
+      "choices": [
+        "foundation",
+        "base",
+        "platform",
+        "basis"
+      ],
+      "answer": 0,
+      "explanation": "foundation「基盤」が正解。"
+    },
+    {
+      "id": "en_vocab_404",
+      "question": "「業績評価」\n___ reviews happen quarterly.",
+      "choices": [
+        "Performance",
+        "Achievement",
+        "Progress",
+        "Work"
+      ],
+      "answer": 0,
+      "explanation": "performance review「業績評価」が正解。"
+    },
+    {
+      "id": "en_vocab_405",
+      "question": "「明確な役割」\nDefine ___ roles and responsibilities.",
+      "choices": [
+        "clear",
+        "specific",
+        "defined",
+        "explicit"
+      ],
+      "answer": 0,
+      "explanation": "clear roles「明確な役割」が正解。"
+    },
+    {
+      "id": "en_vocab_406",
+      "question": "「チームワーク」\nGood ___ leads to success.",
+      "choices": [
+        "teamwork",
+        "collaboration",
+        "cooperation",
+        "synergy"
+      ],
+      "answer": 0,
+      "explanation": "teamwork「チームワーク」が正解。"
+    },
+    {
+      "id": "en_vocab_407",
+      "question": "「プロフェッショナル」\nShe is a true ___.",
+      "choices": [
+        "professional",
+        "expert",
+        "specialist",
+        "authority"
+      ],
+      "answer": 0,
+      "explanation": "professional「プロフェッショナル」が正解。"
+    },
+    {
+      "id": "en_vocab_408",
+      "question": "「中長期計画」\nDevelop a ___ plan.",
+      "choices": [
+        "mid-to-long-term",
+        "medium-term",
+        "long-range",
+        "strategic"
+      ],
+      "answer": 0,
+      "explanation": "mid-to-long-term plan「中長期計画」が正解。"
+    },
+    {
+      "id": "en_vocab_409",
+      "question": "「経営課題」\nAddress the key ___ challenges.",
+      "choices": [
+        "business",
+        "management",
+        "operational",
+        "organizational"
+      ],
+      "answer": 0,
+      "explanation": "business challenges「経営課題」が正解。"
+    },
+    {
+      "id": "en_vocab_410",
+      "question": "「競争力のある価格」\nOffer ___ pricing.",
+      "choices": [
+        "competitive",
+        "attractive",
+        "reasonable",
+        "affordable"
+      ],
+      "answer": 0,
+      "explanation": "competitive pricing「競争力のある価格」が正解。"
+    },
+    {
+      "id": "en_vocab_411",
+      "question": "「感謝する」\nWe truly ___ your support.",
+      "choices": [
+        "appreciate",
+        "value",
+        "thank",
+        "recognize"
+      ],
+      "answer": 0,
+      "explanation": "appreciate「感謝する」が正解。"
+    },
+    {
+      "id": "en_vocab_412",
+      "question": "「キャパシティ」\nWe are at full ___.",
+      "choices": [
+        "capacity",
+        "limit",
+        "level",
+        "maximum"
+      ],
+      "answer": 0,
+      "explanation": "capacity「キャパシティ・収容能力」が正解。"
+    },
+    {
+      "id": "en_vocab_413",
+      "question": "「的確な」\nShe gave a ___ analysis.",
+      "choices": [
+        "accurate",
+        "precise",
+        "correct",
+        "exact"
+      ],
+      "answer": 0,
+      "explanation": "accurate「的確な・正確な」が正解。"
+    },
+    {
+      "id": "en_vocab_414",
+      "question": "「ファシリテートする」\nHe will ___ the meeting.",
+      "choices": [
+        "facilitate",
+        "lead",
+        "chair",
+        "manage"
+      ],
+      "answer": 0,
+      "explanation": "facilitate「ファシリテートする」が正解。"
+    },
+    {
+      "id": "en_vocab_415",
+      "question": "「サプライチェーン」\nManage the ___ chain.",
+      "choices": [
+        "supply",
+        "value",
+        "distribution",
+        "logistics"
+      ],
+      "answer": 0,
+      "explanation": "supply chain「サプライチェーン」が正解。"
+    },
+    {
+      "id": "en_vocab_416",
+      "question": "「ブランド力」\nBuild ___ recognition.",
+      "choices": [
+        "brand",
+        "company",
+        "product",
+        "market"
+      ],
+      "answer": 0,
+      "explanation": "brand recognition「ブランド力・認知度」が正解。"
+    },
+    {
+      "id": "en_vocab_417",
+      "question": "「業務プロセス」\nImprove the ___ process.",
+      "choices": [
+        "business",
+        "operational",
+        "work",
+        "organizational"
+      ],
+      "answer": 0,
+      "explanation": "business process「業務プロセス」が正解。"
+    },
+    {
+      "id": "en_vocab_418",
+      "question": "「総収益」\n___ revenue was $10M.",
+      "choices": [
+        "Total",
+        "Gross",
+        "Net",
+        "Overall"
+      ],
+      "answer": 0,
+      "explanation": "total revenue「総収益」が正解。"
+    },
+    {
+      "id": "en_vocab_419",
+      "question": "「進捗管理」\nTrack ___ regularly.",
+      "choices": [
+        "progress",
+        "performance",
+        "outcomes",
+        "results"
+      ],
+      "answer": 0,
+      "explanation": "progress「進捗」が正解。"
+    },
+    {
+      "id": "en_vocab_420",
+      "question": "「コアビジネス」\nFocus on the ___ business.",
+      "choices": [
+        "core",
+        "main",
+        "primary",
+        "key"
+      ],
+      "answer": 0,
+      "explanation": "core business「コアビジネス」が正解。"
+    },
+    {
+      "id": "en_vocab_421",
+      "question": "「改革を推進する」\nShe helped ___ reform.",
+      "choices": [
+        "drive",
+        "push",
+        "lead",
+        "promote"
+      ],
+      "answer": 0,
+      "explanation": "drive reform「改革を推進する」が正解。"
+    },
+    {
+      "id": "en_vocab_422",
+      "question": "「実行力」\n___ is critical for success.",
+      "choices": [
+        "Execution",
+        "Implementation",
+        "Action",
+        "Performance"
+      ],
+      "answer": 0,
+      "explanation": "execution「実行力」が正解。"
+    },
+    {
+      "id": "en_vocab_423",
+      "question": "「積み上げる」\nShe has ___ expertise over time.",
+      "choices": [
+        "built up",
+        "accumulated",
+        "developed",
+        "gained"
+      ],
+      "answer": 0,
+      "explanation": "build up「積み上げる」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_424",
+      "question": "「重要な指標」\nIdentify ___ performance indicators.",
+      "choices": [
+        "key",
+        "main",
+        "core",
+        "primary"
+      ],
+      "answer": 0,
+      "explanation": "key performance indicators (KPI)「重要な指標」が正解。"
+    },
+    {
+      "id": "en_vocab_425",
+      "question": "「成長戦略」\nOutline our ___ strategy.",
+      "choices": [
+        "growth",
+        "expansion",
+        "scaling",
+        "business"
+      ],
+      "answer": 0,
+      "explanation": "growth strategy「成長戦略」が正解。"
+    },
+    {
+      "id": "en_vocab_426",
+      "question": "「業界のトレンド」\nMonitor ___ trends.",
+      "choices": [
+        "industry",
+        "market",
+        "sector",
+        "trade"
+      ],
+      "answer": 0,
+      "explanation": "industry trends「業界のトレンド」が正解。"
+    },
+    {
+      "id": "en_vocab_427",
+      "question": "「変革を牽引する」\nWe ___ change across the organization.",
+      "choices": [
+        "drive",
+        "lead",
+        "push",
+        "promote"
+      ],
+      "answer": 0,
+      "explanation": "drive change「変革を牽引する」が正解。"
+    },
+    {
+      "id": "en_vocab_428",
+      "question": "「解決策を提案する」\n___ a solution to the problem.",
+      "choices": [
+        "Propose",
+        "Suggest",
+        "Recommend",
+        "Offer"
+      ],
+      "answer": 0,
+      "explanation": "propose「提案する」が正解。"
+    },
+    {
+      "id": "en_vocab_429",
+      "question": "「優れたリーダー」\nShe is an ___ leader.",
+      "choices": [
+        "exceptional",
+        "outstanding",
+        "excellent",
+        "remarkable"
+      ],
+      "answer": 0,
+      "explanation": "exceptional「優れた」が正解。"
+    },
+    {
+      "id": "en_vocab_430",
+      "question": "「本質的な問題」\nFocus on the ___ issue.",
+      "choices": [
+        "core",
+        "essential",
+        "fundamental",
+        "central"
+      ],
+      "answer": 0,
+      "explanation": "core issue「本質的な問題」が正解。"
+    },
+    {
+      "id": "en_vocab_431",
+      "question": "「社内連携」\n___ between departments is important.",
+      "choices": [
+        "Cross-departmental coordination",
+        "Internal collaboration",
+        "Team synergy",
+        "Organizational alignment"
+      ],
+      "answer": 0,
+      "explanation": "cross-departmental coordination「社内連携」が正解。"
+    },
+    {
+      "id": "en_vocab_432",
+      "question": "「人材育成」\nInvest in ___ development.",
+      "choices": [
+        "talent",
+        "employee",
+        "human",
+        "staff"
+      ],
+      "answer": 0,
+      "explanation": "talent development「人材育成」が正解。"
+    },
+    {
+      "id": "en_vocab_433",
+      "question": "「ビジネス成果」\nFocus on ___ outcomes.",
+      "choices": [
+        "business",
+        "company",
+        "organizational",
+        "commercial"
+      ],
+      "answer": 0,
+      "explanation": "business outcomes「ビジネス成果」が正解。"
+    },
+    {
+      "id": "en_vocab_434",
+      "question": "「全社的な」\nThis is a ___ initiative.",
+      "choices": [
+        "company-wide",
+        "organization-wide",
+        "enterprise-wide",
+        "cross-functional"
+      ],
+      "answer": 0,
+      "explanation": "company-wide「全社的な」が正解。"
+    },
+    {
+      "id": "en_vocab_435",
+      "question": "「現状を把握する」\nLet's ___ the current situation.",
+      "choices": [
+        "assess",
+        "evaluate",
+        "understand",
+        "analyze"
+      ],
+      "answer": 0,
+      "explanation": "assess「現状を把握する・評価する」が正解。"
+    },
+    {
+      "id": "en_vocab_436",
+      "question": "「ベストプラクティス」\nShare ___ across teams.",
+      "choices": [
+        "best practices",
+        "good examples",
+        "success stories",
+        "proven methods"
+      ],
+      "answer": 0,
+      "explanation": "best practices「ベストプラクティス」が正解。"
+    },
+    {
+      "id": "en_vocab_437",
+      "question": "「ビジネスモデル」\nDisrupt the existing ___ model.",
+      "choices": [
+        "business",
+        "revenue",
+        "operational",
+        "service"
+      ],
+      "answer": 0,
+      "explanation": "business model「ビジネスモデル」が正解。"
+    },
+    {
+      "id": "en_vocab_438",
+      "question": "「質問に答える」\nShe ___ all questions clearly.",
+      "choices": [
+        "answered",
+        "addressed",
+        "responded to",
+        "replied to"
+      ],
+      "answer": 0,
+      "explanation": "answer「答える」の過去形が正解。"
+    },
+    {
+      "id": "en_vocab_439",
+      "question": "「重要な意思決定者」\nIdentify the key ___ makers.",
+      "choices": [
+        "decision",
+        "policy",
+        "strategy",
+        "change"
+      ],
+      "answer": 0,
+      "explanation": "decision-makers「意思決定者」が正解。"
+    },
+    {
+      "id": "en_vocab_440",
+      "question": "「収益性を改善する」\nWe need to ___ profitability.",
+      "choices": [
+        "improve",
+        "enhance",
+        "increase",
+        "boost"
+      ],
+      "answer": 0,
+      "explanation": "improve profitability「収益性を改善する」が正解。"
+    },
+    {
+      "id": "en_vocab_441",
+      "question": "「要因を特定する」\n___ the main factors.",
+      "choices": [
+        "Identify",
+        "Find",
+        "Determine",
+        "Pinpoint"
+      ],
+      "answer": 0,
+      "explanation": "identify「特定する」が正解。"
+    },
+    {
+      "id": "en_vocab_442",
+      "question": "「競争優位」\nBuild a ___ advantage.",
+      "choices": [
+        "competitive",
+        "strategic",
+        "market",
+        "business"
+      ],
+      "answer": 0,
+      "explanation": "competitive advantage「競争優位」が正解。"
+    },
+    {
+      "id": "en_vocab_443",
+      "question": "「意思決定フレームワーク」\nApply a ___ framework.",
+      "choices": [
+        "decision-making",
+        "analytical",
+        "strategic",
+        "management"
+      ],
+      "answer": 0,
+      "explanation": "decision-making framework「意思決定フレームワーク」が正解。"
+    },
+    {
+      "id": "en_vocab_444",
+      "question": "「議論を整理する」\n___ the discussion.",
+      "choices": [
+        "Structure",
+        "Organize",
+        "Facilitate",
+        "Lead"
+      ],
+      "answer": 0,
+      "explanation": "structure「議論を整理する」が正解。"
+    },
+    {
+      "id": "en_vocab_445",
+      "question": "「ロードマップ」\nCreate a product ___.",
+      "choices": [
+        "roadmap",
+        "plan",
+        "schedule",
+        "timeline"
+      ],
+      "answer": 0,
+      "explanation": "roadmap「ロードマップ」が正解。"
+    },
+    {
+      "id": "en_vocab_446",
+      "question": "「持続的な改善」\n___ improvement is our goal.",
+      "choices": [
+        "Continuous",
+        "Sustained",
+        "Ongoing",
+        "Consistent"
+      ],
+      "answer": 0,
+      "explanation": "continuous improvement「持続的な改善」が正解。"
+    },
+    {
+      "id": "en_vocab_447",
+      "question": "「積極的に参加する」\nAll employees ___ actively.",
+      "choices": [
+        "participate",
+        "engage",
+        "contribute",
+        "involve"
+      ],
+      "answer": 1,
+      "explanation": "engage「積極的に参加する」の三単現が正解。"
+    },
+    {
+      "id": "en_vocab_448",
+      "question": "「目標を設定する」\nLet's ___ clear objectives.",
+      "choices": [
+        "set",
+        "establish",
+        "define",
+        "create"
+      ],
+      "answer": 0,
+      "explanation": "set objectives「目標を設定する」が正解。"
+    },
+    {
+      "id": "en_vocab_449",
+      "question": "「全員一致で」\nThe decision was ___ agreed.",
+      "choices": [
+        "unanimously",
+        "jointly",
+        "collectively",
+        "mutually"
+      ],
+      "answer": 0,
+      "explanation": "unanimously「全員一致で」が正解。"
+    },
+    {
+      "id": "en_vocab_450",
+      "question": "「リスクを軽減する」\nWe need to ___ risks.",
+      "choices": [
+        "mitigate",
+        "reduce",
+        "minimize",
+        "manage"
+      ],
+      "answer": 0,
+      "explanation": "mitigate「軽減する」が正解。"
+    },
+    {
+      "id": "en_vocab_451",
+      "question": "「実現可能性」\nAssess the ___ of the plan.",
+      "choices": [
+        "feasibility",
+        "viability",
+        "possibility",
+        "practicality"
+      ],
+      "answer": 0,
+      "explanation": "feasibility「実現可能性」が正解。"
+    },
+    {
+      "id": "en_vocab_452",
+      "question": "「感情的な知性」\n___ intelligence is key for leaders.",
+      "choices": [
+        "Emotional",
+        "Social",
+        "Cultural",
+        "Interpersonal"
+      ],
+      "answer": 0,
+      "explanation": "emotional intelligence「感情的な知性・EQ」が正解。"
+    },
+    {
+      "id": "en_vocab_453",
+      "question": "「顧客満足度」\nImprove ___ satisfaction.",
+      "choices": [
+        "customer",
+        "client",
+        "user",
+        "consumer"
+      ],
+      "answer": 0,
+      "explanation": "customer satisfaction「顧客満足度」が正解。"
+    },
+    {
+      "id": "en_vocab_454",
+      "question": "「要求された」\nThis is ___ by law.",
+      "choices": [
+        "required",
+        "mandated",
+        "obligated",
+        "demanded"
+      ],
+      "answer": 0,
+      "explanation": "required「要求された」が正解。"
+    },
+    {
+      "id": "en_vocab_455",
+      "question": "「ビジョン」\nShare a clear ___.",
+      "choices": [
+        "vision",
+        "goal",
+        "mission",
+        "purpose"
+      ],
+      "answer": 0,
+      "explanation": "vision「ビジョン」が正解。"
+    },
+    {
+      "id": "en_vocab_456",
+      "question": "「詳細を詰める」\nWe need to ___ out the details.",
+      "choices": [
+        "iron",
+        "work",
+        "sort",
+        "figure"
+      ],
+      "answer": 0,
+      "explanation": "iron out「詳細を詰める」が正解。"
+    },
+    {
+      "id": "en_vocab_457",
+      "question": "「透明性を高める」\nWe aim to ___ transparency.",
+      "choices": [
+        "increase",
+        "improve",
+        "enhance",
+        "promote"
+      ],
+      "answer": 3,
+      "explanation": "promote transparency「透明性を高める」が正解。"
+    },
+    {
+      "id": "en_vocab_458",
+      "question": "「現状維持する」\nWe need to ___ the status quo.",
+      "choices": [
+        "maintain",
+        "keep",
+        "preserve",
+        "sustain"
+      ],
+      "answer": 0,
+      "explanation": "maintain「維持する」が正解。"
+    },
+    {
+      "id": "en_vocab_459",
+      "question": "「変革の方向性」\nSet the ___ for change.",
+      "choices": [
+        "direction",
+        "path",
+        "course",
+        "agenda"
+      ],
+      "answer": 0,
+      "explanation": "direction「方向性」が正解。"
+    },
+    {
+      "id": "en_vocab_460",
+      "question": "「持続可能な経営」\n___ management is a priority.",
+      "choices": [
+        "Sustainable",
+        "Responsible",
+        "Ethical",
+        "Green"
+      ],
+      "answer": 0,
+      "explanation": "sustainable management「持続可能な経営」が正解。"
+    },
+    {
+      "id": "en_vocab_461",
+      "question": "「グローバル展開」\n___ expansion is our next step.",
+      "choices": [
+        "Global",
+        "International",
+        "Worldwide",
+        "Cross-border"
+      ],
+      "answer": 0,
+      "explanation": "global expansion「グローバル展開」が正解。"
+    },
+    {
+      "id": "en_vocab_462",
+      "question": "「顧客起点の」\nWe take a ___ approach.",
+      "choices": [
+        "customer-centric",
+        "client-first",
+        "user-focused",
+        "consumer-driven"
+      ],
+      "answer": 0,
+      "explanation": "customer-centric「顧客起点の」が正解。"
+    },
+    {
+      "id": "en_vocab_463",
+      "question": "「価値を提供する」\nWe ___ value to customers.",
+      "choices": [
+        "deliver",
+        "provide",
+        "offer",
+        "create"
+      ],
+      "answer": 0,
+      "explanation": "deliver value「価値を提供する」が正解。"
+    },
+    {
+      "id": "en_vocab_464",
+      "question": "「チャレンジングな目標」\nSet ___ targets.",
+      "choices": [
+        "challenging",
+        "ambitious",
+        "aggressive",
+        "bold"
+      ],
+      "answer": 0,
+      "explanation": "challenging targets「チャレンジングな目標」が正解。"
+    },
+    {
+      "id": "en_vocab_465",
+      "question": "「重要性を認識する」\n___ the importance of this issue.",
+      "choices": [
+        "Recognize",
+        "Acknowledge",
+        "Understand",
+        "Appreciate"
+      ],
+      "answer": 0,
+      "explanation": "recognize「認識する」が正解。"
+    },
+    {
+      "id": "en_vocab_466",
+      "question": "「プロジェクトを完遂する」\n___ the project on time.",
+      "choices": [
+        "Complete",
+        "Finish",
+        "Deliver",
+        "Execute"
+      ],
+      "answer": 0,
+      "explanation": "complete「完遂する」が正解。"
+    },
+    {
+      "id": "en_vocab_467",
+      "question": "「行動原則」\nFollow our ___ principles.",
+      "choices": [
+        "guiding",
+        "core",
+        "fundamental",
+        "behavioral"
+      ],
+      "answer": 0,
+      "explanation": "guiding principles「行動原則」が正解。"
+    },
+    {
+      "id": "en_vocab_468",
+      "question": "「主要な課題」\nFocus on ___ challenges.",
+      "choices": [
+        "key",
+        "major",
+        "primary",
+        "critical"
+      ],
+      "answer": 0,
+      "explanation": "key challenges「主要な課題」が正解。"
+    },
+    {
+      "id": "en_vocab_469",
+      "question": "「実現する」\nWe will ___ this vision.",
+      "choices": [
+        "realize",
+        "achieve",
+        "accomplish",
+        "fulfill"
+      ],
+      "answer": 0,
+      "explanation": "realize「実現する」が正解。"
+    },
+    {
+      "id": "en_vocab_470",
+      "question": "「組織を変革する」\nWe need to ___ the organization.",
+      "choices": [
+        "transform",
+        "change",
+        "restructure",
+        "overhaul"
+      ],
+      "answer": 0,
+      "explanation": "transform「変革する」が正解。"
+    },
+    {
+      "id": "en_vocab_471",
+      "question": "「目標を共有する」\nAll ___ the same goal.",
+      "choices": [
+        "share",
+        "have",
+        "hold",
+        "pursue"
+      ],
+      "answer": 0,
+      "explanation": "share a goal「目標を共有する」が正解。"
+    },
+    {
+      "id": "en_vocab_472",
+      "question": "「外部環境」\nMonitor the ___ environment.",
+      "choices": [
+        "external",
+        "outside",
+        "market",
+        "competitive"
+      ],
+      "answer": 0,
+      "explanation": "external environment「外部環境」が正解。"
+    },
+    {
+      "id": "en_vocab_473",
+      "question": "「影響力のある」\nShe is a very ___ leader.",
+      "choices": [
+        "influential",
+        "powerful",
+        "impactful",
+        "significant"
+      ],
+      "answer": 0,
+      "explanation": "influential「影響力のある」が正解。"
+    },
+    {
+      "id": "en_vocab_474",
+      "question": "「内部監査」\nConduct an ___ audit.",
+      "choices": [
+        "internal",
+        "in-house",
+        "inside",
+        "self"
+      ],
+      "answer": 0,
+      "explanation": "internal audit「内部監査」が正解。"
+    },
+    {
+      "id": "en_vocab_475",
+      "question": "「プロジェクトスコープ」\nDefine the project ___.",
+      "choices": [
+        "scope",
+        "scale",
+        "size",
+        "range"
+      ],
+      "answer": 0,
+      "explanation": "project scope「プロジェクトスコープ」が正解。"
+    },
+    {
+      "id": "en_vocab_476",
+      "question": "「共通言語」\nEstablish a ___ language.",
+      "choices": [
+        "common",
+        "shared",
+        "unified",
+        "standard"
+      ],
+      "answer": 0,
+      "explanation": "common language「共通言語」が正解。"
+    },
+    {
+      "id": "en_vocab_477",
+      "question": "「責任者」\nWho is the ___ person?",
+      "choices": [
+        "responsible",
+        "accountable",
+        "in-charge",
+        "authorized"
+      ],
+      "answer": 0,
+      "explanation": "responsible person「責任者」が正解。"
+    },
+    {
+      "id": "en_vocab_478",
+      "question": "「エンゲージメント」\nIncrease employee ___.",
+      "choices": [
+        "engagement",
+        "motivation",
+        "satisfaction",
+        "commitment"
+      ],
+      "answer": 0,
+      "explanation": "engagement「エンゲージメント」が正解。"
+    },
+    {
+      "id": "en_vocab_479",
+      "question": "「優先課題」\nFocus on the top ___.",
+      "choices": [
+        "priorities",
+        "issues",
+        "tasks",
+        "concerns"
+      ],
+      "answer": 0,
+      "explanation": "priorities「優先課題」が正解。"
+    },
+    {
+      "id": "en_vocab_480",
+      "question": "「実現性を検証する」\n___ the feasibility of the plan.",
+      "choices": [
+        "Verify",
+        "Test",
+        "Assess",
+        "Validate"
+      ],
+      "answer": 3,
+      "explanation": "validate「実現性を検証する」が正解。"
+    },
+    {
+      "id": "en_vocab_481",
+      "question": "「持続的成長」\nAchieve ___ growth.",
+      "choices": [
+        "sustainable",
+        "continuous",
+        "lasting",
+        "stable"
+      ],
+      "answer": 0,
+      "explanation": "sustainable growth「持続的成長」が正解。"
+    },
+    {
+      "id": "en_vocab_482",
+      "question": "「方針を決定する」\n___ the policy direction.",
+      "choices": [
+        "Determine",
+        "Set",
+        "Define",
+        "Establish"
+      ],
+      "answer": 0,
+      "explanation": "determine「決定する」が正解。"
+    },
+    {
+      "id": "en_vocab_483",
+      "question": "「投資回収期間」\nCalculate the ___ period.",
+      "choices": [
+        "payback",
+        "investment recovery",
+        "return",
+        "break-even"
+      ],
+      "answer": 0,
+      "explanation": "payback period「投資回収期間」が正解。"
+    },
+    {
+      "id": "en_vocab_484",
+      "question": "「品質管理」\nImplement ___ control.",
+      "choices": [
+        "quality",
+        "process",
+        "operational",
+        "production"
+      ],
+      "answer": 0,
+      "explanation": "quality control「品質管理」が正解。"
+    },
+    {
+      "id": "en_vocab_485",
+      "question": "「有効活用する」\nWe need to ___ our resources.",
+      "choices": [
+        "leverage",
+        "utilize",
+        "use",
+        "maximize"
+      ],
+      "answer": 0,
+      "explanation": "leverage「有効活用する」が正解。"
+    },
+    {
+      "id": "en_vocab_486",
+      "question": "「カスタマージャーニー」\nMap the ___ journey.",
+      "choices": [
+        "customer",
+        "user",
+        "client",
+        "buyer"
+      ],
+      "answer": 0,
+      "explanation": "customer journey「カスタマージャーニー」が正解。"
+    },
+    {
+      "id": "en_vocab_487",
+      "question": "「目標達成に向けて」\nWork ___ your goals.",
+      "choices": [
+        "toward",
+        "towards",
+        "for",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "work toward your goals「目標達成に向けて取り組む」が正解。"
+    },
+    {
+      "id": "en_vocab_488",
+      "question": "「積極的なコミュニケーション」\nPractice ___ communication.",
+      "choices": [
+        "proactive",
+        "active",
+        "open",
+        "transparent"
+      ],
+      "answer": 0,
+      "explanation": "proactive communication「積極的なコミュニケーション」が正解。"
+    },
+    {
+      "id": "en_vocab_489",
+      "question": "「意思決定権者」\nGain approval from the ___.",
+      "choices": [
+        "decision-maker",
+        "authority",
+        "management",
+        "leadership"
+      ],
+      "answer": 0,
+      "explanation": "decision-maker「意思決定権者」が正解。"
+    },
+    {
+      "id": "en_vocab_490",
+      "question": "「戦略的思考」\n___ thinking is key.",
+      "choices": [
+        "Strategic",
+        "Analytical",
+        "Critical",
+        "Systems"
+      ],
+      "answer": 0,
+      "explanation": "strategic thinking「戦略的思考」が正解。"
+    },
+    {
+      "id": "en_vocab_491",
+      "question": "「目指すべき姿」\nDefine the ___ state.",
+      "choices": [
+        "desired",
+        "target",
+        "ideal",
+        "future"
+      ],
+      "answer": 0,
+      "explanation": "desired state「目指すべき姿」が正解。"
+    },
+    {
+      "id": "en_vocab_492",
+      "question": "「成功指標」\nTrack the ___ indicators.",
+      "choices": [
+        "success",
+        "performance",
+        "progress",
+        "achievement"
+      ],
+      "answer": 0,
+      "explanation": "success indicators「成功指標」が正解。"
+    },
+    {
+      "id": "en_vocab_493",
+      "question": "「連携を強化する」\nWe need to ___ collaboration.",
+      "choices": [
+        "strengthen",
+        "enhance",
+        "improve",
+        "build"
+      ],
+      "answer": 0,
+      "explanation": "strengthen collaboration「連携を強化する」が正解。"
+    },
+    {
+      "id": "en_vocab_494",
+      "question": "「先進的な考え方」\n___ thinking drives innovation.",
+      "choices": [
+        "Forward",
+        "Advanced",
+        "Progressive",
+        "Innovative"
+      ],
+      "answer": 0,
+      "explanation": "forward thinking「先進的な考え方」が正解。"
+    },
+    {
+      "id": "en_vocab_495",
+      "question": "「ユーザーエクスペリエンス」\nImprove the ___ experience.",
+      "choices": [
+        "user",
+        "customer",
+        "client",
+        "visitor"
+      ],
+      "answer": 0,
+      "explanation": "user experience (UX)「ユーザーエクスペリエンス」が正解。"
+    },
+    {
+      "id": "en_vocab_496",
+      "question": "「現場の声を活かす」\nIncorporate ___ feedback.",
+      "choices": [
+        "frontline",
+        "field",
+        "on-the-ground",
+        "direct"
+      ],
+      "answer": 0,
+      "explanation": "frontline feedback「現場の声」が正解。"
+    },
+    {
+      "id": "en_vocab_497",
+      "question": "「企業価値」\n___ value is a key metric.",
+      "choices": [
+        "Corporate",
+        "Company",
+        "Business",
+        "Enterprise"
+      ],
+      "answer": 0,
+      "explanation": "corporate value「企業価値」が正解。"
+    },
+    {
+      "id": "en_vocab_498",
+      "question": "「最終的な目標」\nWhat is the ___ goal?",
+      "choices": [
+        "ultimate",
+        "final",
+        "end",
+        "overall"
+      ],
+      "answer": 0,
+      "explanation": "ultimate goal「最終的な目標」が正解。"
+    },
+    {
+      "id": "en_vocab_499",
+      "question": "「組織能力を高める」\nBuild ___ capabilities.",
+      "choices": [
+        "organizational",
+        "company",
+        "team",
+        "business"
+      ],
+      "answer": 0,
+      "explanation": "organizational capabilities「組織能力」が正解。"
+    },
+    {
+      "id": "en_vocab_500",
+      "question": "「変化に適応する」\n___ to rapidly changing environments.",
+      "choices": [
+        "Adapt",
+        "Adjust",
+        "Respond",
+        "Conform"
+      ],
+      "answer": 0,
+      "explanation": "adapt「変化に適応する」が正解。"
     }
   ]
 }

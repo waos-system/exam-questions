@@ -5,63 +5,108 @@
     {
       "id": "en_gram_001",
       "question": "Choose the correct form:\n「彼女は昨日から熱があります」\nShe ___ a fever since yesterday.",
-      "choices": ["has", "have", "had", "is having"],
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is having"
+      ],
       "answer": 0,
       "explanation": "「since yesterday（昨日から）」という継続を表す表現があるため、現在完了形 has を使います。現在完了は「have/has + 過去分詞」の形です。"
     },
     {
       "id": "en_gram_002",
       "question": "Choose the correct word:\n「もし明日雨なら、私は家にいます」\nIf it ___ tomorrow, I will stay home.",
-      "choices": ["will rain", "rains", "rained", "is raining"],
+      "choices": [
+        "will rain",
+        "rains",
+        "rained",
+        "is raining"
+      ],
       "answer": 1,
       "explanation": "if節（条件節）では未来のことでも現在形を使います。「If it rains（もし雨なら）」が正解。主節では will を使います。"
     },
     {
       "id": "en_gram_003",
       "question": "Choose the correct form:\n「この本は英語で書かれています」\nThis book ___ in English.",
-      "choices": ["writes", "is written", "was writing", "has written"],
+      "choices": [
+        "writes",
+        "is written",
+        "was writing",
+        "has written"
+      ],
       "answer": 1,
       "explanation": "「書かれている」という受動態の文です。受動態は「be動詞 + 過去分詞」の形で、現在の状態なので is written が正解です。"
     },
     {
       "id": "en_gram_004",
       "question": "Choose the correct word:\n「私は彼女が正直だと思います」\nI think ___ she is honest.",
-      "choices": ["what", "which", "that", "who"],
+      "choices": [
+        "what",
+        "which",
+        "that",
+        "who"
+      ],
       "answer": 2,
       "explanation": "think の目的語になる名詞節を導く接続詞は that です。「I think that + 文」の構造で、that は省略することもできます。"
     },
     {
       "id": "en_gram_005",
       "question": "Choose the correct form:\n「彼は私より背が高い」\nHe is ___ than me.",
-      "choices": ["tall", "taller", "tallest", "more tall"],
+      "choices": [
+        "tall",
+        "taller",
+        "tallest",
+        "more tall"
+      ],
       "answer": 1,
       "explanation": "2つのものを比べる「比較級」では、短い形容詞には -er をつけます。tall → taller。「more tall」は誤りで、「taller」が正解です。"
     },
     {
       "id": "en_gram_006",
       "question": "Choose the correct word:\n「私には話せる友達がいない」\nI have no friends ___ I can talk with.",
-      "choices": ["who", "what", "which", "whose"],
+      "choices": [
+        "who",
+        "what",
+        "which",
+        "whose"
+      ],
       "answer": 0,
       "explanation": "先行詞が「friends（人）」なので、関係代名詞は who を使います。who は主格・目的格どちらにも使え、ここでは talk with の目的語として機能しています。"
     },
     {
       "id": "en_gram_007",
       "question": "Choose the correct form:\n「彼女は歌うのが上手です」\nShe is good ___ singing.",
-      "choices": ["at", "in", "for", "with"],
+      "choices": [
+        "at",
+        "in",
+        "for",
+        "with"
+      ],
       "answer": 0,
       "explanation": "「〜が得意」は「be good at ～ing」の形です。at は技能・得意なことを表すのに使います。「good in」「good for」は不正解です。"
     },
     {
       "id": "en_gram_008",
       "question": "Choose the correct form:\n「私が到着したとき、彼女はすでに出かけていた」\nWhen I arrived, she ___ already left.",
-      "choices": ["has", "have", "had", "was"],
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "was"
+      ],
       "answer": 2,
       "explanation": "過去のある時点より前に起きた出来事は「過去完了形（had + 過去分詞）」で表します。「到着した（過去）」より前に「出かけた」ので had left が正解です。"
     },
     {
       "id": "en_gram_009",
       "question": "Choose the correct word:\n「私は毎朝コーヒーを飲みます」\nI drink coffee ___ the morning.",
-      "choices": ["at", "in", "on", "by"],
+      "choices": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
       "answer": 1,
       "explanation": "「朝に」は in the morning です。「at noon（正午に）」「on Monday（月曜日に）」のように前置詞は場面によって変わります。時間帯（morning/afternoon/evening）には in を使います。"
     },
@@ -80,72 +125,5882 @@
     {
       "id": "en_gram_011",
       "question": "Choose the correct form:\n「私はその映画を見たことがあります」\nI ___ seen that movie.",
-      "choices": ["am", "was", "have", "had"],
+      "choices": [
+        "am",
+        "was",
+        "have",
+        "had"
+      ],
       "answer": 2,
       "explanation": "「〜したことがある」という経験を表すのは現在完了形「have/has + 過去分詞」です。I have seen が正解です。"
     },
     {
       "id": "en_gram_012",
       "question": "Choose the correct form:\n「彼に電話するように彼女に頼みました」\nI asked her ___ him.",
-      "choices": ["call", "calling", "to call", "called"],
+      "choices": [
+        "call",
+        "calling",
+        "to call",
+        "called"
+      ],
       "answer": 2,
       "explanation": "ask + 人 + to不定詞（〜するよう頼む）の形です。「ask her to call」が正解。「ask + 動名詞」は使えません。"
     },
     {
       "id": "en_gram_013",
       "question": "Choose the correct form:\n「走ることは健康に良い」\n___ is good for your health.",
-      "choices": ["Run", "Runs", "To running", "Running"],
+      "choices": [
+        "Run",
+        "Runs",
+        "To running",
+        "Running"
+      ],
       "answer": 3,
       "explanation": "文の主語として動詞を使う場合、動名詞（〜ing）または不定詞（to + 動詞原形）を使います。ここでは「Running（走ること）」が自然な主語です。"
     },
     {
       "id": "en_gram_014",
       "question": "Choose the correct word:\n「彼女は美しいだけでなく頭も良い」\nShe is not only beautiful ___ also smart.",
-      "choices": ["or", "but", "and", "yet"],
+      "choices": [
+        "or",
+        "but",
+        "and",
+        "yet"
+      ],
       "answer": 1,
       "explanation": "「not only A but also B（AだけでなくBも）」というペアの表現です。but が正解です。これは相関接続詞と呼ばれます。"
     },
     {
       "id": "en_gram_015",
       "question": "Choose the correct form:\n「彼が来るまで待ちましょう」\nLet's wait ___ he comes.",
-      "choices": ["until", "since", "after", "before"],
+      "choices": [
+        "until",
+        "since",
+        "after",
+        "before"
+      ],
       "answer": 0,
       "explanation": "「〜するまで待つ」は wait until で表します。since は「〜以来」、after は「〜の後」、before は「〜の前」という意味です。"
     },
     {
       "id": "en_gram_016",
       "question": "Choose the correct form:\n「私は医者に診てもらう必要があります」\nI need ___ by a doctor.",
-      "choices": ["to examine", "to be examined", "examining", "examined"],
+      "choices": [
+        "to examine",
+        "to be examined",
+        "examining",
+        "examined"
+      ],
       "answer": 1,
       "explanation": "「私は診てもらう」は受動態の不定詞「to be examined」です。「examine（診察する）」は他動詞で、私は診察される側（受動）なので to be examined が正解です。"
     },
     {
       "id": "en_gram_017",
       "question": "Choose the correct word:\n「彼女は病気だったにもかかわらず、来てくれた」\n___ she was sick, she came.",
-      "choices": ["Because", "Although", "Unless", "Since"],
+      "choices": [
+        "Because",
+        "Although",
+        "Unless",
+        "Since"
+      ],
       "answer": 1,
       "explanation": "「〜にもかかわらず」は Although（= Though / Even though）です。Because「なぜなら」、Unless「〜でない限り」、Since「〜なので・以来」とは意味が異なります。"
     },
     {
       "id": "en_gram_018",
       "question": "Choose the correct form:\n「私の自転車は壊れています」\nMy bike ___.",
-      "choices": ["is broken", "is breaking", "broke", "has breaking"],
+      "choices": [
+        "is broken",
+        "is breaking",
+        "broke",
+        "has breaking"
+      ],
       "answer": 0,
       "explanation": "「壊れている（状態）」は is broken（受動態）で表します。「broke」は過去形で動作を表します。is broken は形容詞的に使われる過去分詞で状態を示します。"
     },
     {
       "id": "en_gram_019",
       "question": "Choose the correct word:\n「私はその知らせを聞いてうれしかった」\nI was glad ___ hear the news.",
-      "choices": ["to", "of", "for", "with"],
+      "choices": [
+        "to",
+        "of",
+        "for",
+        "with"
+      ],
       "answer": 0,
       "explanation": "感情を表す形容詞（glad, happy, sorry など）の後に理由・原因を表す不定詞をつける場合「形容詞 + to 不定詞」の形を使います。glad to hear が正解です。"
     },
     {
       "id": "en_gram_020",
       "question": "Choose the correct form:\n「これは今まで読んだ中で最もおもしろい本です」\nThis is the most interesting book ___ I have ever read.",
-      "choices": ["who", "whose", "which", "what"],
+      "choices": [
+        "who",
+        "whose",
+        "which",
+        "what"
+      ],
       "answer": 2,
       "explanation": "先行詞が「book（物）」なので関係代名詞は which（または that）を使います。「the most interesting book (that) I have ever read」の構造で、最上級 + 関係詞節でよく使われます。"
+    },
+    {
+      "id": "en_gram_021",
+      "question": "Choose the correct word:\n「彼女が来るまで待っていました」\nI waited ___ she came.",
+      "choices": [
+        "until",
+        "during",
+        "while",
+        "since"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」は until を使います。「I waited until she came.」が正解。while は「〜する間」、since は「〜以来」という意味です。"
+    },
+    {
+      "id": "en_gram_022",
+      "question": "Choose the correct form:\n「私は先生に宿題をするように言われた」\nI was told ___ my homework.",
+      "choices": [
+        "do",
+        "doing",
+        "to do",
+        "done"
+      ],
+      "answer": 2,
+      "explanation": "tell + 人 + to不定詞（〜するよう言う）の受動態は「be told to + 動詞原形」です。「to do my homework」が正解です。"
+    },
+    {
+      "id": "en_gram_023",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "There is many students in the room.",
+        "There are many students in the room.",
+        "There has many students in the room.",
+        "There be many students in the room."
+      ],
+      "answer": 1,
+      "explanation": "「There + be動詞 + 主語」の構文では、主語（students）が複数なので be動詞は are を使います。「There are many students」が正解です。"
+    },
+    {
+      "id": "en_gram_024",
+      "question": "Choose the correct form:\n「その映画は3時間続いた」\nThe movie ___ for three hours.",
+      "choices": [
+        "lasted",
+        "was lasted",
+        "has lasted",
+        "had lasted"
+      ],
+      "answer": 0,
+      "explanation": "last（続く）は自動詞で受動態にできません。過去の出来事は単純過去形 lasted を使います。「The movie lasted for three hours.」が正解です。"
+    },
+    {
+      "id": "en_gram_025",
+      "question": "Choose the correct word:\n「彼女は英語だけでなくフランス語も話せる」\nShe can speak not only English ___ also French.",
+      "choices": [
+        "and",
+        "or",
+        "but",
+        "yet"
+      ],
+      "answer": 2,
+      "explanation": "「not only A but also B（AだけでなくBも）」はペアの相関接続詞です。but が正解です。"
+    },
+    {
+      "id": "en_gram_026",
+      "question": "Choose the correct form:\n「彼が正直だとは思わない」\nI don't think ___ he is honest.",
+      "choices": [
+        "what",
+        "that",
+        "which",
+        "who"
+      ],
+      "answer": 1,
+      "explanation": "動詞の目的語になる名詞節を導く接続詞は that です。「I don't think that he is honest.」の構造で、that は省略可能です。"
+    },
+    {
+      "id": "en_gram_027",
+      "question": "Choose the correct form:\n「できるだけ早く来てください」\nPlease come as ___ as possible.",
+      "choices": [
+        "quick",
+        "quickly",
+        "quicker",
+        "quickest"
+      ],
+      "answer": 1,
+      "explanation": "「as + 副詞 + as possible（できるだけ〜）」の構文です。動詞 come を修飾するので副詞 quickly が正解です。"
+    },
+    {
+      "id": "en_gram_028",
+      "question": "Choose the correct word:\n「彼女は音楽を聞きながら走った」\nShe ran ___ listening to music.",
+      "choices": [
+        "during",
+        "while",
+        "for",
+        "when"
+      ],
+      "answer": 1,
+      "explanation": "「〜しながら」という同時進行は while を使います。while の後は現在分詞（〜ing）を続けることもできます。during は名詞の前に置きます。"
+    },
+    {
+      "id": "en_gram_029",
+      "question": "Choose the correct form:\n「その問題は解決するのが難しい」\nThe problem is difficult ___.",
+      "choices": [
+        "solve",
+        "to solve",
+        "solving",
+        "solved"
+      ],
+      "answer": 1,
+      "explanation": "「It is difficult to solve the problem.」を言い換えた形で、「The problem is difficult to solve.」となります。不定詞の副詞的用法です。"
+    },
+    {
+      "id": "en_gram_030",
+      "question": "Choose the correct form:\n「私の兄は医者で、私の姉も医者です」\nMy brother is a doctor, and my sister ___ too.",
+      "choices": [
+        "is",
+        "are",
+        "be",
+        "being"
+      ],
+      "answer": 0,
+      "explanation": "My sister（三人称単数）に対する be動詞は is です。too は「also（〜も）」の意味で文末に置きます。"
+    },
+    {
+      "id": "en_gram_031",
+      "question": "Choose the correct form:\n「彼女は今まで一度もパリに行ったことがない」\nShe has ___ been to Paris.",
+      "choices": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "answer": 1,
+      "explanation": "「一度もない」という否定の経験を表すには never を使います。ever は疑問文・否定文で「今までに」、already は「すでに」、yet は「まだ（〜ない）」です。"
+    },
+    {
+      "id": "en_gram_032",
+      "question": "Choose the correct form:\n「彼女が到着したとき、私たちは夕食を食べていた」\nWhen she arrived, we ___ dinner.",
+      "choices": [
+        "ate",
+        "are eating",
+        "were eating",
+        "had eaten"
+      ],
+      "answer": 2,
+      "explanation": "過去のある時点で進行中だった動作は過去進行形（was/were + 〜ing）で表します。「were eating（食べていた）」が正解です。"
+    },
+    {
+      "id": "en_gram_033",
+      "question": "Choose the correct word:\n「もし私があなただったら、その申し出を受け入れるのに」\nIf I ___ you, I would accept the offer.",
+      "choices": [
+        "am",
+        "was",
+        "were",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "仮定法過去では、if節のbe動詞は人称に関わらず were を使います。「If I were you」は定型表現です。"
+    },
+    {
+      "id": "en_gram_034",
+      "question": "Choose the correct form:\n「彼は昨日から何も食べていない」\nHe hasn't eaten ___ yesterday.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "起点を表す since（〜から・〜以来）を使います。since は過去の特定の時点（yesterday, 2020など）の前に置きます。for は期間（for three days）に使います。"
+    },
+    {
+      "id": "en_gram_035",
+      "question": "Choose the correct form:\n「私はピアノを弾くことができれば良かった」\nI wish I ___ play the piano.",
+      "choices": [
+        "can",
+        "could",
+        "will",
+        "would"
+      ],
+      "answer": 1,
+      "explanation": "「I wish + 仮定法過去」で「〜できたら良いのに」という現在の事実に反する願望を表します。could が正解です。"
+    },
+    {
+      "id": "en_gram_036",
+      "question": "Choose the correct form:\n「この課題を終わらせなければなりません」\nI ___ finish this assignment.",
+      "choices": [
+        "must to",
+        "must",
+        "have must",
+        "am must"
+      ],
+      "answer": 1,
+      "explanation": "must は助動詞なので、後ろに動詞の原形を置きます。「must to + 動詞」という形は誤りです。「I must finish」が正解です。"
+    },
+    {
+      "id": "en_gram_037",
+      "question": "Choose the grammatically correct sentence.",
+      "choices": [
+        "He suggested to go to the park.",
+        "He suggested going to the park.",
+        "He suggested that go to the park.",
+        "He suggested go to the park."
+      ],
+      "answer": 1,
+      "explanation": "suggest の後には動名詞（〜ing）または that節（suggest that S should V）が続きます。「suggest + 動名詞」→「suggest going」が正解。「suggest to do」は誤りです。"
+    },
+    {
+      "id": "en_gram_038",
+      "question": "Choose the correct form:\n「私が起きたとき、彼はすでに出発していた」\nWhen I woke up, he ___ already left.",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "was"
+      ],
+      "answer": 2,
+      "explanation": "過去より前の出来事は過去完了形（had + 過去分詞）で表します。「had already left」が正解です。"
+    },
+    {
+      "id": "en_gram_039",
+      "question": "Choose the correct word:\n「この薬は食後に飲んでください」\nPlease take this medicine ___ meals.",
+      "choices": [
+        "after",
+        "before",
+        "during",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「食後に」は after meals です。before meals（食前）、during meals（食事中）と区別しましょう。"
+    },
+    {
+      "id": "en_gram_040",
+      "question": "Choose the correct form:\n「彼女は自分の部屋を自分で掃除させてもらった」\nShe had her room ___ by herself.",
+      "choices": [
+        "clean",
+        "cleaning",
+        "cleaned",
+        "to clean"
+      ],
+      "answer": 2,
+      "explanation": "「have + 目的語 + 過去分詞」で「〜してもらう（受動的）」を表します。部屋が掃除される（受動）なので cleaned が正解です。"
+    },
+    {
+      "id": "en_gram_041",
+      "question": "Choose the correct word:\n「私は彼を3年前に会って以来、会っていない」\nI haven't seen him ___ we met three years ago.",
+      "choices": [
+        "when",
+        "since",
+        "after",
+        "while"
+      ],
+      "answer": 1,
+      "explanation": "「〜して以来（ずっと）」は since を使います。since の後に節（S+V）が続く場合は接続詞として機能します。"
+    },
+    {
+      "id": "en_gram_042",
+      "question": "Choose the correct form:\n「この映画は子供には難しすぎる」\nThis movie is too difficult ___ children to understand.",
+      "choices": [
+        "for",
+        "of",
+        "to",
+        "by"
+      ],
+      "answer": 0,
+      "explanation": "「too + 形容詞 + for + 人 + to不定詞（〜するには〜すぎる）」の構文です。for children が正解です。"
+    },
+    {
+      "id": "en_gram_043",
+      "question": "Choose the correct form:\n「そのニュースを聞いて彼女は泣き出した」\nShe burst into tears ___ the news.",
+      "choices": [
+        "hear",
+        "heard",
+        "hearing",
+        "to hear"
+      ],
+      "answer": 2,
+      "explanation": "前置詞（into）の後には動名詞（〜ing）が続きます。ここでは「upon hearing」の upon が省略されており、hearing が正解です。"
+    },
+    {
+      "id": "en_gram_044",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I am interesting in art.",
+        "I am interested in art.",
+        "I am interest in art.",
+        "I am interests in art."
+      ],
+      "answer": 1,
+      "explanation": "「〜に興味がある」は be interested in です。interesting は「（物・事が）面白い」という形容詞で、人の感情には interested を使います。"
+    },
+    {
+      "id": "en_gram_045",
+      "question": "Choose the correct form:\n「彼女は音楽の才能があると言われている」\nShe is said ___ a talent for music.",
+      "choices": [
+        "have",
+        "to have",
+        "having",
+        "had"
+      ],
+      "answer": 1,
+      "explanation": "「It is said that she has〜」を書き換えると「She is said to have〜」となります。say の受動態 + 不定詞（to不定詞）の構文です。"
+    },
+    {
+      "id": "en_gram_046",
+      "question": "Choose the correct form:\n「明日雨が降らなければ、ピクニックに行きます」\nUnless it ___ tomorrow, we will go on a picnic.",
+      "choices": [
+        "rains",
+        "will rain",
+        "rained",
+        "rain"
+      ],
+      "answer": 0,
+      "explanation": "unless（〜でない限り）は条件を表す接続詞です。条件節では未来のことでも現在形を使います。「Unless it rains」が正解です。"
+    },
+    {
+      "id": "en_gram_047",
+      "question": "Choose the correct word:\n「これが私が生まれた町です」\nThis is the town ___ I was born.",
+      "choices": [
+        "which",
+        "that",
+        "where",
+        "when"
+      ],
+      "answer": 2,
+      "explanation": "先行詞が「town（場所）」で、関係詞節内で場所の役割を果たすため、関係副詞 where を使います。「the town where I was born」が正解です。"
+    },
+    {
+      "id": "en_gram_048",
+      "question": "Choose the correct form:\n「彼は会議中ずっと寝ていた」\nHe ___ sleeping throughout the meeting.",
+      "choices": [
+        "kept",
+        "stopped",
+        "gave up",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "「keep + 〜ing（〜し続ける）」の構文です。「kept sleeping（寝続けた）」が正解。stop/give up/finish はすべて「〜するのを止める・終える」という意味です。"
+    },
+    {
+      "id": "en_gram_049",
+      "question": "Choose the correct form:\n「彼女がその問題を解いたことは驚くべきことだ」\nIt is surprising that she ___ the problem.",
+      "choices": [
+        "solves",
+        "solved",
+        "has solved",
+        "had solved"
+      ],
+      "answer": 2,
+      "explanation": "「It is surprising that〜（〜であることは驚くべきだ）」の that節では、現時点での話として現在完了形（has solved）が自然です。"
+    },
+    {
+      "id": "en_gram_050",
+      "question": "Choose the correct form:\n「もっと一生懸命勉強すればよかった」\nI wish I ___ harder.",
+      "choices": [
+        "study",
+        "studied",
+        "had studied",
+        "have studied"
+      ],
+      "answer": 2,
+      "explanation": "「I wish + 仮定法過去完了」で、過去の事実に反する後悔・願望を表します。「I wish I had studied harder.」が正解です。"
+    },
+    {
+      "id": "en_gram_051",
+      "question": "Choose the correct word:\n「彼女は医者なので患者を助けることができる」\nShe is a doctor, ___ she can help patients.",
+      "choices": [
+        "so",
+        "but",
+        "or",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「so（だから・そのため）」は結果を示す接続詞です。「医者だから患者を助けられる」→ so が正解。because は理由節を始め、主節の後には置けません。"
+    },
+    {
+      "id": "en_gram_052",
+      "question": "Choose the correct form:\n「この本を読むのに2時間かかった」\nIt ___ two hours to read this book.",
+      "choices": [
+        "spent",
+        "took",
+        "cost",
+        "used"
+      ],
+      "answer": 1,
+      "explanation": "「It takes + 時間 + to不定詞（〜するのに…時間かかる）」の構文です。主語が「It」の場合は took を使います。spend（お金・時間を費やす）の主語は人です。"
+    },
+    {
+      "id": "en_gram_053",
+      "question": "Choose the correct form:\n「彼女は彼にパーティーに来てほしかった」\nShe wanted him ___ to the party.",
+      "choices": [
+        "come",
+        "coming",
+        "to come",
+        "came"
+      ],
+      "answer": 2,
+      "explanation": "「want + 人 + to不定詞（人に〜してほしい）」の構文です。「wanted him to come」が正解です。"
+    },
+    {
+      "id": "en_gram_054",
+      "question": "Choose the correct form:\n「財布をなくした。どこかで落としたに違いない」\nI've lost my wallet. I ___ dropped it somewhere.",
+      "choices": [
+        "must have",
+        "should have",
+        "might",
+        "can have"
+      ],
+      "answer": 0,
+      "explanation": "過去のことへの強い推量は「must have + 過去分詞（〜したに違いない）」で表します。「must have dropped」が正解です。"
+    },
+    {
+      "id": "en_gram_055",
+      "question": "Choose the correct form:\n「彼女は疲れていたにもかかわらず、仕事を続けた」\nShe continued working ___ being tired.",
+      "choices": [
+        "although",
+        "despite",
+        "because of",
+        "due to"
+      ],
+      "answer": 1,
+      "explanation": "「despite（〜にもかかわらず）」は前置詞なので後に名詞・動名詞が続きます。「despite being tired」が正解。although は接続詞（後にS+V）です。"
+    },
+    {
+      "id": "en_gram_056",
+      "question": "Choose the correct form:\n「その橋は100年前に建てられた」\nThe bridge ___ 100 years ago.",
+      "choices": [
+        "built",
+        "was built",
+        "has built",
+        "is built"
+      ],
+      "answer": 1,
+      "explanation": "「100年前」という過去の時点 + 受動態は「was + 過去分詞」を使います。「was built」が正解。has built は現在完了で時制が合いません。"
+    },
+    {
+      "id": "en_gram_057",
+      "question": "Choose the correct word:\n「その店は日曜日を除いて毎日開いている」\nThe store is open every day ___ Sunday.",
+      "choices": [
+        "except",
+        "besides",
+        "without",
+        "despite"
+      ],
+      "answer": 0,
+      "explanation": "「〜を除いて」は except（for）を使います。「every day except Sunday」が正解。besides は「〜に加えて」、without は「〜なしで」という意味です。"
+    },
+    {
+      "id": "en_gram_058",
+      "question": "Choose the correct form:\n「彼女が歌っているのを聞いた」\nI heard her ___.",
+      "choices": [
+        "sing",
+        "to sing",
+        "sings",
+        "singing"
+      ],
+      "answer": 0,
+      "explanation": "知覚動詞（hear/see/feel など）+ 目的語 + 動詞原形で「〜が…するのを聞く/見る」を表します。「heard her sing」が正解。現在分詞（singing）も使えます（進行中の動作を強調）。"
+    },
+    {
+      "id": "en_gram_059",
+      "question": "Choose the correct form:\n「彼に頼まなければよかった」\nI shouldn't ___ asked him.",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "「should have + 過去分詞（〜すべきだったのに）」の否定形「shouldn't have + 過去分詞（〜すべきでなかったのに）」です。「shouldn't have asked」が正解です。"
+    },
+    {
+      "id": "en_gram_060",
+      "question": "Choose the correct form:\n「彼女は私が思っていたよりも賢い」\nShe is smarter ___ I thought.",
+      "choices": [
+        "as",
+        "than",
+        "that",
+        "then"
+      ],
+      "answer": 1,
+      "explanation": "比較級の構文「比較級 + than」で「〜より」を表します。「smarter than I thought」が正解。than は比較の接続詞です。"
+    },
+    {
+      "id": "en_gram_061",
+      "question": "Choose the correct form:\n「彼らは試験に合格するために一生懸命勉強した」\nThey studied hard ___ order to pass the exam.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 1,
+      "explanation": "「in order to〜（〜するために）」は目的を表す表現です。「in order to pass」が正解。to だけでも同じ意味になります。"
+    },
+    {
+      "id": "en_gram_062",
+      "question": "Choose the correct word:\n「彼はまるで王様であるかのように振る舞う」\nHe behaves ___ if he were a king.",
+      "choices": [
+        "like",
+        "as",
+        "so",
+        "such"
+      ],
+      "answer": 1,
+      "explanation": "「as if + 仮定法（まるで〜であるかのように）」の構文です。as が正解。like は口語では使われますが、文法的には as if が正式です。"
+    },
+    {
+      "id": "en_gram_063",
+      "question": "Choose the correct form:\n「その仕事が終わり次第、彼に電話します」\nI will call him ___ I finish the work.",
+      "choices": [
+        "as soon as",
+        "until",
+        "while",
+        "before"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as（〜するとすぐに・〜次第）」は時を表す接続詞です。時・条件の節では未来のことでも現在形を使います。"
+    },
+    {
+      "id": "en_gram_064",
+      "question": "Choose the correct form:\n「彼女は私に友達を紹介してくれた」\nShe introduced her friend ___ me.",
+      "choices": [
+        "at",
+        "to",
+        "for",
+        "with"
+      ],
+      "answer": 1,
+      "explanation": "「introduce A to B（AをBに紹介する）」の構文です。to が正解です。"
+    },
+    {
+      "id": "en_gram_065",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I look forward to see you.",
+        "I look forward to seeing you.",
+        "I look forward see you.",
+        "I look forward to will see you."
+      ],
+      "answer": 1,
+      "explanation": "「look forward to（〜を楽しみにする）」の to は前置詞なので、後に動名詞（〜ing）が続きます。「look forward to seeing」が正解です。"
+    },
+    {
+      "id": "en_gram_066",
+      "question": "Choose the correct form:\n「先週彼女に会っていなければ、知らないままだった」\nIf I ___ her last week, I wouldn't have known.",
+      "choices": [
+        "didn't meet",
+        "hadn't met",
+        "don't meet",
+        "wouldn't meet"
+      ],
+      "answer": 1,
+      "explanation": "仮定法過去完了は「If + had + 過去分詞」で過去の事実に反する仮定を表します。「hadn't met」が正解です。"
+    },
+    {
+      "id": "en_gram_067",
+      "question": "Choose the correct form:\n「この料理は辛すぎて食べられない」\nThis dish is ___ spicy to eat.",
+      "choices": [
+        "so",
+        "very",
+        "too",
+        "such"
+      ],
+      "answer": 2,
+      "explanation": "「too + 形容詞 + to不定詞（〜すぎて…できない）」の構文です。too が正解。very は「とても」で否定的な意味は含みません。"
+    },
+    {
+      "id": "en_gram_068",
+      "question": "Choose the correct word:\n「彼女は私が思っていたほど背が高くない」\nShe is not ___ tall as I thought.",
+      "choices": [
+        "more",
+        "so",
+        "as",
+        "such"
+      ],
+      "answer": 2,
+      "explanation": "「not as + 形容詞 + as（〜ほど…でない）」は原級比較の否定形です。「not as tall as」が正解。「not so tall as」も同じ意味で使えます。"
+    },
+    {
+      "id": "en_gram_069",
+      "question": "Choose the correct form:\n「彼女は私に向かって手を振った」\nShe waved ___ me.",
+      "choices": [
+        "for",
+        "at",
+        "to",
+        "on"
+      ],
+      "answer": 1,
+      "explanation": "「wave at（〜に向かって手を振る）」は日本語で「〜へ」と訳しますが、英語では at を使います。wave to も使えますが、at がより一般的です。"
+    },
+    {
+      "id": "en_gram_070",
+      "question": "Choose the correct form:\n「その計画を実行することにした」\nWe decided ___ the plan.",
+      "choices": [
+        "carry out",
+        "to carry out",
+        "carrying out",
+        "carried out"
+      ],
+      "answer": 1,
+      "explanation": "decide は to不定詞を目的語にとります。「decided to carry out」が正解。decide + 動名詞（〜ing）という形は使いません。"
+    },
+    {
+      "id": "en_gram_071",
+      "question": "Choose the correct form:\n「試験に合格したことをとても誇りに思っています」\nI am very proud ___ passing the exam.",
+      "choices": [
+        "about",
+        "of",
+        "in",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「be proud of（〜を誇りに思う）」の構文です。of の後に動名詞（passing）が続きます。「proud of passing」が正解です。"
+    },
+    {
+      "id": "en_gram_072",
+      "question": "Choose the correct word:\n「その歌手の名前を覚えていません」\nI can't remember the name of ___ singer.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "—（冠詞なし）"
+      ],
+      "answer": 2,
+      "explanation": "「その歌手」と特定されているので定冠詞 the を使います。「the singer」は既に文脈で特定された人物を指します。"
+    },
+    {
+      "id": "en_gram_073",
+      "question": "Choose the correct form:\n「彼女は旅行の準備をしている」\nShe is preparing ___ her trip.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「prepare for（〜の準備をする）」の構文です。for が正解。prepare to は「〜する準備をする」で後に不定詞が続きます。"
+    },
+    {
+      "id": "en_gram_074",
+      "question": "Choose the correct form:\n「どれだけ努力しても成功できないかもしれない」\n___ hard you try, you may not succeed.",
+      "choices": [
+        "However",
+        "Whatever",
+        "Whenever",
+        "Wherever"
+      ],
+      "answer": 0,
+      "explanation": "「however + 形容詞/副詞（どれほど〜でも）」は譲歩の副詞節を作ります。「However hard you try」が正解。however は no matter how と同じ意味です。"
+    },
+    {
+      "id": "en_gram_075",
+      "question": "Choose the correct form:\n「彼女は私が書いた手紙を読んだ」\nShe read the letter ___ I wrote.",
+      "choices": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": 2,
+      "explanation": "先行詞が「letter（物）」なので関係代名詞は which（または that）を使います。「the letter which I wrote」が正解です。"
+    },
+    {
+      "id": "en_gram_076",
+      "question": "Choose the correct form:\n「彼はその質問に答えることができなかった」\nHe was unable ___ the question.",
+      "choices": [
+        "answer",
+        "to answer",
+        "answering",
+        "answered"
+      ],
+      "answer": 1,
+      "explanation": "「be unable to + 動詞原形（〜できない）」の構文です。「unable to answer」が正解。be unable to は cannot の言い換えです。"
+    },
+    {
+      "id": "en_gram_077",
+      "question": "Choose the correct word:\n「病院では静かにしなければならない」\nYou ___ be quiet in the hospital.",
+      "choices": [
+        "should",
+        "might",
+        "need",
+        "shall"
+      ],
+      "answer": 0,
+      "explanation": "義務・適切な行動を表すには should（〜すべき）が適切です。might は可能性、need は必要性（後に to が必要）、shall は申し出・意志を表します。"
+    },
+    {
+      "id": "en_gram_078",
+      "question": "Choose the correct form:\n「彼は私に秘密を打ち明けてくれた」\nHe ___ me a secret.",
+      "choices": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": 0,
+      "explanation": "「tell + 人 + 物（人に物を話す）」の構文です。「told me a secret」が正解。say は「言う（内容）」、speak/talk は「話す」で目的語に人を直接取りません。"
+    },
+    {
+      "id": "en_gram_079",
+      "question": "Choose the correct form:\n「ここには美しい花がたくさんある」\nThere are ___ beautiful flowers here.",
+      "choices": [
+        "many",
+        "much",
+        "a lot",
+        "a little"
+      ],
+      "answer": 0,
+      "explanation": "可算名詞（flowers）の複数形には many を使います。much は不可算名詞に使います。a lot of は両方に使えますが、「a lot」のみでは不完全です。"
+    },
+    {
+      "id": "en_gram_080",
+      "question": "Choose the correct form:\n「彼女は怒っているようだ」\nShe seems ___ angry.",
+      "choices": [
+        "be",
+        "being",
+        "to be",
+        "been"
+      ],
+      "answer": 2,
+      "explanation": "「seem to + 動詞原形（〜のようだ）」の構文です。「seems to be angry」が正解。seem の後に形容詞を直接置く「seems angry」も正しい形です。"
+    },
+    {
+      "id": "en_gram_081",
+      "question": "Choose the correct form:\n「彼はその知らせを聞いて青ざめた」\nHe turned ___ when he heard the news.",
+      "choices": [
+        "pale",
+        "paler",
+        "palely",
+        "paleness"
+      ],
+      "answer": 0,
+      "explanation": "「turn + 形容詞（〜になる）」の構文です。turn は連結動詞として使われ、後に形容詞が続きます。「turned pale（青ざめた）」が正解。"
+    },
+    {
+      "id": "en_gram_082",
+      "question": "Choose the correct form:\n「私は彼にその計画について話す機会がなかった」\nI didn't have a chance ___ him about the plan.",
+      "choices": [
+        "talk",
+        "talking",
+        "to talk",
+        "talked"
+      ],
+      "answer": 2,
+      "explanation": "「chance to + 動詞原形（〜する機会）」の構文です。名詞 chance を修飾する不定詞の形容詞的用法です。「chance to talk」が正解です。"
+    },
+    {
+      "id": "en_gram_083",
+      "question": "Choose the correct word:\n「彼女は3ヶ国語を話せる。その上、彼女は歌も上手だ」\nShe can speak three languages. ___, she is a good singer.",
+      "choices": [
+        "Besides",
+        "Instead",
+        "Therefore",
+        "Although"
+      ],
+      "answer": 0,
+      "explanation": "「Besides（その上・さらに）」は付け加えを表す接続副詞です。「Instead（代わりに）」「Therefore（したがって）」「Although（〜だけれど）」とは意味が異なります。"
+    },
+    {
+      "id": "en_gram_084",
+      "question": "Choose the correct form:\n「彼が試験に落ちるとは誰も思わなかった」\nNo one expected him ___ the exam.",
+      "choices": [
+        "fail",
+        "to fail",
+        "failing",
+        "failed"
+      ],
+      "answer": 1,
+      "explanation": "「expect + 人 + to不定詞（人が〜すると思う・期待する）」の構文です。「expected him to fail」が正解です。"
+    },
+    {
+      "id": "en_gram_085",
+      "question": "Choose the correct form:\n「彼女のスピーチは私たちに感動を与えた」\nHer speech ___ us deeply.",
+      "choices": [
+        "moved",
+        "was moved",
+        "moving",
+        "had moved"
+      ],
+      "answer": 0,
+      "explanation": "「move（感動させる）」は他動詞です。主語が her speech（感動させるもの）なので能動態 moved が正解。「was moved」は受動態で「感動した」という意味です。"
+    },
+    {
+      "id": "en_gram_086",
+      "question": "Choose the correct form:\n「彼女はよほど空腹だったに違いない」\nShe ___ very hungry.",
+      "choices": [
+        "must be",
+        "must been",
+        "must have been",
+        "should have been"
+      ],
+      "answer": 2,
+      "explanation": "過去の状態への推量は「must have been（〜だったに違いない）」を使います。「must be」は現在の推量、「should have been」は「〜であるべきだったのに」という後悔を表します。"
+    },
+    {
+      "id": "en_gram_087",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She is used to work late.",
+        "She is used to working late.",
+        "She is use to working late.",
+        "She is used to worked late."
+      ],
+      "answer": 1,
+      "explanation": "「be used to + 動名詞（〜することに慣れている）」の構文です。to は前置詞なので後に動名詞（〜ing）が続きます。「used to + 動詞原形（かつて〜した）」と混同しないよう注意。"
+    },
+    {
+      "id": "en_gram_088",
+      "question": "Choose the correct form:\n「彼が来るかどうかわからない」\nI don't know ___ he will come or not.",
+      "choices": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "answer": 1,
+      "explanation": "「〜かどうか」を表す名詞節は whether または if で導きます。「or not」が続く場合は whether の方が一般的です。「whether he will come or not」が正解です。"
+    },
+    {
+      "id": "en_gram_089",
+      "question": "Choose the correct word:\n「私はあまりにも疲れて何もできなかった」\nI was ___ tired that I couldn't do anything.",
+      "choices": [
+        "very",
+        "so",
+        "such",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "「so + 形容詞 + that（とても〜なので…）」の構文です。so が正解。such は名詞の前に使います（such a tired person）。too は「〜すぎて」という意味です。"
+    },
+    {
+      "id": "en_gram_090",
+      "question": "Choose the correct form:\n「駅に着いたとき電車はすでに出ていた」\nWhen I arrived at the station, the train ___ already left.",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "was"
+      ],
+      "answer": 2,
+      "explanation": "過去のある時点より前に完了した動作は過去完了形「had + 過去分詞」を使います。「had already left」が正解です。"
+    },
+    {
+      "id": "en_gram_091",
+      "question": "Choose the correct form:\n「彼女は私が思っていたほど歌が上手くない」\nShe doesn't sing ___ well as I expected.",
+      "choices": [
+        "as",
+        "so",
+        "more",
+        "much"
+      ],
+      "answer": 0,
+      "explanation": "「not as ... as（〜ほど…ない）」の原級比較です。「doesn't sing as well as」が正解。この構文は「not so ... as」と言い換えることもできます。"
+    },
+    {
+      "id": "en_gram_092",
+      "question": "Choose the correct form:\n「彼女は毎朝ランニングをする習慣がある」\nShe is ___ to running every morning.",
+      "choices": [
+        "used",
+        "accustomed",
+        "habit",
+        "custom"
+      ],
+      "answer": 1,
+      "explanation": "「be accustomed to + 動名詞（〜することに慣れている）」の構文です。be used to も同じ意味ですが、選択肢には used がないのでaccustomed が正解です。"
+    },
+    {
+      "id": "en_gram_093",
+      "question": "Choose the correct form:\n「彼女は英語で話すのがとても得意だ」\nShe is very good ___ speaking English.",
+      "choices": [
+        "at",
+        "in",
+        "with",
+        "of"
+      ],
+      "answer": 0,
+      "explanation": "「be good at + 動名詞（〜が得意）」の構文です。at が正解。前置詞の後は動名詞（speaking）が続きます。"
+    },
+    {
+      "id": "en_gram_094",
+      "question": "Choose the correct form:\n「その映画を見て私は感動した」\nI was ___ by the movie.",
+      "choices": [
+        "moved",
+        "moving",
+        "move",
+        "moves"
+      ],
+      "answer": 0,
+      "explanation": "「be moved by（〜に感動する）」は受動態の表現です。感情を表す過去分詞（moved, excited, surprised など）は「〜させられた」→「〜した」という意味になります。"
+    },
+    {
+      "id": "en_gram_095",
+      "question": "Choose the correct form:\n「彼女は3時間ピアノを弾き続けた」\nShe ___ the piano for three hours.",
+      "choices": [
+        "kept playing",
+        "kept play",
+        "kept to play",
+        "kept played"
+      ],
+      "answer": 0,
+      "explanation": "「keep + 動名詞（〜し続ける）」の構文です。「kept playing」が正解。keep + to不定詞という形はありません。"
+    },
+    {
+      "id": "en_gram_096",
+      "question": "Choose the correct word:\n「彼は英語を流暢に話す」\nHe speaks English ___.",
+      "choices": [
+        "fluid",
+        "fluent",
+        "fluently",
+        "fluency"
+      ],
+      "answer": 2,
+      "explanation": "動詞 speaks を修飾するので副詞 fluently が正解です。「speak fluently（流暢に話す）」。fluent は形容詞（a fluent speaker）、fluency は名詞（fluency in English）です。"
+    },
+    {
+      "id": "en_gram_097",
+      "question": "Choose the correct form:\n「彼女はすべての問題を解くことに成功した」\nShe succeeded ___ solving all the problems.",
+      "choices": [
+        "to",
+        "in",
+        "at",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「succeed in + 動名詞（〜することに成功する）」の構文です。in が正解。「succeed to〜」は「〜を継承する」という別の意味になります。"
+    },
+    {
+      "id": "en_gram_098",
+      "question": "Choose the correct form:\n「彼は昨日私に連絡するのを忘れた」\nHe forgot ___ me yesterday.",
+      "choices": [
+        "contact",
+        "to contact",
+        "contacting",
+        "contacted"
+      ],
+      "answer": 1,
+      "explanation": "「forget to + 動詞原形（〜することを忘れる）」は「これからすることを忘れる」という意味です。「forget + 動名詞（〜したことを忘れる）」は過去のことに使います。昨日の話なので前者が正解。"
+    },
+    {
+      "id": "en_gram_099",
+      "question": "Choose the correct form:\n「彼女は有名な音楽家の娘です」\nShe is the daughter of a famous ___.",
+      "choices": [
+        "music",
+        "musical",
+        "musician",
+        "musically"
+      ],
+      "answer": 2,
+      "explanation": "「音楽家（人）」を指すには名詞 musician を使います。music は「音楽」、musical は「音楽的な（形容詞）・ミュージカル（名詞）」、musically は副詞です。"
+    },
+    {
+      "id": "en_gram_100",
+      "question": "Choose the correct form:\n「彼が言ったことを信じられない」\nI can't believe ___ he said.",
+      "choices": [
+        "that",
+        "what",
+        "which",
+        "how"
+      ],
+      "answer": 1,
+      "explanation": "「believe what S + V（〜が言ったことを信じる）」で、what は「〜すること・もの」という関係代名詞（=先行詞を含む関係代名詞）です。「what he said（彼が言ったこと）」が正解です。"
+    },
+    {
+      "id": "en_gram_101",
+      "question": "Choose the correct form:\n「この薬を飲むと眠くなることがある」\nThis medicine ___ you feel sleepy.",
+      "choices": [
+        "makes",
+        "does",
+        "lets",
+        "gets"
+      ],
+      "answer": 0,
+      "explanation": "「make + 人 + 動詞原形（人を〜させる）」の使役動詞の構文です。「makes you feel sleepy」が正解。let も使役動詞ですが「許可する」というニュアンスです。"
+    },
+    {
+      "id": "en_gram_102",
+      "question": "Choose the correct form:\n「その新しい橋が来年完成する予定だ」\nThe new bridge is ___ to be completed next year.",
+      "choices": [
+        "expected",
+        "expecting",
+        "expect",
+        "expects"
+      ],
+      "answer": 0,
+      "explanation": "「be expected to + 動詞原形（〜する予定・見込みだ）」の受動態の構文です。「is expected to be completed」が正解です。"
+    },
+    {
+      "id": "en_gram_103",
+      "question": "Choose the correct word:\n「どうやって駅に行けばいいか教えてください」\nCould you tell me how ___ to the station?",
+      "choices": [
+        "get",
+        "to get",
+        "getting",
+        "got"
+      ],
+      "answer": 1,
+      "explanation": "「how to + 動詞原形（〜するか・〜の仕方）」の名詞句を間接疑問文の目的語として使います。「how to get」が正解です。"
+    },
+    {
+      "id": "en_gram_104",
+      "question": "Choose the correct form:\n「彼は友達に助けてもらった」\nHe had his friend ___ him.",
+      "choices": [
+        "help",
+        "helped",
+        "helping",
+        "to help"
+      ],
+      "answer": 0,
+      "explanation": "使役動詞 have の構文「have + 人 + 動詞原形」で「人に〜してもらう（依頼）」を表します。「had his friend help」が正解です。"
+    },
+    {
+      "id": "en_gram_105",
+      "question": "Choose the correct form:\n「彼女は病気のため学校を休んだ」\nShe was absent from school ___ illness.",
+      "choices": [
+        "because",
+        "due to",
+        "although",
+        "despite"
+      ],
+      "answer": 1,
+      "explanation": "「due to（〜が原因で・〜のために）」は前置詞句で名詞の前に使います。because は接続詞（後にS+V）、although・despite は逆接を表します。"
+    },
+    {
+      "id": "en_gram_106",
+      "question": "Choose the correct form:\n「彼女が歌うのが好きだ」\nI like ___ sing.",
+      "choices": [
+        "her",
+        "her to",
+        "to hear her",
+        "to listen her"
+      ],
+      "answer": 2,
+      "explanation": "「〜が歌うのが好きだ（聞くのが好き）」は「like to hear/listen to her sing」の形で表します。「I like her to sing」は「彼女に歌ってほしい（依頼）」という別の意味になります。"
+    },
+    {
+      "id": "en_gram_107",
+      "question": "Choose the correct form:\n「この本は英語を学ぶ人に役立つ」\nThis book is useful for people ___ English.",
+      "choices": [
+        "who learn",
+        "which learn",
+        "whom learn",
+        "whose learn"
+      ],
+      "answer": 0,
+      "explanation": "先行詞が people（人）で、関係詞節内で主語の役割をするので who が正解です。「people who learn English（英語を学ぶ人々）」が正しい形です。"
+    },
+    {
+      "id": "en_gram_108",
+      "question": "Choose the correct form:\n「その問題は私には難しすぎる」\nThe problem is too difficult ___ me.",
+      "choices": [
+        "for",
+        "to",
+        "by",
+        "of"
+      ],
+      "answer": 0,
+      "explanation": "「too + 形容詞 + for + 人（人にとって〜すぎる）」の構文です。for me が正解。「too difficult to solve for me」のように to不定詞が続く場合もあります。"
+    },
+    {
+      "id": "en_gram_109",
+      "question": "Choose the correct form:\n「彼が試験に合格したことを私に話してくれた」\nHe told me that he ___ the exam.",
+      "choices": [
+        "passed",
+        "has passed",
+        "will pass",
+        "passes"
+      ],
+      "answer": 0,
+      "explanation": "時制の一致：主節が told（過去）なので、従属節の動詞も過去形にします。「that he passed the exam」が正解です。"
+    },
+    {
+      "id": "en_gram_110",
+      "question": "Choose the correct form:\n「彼女は疲れているはずがない（ばかり休んでいたのに）」\nShe ___ be tired. She's been resting all day.",
+      "choices": [
+        "can't",
+        "mustn't",
+        "shouldn't",
+        "won't"
+      ],
+      "answer": 0,
+      "explanation": "現在の状態への否定的推量は「can't（〜のはずがない）」を使います。mustn't は「〜してはいけない（禁止）」、shouldn't は「〜すべきでない」という意味です。"
+    },
+    {
+      "id": "en_gram_111",
+      "question": "Choose the correct form:\n「その映画はとてもつまらなかった」\nThe movie was so ___ that I fell asleep.",
+      "choices": [
+        "boring",
+        "bored",
+        "bore",
+        "board"
+      ],
+      "answer": 0,
+      "explanation": "「boring（退屈な）」は物・事を主語に使います。「bored（退屈した）」は人が退屈した状態を表します。「The movie was boring」が正解です。"
+    },
+    {
+      "id": "en_gram_112",
+      "question": "Choose the correct form:\n「今すぐに出発しなければ、電車に乗り遅れる」\nIf you don't leave now, you ___ the train.",
+      "choices": [
+        "miss",
+        "will miss",
+        "missed",
+        "would miss"
+      ],
+      "answer": 1,
+      "explanation": "直接条件（if + 現在形）の帰結節は will + 動詞原形です。「you will miss the train」が正解。仮定法（would）は事実に反する仮定を表します。"
+    },
+    {
+      "id": "en_gram_113",
+      "question": "Choose the correct form:\n「電車に乗り遅れたので、タクシーで行きました」\n___ missed the train, I took a taxi.",
+      "choices": [
+        "Because",
+        "Having",
+        "Although",
+        "Despite"
+      ],
+      "answer": 1,
+      "explanation": "「Having + 過去分詞（〜したので・〜してから）」は分詞構文の完了形で、主節より前の動作を表します。「Having missed the train」が正解です。"
+    },
+    {
+      "id": "en_gram_114",
+      "question": "Choose the correct form:\n「彼は成功するために何でもするだろう」\nHe will do anything ___ succeed.",
+      "choices": [
+        "in order to",
+        "in order that",
+        "so that",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "「in order to + 動詞原形（〜するために）」は目的を表します。「in order that + S + V」は節（S+V）を続ける場合に使います。"
+    },
+    {
+      "id": "en_gram_115",
+      "question": "Choose the correct form:\n「彼女の書いた小説は世界中で読まれている」\nThe novel ___ by her is read all over the world.",
+      "choices": [
+        "written",
+        "writing",
+        "wrote",
+        "is written"
+      ],
+      "answer": 0,
+      "explanation": "「written by her（彼女によって書かれた）」は過去分詞による後置修飾です。名詞 novel を修飾する分詞の形容詞的用法です。"
+    },
+    {
+      "id": "en_gram_116",
+      "question": "Choose the correct form:\n「彼は長い間英語を勉強してきた」\nHe ___ English for a long time.",
+      "choices": [
+        "studies",
+        "has been studying",
+        "is studying",
+        "had studied"
+      ],
+      "answer": 1,
+      "explanation": "「現在まで継続している動作」は現在完了進行形「have/has been + 〜ing」で表します。「has been studying」が正解。for a long time が継続を示しています。"
+    },
+    {
+      "id": "en_gram_117",
+      "question": "Choose the correct form:\n「彼女を傷つけるつもりはなかった」\nI didn't mean ___ her feelings.",
+      "choices": [
+        "hurt",
+        "to hurt",
+        "hurting",
+        "having hurt"
+      ],
+      "answer": 1,
+      "explanation": "「mean to + 動詞原形（〜するつもりだ）」の構文です。「didn't mean to hurt（傷つけるつもりはなかった）」が正解。mean + 動名詞は「〜することを意味する」という別の意味です。"
+    },
+    {
+      "id": "en_gram_118",
+      "question": "Choose the correct form:\n「会議が終わってから、私たちは食事をした」\n___ the meeting ended, we had dinner.",
+      "choices": [
+        "After",
+        "While",
+        "Before",
+        "During"
+      ],
+      "answer": 0,
+      "explanation": "「After（〜の後）」は時の接続詞です。「After the meeting ended（会議が終わった後）」が正解。while は同時進行、before は「〜の前」を表します。"
+    },
+    {
+      "id": "en_gram_119",
+      "question": "Choose the correct form:\n「彼は私に親切にしてくれた」\nHe was kind ___ me.",
+      "choices": [
+        "for",
+        "to",
+        "with",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「be kind to（〜に親切にする）」の構文です。to が正解。「It was kind of you to help me（助けてくれて親切ですね）」のように of を使う場合は特定の行為を指します。"
+    },
+    {
+      "id": "en_gram_120",
+      "question": "Choose the correct form:\n「今週末は何をするつもりですか」\nWhat ___ you going to do this weekend?",
+      "choices": [
+        "do",
+        "are",
+        "is",
+        "will"
+      ],
+      "answer": 1,
+      "explanation": "「be going to（〜するつもりだ・〜する予定だ）」は近い未来の計画を表します。主語が you なので are が正解です。"
+    },
+    {
+      "id": "en_gram_121",
+      "question": "Choose the correct form:\n「私はその本を読み終えた」\nI ___ reading the book.",
+      "choices": [
+        "finished",
+        "finish",
+        "am finishing",
+        "have finish"
+      ],
+      "answer": 0,
+      "explanation": "finish は動名詞（〜ing）を目的語にとる動詞です。「finished reading（読み終えた）」が正解。"
+    },
+    {
+      "id": "en_gram_122",
+      "question": "Choose the correct form:\n「彼女は昨日から入院している」\nShe ___ in the hospital since yesterday.",
+      "choices": [
+        "is",
+        "was",
+        "has been",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "since（〜以来）がある場合は現在完了形を使います。「has been in the hospital」が正解。"
+    },
+    {
+      "id": "en_gram_123",
+      "question": "Choose the correct word:\n「私は彼の言葉に傷つけられた」\nI was ___ by his words.",
+      "choices": [
+        "hurt",
+        "hurting",
+        "hurtful",
+        "hurts"
+      ],
+      "answer": 0,
+      "explanation": "受動態「be + 過去分詞」の形です。「was hurt by（〜によって傷つけられた）」が正解。"
+    },
+    {
+      "id": "en_gram_124",
+      "question": "Choose the correct form:\n「日曜日に買い物に行こうと思っている」\nI'm thinking ___ shopping on Sunday.",
+      "choices": [
+        "to go",
+        "of going",
+        "go",
+        "for going"
+      ],
+      "answer": 1,
+      "explanation": "「think of + 動名詞（〜しようと思っている）」の構文です。「thinking of going」が正解。"
+    },
+    {
+      "id": "en_gram_125",
+      "question": "Choose the correct word:\n「その問題はとても難しかったので誰も解けなかった」\nThe problem was ___ difficult that nobody could solve it.",
+      "choices": [
+        "so",
+        "very",
+        "such",
+        "too"
+      ],
+      "answer": 0,
+      "explanation": "「so + 形容詞 + that（とても〜なので…）」の構文です。"
+    },
+    {
+      "id": "en_gram_126",
+      "question": "Choose the correct form:\n「彼女は子供のころピアノを習っていた」\nShe ___ take piano lessons when she was a child.",
+      "choices": [
+        "used to",
+        "was used to",
+        "is used to",
+        "uses to"
+      ],
+      "answer": 0,
+      "explanation": "「used to + 動詞原形（かつて〜していた）」は過去の習慣を表します。"
+    },
+    {
+      "id": "en_gram_127",
+      "question": "Choose the correct form:\n「あなたが私の立場だったらどうしますか」\nWhat would you do if you ___ in my position?",
+      "choices": [
+        "are",
+        "were",
+        "will be",
+        "have been"
+      ],
+      "answer": 1,
+      "explanation": "仮定法過去「if + 過去形（were）」で現在の事実に反する仮定を表します。"
+    },
+    {
+      "id": "en_gram_128",
+      "question": "Choose the correct form:\n「映画が始まったとき私はすでに席についていた」\nWhen the movie started, I ___ already seated.",
+      "choices": [
+        "was",
+        "were",
+        "had been",
+        "has been"
+      ],
+      "answer": 2,
+      "explanation": "過去のある時点より前に完了していた状態は過去完了形（had been）で表します。"
+    },
+    {
+      "id": "en_gram_129",
+      "question": "Choose the correct word:\n「私は彼女に贈り物を買うためにデパートへ行った」\nI went to the department store ___ buy her a gift.",
+      "choices": [
+        "for",
+        "in order to",
+        "so",
+        "because"
+      ],
+      "answer": 1,
+      "explanation": "「in order to + 動詞原形（〜するために）」は目的を明示する表現です。"
+    },
+    {
+      "id": "en_gram_130",
+      "question": "Choose the correct form:\n「窓を開けてもいいですか」\nWould you ___ if I opened the window?",
+      "choices": [
+        "care",
+        "mind",
+        "like",
+        "want"
+      ],
+      "answer": 1,
+      "explanation": "「Would you mind if I + 過去形（〜してもよいですか）」は丁寧な許可を求める表現です。"
+    },
+    {
+      "id": "en_gram_131",
+      "question": "Choose the correct form:\n「まるで何も知らないかのように振る舞った」\nHe behaved as if he ___ nothing.",
+      "choices": [
+        "knows",
+        "knew",
+        "has known",
+        "know"
+      ],
+      "answer": 1,
+      "explanation": "「as if + 仮定法過去（まるで〜であるかのように）」の構文です。"
+    },
+    {
+      "id": "en_gram_132",
+      "question": "Choose the correct form:\n「私はこの問題を解く方法がわからない」\nI don't know how ___ this problem.",
+      "choices": [
+        "solve",
+        "to solve",
+        "solving",
+        "solved"
+      ],
+      "answer": 1,
+      "explanation": "「how to + 動詞原形（〜の仕方）」の名詞句です。"
+    },
+    {
+      "id": "en_gram_133",
+      "question": "Choose the correct form:\n「彼女は転んでひざをすりむいた」\nShe fell and ___ her knee.",
+      "choices": [
+        "scratched",
+        "stretched",
+        "snatched",
+        "switched"
+      ],
+      "answer": 0,
+      "explanation": "「scratch（すりむく）」が文脈に合います。"
+    },
+    {
+      "id": "en_gram_134",
+      "question": "Choose the correct form:\n「私は彼女に電話するのを忘れていた」\nI forgot ___ her.",
+      "choices": [
+        "call",
+        "calling",
+        "to call",
+        "called"
+      ],
+      "answer": 2,
+      "explanation": "「forget to + 動詞原形（〜するのを忘れる）」は「これからすることを忘れる」です。"
+    },
+    {
+      "id": "en_gram_135",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "He is more taller than his brother.",
+        "He is taller than his brother.",
+        "He is most tall than his brother.",
+        "He is the taller than his brother."
+      ],
+      "answer": 1,
+      "explanation": "比較級は「形容詞 + er + than」の形です。「more taller」は二重比較で誤りです。"
+    },
+    {
+      "id": "en_gram_136",
+      "question": "Choose the correct form:\n「彼女はその本を3回読んだことがある」\nShe has read the book ___ times.",
+      "choices": [
+        "two",
+        "twice",
+        "three",
+        "much"
+      ],
+      "answer": 2,
+      "explanation": "「3回」は three times です。"
+    },
+    {
+      "id": "en_gram_137",
+      "question": "Choose the correct word:\n「彼は医者として働いている」\nHe works ___ a doctor.",
+      "choices": [
+        "like",
+        "as",
+        "for",
+        "with"
+      ],
+      "answer": 1,
+      "explanation": "「as（〜として）」は役職・立場を表します。"
+    },
+    {
+      "id": "en_gram_138",
+      "question": "Choose the correct form:\n「その映画は見る価値がある」\nThe movie is worth ___.",
+      "choices": [
+        "to see",
+        "seeing",
+        "see",
+        "seen"
+      ],
+      "answer": 1,
+      "explanation": "「be worth + 動名詞（〜する価値がある）」の構文です。"
+    },
+    {
+      "id": "en_gram_139",
+      "question": "Choose the correct form:\n「試合に勝てるよう一生懸命練習した」\nThey trained hard ___ they could win.",
+      "choices": [
+        "because",
+        "although",
+        "so that",
+        "in order"
+      ],
+      "answer": 2,
+      "explanation": "「so that + S + could（〜できるように）」は目的を表します。"
+    },
+    {
+      "id": "en_gram_140",
+      "question": "Choose the correct form:\n「このカバンは革製です」\nThis bag is made ___ leather.",
+      "choices": [
+        "of",
+        "from",
+        "by",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "材料が見た目にわかる場合は of を使います。「made of leather」が正解。"
+    },
+    {
+      "id": "en_gram_141",
+      "question": "Choose the correct form:\n「彼女が正しいとは限らない」\nShe is not ___ right.",
+      "choices": [
+        "always",
+        "sometimes",
+        "never",
+        "often"
+      ],
+      "answer": 0,
+      "explanation": "「not always（必ずしも〜とは限らない）」は部分否定です。"
+    },
+    {
+      "id": "en_gram_142",
+      "question": "Choose the correct form:\n「私は彼を何年も前から知っている」\nI have known him ___ many years.",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "while"
+      ],
+      "answer": 1,
+      "explanation": "「for + 期間（〜の間）」は期間の長さを表します。"
+    },
+    {
+      "id": "en_gram_143",
+      "question": "Choose the correct word:\n「彼女は歌がうまいし踊りもうまい」\nShe is a good singer ___ a good dancer.",
+      "choices": [
+        "and also",
+        "as well as",
+        "both",
+        "either"
+      ],
+      "answer": 1,
+      "explanation": "「as well as（〜だけでなく…も）」は両方に当てはまることを示します。"
+    },
+    {
+      "id": "en_gram_144",
+      "question": "Choose the correct form:\n「彼女が何歳なのか教えてください」\nCould you tell me how old ___ is?",
+      "choices": [
+        "is she",
+        "she",
+        "she is",
+        "her"
+      ],
+      "answer": 2,
+      "explanation": "間接疑問文では語順が「疑問詞 + S + V」になります。"
+    },
+    {
+      "id": "en_gram_145",
+      "question": "Choose the correct form:\n「その仕事は私一人では難しい」\nThe work is difficult for ___ to do alone.",
+      "choices": [
+        "I",
+        "my",
+        "me",
+        "myself"
+      ],
+      "answer": 2,
+      "explanation": "前置詞 for の後は目的格（me）を使います。"
+    },
+    {
+      "id": "en_gram_146",
+      "question": "Choose the correct form:\n「私は彼に借りたお金を返した」\nI returned the money ___ I had borrowed from him.",
+      "choices": [
+        "who",
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": 2,
+      "explanation": "先行詞が「money（物）」なので、関係代名詞は which または that を使います。"
+    },
+    {
+      "id": "en_gram_147",
+      "question": "Choose the correct word:\n「彼は彼女の冗談に笑った」\nHe laughed ___ her joke.",
+      "choices": [
+        "at",
+        "about",
+        "with",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "「laugh at（〜を笑う）」の構文です。"
+    },
+    {
+      "id": "en_gram_148",
+      "question": "Choose the correct form:\n「彼女は私に英語を教えてくれた」\nShe taught ___ English.",
+      "choices": [
+        "me to",
+        "me",
+        "to me",
+        "for me"
+      ],
+      "answer": 1,
+      "explanation": "「teach + 人 + 物（人に物を教える）」の構文です。"
+    },
+    {
+      "id": "en_gram_149",
+      "question": "Choose the correct form:\n「問題が生じた場合は私に知らせてください」\n___ a problem arises, please let me know.",
+      "choices": [
+        "Unless",
+        "If",
+        "Although",
+        "Because"
+      ],
+      "answer": 1,
+      "explanation": "「if（もし〜なら）」は条件を表す接続詞です。"
+    },
+    {
+      "id": "en_gram_150",
+      "question": "Choose the correct form:\n「彼女は英語で手紙を書くのが得意だ」\nShe is skilled ___ writing letters in English.",
+      "choices": [
+        "in",
+        "at",
+        "for",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "「be skilled in（〜が得意）」の構文です。"
+    },
+    {
+      "id": "en_gram_151",
+      "question": "Choose the correct form:\n「彼が言ったことを覚えていますか」\nDo you remember what he ___?",
+      "choices": [
+        "say",
+        "says",
+        "said",
+        "has said"
+      ],
+      "answer": 2,
+      "explanation": "間接疑問では過去の発言を指すため said（過去形）が正解です。"
+    },
+    {
+      "id": "en_gram_152",
+      "question": "Choose the correct word:\n「彼はめったに学校を休まない」\nHe ___ misses school.",
+      "choices": [
+        "rarely",
+        "always",
+        "often",
+        "usually"
+      ],
+      "answer": 0,
+      "explanation": "「rarely（めったに〜ない）」は頻度を表す副詞で否定的な意味を含みます。"
+    },
+    {
+      "id": "en_gram_153",
+      "question": "Choose the correct form:\n「彼女はできるだけ多くの本を読もうとしている」\nShe tries to read as many books as ___.",
+      "choices": [
+        "possible",
+        "she can",
+        "she possible",
+        "possible can"
+      ],
+      "answer": 1,
+      "explanation": "「as many as one can（できるだけ多く）」の形が正しいです。"
+    },
+    {
+      "id": "en_gram_154",
+      "question": "Choose the correct word:\n「彼女はその仕事に一番向いている」\nShe is best ___ for the job.",
+      "choices": [
+        "suited",
+        "suiting",
+        "suit",
+        "to suit"
+      ],
+      "answer": 0,
+      "explanation": "「be suited for（〜に向いている）」の構文。suited は過去分詞形容詞です。"
+    },
+    {
+      "id": "en_gram_155",
+      "question": "Choose the correct form:\n「私はその会議に参加する必要はなかった」\nI didn't ___ to attend the meeting.",
+      "choices": [
+        "have",
+        "must",
+        "need",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "「don't have to（〜する必要がない）」は不必要を表します。"
+    },
+    {
+      "id": "en_gram_156",
+      "question": "Choose the correct form:\n「その知らせを聞いて私たちは驚いた」\nWe were surprised ___ the news.",
+      "choices": [
+        "at",
+        "by",
+        "to",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "「be surprised at（〜に驚く）」の構文です。"
+    },
+    {
+      "id": "en_gram_157",
+      "question": "Choose the correct form:\n「今夜は映画を見るつもりです」\nI ___ to watch a movie tonight.",
+      "choices": [
+        "plan",
+        "am planning",
+        "have planned",
+        "planning"
+      ],
+      "answer": 1,
+      "explanation": "「be planning to（〜するつもりだ）」は現在進行形で近い未来の計画を表します。"
+    },
+    {
+      "id": "en_gram_158",
+      "question": "Choose the correct form:\n「彼女に会いたがっている」\nHe is eager ___ her.",
+      "choices": [
+        "see",
+        "seeing",
+        "to see",
+        "for seeing"
+      ],
+      "answer": 2,
+      "explanation": "「be eager to + 動詞原形（〜したがっている）」の構文です。"
+    },
+    {
+      "id": "en_gram_159",
+      "question": "Choose the correct form:\n「昨日から何も食べていない」\nI haven't eaten anything ___ yesterday.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜から）」は過去の起点を示し、現在完了形と共に使います。"
+    },
+    {
+      "id": "en_gram_160",
+      "question": "Choose the correct form:\n「彼はお腹が空いているに違いない」\nHe ___ hungry.",
+      "choices": [
+        "must be",
+        "should be",
+        "can be",
+        "might be"
+      ],
+      "answer": 0,
+      "explanation": "現在の状態への強い推量は「must be（〜に違いない）」を使います。"
+    },
+    {
+      "id": "en_gram_161",
+      "question": "Choose the correct form:\n「彼が試験に落ちるとは誰も思わなかった」\nNo one expected him ___ the exam.",
+      "choices": [
+        "fail",
+        "to fail",
+        "failing",
+        "failed"
+      ],
+      "answer": 1,
+      "explanation": "「expect + 人 + to不定詞（人が〜すると思う）」の構文です。"
+    },
+    {
+      "id": "en_gram_162",
+      "question": "Choose the correct form:\n「彼女を傷つけるつもりはなかった」\nI didn't mean ___ her feelings.",
+      "choices": [
+        "hurt",
+        "to hurt",
+        "hurting",
+        "having hurt"
+      ],
+      "answer": 1,
+      "explanation": "「mean to + 動詞原形（〜するつもりだ）」の構文です。"
+    },
+    {
+      "id": "en_gram_163",
+      "question": "Choose the correct form:\n「もし私があなただったらその申し出を受け入れるのに」\nIf I ___ you, I would accept the offer.",
+      "choices": [
+        "am",
+        "was",
+        "were",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "仮定法過去では、if節のbe動詞は人称に関わらず were を使います。"
+    },
+    {
+      "id": "en_gram_164",
+      "question": "Choose the correct form:\n「彼女はインフルエンザにかかってしまった」\nShe has come ___ with the flu.",
+      "choices": [
+        "up",
+        "down",
+        "across",
+        "over"
+      ],
+      "answer": 1,
+      "explanation": "「come down with（〜（病気）にかかる）」の熟語です。"
+    },
+    {
+      "id": "en_gram_165",
+      "question": "Choose the correct form:\n「彼女の親切さに感謝しています」\nI am grateful ___ her kindness.",
+      "choices": [
+        "to",
+        "for",
+        "of",
+        "with"
+      ],
+      "answer": 1,
+      "explanation": "「be grateful for（〜に感謝している）」の構文です。"
+    },
+    {
+      "id": "en_gram_166",
+      "question": "Choose the correct form:\n「誰が窓を割ったか知っていますか」\nDo you know who ___ the window?",
+      "choices": [
+        "break",
+        "broke",
+        "broken",
+        "breaking"
+      ],
+      "answer": 1,
+      "explanation": "間接疑問文「who broke the window（誰が窓を割ったか）」では過去形 broke を使います。"
+    },
+    {
+      "id": "en_gram_167",
+      "question": "Choose the correct form:\n「荷物が重すぎて私には運べない」\nThe luggage is too heavy for ___ to carry.",
+      "choices": [
+        "I",
+        "my",
+        "me",
+        "mine"
+      ],
+      "answer": 2,
+      "explanation": "「too + 形容詞 + for + 目的格 + to不定詞」の構文です。"
+    },
+    {
+      "id": "en_gram_168",
+      "question": "Choose the correct form:\n「彼女が明日来るかどうかわからない」\nI'm not sure ___ she will come tomorrow.",
+      "choices": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "explanation": "「whether（〜かどうか）」は不確実な事柄を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_169",
+      "question": "Choose the correct form:\n「誰もが彼女の判断を信頼している」\n___ trusts her judgment.",
+      "choices": [
+        "Everyone",
+        "All",
+        "Both",
+        "Each"
+      ],
+      "answer": 0,
+      "explanation": "「everyone（みんな）」は単数扱いで三単現の s をつけます。"
+    },
+    {
+      "id": "en_gram_170",
+      "question": "Choose the correct form:\n「彼は彼女を空港まで見送りに行った」\nHe went to the airport to see ___ her.",
+      "choices": [
+        "off",
+        "out",
+        "through",
+        "over"
+      ],
+      "answer": 0,
+      "explanation": "「see off（〜を見送る）」の熟語です。"
+    },
+    {
+      "id": "en_gram_171",
+      "question": "Choose the correct form:\n「彼女は旅行の準備をしている」\nShe is preparing ___ her trip.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「prepare for（〜の準備をする）」の構文です。"
+    },
+    {
+      "id": "en_gram_172",
+      "question": "Choose the correct form:\n「彼は両手に荷物を持っていた」\nHe had luggage in ___ hands.",
+      "choices": [
+        "both his",
+        "all his",
+        "each his",
+        "every his"
+      ],
+      "answer": 0,
+      "explanation": "「both his hands（両手に）」の形です。"
+    },
+    {
+      "id": "en_gram_173",
+      "question": "Choose the correct form:\n「私はバスに乗り遅れたので走って学校に行った」\nI ran to school ___ I missed the bus.",
+      "choices": [
+        "although",
+        "because",
+        "despite",
+        "unless"
+      ],
+      "answer": 1,
+      "explanation": "「because（〜なので）」は理由を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_174",
+      "question": "Choose the correct form:\n「彼女の声を聞くやいなや電話を切った」\nHe hung up the phone ___ he heard her voice.",
+      "choices": [
+        "as soon as",
+        "until",
+        "since",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as（〜するとすぐに）」の接続詞です。"
+    },
+    {
+      "id": "en_gram_175",
+      "question": "Choose the correct form:\n「彼女は自分の意見を主張することをためらわなかった」\nShe didn't hesitate ___ her opinion.",
+      "choices": [
+        "express",
+        "expressing",
+        "to express",
+        "expressed"
+      ],
+      "answer": 2,
+      "explanation": "「hesitate to + 動詞原形（〜することをためらう）」の構文です。"
+    },
+    {
+      "id": "en_gram_176",
+      "question": "Choose the correct form:\n「彼女は3ヶ国語を話せる。その上頭も良い」\nShe can speak three languages. ___, she is very smart.",
+      "choices": [
+        "Besides",
+        "Instead",
+        "Therefore",
+        "Although"
+      ],
+      "answer": 0,
+      "explanation": "「Besides（その上・さらに）」は付け加えを表す接続副詞です。"
+    },
+    {
+      "id": "en_gram_177",
+      "question": "Choose the correct form:\n「彼はなんとかして問題を解決した」\nHe ___ to solve the problem.",
+      "choices": [
+        "managed",
+        "succeeded",
+        "could",
+        "tried"
+      ],
+      "answer": 0,
+      "explanation": "「manage to + 動詞原形（なんとか〜する）」の構文です。"
+    },
+    {
+      "id": "en_gram_178",
+      "question": "Choose the correct form:\n「彼女は試験のために徹夜した」\nShe stayed up all night ___ the exam.",
+      "choices": [
+        "to prepare for",
+        "preparing",
+        "for prepare",
+        "prepare for"
+      ],
+      "answer": 0,
+      "explanation": "「to prepare for（〜の準備をするために）」は目的を表す不定詞です。"
+    },
+    {
+      "id": "en_gram_179",
+      "question": "Choose the correct form:\n「彼女は音楽に夢中だ」\nShe is ___ in listening to music.",
+      "choices": [
+        "absorbed",
+        "absorbing",
+        "absorb",
+        "absorption"
+      ],
+      "answer": 0,
+      "explanation": "「be absorbed in + 動名詞（〜に夢中・没頭している）」の構文です。"
+    },
+    {
+      "id": "en_gram_180",
+      "question": "Choose the correct form:\n「私は彼女の助けがなければ成功しなかっただろう」\nI couldn't have succeeded without ___ help.",
+      "choices": [
+        "she",
+        "her",
+        "hers",
+        "herself"
+      ],
+      "answer": 1,
+      "explanation": "「without + 所有格 + 名詞」の構文です。her が正解。"
+    },
+    {
+      "id": "en_gram_181",
+      "question": "Choose the correct form:\n「彼女は英語が上手なだけでなく中国語も話せる」\nShe can speak not only English ___ Chinese as well.",
+      "choices": [
+        "but also",
+        "but",
+        "and",
+        "or"
+      ],
+      "answer": 0,
+      "explanation": "「not only A but also B」の構文です。"
+    },
+    {
+      "id": "en_gram_182",
+      "question": "Choose the correct word:\n「彼はたいてい電車で通勤する」\nHe usually ___ to work by train.",
+      "choices": [
+        "goes",
+        "go",
+        "went",
+        "going"
+      ],
+      "answer": 0,
+      "explanation": "主語が He（三人称単数）なので三単現の s をつけます。"
+    },
+    {
+      "id": "en_gram_183",
+      "question": "Choose the correct form:\n「この仕事には忍耐が必要だ」\nThis job requires a lot of ___.",
+      "choices": [
+        "patient",
+        "patiently",
+        "patience",
+        "patientness"
+      ],
+      "answer": 2,
+      "explanation": "「忍耐」は名詞 patience が正解。"
+    },
+    {
+      "id": "en_gram_184",
+      "question": "Choose the correct form:\n「彼女は毎日練習しているので上達している」\nShe is improving ___ she practices every day.",
+      "choices": [
+        "although",
+        "because",
+        "unless",
+        "despite"
+      ],
+      "answer": 1,
+      "explanation": "because（〜なので）は理由を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_185",
+      "question": "Choose the correct form:\n「彼は財産をすべて慈善事業に寄付した」\nHe donated all his fortune ___ charity.",
+      "choices": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「donate A to B（AをBに寄付する）」の構文です。"
+    },
+    {
+      "id": "en_gram_186",
+      "question": "Choose the correct form:\n「今週末は何をするつもりですか」\nWhat ___ you going to do this weekend?",
+      "choices": [
+        "do",
+        "are",
+        "is",
+        "will"
+      ],
+      "answer": 1,
+      "explanation": "「be going to」の構文。主語が you なので are が正解。"
+    },
+    {
+      "id": "en_gram_187",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I am interesting in art.",
+        "I am interested in art.",
+        "I am interest in art.",
+        "I am interests in art."
+      ],
+      "answer": 1,
+      "explanation": "「be interested in（〜に興味がある）」の構文です。"
+    },
+    {
+      "id": "en_gram_188",
+      "question": "Choose the correct form:\n「公共の場での喫煙は禁止されている」\nSmoking ___ in public places.",
+      "choices": [
+        "prohibits",
+        "is prohibited",
+        "prohibiting",
+        "has prohibited"
+      ],
+      "answer": 1,
+      "explanation": "「be prohibited（禁止されている）」は受動態です。"
+    },
+    {
+      "id": "en_gram_189",
+      "question": "Choose the correct form:\n「その映画はとても面白くて3回見た」\nThe movie was ___ interesting that I watched it three times.",
+      "choices": [
+        "very",
+        "so",
+        "such",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "「so + 形容詞 + that（とても〜なので…）」の構文です。"
+    },
+    {
+      "id": "en_gram_190",
+      "question": "Choose the correct form:\n「彼女はそのパーティーに招待されなかった」\nShe was not ___ to the party.",
+      "choices": [
+        "invite",
+        "inviting",
+        "invited",
+        "invitation"
+      ],
+      "answer": 2,
+      "explanation": "受動態「be + 過去分詞」の形。「was not invited」が正解。"
+    },
+    {
+      "id": "en_gram_191",
+      "question": "Choose the correct form:\n「彼は昨日の会議に出席しなかった」\nHe ___ the meeting yesterday.",
+      "choices": [
+        "didn't attend",
+        "wasn't attend",
+        "hasn't attended",
+        "wasn't attending"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定は「did not + 動詞原形」の形です。"
+    },
+    {
+      "id": "en_gram_192",
+      "question": "Choose the correct form:\n「彼女は歯が痛かったので歯医者に行った」\nShe went to the dentist ___ she had a toothache.",
+      "choices": [
+        "although",
+        "because",
+        "despite",
+        "unless"
+      ],
+      "answer": 1,
+      "explanation": "because（〜なので）は理由を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_193",
+      "question": "Choose the correct form:\n「彼が何を言っても私は信じない」\n___ he says, I won't believe him.",
+      "choices": [
+        "Whatever",
+        "However",
+        "Wherever",
+        "Whenever"
+      ],
+      "answer": 0,
+      "explanation": "「whatever（何を〜しても）」は「no matter what」と同じ意味の譲歩節を作ります。"
+    },
+    {
+      "id": "en_gram_194",
+      "question": "Choose the correct form:\n「彼女は英語がうまくなりたいと思っている」\nShe wants to ___ better at English.",
+      "choices": [
+        "get",
+        "become",
+        "be",
+        "grow"
+      ],
+      "answer": 0,
+      "explanation": "「get better at（〜がうまくなる）」の表現です。"
+    },
+    {
+      "id": "en_gram_195",
+      "question": "Choose the correct form:\n「その映画は1990年に公開された」\nThe movie ___ in 1990.",
+      "choices": [
+        "released",
+        "was released",
+        "has released",
+        "is released"
+      ],
+      "answer": 1,
+      "explanation": "過去の受動態「was released」が正解。"
+    },
+    {
+      "id": "en_gram_196",
+      "question": "Choose the correct form:\n「今年の夏は去年より暑い」\nThis summer is ___ than last year.",
+      "choices": [
+        "hot",
+        "hotter",
+        "hottest",
+        "most hot"
+      ],
+      "answer": 1,
+      "explanation": "比較級は「hotter（より暑い）」です。"
+    },
+    {
+      "id": "en_gram_197",
+      "question": "Choose the correct form:\n「彼は引退するまでその会社で30年間働いた」\nHe worked for the company for 30 years before he ___.",
+      "choices": [
+        "retire",
+        "retiring",
+        "retired",
+        "had retired"
+      ],
+      "answer": 2,
+      "explanation": "主節が過去形（worked）なので従属節も過去形 retired を使います。"
+    },
+    {
+      "id": "en_gram_198",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "She is used to work late.",
+        "She is used to working late.",
+        "She is use to working late.",
+        "She is used to worked late."
+      ],
+      "answer": 1,
+      "explanation": "「be used to + 動名詞（〜することに慣れている）」の構文。to は前置詞です。"
+    },
+    {
+      "id": "en_gram_199",
+      "question": "Choose the correct form:\n「彼は昨夜遅くまで起きていた」\nHe ___ up late last night.",
+      "choices": [
+        "kept",
+        "stayed",
+        "remained",
+        "held"
+      ],
+      "answer": 1,
+      "explanation": "「stay up（起きている・夜更かしする）」の熟語です。"
+    },
+    {
+      "id": "en_gram_200",
+      "question": "Choose the correct form:\n「彼女は自分の夢を諦めたことを後悔している」\nShe regrets ___ up on her dream.",
+      "choices": [
+        "giving",
+        "to give",
+        "gave",
+        "given"
+      ],
+      "answer": 0,
+      "explanation": "「regret + 動名詞（〜したことを後悔する）」の構文です。"
+    },
+    {
+      "id": "en_gram_201",
+      "question": "Choose the correct form:\n「彼はその問題を一人で解いた」\nHe solved the problem ___.",
+      "choices": [
+        "by his own",
+        "on himself",
+        "by himself",
+        "for himself"
+      ],
+      "answer": 2,
+      "explanation": "「by oneself（自分一人で）」は再帰代名詞を使った熟語表現です。"
+    },
+    {
+      "id": "en_gram_202",
+      "question": "Choose the correct form:\n「彼女は看護師になることを夢見ている」\nShe dreams ___ becoming a nurse.",
+      "choices": [
+        "about",
+        "of",
+        "for",
+        "to"
+      ],
+      "answer": 1,
+      "explanation": "「dream of + 動名詞（〜することを夢見る）」の構文です。"
+    },
+    {
+      "id": "en_gram_203",
+      "question": "Choose the correct form:\n「彼女は誰にでも親切にする」\nShe is kind ___ everyone.",
+      "choices": [
+        "for",
+        "to",
+        "with",
+        "at"
+      ],
+      "answer": 1,
+      "explanation": "「be kind to（〜に親切にする）」の構文です。"
+    },
+    {
+      "id": "en_gram_204",
+      "question": "Choose the correct form:\n「彼が何を言っても私は信じない」\nI don't believe ___ he says.",
+      "choices": [
+        "that",
+        "what",
+        "which",
+        "how"
+      ],
+      "answer": 1,
+      "explanation": "「believe what S + V（〜が言ったことを信じる）」で、what は関係代名詞です。"
+    },
+    {
+      "id": "en_gram_205",
+      "question": "Choose the correct word:\n「彼女は一生懸命練習したにもかかわらず負けた」\nShe lost ___ practicing hard.",
+      "choices": [
+        "despite",
+        "although",
+        "because",
+        "since"
+      ],
+      "answer": 0,
+      "explanation": "「despite（〜にもかかわらず）」は前置詞で後に動名詞が続きます。"
+    },
+    {
+      "id": "en_gram_206",
+      "question": "Choose the correct form:\n「彼女は英語と日本語の両方を流暢に話す」\nShe speaks ___ English and Japanese fluently.",
+      "choices": [
+        "both",
+        "either",
+        "neither",
+        "all"
+      ],
+      "answer": 0,
+      "explanation": "「both A and B（AとBの両方）」の構文です。"
+    },
+    {
+      "id": "en_gram_207",
+      "question": "Choose the correct form:\n「彼女はどこに住んでいるか知らない」\nI don't know ___ she lives.",
+      "choices": [
+        "which",
+        "what",
+        "where",
+        "when"
+      ],
+      "answer": 2,
+      "explanation": "「where（どこに）」の間接疑問文です。"
+    },
+    {
+      "id": "en_gram_208",
+      "question": "Choose the correct form:\n「彼は成功した実業家として知られている」\nHe is known ___ a successful businessman.",
+      "choices": [
+        "as",
+        "for",
+        "by",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "「be known as（〜として知られている）」は肩書き・役割を表します。"
+    },
+    {
+      "id": "en_gram_209",
+      "question": "Choose the correct form:\n「彼女は英語を話すことに自信がある」\nShe is ___ in speaking English.",
+      "choices": [
+        "confident",
+        "confidence",
+        "confidently",
+        "confide"
+      ],
+      "answer": 0,
+      "explanation": "「be confident in（〜に自信がある）」の構文です。"
+    },
+    {
+      "id": "en_gram_210",
+      "question": "Choose the correct form:\n「彼は彼女のためにドアを開けてくれた」\nHe held the door open ___ me.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「hold open for + 人（人のために開けておく）」の構文です。"
+    },
+    {
+      "id": "en_gram_211",
+      "question": "Choose the correct form:\n「彼女は将来何をしたいかまだ決めていない」\nShe hasn't ___ yet what she wants to do in the future.",
+      "choices": [
+        "decide",
+        "decided",
+        "deciding",
+        "decision"
+      ],
+      "answer": 1,
+      "explanation": "現在完了形「has not + 過去分詞」の構文。decided が正解。"
+    },
+    {
+      "id": "en_gram_212",
+      "question": "Choose the correct form:\n「試験に合格するために英語を勉強しています」\nI'm studying English ___ pass the exam.",
+      "choices": [
+        "so that",
+        "in order to",
+        "because",
+        "although"
+      ],
+      "answer": 1,
+      "explanation": "「in order to + 動詞原形（〜するために）」は目的を表します。"
+    },
+    {
+      "id": "en_gram_213",
+      "question": "Choose the correct sentence.",
+      "choices": [
+        "I enjoy to play tennis.",
+        "I enjoy playing tennis.",
+        "I enjoy play tennis.",
+        "I enjoy played tennis."
+      ],
+      "answer": 1,
+      "explanation": "enjoy は動名詞（〜ing）を目的語にとる動詞です。"
+    },
+    {
+      "id": "en_gram_214",
+      "question": "Choose the correct form:\n「彼女は将来医者になりたいと思っている」\nShe wants ___ a doctor in the future.",
+      "choices": [
+        "become",
+        "becoming",
+        "to become",
+        "to becoming"
+      ],
+      "answer": 2,
+      "explanation": "「want to + 動詞原形（〜したい）」の構文です。"
+    },
+    {
+      "id": "en_gram_215",
+      "question": "Choose the correct form:\n「その橋は去年修理された」\nThe bridge ___ repaired last year.",
+      "choices": [
+        "is",
+        "has been",
+        "was",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "「last year」という過去の時点があるため過去形「was repaired」が正解。"
+    },
+    {
+      "id": "en_gram_216",
+      "question": "Choose the correct form:\n「彼は昨日から何も食べていない」\nHe hasn't eaten ___ yesterday.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "since は過去の起点を示します。現在完了形と共に使います。"
+    },
+    {
+      "id": "en_gram_217",
+      "question": "Choose the correct form:\n「その音楽を聞くたびに彼女を思い出す」\n___ time I hear that music, I think of her.",
+      "choices": [
+        "Every",
+        "Each",
+        "Any",
+        "All"
+      ],
+      "answer": 0,
+      "explanation": "「every time（〜するたびに）」は条件を表す接続詞的な使い方です。"
+    },
+    {
+      "id": "en_gram_218",
+      "question": "Choose the correct word:\n「彼女は運動不足のせいで太ってきた」\nShe has gained weight ___ lack of exercise.",
+      "choices": [
+        "because",
+        "due to",
+        "although",
+        "unless"
+      ],
+      "answer": 1,
+      "explanation": "「due to（〜が原因で）」は前置詞句で後に名詞が続きます。"
+    },
+    {
+      "id": "en_gram_219",
+      "question": "Choose the correct form:\n「彼女はその映画を見て感動した」\nShe was ___ by the movie.",
+      "choices": [
+        "touching",
+        "touched",
+        "touches",
+        "touch"
+      ],
+      "answer": 1,
+      "explanation": "「be touched by（〜に感動する）」は受動態の感情表現です。"
+    },
+    {
+      "id": "en_gram_220",
+      "question": "Choose the correct form:\n「彼はお腹が空いているに違いない」\nHe ___ be hungry.",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "might"
+      ],
+      "answer": 0,
+      "explanation": "現在の状態への強い確信は「must（〜に違いない）」を使います。"
+    },
+    {
+      "id": "en_gram_221",
+      "question": "Choose the correct form:\n「彼女はその仕事に就くのにふさわしい資格を持っている」\nShe has the ___ to do the job.",
+      "choices": [
+        "qualify",
+        "qualified",
+        "qualification",
+        "qualifying"
+      ],
+      "answer": 2,
+      "explanation": "名詞 qualification（資格）が正解。"
+    },
+    {
+      "id": "en_gram_222",
+      "question": "Choose the correct form:\n「このドアは外から開けることができない」\nThis door ___ from outside.",
+      "choices": [
+        "cannot open",
+        "cannot be opened",
+        "can't open",
+        "is not opening"
+      ],
+      "answer": 1,
+      "explanation": "受動態の否定「cannot be opened（開けられない）」が正解。"
+    },
+    {
+      "id": "en_gram_223",
+      "question": "Choose the correct form:\n「彼女は就職面接のために新しいスーツを買った」\nShe bought a new suit ___ the job interview.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「buy A for B（BのためにAを買う）」の構文です。"
+    },
+    {
+      "id": "en_gram_224",
+      "question": "Choose the correct form:\n「彼女は何が起きているか理解しようとした」\nShe tried ___ what was happening.",
+      "choices": [
+        "understand",
+        "to understand",
+        "understanding",
+        "understood"
+      ],
+      "answer": 1,
+      "explanation": "「try to + 動詞原形（〜しようとする）」の構文です。"
+    },
+    {
+      "id": "en_gram_225",
+      "question": "Choose the correct form:\n「今年の夏は去年より暑い」\n___ summer is hotter than last year.",
+      "choices": [
+        "A",
+        "An",
+        "The",
+        "This"
+      ],
+      "answer": 3,
+      "explanation": "「this summer（今年の夏）」は特定の夏を指す表現です。"
+    },
+    {
+      "id": "en_gram_226",
+      "question": "Choose the correct form:\n「彼女は歌がうまいと言われている」\nShe is said ___ a good singer.",
+      "choices": [
+        "be",
+        "being",
+        "to be",
+        "been"
+      ],
+      "answer": 2,
+      "explanation": "「be said to + 動詞原形（〜と言われている）」の受動態構文です。"
+    },
+    {
+      "id": "en_gram_227",
+      "question": "Choose the correct form:\n「私は彼の成功を誇りに思う」\nI am proud ___ his success.",
+      "choices": [
+        "about",
+        "of",
+        "in",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「be proud of（〜を誇りに思う）」の構文です。"
+    },
+    {
+      "id": "en_gram_228",
+      "question": "Choose the correct form:\n「その計画は想定したより時間がかかった」\nThe plan took longer ___ expected.",
+      "choices": [
+        "as",
+        "than",
+        "from",
+        "like"
+      ],
+      "answer": 1,
+      "explanation": "比較を表す than を使います。「longer than expected」が正解。"
+    },
+    {
+      "id": "en_gram_229",
+      "question": "Choose the correct form:\n「彼女は読書に費やす時間がほとんどない」\nShe has ___ time to spend on reading.",
+      "choices": [
+        "little",
+        "few",
+        "a little",
+        "a few"
+      ],
+      "answer": 0,
+      "explanation": "time は不可算名詞なので little（ほとんどない）を使います。few は可算名詞に使います。"
+    },
+    {
+      "id": "en_gram_230",
+      "question": "Choose the correct form:\n「彼は彼女に謝るべきだった」\nHe ___ apologized to her.",
+      "choices": [
+        "must have",
+        "should have",
+        "can have",
+        "might have"
+      ],
+      "answer": 1,
+      "explanation": "「should have + 過去分詞（〜すべきだったのに）」は過去の後悔を表します。"
+    },
+    {
+      "id": "en_gram_231",
+      "question": "Choose the correct form:\n「彼女は昨年から英語を習っている」\nShe ___ learning English since last year.",
+      "choices": [
+        "is",
+        "was",
+        "has been",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "「since（〜以来）」があるので現在完了（進行）形「has been」を使います。"
+    },
+    {
+      "id": "en_gram_232",
+      "question": "Choose the correct word:\n「彼は必死に仕事を探している」\nHe is desperately looking ___ a job.",
+      "choices": [
+        "at",
+        "for",
+        "after",
+        "into"
+      ],
+      "answer": 1,
+      "explanation": "「look for（〜を探す）」の構文です。"
+    },
+    {
+      "id": "en_gram_233",
+      "question": "Choose the correct form:\n「この問題は解くのに30分かかった」\nThis problem ___ me 30 minutes to solve.",
+      "choices": [
+        "spent",
+        "took",
+        "cost",
+        "needed"
+      ],
+      "answer": 1,
+      "explanation": "「take + 人 + 時間 + to不定詞」の構文で、問題が主語の場合も took を使います。"
+    },
+    {
+      "id": "en_gram_234",
+      "question": "Choose the correct form:\n「彼は彼女のジョークを笑わなかった」\nHe didn't ___ at her joke.",
+      "choices": [
+        "laugh",
+        "smile",
+        "grin",
+        "chuckle"
+      ],
+      "answer": 0,
+      "explanation": "「laugh at（〜を笑う）」の構文です。"
+    },
+    {
+      "id": "en_gram_235",
+      "question": "Choose the correct form:\n「彼女は子供のころから音楽を習っている」\nShe has been learning music ___ she was a child.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "while"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜以来）」は過去の起点を示す接続詞で、現在完了形と共に使います。"
+    },
+    {
+      "id": "en_gram_236",
+      "question": "Choose the correct form:\n「その本は先週出版されたばかりだ」\nThe book ___ just last week.",
+      "choices": [
+        "is published",
+        "was published",
+        "has been published",
+        "had been published"
+      ],
+      "answer": 1,
+      "explanation": "「just last week（先週）」という過去の時点があるため過去形「was published」が正解。"
+    },
+    {
+      "id": "en_gram_237",
+      "question": "Choose the correct form:\n「あなたに会えて光栄です」\nI am ___ to meet you.",
+      "choices": [
+        "honor",
+        "honored",
+        "honoring",
+        "honorary"
+      ],
+      "answer": 1,
+      "explanation": "「be honored to + 動詞原形（〜できて光栄）」の構文。honored が正解。"
+    },
+    {
+      "id": "en_gram_238",
+      "question": "Choose the correct form:\n「彼女はなんとかして試験に合格した」\nShe ___ to pass the exam.",
+      "choices": [
+        "managed",
+        "succeeded",
+        "could",
+        "tried"
+      ],
+      "answer": 0,
+      "explanation": "「manage to + 動詞原形（なんとか〜する）」の構文です。"
+    },
+    {
+      "id": "en_gram_239",
+      "question": "Choose the correct form:\n「この仕事を終わらせた後ならどこへでも行ける」\nOnce I finish this work, I ___ go anywhere.",
+      "choices": [
+        "can",
+        "could",
+        "will",
+        "would"
+      ],
+      "answer": 2,
+      "explanation": "直接条件（once/if + 現在形）の帰結節では will を使います。"
+    },
+    {
+      "id": "en_gram_240",
+      "question": "Choose the correct form:\n「彼女は彼が正直だとは言えない」\nShe cannot say ___ he is honest.",
+      "choices": [
+        "what",
+        "that",
+        "which",
+        "if"
+      ],
+      "answer": 1,
+      "explanation": "「say that（〜と言う）」の that は名詞節を導く接続詞です。"
+    },
+    {
+      "id": "en_gram_241",
+      "question": "Choose the correct form:\n「彼女は3時間ピアノを弾き続けた」\nShe ___ the piano for three hours.",
+      "choices": [
+        "kept playing",
+        "kept play",
+        "kept to play",
+        "kept played"
+      ],
+      "answer": 0,
+      "explanation": "「keep + 動名詞（〜し続ける）」の構文です。"
+    },
+    {
+      "id": "en_gram_242",
+      "question": "Choose the correct form:\n「彼は一日中何もしないで過ごした」\nHe spent the whole day ___ nothing.",
+      "choices": [
+        "do",
+        "doing",
+        "to do",
+        "done"
+      ],
+      "answer": 1,
+      "explanation": "「spend + 時間 + 動名詞（〜して…を過ごす）」の構文です。"
+    },
+    {
+      "id": "en_gram_243",
+      "question": "Choose the correct word:\n「彼女は本を読むことで多くを学んだ」\nShe learned a lot ___ reading books.",
+      "choices": [
+        "from",
+        "by",
+        "through",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「by + 動名詞（〜することによって）」は手段・方法を表します。"
+    },
+    {
+      "id": "en_gram_244",
+      "question": "Choose the correct form:\n「彼女の電話を受けたとき昼食を食べていた」\nI ___ lunch when I got her call.",
+      "choices": [
+        "ate",
+        "was eating",
+        "had eaten",
+        "am eating"
+      ],
+      "answer": 1,
+      "explanation": "過去のある時点で進行中の動作は過去進行形（was + 〜ing）で表します。"
+    },
+    {
+      "id": "en_gram_245",
+      "question": "Choose the correct form:\n「先生は生徒たちに静かにするよう命じた」\nThe teacher ordered the students ___ quiet.",
+      "choices": [
+        "be",
+        "to be",
+        "being",
+        "been"
+      ],
+      "answer": 1,
+      "explanation": "「order + 人 + to不定詞（人に〜するよう命じる）」の構文です。"
+    },
+    {
+      "id": "en_gram_246",
+      "question": "Choose the correct form:\n「彼女は医師になるという夢を実現した」\nShe ___ her dream of becoming a doctor.",
+      "choices": [
+        "made",
+        "achieved",
+        "did",
+        "reached"
+      ],
+      "answer": 1,
+      "explanation": "「achieve a dream（夢を実現する）」の表現です。"
+    },
+    {
+      "id": "en_gram_247",
+      "question": "Choose the correct form:\n「私はその映画を見るのを楽しみにしている」\nI am looking forward ___ the movie.",
+      "choices": [
+        "to watch",
+        "to watching",
+        "watching",
+        "watch"
+      ],
+      "answer": 1,
+      "explanation": "「look forward to + 動名詞」の構文。to は前置詞です。"
+    },
+    {
+      "id": "en_gram_248",
+      "question": "Choose the correct form:\n「彼女が何を言っても私は信じない」\n___ she says, I won't believe her.",
+      "choices": [
+        "Whatever",
+        "However",
+        "Wherever",
+        "Whenever"
+      ],
+      "answer": 0,
+      "explanation": "「whatever（何を〜しても）」は「no matter what」と同じ意味です。"
+    },
+    {
+      "id": "en_gram_249",
+      "question": "Choose the correct form:\n「彼が成功したのは努力のおかげだ」\nHe succeeded ___ to his efforts.",
+      "choices": [
+        "owing",
+        "thanks",
+        "due",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「owing to（〜のおかげで）」は前置詞句です。"
+    },
+    {
+      "id": "en_gram_250",
+      "question": "Choose the correct form:\n「彼女は英語の授業を楽しみにしている」\nShe is looking forward ___ the English class.",
+      "choices": [
+        "to attend",
+        "to attending",
+        "attending",
+        "attend"
+      ],
+      "answer": 1,
+      "explanation": "「look forward to + 動名詞」の構文です。"
+    },
+    {
+      "id": "en_gram_251",
+      "question": "Choose the correct form:\n「彼は病院に行くのを避けていた」\nHe had been ___ going to the hospital.",
+      "choices": [
+        "avoiding",
+        "avoided",
+        "avoid",
+        "to avoid"
+      ],
+      "answer": 0,
+      "explanation": "「avoid + 動名詞（〜することを避ける）」の構文で had been avoiding（過去完了進行形）が正解。"
+    },
+    {
+      "id": "en_gram_252",
+      "question": "Choose the correct form:\n「彼女は運転中に電話を使ってはいけない」\nHe ___ use his phone while driving.",
+      "choices": [
+        "mustn't",
+        "shouldn't",
+        "needn't",
+        "may not"
+      ],
+      "answer": 0,
+      "explanation": "「mustn't（〜してはいけない）」は強い禁止を表します。"
+    },
+    {
+      "id": "en_gram_253",
+      "question": "Choose the correct form:\n「彼女は仕事の後すぐに帰宅した」\nShe went home ___ after work.",
+      "choices": [
+        "right",
+        "rightly",
+        "straight",
+        "directly"
+      ],
+      "answer": 0,
+      "explanation": "「right after（〜のすぐ後）」の表現です。"
+    },
+    {
+      "id": "en_gram_254",
+      "question": "Choose the correct form:\n「彼女は旅行に必要なものをすべて準備した」\nShe prepared everything necessary ___ the trip.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「necessary for（〜に必要な）」の構文です。"
+    },
+    {
+      "id": "en_gram_255",
+      "question": "Choose the correct form:\n「彼は長い手紙を3時間で書いた」\nHe wrote the long letter ___ three hours.",
+      "choices": [
+        "in",
+        "for",
+        "within",
+        "during"
+      ],
+      "answer": 0,
+      "explanation": "「in + 期間（〜で・〜のうちに）」は所要時間を表します。"
+    },
+    {
+      "id": "en_gram_256",
+      "question": "Choose the correct form:\n「彼女は将来のことを深く考えた」\nShe thought ___ about her future.",
+      "choices": [
+        "deep",
+        "deeply",
+        "deeper",
+        "deepest"
+      ],
+      "answer": 1,
+      "explanation": "動詞 thought を修飾するので副詞 deeply が正解。"
+    },
+    {
+      "id": "en_gram_257",
+      "question": "Choose the correct form:\n「このカメラの使い方を教えてください」\nCould you show me how ___ this camera?",
+      "choices": [
+        "use",
+        "to use",
+        "using",
+        "used"
+      ],
+      "answer": 1,
+      "explanation": "「how to + 動詞原形（〜の使い方）」の名詞句です。"
+    },
+    {
+      "id": "en_gram_258",
+      "question": "Choose the correct form:\n「彼女が何歳なのか教えてください」\nCould you tell me how old ___ is?",
+      "choices": [
+        "is she",
+        "she",
+        "she is",
+        "her"
+      ],
+      "answer": 2,
+      "explanation": "間接疑問文では語順が「疑問詞 + S + V」になります。"
+    },
+    {
+      "id": "en_gram_259",
+      "question": "Choose the correct form:\n「その映画は子供向けに作られた」\nThe movie was made ___ children.",
+      "choices": [
+        "to",
+        "by",
+        "for",
+        "of"
+      ],
+      "answer": 2,
+      "explanation": "「made for（〜のために作られた）」の構文です。"
+    },
+    {
+      "id": "en_gram_260",
+      "question": "Choose the correct form:\n「彼女は速く走ることで知られている」\nShe is known ___ running fast.",
+      "choices": [
+        "as",
+        "for",
+        "by",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「be known for（〜で有名）」は理由・特徴を表します。"
+    },
+    {
+      "id": "en_gram_261",
+      "question": "Choose the correct form:\n「彼は健康のために毎朝ジョギングをする」\nHe jogs every morning ___ his health.",
+      "choices": [
+        "for",
+        "to",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「for（〜のために）」は目的・利益を表す前置詞です。"
+    },
+    {
+      "id": "en_gram_262",
+      "question": "Choose the correct form:\n「彼女は自分の経験を生かして新しい事業を始めた」\nShe used her experience to ___ a new business.",
+      "choices": [
+        "start",
+        "starting",
+        "started",
+        "starts"
+      ],
+      "answer": 0,
+      "explanation": "「use A to + 動詞原形（Aを使って〜する）」の構文です。"
+    },
+    {
+      "id": "en_gram_263",
+      "question": "Choose the correct form:\n「その法律は昨年改正された」\nThe law ___ last year.",
+      "choices": [
+        "revised",
+        "was revised",
+        "has revised",
+        "revises"
+      ],
+      "answer": 1,
+      "explanation": "過去の受動態「was revised」が正解。"
+    },
+    {
+      "id": "en_gram_264",
+      "question": "Choose the correct form:\n「彼女は何が起きたか誰も知らない」\nNobody knows ___ happened to her.",
+      "choices": [
+        "that",
+        "which",
+        "what",
+        "how"
+      ],
+      "answer": 2,
+      "explanation": "「what happened（何が起きたか）」は間接疑問文です。"
+    },
+    {
+      "id": "en_gram_265",
+      "question": "Choose the correct form:\n「彼女が部屋を出ていくのを見た」\nI saw her ___ the room.",
+      "choices": [
+        "leave",
+        "left",
+        "leaving",
+        "to leave"
+      ],
+      "answer": 0,
+      "explanation": "知覚動詞「see + 目的語 + 動詞原形」の構文です。"
+    },
+    {
+      "id": "en_gram_266",
+      "question": "Choose the correct form:\n「私はやるべきことがたくさんある」\nI have a lot of things ___.",
+      "choices": [
+        "do",
+        "to do",
+        "doing",
+        "done"
+      ],
+      "answer": 1,
+      "explanation": "「things to do（やるべきこと）」は不定詞の形容詞的用法です。"
+    },
+    {
+      "id": "en_gram_267",
+      "question": "Choose the correct form:\n「私は彼女と何年も会っていない」\nI haven't seen her ___ years.",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "while"
+      ],
+      "answer": 1,
+      "explanation": "「for + 期間（〜の間）」は継続時間を表します。"
+    },
+    {
+      "id": "en_gram_268",
+      "question": "Choose the correct form:\n「彼は友達に本を貸した」\nHe ___ his friend a book.",
+      "choices": [
+        "lent",
+        "borrowed",
+        "loaned",
+        "hired"
+      ],
+      "answer": 0,
+      "explanation": "「lend + 人 + 物（人に物を貸す）」の構文。lent は lend の過去形。"
+    },
+    {
+      "id": "en_gram_269",
+      "question": "Choose the correct form:\n「彼女は友達から本を借りた」\nShe ___ a book from her friend.",
+      "choices": [
+        "lent",
+        "borrowed",
+        "loaned",
+        "hired"
+      ],
+      "answer": 1,
+      "explanation": "「borrow（借りる）」は自分が借りる側の動詞。"
+    },
+    {
+      "id": "en_gram_270",
+      "question": "Choose the correct form:\n「彼女は英語がうまくて翻訳家として働いている」\nShe speaks English well, ___ she works as a translator.",
+      "choices": [
+        "so",
+        "but",
+        "although",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「so（だから）」は結果を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_271",
+      "question": "Choose the correct form:\n「彼女はミスをしたことを認めた」\nShe ___ making a mistake.",
+      "choices": [
+        "admitted",
+        "agreed",
+        "allowed",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "「admit + 動名詞（〜したことを認める）」の構文です。"
+    },
+    {
+      "id": "en_gram_272",
+      "question": "Choose the correct form:\n「彼はその問題を解いた後、解答を確認した」\nAfter ___ the problem, he checked his answer.",
+      "choices": [
+        "solving",
+        "solved",
+        "to solve",
+        "solve"
+      ],
+      "answer": 0,
+      "explanation": "「after + 動名詞（〜した後）」の構文。前置詞の後は動名詞。"
+    },
+    {
+      "id": "en_gram_273",
+      "question": "Choose the correct form:\n「私は彼女がどこに住んでいるか知らない」\nI don't know ___ she lives.",
+      "choices": [
+        "which",
+        "what",
+        "where",
+        "when"
+      ],
+      "answer": 2,
+      "explanation": "「where（どこに）」の間接疑問文です。"
+    },
+    {
+      "id": "en_gram_274",
+      "question": "Choose the correct form:\n「彼は私に親切にしてくれた」\nHe was kind ___ me.",
+      "choices": [
+        "for",
+        "to",
+        "with",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「be kind to（〜に親切にする）」の構文です。"
+    },
+    {
+      "id": "en_gram_275",
+      "question": "Choose the correct form:\n「試験のためには睡眠が大切だ」\n___ important that you get enough sleep.",
+      "choices": [
+        "It's",
+        "There's",
+        "That's",
+        "This is"
+      ],
+      "answer": 0,
+      "explanation": "「It is + 形容詞 + that節」の形式主語構文です。"
+    },
+    {
+      "id": "en_gram_276",
+      "question": "Choose the correct form:\n「電車に乗り遅れたので、タクシーで行った」\n___ missed the train, I took a taxi.",
+      "choices": [
+        "Because",
+        "Having",
+        "Although",
+        "Despite"
+      ],
+      "answer": 1,
+      "explanation": "「Having + 過去分詞」は分詞構文の完了形です。"
+    },
+    {
+      "id": "en_gram_277",
+      "question": "Choose the correct form:\n「彼女は病院へ行くのをずっと先延ばしにしていた」\nShe kept ___ going to the hospital.",
+      "choices": [
+        "put off",
+        "putting off",
+        "puts off",
+        "to put off"
+      ],
+      "answer": 1,
+      "explanation": "「keep + 動名詞（〜し続ける）」の構文です。putting off が正解。"
+    },
+    {
+      "id": "en_gram_278",
+      "question": "Choose the correct form:\n「彼女は自分の部屋を自分で掃除した」\nShe cleaned her room ___.",
+      "choices": [
+        "alone",
+        "lonely",
+        "by herself",
+        "herself alone"
+      ],
+      "answer": 2,
+      "explanation": "「by oneself（自分一人で）」が正解。"
+    },
+    {
+      "id": "en_gram_279",
+      "question": "Choose the correct form:\n「彼が言っていることが理解できない」\nI can't understand ___ he is saying.",
+      "choices": [
+        "that",
+        "what",
+        "which",
+        "how"
+      ],
+      "answer": 1,
+      "explanation": "「what（何を）」の間接疑問文です。"
+    },
+    {
+      "id": "en_gram_280",
+      "question": "Choose the correct form:\n「彼女は彼に秘密を打ち明けた」\nShe confided her secret ___ him.",
+      "choices": [
+        "to",
+        "for",
+        "with",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "「confide A to B（AをBに打ち明ける）」の構文です。"
+    },
+    {
+      "id": "en_gram_281",
+      "question": "Choose the correct form:\n「その計画はなかなかうまくいっている」\nThe plan is working out ___.",
+      "choices": [
+        "good",
+        "well",
+        "nice",
+        "fine"
+      ],
+      "answer": 1,
+      "explanation": "動詞 working out を修飾するので副詞 well が正解。"
+    },
+    {
+      "id": "en_gram_282",
+      "question": "Choose the correct form:\n「私は試験の結果が心配だ」\nI am ___ about the exam results.",
+      "choices": [
+        "worry",
+        "worried",
+        "worrying",
+        "worries"
+      ],
+      "answer": 1,
+      "explanation": "「be worried about（心配している）」の構文です。"
+    },
+    {
+      "id": "en_gram_283",
+      "question": "Choose the correct form:\n「その問題はまだ解決されていない」\nThe problem ___ not been solved yet.",
+      "choices": [
+        "is",
+        "has",
+        "was",
+        "had"
+      ],
+      "answer": 1,
+      "explanation": "「has not been solved yet」は現在完了の受動態です。"
+    },
+    {
+      "id": "en_gram_284",
+      "question": "Choose the correct form:\n「彼女はたいてい電車で通勤する」\nShe usually ___ to work by train.",
+      "choices": [
+        "go",
+        "goes",
+        "went",
+        "going"
+      ],
+      "answer": 1,
+      "explanation": "主語が She（三人称単数）なので goes が正解。"
+    },
+    {
+      "id": "en_gram_285",
+      "question": "Choose the correct form:\n「彼女は仕事を終えてから帰宅した」\nShe went home after ___ her work.",
+      "choices": [
+        "finish",
+        "finished",
+        "to finish",
+        "finishing"
+      ],
+      "answer": 3,
+      "explanation": "前置詞 after の後には動名詞が続きます。"
+    },
+    {
+      "id": "en_gram_286",
+      "question": "Choose the correct form:\n「彼女は健康に悪いものを食べるのを避ける」\nShe avoids ___ things that are bad for her health.",
+      "choices": [
+        "eat",
+        "to eat",
+        "eating",
+        "eaten"
+      ],
+      "answer": 2,
+      "explanation": "「avoid + 動名詞（〜することを避ける）」の構文です。"
+    },
+    {
+      "id": "en_gram_287",
+      "question": "Choose the correct form:\n「彼女は昨日から何も食べていない」\nShe hasn't eaten anything ___ yesterday.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜から）」は過去の起点を示し現在完了形と共に使います。"
+    },
+    {
+      "id": "en_gram_288",
+      "question": "Choose the correct form:\n「彼は仕事が終わり次第連絡すると言った」\nHe said he would contact me as soon as his work ___.",
+      "choices": [
+        "finishes",
+        "will finish",
+        "finished",
+        "has finished"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as」の時の副詞節では未来でも現在形を使います。"
+    },
+    {
+      "id": "en_gram_289",
+      "question": "Choose the correct form:\n「私は昨年スペイン語を学び始めた」\nI ___ learning Spanish last year.",
+      "choices": [
+        "start",
+        "started",
+        "have started",
+        "starting"
+      ],
+      "answer": 1,
+      "explanation": "「last year」という過去の副詞があるため単純過去形が正解。"
+    },
+    {
+      "id": "en_gram_290",
+      "question": "Choose the correct form:\n「彼は足を骨折したので病院へ行った」\nHe went to the hospital because he ___ his leg.",
+      "choices": [
+        "breaks",
+        "had broken",
+        "broke after",
+        "is breaking"
+      ],
+      "answer": 1,
+      "explanation": "病院へ行った（過去）より前に骨折したので過去完了形「had broken」を使います。"
+    },
+    {
+      "id": "en_gram_291",
+      "question": "Choose the correct form:\n「彼女はその試験に何度も落ちたが諦めなかった」\nShe failed the exam many times but didn't ___ up.",
+      "choices": [
+        "give",
+        "take",
+        "put",
+        "make"
+      ],
+      "answer": 0,
+      "explanation": "「give up（諦める）」の熟語です。"
+    },
+    {
+      "id": "en_gram_292",
+      "question": "Choose the correct form:\n「病院では静かにしなければならない」\nYou ___ be quiet in the hospital.",
+      "choices": [
+        "should",
+        "might",
+        "need",
+        "shall"
+      ],
+      "answer": 0,
+      "explanation": "義務・適切な行動を表すには should（〜すべき）が適切。"
+    },
+    {
+      "id": "en_gram_293",
+      "question": "Choose the correct form:\n「彼女は彼のことが心配だ」\nShe is worried ___ him.",
+      "choices": [
+        "about",
+        "for",
+        "of",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "「be worried about（〜を心配する）」の構文です。"
+    },
+    {
+      "id": "en_gram_294",
+      "question": "Choose the correct form:\n「彼は体の具合が悪いに違いない」\nHe ___ be sick.",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "might"
+      ],
+      "answer": 0,
+      "explanation": "強い推量「must be（〜に違いない）」が正解。"
+    },
+    {
+      "id": "en_gram_295",
+      "question": "Choose the correct form:\n「彼女は謝らずに部屋を出ていった」\nShe left the room without ___.",
+      "choices": [
+        "apologize",
+        "apologized",
+        "apologizing",
+        "to apologize"
+      ],
+      "answer": 2,
+      "explanation": "「without + 動名詞（〜せずに）」の構文です。"
+    },
+    {
+      "id": "en_gram_296",
+      "question": "Choose the correct form:\n「その報告書はまだ完成していない」\nThe report ___ not been finished yet.",
+      "choices": [
+        "is",
+        "has",
+        "was",
+        "had"
+      ],
+      "answer": 1,
+      "explanation": "「has not been finished yet」は現在完了の受動態です。"
+    },
+    {
+      "id": "en_gram_297",
+      "question": "Choose the correct form:\n「彼女は3人の子どもがいる」\nShe has three ___.",
+      "choices": [
+        "child",
+        "childs",
+        "childrens",
+        "children"
+      ],
+      "answer": 3,
+      "explanation": "child の複数形は不規則変化で children です。"
+    },
+    {
+      "id": "en_gram_298",
+      "question": "Choose the correct form:\n「その情報は信頼できない」\nThe information ___ not be trusted.",
+      "choices": [
+        "may",
+        "can",
+        "should",
+        "must"
+      ],
+      "answer": 1,
+      "explanation": "「cannot be trusted（信頼できない）」が正解。"
+    },
+    {
+      "id": "en_gram_299",
+      "question": "Choose the correct form:\n「彼女は英語の先生として20年働いている」\nShe ___ as an English teacher for 20 years.",
+      "choices": [
+        "worked",
+        "works",
+        "has worked",
+        "had worked"
+      ],
+      "answer": 2,
+      "explanation": "「for + 期間」とともに現在まで続く状態は現在完了形「has worked」を使います。"
+    },
+    {
+      "id": "en_gram_300",
+      "question": "Choose the correct form:\n「彼女は英語を話すのが得意だ」\nShe is very good ___ speaking English.",
+      "choices": [
+        "at",
+        "in",
+        "with",
+        "of"
+      ],
+      "answer": 0,
+      "explanation": "「be good at + 動名詞（〜が得意）」の構文です。"
+    },
+    {
+      "id": "en_gram_301",
+      "question": "Choose the correct form:\n「彼女は来週から新しい仕事を始める予定だ」\nShe is ___ to start her new job next week.",
+      "choices": [
+        "plan",
+        "planning",
+        "planned",
+        "plans"
+      ],
+      "answer": 1,
+      "explanation": "「be planning to（〜する予定だ）」は現在進行形で近い未来の計画を表します。"
+    },
+    {
+      "id": "en_gram_302",
+      "question": "Choose the correct form:\n「彼は私の質問に答えることができなかった」\nHe was unable ___ the question.",
+      "choices": [
+        "answer",
+        "to answer",
+        "answering",
+        "answered"
+      ],
+      "answer": 1,
+      "explanation": "「be unable to + 動詞原形（〜できない）」の構文です。"
+    },
+    {
+      "id": "en_gram_303",
+      "question": "Choose the correct form:\n「彼女は弟にそこへ行くなと言った」\nShe told her brother ___ go there.",
+      "choices": [
+        "not",
+        "not to",
+        "to not",
+        "don't"
+      ],
+      "answer": 1,
+      "explanation": "「tell + 人 + not to + 動詞原形（〜しないよう言う）」の構文です。"
+    },
+    {
+      "id": "en_gram_304",
+      "question": "Choose the correct form:\n「その選手は足を痛めているにもかかわらず試合に出た」\nThe player played despite ___ his leg.",
+      "choices": [
+        "injure",
+        "injuring",
+        "to injure",
+        "injured"
+      ],
+      "answer": 1,
+      "explanation": "「despite + 動名詞（〜にもかかわらず）」の構文です。"
+    },
+    {
+      "id": "en_gram_305",
+      "question": "Choose the correct form:\n「彼女は医者になるために一生懸命勉強した」\nShe studied hard ___ become a doctor.",
+      "choices": [
+        "so as to",
+        "in order",
+        "so that",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「so as to + 動詞原形（〜するために）」は「in order to」と同じ意味です。"
+    },
+    {
+      "id": "en_gram_306",
+      "question": "Choose the correct form:\n「私は彼女に会ったことを後悔していない」\nI don't regret ___ her.",
+      "choices": [
+        "to meet",
+        "meeting",
+        "met",
+        "to have met"
+      ],
+      "answer": 1,
+      "explanation": "「regret + 動名詞（〜したことを後悔する）」の構文です。"
+    },
+    {
+      "id": "en_gram_307",
+      "question": "Choose the correct form:\n「彼はその問題を一人で解いた」\nHe solved the problem ___.",
+      "choices": [
+        "by his own",
+        "on himself",
+        "by himself",
+        "for himself"
+      ],
+      "answer": 2,
+      "explanation": "「by oneself（自分一人で）」は再帰代名詞を使った熟語表現です。"
+    },
+    {
+      "id": "en_gram_308",
+      "question": "Choose the correct form:\n「彼女は看護師になることを夢見ている」\nShe dreams ___ becoming a nurse.",
+      "choices": [
+        "about",
+        "of",
+        "for",
+        "to"
+      ],
+      "answer": 1,
+      "explanation": "「dream of + 動名詞（〜することを夢見る）」の構文です。"
+    },
+    {
+      "id": "en_gram_309",
+      "question": "Choose the correct form:\n「私は彼女がどこに住んでいるか知らない」\nI don't know ___ she lives.",
+      "choices": [
+        "which",
+        "what",
+        "where",
+        "when"
+      ],
+      "answer": 2,
+      "explanation": "「where（どこに）」の間接疑問文です。"
+    },
+    {
+      "id": "en_gram_310",
+      "question": "Choose the correct form:\n「彼は私に親切にしてくれた」\nHe was kind ___ me.",
+      "choices": [
+        "for",
+        "to",
+        "with",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「be kind to（〜に親切にする）」の構文です。"
+    },
+    {
+      "id": "en_gram_311",
+      "question": "Choose the correct form:\n「彼女は英語と日本語の両方を流暢に話す」\nShe speaks ___ English and Japanese fluently.",
+      "choices": [
+        "both",
+        "either",
+        "neither",
+        "all"
+      ],
+      "answer": 0,
+      "explanation": "「both A and B（AとBの両方）」の構文です。"
+    },
+    {
+      "id": "en_gram_312",
+      "question": "Choose the correct form:\n「彼は成功した実業家として知られている」\nHe is known ___ a successful businessman.",
+      "choices": [
+        "as",
+        "for",
+        "by",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "「be known as（〜として知られている）」は肩書き・役割を表します。"
+    },
+    {
+      "id": "en_gram_313",
+      "question": "Choose the correct form:\n「彼女は英語を話すことに自信がある」\nShe is ___ in speaking English.",
+      "choices": [
+        "confident",
+        "confidence",
+        "confidently",
+        "confide"
+      ],
+      "answer": 0,
+      "explanation": "「be confident in（〜に自信がある）」の構文です。"
+    },
+    {
+      "id": "en_gram_314",
+      "question": "Choose the correct form:\n「このドアは外から開けることができない」\nThis door ___ from outside.",
+      "choices": [
+        "cannot open",
+        "cannot be opened",
+        "can't open",
+        "is not opening"
+      ],
+      "answer": 1,
+      "explanation": "受動態の否定「cannot be opened（開けられない）」が正解です。"
+    },
+    {
+      "id": "en_gram_315",
+      "question": "Choose the correct form:\n「彼女は就職面接のために新しいスーツを買った」\nShe bought a new suit ___ the job interview.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「buy A for B（BのためにAを買う）」の構文です。"
+    },
+    {
+      "id": "en_gram_316",
+      "question": "Choose the correct form:\n「彼女は何が起きているか理解しようとした」\nShe tried ___ what was happening.",
+      "choices": [
+        "understand",
+        "to understand",
+        "understanding",
+        "understood"
+      ],
+      "answer": 1,
+      "explanation": "「try to + 動詞原形（〜しようとする）」の構文です。"
+    },
+    {
+      "id": "en_gram_317",
+      "question": "Choose the correct form:\n「彼女は医師になるという夢を実現した」\nShe ___ her dream of becoming a doctor.",
+      "choices": [
+        "made",
+        "achieved",
+        "did",
+        "reached"
+      ],
+      "answer": 1,
+      "explanation": "「achieve a dream（夢を実現する）」の表現です。"
+    },
+    {
+      "id": "en_gram_318",
+      "question": "Choose the correct form:\n「私はその映画を見るのを楽しみにしている」\nI am looking forward ___ the movie.",
+      "choices": [
+        "to watch",
+        "to watching",
+        "watching",
+        "watch"
+      ],
+      "answer": 1,
+      "explanation": "「look forward to + 動名詞」の構文。to は前置詞なので後に動名詞が続きます。"
+    },
+    {
+      "id": "en_gram_319",
+      "question": "Choose the correct form:\n「彼が成功したのは努力のおかげだ」\nHe succeeded ___ to his efforts.",
+      "choices": [
+        "owing",
+        "thanks",
+        "due",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「owing to（〜のおかげで）」は前置詞句です。"
+    },
+    {
+      "id": "en_gram_320",
+      "question": "Choose the correct form:\n「彼女は英語の授業を楽しみにしている」\nShe is looking forward ___ the English class.",
+      "choices": [
+        "to attend",
+        "to attending",
+        "attending",
+        "attend"
+      ],
+      "answer": 1,
+      "explanation": "「look forward to + 動名詞」の構文です。"
+    },
+    {
+      "id": "en_gram_321",
+      "question": "Choose the correct form:\n「彼は仕事が終わり次第連絡すると言った」\nHe said he would contact me as soon as his work ___.",
+      "choices": [
+        "finishes",
+        "will finish",
+        "finished",
+        "has finished"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as」の時の副詞節では未来でも現在形を使います。"
+    },
+    {
+      "id": "en_gram_322",
+      "question": "Choose the correct form:\n「私は昨年スペイン語を学び始めた」\nI ___ learning Spanish last year.",
+      "choices": [
+        "start",
+        "started",
+        "have started",
+        "starting"
+      ],
+      "answer": 1,
+      "explanation": "「last year」という過去の副詞があるため単純過去形が正解。"
+    },
+    {
+      "id": "en_gram_323",
+      "question": "Choose the correct form:\n「その法律は昨年改正された」\nThe law ___ last year.",
+      "choices": [
+        "revised",
+        "was revised",
+        "has revised",
+        "revises"
+      ],
+      "answer": 1,
+      "explanation": "過去の受動態「was revised」が正解です。"
+    },
+    {
+      "id": "en_gram_324",
+      "question": "Choose the correct form:\n「彼女がどこにいるか誰も知らない」\nNobody knows ___ she is.",
+      "choices": [
+        "that",
+        "which",
+        "where",
+        "when"
+      ],
+      "answer": 2,
+      "explanation": "「where（どこに）」の間接疑問文です。"
+    },
+    {
+      "id": "en_gram_325",
+      "question": "Choose the correct form:\n「彼女が部屋を出ていくのを見た」\nI saw her ___ the room.",
+      "choices": [
+        "leave",
+        "left",
+        "leaving",
+        "to leave"
+      ],
+      "answer": 0,
+      "explanation": "知覚動詞「see + 目的語 + 動詞原形」の構文です。"
+    },
+    {
+      "id": "en_gram_326",
+      "question": "Choose the correct form:\n「私にはやるべきことがたくさんある」\nI have a lot of things ___.",
+      "choices": [
+        "do",
+        "to do",
+        "doing",
+        "done"
+      ],
+      "answer": 1,
+      "explanation": "「things to do（やるべきこと）」は不定詞の形容詞的用法です。"
+    },
+    {
+      "id": "en_gram_327",
+      "question": "Choose the correct form:\n「私は彼女と何年も会っていない」\nI haven't seen her ___ years.",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "while"
+      ],
+      "answer": 1,
+      "explanation": "「for + 期間（〜の間）」は継続時間を表します。"
+    },
+    {
+      "id": "en_gram_328",
+      "question": "Choose the correct form:\n「彼女は友達から本を借りた」\nShe ___ a book from her friend.",
+      "choices": [
+        "lent",
+        "borrowed",
+        "loaned",
+        "hired"
+      ],
+      "answer": 1,
+      "explanation": "「borrow（借りる）」は自分が借りる側の動詞です。"
+    },
+    {
+      "id": "en_gram_329",
+      "question": "Choose the correct form:\n「彼女は英語がうまくて翻訳家として働いている」\nShe speaks English well, ___ she works as a translator.",
+      "choices": [
+        "so",
+        "but",
+        "although",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「so（だから）」は結果を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_330",
+      "question": "Choose the correct form:\n「彼女はミスをしたことを認めた」\nShe ___ making a mistake.",
+      "choices": [
+        "admitted",
+        "agreed",
+        "allowed",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "「admit + 動名詞（〜したことを認める）」の構文です。"
+    },
+    {
+      "id": "en_gram_331",
+      "question": "Choose the correct form:\n「彼はその問題を解いた後、解答を確認した」\nAfter ___ the problem, he checked his answer.",
+      "choices": [
+        "solving",
+        "solved",
+        "to solve",
+        "solve"
+      ],
+      "answer": 0,
+      "explanation": "「after + 動名詞（〜した後）」の構文。前置詞の後は動名詞。"
+    },
+    {
+      "id": "en_gram_332",
+      "question": "Choose the correct form:\n「彼は私に親切に話しかけてくれた」\nHe spoke to me ___.",
+      "choices": [
+        "kind",
+        "kindly",
+        "kinder",
+        "kindness"
+      ],
+      "answer": 1,
+      "explanation": "動詞 spoke を修飾するので副詞 kindly が正解です。"
+    },
+    {
+      "id": "en_gram_333",
+      "question": "Choose the correct form:\n「彼女は今まで一度も海外に行ったことがない」\nShe has ___ been abroad.",
+      "choices": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "answer": 1,
+      "explanation": "「never（一度も〜ない）」は否定の経験を表す副詞です。"
+    },
+    {
+      "id": "en_gram_334",
+      "question": "Choose the correct form:\n「彼は5年間英語を勉強してきた」\nHe ___ English for five years.",
+      "choices": [
+        "studies",
+        "has been studying",
+        "is studying",
+        "had studied"
+      ],
+      "answer": 1,
+      "explanation": "「現在まで継続している動作」は現在完了進行形で表します。"
+    },
+    {
+      "id": "en_gram_335",
+      "question": "Choose the correct form:\n「その映画を見て私は日本の歴史に興味を持つようになった」\nI became ___ in Japanese history after watching the movie.",
+      "choices": [
+        "interest",
+        "interesting",
+        "interested",
+        "interests"
+      ],
+      "answer": 2,
+      "explanation": "「become interested in（〜に興味を持つ）」の構文です。"
+    },
+    {
+      "id": "en_gram_336",
+      "question": "Choose the correct form:\n「彼女はその知らせを聞いてすぐに病院へ向かった」\nShe headed for the hospital as soon as she ___ the news.",
+      "choices": [
+        "hears",
+        "will hear",
+        "heard",
+        "had heard"
+      ],
+      "answer": 2,
+      "explanation": "「as soon as + 過去形（〜するとすぐに）」の構文です。"
+    },
+    {
+      "id": "en_gram_337",
+      "question": "Choose the correct form:\n「彼女はもっと早く起きればよかった」\nShe wished she ___ gotten up earlier.",
+      "choices": [
+        "has",
+        "had",
+        "would have",
+        "could"
+      ],
+      "answer": 1,
+      "explanation": "「wish + 仮定法過去完了（had + 過去分詞）」で過去の後悔を表します。"
+    },
+    {
+      "id": "en_gram_338",
+      "question": "Choose the correct form:\n「試合に勝てるよう一生懸命練習した」\nThey trained hard ___ they could win.",
+      "choices": [
+        "because",
+        "although",
+        "so that",
+        "in order"
+      ],
+      "answer": 2,
+      "explanation": "「so that + S + could（〜できるように）」は目的を表します。"
+    },
+    {
+      "id": "en_gram_339",
+      "question": "Choose the correct form:\n「彼が試験に合格したことを喜んだ」\nHe was ___ to have passed the exam.",
+      "choices": [
+        "delight",
+        "delighted",
+        "delighting",
+        "delightful"
+      ],
+      "answer": 1,
+      "explanation": "「be delighted to + 不定詞（〜してうれしい）」の構文です。"
+    },
+    {
+      "id": "en_gram_340",
+      "question": "Choose the correct form:\n「彼女は親友を空港で見送りに行った」\nShe went to the airport to see ___ her best friend.",
+      "choices": [
+        "off",
+        "out",
+        "through",
+        "over"
+      ],
+      "answer": 0,
+      "explanation": "「see off（〜を見送る）」の熟語です。"
+    },
+    {
+      "id": "en_gram_341",
+      "question": "Choose the correct form:\n「今すぐ出発しなければ電車に乗り遅れる」\nIf you don't leave now, you ___ the train.",
+      "choices": [
+        "miss",
+        "will miss",
+        "missed",
+        "would miss"
+      ],
+      "answer": 1,
+      "explanation": "直接条件の帰結節では will + 動詞原形を使います。"
+    },
+    {
+      "id": "en_gram_342",
+      "question": "Choose the correct form:\n「彼は電車の中で偶然旧友に会った」\nHe ran ___ an old friend on the train.",
+      "choices": [
+        "into",
+        "over",
+        "out",
+        "away"
+      ],
+      "answer": 0,
+      "explanation": "「run into（〜に偶然会う）」の熟語です。"
+    },
+    {
+      "id": "en_gram_343",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことに情熱を持っている」\nShe has a passion ___ learning English.",
+      "choices": [
+        "for",
+        "about",
+        "of",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "「have a passion for（〜に情熱を持つ）」の構文です。"
+    },
+    {
+      "id": "en_gram_344",
+      "question": "Choose the correct form:\n「彼は私に3冊本を貸してくれた」\nHe ___ me three books.",
+      "choices": [
+        "lent",
+        "borrowed",
+        "gave",
+        "took"
+      ],
+      "answer": 0,
+      "explanation": "「lend + 人 + 物（貸す）」の構文。lent は lend の過去形。"
+    },
+    {
+      "id": "en_gram_345",
+      "question": "Choose the correct form:\n「私は彼が正しいかどうかわからない」\nI don't know ___ he is right.",
+      "choices": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "explanation": "「whether（〜かどうか）」は不確実な事柄を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_346",
+      "question": "Choose the correct form:\n「彼女は旅行中に多くの人と友達になった」\nShe made friends with many people ___ her trip.",
+      "choices": [
+        "during",
+        "while",
+        "for",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "「during（〜の間に）」は特定の期間を表す前置詞です。"
+    },
+    {
+      "id": "en_gram_347",
+      "question": "Choose the correct form:\n「彼女は英語の本を読むことで語彙を増やした」\nShe expanded her vocabulary ___ reading English books.",
+      "choices": [
+        "from",
+        "by",
+        "through",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「by + 動名詞（〜することによって）」は手段を表します。"
+    },
+    {
+      "id": "en_gram_348",
+      "question": "Choose the correct form:\n「彼はその仕事を引き受けることにした」\nHe decided ___ on the job.",
+      "choices": [
+        "take",
+        "to take",
+        "taking",
+        "taken"
+      ],
+      "answer": 1,
+      "explanation": "「decide to + 動詞原形（〜することにする）」の構文です。"
+    },
+    {
+      "id": "en_gram_349",
+      "question": "Choose the correct form:\n「彼女は新しいプロジェクトに取り組んでいる」\nShe is working ___ a new project.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "for"
+      ],
+      "answer": 2,
+      "explanation": "「work on（〜に取り組む）」の構文です。"
+    },
+    {
+      "id": "en_gram_350",
+      "question": "Choose the correct form:\n「彼は彼女の言葉に傷ついた」\nHe was ___ by her words.",
+      "choices": [
+        "hurt",
+        "hurting",
+        "hurtful",
+        "hurts"
+      ],
+      "answer": 0,
+      "explanation": "「be hurt by（〜に傷つく）」の受動態です。"
+    },
+    {
+      "id": "en_gram_351",
+      "question": "Choose the correct form:\n「彼は午後3時に会議に出席した」\nHe attended the meeting ___ 3 p.m.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "具体的な時刻には前置詞 at を使います。"
+    },
+    {
+      "id": "en_gram_352",
+      "question": "Choose the correct form:\n「彼女は先生に挨拶するのを忘れなかった」\nShe didn't forget ___ her teacher.",
+      "choices": [
+        "greet",
+        "to greet",
+        "greeting",
+        "greeted"
+      ],
+      "answer": 1,
+      "explanation": "「forget to + 動詞原形（〜するのを忘れる）」の構文です。"
+    },
+    {
+      "id": "en_gram_353",
+      "question": "Choose the correct form:\n「この公園は地元の人に愛されている」\nThis park is ___ by local people.",
+      "choices": [
+        "love",
+        "loved",
+        "loving",
+        "lovely"
+      ],
+      "answer": 1,
+      "explanation": "受動態「be + 過去分詞」の形です。「is loved（愛されている）」が正解。"
+    },
+    {
+      "id": "en_gram_354",
+      "question": "Choose the correct form:\n「私は彼女の話を聞いてとても感動した」\nI was very ___ by her story.",
+      "choices": [
+        "move",
+        "moved",
+        "moving",
+        "movement"
+      ],
+      "answer": 1,
+      "explanation": "「be moved by（〜に感動する）」の受動態です。"
+    },
+    {
+      "id": "en_gram_355",
+      "question": "Choose the correct form:\n「彼女は来年大学を卒業する予定だ」\nShe is scheduled ___ from university next year.",
+      "choices": [
+        "graduate",
+        "graduating",
+        "to graduate",
+        "graduated"
+      ],
+      "answer": 2,
+      "explanation": "「be scheduled to + 動詞原形（〜する予定）」の構文です。"
+    },
+    {
+      "id": "en_gram_356",
+      "question": "Choose the correct form:\n「彼はその知らせを聞いてすぐに病院へ向かった」\nHe rushed to the hospital ___ he heard the news.",
+      "choices": [
+        "as soon as",
+        "until",
+        "since",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as（〜するとすぐに）」の接続詞です。"
+    },
+    {
+      "id": "en_gram_357",
+      "question": "Choose the correct form:\n「彼女は夫と一緒に旅行するのが好きだ」\nShe enjoys ___ with her husband.",
+      "choices": [
+        "travel",
+        "to travel",
+        "traveling",
+        "traveled"
+      ],
+      "answer": 2,
+      "explanation": "「enjoy + 動名詞（〜することを楽しむ）」の構文です。"
+    },
+    {
+      "id": "en_gram_358",
+      "question": "Choose the correct form:\n「彼が間違っているとは言えない」\nI can't say ___ he is wrong.",
+      "choices": [
+        "what",
+        "that",
+        "which",
+        "how"
+      ],
+      "answer": 1,
+      "explanation": "「say that（〜と言う）」の名詞節です。"
+    },
+    {
+      "id": "en_gram_359",
+      "question": "Choose the correct form:\n「この薬は高熱に効く」\nThis medicine is effective ___ high fever.",
+      "choices": [
+        "against",
+        "for",
+        "to",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "「be effective against（〜に効果的）」の構文です。"
+    },
+    {
+      "id": "en_gram_360",
+      "question": "Choose the correct form:\n「彼女が試験に合格したことを伝えた」\nShe told him ___ she had passed the exam.",
+      "choices": [
+        "what",
+        "that",
+        "how",
+        "which"
+      ],
+      "answer": 1,
+      "explanation": "「tell + 人 + that節（人に〜と伝える）」の構文です。"
+    },
+    {
+      "id": "en_gram_361",
+      "question": "Choose the correct form:\n「彼女は英語を流暢に話す能力がある」\nShe has the ___ to speak English fluently.",
+      "choices": [
+        "able",
+        "ability",
+        "abling",
+        "ably"
+      ],
+      "answer": 1,
+      "explanation": "「have the ability to + 動詞原形（〜する能力がある）」の構文です。"
+    },
+    {
+      "id": "en_gram_362",
+      "question": "Choose the correct form:\n「彼女は速く走ることで知られている」\nShe is known ___ running fast.",
+      "choices": [
+        "as",
+        "for",
+        "by",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「be known for（〜で有名）」は理由・特徴を表します。"
+    },
+    {
+      "id": "en_gram_363",
+      "question": "Choose the correct form:\n「このプロジェクトは期待以上の成果を上げた」\nThis project ___ our expectations.",
+      "choices": [
+        "exceeded",
+        "preceded",
+        "proceeded",
+        "succeeded"
+      ],
+      "answer": 0,
+      "explanation": "「exceed expectations（期待を超える）」が正解です。"
+    },
+    {
+      "id": "en_gram_364",
+      "question": "Choose the correct form:\n「彼女は試験に向けて準備万端だ」\nShe is well ___ for the exam.",
+      "choices": [
+        "prepare",
+        "preparing",
+        "prepared",
+        "preparation"
+      ],
+      "answer": 2,
+      "explanation": "「be well prepared for（〜に十分準備できている）」の構文です。"
+    },
+    {
+      "id": "en_gram_365",
+      "question": "Choose the correct form:\n「彼は電話しながら運転した」\nHe drove ___ talking on the phone.",
+      "choices": [
+        "while",
+        "during",
+        "although",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「while + 現在分詞（〜しながら）」で同時進行を表します。"
+    },
+    {
+      "id": "en_gram_366",
+      "question": "Choose the correct form:\n「私はその仕事を断った」\nI ___ the job offer.",
+      "choices": [
+        "turned down",
+        "turned up",
+        "turned over",
+        "turned out"
+      ],
+      "answer": 0,
+      "explanation": "「turn down（〜を断る）」の熟語です。"
+    },
+    {
+      "id": "en_gram_367",
+      "question": "Choose the correct form:\n「彼は5年ぶりに故郷に戻った」\nHe returned to his hometown ___ five years.",
+      "choices": [
+        "since",
+        "for",
+        "after",
+        "during"
+      ],
+      "answer": 2,
+      "explanation": "「after five years（5年後・5年ぶりに）」は期間後の動作を表します。"
+    },
+    {
+      "id": "en_gram_368",
+      "question": "Choose the correct form:\n「彼女は英語の文法を理解するのに苦労した」\nShe had difficulty ___ English grammar.",
+      "choices": [
+        "understand",
+        "to understand",
+        "understanding",
+        "understood"
+      ],
+      "answer": 2,
+      "explanation": "「have difficulty + 動名詞（〜するのに苦労する）」の構文です。"
+    },
+    {
+      "id": "en_gram_369",
+      "question": "Choose the correct form:\n「彼女は毎週末テニスをする習慣があった」\nShe ___ play tennis every weekend.",
+      "choices": [
+        "use to",
+        "used to",
+        "is used to",
+        "was used to"
+      ],
+      "answer": 1,
+      "explanation": "「used to + 動詞原形（かつて〜していた）」の構文です。"
+    },
+    {
+      "id": "en_gram_370",
+      "question": "Choose the correct form:\n「彼は年齢のわりに非常に成熟している」\nHe is very mature ___ his age.",
+      "choices": [
+        "for",
+        "at",
+        "to",
+        "by"
+      ],
+      "answer": 0,
+      "explanation": "「for one's age（年齢のわりに）」の表現です。"
+    },
+    {
+      "id": "en_gram_371",
+      "question": "Choose the correct form:\n「試合は雨で中止された」\nThe game was called ___ because of rain.",
+      "choices": [
+        "off",
+        "out",
+        "over",
+        "up"
+      ],
+      "answer": 0,
+      "explanation": "「call off（〜を中止する）」の熟語です。受動態「was called off」が正解。"
+    },
+    {
+      "id": "en_gram_372",
+      "question": "Choose the correct form:\n「彼女は仕事が終わったらすぐに帰宅する」\nShe will go home ___ her work is done.",
+      "choices": [
+        "as soon as",
+        "until",
+        "during",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as（〜するとすぐに）」の接続詞です。"
+    },
+    {
+      "id": "en_gram_373",
+      "question": "Choose the correct form:\n「彼女は今まで経験したことのない困難に直面した」\nShe faced difficulties she had never ___ before.",
+      "choices": [
+        "experience",
+        "experiencing",
+        "experienced",
+        "experiences"
+      ],
+      "answer": 2,
+      "explanation": "「had never experienced（今まで経験したことがない）」の過去完了形です。"
+    },
+    {
+      "id": "en_gram_374",
+      "question": "Choose the correct form:\n「彼は先週の会議に出席した」\nHe ___ the meeting last week.",
+      "choices": [
+        "attended",
+        "attend",
+        "was attending",
+        "has attended"
+      ],
+      "answer": 0,
+      "explanation": "「last week」という過去の副詞があるため単純過去形が正解。"
+    },
+    {
+      "id": "en_gram_375",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことに時間を費やした」\nShe spent her time ___ English.",
+      "choices": [
+        "learn",
+        "to learn",
+        "learning",
+        "learned"
+      ],
+      "answer": 2,
+      "explanation": "「spend + 時間 + 動名詞（〜して時間を過ごす）」の構文です。"
+    },
+    {
+      "id": "en_gram_376",
+      "question": "Choose the correct form:\n「彼は英語を学ぶことに多くの時間を費やした」\nHe spent a lot of time ___ English.",
+      "choices": [
+        "learn",
+        "learning",
+        "to learn",
+        "learned"
+      ],
+      "answer": 1,
+      "explanation": "「spend + 時間 + 動名詞（〜して時間を過ごす）」の構文です。"
+    },
+    {
+      "id": "en_gram_377",
+      "question": "Choose the correct form:\n「私は今まで東京に3回行ったことがある」\nI have ___ Tokyo three times.",
+      "choices": [
+        "gone to",
+        "been to",
+        "visited to",
+        "went to"
+      ],
+      "answer": 1,
+      "explanation": "「have been to（〜に行ったことがある）」は経験を表す現在完了の表現です。"
+    },
+    {
+      "id": "en_gram_378",
+      "question": "Choose the correct form:\n「彼女は道に迷ってしまった」\nShe got ___.",
+      "choices": [
+        "lose",
+        "lost",
+        "losing",
+        "to lose"
+      ],
+      "answer": 1,
+      "explanation": "「get lost（道に迷う）」の表現です。"
+    },
+    {
+      "id": "en_gram_379",
+      "question": "Choose the correct form:\n「彼は3ヶ月かけてその本を書いた」\nIt ___ him three months to write the book.",
+      "choices": [
+        "spent",
+        "took",
+        "cost",
+        "needed"
+      ],
+      "answer": 1,
+      "explanation": "「It takes + 人 + 時間 + to不定詞」の構文で過去形は took が正解。"
+    },
+    {
+      "id": "en_gram_380",
+      "question": "Choose the correct form:\n「彼女は5年間東京に住んでいる」\nShe ___ in Tokyo for five years.",
+      "choices": [
+        "lives",
+        "lived",
+        "has lived",
+        "had lived"
+      ],
+      "answer": 2,
+      "explanation": "「for five years（5年間）」とともに現在完了形「has lived」を使います。"
+    },
+    {
+      "id": "en_gram_381",
+      "question": "Choose the correct form:\n「彼女は友人のために料理を作った」\nShe cooked a meal ___ her friend.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「cook A for B（BのためにAを作る）」の構文です。"
+    },
+    {
+      "id": "en_gram_382",
+      "question": "Choose the correct form:\n「今年の冬は去年より寒い」\nThis winter is ___ than last year.",
+      "choices": [
+        "cold",
+        "colder",
+        "coldest",
+        "more cold"
+      ],
+      "answer": 1,
+      "explanation": "比較級は「colder（より寒い）」。more cold は誤り。"
+    },
+    {
+      "id": "en_gram_383",
+      "question": "Choose the correct form:\n「彼女は来年大学を卒業する」\nShe will ___ from university next year.",
+      "choices": [
+        "graduate",
+        "graduating",
+        "graduated",
+        "graduation"
+      ],
+      "answer": 0,
+      "explanation": "「will + 動詞原形（〜するだろう）」の構文。graduate が正解。"
+    },
+    {
+      "id": "en_gram_384",
+      "question": "Choose the correct form:\n「彼は知らない場所で道に迷うのを恐れている」\nHe is afraid of ___ lost in an unfamiliar place.",
+      "choices": [
+        "get",
+        "got",
+        "getting",
+        "to get"
+      ],
+      "answer": 2,
+      "explanation": "「be afraid of + 動名詞（〜することを恐れている）」の構文です。"
+    },
+    {
+      "id": "en_gram_385",
+      "question": "Choose the correct form:\n「彼女はその詩を暗記しなければならなかった」\nShe had to ___ the poem by heart.",
+      "choices": [
+        "learn",
+        "memorize",
+        "remember",
+        "recall"
+      ],
+      "answer": 0,
+      "explanation": "「learn by heart（〜を暗記する）」は定型表現です。"
+    },
+    {
+      "id": "en_gram_386",
+      "question": "Choose the correct form:\n「今年は去年より雨が多い」\nWe are having ___ rain this year than last year.",
+      "choices": [
+        "much more",
+        "more",
+        "many more",
+        "most"
+      ],
+      "answer": 0,
+      "explanation": "rain は不可算名詞なので much more を使います。「much more rain」が正解。"
+    },
+    {
+      "id": "en_gram_387",
+      "question": "Choose the correct form:\n「彼女はできるだけ速く答えた」\nShe answered ___ quickly as possible.",
+      "choices": [
+        "as",
+        "so",
+        "more",
+        "most"
+      ],
+      "answer": 0,
+      "explanation": "「as + 副詞 + as possible（できるだけ〜）」の構文です。"
+    },
+    {
+      "id": "en_gram_388",
+      "question": "Choose the correct form:\n「彼女は彼の成功を誇りに思っている」\nShe is proud ___ his success.",
+      "choices": [
+        "about",
+        "of",
+        "in",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「be proud of（〜を誇りに思う）」の構文です。"
+    },
+    {
+      "id": "en_gram_389",
+      "question": "Choose the correct form:\n「私は彼女に相談したい」\nI'd like to ___ you about the matter.",
+      "choices": [
+        "consult",
+        "ask",
+        "discuss",
+        "talk"
+      ],
+      "answer": 0,
+      "explanation": "「consult（〜に相談する）」は目的語を直接取ります。"
+    },
+    {
+      "id": "en_gram_390",
+      "question": "Choose the correct form:\n「彼は失敗を恐れずに挑戦した」\nHe tried without ___ failure.",
+      "choices": [
+        "fear",
+        "fearing",
+        "to fear",
+        "feared"
+      ],
+      "answer": 1,
+      "explanation": "「without + 動名詞（〜せずに）」の構文です。"
+    },
+    {
+      "id": "en_gram_391",
+      "question": "Choose the correct form:\n「私は彼女が何を言ったのか覚えていない」\nI don't remember ___ she said.",
+      "choices": [
+        "that",
+        "what",
+        "which",
+        "how"
+      ],
+      "answer": 1,
+      "explanation": "「what（何を）」の間接疑問文です。"
+    },
+    {
+      "id": "en_gram_392",
+      "question": "Choose the correct form:\n「彼女は親切にも駅まで送ってくれた」\nShe was kind ___ take me to the station.",
+      "choices": [
+        "to",
+        "enough to",
+        "so",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「kind enough to + 動詞原形（親切にも〜してくれた）」の構文です。"
+    },
+    {
+      "id": "en_gram_393",
+      "question": "Choose the correct form:\n「彼女は毎日少なくとも1時間は読書をする」\nShe reads for ___ an hour every day.",
+      "choices": [
+        "at most",
+        "at least",
+        "at last",
+        "at best"
+      ],
+      "answer": 1,
+      "explanation": "「at least（少なくとも）」の表現です。"
+    },
+    {
+      "id": "en_gram_394",
+      "question": "Choose the correct form:\n「彼は彼女に謝るべきだった」\nHe ___ to her.",
+      "choices": [
+        "should apologize",
+        "should have apologized",
+        "must apologize",
+        "had to apologize"
+      ],
+      "answer": 1,
+      "explanation": "「should have + 過去分詞（〜すべきだったのに）」は過去の後悔を表します。"
+    },
+    {
+      "id": "en_gram_395",
+      "question": "Choose the correct form:\n「彼女は転職したことを後悔していない」\nShe doesn't regret ___ jobs.",
+      "choices": [
+        "change",
+        "changing",
+        "changed",
+        "to change"
+      ],
+      "answer": 1,
+      "explanation": "「regret + 動名詞（〜したことを後悔する）」の構文です。"
+    },
+    {
+      "id": "en_gram_396",
+      "question": "Choose the correct form:\n「彼は私に電話するよう頼んだ」\nHe asked me ___ him.",
+      "choices": [
+        "call",
+        "calling",
+        "to call",
+        "called"
+      ],
+      "answer": 2,
+      "explanation": "「ask + 人 + to不定詞（〜するよう頼む）」の構文です。"
+    },
+    {
+      "id": "en_gram_397",
+      "question": "Choose the correct form:\n「彼女は英語を流暢に話す努力をしている」\nShe is making an effort ___ English fluently.",
+      "choices": [
+        "speak",
+        "to speak",
+        "speaking",
+        "spoken"
+      ],
+      "answer": 1,
+      "explanation": "「make an effort to + 動詞原形（〜する努力をする）」の構文です。"
+    },
+    {
+      "id": "en_gram_398",
+      "question": "Choose the correct form:\n「今年の夏は去年より暑かった」\nThis summer was ___ than last year.",
+      "choices": [
+        "hot",
+        "hotter",
+        "hottest",
+        "more hot"
+      ],
+      "answer": 1,
+      "explanation": "比較級は「hotter」。more hot は誤りです。"
+    },
+    {
+      "id": "en_gram_399",
+      "question": "Choose the correct form:\n「彼女は昨年から英語を習っている」\nShe ___ learning English since last year.",
+      "choices": [
+        "is",
+        "was",
+        "has been",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "「since（〜以来）」があるので現在完了（進行）形「has been」を使います。"
+    },
+    {
+      "id": "en_gram_400",
+      "question": "Choose the correct form:\n「彼女はその映画を見て感動して泣き出した」\nShe was so ___ by the movie that she cried.",
+      "choices": [
+        "move",
+        "moved",
+        "moving",
+        "movement"
+      ],
+      "answer": 1,
+      "explanation": "「be moved by（〜に感動する）」の受動態で so...that の構文です。"
+    },
+    {
+      "id": "en_gram_401",
+      "question": "Choose the correct form:\n「彼女は昨夜遅くまで勉強した」\nShe studied ___ late last night.",
+      "choices": [
+        "until",
+        "while",
+        "during",
+        "since"
+      ],
+      "answer": 0,
+      "explanation": "「until（〜まで）」は継続の終点を表します。"
+    },
+    {
+      "id": "en_gram_402",
+      "question": "Choose the correct form:\n「彼はその計画に反対だ」\nHe is ___ the plan.",
+      "choices": [
+        "against",
+        "for",
+        "with",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "「be against（〜に反対だ）」の構文です。"
+    },
+    {
+      "id": "en_gram_403",
+      "question": "Choose the correct form:\n「彼女は疲れていたので早く寝た」\nShe went to bed early ___ she was tired.",
+      "choices": [
+        "although",
+        "because",
+        "despite",
+        "unless"
+      ],
+      "answer": 1,
+      "explanation": "because（〜なので）は理由を示す接続詞です。"
+    },
+    {
+      "id": "en_gram_404",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことに熱心だ」\nShe is enthusiastic ___ learning English.",
+      "choices": [
+        "about",
+        "of",
+        "for",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "「be enthusiastic about（〜に熱心だ）」の構文です。"
+    },
+    {
+      "id": "en_gram_405",
+      "question": "Choose the correct form:\n「彼女は疲れていたにもかかわらず仕事を続けた」\nShe continued working ___ being tired.",
+      "choices": [
+        "although",
+        "despite",
+        "because of",
+        "due to"
+      ],
+      "answer": 1,
+      "explanation": "「despite（〜にもかかわらず）」は前置詞で後に動名詞が続きます。"
+    },
+    {
+      "id": "en_gram_406",
+      "question": "Choose the correct form:\n「彼は私に道を教えてくれた」\nHe ___ me the way to the station.",
+      "choices": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": 0,
+      "explanation": "「tell + 人 + 物（人に物を教える）」の構文です。"
+    },
+    {
+      "id": "en_gram_407",
+      "question": "Choose the correct form:\n「彼女は英語で書かれた小説を楽しんでいる」\nShe enjoys reading novels ___ in English.",
+      "choices": [
+        "write",
+        "written",
+        "writing",
+        "to write"
+      ],
+      "answer": 1,
+      "explanation": "「written in English（英語で書かれた）」は過去分詞の後置修飾です。"
+    },
+    {
+      "id": "en_gram_408",
+      "question": "Choose the correct form:\n「その映画は2時間以上続いた」\nThe movie ___ for more than two hours.",
+      "choices": [
+        "lasted",
+        "was lasted",
+        "has lasted",
+        "had lasted"
+      ],
+      "answer": 0,
+      "explanation": "「last（続く）」は自動詞で受動態にできません。過去形 lasted が正解。"
+    },
+    {
+      "id": "en_gram_409",
+      "question": "Choose the correct form:\n「彼女は病気のため会議を欠席した」\nShe was absent from the meeting ___ illness.",
+      "choices": [
+        "because",
+        "due to",
+        "although",
+        "unless"
+      ],
+      "answer": 1,
+      "explanation": "「due to（〜が原因で）」は前置詞句です。"
+    },
+    {
+      "id": "en_gram_410",
+      "question": "Choose the correct form:\n「彼は彼女に嘘をついていたことを認めた」\nHe admitted ___ lying to her.",
+      "choices": [
+        "to have",
+        "to having",
+        "having",
+        "to"
+      ],
+      "answer": 2,
+      "explanation": "「admit + 動名詞（〜したことを認める）」の構文。having が正解。"
+    },
+    {
+      "id": "en_gram_411",
+      "question": "Choose the correct form:\n「彼女は走るのが私より速い」\nShe runs ___ than me.",
+      "choices": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 1,
+      "explanation": "比較級は「faster（より速い）」。more fast は誤りです。"
+    },
+    {
+      "id": "en_gram_412",
+      "question": "Choose the correct form:\n「彼女は昨日の朝から何も食べていない」\nShe hasn't eaten anything ___ yesterday morning.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜以来）」は過去の起点を示し現在完了形と使います。"
+    },
+    {
+      "id": "en_gram_413",
+      "question": "Choose the correct form:\n「彼は試験に合格するよう全力を尽くした」\nHe did his best ___ pass the exam.",
+      "choices": [
+        "to",
+        "for",
+        "in order to",
+        "so as to"
+      ],
+      "answer": 2,
+      "explanation": "「in order to + 動詞原形（〜するために）」は目的を表します。"
+    },
+    {
+      "id": "en_gram_414",
+      "question": "Choose the correct form:\n「彼女はその件についてあなたに相談したいと思っている」\nShe wants to ___ you about the matter.",
+      "choices": [
+        "consult",
+        "ask",
+        "discuss",
+        "talk"
+      ],
+      "answer": 0,
+      "explanation": "「consult（〜に相談する）」は目的語を直接取ります。"
+    },
+    {
+      "id": "en_gram_415",
+      "question": "Choose the correct form:\n「彼女は今まで見た中で最も面白い映画だと思った」\nShe thought it was the most interesting movie she ___ ever seen.",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "answer": 2,
+      "explanation": "「the most + 形容詞 + she had ever seen」は過去完了形が自然です。"
+    },
+    {
+      "id": "en_gram_416",
+      "question": "Choose the correct form:\n「彼は仕事が忙しいにもかかわらず家族との時間を大切にする」\nHe values family time ___ his busy work schedule.",
+      "choices": [
+        "because of",
+        "despite",
+        "although",
+        "since"
+      ],
+      "answer": 1,
+      "explanation": "「despite（〜にもかかわらず）」は前置詞で後に名詞が続きます。"
+    },
+    {
+      "id": "en_gram_417",
+      "question": "Choose the correct form:\n「彼は彼女を助けたことを誇りに思っている」\nHe is proud ___ having helped her.",
+      "choices": [
+        "about",
+        "of",
+        "in",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「be proud of（〜を誇りに思う）」の構文です。"
+    },
+    {
+      "id": "en_gram_418",
+      "question": "Choose the correct form:\n「彼女は週3回ジムへ行く」\nShe goes to the gym ___ times a week.",
+      "choices": [
+        "two",
+        "twice",
+        "three",
+        "much"
+      ],
+      "answer": 2,
+      "explanation": "「3回」は three times です。"
+    },
+    {
+      "id": "en_gram_419",
+      "question": "Choose the correct form:\n「彼は昨日から入院している」\nHe ___ in the hospital since yesterday.",
+      "choices": [
+        "is",
+        "was",
+        "has been",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "「since（〜以来）」があるので現在完了形「has been」を使います。"
+    },
+    {
+      "id": "en_gram_420",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことに多くの時間を費やしてきた」\nShe has spent a lot of time ___ English.",
+      "choices": [
+        "learn",
+        "to learn",
+        "learning",
+        "learned"
+      ],
+      "answer": 2,
+      "explanation": "「spend + 時間 + 動名詞（〜して時間を過ごす）」の構文です。"
+    },
+    {
+      "id": "en_gram_421",
+      "question": "Choose the correct form:\n「彼女は今週末に友達の家に泊まる予定だ」\nShe ___ stay at her friend's house this weekend.",
+      "choices": [
+        "is going to",
+        "is going",
+        "goes to",
+        "will going"
+      ],
+      "answer": 0,
+      "explanation": "「be going to + 動詞原形（〜するつもり）」の構文です。"
+    },
+    {
+      "id": "en_gram_422",
+      "question": "Choose the correct form:\n「彼は日本語がとても上手なので通訳として働いている」\nHis Japanese is ___ good that he works as an interpreter.",
+      "choices": [
+        "very",
+        "so",
+        "such",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "「so + 形容詞 + that（とても〜なので…）」の構文です。"
+    },
+    {
+      "id": "en_gram_423",
+      "question": "Choose the correct form:\n「彼女は昨年そのコースを修了した」\nShe ___ the course last year.",
+      "choices": [
+        "completes",
+        "completed",
+        "has completed",
+        "completing"
+      ],
+      "answer": 1,
+      "explanation": "「last year」という過去の副詞があるため単純過去形が正解。"
+    },
+    {
+      "id": "en_gram_424",
+      "question": "Choose the correct form:\n「彼女は毎日英語の勉強を続けている」\nShe ___ studying English every day.",
+      "choices": [
+        "keeps",
+        "keep",
+        "kept",
+        "is kept"
+      ],
+      "answer": 0,
+      "explanation": "「keep + 動名詞（〜し続ける）」の現在形。三単現で keeps が正解。"
+    },
+    {
+      "id": "en_gram_425",
+      "question": "Choose the correct form:\n「彼は引退後も元気だ」\nHe is still active ___ retiring.",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "during"
+      ],
+      "answer": 0,
+      "explanation": "「after retiring（引退した後も）」の前置詞 after + 動名詞です。"
+    },
+    {
+      "id": "en_gram_426",
+      "question": "Choose the correct form:\n「彼女は英語の授業で積極的に発言する」\nShe actively ___ in English class.",
+      "choices": [
+        "participate",
+        "participates",
+        "participating",
+        "participated"
+      ],
+      "answer": 1,
+      "explanation": "三単現で participates が正解。「participate in（〜に参加する）」の構文です。"
+    },
+    {
+      "id": "en_gram_427",
+      "question": "Choose the correct form:\n「彼女は自分の将来のことを心配している」\nShe is worried ___ her future.",
+      "choices": [
+        "about",
+        "for",
+        "of",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "「be worried about（〜を心配している）」の構文です。"
+    },
+    {
+      "id": "en_gram_428",
+      "question": "Choose the correct form:\n「彼女は英語が好きなだけでなく数学も好きだ」\nShe likes not only English ___ also math.",
+      "choices": [
+        "and",
+        "or",
+        "but",
+        "yet"
+      ],
+      "answer": 2,
+      "explanation": "「not only A but also B（AだけでなくBも）」の構文です。"
+    },
+    {
+      "id": "en_gram_429",
+      "question": "Choose the correct form:\n「彼女は今まで一度もアメリカに行ったことがない」\nShe has ___ been to America.",
+      "choices": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "answer": 1,
+      "explanation": "「never（一度も〜ない）」は否定の経験を表します。"
+    },
+    {
+      "id": "en_gram_430",
+      "question": "Choose the correct form:\n「私は仕事が終わり次第連絡します」\nI will contact you ___ I finish work.",
+      "choices": [
+        "as soon as",
+        "until",
+        "while",
+        "before"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as（〜するとすぐに）」の接続詞です。"
+    },
+    {
+      "id": "en_gram_431",
+      "question": "Choose the correct form:\n「その映画はとても感動的で3回見た」\nThe movie was ___ touching that I watched it three times.",
+      "choices": [
+        "very",
+        "so",
+        "such",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "「so + 形容詞 + that」の構文です。"
+    },
+    {
+      "id": "en_gram_432",
+      "question": "Choose the correct form:\n「私はその問題を一人では解けなかった」\nI wasn't able ___ the problem alone.",
+      "choices": [
+        "solve",
+        "to solve",
+        "solving",
+        "solved"
+      ],
+      "answer": 1,
+      "explanation": "「be able to + 動詞原形（〜できる）」の構文です。"
+    },
+    {
+      "id": "en_gram_433",
+      "question": "Choose the correct form:\n「彼女は2時間ピアノを練習し続けた」\nShe kept ___ for two hours.",
+      "choices": [
+        "practice",
+        "practicing",
+        "practiced",
+        "to practice"
+      ],
+      "answer": 1,
+      "explanation": "「keep + 動名詞（〜し続ける）」の構文です。"
+    },
+    {
+      "id": "en_gram_434",
+      "question": "Choose the correct form:\n「彼は英語が得意でないのに外国人と話そうとした」\nHe tried to talk to a foreigner ___ his poor English.",
+      "choices": [
+        "because of",
+        "despite",
+        "although",
+        "since"
+      ],
+      "answer": 1,
+      "explanation": "「despite（〜にもかかわらず）」は前置詞で後に名詞が続きます。"
+    },
+    {
+      "id": "en_gram_435",
+      "question": "Choose the correct form:\n「彼女は突然泣き出した」\nShe suddenly ___ crying.",
+      "choices": [
+        "broke into",
+        "broke in",
+        "broke up",
+        "broke out"
+      ],
+      "answer": 0,
+      "explanation": "「break into（突然〜し始める）」は感情の突然の発露を表します。"
+    },
+    {
+      "id": "en_gram_436",
+      "question": "Choose the correct form:\n「彼女は医者に診てもらう必要がある」\nShe needs ___ by a doctor.",
+      "choices": [
+        "examine",
+        "to examine",
+        "to be examined",
+        "examining"
+      ],
+      "answer": 2,
+      "explanation": "受動的な関係なので「need to be examined（診察される必要がある）」が正解。"
+    },
+    {
+      "id": "en_gram_437",
+      "question": "Choose the correct form:\n「私は彼女に贈り物を買うためにデパートへ行った」\nI went to buy a gift ___ her birthday.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「for（〜のために）」は目的・利益を表す前置詞です。"
+    },
+    {
+      "id": "en_gram_438",
+      "question": "Choose the correct form:\n「彼は彼女のジョークを笑わなかった」\nHe didn't laugh ___ her joke.",
+      "choices": [
+        "at",
+        "about",
+        "with",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "「laugh at（〜を笑う）」の構文です。"
+    },
+    {
+      "id": "en_gram_439",
+      "question": "Choose the correct form:\n「彼女は先週から熱がある」\nShe ___ a fever since last week.",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is having"
+      ],
+      "answer": 0,
+      "explanation": "「since last week（先週から）」があるので現在完了形 has を使います。"
+    },
+    {
+      "id": "en_gram_440",
+      "question": "Choose the correct form:\n「彼は昨夜遅くまで起きていた」\nHe ___ up late last night.",
+      "choices": [
+        "kept",
+        "stayed",
+        "remained",
+        "held"
+      ],
+      "answer": 1,
+      "explanation": "「stay up（起きている・夜更かしする）」の熟語です。"
+    },
+    {
+      "id": "en_gram_441",
+      "question": "Choose the correct form:\n「彼女は仕事が終わったらすぐに帰宅する」\nShe will go home ___ her work is finished.",
+      "choices": [
+        "as soon as",
+        "until",
+        "since",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「as soon as（〜するとすぐに）」の接続詞です。"
+    },
+    {
+      "id": "en_gram_442",
+      "question": "Choose the correct form:\n「彼は彼女を助けたことを誇りに思っている」\nHe is proud of ___ helped her.",
+      "choices": [
+        "have",
+        "having",
+        "to have",
+        "had"
+      ],
+      "answer": 1,
+      "explanation": "「be proud of + 動名詞（〜したことを誇りに思う）」の構文。having が正解。"
+    },
+    {
+      "id": "en_gram_443",
+      "question": "Choose the correct form:\n「彼女はその本を読んで多くのことを学んだ」\nShe learned a lot ___ the book.",
+      "choices": [
+        "from",
+        "by",
+        "through",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "「learn from（〜から学ぶ）」の構文です。"
+    },
+    {
+      "id": "en_gram_444",
+      "question": "Choose the correct form:\n「彼女は英語がうまいと言われている」\nShe is said ___ good at English.",
+      "choices": [
+        "be",
+        "being",
+        "to be",
+        "been"
+      ],
+      "answer": 2,
+      "explanation": "「be said to + 動詞原形（〜と言われている）」の受動態構文です。"
+    },
+    {
+      "id": "en_gram_445",
+      "question": "Choose the correct form:\n「彼女は彼に何があったか心配していた」\nShe was worried ___ what had happened to him.",
+      "choices": [
+        "about",
+        "for",
+        "of",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "「be worried about（〜を心配している）」の構文です。"
+    },
+    {
+      "id": "en_gram_446",
+      "question": "Choose the correct form:\n「この問題は難しすぎて私には解けない」\nThis problem is ___ difficult for me to solve.",
+      "choices": [
+        "very",
+        "so",
+        "too",
+        "such"
+      ],
+      "answer": 2,
+      "explanation": "「too + 形容詞 + for + 人 + to不定詞（〜すぎて…できない）」の構文です。"
+    },
+    {
+      "id": "en_gram_447",
+      "question": "Choose the correct form:\n「彼女は自分の将来について深く考えている」\nShe is thinking ___ her future.",
+      "choices": [
+        "about",
+        "of",
+        "for",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "「think about（〜について考える）」の構文です。"
+    },
+    {
+      "id": "en_gram_448",
+      "question": "Choose the correct form:\n「彼はその計画に賛成だ」\nHe agrees ___ the plan.",
+      "choices": [
+        "with",
+        "to",
+        "on",
+        "at"
+      ],
+      "answer": 1,
+      "explanation": "「agree to（〜に同意する）」は提案・計画に対して使います。"
+    },
+    {
+      "id": "en_gram_449",
+      "question": "Choose the correct form:\n「彼女は英語が好きなだけでなく音楽も好きだ」\nShe likes English ___ music.",
+      "choices": [
+        "and also",
+        "as well as",
+        "both",
+        "either"
+      ],
+      "answer": 1,
+      "explanation": "「as well as（〜だけでなく…も）」の表現です。"
+    },
+    {
+      "id": "en_gram_450",
+      "question": "Choose the correct form:\n「彼女は働きながら英語を学んだ」\nShe learned English ___ working.",
+      "choices": [
+        "while",
+        "during",
+        "although",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「while + 動名詞（〜しながら）」で同時進行を表します。"
+    },
+    {
+      "id": "en_gram_451",
+      "question": "Choose the correct form:\n「私はその仕事に向いていると思う」\nI think I am ___ for the job.",
+      "choices": [
+        "suit",
+        "suitable",
+        "suited",
+        "suiting"
+      ],
+      "answer": 2,
+      "explanation": "「be suited for（〜に向いている）」の構文です。"
+    },
+    {
+      "id": "en_gram_452",
+      "question": "Choose the correct form:\n「彼女は毎日少なくとも1時間は英語を勉強する」\nShe studies English for ___ an hour every day.",
+      "choices": [
+        "at most",
+        "at least",
+        "at last",
+        "at best"
+      ],
+      "answer": 1,
+      "explanation": "「at least（少なくとも）」の表現です。"
+    },
+    {
+      "id": "en_gram_453",
+      "question": "Choose the correct form:\n「彼はその知らせを聞いて驚いたに違いない」\nHe ___ been surprised to hear the news.",
+      "choices": [
+        "must have",
+        "should have",
+        "can have",
+        "might have"
+      ],
+      "answer": 0,
+      "explanation": "過去への強い推量「must have + 過去分詞（〜したに違いない）」の構文。"
+    },
+    {
+      "id": "en_gram_454",
+      "question": "Choose the correct form:\n「その植物は水なしでは枯れてしまう」\nThe plant will die ___ water.",
+      "choices": [
+        "without",
+        "unless",
+        "except",
+        "but for"
+      ],
+      "answer": 0,
+      "explanation": "「without（〜なしでは）」は前置詞で名詞の前に置きます。"
+    },
+    {
+      "id": "en_gram_455",
+      "question": "Choose the correct form:\n「彼女は今まで一度も失敗したことがない」\nShe has ___ failed.",
+      "choices": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "answer": 1,
+      "explanation": "「never（一度も〜ない）」は否定の経験を表す副詞です。"
+    },
+    {
+      "id": "en_gram_456",
+      "question": "Choose the correct form:\n「彼は私を見てほほ笑んだ」\nHe smiled ___ me.",
+      "choices": [
+        "at",
+        "to",
+        "for",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "「smile at（〜に向かってほほ笑む）」の構文です。"
+    },
+    {
+      "id": "en_gram_457",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことに集中している」\nShe is ___ on learning English.",
+      "choices": [
+        "focus",
+        "focused",
+        "focusing",
+        "focuses"
+      ],
+      "answer": 2,
+      "explanation": "現在進行形「be + 〜ing」の構文。「is focusing on（集中している）」が正解。"
+    },
+    {
+      "id": "en_gram_458",
+      "question": "Choose the correct form:\n「彼女は昨日から何も食べていない」\nShe hasn't eaten ___ yesterday.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜から・以来）」は過去の起点を示します。"
+    },
+    {
+      "id": "en_gram_459",
+      "question": "Choose the correct form:\n「この薬を飲むと眠くなることがある」\nThis medicine ___ you feel sleepy.",
+      "choices": [
+        "makes",
+        "does",
+        "lets",
+        "gets"
+      ],
+      "answer": 0,
+      "explanation": "「make + 人 + 動詞原形（人を〜させる）」の使役動詞構文です。"
+    },
+    {
+      "id": "en_gram_460",
+      "question": "Choose the correct form:\n「彼女は彼が正直であることに気づいた」\nShe realized ___ he was honest.",
+      "choices": [
+        "what",
+        "that",
+        "which",
+        "how"
+      ],
+      "answer": 1,
+      "explanation": "「realize that（〜ということに気づく）」の名詞節です。"
+    },
+    {
+      "id": "en_gram_461",
+      "question": "Choose the correct form:\n「彼女は英語を話すのが得意だ」\nShe is good ___ speaking English.",
+      "choices": [
+        "at",
+        "in",
+        "with",
+        "of"
+      ],
+      "answer": 0,
+      "explanation": "「be good at + 動名詞（〜が得意）」の構文です。"
+    },
+    {
+      "id": "en_gram_462",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことに積極的だ」\nShe is enthusiastic ___ learning English.",
+      "choices": [
+        "about",
+        "of",
+        "for",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "「be enthusiastic about（〜に熱心だ）」の構文です。"
+    },
+    {
+      "id": "en_gram_463",
+      "question": "Choose the correct form:\n「私は仕事が忙しいにもかかわらず毎日運動する」\nI exercise every day ___ my busy work schedule.",
+      "choices": [
+        "because of",
+        "despite",
+        "although",
+        "since"
+      ],
+      "answer": 1,
+      "explanation": "「despite（〜にもかかわらず）」は前置詞で後に名詞が続きます。"
+    },
+    {
+      "id": "en_gram_464",
+      "question": "Choose the correct form:\n「彼女は今まで見た中で最も美しい絵だと思った」\nShe thought it was the most beautiful painting she had ___ seen.",
+      "choices": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "answer": 0,
+      "explanation": "「the most + 形容詞 + she had ever seen（今まで見た中で最も）」の表現。"
+    },
+    {
+      "id": "en_gram_465",
+      "question": "Choose the correct form:\n「彼女は英語だけでなくフランス語も話せる」\nShe can speak English ___ French.",
+      "choices": [
+        "and also",
+        "as well as",
+        "both",
+        "or"
+      ],
+      "answer": 1,
+      "explanation": "「as well as（〜だけでなく…も）」の表現です。"
+    },
+    {
+      "id": "en_gram_466",
+      "question": "Choose the correct form:\n「彼は私に正直に話してくれた」\nHe spoke to me ___.",
+      "choices": [
+        "honest",
+        "honesty",
+        "honestly",
+        "dishonest"
+      ],
+      "answer": 2,
+      "explanation": "動詞 spoke を修飾するので副詞 honestly が正解です。"
+    },
+    {
+      "id": "en_gram_467",
+      "question": "Choose the correct form:\n「彼女は家族の健康のために毎日料理する」\nShe cooks every day ___ her family's health.",
+      "choices": [
+        "for",
+        "to",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「for（〜のために）」は目的・利益を表す前置詞です。"
+    },
+    {
+      "id": "en_gram_468",
+      "question": "Choose the correct form:\n「彼は昨年引退した後も元気に活動している」\nHe has been active ___ he retired last year.",
+      "choices": [
+        "when",
+        "since",
+        "while",
+        "after"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜以来）」は過去の起点を示し、現在完了形と使います。"
+    },
+    {
+      "id": "en_gram_469",
+      "question": "Choose the correct form:\n「彼女は英語の試験に向けて猛勉強している」\nShe is studying ___ for the English exam.",
+      "choices": [
+        "hardly",
+        "hard",
+        "harder",
+        "hardest"
+      ],
+      "answer": 1,
+      "explanation": "「study hard（一生懸命勉強する）」の表現。hard は副詞で「一生懸命」の意味。hardly は「ほとんど〜ない」です。"
+    },
+    {
+      "id": "en_gram_470",
+      "question": "Choose the correct form:\n「私は彼女に本を3冊貸した」\nI lent ___ three books.",
+      "choices": [
+        "to her",
+        "her",
+        "for her",
+        "she"
+      ],
+      "answer": 1,
+      "explanation": "「lend + 人 + 物」の二重目的語構文です。"
+    },
+    {
+      "id": "en_gram_471",
+      "question": "Choose the correct form:\n「彼は彼女のために毎日花を買う」\nHe buys flowers ___ her every day.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「buy + 物 + for + 人（人のために買う）」の構文です。"
+    },
+    {
+      "id": "en_gram_472",
+      "question": "Choose the correct form:\n「彼女は英語の本を読むことで語彙を増やしている」\nShe is expanding her vocabulary ___ reading English books.",
+      "choices": [
+        "from",
+        "by",
+        "through",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「by + 動名詞（〜することによって）」は手段を表します。"
+    },
+    {
+      "id": "en_gram_473",
+      "question": "Choose the correct form:\n「彼は仕事を終えてから帰宅した」\nHe went home after ___ his work.",
+      "choices": [
+        "finish",
+        "finished",
+        "to finish",
+        "finishing"
+      ],
+      "answer": 3,
+      "explanation": "「after + 動名詞（〜した後）」の構文。前置詞の後は動名詞が続きます。"
+    },
+    {
+      "id": "en_gram_474",
+      "question": "Choose the correct form:\n「彼女は私が思っていたよりずっと上手だ」\nShe is ___ better than I thought.",
+      "choices": [
+        "so",
+        "much",
+        "very",
+        "such"
+      ],
+      "answer": 1,
+      "explanation": "比較級を強調するには much（はるかに）を使います。「much better」が正解。"
+    },
+    {
+      "id": "en_gram_475",
+      "question": "Choose the correct form:\n「私は彼女に会いたがっている」\nHe is eager ___ her.",
+      "choices": [
+        "see",
+        "seeing",
+        "to see",
+        "for seeing"
+      ],
+      "answer": 2,
+      "explanation": "「be eager to + 動詞原形（〜したがっている）」の構文です。"
+    },
+    {
+      "id": "en_gram_476",
+      "question": "Choose the correct form:\n「彼女は英語を学ぶことが好きなだけでなく教えることも好きだ」\nShe likes not only learning English ___ teaching it.",
+      "choices": [
+        "and",
+        "or",
+        "but also",
+        "yet"
+      ],
+      "answer": 2,
+      "explanation": "「not only A but also B（AだけでなくBも）」の構文です。"
+    },
+    {
+      "id": "en_gram_477",
+      "question": "Choose the correct form:\n「彼女は昨年から英語の勉強を続けている」\nShe has been studying English ___ last year.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "while"
+      ],
+      "answer": 1,
+      "explanation": "「since（〜以来）」は過去の起点を示し、現在完了進行形と使います。"
+    },
+    {
+      "id": "en_gram_478",
+      "question": "Choose the correct form:\n「彼女はその問題を解くのに3時間かかった」\nIt took her three hours ___ the problem.",
+      "choices": [
+        "solve",
+        "solving",
+        "to solve",
+        "solved"
+      ],
+      "answer": 2,
+      "explanation": "「It takes + 人 + 時間 + to不定詞」の構文です。"
+    },
+    {
+      "id": "en_gram_479",
+      "question": "Choose the correct form:\n「彼は遅刻しないように早めに出発した」\nHe left early ___ he wouldn't be late.",
+      "choices": [
+        "so that",
+        "in order to",
+        "because",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "「so that + S + wouldn't（〜しないように）」は目的を表します。"
+    },
+    {
+      "id": "en_gram_480",
+      "question": "Choose the correct form:\n「彼女は友達と映画を見に行くことにした」\nShe decided ___ a movie with her friend.",
+      "choices": [
+        "see",
+        "seeing",
+        "to see",
+        "seen"
+      ],
+      "answer": 2,
+      "explanation": "「decide to + 動詞原形（〜することにする）」の構文です。"
+    },
+    {
+      "id": "en_gram_481",
+      "question": "Choose the correct form:\n「彼は試験に合格するまで諦めないだろう」\nHe won't give up ___ he passes the exam.",
+      "choices": [
+        "if",
+        "when",
+        "until",
+        "while"
+      ],
+      "answer": 2,
+      "explanation": "「until（〜するまで）」は継続の終点を表します。"
+    },
+    {
+      "id": "en_gram_482",
+      "question": "Choose the correct form:\n「彼女は英語の本を毎日読む習慣がある」\nShe ___ reading English books every day.",
+      "choices": [
+        "is used to",
+        "used to",
+        "has used to",
+        "uses to"
+      ],
+      "answer": 0,
+      "explanation": "「be used to + 動名詞（〜することに慣れている）」の構文です。"
+    },
+    {
+      "id": "en_gram_483",
+      "question": "Choose the correct form:\n「彼は彼女のために特別な料理を作った」\nHe made a special dish ___ her.",
+      "choices": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "「make A for B（BのためにAを作る）」の構文です。"
+    },
+    {
+      "id": "en_gram_484",
+      "question": "Choose the correct form:\n「彼女は英語の勉強に集中することが苦手だ」\nShe finds it hard ___ on her English studies.",
+      "choices": [
+        "concentrate",
+        "concentrating",
+        "to concentrate",
+        "concentrated"
+      ],
+      "answer": 2,
+      "explanation": "「find it + 形容詞 + to不定詞」の形式目的語構文です。"
+    },
+    {
+      "id": "en_gram_485",
+      "question": "Choose the correct form:\n「その映画を見て、私は悲しくなった」\nThe movie ___ me feel sad.",
+      "choices": [
+        "made",
+        "did",
+        "let",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "「make + 人 + 動詞原形（人を〜させる）」の使役動詞構文です。"
+    },
+    {
+      "id": "en_gram_486",
+      "question": "Choose the correct form:\n「彼女は英語を話すことに慣れてきた」\nShe is getting ___ speaking English.",
+      "choices": [
+        "used to",
+        "using to",
+        "use to",
+        "accustomed"
+      ],
+      "answer": 0,
+      "explanation": "「get used to + 動名詞（〜することに慣れてくる）」の構文です。"
+    },
+    {
+      "id": "en_gram_487",
+      "question": "Choose the correct form:\n「彼は昨日から入院しており、明日退院する予定だ」\nHe has been ___ in the hospital since yesterday.",
+      "choices": [
+        "admit",
+        "admitted",
+        "admitting",
+        "admittance"
+      ],
+      "answer": 1,
+      "explanation": "「be admitted（入院する）」の受動態。「has been admitted（入院している）」が正解。"
+    },
+    {
+      "id": "en_gram_488",
+      "question": "Choose the correct form:\n「彼女は英語の勉強が好きだ」\nShe is fond ___ studying English.",
+      "choices": [
+        "of",
+        "about",
+        "in",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "「be fond of（〜が好きだ）」の構文です。"
+    },
+    {
+      "id": "en_gram_489",
+      "question": "Choose the correct form:\n「彼女はなんとかして試験に合格した」\nShe ___ to pass the exam.",
+      "choices": [
+        "managed",
+        "succeeded",
+        "could",
+        "tried"
+      ],
+      "answer": 0,
+      "explanation": "「manage to + 動詞原形（なんとか〜する）」の構文です。"
+    },
+    {
+      "id": "en_gram_490",
+      "question": "Choose the correct form:\n「彼女は1時間英語を勉強した後、休憩した」\nShe took a break after ___ English for an hour.",
+      "choices": [
+        "study",
+        "studied",
+        "to study",
+        "studying"
+      ],
+      "answer": 3,
+      "explanation": "「after + 動名詞（〜した後）」の構文です。"
+    },
+    {
+      "id": "en_gram_491",
+      "question": "Choose the correct form:\n「私は彼女が正しいかどうかわからない」\nI'm not sure ___ she is right or not.",
+      "choices": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "answer": 1,
+      "explanation": "「or not」が続く場合は whether の方が一般的です。"
+    },
+    {
+      "id": "en_gram_492",
+      "question": "Choose the correct form:\n「彼は昨日彼女に会った後ですぐに電話した」\nHe called her ___ meeting her yesterday.",
+      "choices": [
+        "before",
+        "after",
+        "while",
+        "since"
+      ],
+      "answer": 1,
+      "explanation": "「after + 動名詞（〜した後）」の構文です。"
+    },
+    {
+      "id": "en_gram_493",
+      "question": "Choose the correct form:\n「彼女は毎日英語のニュースを聞くことで英語力を伸ばした」\nShe improved her English ___ listening to the news every day.",
+      "choices": [
+        "from",
+        "by",
+        "through",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "「by + 動名詞（〜することによって）」は手段を表します。"
+    },
+    {
+      "id": "en_gram_494",
+      "question": "Choose the correct form:\n「彼は今まで経験したことのない成功を収めた」\nHe achieved success he had ___ experienced before.",
+      "choices": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "answer": 1,
+      "explanation": "「had never experienced（今まで経験したことがない）」の過去完了否定形です。"
+    },
+    {
+      "id": "en_gram_495",
+      "question": "Choose the correct form:\n「彼女は昨日電車を乗り間違えた」\nShe ___ the wrong train yesterday.",
+      "choices": [
+        "took",
+        "get on",
+        "ride",
+        "boarded"
+      ],
+      "answer": 0,
+      "explanation": "「take the wrong train（電車を乗り間違える）」の表現。過去形は took が正解。"
+    },
+    {
+      "id": "en_gram_496",
+      "question": "Choose the correct form:\n「彼は彼女のプレゼンに感動したに違いない」\nHe ___ been impressed by her presentation.",
+      "choices": [
+        "must have",
+        "should have",
+        "can have",
+        "might have"
+      ],
+      "answer": 0,
+      "explanation": "過去への強い推量「must have + 過去分詞」の構文です。"
+    },
+    {
+      "id": "en_gram_497",
+      "question": "Choose the correct form:\n「彼女は試験に備えて徹夜した」\nShe stayed up all night ___ for the exam.",
+      "choices": [
+        "prepare",
+        "to prepare",
+        "preparing",
+        "prepared"
+      ],
+      "answer": 1,
+      "explanation": "「to prepare（準備するために）」は目的を表す不定詞です。"
+    },
+    {
+      "id": "en_gram_498",
+      "question": "Choose the correct form:\n「彼はその仕事を最後まで続けた」\nHe ___ with the job until the end.",
+      "choices": [
+        "kept",
+        "carried on",
+        "stuck",
+        "continued on"
+      ],
+      "answer": 1,
+      "explanation": "「carry on（〜を続ける）」の熟語です。「carried on with the job」が正解。"
+    },
+    {
+      "id": "en_gram_499",
+      "question": "Choose the correct form:\n「彼女は英語をよりうまく話せるようになりたいと思っている」\nShe wants to ___ better at speaking English.",
+      "choices": [
+        "get",
+        "become",
+        "be",
+        "grow"
+      ],
+      "answer": 0,
+      "explanation": "「get better at（〜がうまくなる）」の表現です。"
+    },
+    {
+      "id": "en_gram_500",
+      "question": "Choose the correct form:\n「彼女は英語で自分の意見を表現するのが得意だ」\nShe is good at ___ her opinions in English.",
+      "choices": [
+        "express",
+        "expressing",
+        "expressed",
+        "to express"
+      ],
+      "answer": 1,
+      "explanation": "「be good at + 動名詞（〜が得意）」の構文です。"
     }
   ]
 }

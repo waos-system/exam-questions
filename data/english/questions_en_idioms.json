@@ -5,142 +5,6002 @@
     {
       "id": "en_idiom_001",
       "question": "What does \"break a leg\" mean?",
-      "choices": ["To injure yourself", "Good luck", "To run fast", "To be careless"],
+      "choices": [
+        "To injure yourself",
+        "Good luck",
+        "To run fast",
+        "To be careless"
+      ],
       "answer": 1,
       "explanation": "「Break a leg」は「頑張って！／幸運を！」という意味の英語イディオムです。特に舞台・演劇の世界でよく使われます。直訳（足を折れ）とは全く異なる意味です。"
     },
     {
       "id": "en_idiom_002",
       "question": "「〜を諦める、断念する」を意味する熟語はどれか。",
-      "choices": ["give in", "give up", "give out", "give away"],
+      "choices": [
+        "give in",
+        "give up",
+        "give out",
+        "give away"
+      ],
       "answer": 1,
       "explanation": "give up は「諦める・断念する」という意味です。give in「屈服する」、give out「配る・尽きる」、give away「ただで渡す・秘密を漏らす」と区別しましょう。"
     },
     {
       "id": "en_idiom_003",
       "question": "「It's raining cats and dogs.」の意味はどれか。",
-      "choices": ["猫と犬が仲良く遊んでいる", "動物が外で遊んでいる", "土砂降りの雨が降っている", "天気が不安定だ"],
+      "choices": [
+        "猫と犬が仲良く遊んでいる",
+        "動物が外で遊んでいる",
+        "土砂降りの雨が降っている",
+        "天気が不安定だ"
+      ],
       "answer": 2,
       "explanation": "「It's raining cats and dogs.」は「土砂降り（どしゃ降り）の雨だ」という意味のイディオムです。直訳は「猫と犬が降っている」ですが、実際は非常に激しい雨を表します。"
     },
     {
       "id": "en_idiom_004",
       "question": "「〜に気づく、〜を見つける」を意味する熟語はどれか。",
-      "choices": ["look into", "look after", "look for", "look out for"],
+      "choices": [
+        "look into",
+        "look after",
+        "look for",
+        "look out for"
+      ],
       "answer": 3,
       "explanation": "look out for は「〜に気をつける・〜を探して見つける」という意味です。look into「調べる」、look after「世話をする」、look for「〜を探す（まだ見つかっていない）」と区別しましょう。"
     },
     {
       "id": "en_idiom_005",
       "question": "「Hit the hay」の意味はどれか。",
-      "choices": ["農業を始める", "床につく・寝る", "勉強を始める", "旅を始める"],
+      "choices": [
+        "農業を始める",
+        "床につく・寝る",
+        "勉強を始める",
+        "旅を始める"
+      ],
       "answer": 1,
       "explanation": "「Hit the hay（またはhit the sack）」は「床につく・寝る」という意味のスラングです。hay（干し草）の上で寝ていた昔の習慣に由来します。"
     },
     {
       "id": "en_idiom_006",
       "question": "「〜の面倒を見る」を意味する熟語はどれか。",
-      "choices": ["take off", "take up", "take care of", "take over"],
+      "choices": [
+        "take off",
+        "take up",
+        "take care of",
+        "take over"
+      ],
       "answer": 2,
       "explanation": "take care of は「〜の面倒を見る・〜を処理する」という意味です。take off「離陸する・脱ぐ」、take up「（趣味を）始める・占める」、take over「引き継ぐ」と区別しましょう。"
     },
     {
       "id": "en_idiom_007",
       "question": "「Once in a blue moon」の意味はどれか。",
-      "choices": ["毎月一度", "月明かりの下で", "めったに・ごくまれに", "突然"],
+      "choices": [
+        "毎月一度",
+        "月明かりの下で",
+        "めったに・ごくまれに",
+        "突然"
+      ],
       "answer": 2,
       "explanation": "「Once in a blue moon」は「めったに（ない）・ごくまれに」という意味のイディオムです。blue moon（ひと月に2度起こる満月）が非常にまれなことから来ています。"
     },
     {
       "id": "en_idiom_008",
       "question": "「〜に頼る、〜を当てにする」を意味する熟語はどれか。",
-      "choices": ["count on", "count up", "count out", "count down"],
+      "choices": [
+        "count on",
+        "count up",
+        "count out",
+        "count down"
+      ],
       "answer": 0,
       "explanation": "count on は「〜を当てにする・頼る」という意味です。「You can count on me.（私に任せて）」のように使います。count out「〜を除外する」、count down「カウントダウンする」と区別しましょう。"
     },
     {
       "id": "en_idiom_009",
       "question": "「Bite off more than you can chew」の意味はどれか。",
-      "choices": ["食べすぎる", "力不足なのに無謀な挑戦をする", "粘り強く努力する", "積極的に行動する"],
+      "choices": [
+        "食べすぎる",
+        "力不足なのに無謀な挑戦をする",
+        "粘り強く努力する",
+        "積極的に行動する"
+      ],
       "answer": 1,
       "explanation": "「Bite off more than you can chew」は「身の程知らずのことをしようとする・無謀な挑戦をする」という意味のイディオムです。食べきれないほど大きなひと口を噛み取るイメージです。"
     },
     {
       "id": "en_idiom_010",
       "question": "「〜を延期する、先延ばしにする」を意味する熟語はどれか。",
-      "choices": ["put away", "put out", "put off", "put up"],
+      "choices": [
+        "put away",
+        "put out",
+        "put off",
+        "put up"
+      ],
       "answer": 2,
       "explanation": "put off は「〜を延期する・先延ばしにする（= postpone）」という意味です。put away「片付ける」、put out「消す・出す」、put up「掲げる・宿泊させる」と区別しましょう。"
     },
     {
       "id": "en_idiom_011",
       "question": "「Spill the beans」の意味はどれか。",
-      "choices": ["豆を料理する", "秘密を漏らす", "食事をする", "農業をする"],
+      "choices": [
+        "豆を料理する",
+        "秘密を漏らす",
+        "食事をする",
+        "農業をする"
+      ],
       "answer": 1,
       "explanation": "「Spill the beans」は「秘密を漏らす・うっかり話してしまう」という意味のイディオムです。古代ギリシャの選挙で豆を使っていたことに由来するとも言われます。"
     },
     {
       "id": "en_idiom_012",
       "question": "「〜を調べる、〜を検討する」を意味する熟語はどれか。",
-      "choices": ["look up to", "look into", "look up", "look forward to"],
+      "choices": [
+        "look up to",
+        "look into",
+        "look up",
+        "look forward to"
+      ],
       "answer": 1,
       "explanation": "look into は「〜を調べる・検討する（= investigate）」という意味です。look up「辞書で調べる」、look up to「〜を尊敬する」、look forward to「〜を楽しみにする」と区別しましょう。"
     },
     {
       "id": "en_idiom_013",
       "question": "「Cost an arm and a leg」の意味はどれか。",
-      "choices": ["体を使った仕事をする", "非常に高価である", "危険な仕事をする", "長い旅をする"],
+      "choices": [
+        "体を使った仕事をする",
+        "非常に高価である",
+        "危険な仕事をする",
+        "長い旅をする"
+      ],
       "answer": 1,
       "explanation": "「Cost an arm and a leg」は「非常に高価である・莫大な費用がかかる」という意味のイディオムです。腕や脚というかけがえのないものに例えて、非常に高いコストを表します。"
     },
     {
       "id": "en_idiom_014",
       "question": "「〜を乗り越える、〜から立ち直る」を意味する熟語はどれか。",
-      "choices": ["get over", "get away", "get into", "get across"],
+      "choices": [
+        "get over",
+        "get away",
+        "get into",
+        "get across"
+      ],
       "answer": 0,
       "explanation": "get over は「〜を乗り越える・回復する」という意味です。「get over an illness（病気から回復する）」のように使います。get away「逃げる」、get into「〜に入る・興味を持つ」、get across「伝える」と区別しましょう。"
     },
     {
       "id": "en_idiom_015",
       "question": "「Under the weather」の意味はどれか。",
-      "choices": ["天気が悪い", "体調が悪い", "屋外にいる", "天気予報を見る"],
+      "choices": [
+        "天気が悪い",
+        "体調が悪い",
+        "屋外にいる",
+        "天気予報を見る"
+      ],
       "answer": 1,
       "explanation": "「Feel under the weather」は「体調が優れない・気分が悪い」という意味のイディオムです。昔、船乗りが嵐（悪天候）のときに船室へ入ったことに由来するとも言われます。"
     },
     {
       "id": "en_idiom_016",
       "question": "「〜を我慢する、耐える」を意味する熟語はどれか。",
-      "choices": ["put up with", "put off", "put on", "put down"],
+      "choices": [
+        "put up with",
+        "put off",
+        "put on",
+        "put down"
+      ],
       "answer": 0,
       "explanation": "put up with は「〜を我慢する・耐える（= tolerate）」という意味です。put off「延期する」、put on「着る・演じる」、put down「置く・書き留める・批判する」と区別しましょう。"
     },
     {
       "id": "en_idiom_017",
       "question": "「Burn the midnight oil」の意味はどれか。",
-      "choices": ["キャンプファイヤーをする", "夜遅くまで働く・勉強する", "石油産業で働く", "料理が上手だ"],
+      "choices": [
+        "キャンプファイヤーをする",
+        "夜遅くまで働く・勉強する",
+        "石油産業で働く",
+        "料理が上手だ"
+      ],
       "answer": 1,
       "explanation": "「Burn the midnight oil」は「深夜まで仕事・勉強をする」という意味のイディオムです。電灯のない時代にランプの油（oil）を使って深夜に作業したことに由来します。"
     },
     {
       "id": "en_idiom_018",
       "question": "「〜を思い出す」を意味する熟語はどれか。",
-      "choices": ["come up with", "come across", "come back to", "come up against"],
+      "choices": [
+        "come up with",
+        "come across",
+        "come back to",
+        "come up against"
+      ],
       "answer": 2,
       "explanation": "come back to（something）は「〜を思い出す・〜に戻ってくる」という意味です。come up with「〜を思いつく（新アイデア）」、come across「偶然出会う」、come up against「〜に直面する」と区別しましょう。"
     },
     {
       "id": "en_idiom_019",
       "question": "「Hit the nail on the head」の意味はどれか。",
-      "choices": ["頭を打つ", "正確に要点を突く・まさにその通り", "建設作業をする", "激しく怒る"],
+      "choices": [
+        "頭を打つ",
+        "正確に要点を突く・まさにその通り",
+        "建設作業をする",
+        "激しく怒る"
+      ],
       "answer": 1,
       "explanation": "「Hit the nail on the head」は「正確に要点を突く・ズバリ図星だ」という意味のイディオムです。釘を正確に頭に打ち付けるイメージから来ています。"
     },
     {
       "id": "en_idiom_020",
       "question": "「〜に追いつく」を意味する熟語はどれか。",
-      "choices": ["catch on", "catch out", "catch up with", "catch up to"],
+      "choices": [
+        "catch on",
+        "catch out",
+        "catch up with",
+        "catch up to"
+      ],
       "answer": 2,
       "explanation": "catch up with は「〜に追いつく」という意味です。「I need to catch up with the class（授業に追いつかなければ）」のように使います。catch on「流行る・理解する」、catch out「不正を見つける」と区別しましょう。"
+    },
+    {
+      "id": "en_idiom_021",
+      "question": "Choose the correct meaning of 'bury the hatchet':",
+      "choices": [
+        "to make a weapon",
+        "to make peace",
+        "to dig a hole",
+        "to end something"
+      ],
+      "answer": 1,
+      "explanation": "「bury the hatchet（鉈を埋める→仲直りする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_022",
+      "question": "Choose the correct meaning of 'let the cat out of the bag':",
+      "choices": [
+        "to free an animal",
+        "to reveal a secret",
+        "to make a mess",
+        "to be careless"
+      ],
+      "answer": 1,
+      "explanation": "「let the cat out of the bag（袋から猫を出す→秘密を漏らす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_023",
+      "question": "Choose the correct meaning of 'hit the nail on the head':",
+      "choices": [
+        "to make a mistake",
+        "to be exactly right",
+        "to work very hard",
+        "to start something"
+      ],
+      "answer": 1,
+      "explanation": "「hit the nail on the head（釘の頭を打つ→的を射る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_024",
+      "question": "Choose the correct meaning of 'kill two birds with one stone':",
+      "choices": [
+        "to be violent",
+        "to waste effort",
+        "to accomplish two things with one action",
+        "to be efficient"
+      ],
+      "answer": 2,
+      "explanation": "「kill two birds with one stone（一石二鳥）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_025",
+      "question": "Choose the correct meaning of 'under the weather':",
+      "choices": [
+        "in bad weather",
+        "feeling sick",
+        "being outdoors",
+        "working outside"
+      ],
+      "answer": 1,
+      "explanation": "「under the weather（天気の下→体調が悪い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_026",
+      "question": "Choose the correct meaning of 'burn the midnight oil':",
+      "choices": [
+        "to stay up late working",
+        "to waste time",
+        "to start a fire",
+        "to cook late at night"
+      ],
+      "answer": 0,
+      "explanation": "「burn the midnight oil（深夜まで燃やす→徹夜で働く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_027",
+      "question": "Choose the correct meaning of 'start from scratch':",
+      "choices": [
+        "to scratch someone",
+        "to make marks",
+        "to begin with no resources",
+        "to start over"
+      ],
+      "answer": 2,
+      "explanation": "「start from scratch（ゼロから始める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_028",
+      "question": "Choose the correct meaning of 'bite the bullet':",
+      "choices": [
+        "to eat fast",
+        "to endure pain bravely",
+        "to make a mistake",
+        "to shoot something"
+      ],
+      "answer": 1,
+      "explanation": "「bite the bullet（弾を噛む→歯を食いしばって耐える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_029",
+      "question": "Choose the correct meaning of 'a piece of cake':",
+      "choices": [
+        "a dessert",
+        "something very easy",
+        "a small reward",
+        "a special occasion"
+      ],
+      "answer": 1,
+      "explanation": "「a piece of cake（ケーキ→朝飯前・簡単）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_030",
+      "question": "Choose the correct meaning of 'turn over a new leaf':",
+      "choices": [
+        "to read a book",
+        "to make a fresh start",
+        "to change your mind",
+        "to begin again"
+      ],
+      "answer": 1,
+      "explanation": "「turn over a new leaf（新しい葉をめくる→心機一転）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_031",
+      "question": "Choose the correct meaning of 'break the ice':",
+      "choices": [
+        "to destroy ice",
+        "to start a conversation in a social situation",
+        "to swim in cold water",
+        "to make a mistake"
+      ],
+      "answer": 1,
+      "explanation": "「break the ice（氷を割る→場を和ませる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_032",
+      "question": "Choose the correct meaning of 'cost an arm and a leg':",
+      "choices": [
+        "to be injured",
+        "to be very expensive",
+        "to work hard",
+        "to lose something"
+      ],
+      "answer": 1,
+      "explanation": "「cost an arm and a leg（腕と足の値段→とても高い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_033",
+      "question": "Choose the correct meaning of 'throw in the towel':",
+      "choices": [
+        "to do laundry",
+        "to admit defeat",
+        "to finish a task",
+        "to give a signal"
+      ],
+      "answer": 1,
+      "explanation": "「throw in the towel（タオルを投げる→あきらめる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_034",
+      "question": "Choose the correct meaning of 'get out of hand':",
+      "choices": [
+        "to release something",
+        "to lose control",
+        "to finish a task",
+        "to help someone"
+      ],
+      "answer": 1,
+      "explanation": "「get out of hand（手から出る→手に負えなくなる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_035",
+      "question": "Choose the correct meaning of 'beat around the bush':",
+      "choices": [
+        "to garden",
+        "to avoid the main topic",
+        "to fight",
+        "to search in a forest"
+      ],
+      "answer": 1,
+      "explanation": "「beat around the bush（藪の周りを叩く→遠回しに言う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_036",
+      "question": "Choose the correct meaning of \"don't judge a book by its cover\":",
+      "choices": [
+        "to read carefully",
+        "to not judge by appearance",
+        "to be open-minded",
+        "to appreciate art"
+      ],
+      "answer": 1,
+      "explanation": "「don't judge a book by its cover（見かけで判断するな）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_037",
+      "question": "Choose the correct meaning of 'the ball is in your court':",
+      "choices": [
+        "it is time to play sports",
+        "it is your turn to take action",
+        "the game is over",
+        "you made a mistake"
+      ],
+      "answer": 1,
+      "explanation": "「the ball is in your court（ボールはあなたのコートに→次はあなたの番）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_038",
+      "question": "Choose the correct meaning of 'bite off more than you can chew':",
+      "choices": [
+        "to eat too much",
+        "to take on more than you can handle",
+        "to be greedy",
+        "to make big promises"
+      ],
+      "answer": 1,
+      "explanation": "「bite off more than you can chew（噛みきれない量を噛む→手に余ることを引き受ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_039",
+      "question": "Choose the correct meaning of 'once in a blue moon':",
+      "choices": [
+        "during a full moon",
+        "very rarely",
+        "every month",
+        "at night only"
+      ],
+      "answer": 1,
+      "explanation": "「once in a blue moon（ブルームーンに一度→めったにない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_040",
+      "question": "Choose the correct meaning of 'hit the sack':",
+      "choices": [
+        "to punch a bag",
+        "to go to bed",
+        "to do laundry",
+        "to go shopping"
+      ],
+      "answer": 1,
+      "explanation": "「hit the sack（袋を叩く→寝る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_041",
+      "question": "Choose the correct meaning of 'miss the boat':",
+      "choices": [
+        "to fail to board a ship",
+        "to miss an opportunity",
+        "to be late",
+        "to lose direction"
+      ],
+      "answer": 1,
+      "explanation": "「miss the boat（船に乗り遅れる→機会を逃す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_042",
+      "question": "Choose the correct meaning of 'pull someone's leg':",
+      "choices": [
+        "to help someone walk",
+        "to joke or tease",
+        "to give advice",
+        "to physically pull"
+      ],
+      "answer": 1,
+      "explanation": "「pull someone's leg（脚を引っ張る→からかう）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_043",
+      "question": "Choose the correct meaning of 'speak of the devil':",
+      "choices": [
+        "to talk about evil",
+        "said when someone appears just after being mentioned",
+        "to tell a lie",
+        "to discuss problems"
+      ],
+      "answer": 1,
+      "explanation": "「speak of the devil（悪魔の話をすると→噂をすれば影）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_044",
+      "question": "Choose the correct meaning of 'keep your chin up':",
+      "choices": [
+        "to look up",
+        "to stay positive in difficult times",
+        "to be proud",
+        "to ignore problems"
+      ],
+      "answer": 1,
+      "explanation": "「keep your chin up（顎を上げておく→くじけずに）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_045",
+      "question": "Choose the correct meaning of 'on the fence':",
+      "choices": [
+        "in a garden",
+        "undecided between two choices",
+        "taking a stand",
+        "being protected"
+      ],
+      "answer": 1,
+      "explanation": "「on the fence（フェンスの上→どっちつかず）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_046",
+      "question": "Choose the correct meaning of 'spill the beans':",
+      "choices": [
+        "to make a mess",
+        "to reveal a secret",
+        "to cook food",
+        "to be clumsy"
+      ],
+      "answer": 1,
+      "explanation": "「spill the beans（豆をこぼす→秘密を明かす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_047",
+      "question": "Choose the correct meaning of 'the tip of the iceberg':",
+      "choices": [
+        "a small visible part of a larger problem",
+        "something cold",
+        "a beginning",
+        "the most important part"
+      ],
+      "answer": 0,
+      "explanation": "「the tip of the iceberg（氷山の一角）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_048",
+      "question": "Choose the correct meaning of 'give someone the cold shoulder':",
+      "choices": [
+        "to feel cold",
+        "to ignore someone",
+        "to help someone",
+        "to introduce someone"
+      ],
+      "answer": 1,
+      "explanation": "「give someone the cold shoulder（冷たい肩を向ける→無視する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_049",
+      "question": "Choose the correct meaning of 'a blessing in disguise':",
+      "choices": [
+        "a hidden gift",
+        "something bad that is actually good",
+        "a fake compliment",
+        "an unexpected surprise"
+      ],
+      "answer": 1,
+      "explanation": "「a blessing in disguise（変装した祝福→不幸中の幸い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_050",
+      "question": "Choose the correct meaning of 'get a taste of your own medicine':",
+      "choices": [
+        "to try your own cooking",
+        "to experience the same treatment you give others",
+        "to learn a lesson",
+        "to take medicine"
+      ],
+      "answer": 1,
+      "explanation": "「get a taste of your own medicine（自業自得・一矢報いる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_051",
+      "question": "Choose the correct meaning of 'cut corners':",
+      "choices": [
+        "to trim edges",
+        "to do something in a quick but less thorough way",
+        "to save money",
+        "to take a shortcut"
+      ],
+      "answer": 1,
+      "explanation": "「cut corners（角を切る→手を抜く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_052",
+      "question": "Choose the correct meaning of 'put all your eggs in one basket':",
+      "choices": [
+        "to gather eggs",
+        "to rely on only one plan",
+        "to be careful",
+        "to diversify"
+      ],
+      "answer": 1,
+      "explanation": "「put all your eggs in one basket（一か八かに賭ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_053",
+      "question": "Choose the correct meaning of 'jump on the bandwagon':",
+      "choices": [
+        "to join a parade",
+        "to follow a popular trend",
+        "to start a new activity",
+        "to support an underdog"
+      ],
+      "answer": 1,
+      "explanation": "「jump on the bandwagon（バンドワゴンに乗る→流行に乗る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_054",
+      "question": "Choose the correct meaning of 'the last straw':",
+      "choices": [
+        "the final piece of straw",
+        "the final problem that makes a situation unbearable",
+        "a last resort",
+        "the end of something"
+      ],
+      "answer": 1,
+      "explanation": "「the last straw（堪忍袋の緒が切れる最後のひと押し）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_055",
+      "question": "Choose the correct meaning of 'go back to square one':",
+      "choices": [
+        "to return home",
+        "to start over from the beginning",
+        "to revisit a place",
+        "to undo progress"
+      ],
+      "answer": 1,
+      "explanation": "「go back to square one（マス目1に戻る→振り出しに戻る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_056",
+      "question": "Choose the correct meaning of 'take it with a grain of salt':",
+      "choices": [
+        "to add salt to food",
+        "to be skeptical about something",
+        "to accept cautiously",
+        "to not trust completely"
+      ],
+      "answer": 1,
+      "explanation": "「take it with a grain of salt（鵜呑みにしない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_057",
+      "question": "Choose the correct meaning of 'the elephant in the room':",
+      "choices": [
+        "a large obvious problem everyone avoids discussing",
+        "an animal in a building",
+        "something unexpected",
+        "a big achievement"
+      ],
+      "answer": 0,
+      "explanation": "「the elephant in the room（部屋の中の象→みんなが触れない明らかな問題）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_058",
+      "question": "Choose the correct meaning of 'bite the hand that feeds you':",
+      "choices": [
+        "to harm an animal",
+        "to act ungratefully toward someone who helps you",
+        "to be aggressive",
+        "to eat too much"
+      ],
+      "answer": 1,
+      "explanation": "「bite the hand that feeds you（恩を仇で返す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_059",
+      "question": "Choose the correct meaning of 'every cloud has a silver lining':",
+      "choices": [
+        "clouds are beautiful",
+        "there is something positive in every bad situation",
+        "weather changes",
+        "be optimistic"
+      ],
+      "answer": 1,
+      "explanation": "「every cloud has a silver lining（どんな不幸にも良い面がある）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_060",
+      "question": "Choose the correct meaning of 'get the ball rolling':",
+      "choices": [
+        "to play sports",
+        "to start an activity or process",
+        "to make progress",
+        "to encourage others"
+      ],
+      "answer": 1,
+      "explanation": "「get the ball rolling（ボールを転がす→物事を始める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_061",
+      "question": "Choose the correct meaning of 'read between the lines':",
+      "choices": [
+        "to read very carefully",
+        "to understand hidden meaning",
+        "to study a text",
+        "to analyze writing"
+      ],
+      "answer": 1,
+      "explanation": "「read between the lines（行間を読む）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_062",
+      "question": "Choose the correct meaning of 'hit the ground running':",
+      "choices": [
+        "to fall down",
+        "to start something immediately with full effort",
+        "to make progress",
+        "to begin quickly"
+      ],
+      "answer": 1,
+      "explanation": "「hit the ground running（地に足をつけてすぐ走る→すぐ全力で取りかかる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_063",
+      "question": "Choose the correct meaning of 'leave no stone unturned':",
+      "choices": [
+        "to be messy",
+        "to try every possible option",
+        "to work outdoors",
+        "to clean thoroughly"
+      ],
+      "answer": 1,
+      "explanation": "「leave no stone unturned（石を全てひっくり返す→手段を尽くす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_064",
+      "question": "Choose the correct meaning of 'on the same page':",
+      "choices": [
+        "reading the same book",
+        "having the same understanding or plan",
+        "agreeing on everything",
+        "working together"
+      ],
+      "answer": 1,
+      "explanation": "「on the same page（同じページにいる→同じ認識を持つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_065",
+      "question": "Choose the correct meaning of 'see eye to eye':",
+      "choices": [
+        "to stare at each other",
+        "to agree with someone",
+        "to understand someone",
+        "to look at the same thing"
+      ],
+      "answer": 1,
+      "explanation": "「see eye to eye（目と目を合わせる→意見が一致する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_066",
+      "question": "Choose the correct meaning of 'blow off steam':",
+      "choices": [
+        "to fix a machine",
+        "to release pent-up emotions",
+        "to brag",
+        "to release pressure"
+      ],
+      "answer": 1,
+      "explanation": "「blow off steam（蒸気を吹き出す→鬱憤を晴らす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_067",
+      "question": "Choose the correct meaning of 'in the nick of time':",
+      "choices": [
+        "at a slow pace",
+        "just in time at the last moment",
+        "ahead of schedule",
+        "exactly on time"
+      ],
+      "answer": 1,
+      "explanation": "「in the nick of time（間一髪）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_068",
+      "question": "Choose the correct meaning of 'break a leg':",
+      "choices": [
+        "to injure yourself",
+        "good luck",
+        "to start dancing",
+        "to run fast"
+      ],
+      "answer": 1,
+      "explanation": "「break a leg（足を折れ→頑張れ・成功を祈る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_069",
+      "question": "Choose the correct meaning of 'put your foot in your mouth':",
+      "choices": [
+        "to exercise",
+        "to say something embarrassing or inappropriate",
+        "to be clumsy",
+        "to make a mistake"
+      ],
+      "answer": 1,
+      "explanation": "「put your foot in your mouth（口に足を入れる→失言する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_070",
+      "question": "Choose the correct meaning of 'the whole nine yards':",
+      "choices": [
+        "a measurement",
+        "everything possible",
+        "the entire story",
+        "a sports term"
+      ],
+      "answer": 1,
+      "explanation": "「the whole nine yards（9ヤード全部→全部・全て）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_071",
+      "question": "Choose the correct meaning of 'let sleeping dogs lie':",
+      "choices": [
+        "to leave animals alone",
+        "to avoid interfering with a past situation",
+        "to be passive",
+        "to not disturb peace"
+      ],
+      "answer": 1,
+      "explanation": "「let sleeping dogs lie（眠っている犬を眠らせておく→やぶへびを起こすな）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_072",
+      "question": "Choose the correct meaning of 'burn bridges':",
+      "choices": [
+        "to destroy physical structures",
+        "to permanently damage a relationship",
+        "to end a journey",
+        "to create obstacles"
+      ],
+      "answer": 1,
+      "explanation": "「burn bridges（橋を焼く→関係を永久に壊す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_073",
+      "question": "Choose the correct meaning of 'think outside the box':",
+      "choices": [
+        "to work outside",
+        "to think creatively and unconventionally",
+        "to leave your comfort zone",
+        "to be innovative"
+      ],
+      "answer": 1,
+      "explanation": "「think outside the box（箱の外で考える→固定概念にとらわれずに考える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_074",
+      "question": "Choose the correct meaning of 'get cold feet':",
+      "choices": [
+        "to have cold feet literally",
+        "to become nervous and hesitant",
+        "to change your mind",
+        "to back out"
+      ],
+      "answer": 1,
+      "explanation": "「get cold feet（足が冷たくなる→怖気づく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_075",
+      "question": "Choose the correct meaning of 'it takes two to tango':",
+      "choices": [
+        "a dance requires two",
+        "both parties are responsible",
+        "cooperation is needed",
+        "to dance together"
+      ],
+      "answer": 1,
+      "explanation": "「it takes two to tango（タンゴは二人で踊る→双方に責任がある）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_076",
+      "question": "Choose the correct meaning of 'under the table':",
+      "choices": [
+        "below furniture",
+        "done secretly and illegally",
+        "in a hidden place",
+        "quietly"
+      ],
+      "answer": 1,
+      "explanation": "「under the table（テーブルの下→非合法・裏で秘密に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_077",
+      "question": "Choose the correct meaning of 'at the drop of a hat':",
+      "choices": [
+        "when wearing a hat",
+        "without hesitation immediately",
+        "casually",
+        "when dropping something"
+      ],
+      "answer": 1,
+      "explanation": "「at the drop of a hat（帽子を落としたとたんに→すぐに）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_078",
+      "question": "Choose the correct meaning of 'go with the flow':",
+      "choices": [
+        "to follow water",
+        "to adapt to circumstances without resistance",
+        "to be flexible",
+        "to follow the trend"
+      ],
+      "answer": 1,
+      "explanation": "「go with the flow（流れに乗る→成り行きに任せる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_079",
+      "question": "Choose the correct meaning of 'have your cake and eat it too':",
+      "choices": [
+        "to enjoy a treat",
+        "to want everything without sacrifice",
+        "to be greedy",
+        "to have the best of both worlds"
+      ],
+      "answer": 1,
+      "explanation": "「have your cake and eat it too（欲張りをする→どっちも欲しがる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_080",
+      "question": "Choose the correct meaning of 'turn the tables':",
+      "choices": [
+        "to rearrange furniture",
+        "to reverse a situation in your favor",
+        "to change direction",
+        "to gain an advantage"
+      ],
+      "answer": 1,
+      "explanation": "「turn the tables（テーブルをひっくり返す→形勢を逆転する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_081",
+      "question": "Choose the correct meaning of 'hit the jackpot':",
+      "choices": [
+        "to win at gambling",
+        "to achieve great success or luck",
+        "to find treasure",
+        "to get the best result"
+      ],
+      "answer": 1,
+      "explanation": "「hit the jackpot（大当たりを引く→大成功する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_082",
+      "question": "Choose the correct meaning of 'go down the drain':",
+      "choices": [
+        "to fall into a drain",
+        "to be wasted or ruined",
+        "to disappear",
+        "to fail"
+      ],
+      "answer": 1,
+      "explanation": "「go down the drain（排水溝に流れる→水の泡になる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_083",
+      "question": "Choose the correct meaning of 'steal the show':",
+      "choices": [
+        "to be a thief",
+        "to be the most impressive person",
+        "to outperform everyone",
+        "to be the center of attention"
+      ],
+      "answer": 1,
+      "explanation": "「steal the show（ショーを盗む→ひときわ目立つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_084",
+      "question": "Choose the correct meaning of 'add fuel to the fire':",
+      "choices": [
+        "to cause more problems",
+        "to help resolve issues",
+        "to encourage",
+        "to stop a problem"
+      ],
+      "answer": 0,
+      "explanation": "「add fuel to the fire（火に油を注ぐ→事態を悪化させる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_085",
+      "question": "Choose the correct meaning of 'at the end of the day':",
+      "choices": [
+        "in the evening",
+        "when all is considered ultimately",
+        "after work",
+        "when everything is done"
+      ],
+      "answer": 1,
+      "explanation": "「at the end of the day（一日の終わりに→結局のところ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_086",
+      "question": "Choose the correct meaning of 'be all ears':",
+      "choices": [
+        "to have big ears",
+        "to listen very attentively",
+        "to want information",
+        "to be curious"
+      ],
+      "answer": 1,
+      "explanation": "「be all ears（全部耳になる→一心に耳を傾ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_087",
+      "question": "Choose the correct meaning of 'bend over backwards':",
+      "choices": [
+        "to do gymnastics",
+        "to make great effort to help someone",
+        "to sacrifice",
+        "to work very hard"
+      ],
+      "answer": 1,
+      "explanation": "「bend over backwards（後ろに大きく曲がる→大変な努力をする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_088",
+      "question": "Choose the correct meaning of 'bread and butter':",
+      "choices": [
+        "food items",
+        "something that provides basic income",
+        "the basics of life",
+        "daily necessities"
+      ],
+      "answer": 1,
+      "explanation": "「bread and butter（パンとバター→生活の糧）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_089",
+      "question": "Choose the correct meaning of 'break new ground':",
+      "choices": [
+        "construction work",
+        "to do something innovative",
+        "to start fresh",
+        "to pioneer"
+      ],
+      "answer": 1,
+      "explanation": "「break new ground（新地を開く→新境地を開く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_090",
+      "question": "Choose the correct meaning of \"can't see the forest for the trees\":",
+      "choices": [
+        "unable to find a forest",
+        "being too focused on details to see the big picture",
+        "myopic thinking",
+        "losing perspective"
+      ],
+      "answer": 1,
+      "explanation": "「can't see the forest for the trees（木を見て森を見ず）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_091",
+      "question": "Choose the correct meaning of 'catch someone red-handed':",
+      "choices": [
+        "to catch someone bleeding",
+        "to catch someone in the act of doing something wrong",
+        "to surprise someone",
+        "to arrest someone"
+      ],
+      "answer": 1,
+      "explanation": "「catch someone red-handed（赤い手で捕まえる→現行犯で捕まえる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_092",
+      "question": "Choose the correct meaning of 'come out of your shell':",
+      "choices": [
+        "to leave a hiding spot",
+        "to become more confident and sociable",
+        "to open up",
+        "to be more outgoing"
+      ],
+      "answer": 1,
+      "explanation": "「come out of your shell（殻から出る→打ち解ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_093",
+      "question": "Choose the correct meaning of 'cut someone off':",
+      "choices": [
+        "to physically cut",
+        "to stop communicating with someone",
+        "to end a relationship",
+        "to disconnect"
+      ],
+      "answer": 1,
+      "explanation": "「cut someone off（切る→関係を断ち切る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_094",
+      "question": "Choose the correct meaning of 'do a U-turn':",
+      "choices": [
+        "to drive in circles",
+        "to completely reverse your opinion",
+        "to change direction",
+        "to go back"
+      ],
+      "answer": 1,
+      "explanation": "「do a U-turn（Uターンをする→完全に方向転換する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_095",
+      "question": "Choose the correct meaning of 'dog eat dog':",
+      "choices": [
+        "animal behavior",
+        "very competitive and ruthless",
+        "survival of the fittest",
+        "aggressive competition"
+      ],
+      "answer": 1,
+      "explanation": "「dog eat dog（犬が犬を食う→弱肉強食）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_096",
+      "question": "Choose the correct meaning of 'draw the line':",
+      "choices": [
+        "to make a boundary",
+        "to set a limit on what you will accept",
+        "to establish limits",
+        "to say no"
+      ],
+      "answer": 1,
+      "explanation": "「draw the line（線を引く→一線を画する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_097",
+      "question": "Choose the correct meaning of 'drive someone up the wall':",
+      "choices": [
+        "to take someone for a drive",
+        "to make someone very annoyed",
+        "to frustrate someone",
+        "to irritate"
+      ],
+      "answer": 1,
+      "explanation": "「drive someone up the wall（壁まで追い詰める→ひどくイライラさせる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_098",
+      "question": "Choose the correct meaning of 'drop the ball':",
+      "choices": [
+        "in sports",
+        "to make a mistake or fail",
+        "to disappoint",
+        "to fail to meet expectations"
+      ],
+      "answer": 1,
+      "explanation": "「drop the ball（ボールを落とす→失策する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_099",
+      "question": "Choose the correct meaning of 'easier said than done':",
+      "choices": [
+        "a common phrase",
+        "something that sounds simple but is actually difficult",
+        "advice that is easy to give",
+        "requiring great effort"
+      ],
+      "answer": 1,
+      "explanation": "「easier said than done（言うは易し行うは難し）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_100",
+      "question": "Choose the correct meaning of 'fall through the cracks':",
+      "choices": [
+        "to break things",
+        "to be overlooked or ignored",
+        "to fail",
+        "to be missed"
+      ],
+      "answer": 1,
+      "explanation": "「fall through the cracks（隙間から落ちる→見過ごされる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_101",
+      "question": "Choose the correct meaning of 'find your feet':",
+      "choices": [
+        "to locate your feet",
+        "to become more confident in a new situation",
+        "to get started",
+        "to settle in"
+      ],
+      "answer": 1,
+      "explanation": "「find your feet（足を見つける→慣れてくる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_102",
+      "question": "Choose the correct meaning of 'food for thought':",
+      "choices": [
+        "a meal",
+        "something that makes you think carefully",
+        "interesting information",
+        "an idea worth considering"
+      ],
+      "answer": 1,
+      "explanation": "「food for thought（思考のための食べ物→考えさせられること）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_103",
+      "question": "Choose the correct meaning of 'get a grip':",
+      "choices": [
+        "to physically grip something",
+        "to control your emotions and act sensibly",
+        "to hold on",
+        "to stay focused"
+      ],
+      "answer": 1,
+      "explanation": "「get a grip（しっかり掴む→しっかりしろ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_104",
+      "question": "Choose the correct meaning of 'get carried away':",
+      "choices": [
+        "to be transported",
+        "to become too excited or emotional",
+        "to go too far",
+        "to lose control"
+      ],
+      "answer": 1,
+      "explanation": "「get carried away（流されてしまう→はしゃぎすぎる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_105",
+      "question": "Choose the correct meaning of 'get off on the wrong foot':",
+      "choices": [
+        "to injure your foot",
+        "to start a relationship or activity badly",
+        "to make a bad first impression",
+        "to begin poorly"
+      ],
+      "answer": 1,
+      "explanation": "「get off on the wrong foot（間違った足から出発する→出だしをしくじる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_106",
+      "question": "Choose the correct meaning of 'give someone a piece of your mind':",
+      "choices": [
+        "to share thoughts",
+        "to tell someone exactly what you think often angrily",
+        "to criticize",
+        "to confront someone"
+      ],
+      "answer": 1,
+      "explanation": "「give someone a piece of your mind（率直に意見を言う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_107",
+      "question": "Choose the correct meaning of 'green with envy':",
+      "choices": [
+        "feeling sick",
+        "very envious",
+        "feeling jealous",
+        "wanting what others have"
+      ],
+      "answer": 1,
+      "explanation": "「green with envy（嫉妬で緑色→羨ましくて仕方がない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_108",
+      "question": "Choose the correct meaning of 'hang in there':",
+      "choices": [
+        "to hang something",
+        "to persist through difficulty",
+        "to not give up",
+        "to endure"
+      ],
+      "answer": 1,
+      "explanation": "「hang in there（そこにぶら下がれ→頑張れ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_109",
+      "question": "Choose the correct meaning of 'have a lot on your plate':",
+      "choices": [
+        "to have lots of food",
+        "to have many responsibilities or tasks",
+        "to be overwhelmed",
+        "to be very busy"
+      ],
+      "answer": 1,
+      "explanation": "「have a lot on your plate（皿に多くを乗せている→やることが山積み）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_110",
+      "question": "Choose the correct meaning of 'hit rock bottom':",
+      "choices": [
+        "to mine rocks",
+        "to reach the lowest possible point",
+        "to fail completely",
+        "to reach a new low"
+      ],
+      "answer": 1,
+      "explanation": "「hit rock bottom（岩底に達する→どん底に落ちる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_111",
+      "question": "Choose the correct meaning of 'hold your horses':",
+      "choices": [
+        "to take care of horses",
+        "to wait and be patient",
+        "to slow down",
+        "to pause"
+      ],
+      "answer": 1,
+      "explanation": "「hold your horses（馬を止めろ→ちょっと待て）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_112",
+      "question": "Choose the correct meaning of 'in a nutshell':",
+      "choices": [
+        "inside a shell",
+        "briefly and concisely",
+        "in summary",
+        "to summarize"
+      ],
+      "answer": 1,
+      "explanation": "「in a nutshell（木の実の殻の中に→要するに）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_113",
+      "question": "Choose the correct meaning of 'in the long run':",
+      "choices": [
+        "during a marathon",
+        "eventually over a long period of time",
+        "ultimately",
+        "in the future"
+      ],
+      "answer": 1,
+      "explanation": "「in the long run（長いレースで→長い目で見れば）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_114",
+      "question": "Choose the correct meaning of 'keep someone in the loop':",
+      "choices": [
+        "to trap someone",
+        "to keep someone informed and involved",
+        "to include someone",
+        "to update someone"
+      ],
+      "answer": 1,
+      "explanation": "「keep someone in the loop（ループに入れる→情報を共有する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_115",
+      "question": "Choose the correct meaning of 'kick the bucket':",
+      "choices": [
+        "to kick something",
+        "to die informally",
+        "to give up",
+        "to end something"
+      ],
+      "answer": 1,
+      "explanation": "「kick the bucket（バケツを蹴る→死ぬ（口語））」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_116",
+      "question": "Choose the correct meaning of 'know the ropes':",
+      "choices": [
+        "to know about ropes",
+        "to be experienced and know how things are done",
+        "to understand procedures",
+        "to be an expert"
+      ],
+      "answer": 1,
+      "explanation": "「know the ropes（ロープを知っている→要領をわかっている）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_117",
+      "question": "Choose the correct meaning of 'learn the ropes':",
+      "choices": [
+        "to study about ropes",
+        "to learn how to do a new job or activity",
+        "to get started",
+        "to understand the basics"
+      ],
+      "answer": 1,
+      "explanation": "「learn the ropes（ロープを覚える→仕事の要領を覚える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_118",
+      "question": "Choose the correct meaning of 'look on the bright side':",
+      "choices": [
+        "to use lights",
+        "to focus on the positive aspects",
+        "to be optimistic",
+        "to see the good in everything"
+      ],
+      "answer": 1,
+      "explanation": "「look on the bright side（明るい面を見る→良い方に考える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_119",
+      "question": "Choose the correct meaning of 'make a long story short':",
+      "choices": [
+        "to tell a story",
+        "to give a brief summary",
+        "to shorten a narrative",
+        "to get to the point"
+      ],
+      "answer": 1,
+      "explanation": "「make a long story short（手短に言えば）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_120",
+      "question": "Choose the correct meaning of 'make ends meet':",
+      "choices": [
+        "to finish a task",
+        "to earn just enough to pay for necessities",
+        "to be sufficient",
+        "to balance accounts"
+      ],
+      "answer": 1,
+      "explanation": "「make ends meet（端と端を合わせる→生活をやり繰りする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_121",
+      "question": "Choose the correct meaning of 'move mountains':",
+      "choices": [
+        "to do construction",
+        "to do something impossible",
+        "to accomplish great things",
+        "to work incredibly hard"
+      ],
+      "answer": 1,
+      "explanation": "「move mountains（山を動かす→不可能なことをする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_122",
+      "question": "Choose the correct meaning of 'my hands are tied':",
+      "choices": [
+        "to be literally tied",
+        "to be unable to take action due to constraints",
+        "to have no choice",
+        "to be prevented from helping"
+      ],
+      "answer": 1,
+      "explanation": "「my hands are tied（手が縛られている→どうすることもできない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_123",
+      "question": "Choose the correct meaning of 'no pain no gain':",
+      "choices": [
+        "a fitness rule",
+        "you must work hard to achieve something worthwhile",
+        "suffering leads to success",
+        "there is no reward without effort"
+      ],
+      "answer": 1,
+      "explanation": "「no pain no gain（痛みなくして得るものなし）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_124",
+      "question": "Choose the correct meaning of 'not bat an eye':",
+      "choices": [
+        "to not blink",
+        "to show no reaction or surprise",
+        "to be unimpressed",
+        "to stay calm"
+      ],
+      "answer": 1,
+      "explanation": "「not bat an eye（目を瞬かせない→びくともしない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_125",
+      "question": "Choose the correct meaning of 'off the top of your head':",
+      "choices": [
+        "on top of your head",
+        "from memory without research or preparation",
+        "immediately",
+        "without thinking"
+      ],
+      "answer": 1,
+      "explanation": "「off the top of your head（頭のてっぺんから→即席に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_126",
+      "question": "Choose the correct meaning of 'on thin ice':",
+      "choices": [
+        "skating",
+        "in a risky or dangerous situation",
+        "in trouble",
+        "doing something dangerous"
+      ],
+      "answer": 1,
+      "explanation": "「on thin ice（薄い氷の上→危うい立場）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_127",
+      "question": "Choose the correct meaning of 'over the moon':",
+      "choices": [
+        "above the moon",
+        "extremely happy",
+        "very excited",
+        "overjoyed"
+      ],
+      "answer": 0,
+      "explanation": "「over the moon（月の上を超える→大喜び）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_128",
+      "question": "Choose the correct meaning of 'pick someone's brain':",
+      "choices": [
+        "surgery",
+        "to ask someone for advice or opinions",
+        "to learn from someone",
+        "to get information"
+      ],
+      "answer": 1,
+      "explanation": "「pick someone's brain（脳を選ぶ→知恵を借りる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_129",
+      "question": "Choose the correct meaning of 'play it safe':",
+      "choices": [
+        "to play carefully",
+        "to take a cautious approach to avoid risk",
+        "to not take risks",
+        "to be conservative"
+      ],
+      "answer": 1,
+      "explanation": "「play it safe（安全にやる→無難な選択をする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_130",
+      "question": "Choose the correct meaning of 'raise the bar':",
+      "choices": [
+        "to put a bar higher",
+        "to set higher standards",
+        "to increase expectations",
+        "to improve quality"
+      ],
+      "answer": 1,
+      "explanation": "「raise the bar（バーを上げる→水準を上げる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_131",
+      "question": "Choose the correct meaning of 'read someone like a book':",
+      "choices": [
+        "to read to someone",
+        "to understand someone very well",
+        "to know their intentions",
+        "to be transparent"
+      ],
+      "answer": 1,
+      "explanation": "「read someone like a book（本のように読む→お見通し）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_132",
+      "question": "Choose the correct meaning of 'reinvent the wheel':",
+      "choices": [
+        "to invent something",
+        "to redo something that has already been done",
+        "to waste time",
+        "to do unnecessary work"
+      ],
+      "answer": 1,
+      "explanation": "「reinvent the wheel（車輪を再発明する→無駄な努力をする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_133",
+      "question": "Choose the correct meaning of 'ring a bell':",
+      "choices": [
+        "to use a bell",
+        "to sound familiar or remind you of something",
+        "to remember",
+        "to recognize"
+      ],
+      "answer": 1,
+      "explanation": "「ring a bell（鐘を鳴らす→聞き覚えがある）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_134",
+      "question": "Choose the correct meaning of 'run out of steam':",
+      "choices": [
+        "to run out of gas",
+        "to lose energy or motivation",
+        "to become exhausted",
+        "to stop working"
+      ],
+      "answer": 1,
+      "explanation": "「run out of steam（蒸気が切れる→勢いが止まる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_135",
+      "question": "Choose the correct meaning of 'save your breath':",
+      "choices": [
+        "to breathe carefully",
+        "to not waste time talking",
+        "to stay quiet",
+        "to not bother saying something"
+      ],
+      "answer": 1,
+      "explanation": "「save your breath（息を節約しろ→無駄口を叩くな）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_136",
+      "question": "Choose the correct meaning of 'set the stage':",
+      "choices": [
+        "to arrange a theater",
+        "to prepare conditions for something to happen",
+        "to create the environment",
+        "to make preparations"
+      ],
+      "answer": 1,
+      "explanation": "「set the stage（舞台を整える→お膳立てをする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_137",
+      "question": "Choose the correct meaning of 'shoot the breeze':",
+      "choices": [
+        "to use a gun",
+        "to chat casually",
+        "to have small talk",
+        "to gossip"
+      ],
+      "answer": 1,
+      "explanation": "「shoot the breeze（風に向けて撃つ→気軽に雑談する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_138",
+      "question": "Choose the correct meaning of 'sit tight':",
+      "choices": [
+        "to sit firmly",
+        "to wait patiently without moving",
+        "to stay in place",
+        "to not do anything"
+      ],
+      "answer": 1,
+      "explanation": "「sit tight（固く座る→しっかり待つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_139",
+      "question": "Choose the correct meaning of 'sleep on it':",
+      "choices": [
+        "to sleep on something",
+        "to delay a decision until after sleeping",
+        "to think about it overnight",
+        "to not decide right away"
+      ],
+      "answer": 1,
+      "explanation": "「sleep on it（寝てから考える→一晩考えてから決める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_140",
+      "question": "Choose the correct meaning of 'so far so good':",
+      "choices": [
+        "distant and good",
+        "things are going well up to now",
+        "good progress",
+        "satisfactory so far"
+      ],
+      "answer": 1,
+      "explanation": "「so far so good（今のところ問題なし）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_141",
+      "question": "Choose the correct meaning of 'stand your ground':",
+      "choices": [
+        "to not move physically",
+        "to maintain your position despite opposition",
+        "to be stubborn",
+        "to not give in"
+      ],
+      "answer": 1,
+      "explanation": "「stand your ground（立場を守る→一歩も引かない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_142",
+      "question": "Choose the correct meaning of 'straight from the horse's mouth':",
+      "choices": [
+        "an animal saying something",
+        "from a reliable firsthand source",
+        "directly from the source",
+        "from firsthand knowledge"
+      ],
+      "answer": 1,
+      "explanation": "「straight from the horse's mouth（馬の口から直接→一次情報から）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_143",
+      "question": "Choose the correct meaning of 'take a back seat':",
+      "choices": [
+        "to sit in back",
+        "to take a less important or active role",
+        "to be passive",
+        "to let others lead"
+      ],
+      "answer": 1,
+      "explanation": "「take a back seat（後部座席に座る→脇役になる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_144",
+      "question": "Choose the correct meaning of 'take someone under your wing':",
+      "choices": [
+        "to fly with someone",
+        "to mentor and protect someone",
+        "to guide someone",
+        "to teach and support"
+      ],
+      "answer": 1,
+      "explanation": "「take someone under your wing（翼の下に入れる→面倒を見る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_145",
+      "question": "Choose the correct meaning of 'the bottom line':",
+      "choices": [
+        "the last line",
+        "the most important point or final result",
+        "the conclusion",
+        "what matters most"
+      ],
+      "answer": 1,
+      "explanation": "「the bottom line（一番下の行→要点・結論）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_146",
+      "question": "Choose the correct meaning of 'the cat is out of the bag':",
+      "choices": [
+        "an animal escaped",
+        "a secret has been revealed",
+        "the truth is known",
+        "a surprise is ruined"
+      ],
+      "answer": 1,
+      "explanation": "「the cat is out of the bag（袋から猫が出た→秘密がバレた）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_147",
+      "question": "Choose the correct meaning of 'the other side of the coin':",
+      "choices": [
+        "currency",
+        "the opposite perspective or aspect of something",
+        "the negative side",
+        "another viewpoint"
+      ],
+      "answer": 1,
+      "explanation": "「the other side of the coin（コインの裏面→物事の反対の面）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_148",
+      "question": "Choose the correct meaning of 'tie the knot':",
+      "choices": [
+        "to tie a rope",
+        "to get married",
+        "to make a commitment",
+        "to join together"
+      ],
+      "answer": 1,
+      "explanation": "「tie the knot（結び目を結ぶ→結婚する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_149",
+      "question": "Choose the correct meaning of 'time flies':",
+      "choices": [
+        "insects in air",
+        "time passes very quickly",
+        "little time has passed",
+        "when you are having fun"
+      ],
+      "answer": 1,
+      "explanation": "「time flies（時は飛ぶ→時間が過ぎるのは早い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_150",
+      "question": "Choose the correct meaning of 'too good to be true':",
+      "choices": [
+        "something perfect",
+        "something that seems too positive to be real",
+        "something suspicious",
+        "something unbelievable"
+      ],
+      "answer": 1,
+      "explanation": "「too good to be true（良すぎて本当とは思えない→うまい話には裏がある）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_151",
+      "question": "Choose the correct meaning of 'two peas in a pod':",
+      "choices": [
+        "vegetables",
+        "two people who are very similar",
+        "close friends",
+        "identical twins"
+      ],
+      "answer": 1,
+      "explanation": "「two peas in a pod（さやの中の二つの豆→そっくりな二人）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_152",
+      "question": "Choose the correct meaning of 'under the radar':",
+      "choices": [
+        "below a radar screen",
+        "without being noticed",
+        "secretly",
+        "avoiding detection"
+      ],
+      "answer": 1,
+      "explanation": "「under the radar（レーダーの下→目立たない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_153",
+      "question": "Choose the correct meaning of 'up in the air':",
+      "choices": [
+        "flying",
+        "uncertain or undecided",
+        "not settled",
+        "still being discussed"
+      ],
+      "answer": 1,
+      "explanation": "「up in the air（空中に→未決定・宙ぶらりん）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_154",
+      "question": "Choose the correct meaning of 'walk on eggshells':",
+      "choices": [
+        "to step on eggs",
+        "to be very careful with what you say or do",
+        "to be cautious",
+        "to avoid upsetting someone"
+      ],
+      "answer": 1,
+      "explanation": "「walk on eggshells（卵の殻の上を歩く→腫れ物に触るように扱う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_155",
+      "question": "Choose the correct meaning of 'wear many hats':",
+      "choices": [
+        "to have many hats",
+        "to have multiple roles or responsibilities",
+        "to be versatile",
+        "to do many jobs"
+      ],
+      "answer": 1,
+      "explanation": "「wear many hats（多くの帽子をかぶる→多くの役割を担う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_156",
+      "question": "Choose the correct meaning of 'when pigs fly':",
+      "choices": [
+        "a reference to animals",
+        "something that will never happen",
+        "an impossible event",
+        "never"
+      ],
+      "answer": 1,
+      "explanation": "「when pigs fly（豚が空を飛んだら→絶対にない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_157",
+      "question": "Choose the correct meaning of 'win someone over':",
+      "choices": [
+        "to compete against someone",
+        "to persuade someone to agree with you",
+        "to charm someone",
+        "to convince someone"
+      ],
+      "answer": 1,
+      "explanation": "「win someone over（説得して味方につける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_158",
+      "question": "Choose the correct meaning of 'with a grain of salt':",
+      "choices": [
+        "adding salt",
+        "with some doubt or skepticism",
+        "cautiously",
+        "not fully believing"
+      ],
+      "answer": 1,
+      "explanation": "「with a grain of salt（塩一粒と共に→眉唾で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_159",
+      "question": "Choose the correct meaning of 'you can't have it both ways':",
+      "choices": [
+        "making choices",
+        "you must choose between two options",
+        "you can't get everything",
+        "you have to compromise"
+      ],
+      "answer": 1,
+      "explanation": "「you can't have it both ways（両方うまくいくわけがない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_160",
+      "question": "Choose the correct meaning of 'zero in on':",
+      "choices": [
+        "to use a zero",
+        "to focus precisely on something",
+        "to target",
+        "to identify specifically"
+      ],
+      "answer": 1,
+      "explanation": "「zero in on（ゼロに絞る→的を絞る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_161",
+      "question": "Choose the correct meaning of 'a dime a dozen':",
+      "choices": [
+        "a cheap price",
+        "very common and not special",
+        "easily available",
+        "ordinary and plentiful"
+      ],
+      "answer": 1,
+      "explanation": "「a dime a dozen（10セントで12個→ありふれた）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_162",
+      "question": "Choose the correct meaning of 'a far cry from':",
+      "choices": [
+        "a cry from afar",
+        "very different from",
+        "not at all like",
+        "nothing like"
+      ],
+      "answer": 1,
+      "explanation": "「a far cry from（遠くからの叫び→〜とはほど遠い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_163",
+      "question": "Choose the correct meaning of 'all in a day's work':",
+      "choices": [
+        "long working hours",
+        "something ordinary and routine",
+        "typical workday",
+        "part of the job"
+      ],
+      "answer": 1,
+      "explanation": "「all in a day's work（一日の仕事の全て→日常茶飯事）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_164",
+      "question": "Choose the correct meaning of 'at loggerheads':",
+      "choices": [
+        "related to wood",
+        "in strong disagreement",
+        "arguing",
+        "in conflict"
+      ],
+      "answer": 1,
+      "explanation": "「at loggerheads（対立している・口論中）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_165",
+      "question": "Choose the correct meaning of 'back in the saddle':",
+      "choices": [
+        "to ride a horse",
+        "to return to an active role after a break",
+        "to be in charge again",
+        "to resume control"
+      ],
+      "answer": 1,
+      "explanation": "「back in the saddle（サドルに戻る→仕事に復帰する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_166",
+      "question": "Choose the correct meaning of 'be at your wit's end':",
+      "choices": [
+        "to be intelligent",
+        "to not know what to do anymore",
+        "to have no ideas left",
+        "to be desperate"
+      ],
+      "answer": 1,
+      "explanation": "「be at your wit's end（知恵の終わりに来ている→どうしたらいいかわからない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_167",
+      "question": "Choose the correct meaning of 'be cut out for something':",
+      "choices": [
+        "to cut something out",
+        "to be naturally suited for something",
+        "to be qualified",
+        "to have the right skills"
+      ],
+      "answer": 1,
+      "explanation": "「be cut out for something（〜のために切り出されている→〜に向いている）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_168",
+      "question": "Choose the correct meaning of 'behind bars':",
+      "choices": [
+        "behind fences",
+        "in prison",
+        "locked up",
+        "incarcerated"
+      ],
+      "answer": 0,
+      "explanation": "「behind bars（棒の後ろ→獄中に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_169",
+      "question": "Choose the correct meaning of 'bite your nails':",
+      "choices": [
+        "a bad habit",
+        "to be very anxious or nervous",
+        "to worry",
+        "to feel nervous"
+      ],
+      "answer": 1,
+      "explanation": "「bite your nails（爪を噛む→ヤキモキする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_170",
+      "question": "Choose the correct meaning of 'blow your mind':",
+      "choices": [
+        "to harm yourself",
+        "to overwhelm or amaze you",
+        "to confuse you",
+        "to shock you"
+      ],
+      "answer": 1,
+      "explanation": "「blow your mind（心を吹き飛ばす→衝撃を与える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_171",
+      "question": "Choose the correct meaning of 'break even':",
+      "choices": [
+        "to crack something",
+        "to make neither profit nor loss",
+        "to recover costs",
+        "to balance income and expenses"
+      ],
+      "answer": 1,
+      "explanation": "「break even（トントンになる→元が取れる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_172",
+      "question": "Choose the correct meaning of 'bring something to the table':",
+      "choices": [
+        "to carry objects",
+        "to contribute skills or resources",
+        "to offer something valuable",
+        "to add value"
+      ],
+      "answer": 1,
+      "explanation": "「bring something to the table（テーブルに持ってくる→貢献する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_173",
+      "question": "Choose the correct meaning of 'by the skin of your teeth':",
+      "choices": [
+        "with teeth involved",
+        "just barely by a very narrow margin",
+        "with great effort",
+        "only just"
+      ],
+      "answer": 1,
+      "explanation": "「by the skin of your teeth（歯の皮でかろうじて→首の皮一枚で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_174",
+      "question": "Choose the correct meaning of 'call it a day':",
+      "choices": [
+        "to name something",
+        "to stop working for the day",
+        "to finish",
+        "to end an activity"
+      ],
+      "answer": 1,
+      "explanation": "「call it a day（その日と呼ぶ→今日はここまでにする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_175",
+      "question": "Choose the correct meaning of 'carry the torch':",
+      "choices": [
+        "to use a torch",
+        "to continue someone's important work or tradition",
+        "to take over leadership",
+        "to continue a legacy"
+      ],
+      "answer": 1,
+      "explanation": "「carry the torch（松明を持ち続ける→旗手として引き継ぐ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_176",
+      "question": "Choose the correct meaning of 'catch someone off guard':",
+      "choices": [
+        "to find someone",
+        "to surprise someone who is not expecting it",
+        "to startle",
+        "to take by surprise"
+      ],
+      "answer": 1,
+      "explanation": "「catch someone off guard（警戒していないところを捕まえる→不意をつく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_177",
+      "question": "Choose the correct meaning of 'change of heart':",
+      "choices": [
+        "a medical term",
+        "a change in feelings or opinion",
+        "a different perspective",
+        "a new attitude"
+      ],
+      "answer": 1,
+      "explanation": "「change of heart（心の変化→心変わり）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_178",
+      "question": "Choose the correct meaning of 'close call':",
+      "choices": [
+        "a phone call to someone close",
+        "a narrow escape from danger",
+        "a lucky escape",
+        "nearly something bad happened"
+      ],
+      "answer": 1,
+      "explanation": "「close call（紙一重の出来事→危機一髪）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_179",
+      "question": "Choose the correct meaning of 'cool as a cucumber':",
+      "choices": [
+        "a vegetable preference",
+        "very calm and relaxed",
+        "not showing any emotion",
+        "staying calm under pressure"
+      ],
+      "answer": 1,
+      "explanation": "「cool as a cucumber（キュウリのように冷たい→冷静沈着な）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_180",
+      "question": "Choose the correct meaning of 'count on someone':",
+      "choices": [
+        "to count numbers",
+        "to depend on or trust someone",
+        "to rely on",
+        "to expect help from"
+      ],
+      "answer": 1,
+      "explanation": "「count on someone（〜を当てにする→頼りにする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_181",
+      "question": "Choose the correct meaning of 'dead ringer':",
+      "choices": [
+        "someone who rings bells",
+        "someone who looks exactly like another",
+        "an exact copy",
+        "a perfect match"
+      ],
+      "answer": 1,
+      "explanation": "「dead ringer（完全な瓜二つ→そっくりな人）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_182",
+      "question": "Choose the correct meaning of 'do the math':",
+      "choices": [
+        "to calculate numbers",
+        "to figure out the obvious conclusion",
+        "to add up the facts",
+        "to understand logically"
+      ],
+      "answer": 1,
+      "explanation": "「do the math（計算する→明らかなことを考える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_183",
+      "question": "Choose the correct meaning of 'down the road':",
+      "choices": [
+        "literally on a road",
+        "in the future",
+        "later on",
+        "at some point"
+      ],
+      "answer": 1,
+      "explanation": "「down the road（道の先に→将来・いずれは）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_184",
+      "question": "Choose the correct meaning of 'drag your feet':",
+      "choices": [
+        "to walk slowly",
+        "to deliberately delay doing something",
+        "to procrastinate",
+        "to avoid action"
+      ],
+      "answer": 1,
+      "explanation": "「drag your feet（足を引きずる→ぐずぐずする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_185",
+      "question": "Choose the correct meaning of 'drive the point home':",
+      "choices": [
+        "to go home",
+        "to emphasize something clearly and forcefully",
+        "to make something understood",
+        "to persuade"
+      ],
+      "answer": 1,
+      "explanation": "「drive the point home（ポイントを徹底的に理解させる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_186",
+      "question": "Choose the correct meaning of 'face the music':",
+      "choices": [
+        "to listen to music",
+        "to accept the consequences of your actions",
+        "to deal with a difficult situation",
+        "to take responsibility"
+      ],
+      "answer": 1,
+      "explanation": "「face the music（音楽に向き合う→現実を受け入れる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_187",
+      "question": "Choose the correct meaning of 'fall on deaf ears':",
+      "choices": [
+        "to hear poorly",
+        "to be ignored or not listened to",
+        "to be unsuccessful",
+        "to have no effect"
+      ],
+      "answer": 1,
+      "explanation": "「fall on deaf ears（聞こえない耳に落ちる→無視される）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_188",
+      "question": "Choose the correct meaning of 'find common ground':",
+      "choices": [
+        "to find land",
+        "to discover mutual interests or agreements",
+        "to agree on basics",
+        "to reach understanding"
+      ],
+      "answer": 1,
+      "explanation": "「find common ground（共通の基盤を見つける→折り合いをつける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_189",
+      "question": "Choose the correct meaning of 'fish out of water':",
+      "choices": [
+        "an animal",
+        "someone in an uncomfortable situation",
+        "someone who does not fit in",
+        "a person out of their element"
+      ],
+      "answer": 1,
+      "explanation": "「fish out of water（水の外の魚→居心地の悪い状況の人）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_190",
+      "question": "Choose the correct meaning of 'for the time being':",
+      "choices": [
+        "for a moment",
+        "for now temporarily",
+        "during this period",
+        "at this time"
+      ],
+      "answer": 1,
+      "explanation": "「for the time being（当分の間）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_191",
+      "question": "Choose the correct meaning of 'full of beans':",
+      "choices": [
+        "full of food",
+        "very lively and energetic",
+        "in high spirits",
+        "enthusiastic"
+      ],
+      "answer": 1,
+      "explanation": "「full of beans（豆でいっぱい→元気いっぱい）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_192",
+      "question": "Choose the correct meaning of 'get a second wind':",
+      "choices": [
+        "to feel the wind again",
+        "to gain new energy after being tired",
+        "to recover strength",
+        "to feel refreshed"
+      ],
+      "answer": 1,
+      "explanation": "「get a second wind（第二の風を受ける→息を吹き返す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_193",
+      "question": "Choose the correct meaning of 'get ahead':",
+      "choices": [
+        "to go in front",
+        "to make progress or be successful",
+        "to advance in career",
+        "to progress"
+      ],
+      "answer": 1,
+      "explanation": "「get ahead（前に行く→出世する・前進する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_194",
+      "question": "Choose the correct meaning of 'give and take':",
+      "choices": [
+        "to exchange things",
+        "mutual compromise and accommodation",
+        "to be flexible",
+        "to cooperate"
+      ],
+      "answer": 1,
+      "explanation": "「give and take（与え合い→お互いに譲り合う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_195",
+      "question": "Choose the correct meaning of 'go back on your word':",
+      "choices": [
+        "to return physically",
+        "to break a promise",
+        "to change your agreement",
+        "to not keep a promise"
+      ],
+      "answer": 1,
+      "explanation": "「go back on your word（言葉に反する→約束を破る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_196",
+      "question": "Choose the correct meaning of 'go out on a limb':",
+      "choices": [
+        "to walk on branches",
+        "to take a risk",
+        "to be in a vulnerable position",
+        "to do something daring"
+      ],
+      "answer": 1,
+      "explanation": "「go out on a limb（枝の先まで出る→危険を冒す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_197",
+      "question": "Choose the correct meaning of 'have a blast':",
+      "choices": [
+        "an explosion",
+        "to have a great time",
+        "to enjoy enormously",
+        "to have lots of fun"
+      ],
+      "answer": 1,
+      "explanation": "「have a blast（爆発的な楽しみ→大いに楽しむ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_198",
+      "question": "Choose the correct meaning of 'have the upper hand':",
+      "choices": [
+        "to raise hands",
+        "to have more power or advantage",
+        "to be in control",
+        "to dominate"
+      ],
+      "answer": 1,
+      "explanation": "「have the upper hand（上の手を持っている→優位に立つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_199",
+      "question": "Choose the correct meaning of 'hit the headlines':",
+      "choices": [
+        "to injure a head",
+        "to be reported widely in the news",
+        "to become famous",
+        "to make big news"
+      ],
+      "answer": 1,
+      "explanation": "「hit the headlines（見出しに当たる→話題になる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_200",
+      "question": "Choose the correct meaning of 'hold your tongue':",
+      "choices": [
+        "to hold your tongue physically",
+        "to stop yourself from speaking",
+        "to stay quiet",
+        "to not say what you are thinking"
+      ],
+      "answer": 1,
+      "explanation": "「hold your tongue（舌を押さえる→口をつぐむ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_201",
+      "question": "Choose the correct word:\n「一石二鳥」to kill ___ birds with one stone",
+      "choices": [
+        "two",
+        "three",
+        "many",
+        "several"
+      ],
+      "answer": 0,
+      "explanation": "「kill two birds with one stone（一石二鳥）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_202",
+      "question": "Choose the correct word:\n「秘密を漏らす」to let the ___ out of the bag",
+      "choices": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "answer": 0,
+      "explanation": "「let the cat out of the bag（秘密を漏らす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_203",
+      "question": "Choose the correct word:\n「的を射る」to hit the nail on the ___",
+      "choices": [
+        "head",
+        "wall",
+        "door",
+        "floor"
+      ],
+      "answer": 0,
+      "explanation": "「hit the nail on the head（的を射る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_204",
+      "question": "Choose the correct word:\n「時間をつぶす」to ___ time",
+      "choices": [
+        "kill",
+        "waste",
+        "spend",
+        "use"
+      ],
+      "answer": 0,
+      "explanation": "「kill time（時間をつぶす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_205",
+      "question": "Choose the correct word:\n「前向きに考える」look on the ___ side",
+      "choices": [
+        "bright",
+        "positive",
+        "good",
+        "right"
+      ],
+      "answer": 0,
+      "explanation": "「look on the bright side（前向きに考える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_206",
+      "question": "Choose the correct word:\n「出発する」to hit the ___",
+      "choices": [
+        "road",
+        "street",
+        "path",
+        "way"
+      ],
+      "answer": 0,
+      "explanation": "「hit the road（出発する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_207",
+      "question": "Choose the correct word:\n「ゼロから始める」to start from ___",
+      "choices": [
+        "scratch",
+        "zero",
+        "nothing",
+        "beginning"
+      ],
+      "answer": 0,
+      "explanation": "「start from scratch（ゼロから始める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_208",
+      "question": "Choose the correct word:\n「怖気づく」to get cold ___",
+      "choices": [
+        "feet",
+        "hands",
+        "nerves",
+        "sweat"
+      ],
+      "answer": 0,
+      "explanation": "「get cold feet（怖気づく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_209",
+      "question": "Choose the correct word:\n「仲直りする」to bury the ___",
+      "choices": [
+        "hatchet",
+        "sword",
+        "axe",
+        "knife"
+      ],
+      "answer": 0,
+      "explanation": "「bury the hatchet（仲直りする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_210",
+      "question": "Choose the correct word:\n「大喜びで」over the ___",
+      "choices": [
+        "moon",
+        "sun",
+        "stars",
+        "sky"
+      ],
+      "answer": 0,
+      "explanation": "「over the moon（大喜びで）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_211",
+      "question": "Choose the correct word:\n「間一髪で」in the nick of ___",
+      "choices": [
+        "time",
+        "luck",
+        "chance",
+        "moment"
+      ],
+      "answer": 0,
+      "explanation": "「in the nick of time（間一髪で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_212",
+      "question": "Choose the correct word:\n「土砂降り」raining cats and ___",
+      "choices": [
+        "dogs",
+        "rats",
+        "birds",
+        "mice"
+      ],
+      "answer": 0,
+      "explanation": "「raining cats and dogs（土砂降り）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_213",
+      "question": "Choose the correct word:\n「決意を固める」to bite the ___",
+      "choices": [
+        "bullet",
+        "nail",
+        "bone",
+        "metal"
+      ],
+      "answer": 0,
+      "explanation": "「bite the bullet（腹をくくる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_214",
+      "question": "Choose the correct word:\n「幸運を祈る」break a ___",
+      "choices": [
+        "leg",
+        "arm",
+        "bone",
+        "neck"
+      ],
+      "answer": 0,
+      "explanation": "「break a leg（幸運を祈る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_215",
+      "question": "Choose the correct word:\n「見当違い」to bark up the wrong ___",
+      "choices": [
+        "tree",
+        "path",
+        "street",
+        "door"
+      ],
+      "answer": 0,
+      "explanation": "「bark up the wrong tree（見当違い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_216",
+      "question": "Choose the correct word:\n「あきらめる」to throw in the ___",
+      "choices": [
+        "towel",
+        "sponge",
+        "flag",
+        "cap"
+      ],
+      "answer": 0,
+      "explanation": "「throw in the towel（あきらめる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_217",
+      "question": "Choose the correct word:\n「核心を避ける」to beat around the ___",
+      "choices": [
+        "bush",
+        "tree",
+        "topic",
+        "point"
+      ],
+      "answer": 0,
+      "explanation": "「beat around the bush（遠回しに言う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_218",
+      "question": "Choose the correct word:\n「感情を隠さない」to wear your heart on your ___",
+      "choices": [
+        "sleeve",
+        "face",
+        "chest",
+        "hand"
+      ],
+      "answer": 0,
+      "explanation": "「wear your heart on your sleeve（感情を隠さない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_219",
+      "question": "Choose the correct word:\n「形勢逆転」to turn the ___",
+      "choices": [
+        "tables",
+        "chairs",
+        "tide",
+        "game"
+      ],
+      "answer": 0,
+      "explanation": "「turn the tables（形勢逆転）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_220",
+      "question": "Choose the correct word:\n「何もないところから」out of the ___",
+      "choices": [
+        "blue",
+        "sky",
+        "air",
+        "nowhere"
+      ],
+      "answer": 0,
+      "explanation": "「out of the blue（突然・何もないところから）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_221",
+      "question": "Choose the correct word:\n「夢中で聞く」to be all ___",
+      "choices": [
+        "ears",
+        "eyes",
+        "attention",
+        "mind"
+      ],
+      "answer": 0,
+      "explanation": "「be all ears（一心に聞く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_222",
+      "question": "Choose the correct word:\n「冷静を保つ」to keep your ___",
+      "choices": [
+        "cool",
+        "calm",
+        "head",
+        "temper"
+      ],
+      "answer": 0,
+      "explanation": "「keep your cool（冷静を保つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_223",
+      "question": "Choose the correct word:\n「自力で成功する」pull yourself up by your ___",
+      "choices": [
+        "bootstraps",
+        "hands",
+        "efforts",
+        "willpower"
+      ],
+      "answer": 0,
+      "explanation": "「pull yourself up by your bootstraps（自力で成功する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_224",
+      "question": "Choose the correct word:\n「簡単なこと」a piece of ___",
+      "choices": [
+        "cake",
+        "pie",
+        "bread",
+        "candy"
+      ],
+      "answer": 0,
+      "explanation": "「a piece of cake（簡単なこと）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_225",
+      "question": "Choose the correct word:\n「生計を立てる」to bring home the ___",
+      "choices": [
+        "bacon",
+        "bread",
+        "money",
+        "goods"
+      ],
+      "answer": 0,
+      "explanation": "「bring home the bacon（稼ぐ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_226",
+      "question": "Choose the correct word:\n「腹を立てる」to lose your ___",
+      "choices": [
+        "cool",
+        "temper",
+        "patience",
+        "head"
+      ],
+      "answer": 0,
+      "explanation": "「lose your cool（冷静を失う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_227",
+      "question": "Choose the correct word:\n「言いがかりをつける」to stir up ___",
+      "choices": [
+        "trouble",
+        "anger",
+        "conflict",
+        "drama"
+      ],
+      "answer": 0,
+      "explanation": "「stir up trouble（面倒を起こす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_228",
+      "question": "Choose the correct word:\n「状況を変える」to rock the ___",
+      "choices": [
+        "boat",
+        "ground",
+        "world",
+        "system"
+      ],
+      "answer": 0,
+      "explanation": "「rock the boat（波風を立てる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_229",
+      "question": "Choose the correct word:\n「ぶっちゃける」to lay your ___ on the table",
+      "choices": [
+        "cards",
+        "hands",
+        "chips",
+        "bets"
+      ],
+      "answer": 0,
+      "explanation": "「lay your cards on the table（本音を話す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_230",
+      "question": "Choose the correct word:\n「可能性がゼロ」when ___ fly",
+      "choices": [
+        "pigs",
+        "elephants",
+        "cows",
+        "horses"
+      ],
+      "answer": 0,
+      "explanation": "「when pigs fly（絶対にない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_231",
+      "question": "Choose the correct word:\n「内部告発する」to blow the ___",
+      "choices": [
+        "whistle",
+        "horn",
+        "trumpet",
+        "alarm"
+      ],
+      "answer": 0,
+      "explanation": "「blow the whistle（内部告発する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_232",
+      "question": "Choose the correct word:\n「早まった結論を出す」to jump to ___",
+      "choices": [
+        "conclusions",
+        "answers",
+        "decisions",
+        "results"
+      ],
+      "answer": 0,
+      "explanation": "「jump to conclusions（早合点する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_233",
+      "question": "Choose the correct word:\n「遠い昔話」___ under the bridge",
+      "choices": [
+        "water",
+        "story",
+        "time",
+        "history"
+      ],
+      "answer": 0,
+      "explanation": "「water under the bridge（もう済んだこと）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_234",
+      "question": "Choose the correct word:\n「仮面をはがす」to show your true ___",
+      "choices": [
+        "colors",
+        "face",
+        "self",
+        "nature"
+      ],
+      "answer": 0,
+      "explanation": "「show your true colors（本性を現す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_235",
+      "question": "Choose the correct word:\n「節約する」to tighten your ___",
+      "choices": [
+        "belt",
+        "budget",
+        "spending",
+        "expenses"
+      ],
+      "answer": 0,
+      "explanation": "「tighten your belt（節約する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_236",
+      "question": "Choose the correct word:\n「我慢する」to bite your ___",
+      "choices": [
+        "tongue",
+        "lip",
+        "teeth",
+        "words"
+      ],
+      "answer": 0,
+      "explanation": "「bite your tongue（言いたいことを我慢する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_237",
+      "question": "Choose the correct word:\n「首の皮一枚で」by the skin of your ___",
+      "choices": [
+        "teeth",
+        "nails",
+        "fingers",
+        "luck"
+      ],
+      "answer": 0,
+      "explanation": "「by the skin of your teeth（ギリギリで）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_238",
+      "question": "Choose the correct word:\n「同じ状況」in the same ___",
+      "choices": [
+        "boat",
+        "situation",
+        "place",
+        "position"
+      ],
+      "answer": 0,
+      "explanation": "「in the same boat（同じ立場）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_239",
+      "question": "Choose the correct word:\n「熱を帯びた」in the ___ of the moment",
+      "choices": [
+        "heat",
+        "passion",
+        "fire",
+        "emotion"
+      ],
+      "answer": 0,
+      "explanation": "「in the heat of the moment（激情の中で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_240",
+      "question": "Choose the correct word:\n「ほぼあり得ない」a ___ in a million",
+      "choices": [
+        "shot",
+        "chance",
+        "hope",
+        "dream"
+      ],
+      "answer": 0,
+      "explanation": "「a shot in a million（ほぼあり得ない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_241",
+      "question": "Choose the correct word:\n「全力を尽くす」to go the extra ___",
+      "choices": [
+        "mile",
+        "step",
+        "distance",
+        "length"
+      ],
+      "answer": 0,
+      "explanation": "「go the extra mile（期待以上の努力をする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_242",
+      "question": "Choose the correct word:\n「裏で操る」to pull ___",
+      "choices": [
+        "strings",
+        "levers",
+        "wires",
+        "ropes"
+      ],
+      "answer": 0,
+      "explanation": "「pull strings（コネを使う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_243",
+      "question": "Choose the correct word:\n「好調」on a ___",
+      "choices": [
+        "roll",
+        "run",
+        "wave",
+        "streak"
+      ],
+      "answer": 0,
+      "explanation": "「on a roll（好調）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_244",
+      "question": "Choose the correct word:\n「秘密にする」to keep something under ___",
+      "choices": [
+        "wraps",
+        "cover",
+        "lock",
+        "seal"
+      ],
+      "answer": 0,
+      "explanation": "「keep under wraps（秘密にする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_245",
+      "question": "Choose the correct word:\n「チャンスに飛びつく」to ___ at the chance",
+      "choices": [
+        "jump",
+        "leap",
+        "grab",
+        "seize"
+      ],
+      "answer": 0,
+      "explanation": "「jump at the chance（チャンスに飛びつく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_246",
+      "question": "Choose the correct word:\n「昔はよかった」___ days",
+      "choices": [
+        "good old",
+        "better",
+        "golden",
+        "past"
+      ],
+      "answer": 2,
+      "explanation": "「golden days（黄金時代）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_247",
+      "question": "Choose the correct word:\n「一石を投じる」to set the ___ rolling",
+      "choices": [
+        "ball",
+        "stone",
+        "wheel",
+        "rock"
+      ],
+      "answer": 0,
+      "explanation": "「get the ball rolling（物事を始める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_248",
+      "question": "Choose the correct word:\n「骨折り損」a ___ in the bucket",
+      "choices": [
+        "drop",
+        "grain",
+        "speck",
+        "bit"
+      ],
+      "answer": 0,
+      "explanation": "「a drop in the bucket（焼け石に水）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_249",
+      "question": "Choose the correct word:\n「正念場」make or ___ moment",
+      "choices": [
+        "break",
+        "fail",
+        "decide",
+        "choose"
+      ],
+      "answer": 1,
+      "explanation": "「make or break（正念場）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_250",
+      "question": "Choose the correct word:\n「自画自賛」to blow your own ___",
+      "choices": [
+        "trumpet",
+        "horn",
+        "whistle",
+        "drum"
+      ],
+      "answer": 0,
+      "explanation": "「blow your own trumpet（自画自賛）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_251",
+      "question": "Choose the correct word:\n「お世辞」to ___ someone up",
+      "choices": [
+        "butter",
+        "sweet",
+        "sugar",
+        "honey"
+      ],
+      "answer": 0,
+      "explanation": "「butter someone up（お世辞を言う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_252",
+      "question": "Choose the correct word:\n「本題に入る」to cut to the ___",
+      "choices": [
+        "chase",
+        "point",
+        "topic",
+        "matter"
+      ],
+      "answer": 0,
+      "explanation": "「cut to the chase（本題に入る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_253",
+      "question": "Choose the correct word:\n「悪化させる」to add ___ to the fire",
+      "choices": [
+        "fuel",
+        "oil",
+        "wood",
+        "more"
+      ],
+      "answer": 0,
+      "explanation": "「add fuel to the fire（火に油を注ぐ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_254",
+      "question": "Choose the correct word:\n「鵜呑みにする」to swallow hook, line and ___",
+      "choices": [
+        "sinker",
+        "bait",
+        "hook",
+        "lead"
+      ],
+      "answer": 0,
+      "explanation": "「swallow hook line and sinker（鵜呑みにする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_255",
+      "question": "Choose the correct word:\n「眉唾で聞く」to take with a ___ of salt",
+      "choices": [
+        "pinch",
+        "grain",
+        "bit",
+        "touch"
+      ],
+      "answer": 0,
+      "explanation": "「take with a pinch of salt（眉唾で聞く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_256",
+      "question": "Choose the correct word:\n「とっさに判断」to think on your ___",
+      "choices": [
+        "feet",
+        "toes",
+        "legs",
+        "heels"
+      ],
+      "answer": 0,
+      "explanation": "「think on your feet（とっさに判断する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_257",
+      "question": "Choose the correct word:\n「失言する」to put your ___ in your mouth",
+      "choices": [
+        "foot",
+        "toe",
+        "hand",
+        "finger"
+      ],
+      "answer": 0,
+      "explanation": "「put your foot in your mouth（失言する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_258",
+      "question": "Choose the correct word:\n「大騒ぎする」to make a ___ about",
+      "choices": [
+        "fuss",
+        "scene",
+        "noise",
+        "show"
+      ],
+      "answer": 0,
+      "explanation": "「make a fuss（大騒ぎする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_259",
+      "question": "Choose the correct word:\n「行き詰まり」at a ___ end",
+      "choices": [
+        "dead",
+        "loose",
+        "blocked",
+        "stuck"
+      ],
+      "answer": 0,
+      "explanation": "「at a dead end（行き詰まり）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_260",
+      "question": "Choose the correct word:\n「窮地を脱する」out of the ___",
+      "choices": [
+        "woods",
+        "danger",
+        "trouble",
+        "mess"
+      ],
+      "answer": 0,
+      "explanation": "「out of the woods（窮地を脱する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_261",
+      "question": "Choose the correct word:\n「流行に乗る」to jump on the ___",
+      "choices": [
+        "bandwagon",
+        "trend",
+        "wave",
+        "flow"
+      ],
+      "answer": 0,
+      "explanation": "「jump on the bandwagon（流行に乗る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_262",
+      "question": "Choose the correct word:\n「反則」below the ___",
+      "choices": [
+        "belt",
+        "line",
+        "rules",
+        "standards"
+      ],
+      "answer": 0,
+      "explanation": "「below the belt（反則・卑怯な）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_263",
+      "question": "Choose the correct word:\n「心変わり」a change of ___",
+      "choices": [
+        "heart",
+        "mind",
+        "attitude",
+        "feeling"
+      ],
+      "answer": 0,
+      "explanation": "「a change of heart（心変わり）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_264",
+      "question": "Choose the correct word:\n「薄氷を踏む」on ___ ice",
+      "choices": [
+        "thin",
+        "cracking",
+        "breaking",
+        "weak"
+      ],
+      "answer": 0,
+      "explanation": "「on thin ice（薄氷を踏む）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_265",
+      "question": "Choose the correct word:\n「気苦労」to have ___ in your stomach",
+      "choices": [
+        "butterflies",
+        "knots",
+        "tension",
+        "stress"
+      ],
+      "answer": 0,
+      "explanation": "「butterflies in your stomach（緊張・ドキドキ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_266",
+      "question": "Choose the correct word:\n「丸く収める」to ___ oil on troubled waters",
+      "choices": [
+        "pour",
+        "spread",
+        "put",
+        "apply"
+      ],
+      "answer": 0,
+      "explanation": "「pour oil on troubled waters（丸く収める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_267",
+      "question": "Choose the correct word:\n「多方面で活躍」to wear many ___",
+      "choices": [
+        "hats",
+        "caps",
+        "roles",
+        "masks"
+      ],
+      "answer": 0,
+      "explanation": "「wear many hats（多くの役割を担う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_268",
+      "question": "Choose the correct word:\n「一線を画す」to draw the ___",
+      "choices": [
+        "line",
+        "boundary",
+        "limit",
+        "border"
+      ],
+      "answer": 0,
+      "explanation": "「draw the line（一線を画す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_269",
+      "question": "Choose the correct word:\n「落ち着け」to hold your ___",
+      "choices": [
+        "horses",
+        "temper",
+        "breath",
+        "fire"
+      ],
+      "answer": 0,
+      "explanation": "「hold your horses（落ち着け）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_270",
+      "question": "Choose the correct word:\n「根に持つ」to have a ___ on your shoulder",
+      "choices": [
+        "chip",
+        "grudge",
+        "resentment",
+        "anger"
+      ],
+      "answer": 0,
+      "explanation": "「chip on your shoulder（根に持つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_271",
+      "question": "Choose the correct word:\n「言い訳」to ___ the can down the road",
+      "choices": [
+        "kick",
+        "push",
+        "move",
+        "roll"
+      ],
+      "answer": 0,
+      "explanation": "「kick the can down the road（先送り）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_272",
+      "question": "Choose the correct word:\n「大目に見る」to cut someone some ___",
+      "choices": [
+        "slack",
+        "break",
+        "room",
+        "space"
+      ],
+      "answer": 0,
+      "explanation": "「cut some slack（大目に見る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_273",
+      "question": "Choose the correct word:\n「大接戦」neck and ___",
+      "choices": [
+        "neck",
+        "head",
+        "shoulder",
+        "back"
+      ],
+      "answer": 0,
+      "explanation": "「neck and neck（大接戦）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_274",
+      "question": "Choose the correct word:\n「無条件で」no ___ attached",
+      "choices": [
+        "strings",
+        "conditions",
+        "terms",
+        "limits"
+      ],
+      "answer": 0,
+      "explanation": "「no strings attached（無条件で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_275",
+      "question": "Choose the correct word:\n「口をつぐむ」to zip your ___",
+      "choices": [
+        "lips",
+        "mouth",
+        "tongue",
+        "voice"
+      ],
+      "answer": 0,
+      "explanation": "「zip your lips（口をつぐむ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_276",
+      "question": "Choose the correct word:\n「一晩考える」to ___ on it",
+      "choices": [
+        "sleep",
+        "think",
+        "decide",
+        "reflect"
+      ],
+      "answer": 0,
+      "explanation": "「sleep on it（一晩考える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_277",
+      "question": "Choose the correct word:\n「手放す」to let ___ of something",
+      "choices": [
+        "go",
+        "loose",
+        "free",
+        "out"
+      ],
+      "answer": 0,
+      "explanation": "「let go of（手放す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_278",
+      "question": "Choose the correct word:\n「稼動中」up and ___",
+      "choices": [
+        "running",
+        "working",
+        "going",
+        "operating"
+      ],
+      "answer": 0,
+      "explanation": "「up and running（稼動中）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_279",
+      "question": "Choose the correct word:\n「順調」smooth ___",
+      "choices": [
+        "sailing",
+        "running",
+        "going",
+        "progress"
+      ],
+      "answer": 0,
+      "explanation": "「smooth sailing（順調）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_280",
+      "question": "Choose the correct word:\n「暗記する」to learn by ___",
+      "choices": [
+        "heart",
+        "memory",
+        "rote",
+        "head"
+      ],
+      "answer": 0,
+      "explanation": "「learn by heart（暗記する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_281",
+      "question": "Choose the correct word:\n「根性がない」to ___ out",
+      "choices": [
+        "chicken",
+        "back",
+        "bail",
+        "wimp"
+      ],
+      "answer": 0,
+      "explanation": "「chicken out（怖気づく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_282",
+      "question": "Choose the correct word:\n「不意をつく」to catch off ___",
+      "choices": [
+        "guard",
+        "balance",
+        "surprise",
+        "alert"
+      ],
+      "answer": 0,
+      "explanation": "「catch off guard（不意をつく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_283",
+      "question": "Choose the correct word:\n「舞台裏で」behind the ___",
+      "choices": [
+        "scenes",
+        "curtain",
+        "stage",
+        "screen"
+      ],
+      "answer": 0,
+      "explanation": "「behind the scenes（舞台裏で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_284",
+      "question": "Choose the correct word:\n「お互い様」___ scratch my back, I'll scratch yours",
+      "choices": [
+        "you",
+        "we",
+        "if you",
+        "when you"
+      ],
+      "answer": 2,
+      "explanation": "「you scratch my back（お互い様）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_285",
+      "question": "Choose the correct word:\n「一目置かれる」to ___ one's mark",
+      "choices": [
+        "make",
+        "leave",
+        "set",
+        "get"
+      ],
+      "answer": 0,
+      "explanation": "「make one's mark（実績を残す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_286",
+      "question": "Choose the correct word:\n「自立する」to stand on your own two ___",
+      "choices": [
+        "feet",
+        "legs",
+        "grounds",
+        "bases"
+      ],
+      "answer": 0,
+      "explanation": "「stand on your own two feet（自立する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_287",
+      "question": "Choose the correct word:\n「報いを受ける」to ___ what you sow",
+      "choices": [
+        "reap",
+        "get",
+        "receive",
+        "harvest"
+      ],
+      "answer": 0,
+      "explanation": "「reap what you sow（報いを受ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_288",
+      "question": "Choose the correct word:\n「寝る」to hit the ___",
+      "choices": [
+        "sack",
+        "bed",
+        "pillow",
+        "hay"
+      ],
+      "answer": 0,
+      "explanation": "「hit the sack（寝る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_289",
+      "question": "Choose the correct word:\n「確かな情報」straight from the horse's ___",
+      "choices": [
+        "mouth",
+        "lips",
+        "source",
+        "words"
+      ],
+      "answer": 0,
+      "explanation": "「straight from the horse's mouth（確かな情報源から）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_290",
+      "question": "Choose the correct word:\n「非常に高価」to cost an arm and a ___",
+      "choices": [
+        "leg",
+        "foot",
+        "hand",
+        "finger"
+      ],
+      "answer": 0,
+      "explanation": "「cost an arm and a leg（非常に高価）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_291",
+      "question": "Choose the correct word:\n「意見が合う」to see ___ to eye",
+      "choices": [
+        "eye",
+        "face",
+        "mind",
+        "heart"
+      ],
+      "answer": 0,
+      "explanation": "「see eye to eye（意見が合う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_292",
+      "question": "Choose the correct word:\n「一気に全部」the whole nine ___",
+      "choices": [
+        "yards",
+        "miles",
+        "feet",
+        "meters"
+      ],
+      "answer": 0,
+      "explanation": "「the whole nine yards（全部・全て）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_293",
+      "question": "Choose the correct word:\n「勇気を奮う」to get/find your ___",
+      "choices": [
+        "courage",
+        "nerve",
+        "guts",
+        "bravery"
+      ],
+      "answer": 2,
+      "explanation": "「find your guts（勇気を奮う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_294",
+      "question": "Choose the correct word:\n「成功」to hit the ___",
+      "choices": [
+        "jackpot",
+        "target",
+        "goal",
+        "mark"
+      ],
+      "answer": 0,
+      "explanation": "「hit the jackpot（大成功）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_295",
+      "question": "Choose the correct word:\n「予想外に」out of ___",
+      "choices": [
+        "nowhere",
+        "anywhere",
+        "somewhere",
+        "everywhere"
+      ],
+      "answer": 0,
+      "explanation": "「out of nowhere（突然・予想外に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_296",
+      "question": "Choose the correct word:\n「最善を尽くす」to do your ___",
+      "choices": [
+        "best",
+        "utmost",
+        "all",
+        "everything"
+      ],
+      "answer": 0,
+      "explanation": "「do your best（最善を尽くす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_297",
+      "question": "Choose the correct word:\n「人の話に乗る」to jump on the ___",
+      "choices": [
+        "bandwagon",
+        "train",
+        "wave",
+        "boat"
+      ],
+      "answer": 0,
+      "explanation": "「jump on the bandwagon（みんなに従う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_298",
+      "question": "Choose the correct word:\n「本気になる」to get down to ___",
+      "choices": [
+        "business",
+        "work",
+        "it",
+        "action"
+      ],
+      "answer": 0,
+      "explanation": "「get down to business（本腰を入れる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_299",
+      "question": "Choose the correct word:\n「正直に言う」to come ___",
+      "choices": [
+        "clean",
+        "out",
+        "forward",
+        "honest"
+      ],
+      "answer": 0,
+      "explanation": "「come clean（白状する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_300",
+      "question": "Choose the correct word:\n「大きく前進」to make great ___",
+      "choices": [
+        "strides",
+        "leaps",
+        "bounds",
+        "steps"
+      ],
+      "answer": 0,
+      "explanation": "「make great strides（大きく前進）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_301",
+      "question": "Choose the correct word:\n「取り返しのつかない」to ___ your bridges",
+      "choices": [
+        "burn",
+        "break",
+        "cut",
+        "destroy"
+      ],
+      "answer": 0,
+      "explanation": "「burn your bridges（退路を断つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_302",
+      "question": "Choose the correct word:\n「失言」to ___ your foot in your mouth",
+      "choices": [
+        "put",
+        "stick",
+        "place",
+        "shove"
+      ],
+      "answer": 0,
+      "explanation": "「put your foot in your mouth（失言する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_303",
+      "question": "Choose the correct word:\n「現行犯で」___ red-handed",
+      "choices": [
+        "caught",
+        "found",
+        "taken",
+        "spotted"
+      ],
+      "answer": 0,
+      "explanation": "「caught red-handed（現行犯で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_304",
+      "question": "Choose the correct word:\n「枠を超える」to think outside the ___",
+      "choices": [
+        "box",
+        "frame",
+        "norm",
+        "rule"
+      ],
+      "answer": 0,
+      "explanation": "「think outside the box（枠を超えて考える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_305",
+      "question": "Choose the correct word:\n「頑張れ」___ in there",
+      "choices": [
+        "hang",
+        "keep",
+        "stay",
+        "hold"
+      ],
+      "answer": 0,
+      "explanation": "「hang in there（頑張れ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_306",
+      "question": "Choose the correct word:\n「行き当たりばったり」to ___ it by ear",
+      "choices": [
+        "play",
+        "take",
+        "do",
+        "handle"
+      ],
+      "answer": 0,
+      "explanation": "「play it by ear（成り行きに任せる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_307",
+      "question": "Choose the correct word:\n「水の泡になる」to go down the ___",
+      "choices": [
+        "drain",
+        "river",
+        "sink",
+        "waste"
+      ],
+      "answer": 0,
+      "explanation": "「go down the drain（水の泡になる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_308",
+      "question": "Choose the correct word:\n「仕事に疲れた」to be ___ out",
+      "choices": [
+        "burnt",
+        "worn",
+        "tired",
+        "used"
+      ],
+      "answer": 0,
+      "explanation": "「burnt out（燃え尽きた）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_309",
+      "question": "Choose the correct word:\n「準備万端」to be on the ___",
+      "choices": [
+        "ball",
+        "ready",
+        "go",
+        "mark"
+      ],
+      "answer": 0,
+      "explanation": "「be on the ball（準備万端・有能な）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_310",
+      "question": "Choose the correct word:\n「大勝負に出る」to go for ___",
+      "choices": [
+        "broke",
+        "all",
+        "everything",
+        "it"
+      ],
+      "answer": 0,
+      "explanation": "「go for broke（大勝負に出る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_311",
+      "question": "Choose the correct word:\n「一発逆転」to pull a ___ out of a hat",
+      "choices": [
+        "rabbit",
+        "trick",
+        "surprise",
+        "win"
+      ],
+      "answer": 0,
+      "explanation": "「pull a rabbit out of a hat（一発逆転）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_312",
+      "question": "Choose the correct word:\n「しぶしぶ」___ and nail",
+      "choices": [
+        "tooth",
+        "hand",
+        "heart",
+        "arm"
+      ],
+      "answer": 0,
+      "explanation": "「tooth and nail（必死に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_313",
+      "question": "Choose the correct word:\n「重荷を降ろす」to get ___ off your chest",
+      "choices": [
+        "something",
+        "weight",
+        "load",
+        "burden"
+      ],
+      "answer": 0,
+      "explanation": "「get something off your chest（悩みを打ち明ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_314",
+      "question": "Choose the correct word:\n「先を越される」to be ___ to the punch",
+      "choices": [
+        "beaten",
+        "taken",
+        "caught",
+        "lost"
+      ],
+      "answer": 0,
+      "explanation": "「beaten to the punch（先を越される）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_315",
+      "question": "Choose the correct word:\n「コインの裏」the other ___ of the coin",
+      "choices": [
+        "side",
+        "face",
+        "part",
+        "aspect"
+      ],
+      "answer": 0,
+      "explanation": "「the other side of the coin（コインの裏面）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_316",
+      "question": "Choose the correct word:\n「独り占め」to have a ___ on something",
+      "choices": [
+        "monopoly",
+        "lock",
+        "corner",
+        "grip"
+      ],
+      "answer": 2,
+      "explanation": "「corner on something（独占する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_317",
+      "question": "Choose the correct word:\n「ひどい扱いをする」to ___ on someone",
+      "choices": [
+        "dump",
+        "walk",
+        "step",
+        "pile"
+      ],
+      "answer": 1,
+      "explanation": "「walk on someone（見下す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_318",
+      "question": "Choose the correct word:\n「先手を打つ」to steal a ___ on someone",
+      "choices": [
+        "march",
+        "jump",
+        "step",
+        "move"
+      ],
+      "answer": 0,
+      "explanation": "「steal a march on someone（先手を打つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_319",
+      "question": "Choose the correct word:\n「滅多にない」once in a ___ moon",
+      "choices": [
+        "blue",
+        "rare",
+        "full",
+        "new"
+      ],
+      "answer": 0,
+      "explanation": "「once in a blue moon（滅多にない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_320",
+      "question": "Choose the correct word:\n「可能性がある」to ___ a chance",
+      "choices": [
+        "stand",
+        "have",
+        "get",
+        "take"
+      ],
+      "answer": 0,
+      "explanation": "「stand a chance（可能性がある）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_321",
+      "question": "Choose the correct word:\n「最後の手段」a ___ resort",
+      "choices": [
+        "last",
+        "final",
+        "desperate",
+        "only"
+      ],
+      "answer": 0,
+      "explanation": "「last resort（最後の手段）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_322",
+      "question": "Choose the correct word:\n「どっちも欲しい」to have your cake and ___ it too",
+      "choices": [
+        "eat",
+        "keep",
+        "save",
+        "want"
+      ],
+      "answer": 0,
+      "explanation": "「have your cake and eat it too（欲張り）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_323",
+      "question": "Choose the correct word:\n「しっかりしろ」to get a ___",
+      "choices": [
+        "grip",
+        "hold",
+        "grasp",
+        "clue"
+      ],
+      "answer": 0,
+      "explanation": "「get a grip（しっかりしろ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_324",
+      "question": "Choose the correct word:\n「取引する」to strike a ___",
+      "choices": [
+        "deal",
+        "bargain",
+        "agreement",
+        "trade"
+      ],
+      "answer": 0,
+      "explanation": "「strike a deal（取引する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_325",
+      "question": "Choose the correct word:\n「成功の味」a ___ of success",
+      "choices": [
+        "taste",
+        "feel",
+        "touch",
+        "sense"
+      ],
+      "answer": 0,
+      "explanation": "「a taste of success（成功の味）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_326",
+      "question": "Choose the correct word:\n「後悔する」to ___ over spilled milk",
+      "choices": [
+        "cry",
+        "weep",
+        "moan",
+        "complain"
+      ],
+      "answer": 0,
+      "explanation": "「cry over spilled milk（覆水盆に返らず）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_327",
+      "question": "Choose the correct word:\n「今のところ」___ far so good",
+      "choices": [
+        "so",
+        "this",
+        "that",
+        "it"
+      ],
+      "answer": 0,
+      "explanation": "「so far so good（今のところ問題なし）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_328",
+      "question": "Choose the correct word:\n「先例を作る」to set a ___",
+      "choices": [
+        "precedent",
+        "standard",
+        "example",
+        "record"
+      ],
+      "answer": 0,
+      "explanation": "「set a precedent（先例を作る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_329",
+      "question": "Choose the correct word:\n「長所と短所」___ and cons",
+      "choices": [
+        "pros",
+        "benefits",
+        "merits",
+        "ups"
+      ],
+      "answer": 0,
+      "explanation": "「pros and cons（長所と短所）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_330",
+      "question": "Choose the correct word:\n「勇気ある行動」to bite the ___",
+      "choices": [
+        "bullet",
+        "fear",
+        "pain",
+        "risk"
+      ],
+      "answer": 0,
+      "explanation": "「bite the bullet（腹をくくる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_331",
+      "question": "Choose the correct word:\n「出すぎた真似」to ___ on someone's toes",
+      "choices": [
+        "step",
+        "tread",
+        "walk",
+        "stomp"
+      ],
+      "answer": 0,
+      "explanation": "「step on someone's toes（出すぎた真似をする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_332",
+      "question": "Choose the correct word:\n「恩返し」to pay someone ___",
+      "choices": [
+        "back",
+        "forward",
+        "out",
+        "through"
+      ],
+      "answer": 0,
+      "explanation": "「pay someone back（恩返し・お返しをする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_333",
+      "question": "Choose the correct word:\n「深刻にとらえる」to take something to ___",
+      "choices": [
+        "heart",
+        "seriously",
+        "mind",
+        "soul"
+      ],
+      "answer": 0,
+      "explanation": "「take to heart（深刻にとらえる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_334",
+      "question": "Choose the correct word:\n「予測不能」___ 's guess",
+      "choices": [
+        "anyone",
+        "nobody",
+        "somebody",
+        "everybody"
+      ],
+      "answer": 0,
+      "explanation": "「anyone's guess（誰にも予測できない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_335",
+      "question": "Choose the correct word:\n「長い目で見れば」in the long ___",
+      "choices": [
+        "run",
+        "term",
+        "haul",
+        "view"
+      ],
+      "answer": 0,
+      "explanation": "「in the long run（長い目で見れば）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_336",
+      "question": "Choose the correct word:\n「主導権を握る」to take the ___",
+      "choices": [
+        "helm",
+        "lead",
+        "reins",
+        "control"
+      ],
+      "answer": 0,
+      "explanation": "「take the helm（主導権を握る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_337",
+      "question": "Choose the correct word:\n「とんでもない」___ of your mind",
+      "choices": [
+        "out",
+        "off",
+        "beyond",
+        "outside"
+      ],
+      "answer": 0,
+      "explanation": "「out of your mind（とんでもない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_338",
+      "question": "Choose the correct word:\n「徹夜で」burn the ___ oil",
+      "choices": [
+        "midnight",
+        "night",
+        "dark",
+        "late"
+      ],
+      "answer": 0,
+      "explanation": "「burn the midnight oil（徹夜で働く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_339",
+      "question": "Choose the correct word:\n「見通しが甘い」to be over___",
+      "choices": [
+        "optimistic",
+        "confident",
+        "hopeful",
+        "positive"
+      ],
+      "answer": 0,
+      "explanation": "「overoptimistic（見通しが甘い）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_340",
+      "question": "Choose the correct word:\n「誤りを認める」to eat ___",
+      "choices": [
+        "crow",
+        "humble pie",
+        "dirt",
+        "words"
+      ],
+      "answer": 0,
+      "explanation": "「eat crow（誤りを認めて謝る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_341",
+      "question": "Choose the correct word:\n「振り出しに戻る」back to ___ one",
+      "choices": [
+        "square",
+        "start",
+        "zero",
+        "go"
+      ],
+      "answer": 0,
+      "explanation": "「back to square one（振り出しに戻る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_342",
+      "question": "Choose the correct word:\n「即席で」___ the top of your head",
+      "choices": [
+        "off",
+        "from",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "「off the top of your head（即席で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_343",
+      "question": "Choose the correct word:\n「面子を保つ」to save ___",
+      "choices": [
+        "face",
+        "dignity",
+        "honor",
+        "pride"
+      ],
+      "answer": 0,
+      "explanation": "「save face（面子を保つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_344",
+      "question": "Choose the correct word:\n「陰口を言う」to talk behind someone's ___",
+      "choices": [
+        "back",
+        "face",
+        "shoulder",
+        "head"
+      ],
+      "answer": 0,
+      "explanation": "「talk behind someone's back（陰口を言う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_345",
+      "question": "Choose the correct word:\n「目から鱗」an eye-___",
+      "choices": [
+        "opener",
+        "widener",
+        "brightener",
+        "awakener"
+      ],
+      "answer": 0,
+      "explanation": "「eye-opener（目から鱗）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_346",
+      "question": "Choose the correct word:\n「言い訳をする」to pass the ___",
+      "choices": [
+        "buck",
+        "blame",
+        "responsibility",
+        "fault"
+      ],
+      "answer": 0,
+      "explanation": "「pass the buck（責任転嫁する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_347",
+      "question": "Choose the correct word:\n「軌道に乗る」back on ___",
+      "choices": [
+        "track",
+        "course",
+        "path",
+        "route"
+      ],
+      "answer": 0,
+      "explanation": "「back on track（軌道に乗る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_348",
+      "question": "Choose the correct word:\n「切り捨てる」to cut one's ___",
+      "choices": [
+        "losses",
+        "bonds",
+        "ties",
+        "strings"
+      ],
+      "answer": 0,
+      "explanation": "「cut one's losses（損切りする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_349",
+      "question": "Choose the correct word:\n「花道を飾る」to go out on a high ___",
+      "choices": [
+        "note",
+        "end",
+        "point",
+        "mark"
+      ],
+      "answer": 0,
+      "explanation": "「go out on a high note（花道を飾る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_350",
+      "question": "Choose the correct word:\n「現実的な」___ to earth",
+      "choices": [
+        "down",
+        "back",
+        "close",
+        "near"
+      ],
+      "answer": 0,
+      "explanation": "「down to earth（現実的な）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_351",
+      "question": "Choose the correct word:\n「全てを出し切る」to leave it all on the ___",
+      "choices": [
+        "field",
+        "table",
+        "floor",
+        "court"
+      ],
+      "answer": 0,
+      "explanation": "「leave it all on the field（全てを出し切る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_352",
+      "question": "Choose the correct word:\n「首を突っ込む」to ___ your nose into",
+      "choices": [
+        "poke",
+        "stick",
+        "push",
+        "shove"
+      ],
+      "answer": 0,
+      "explanation": "「poke your nose into（首を突っ込む）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_353",
+      "question": "Choose the correct word:\n「最初から」from the get-___",
+      "choices": [
+        "go",
+        "start",
+        "beginning",
+        "off"
+      ],
+      "answer": 0,
+      "explanation": "「from the get-go（最初から）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_354",
+      "question": "Choose the correct word:\n「真っ当な」on the ___ and up",
+      "choices": [
+        "level",
+        "square",
+        "straight",
+        "up"
+      ],
+      "answer": 0,
+      "explanation": "「on the level（真っ当な・誠実な）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_355",
+      "question": "Choose the correct word:\n「手を引く」to ___ out of",
+      "choices": [
+        "pull",
+        "back",
+        "step",
+        "walk"
+      ],
+      "answer": 0,
+      "explanation": "「pull out of（手を引く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_356",
+      "question": "Choose the correct word:\n「難なく」without a ___",
+      "choices": [
+        "hitch",
+        "problem",
+        "difficulty",
+        "trouble"
+      ],
+      "answer": 0,
+      "explanation": "「without a hitch（難なく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_357",
+      "question": "Choose the correct word:\n「冒険する」to go out on a ___",
+      "choices": [
+        "limb",
+        "risk",
+        "venture",
+        "chance"
+      ],
+      "answer": 0,
+      "explanation": "「go out on a limb（冒険する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_358",
+      "question": "Choose the correct word:\n「手に負えない」to get out of ___",
+      "choices": [
+        "hand",
+        "control",
+        "order",
+        "bounds"
+      ],
+      "answer": 0,
+      "explanation": "「get out of hand（手に負えない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_359",
+      "question": "Choose the correct word:\n「勝機を掴む」to ___ the opportunity",
+      "choices": [
+        "seize",
+        "grab",
+        "take",
+        "catch"
+      ],
+      "answer": 0,
+      "explanation": "「seize the opportunity（勝機を掴む）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_360",
+      "question": "Choose the correct word:\n「徹底的に」___ no stone unturned",
+      "choices": [
+        "leave",
+        "leave not",
+        "leave a",
+        "not leave"
+      ],
+      "answer": 0,
+      "explanation": "「leave no stone unturned（徹底的に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_361",
+      "question": "Choose the correct word:\n「二者択一」___ or never",
+      "choices": [
+        "now",
+        "do",
+        "go",
+        "act"
+      ],
+      "answer": 0,
+      "explanation": "「now or never（今しかない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_362",
+      "question": "Choose the correct word:\n「見せかける」to put on a ___",
+      "choices": [
+        "show",
+        "face",
+        "front",
+        "act"
+      ],
+      "answer": 0,
+      "explanation": "「put on a show（見せかける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_363",
+      "question": "Choose the correct word:\n「嫌な思いをする」to ___ your medicine",
+      "choices": [
+        "take",
+        "swallow",
+        "accept",
+        "face"
+      ],
+      "answer": 0,
+      "explanation": "「take your medicine（嫌なことでも受け入れる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_364",
+      "question": "Choose the correct word:\n「鋭い」on the cutting ___",
+      "choices": [
+        "edge",
+        "tip",
+        "point",
+        "end"
+      ],
+      "answer": 0,
+      "explanation": "「on the cutting edge（最先端）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_365",
+      "question": "Choose the correct word:\n「見え見え」___ as day",
+      "choices": [
+        "clear",
+        "plain",
+        "bright",
+        "obvious"
+      ],
+      "answer": 1,
+      "explanation": "「plain as day（見え見えな）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_366",
+      "question": "Choose the correct word:\n「勢いがある」in full ___",
+      "choices": [
+        "swing",
+        "speed",
+        "force",
+        "power"
+      ],
+      "answer": 0,
+      "explanation": "「in full swing（最高潮に達して）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_367",
+      "question": "Choose the correct word:\n「厳格なルール」hard and ___",
+      "choices": [
+        "fast",
+        "strict",
+        "firm",
+        "fixed"
+      ],
+      "answer": 0,
+      "explanation": "「hard and fast（融通のきかない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_368",
+      "question": "Choose the correct word:\n「良い機会」a golden ___",
+      "choices": [
+        "opportunity",
+        "chance",
+        "moment",
+        "occasion"
+      ],
+      "answer": 0,
+      "explanation": "「a golden opportunity（絶好のチャンス）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_369",
+      "question": "Choose the correct word:\n「言葉に詰まる」___ for words",
+      "choices": [
+        "lost",
+        "short",
+        "stuck",
+        "at a loss"
+      ],
+      "answer": 0,
+      "explanation": "「lost for words（言葉に詰まる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_370",
+      "question": "Choose the correct word:\n「秘密を守る」to keep something under ___",
+      "choices": [
+        "wraps",
+        "lock",
+        "cover",
+        "guard"
+      ],
+      "answer": 0,
+      "explanation": "「keep under wraps（秘密にする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_371",
+      "question": "Choose the correct word:\n「有終の美」to go out in a blaze of ___",
+      "choices": [
+        "glory",
+        "honor",
+        "success",
+        "triumph"
+      ],
+      "answer": 0,
+      "explanation": "「go out in a blaze of glory（有終の美を飾る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_372",
+      "question": "Choose the correct word:\n「問題の核心」the heart of the ___",
+      "choices": [
+        "matter",
+        "issue",
+        "problem",
+        "question"
+      ],
+      "answer": 0,
+      "explanation": "「heart of the matter（問題の核心）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_373",
+      "question": "Choose the correct word:\n「土壇場で」at the eleventh ___",
+      "choices": [
+        "hour",
+        "minute",
+        "second",
+        "moment"
+      ],
+      "answer": 0,
+      "explanation": "「at the eleventh hour（土壇場で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_374",
+      "question": "Choose the correct word:\n「大ヒット」to make a ___",
+      "choices": [
+        "splash",
+        "wave",
+        "mark",
+        "hit"
+      ],
+      "answer": 0,
+      "explanation": "「make a splash（大きな印象を与える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_375",
+      "question": "Choose the correct word:\n「平静を保つ」to keep one's ___",
+      "choices": [
+        "composure",
+        "calm",
+        "cool",
+        "temper"
+      ],
+      "answer": 0,
+      "explanation": "「keep one's composure（平静を保つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_376",
+      "question": "Choose the correct word:\n「長所を活かす」to play to one's ___",
+      "choices": [
+        "strengths",
+        "skills",
+        "talents",
+        "abilities"
+      ],
+      "answer": 0,
+      "explanation": "「play to one's strengths（長所を活かす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_377",
+      "question": "Choose the correct word:\n「突然」all of a ___",
+      "choices": [
+        "sudden",
+        "once",
+        "time",
+        "moment"
+      ],
+      "answer": 0,
+      "explanation": "「all of a sudden（突然）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_378",
+      "question": "Choose the correct word:\n「事態を好転させる」to turn things ___",
+      "choices": [
+        "around",
+        "over",
+        "up",
+        "back"
+      ],
+      "answer": 0,
+      "explanation": "「turn things around（事態を好転させる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_379",
+      "question": "Choose the correct word:\n「問題から逃げない」to face the ___",
+      "choices": [
+        "music",
+        "reality",
+        "truth",
+        "facts"
+      ],
+      "answer": 0,
+      "explanation": "「face the music（現実を受け入れる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_380",
+      "question": "Choose the correct word:\n「相手を説得する」to win someone ___",
+      "choices": [
+        "over",
+        "around",
+        "through",
+        "to"
+      ],
+      "answer": 0,
+      "explanation": "「win someone over（相手を説得する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_381",
+      "question": "Choose the correct word:\n「常にチェックする」to keep ___ of something",
+      "choices": [
+        "track",
+        "watch",
+        "eye",
+        "sight"
+      ],
+      "answer": 0,
+      "explanation": "「keep track of（〜を把握する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_382",
+      "question": "Choose the correct word:\n「最低水準を保つ」to keep the ___ up",
+      "choices": [
+        "standards",
+        "quality",
+        "bar",
+        "level"
+      ],
+      "answer": 3,
+      "explanation": "「keep the level up（水準を保つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_383",
+      "question": "Choose the correct word:\n「ミスをする」to drop the ___",
+      "choices": [
+        "ball",
+        "chance",
+        "opportunity",
+        "point"
+      ],
+      "answer": 0,
+      "explanation": "「drop the ball（ミスをする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_384",
+      "question": "Choose the correct word:\n「成果を見せる」to deliver the ___",
+      "choices": [
+        "goods",
+        "results",
+        "work",
+        "output"
+      ],
+      "answer": 0,
+      "explanation": "「deliver the goods（成果を出す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_385",
+      "question": "Choose the correct word:\n「臨機応変に」to play it by ___",
+      "choices": [
+        "ear",
+        "feel",
+        "instinct",
+        "sense"
+      ],
+      "answer": 0,
+      "explanation": "「play it by ear（臨機応変に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_386",
+      "question": "Choose the correct word:\n「一発で解決する」a silver ___",
+      "choices": [
+        "bullet",
+        "solution",
+        "answer",
+        "fix"
+      ],
+      "answer": 0,
+      "explanation": "「a silver bullet（一発解決策）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_387",
+      "question": "Choose the correct word:\n「状況を把握する」to get the ___ of things",
+      "choices": [
+        "hang",
+        "feel",
+        "sense",
+        "grip"
+      ],
+      "answer": 0,
+      "explanation": "「get the hang of things（コツを掴む）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_388",
+      "question": "Choose the correct word:\n「ルールを守る」to go by the ___",
+      "choices": [
+        "book",
+        "rules",
+        "law",
+        "code"
+      ],
+      "answer": 0,
+      "explanation": "「go by the book（規則通りに）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_389",
+      "question": "Choose the correct word:\n「気持ちを切り替える」to turn over a new ___",
+      "choices": [
+        "leaf",
+        "page",
+        "chapter",
+        "start"
+      ],
+      "answer": 0,
+      "explanation": "「turn over a new leaf（心機一転）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_390",
+      "question": "Choose the correct word:\n「やりとげる」to see something ___",
+      "choices": [
+        "through",
+        "out",
+        "over",
+        "past"
+      ],
+      "answer": 0,
+      "explanation": "「see something through（やりとげる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_391",
+      "question": "Choose the correct word:\n「目立つ」to stand ___",
+      "choices": [
+        "out",
+        "up",
+        "apart",
+        "above"
+      ],
+      "answer": 0,
+      "explanation": "「stand out（目立つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_392",
+      "question": "Choose the correct word:\n「感情的になる」to get carried ___",
+      "choices": [
+        "away",
+        "out",
+        "off",
+        "over"
+      ],
+      "answer": 0,
+      "explanation": "「get carried away（感情的になりすぎる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_393",
+      "question": "Choose the correct word:\n「取り掛かる」to ___ down to work",
+      "choices": [
+        "get",
+        "settle",
+        "sit",
+        "buckle"
+      ],
+      "answer": 0,
+      "explanation": "「get down to work（取り掛かる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_394",
+      "question": "Choose the correct word:\n「余地がない」no ___ for error",
+      "choices": [
+        "room",
+        "space",
+        "place",
+        "margin"
+      ],
+      "answer": 0,
+      "explanation": "「no room for error（余地がない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_395",
+      "question": "Choose the correct word:\n「実を結ぶ」to bear ___",
+      "choices": [
+        "fruit",
+        "results",
+        "success",
+        "reward"
+      ],
+      "answer": 0,
+      "explanation": "「bear fruit（実を結ぶ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_396",
+      "question": "Choose the correct word:\n「解決策を見つける」to find a ___",
+      "choices": [
+        "solution",
+        "way",
+        "answer",
+        "path"
+      ],
+      "answer": 0,
+      "explanation": "「find a solution（解決策を見つける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_397",
+      "question": "Choose the correct word:\n「前向きに取り組む」to ___ it a shot",
+      "choices": [
+        "give",
+        "take",
+        "make",
+        "have"
+      ],
+      "answer": 0,
+      "explanation": "「give it a shot（挑戦する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_398",
+      "question": "Choose the correct word:\n「注目される」to be in the ___",
+      "choices": [
+        "spotlight",
+        "limelight",
+        "center",
+        "focus"
+      ],
+      "answer": 0,
+      "explanation": "「be in the spotlight（注目される）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_399",
+      "question": "Choose the correct word:\n「白紙に戻す」to start with a clean ___",
+      "choices": [
+        "slate",
+        "page",
+        "sheet",
+        "start"
+      ],
+      "answer": 0,
+      "explanation": "「start with a clean slate（白紙に戻す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_400",
+      "question": "Choose the correct word:\n「期待を超える」to exceed ___",
+      "choices": [
+        "expectations",
+        "hopes",
+        "targets",
+        "goals"
+      ],
+      "answer": 0,
+      "explanation": "「exceed expectations（期待を超える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_401",
+      "question": "Choose the correct word:\n「解き明かす」to get to the ___ of the matter",
+      "choices": [
+        "bottom",
+        "root",
+        "core",
+        "heart"
+      ],
+      "answer": 0,
+      "explanation": "「get to the bottom of（解き明かす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_402",
+      "question": "Choose the correct word:\n「諦めない」to ___ the course",
+      "choices": [
+        "stay",
+        "keep",
+        "hold",
+        "run"
+      ],
+      "answer": 0,
+      "explanation": "「stay the course（諦めずに続ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_403",
+      "question": "Choose the correct word:\n「急に怒る」to ___ off the handle",
+      "choices": [
+        "fly",
+        "blow",
+        "go",
+        "flip"
+      ],
+      "answer": 0,
+      "explanation": "「fly off the handle（急に怒る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_404",
+      "question": "Choose the correct word:\n「連絡を取る」to ___ in touch",
+      "choices": [
+        "keep",
+        "stay",
+        "be",
+        "get"
+      ],
+      "answer": 0,
+      "explanation": "「keep in touch（連絡を取る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_405",
+      "question": "Choose the correct word:\n「板挟みになる」___ a rock and a hard place",
+      "choices": [
+        "between",
+        "caught between",
+        "stuck between",
+        "trapped between"
+      ],
+      "answer": 0,
+      "explanation": "「between a rock and a hard place（板挟み）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_406",
+      "question": "Choose the correct word:\n「直前に」at the ___ minute",
+      "choices": [
+        "last",
+        "final",
+        "eleventh",
+        "crucial"
+      ],
+      "answer": 0,
+      "explanation": "「at the last minute（直前に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_407",
+      "question": "Choose the correct word:\n「好調を維持する」to be on a ___ streak",
+      "choices": [
+        "winning",
+        "good",
+        "hot",
+        "lucky"
+      ],
+      "answer": 0,
+      "explanation": "「on a winning streak（好調を維持する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_408",
+      "question": "Choose the correct word:\n「徹底的に調べる」to ___ into",
+      "choices": [
+        "dig",
+        "look",
+        "delve",
+        "probe"
+      ],
+      "answer": 0,
+      "explanation": "「dig into（徹底的に調べる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_409",
+      "question": "Choose the correct word:\n「重荷」a ___ around your neck",
+      "choices": [
+        "millstone",
+        "weight",
+        "burden",
+        "stone"
+      ],
+      "answer": 0,
+      "explanation": "「a millstone around your neck（重荷）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_410",
+      "question": "Choose the correct word:\n「踏ん切りをつける」to pull the ___",
+      "choices": [
+        "trigger",
+        "switch",
+        "lever",
+        "cord"
+      ],
+      "answer": 0,
+      "explanation": "「pull the trigger（踏ん切りをつける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_411",
+      "question": "Choose the correct word:\n「窮地に立つ」to be ___ the wall",
+      "choices": [
+        "against",
+        "at",
+        "by",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "「against the wall（窮地に立つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_412",
+      "question": "Choose the correct word:\n「先手を打つ」to get ___ of the curve",
+      "choices": [
+        "ahead",
+        "front",
+        "top",
+        "above"
+      ],
+      "answer": 0,
+      "explanation": "「ahead of the curve（先手を打つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_413",
+      "question": "Choose the correct word:\n「裏工作する」to ___ behind the scenes",
+      "choices": [
+        "work",
+        "pull strings",
+        "maneuver",
+        "operate"
+      ],
+      "answer": 1,
+      "explanation": "「pull strings behind the scenes（裏工作する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_414",
+      "question": "Choose the correct word:\n「成長する」to come into one's ___",
+      "choices": [
+        "own",
+        "self",
+        "being",
+        "right"
+      ],
+      "answer": 0,
+      "explanation": "「come into one's own（真価を発揮する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_415",
+      "question": "Choose the correct word:\n「限界を超える」to go beyond ___",
+      "choices": [
+        "limits",
+        "boundaries",
+        "borders",
+        "bounds"
+      ],
+      "answer": 0,
+      "explanation": "「go beyond limits（限界を超える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_416",
+      "question": "Choose the correct word:\n「解決への糸口」a foot in the ___",
+      "choices": [
+        "door",
+        "way",
+        "start",
+        "opening"
+      ],
+      "answer": 0,
+      "explanation": "「a foot in the door（解決への糸口）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_417",
+      "question": "Choose the correct word:\n「根気よく続ける」to ___ at it",
+      "choices": [
+        "keep",
+        "stick",
+        "plug",
+        "push"
+      ],
+      "answer": 0,
+      "explanation": "「keep at it（根気よく続ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_418",
+      "question": "Choose the correct word:\n「急展開する」to ___ fast",
+      "choices": [
+        "move",
+        "progress",
+        "develop",
+        "advance"
+      ],
+      "answer": 0,
+      "explanation": "「move fast（急展開する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_419",
+      "question": "Choose the correct word:\n「視野を広げる」to broaden one's ___",
+      "choices": [
+        "horizons",
+        "view",
+        "vision",
+        "perspective"
+      ],
+      "answer": 0,
+      "explanation": "「broaden one's horizons（視野を広げる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_420",
+      "question": "Choose the correct word:\n「ゆっくり確実に」slow and ___",
+      "choices": [
+        "steady",
+        "sure",
+        "safe",
+        "solid"
+      ],
+      "answer": 0,
+      "explanation": "「slow and steady（ゆっくり確実に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_421",
+      "question": "Choose the correct word:\n「正直者が馬鹿を見る」nice guys finish ___",
+      "choices": [
+        "last",
+        "worst",
+        "behind",
+        "slow"
+      ],
+      "answer": 0,
+      "explanation": "「nice guys finish last（正直者が損をする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_422",
+      "question": "Choose the correct word:\n「大勝負」to go ___ or go home",
+      "choices": [
+        "big",
+        "all",
+        "hard",
+        "bold"
+      ],
+      "answer": 0,
+      "explanation": "「go big or go home（大勝負か無かか）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_423",
+      "question": "Choose the correct word:\n「油断するな」don't let your ___ down",
+      "choices": [
+        "guard",
+        "defense",
+        "shield",
+        "protection"
+      ],
+      "answer": 0,
+      "explanation": "「don't let your guard down（油断するな）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_424",
+      "question": "Choose the correct word:\n「実態を知る」to see things as they ___",
+      "choices": [
+        "are",
+        "really are",
+        "truly are",
+        "actually are"
+      ],
+      "answer": 0,
+      "explanation": "「see things as they are（実態を知る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_425",
+      "question": "Choose the correct word:\n「始める」to kick ___",
+      "choices": [
+        "off",
+        "start",
+        "begin",
+        "launch"
+      ],
+      "answer": 0,
+      "explanation": "「kick off（始める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_426",
+      "question": "Choose the correct word:\n「成功する」to make ___",
+      "choices": [
+        "it",
+        "success",
+        "the grade",
+        "the cut"
+      ],
+      "answer": 0,
+      "explanation": "「make it（成功する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_427",
+      "question": "Choose the correct word:\n「失敗を受け入れる」to take it on the ___",
+      "choices": [
+        "chin",
+        "nose",
+        "cheek",
+        "jaw"
+      ],
+      "answer": 0,
+      "explanation": "「take it on the chin（失敗を受け入れる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_428",
+      "question": "Choose the correct word:\n「問題を大げさにする」to ___ a mountain out of a molehill",
+      "choices": [
+        "make",
+        "create",
+        "build",
+        "turn"
+      ],
+      "answer": 0,
+      "explanation": "「make a mountain out of a molehill（大げさにする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_429",
+      "question": "Choose the correct word:\n「見習う」to follow in someone's ___",
+      "choices": [
+        "footsteps",
+        "path",
+        "shoes",
+        "tracks"
+      ],
+      "answer": 0,
+      "explanation": "「follow in someone's footsteps（見習う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_430",
+      "question": "Choose the correct word:\n「出し惜しみする」to hold ___",
+      "choices": [
+        "back",
+        "out",
+        "off",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "「hold back（出し惜しみする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_431",
+      "question": "Choose the correct word:\n「後退する」to take a step ___",
+      "choices": [
+        "back",
+        "behind",
+        "away",
+        "out"
+      ],
+      "answer": 0,
+      "explanation": "「take a step back（一歩引く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_432",
+      "question": "Choose the correct word:\n「手を尽くす」to pull all the ___",
+      "choices": [
+        "stops",
+        "strings",
+        "moves",
+        "tricks"
+      ],
+      "answer": 0,
+      "explanation": "「pull all the stops（手を尽くす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_433",
+      "question": "Choose the correct word:\n「先人の後を継ぐ」to pick up the ___",
+      "choices": [
+        "torch",
+        "baton",
+        "flag",
+        "banner"
+      ],
+      "answer": 0,
+      "explanation": "「pick up the torch（先人の後を継ぐ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_434",
+      "question": "Choose the correct word:\n「予測外の結果」the ___ of unintended consequences",
+      "choices": [
+        "law",
+        "rule",
+        "principle",
+        "fact"
+      ],
+      "answer": 0,
+      "explanation": "「the law of unintended consequences（予測外の結果）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_435",
+      "question": "Choose the correct word:\n「最善を期待する」to hope for the ___",
+      "choices": [
+        "best",
+        "good",
+        "positive",
+        "great"
+      ],
+      "answer": 0,
+      "explanation": "「hope for the best（最善を期待する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_436",
+      "question": "Choose the correct word:\n「あっという間に」in the ___ of an eye",
+      "choices": [
+        "blink",
+        "wink",
+        "flick",
+        "flash"
+      ],
+      "answer": 0,
+      "explanation": "「in the blink of an eye（あっという間に）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_437",
+      "question": "Choose the correct word:\n「全力を尽くす」to give it your all ___",
+      "choices": [
+        "out",
+        "in",
+        "up",
+        "through"
+      ],
+      "answer": 0,
+      "explanation": "「give it your all（全力を尽くす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_438",
+      "question": "Choose the correct word:\n「鮮明に覚えている」fresh in one's ___",
+      "choices": [
+        "memory",
+        "mind",
+        "recall",
+        "remembrance"
+      ],
+      "answer": 0,
+      "explanation": "「fresh in one's memory（鮮明に覚えている）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_439",
+      "question": "Choose the correct word:\n「自分を証明する」to prove one's ___",
+      "choices": [
+        "worth",
+        "value",
+        "merit",
+        "ability"
+      ],
+      "answer": 0,
+      "explanation": "「prove one's worth（自分の価値を証明する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_440",
+      "question": "Choose the correct word:\n「成長の余地」room to ___",
+      "choices": [
+        "grow",
+        "improve",
+        "develop",
+        "expand"
+      ],
+      "answer": 0,
+      "explanation": "「room to grow（成長の余地）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_441",
+      "question": "Choose the correct word:\n「結果を残す」to ___ results",
+      "choices": [
+        "deliver",
+        "produce",
+        "achieve",
+        "show"
+      ],
+      "answer": 0,
+      "explanation": "「deliver results（結果を残す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_442",
+      "question": "Choose the correct word:\n「変革を起こす」to ___ the game",
+      "choices": [
+        "change",
+        "alter",
+        "shift",
+        "transform"
+      ],
+      "answer": 0,
+      "explanation": "「change the game（変革を起こす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_443",
+      "question": "Choose the correct word:\n「ピンチを切り抜ける」to weather the ___",
+      "choices": [
+        "storm",
+        "crisis",
+        "difficulty",
+        "challenge"
+      ],
+      "answer": 0,
+      "explanation": "「weather the storm（ピンチを切り抜ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_444",
+      "question": "Choose the correct word:\n「足を引っ張る」to hold ___ back",
+      "choices": [
+        "someone",
+        "people",
+        "others",
+        "them"
+      ],
+      "answer": 0,
+      "explanation": "「hold someone back（足を引っ張る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_445",
+      "question": "Choose the correct word:\n「ここぞという場面で」when it ___ down to it",
+      "choices": [
+        "comes",
+        "gets",
+        "matters",
+        "counts"
+      ],
+      "answer": 0,
+      "explanation": "「when it comes down to it（ここぞという場面で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_446",
+      "question": "Choose the correct word:\n「自信を持って」with ___",
+      "choices": [
+        "confidence",
+        "assurance",
+        "certainty",
+        "conviction"
+      ],
+      "answer": 0,
+      "explanation": "「with confidence（自信を持って）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_447",
+      "question": "Choose the correct word:\n「乗り越える」to ___ over",
+      "choices": [
+        "get",
+        "come",
+        "move",
+        "rise"
+      ],
+      "answer": 0,
+      "explanation": "「get over（乗り越える）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_448",
+      "question": "Choose the correct word:\n「問題を先送りにする」to put off until ___",
+      "choices": [
+        "tomorrow",
+        "later",
+        "eventually",
+        "someday"
+      ],
+      "answer": 0,
+      "explanation": "「put off until tomorrow（先送りにする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_449",
+      "question": "Choose the correct word:\n「高い水準を保つ」to keep ___ standards",
+      "choices": [
+        "high",
+        "great",
+        "excellent",
+        "top"
+      ],
+      "answer": 0,
+      "explanation": "「keep high standards（高い水準を保つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_450",
+      "question": "Choose the correct word:\n「成功の秘訣」the ___ to success",
+      "choices": [
+        "key",
+        "secret",
+        "path",
+        "road"
+      ],
+      "answer": 0,
+      "explanation": "「the key to success（成功の秘訣）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_451",
+      "question": "Choose the correct word:\n「協力する」to work ___",
+      "choices": [
+        "together",
+        "jointly",
+        "collectively",
+        "cooperatively"
+      ],
+      "answer": 0,
+      "explanation": "「work together（協力する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_452",
+      "question": "Choose the correct word:\n「追いつく」to ___ up",
+      "choices": [
+        "catch",
+        "keep",
+        "make",
+        "come"
+      ],
+      "answer": 0,
+      "explanation": "「catch up（追いつく）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_453",
+      "question": "Choose the correct word:\n「自分を信じる」to believe in ___",
+      "choices": [
+        "yourself",
+        "oneself",
+        "one's ability",
+        "one's potential"
+      ],
+      "answer": 0,
+      "explanation": "「believe in yourself（自分を信じる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_454",
+      "question": "Choose the correct word:\n「ほんの少し」a touch of ___",
+      "choices": [
+        "something",
+        "class",
+        "magic",
+        "luck"
+      ],
+      "answer": 2,
+      "explanation": "「a touch of magic（ほんの少しの魔法）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_455",
+      "question": "Choose the correct word:\n「全力投球する」to throw yourself ___ it",
+      "choices": [
+        "into",
+        "at",
+        "toward",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "「throw yourself into it（全力投球する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_456",
+      "question": "Choose the correct word:\n「目標を定める」to set your ___ on",
+      "choices": [
+        "sights",
+        "goals",
+        "aims",
+        "targets"
+      ],
+      "answer": 0,
+      "explanation": "「set your sights on（目標を定める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_457",
+      "question": "Choose the correct word:\n「課題に向き合う」to ___ a challenge",
+      "choices": [
+        "face",
+        "tackle",
+        "address",
+        "confront"
+      ],
+      "answer": 0,
+      "explanation": "「face a challenge（課題に向き合う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_458",
+      "question": "Choose the correct word:\n「計画通りに」according to ___",
+      "choices": [
+        "plan",
+        "schedule",
+        "agenda",
+        "design"
+      ],
+      "answer": 0,
+      "explanation": "「according to plan（計画通りに）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_459",
+      "question": "Choose the correct word:\n「強みを持つ」to have an ___ over",
+      "choices": [
+        "edge",
+        "advantage",
+        "upper hand",
+        "benefit"
+      ],
+      "answer": 0,
+      "explanation": "「have an edge over（強みを持つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_460",
+      "question": "Choose the correct word:\n「慎重に進める」to proceed with ___",
+      "choices": [
+        "caution",
+        "care",
+        "prudence",
+        "diligence"
+      ],
+      "answer": 0,
+      "explanation": "「proceed with caution（慎重に進める）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_461",
+      "question": "Choose the correct word:\n「成果を上げる」to achieve ___",
+      "choices": [
+        "results",
+        "success",
+        "goals",
+        "targets"
+      ],
+      "answer": 0,
+      "explanation": "「achieve results（成果を上げる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_462",
+      "question": "Choose the correct word:\n「評判を上げる」to build a ___",
+      "choices": [
+        "reputation",
+        "name",
+        "brand",
+        "image"
+      ],
+      "answer": 0,
+      "explanation": "「build a reputation（評判を上げる）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_463",
+      "question": "Choose the correct word:\n「妥協点を見つける」to find a middle ___",
+      "choices": [
+        "ground",
+        "way",
+        "point",
+        "path"
+      ],
+      "answer": 0,
+      "explanation": "「find middle ground（妥協点を見つける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_464",
+      "question": "Choose the correct word:\n「粘り強く続ける」to ___ with it",
+      "choices": [
+        "stick",
+        "keep",
+        "stay",
+        "go"
+      ],
+      "answer": 0,
+      "explanation": "「stick with it（粘り強く続ける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_465",
+      "question": "Choose the correct word:\n「新天地を開く」to break new ___",
+      "choices": [
+        "ground",
+        "territory",
+        "horizons",
+        "frontiers"
+      ],
+      "answer": 0,
+      "explanation": "「break new ground（新天地を開く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_466",
+      "question": "Choose the correct word:\n「先を見越す」to think ___",
+      "choices": [
+        "ahead",
+        "forward",
+        "future",
+        "long-term"
+      ],
+      "answer": 0,
+      "explanation": "「think ahead（先を見越す）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_467",
+      "question": "Choose the correct word:\n「正直に言う」to ___ it straight",
+      "choices": [
+        "give",
+        "say",
+        "put",
+        "tell"
+      ],
+      "answer": 0,
+      "explanation": "「give it straight（正直に言う）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_468",
+      "question": "Choose the correct word:\n「軌道を外れない」to stay on ___",
+      "choices": [
+        "track",
+        "course",
+        "path",
+        "schedule"
+      ],
+      "answer": 0,
+      "explanation": "「stay on track（軌道を外れない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_469",
+      "question": "Choose the correct word:\n「大きな進歩」a quantum ___",
+      "choices": [
+        "leap",
+        "jump",
+        "step",
+        "bound"
+      ],
+      "answer": 0,
+      "explanation": "「a quantum leap（大きな進歩）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_470",
+      "question": "Choose the correct word:\n「一番大切なこと」what ___ most",
+      "choices": [
+        "matters",
+        "counts",
+        "important",
+        "significant"
+      ],
+      "answer": 0,
+      "explanation": "「what matters most（一番大切なこと）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_471",
+      "question": "Choose the correct word:\n「本当の意味で」in the true ___ of the word",
+      "choices": [
+        "sense",
+        "meaning",
+        "spirit",
+        "definition"
+      ],
+      "answer": 0,
+      "explanation": "「in the true sense of the word（本当の意味で）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_472",
+      "question": "Choose the correct word:\n「ベストを尽くす」to put ___ best foot forward",
+      "choices": [
+        "one's",
+        "your",
+        "our",
+        "the"
+      ],
+      "answer": 1,
+      "explanation": "「put your best foot forward（ベストを尽くす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_473",
+      "question": "Choose the correct word:\n「実行する」to put plans into ___",
+      "choices": [
+        "action",
+        "practice",
+        "effect",
+        "motion"
+      ],
+      "answer": 0,
+      "explanation": "「put plans into action（実行する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_474",
+      "question": "Choose the correct word:\n「問題に直面する」to come to ___",
+      "choices": [
+        "grips with",
+        "terms with",
+        "face with",
+        "deal with"
+      ],
+      "answer": 0,
+      "explanation": "「come to grips with（問題に直面する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_475",
+      "question": "Choose the correct word:\n「好機を掴む」to seize the ___",
+      "choices": [
+        "moment",
+        "chance",
+        "opportunity",
+        "occasion"
+      ],
+      "answer": 0,
+      "explanation": "「seize the moment（好機を掴む）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_476",
+      "question": "Choose the correct word:\n「一歩一歩着実に」step by ___",
+      "choices": [
+        "step",
+        "step forward",
+        "step ahead",
+        "increments"
+      ],
+      "answer": 0,
+      "explanation": "「step by step（一歩一歩）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_477",
+      "question": "Choose the correct word:\n「革新的な思考」___ thinking",
+      "choices": [
+        "innovative",
+        "creative",
+        "out-of-box",
+        "fresh"
+      ],
+      "answer": 2,
+      "explanation": "「out-of-box thinking（革新的な思考）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_478",
+      "question": "Choose the correct word:\n「長期的に見れば」in the ___",
+      "choices": [
+        "long run",
+        "big picture",
+        "end",
+        "final analysis"
+      ],
+      "answer": 0,
+      "explanation": "「in the long run（長期的に見れば）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_479",
+      "question": "Choose the correct word:\n「土台を築く」to lay the ___",
+      "choices": [
+        "foundation",
+        "groundwork",
+        "base",
+        "basics"
+      ],
+      "answer": 0,
+      "explanation": "「lay the foundation（土台を築く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_480",
+      "question": "Choose the correct word:\n「失敗から立ち直る」to bounce ___",
+      "choices": [
+        "back",
+        "up",
+        "forward",
+        "out"
+      ],
+      "answer": 0,
+      "explanation": "「bounce back（立ち直る）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_481",
+      "question": "Choose the correct word:\n「正しい方向へ」in the right ___",
+      "choices": [
+        "direction",
+        "way",
+        "path",
+        "track"
+      ],
+      "answer": 0,
+      "explanation": "「in the right direction（正しい方向へ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_482",
+      "question": "Choose the correct word:\n「一貫性を保つ」to stay ___",
+      "choices": [
+        "consistent",
+        "on track",
+        "focused",
+        "steady"
+      ],
+      "answer": 0,
+      "explanation": "「stay consistent（一貫性を保つ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_483",
+      "question": "Choose the correct word:\n「やるべきことをする」to do what it ___",
+      "choices": [
+        "takes",
+        "needs",
+        "requires",
+        "demands"
+      ],
+      "answer": 0,
+      "explanation": "「do what it takes（やるべきことをする）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_484",
+      "question": "Choose the correct word:\n「勢いをつける」to build ___",
+      "choices": [
+        "momentum",
+        "speed",
+        "pace",
+        "force"
+      ],
+      "answer": 0,
+      "explanation": "「build momentum（勢いをつける）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_485",
+      "question": "Choose the correct word:\n「手放さない」to hold ___",
+      "choices": [
+        "on",
+        "tight",
+        "fast",
+        "firm"
+      ],
+      "answer": 0,
+      "explanation": "「hold on（手放さない）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_486",
+      "question": "Choose the correct word:\n「着実に前進する」to make steady ___",
+      "choices": [
+        "progress",
+        "headway",
+        "advances",
+        "gains"
+      ],
+      "answer": 0,
+      "explanation": "「make steady progress（着実に前進する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_487",
+      "question": "Choose the correct word:\n「粘り強さ」staying ___",
+      "choices": [
+        "power",
+        "force",
+        "strength",
+        "energy"
+      ],
+      "answer": 0,
+      "explanation": "「staying power（粘り強さ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_488",
+      "question": "Choose the correct word:\n「大局観」the big ___",
+      "choices": [
+        "picture",
+        "view",
+        "perspective",
+        "vision"
+      ],
+      "answer": 0,
+      "explanation": "「the big picture（大局観）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_489",
+      "question": "Choose the correct word:\n「全力を注ぐ」to put your heart and ___ into it",
+      "choices": [
+        "soul",
+        "mind",
+        "energy",
+        "spirit"
+      ],
+      "answer": 0,
+      "explanation": "「heart and soul（全力を注ぐ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_490",
+      "question": "Choose the correct word:\n「重要な役割を果たす」to play a key ___",
+      "choices": [
+        "role",
+        "part",
+        "position",
+        "function"
+      ],
+      "answer": 0,
+      "explanation": "「play a key role（重要な役割を果たす）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_491",
+      "question": "Choose the correct word:\n「最初のステップ」the first ___",
+      "choices": [
+        "step",
+        "move",
+        "action",
+        "stage"
+      ],
+      "answer": 0,
+      "explanation": "「the first step（最初のステップ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_492",
+      "question": "Choose the correct word:\n「明るい未来」a bright ___",
+      "choices": [
+        "future",
+        "tomorrow",
+        "ahead",
+        "prospect"
+      ],
+      "answer": 0,
+      "explanation": "「a bright future（明るい未来）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_493",
+      "question": "Choose the correct word:\n「忍耐強く」with ___",
+      "choices": [
+        "perseverance",
+        "patience",
+        "determination",
+        "persistence"
+      ],
+      "answer": 0,
+      "explanation": "「with perseverance（忍耐強く）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_494",
+      "question": "Choose the correct word:\n「正しい選択」the right ___",
+      "choices": [
+        "choice",
+        "decision",
+        "call",
+        "move"
+      ],
+      "answer": 0,
+      "explanation": "「the right choice（正しい選択）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_495",
+      "question": "Choose the correct word:\n「目標に向けて」toward your ___",
+      "choices": [
+        "goal",
+        "target",
+        "aim",
+        "objective"
+      ],
+      "answer": 0,
+      "explanation": "「toward your goal（目標に向けて）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_496",
+      "question": "Choose the correct word:\n「成功へのカギ」the ___ to success",
+      "choices": [
+        "key",
+        "secret",
+        "path",
+        "route"
+      ],
+      "answer": 0,
+      "explanation": "「the key to success（成功へのカギ）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_497",
+      "question": "Choose the correct word:\n「大きく前進する」to take a giant ___",
+      "choices": [
+        "leap",
+        "step",
+        "jump",
+        "bound"
+      ],
+      "answer": 0,
+      "explanation": "「take a giant leap（大きく前進する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_498",
+      "question": "Choose the correct word:\n「自信を持って行動する」to act with ___",
+      "choices": [
+        "confidence",
+        "conviction",
+        "certainty",
+        "boldness"
+      ],
+      "answer": 0,
+      "explanation": "「act with confidence（自信を持って行動する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_499",
+      "question": "Choose the correct word:\n「日々成長する」to grow every ___",
+      "choices": [
+        "day",
+        "step",
+        "moment",
+        "opportunity"
+      ],
+      "answer": 0,
+      "explanation": "「grow every day（日々成長する）」のイディオムです。"
+    },
+    {
+      "id": "en_idiom_500",
+      "question": "Choose the correct word:\n「夢を実現する」to make your dreams come ___",
+      "choices": [
+        "true",
+        "real",
+        "alive",
+        "happen"
+      ],
+      "answer": 0,
+      "explanation": "「make your dreams come true（夢を実現する）」のイディオムです。"
     }
   ]
 }
