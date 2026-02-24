@@ -37,9 +37,18 @@
               "id": "ip_technology",
               "name": "テクノロジ系",
               "icon": "🖥",
-              "description": "基礎理論・コンピュータ・ネットワーク・セキュリティ",
+              "description": "基礎理論・コンピュータ・ネットワーク・データベース・クラウド",
               "file": "data/ip/questions_ip_technology.json",
-              "count": 20,
+              "count": 12,
+              "coming_soon": false
+            },
+            {
+              "id": "ip_security",
+              "name": "情報セキュリティ",
+              "icon": "🔒",
+              "description": "基本的な暗号化・認証・脅威・対策",
+              "file": "data/ip/questions_ip_security.json",
+              "count": 8,
               "coming_soon": false
             }
           ]
@@ -86,6 +95,33 @@
               "icon": "⚖️",
               "description": "関連法規とコンプライアンス",
               "file": "data/sg/questions_sg_law.json",
+              "count": 10,
+              "coming_soon": false
+            },
+            {
+              "id": "sg_encryption",
+              "name": "暗号化・暗号技術",
+              "icon": "🔑",
+              "description": "共通鍵暗号・公開鍵暗号・ハッシュ・デジタル署名",
+              "file": "data/sg/questions_sg_encryption.json",
+              "count": 10,
+              "coming_soon": false
+            },
+            {
+              "id": "sg_incident",
+              "name": "インシデント対応と事業継続",
+              "icon": "⚠️",
+              "description": "検知・初動対応・復旧・再発防止・BCP・DRP",
+              "file": "data/sg/questions_sg_incident.json",
+              "count": 10,
+              "coming_soon": false
+            },
+            {
+              "id": "sg_awareness",
+              "name": "セキュリティ教育と意識向上",
+              "icon": "👤",
+              "description": "従業員教育・トレーニング・職業倫理・内部脅威",
+              "file": "data/sg/questions_sg_awareness.json",
               "count": 10,
               "coming_soon": false
             }
