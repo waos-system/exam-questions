@@ -188,71 +188,64 @@
           "short": "AP",
           "level": "レベル3",
           "icon": "🔵",
-          "description": "より深い技術知識と応用力を問う試験",
+          "description": "応用情報技術者試験 — ネットワーク・DB・セキュリティ・アーキテクチャ・アルゴリズム・PM・ストラテジ",
           "color": "#3b82f6",
           "sections": [
-            {
-              "id": "ap_tech",
-              "name": "テクノロジ系",
-              "icon": "🖥",
-              "description": "基礎理論・コンピュータ構成要素・ソフトウェア・ハードウェア",
-              "file": "data/ap/questions_ap_tech.json",
-              "count": 0,
-              "coming_soon": true
-            },
             {
               "id": "ap_network",
               "name": "ネットワーク",
               "icon": "🌐",
-              "description": "TCP/IP・ネットワーク設計・運用",
+              "description": "OSPFやBGP・VLAN・SDN・ゼロトラストなど応用レベルの設計・プロトコル",
               "file": "data/ap/questions_ap_network.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30
             },
             {
               "id": "ap_db",
               "name": "データベース",
-              "icon": "🗄",
-              "description": "データモデル・SQL・設計・運用管理",
+              "icon": "🗄️",
+              "description": "MVCC・シャーディング・CAP定理・ウィンドウ関数など応用レベルのSQL・設計",
               "file": "data/ap/questions_ap_db.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30
             },
             {
               "id": "ap_security",
               "name": "セキュリティ",
               "icon": "🔒",
-              "description": "脅威対策・管理策・情報セキュリティ技術",
+              "description": "PKI・OAuth・SIEM・EDR・耐量子暗号など応用レベルのセキュリティ設計",
               "file": "data/ap/questions_ap_security.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30
             },
             {
-              "id": "ap_dev",
-              "name": "開発技術",
-              "icon": "💻",
-              "description": "システム開発技術・アルゴリズム・プログラミング",
-              "file": "data/ap/questions_ap_dev.json",
-              "count": 0,
-              "coming_soon": true
+              "id": "ap_system",
+              "name": "システムアーキテクチャ",
+              "icon": "🏗️",
+              "description": "マイクロサービス・CQRS・Saga・カオスエンジニアリングなどシステム設計",
+              "file": "data/ap/questions_ap_system.json",
+              "count": 30
+            },
+            {
+              "id": "ap_algorithm",
+              "name": "アルゴリズムとデータ構造",
+              "icon": "⌨️",
+              "description": "DP・グラフ理論・B+木・ブルームフィルタなどアルゴリズムの応用",
+              "file": "data/ap/questions_ap_algorithm.json",
+              "count": 30
             },
             {
               "id": "ap_management",
-              "name": "マネジメント系",
+              "name": "プロジェクトマネジメント",
               "icon": "📋",
-              "description": "プロジェクトマネジメント・サービスマネジメント",
+              "description": "PMBOK・EVM・スクラム・ITIL・CMMIなどマネジメントの実践",
               "file": "data/ap/questions_ap_management.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30
             },
             {
               "id": "ap_strategy",
-              "name": "ストラテジ系",
+              "name": "ストラテジ・ITガバナンス",
               "icon": "📊",
-              "description": "企業戦略・法務・経営戦略マネジメント",
+              "description": "DX・BSC・COBIT・APIエコノミー・AIガバナンスなど経営・戦略",
               "file": "data/ap/questions_ap_strategy.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 30
             }
           ]
         },
@@ -350,59 +343,62 @@
             }
           ]
         },
-        {
+         {
           "id": "pm",
-          "name": "プロジェクトマネージャ試験",
+          "name": "プロジェクトマネージャー試験",
           "short": "PM",
           "level": "レベル4",
-          "icon": "🟪",
-          "description": "大規模プロジェクト管理能力を問う試験",
-          "color": "#8b5cf6",
+          "icon": "📋",
+          "description": "プロジェクト計画・管理・リスクなど高度なマネジメント能力を認定。",
+          "color": "#ef4444",
           "sections": [
             {
-              "id": "pm_initiation",
-              "name": "立上げと計画",
-              "icon": "📋",
-              "description": "目標定義・WBS・スケジュール・体制構築",
-              "file": "data/pm/questions_pm_initiation.json",
-              "count": 0,
-              "coming_soon": true
+              "id": "pm_integration",
+              "name": "プロジェクト統合管理",
+              "icon": "🔗",
+              "description": "プロジェクト憲章・変更管理・CCB・教訓・PMBOKプロセス群",
+              "file": "data/pm/questions_pm_integration.json",
+              "count": 30
             },
             {
-              "id": "pm_execution",
-              "name": "実行とチームマネジメント",
+              "id": "pm_scope",
+              "name": "スコープ・スケジュール管理",
+              "icon": "📅",
+              "description": "WBS・クリティカルパス・アジャイルスケジューリング・EVM",
+              "file": "data/pm/questions_pm_scope.json",
+              "count": 30
+            },
+            {
+              "id": "pm_cost_risk",
+              "name": "コスト・リスク管理",
+              "icon": "💰",
+              "description": "EVM・リスク対応戦略・定量分析・コンティンジェンシー計画",
+              "file": "data/pm/questions_pm_cost_risk.json",
+              "count": 30
+            },
+            {
+              "id": "pm_quality",
+              "name": "品質・調達管理",
+              "icon": "✅",
+              "description": "QA/QC・QC7つ道具・契約形態・調達プロセス",
+              "file": "data/pm/questions_pm_quality.json",
+              "count": 30
+            },
+            {
+              "id": "pm_stakeholder",
+              "name": "ステークホルダー・コミュニケーション管理",
               "icon": "👥",
-              "description": "進捗推進・ステークホルダ調整・人的資源管理",
-              "file": "data/pm/questions_pm_execution.json",
-              "count": 0,
-              "coming_soon": true
+              "description": "権力/関心マトリクス・RACI・コンフリクト管理・PMO",
+              "file": "data/pm/questions_pm_stakeholder.json",
+              "count": 30
             },
             {
-              "id": "pm_control",
-              "name": "モニタリングと統制",
-              "icon": "📈",
-              "description": "コスト・品質・スコープ・変更管理",
-              "file": "data/pm/questions_pm_control.json",
-              "count": 0,
-              "coming_soon": true
-            },
-            {
-              "id": "pm_risk",
-              "name": "リスクと調達管理",
-              "icon": "⚠️",
-              "description": "リスク分析・対応計画・調達・契約管理",
-              "file": "data/pm/questions_pm_risk.json",
-              "count": 0,
-              "coming_soon": true
-            },
-            {
-              "id": "pm_closing",
-              "name": "終結と評価",
-              "icon": "🏁",
-              "description": "成果物受入・振り返り・知見共有",
-              "file": "data/pm/questions_pm_closing.json",
-              "count": 0,
-              "coming_soon": true
+              "id": "pm_agile",
+              "name": "アジャイル・ハイブリッド手法",
+              "icon": "🔄",
+              "description": "スクラム・カンバン・SAFe・ハイブリッドアプローチ・アジャイルスケーリング",
+              "file": "data/pm/questions_pm_agile.json",
+              "count": 30
             }
           ]
         },
@@ -968,49 +964,55 @@
               "id": "en_grammar",
               "name": "文法",
               "icon": "📐",
-              "description": "時制・関係詞・比較・仮定法",
+              "description": "時制・接続詞・比較・関係詞・受動態など",
               "file": "data/english/questions_en_grammar.json",
-              "count": 30
+              "count": 20,
+              "questionCount": 500
             },
             {
               "id": "en_idioms",
               "name": "熟語・イディオム",
               "icon": "💬",
-              "description": "句動詞・慣用表現・定型表現",
+              "description": "句動詞・イディオム・決まり文句",
               "file": "data/english/questions_en_idioms.json",
-              "count": 30
+              "count": 20,
+              "questionCount": 500
             },
             {
               "id": "en_vocabulary",
               "name": "語彙・単語",
               "icon": "📖",
-              "description": "頻出語彙・多義語・類義語",
+              "description": "TOEIC頻出単語・長文頻出語彙",
               "file": "data/english/questions_en_vocabulary.json",
-              "count": 30
+              "count": 20,
+              "questionCount": 500
             },
             {
               "id": "en_reading",
               "name": "読解・長文",
               "icon": "📄",
-              "description": "パッセージ読解と設問対応",
+              "description": "パッセージを読んで設問に答える形式",
               "file": "data/english/questions_en_reading.json",
-              "count": 30
+              "count": 20,
+              "questionCount": 500
             },
             {
               "id": "en_business",
               "name": "ビジネス英語・TOEIC",
               "icon": "💼",
-              "description": "メール・会議・業務表現",
+              "description": "メール・会議・ビジネス表現・TOEIC頻出",
               "file": "data/english/questions_en_business.json",
-              "count": 30
+              "count": 20,
+              "questionCount": 500
             },
             {
               "id": "en_conversation",
               "name": "会話・リスニング",
               "icon": "🎧",
-              "description": "日常会話・応答・聞き取り",
+              "description": "日常会話・応答選択・会話パターン",
               "file": "data/english/questions_en_conversation.json",
-              "count": 30
+              "count": 20,
+              "questionCount": 500
             }
           ]
         }

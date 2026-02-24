@@ -22,3 +22,5 @@ npm-debug.log*
 # Temp
 *.tmp
 *.log
+tmp_check.js
+data/genres.json.bak
