@@ -360,6 +360,15 @@
               "coming_soon": true
             },
             {
+              "id": "sa_security",
+              "name": "セキュリティ設計・非機能性",
+              "icon": "🔒",
+              "description": "セキュリティアーキテクチャ・暗号化・認証・災害復旧設計・可用性",
+              "file": "data/sa/questions_sa_security.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
               "id": "sa_quality",
               "name": "評価と品質保証",
               "icon": "✅",
@@ -790,6 +799,33 @@
               "file": "data/lang/questions_python_io.json",
               "count": 30,
               "coming_soon": false
+            },
+            {
+              "id": "python_async",
+              "name": "非同期処理",
+              "icon": "⚡",
+              "description": "asyncio・async/await・コルーチン・イベントループ・並行プログラミング",
+              "file": "data/lang/questions_python_async.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "python_data_science",
+              "name": "データサイエンス",
+              "icon": "📊",
+              "description": "NumPy・Pandas・データ分析・統計処理・Matplotlib可視化",
+              "file": "data/lang/questions_python_data_science.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "python_web",
+              "name": "Webアプリケーション開発",
+              "icon": "🌐",
+              "description": "Flask・Django基礎・ルーティング・テンプレート・データベース連携",
+              "file": "data/lang/questions_python_web.json",
+              "count": 0,
+              "coming_soon": true
             }
           ]
         },
@@ -844,6 +880,33 @@
               "icon": "🧪",
               "description": "try-catch・throws・ファイルI/O・ストリーム",
               "file": "data/lang/questions_java_exception.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_generics_lambda",
+              "name": "ジェネリクス・ラムダ式・関数型",
+              "icon": "⚡",
+              "description": "ジェネリクス・型パラメータ・ラムダ式・関数型インターフェース",
+              "file": "data/lang/questions_java_generics_lambda.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_concurrency",
+              "name": "マルチスレッド・並行処理",
+              "icon": "🔄",
+              "description": "スレッド・同期化・並行ユーティリティ・Executor",
+              "file": "data/lang/questions_java_concurrency.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "java_annotations",
+              "name": "アノテーション・リフレクション",
+              "icon": "🏷️",
+              "description": "アノテーション・リフレクションAPI・メタプログラミング",
+              "file": "data/lang/questions_java_annotations.json",
               "count": 0,
               "coming_soon": true
             }
@@ -920,6 +983,24 @@
               "file": "data/lang/questions_sql_constraints.json",
               "count": 0,
               "coming_soon": true
+            },
+            {
+              "id": "sql_window_functions",
+              "name": "ウィンドウ関数・分析関数",
+              "icon": "📈",
+              "description": "ウィンドウ関数・ROW_NUMBER・RANK・分析関数",
+              "file": "data/lang/questions_sql_window_functions.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "sql_advanced",
+              "name": "高度なSQL・最適化",
+              "icon": "⚙️",
+              "description": "トランザクション・インデックス・クエリ最適化・実行計画",
+              "file": "data/lang/questions_sql_advanced.json",
+              "count": 0,
+              "coming_soon": true
             }
           ]
         },
@@ -974,6 +1055,60 @@
               "icon": "📦",
               "description": "apt/yum・ジョブ自動化・bash基礎",
               "file": "data/lang/questions_linux_packages.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_users_groups",
+              "name": "ユーザー・グループ管理",
+              "icon": "👤",
+              "description": "ユーザー作成・グループ管理・sudo権限設定・パスワード管理",
+              "file": "data/lang/questions_linux_users_groups.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_boot_kernel",
+              "name": "ブートプロセスとカーネル",
+              "icon": "⚙️",
+              "description": "ブートシーケンス・GRUB・initramfs・カーネル管理・モジュール",
+              "file": "data/lang/questions_linux_boot_kernel.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_firewall",
+              "name": "ファイアウォールと通信制御",
+              "icon": "🔥",
+              "description": "iptables・netfilter・ufw・ポートフィルタリング・NAT",
+              "file": "data/lang/questions_linux_firewall.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_network_dns",
+              "name": "ネットワーク設定とDNS",
+              "icon": "📡",
+              "description": "DHCP・DNS設定・ネットワークインターフェース・resolv.conf・BIND",
+              "file": "data/lang/questions_linux_network_dns.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_storage",
+              "name": "ストレージ管理",
+              "icon": "💾",
+              "description": "パーティション・LVM・ファイルシステム・バックアップ・fsck・マウント",
+              "file": "data/lang/questions_linux_storage.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "linux_sysadmin",
+              "name": "システム管理と監視",
+              "icon": "🔍",
+              "description": "ログ管理・syslog・journalctl・パフォーマンスチューニング・リソース監視",
+              "file": "data/lang/questions_linux_sysadmin.json",
               "count": 0,
               "coming_soon": true
             }
@@ -1033,15 +1168,6 @@
               "questionCount": 500
             },
             {
-              "id": "en_business",
-              "name": "ビジネス英語・TOEIC",
-              "icon": "💼",
-              "description": "メール・会議・ビジネス表現・TOEIC頻出",
-              "file": "data/english/questions_en_business.json",
-              "count": 20,
-              "questionCount": 500
-            },
-            {
               "id": "en_conversation",
               "name": "会話・リスニング",
               "icon": "🎧",
@@ -1049,6 +1175,194 @@
               "file": "data/english/questions_en_conversation.json",
               "count": 20,
               "questionCount": 500
+            },
+            {
+              "id": "en_writing",
+              "name": "ライティング",
+              "icon": "✍️",
+              "description": "エッセイ執筆・手紙・メール・文章構成・文法的正確性",
+              "file": "data/english/questions_en_writing.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "en_toeic",
+          "name": "TOEIC対策",
+          "short": "TOEIC",
+          "level": "基礎〜上級",
+          "icon": "🎯",
+          "description": "ビジネス英語・リスニング・リーディング対策",
+          "color": "#ea580c",
+          "sections": [
+            {
+              "id": "en_toeic_listening",
+              "name": "Listening",
+              "icon": "🎧",
+              "description": "短期・長期リスニング・会話・説明文理解",
+              "file": "data/english/questions_en_toeic_listening.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_toeic_reading",
+              "name": "Reading & Grammar",
+              "icon": "📖",
+              "description": "文法・語彙・読解・不完全文への補充・長文理解",
+              "file": "data/english/questions_en_toeic_reading.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_toeic_vocab",
+              "name": "Vocabulary",
+              "icon": "📚",
+              "description": "TOEIC頻出単語・ビジネス用語・表現",
+              "file": "data/english/questions_en_toeic_vocab.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "en_toefl",
+          "name": "TOEFL対策",
+          "short": "TOEFL",
+          "level": "中上級〜上級",
+          "icon": "🎓",
+          "description": "アカデミック英語・4技能対策・留学準備",
+          "color": "#1e40af",
+          "sections": [
+            {
+              "id": "en_toefl_reading",
+              "name": "Reading",
+              "icon": "📄",
+              "description": "アカデミック長文・理解・分析・推論",
+              "file": "data/english/questions_en_toefl_reading.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_toefl_listening",
+              "name": "Listening",
+              "icon": "🎧",
+              "description": "講義・会話音声理解・ノートテイキング・要点把握",
+              "file": "data/english/questions_en_toefl_listening.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_toefl_speaking",
+              "name": "Speaking",
+              "icon": "🗣️",
+              "description": "独立講座・統合講座・流暢さ・明瞭性・精度",
+              "file": "data/english/questions_en_toefl_speaking.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_toefl_writing",
+              "name": "Writing",
+              "icon": "✍️",
+              "description": "統合ライティング・独立ライティング・エッセイ作成",
+              "file": "data/english/questions_en_toefl_writing.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "en_eiken",
+          "name": "英検対策",
+          "short": "Eiken",
+          "level": "基礎〜上級",
+          "icon": "🏅",
+          "description": "実用英語技能検定対策・5級から1級まで",
+          "color": "#7c2d12",
+          "sections": [
+            {
+              "id": "en_eiken_beginner",
+              "name": "基礎（5級・4級）",
+              "icon": "🟢",
+              "description": "初級単語・基礎文法・簡単な日常会話・初歩的読み書き",
+              "file": "data/english/questions_en_eiken_beginner.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_eiken_intermediate",
+              "name": "中級（3級）",
+              "icon": "🟡",
+              "description": "日常的な表現・実用的な語彙・中程度の会話・読解",
+              "file": "data/english/questions_en_eiken_intermediate.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_eiken_upper_intermediate",
+              "name": "中上級（準2級・2級）",
+              "icon": "🟠",
+              "description": "社会的な話題・幅広い文法・ビジネス表現・詳細読解",
+              "file": "data/english/questions_en_eiken_upper_intermediate.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_eiken_advanced",
+              "name": "上級（準1級・1級）",
+              "icon": "🔴",
+              "description": "国際的話題・高度な表現・ネイティブレベル発音・複雑長文",
+              "file": "data/english/questions_en_eiken_advanced.json",
+              "count": 0,
+              "coming_soon": true
+            }
+          ]
+        },
+        {
+          "id": "en_business",
+          "name": "ビジネス英語",
+          "short": "BusEN",
+          "level": "中級〜上級",
+          "icon": "💼",
+          "description": "ビジネス表現・会議・プレゼン・電話・IT英語",
+          "color": "#1e3a8a",
+          "sections": [
+            {
+              "id": "en_business_mail",
+              "name": "ビジネスメール・表現",
+              "icon": "📧",
+              "description": "ビジネスメール・タイトル・署名・敬語・ビジネス定型表現",
+              "file": "data/english/questions_en_business_mail.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_business_presentation",
+              "name": "会議・プレゼンテーション",
+              "icon": "🎤",
+              "description": "プレゼン表現・会議用語・意見表明・質疑応答",
+              "file": "data/english/questions_en_business_presentation.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_business_telephony",
+              "name": "電話・交渉・接客",
+              "icon": "☎️",
+              "description": "電話会話・ビジネス交渉・顧客対応・問題解決表現",
+              "file": "data/english/questions_en_business_telephony.json",
+              "count": 0,
+              "coming_soon": true
+            },
+            {
+              "id": "en_business_it",
+              "name": "IT・技術英語",
+              "icon": "💻",
+              "description": "IT用語・System構築・データベース・セキュリティ・クラウド技術用語",
+              "file": "data/english/questions_en_business_it.json",
+              "count": 0,
+              "coming_soon": true
             }
           ]
         }
