@@ -39,7 +39,7 @@
               "icon": "🖥",
               "description": "基礎理論・コンピュータ・ネットワーク・データベース・クラウド",
               "file": "data/ip/questions_ip_technology.json",
-              "count": 12,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -48,7 +48,7 @@
               "icon": "🔒",
               "description": "基本的な暗号化・認証・脅威・対策",
               "file": "data/ip/questions_ip_security.json",
-              "count": 8,
+              "count": 30,
               "coming_soon": false
             }
           ]
@@ -68,7 +68,7 @@
               "icon": "🧠",
               "description": "リスクと脅威の基礎知識",
               "file": "data/sg/questions_sg_overview.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -77,7 +77,7 @@
               "icon": "🛡",
               "description": "ISMSと管理策の基礎",
               "file": "data/sg/questions_sg_management.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -86,7 +86,7 @@
               "icon": "🔐",
               "description": "認証とアクセス制御",
               "file": "data/sg/questions_sg_measures.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -95,7 +95,7 @@
               "icon": "⚖️",
               "description": "関連法規とコンプライアンス",
               "file": "data/sg/questions_sg_law.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -104,7 +104,7 @@
               "icon": "🔑",
               "description": "共通鍵暗号・公開鍵暗号・ハッシュ・デジタル署名",
               "file": "data/sg/questions_sg_encryption.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -113,7 +113,7 @@
               "icon": "⚠️",
               "description": "検知・初動対応・復旧・再発防止・BCP・DRP",
               "file": "data/sg/questions_sg_incident.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -122,7 +122,7 @@
               "icon": "👤",
               "description": "従業員教育・トレーニング・職業倫理・内部脅威",
               "file": "data/sg/questions_sg_awareness.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             }
           ]
@@ -142,7 +142,7 @@
               "icon": "🖥️",
               "description": "CPU・メモリ・入出力装置・ストレージ",
               "file": "data/fe/questions_fe_computer.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_system",
@@ -150,7 +150,7 @@
               "icon": "🔧",
               "description": "性能・信頼性・稼働率",
               "file": "data/fe/questions_fe_system.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_software",
@@ -158,7 +158,7 @@
               "icon": "📦",
               "description": "OS・プロセス・ミドルウェア",
               "file": "data/fe/questions_fe_software.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_hardware",
@@ -166,7 +166,7 @@
               "icon": "⚙️",
               "description": "論理回路・半導体・入出力",
               "file": "data/fe/questions_fe_hardware.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_network",
@@ -174,7 +174,7 @@
               "icon": "🌐",
               "description": "TCP/IP・プロトコル・設計",
               "file": "data/fe/questions_fe_network.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_db",
@@ -182,7 +182,7 @@
               "icon": "🗄️",
               "description": "SQL・正規化・トランザクション",
               "file": "data/fe/questions_fe_db.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_security",
@@ -190,7 +190,7 @@
               "icon": "🔒",
               "description": "暗号・認証・脆弱性・攻撃手法",
               "file": "data/fe/questions_fe_security.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_algorithm",
@@ -198,7 +198,7 @@
               "icon": "⌨️",
               "description": "アルゴリズム・データ構造・擬似言語",
               "file": "data/fe/questions_fe_algorithm.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_management",
@@ -206,7 +206,7 @@
               "icon": "📋",
               "description": "開発手法・プロジェクト管理・品質管理",
               "file": "data/fe/questions_fe_management.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_strategy",
@@ -214,7 +214,7 @@
               "icon": "📊",
               "description": "経営戦略・法務・会計",
               "file": "data/fe/questions_fe_strategy.json",
-              "count": 10
+              "count": 30
             }
           ]
         },
@@ -1137,7 +1137,7 @@
               "icon": "📐",
               "description": "時制・接続詞・比較・関係詞・受動態など",
               "file": "data/english/questions_en_grammar.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1146,7 +1146,7 @@
               "icon": "💬",
               "description": "句動詞・イディオム・決まり文句",
               "file": "data/english/questions_en_idioms.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1155,7 +1155,7 @@
               "icon": "📖",
               "description": "TOEIC頻出単語・長文頻出語彙",
               "file": "data/english/questions_en_vocabulary.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1164,7 +1164,7 @@
               "icon": "📄",
               "description": "パッセージを読んで設問に答える形式",
               "file": "data/english/questions_en_reading.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1173,9 +1173,9 @@
               "icon": "🎧",
               "description": "日常会話・応答選択・会話パターン",
               "file": "data/english/questions_en_conversation.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
-            },
+            }
             {
               "id": "en_writing",
               "name": "ライティング",

@@ -1,607 +1,67 @@
 {
   "genre": "ネットワークスペシャリスト",
-  "exam": "ネットワークスペシャリスト: 運用・保守と障害対応",
+  "exam": "ネットワークスペシャリスト試験",
   "category": "nw_operation",
   "questions": [
     {
       "id": "nw_operation_001",
-      "question": "ネットワーク監視におけるSNMPの主な機能として最も適切でないものはどれか。",
+      "question": "ネットワーク監視における重要なメトリクスとして最も適切なものはどれか。",
       "choices": [
-        "管理対象機器からマネージャーへの非同期通知",
-        "マネージャーからの管理対象機器への設定変更指示",
-        "マネージャーの障害時に自動フェイルオーバーしてマネージャー機能を継続",
-        "MIBに従ったオブジェクト値の取得"
+        "任意の値",
+        "トラフィック量、レイテンシ、パケットロス率、リンク利用率"
       ],
-      "answer": 2,
-      "explanation": "SNMPはマネージャーとエージェント間の通信プロトコルであり、マネージャー自体の冗長化やフェイルオーバーはSNMPの機能外。"
+      "answer": 1,
+      "explanation": "ネットワーク監視：帯域利用率・パケットロス・遅延・エラー率をKPIに設定。閾値超過で自動アラート。"
     },
     {
       "id": "nw_operation_002",
-      "question": "ネットワークフロー分析ツールにおける、最も適切でない説明はどれか。",
+      "question": "SNMP（Simple Network Management Protocol）の主な目的として最も適切なものはどれか。",
       "choices": [
-        "IPFIXはIETF標準化されたフロー情報送信標準",
-        "NetFlowはシスコ独自技術であり、他ベンダーでは利用不可",
-        "sFlowはスイッチのサンプリング機能により軽い負荷でフロー情報を収集",
-        "フロー情報を分析することでDDoS検知が可能"
+        "ルーティングプロトコル",
+        "ネットワークデバイスの監視・管理、統計情報収集"
       ],
       "answer": 1,
-      "explanation": "NetFlowは事実上の標準となり、他のベンダー機器でも類似機能が実装されている。"
+      "explanation": "SNMP：ネットワークデバイス（ルータ・スイッチ）の状態監視、パフォーマンス情報取得。v3で認証・暗号化。"
     },
     {
       "id": "nw_operation_003",
-      "question": "MTRツールの利点として最も適切でないものはどれか。",
+      "question": "NetFlow/sFlow の主な用途として最も適切なものはどれか。",
       "choices": [
-        "tracerouteのようにルート経路を表示しながら、各ホップのリアルタイム統計情報も提供",
-        "リアルタイムで継続的にプローブを送信し、ロス率やレイテンシを計測",
-        "完全な経路遠隔制御",
-        "ncursesベースのインタラクティブなUIで解析結果を視覚的に表示"
+        "リアルタイム制御",
+        "トラフィックフローの詳細分析、アプリケーション識別、使用量把握"
       ],
-      "answer": 2,
-      "explanation": "MTRは経路の可視化と統計情報の表示が強力だが、路の強制指定機能はセキュリティ上の理由で現在ほぼ無効化されている。"
+      "answer": 1,
+      "explanation": "NetFlow：ネットワークフロー情報を収集・分析。送信元・宛先・ポート・プロトコル等から通信パターン把握。"
     },
     {
       "id": "nw_operation_004",
-      "question": "RadiusとTACACS+の主な相違として最も適切でないものはどれか。",
+      "question": "帯域幅管理（Bandwidth Management）の主な目的として最も適切なものはどれか。",
       "choices": [
-        "RadiusはUDP、TACACS+はTCPを使用",
-        "TACACS+はクライアント・サーバー間の全通信を暗号化",
-        "Radiusはアクセス制御の管理に適し、TACACS+はコマンドレベルの制御が可能",
-        "RadiousはIETF標準で広く普及、TACACS+はシスコ独自プロトコル"
+        "全トラフィック等速",
+        "トラフィック優先度付け・制限、ネットワーク効率化、QoS確保"
       ],
-      "answer": 2,
-      "explanation": "逆である。TACACS+がコマンドレベルの細粒度制御を提供する。"
+      "answer": 1,
+      "explanation": "帯域幅管理：優先度に基づき帯域配分。ベストエフォート・保証帯域設定で、重要通信確保。"
     },
     {
       "id": "nw_operation_005",
-      "question": "RTOとRPOの定義として最も適切でないものはどれか。",
+      "question": "トラフィックシェーピング（Traffic Shaping）の役割として最も適切なものはどれか。",
       "choices": [
-        "RTO: 障害発生から目標復旧時間までの許容時間",
-        "RPO: 許容するデータ損失期間の長さ",
-        "RTO がRPOより短い必要がある",
-        "RTOが短いほど復旧性を高く、すなわちコストが高くなる傾向"
+        "トラフィック破棄",
+        "トラフィック流量制御、バースト削減、WAN回線最適化"
       ],
-      "answer": 2,
-      "explanation": "RTOとRPOは独立した要件で、RTO < RPOの関係は必須ではない。"
+      "answer": 1,
+      "explanation": "トラフィックシェーピング：バッファリング・遅延によりトラフィック平準化。WAN最適化。"
     },
     {
       "id": "nw_operation_006",
-      "question": "ネットワーク運用に関する質問6",
+      "question": "ネットワークトラブルシューティングの基本的なアプローチとして最も適切なものはどれか。",
       "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問6の説明です。"
-    },
-    {
-      "id": "nw_operation_007",
-      "question": "ネットワーク運用に関する質問7",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問7の説明です。"
-    },
-    {
-      "id": "nw_operation_008",
-      "question": "ネットワーク運用に関する質問8",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問8の説明です。"
-    },
-    {
-      "id": "nw_operation_009",
-      "question": "ネットワーク運用に関する質問9",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
+        "ランダムな推測",
+        "OSIモデル層別分析、計画的な絞込み、再現可能性確認"
       ],
       "answer": 1,
-      "explanation": "これは質問9の説明です。"
-    },
-    {
-      "id": "nw_operation_010",
-      "question": "ネットワーク運用に関する質問10",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問10の説明です。"
-    },
-    {
-      "id": "nw_operation_011",
-      "question": "ネットワーク運用に関する質問11",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問11の説明です。"
-    },
-    {
-      "id": "nw_operation_012",
-      "question": "ネットワーク運用に関する質問12",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問12の説明です。"
-    },
-    {
-      "id": "nw_operation_013",
-      "question": "ネットワーク運用に関する質問13",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問13の説明です。"
-    },
-    {
-      "id": "nw_operation_014",
-      "question": "ネットワーク運用に関する質問14",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問14の説明です。"
-    },
-    {
-      "id": "nw_operation_015",
-      "question": "ネットワーク運用に関する質問15",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問15の説明です。"
-    },
-    {
-      "id": "nw_operation_016",
-      "question": "ネットワーク運用に関する質問16",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問16の説明です。"
-    },
-    {
-      "id": "nw_operation_017",
-      "question": "ネットワーク運用に関する質問17",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問17の説明です。"
-    },
-    {
-      "id": "nw_operation_018",
-      "question": "ネットワーク運用に関する質問18",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問18の説明です。"
-    },
-    {
-      "id": "nw_operation_019",
-      "question": "ネットワーク運用に関する質問19",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問19の説明です。"
-    },
-    {
-      "id": "nw_operation_020",
-      "question": "ネットワーク運用に関する質問20",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問20の説明です。"
-    },
-    {
-      "id": "nw_operation_021",
-      "question": "ネットワーク運用に関する質問21",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問21の説明です。"
-    },
-    {
-      "id": "nw_operation_022",
-      "question": "ネットワーク運用に関する質問22",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問22の説明です。"
-    },
-    {
-      "id": "nw_operation_023",
-      "question": "ネットワーク運用に関する質問23",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問23の説明です。"
-    },
-    {
-      "id": "nw_operation_024",
-      "question": "ネットワーク運用に関する質問24",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問24の説明です。"
-    },
-    {
-      "id": "nw_operation_025",
-      "question": "ネットワーク運用に関する質問25",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問25の説明です。"
-    },
-    {
-      "id": "nw_operation_026",
-      "question": "ネットワーク運用に関する質問26",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問26の説明です。"
-    },
-    {
-      "id": "nw_operation_027",
-      "question": "ネットワーク運用に関する質問27",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問27の説明です。"
-    },
-    {
-      "id": "nw_operation_028",
-      "question": "ネットワーク運用に関する質問28",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問28の説明です。"
-    },
-    {
-      "id": "nw_operation_029",
-      "question": "ネットワーク運用に関する質問29",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問29の説明です。"
-    },
-    {
-      "id": "nw_operation_030",
-      "question": "ネットワーク運用に関する質問30",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問30の説明です。"
-    },
-    {
-      "id": "nw_operation_031",
-      "question": "ネットワーク運用に関する質問31",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問31の説明です。"
-    },
-    {
-      "id": "nw_operation_032",
-      "question": "ネットワーク運用に関する質問32",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問32の説明です。"
-    },
-    {
-      "id": "nw_operation_033",
-      "question": "ネットワーク運用に関する質問33",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問33の説明です。"
-    },
-    {
-      "id": "nw_operation_034",
-      "question": "ネットワーク運用に関する質問34",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問34の説明です。"
-    },
-    {
-      "id": "nw_operation_035",
-      "question": "ネットワーク運用に関する質問35",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問35の説明です。"
-    },
-    {
-      "id": "nw_operation_036",
-      "question": "ネットワーク運用に関する質問36",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問36の説明です。"
-    },
-    {
-      "id": "nw_operation_037",
-      "question": "ネットワーク運用に関する質問37",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問37の説明です。"
-    },
-    {
-      "id": "nw_operation_038",
-      "question": "ネットワーク運用に関する質問38",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問38の説明です。"
-    },
-    {
-      "id": "nw_operation_039",
-      "question": "ネットワーク運用に関する質問39",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問39の説明です。"
-    },
-    {
-      "id": "nw_operation_040",
-      "question": "ネットワーク運用に関する質問40",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問40の説明です。"
-    },
-    {
-      "id": "nw_operation_041",
-      "question": "ネットワーク運用に関する質問41",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問41の説明です。"
-    },
-    {
-      "id": "nw_operation_042",
-      "question": "ネットワーク運用に関する質問42",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問42の説明です。"
-    },
-    {
-      "id": "nw_operation_043",
-      "question": "ネットワーク運用に関する質問43",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問43の説明です。"
-    },
-    {
-      "id": "nw_operation_044",
-      "question": "ネットワーク運用に関する質問44",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問44の説明です。"
-    },
-    {
-      "id": "nw_operation_045",
-      "question": "ネットワーク運用に関する質問45",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問45の説明です。"
-    },
-    {
-      "id": "nw_operation_046",
-      "question": "ネットワーク運用に関する質問46",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問46の説明です。"
-    },
-    {
-      "id": "nw_operation_047",
-      "question": "ネットワーク運用に関する質問47",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 3,
-      "explanation": "これは質問47の説明です。"
-    },
-    {
-      "id": "nw_operation_048",
-      "question": "ネットワーク運用に関する質問48",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 0,
-      "explanation": "これは質問48の説明です。"
-    },
-    {
-      "id": "nw_operation_049",
-      "question": "ネットワーク運用に関する質問49",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 1,
-      "explanation": "これは質問49の説明です。"
-    },
-    {
-      "id": "nw_operation_050",
-      "question": "ネットワーク運用に関する質問50",
-      "choices": [
-        "選択肢A",
-        "選択肢B",
-        "選択肢C",
-        "選択肢D"
-      ],
-      "answer": 2,
-      "explanation": "これは質問50の説明です。"
+      "explanation": "トラブルシューティング：物理層→データリンク層…と段階的に診断。ping・tracert・tcpdump等ツール活用。"
     }
   ]
 }
