@@ -1,0 +1,606 @@
+{
+  "genre": "Reading & Grammar",
+  "exam": "TOEIC",
+  "questions": [
+    {
+      "id": "en_toeic_reading_001",
+      "question": "The report requires that all data _____ before submission to the director.",
+      "choices": [
+        "was verified",
+        "be verified",
+        "is verified",
+        "verified"
+      ],
+      "answer": 1,
+      "explanation": "The subjunctive mood is required after 'requires that'. The correct form is 'be verified' (present subjunctive)."
+    },
+    {
+      "id": "en_toeic_reading_002",
+      "question": "Despite _____ in sales last quarter, the company remains optimistic about future growth.",
+      "choices": [
+        "a decline",
+        "declining",
+        "declined",
+        "the declining"
+      ],
+      "answer": 0,
+      "explanation": "After the preposition 'Despite', a noun phrase is needed. 'A decline' is the correct noun form."
+    },
+    {
+      "id": "en_toeic_reading_003",
+      "question": "The manager _____ strongly oppose the proposal during the budget meeting yesterday.",
+      "choices": [
+        "must have",
+        "should have",
+        "would have",
+        "had to"
+      ],
+      "answer": 1,
+      "explanation": "The phrase 'strongly oppose' suggests disapproval of a past action. 'Should have' expresses criticism of a past choice."
+    },
+    {
+      "id": "en_toeic_reading_004",
+      "question": "New employees are _____ to complete orientation training within their first week.",
+      "choices": [
+        "required",
+        "requirement",
+        "requiring",
+        "require"
+      ],
+      "answer": 0,
+      "explanation": "The passive voice 'are required' (to be required) is the correct completion. 'Required' is the past participle used in passive construction."
+    },
+    {
+      "id": "en_toeic_reading_005",
+      "question": "The team _____ the project ahead of schedule because of their exceptional dedication.",
+      "choices": [
+        "complete",
+        "completes",
+        "completed",
+        "has completing"
+      ],
+      "answer": 2,
+      "explanation": "The past tense 'completed' is needed because the action has already occurred. The adverb 'ahead of schedule' signals a completed action."
+    },
+    {
+      "id": "en_toeic_reading_006",
+      "question": "The executive secretary will answer any _____ about the company policies and procedures.",
+      "choices": [
+        "questions",
+        "question",
+        "questioning",
+        "questionable"
+      ],
+      "answer": 0,
+      "explanation": "The plural noun 'questions' is appropriate after 'any' in this context. The possessive adjective indicates multiple inquiries."
+    },
+    {
+      "id": "en_toeic_reading_007",
+      "question": "If the shipment _____ on time, we will be able to meet the customer's deadline.",
+      "choices": [
+        "arrives",
+        "will arrive",
+        "would arrive",
+        "had arrived"
+      ],
+      "answer": 0,
+      "explanation": "In conditional sentences, the if-clause uses the present tense. 'Arrives' is the correct present tense form."
+    },
+    {
+      "id": "en_toeic_reading_008",
+      "question": "The consultant was hired _____ improve the company's operational efficiency by 25 percent.",
+      "choices": [
+        "for to",
+        "to",
+        "for",
+        "so that"
+      ],
+      "answer": 1,
+      "explanation": "The infinitive 'to improve' is the correct form to show purpose after passive verbs like 'was hired'."
+    },
+    {
+      "id": "en_toeic_reading_009",
+      "question": "The software update is _____ more secure and user-friendly than the previous version.",
+      "choices": [
+        "significant",
+        "significantly",
+        "significance",
+        "signify"
+      ],
+      "answer": 1,
+      "explanation": "An adverb is needed to modify the adjective 'secure'. 'Significantly' is the adverbial form of significant."
+    },
+    {
+      "id": "en_toeic_reading_010",
+      "question": "Employees _____ approve the new performance evaluation system unanimously during last week's meeting.",
+      "choices": [
+        "have",
+        "had",
+        "have had",
+        "are having"
+      ],
+      "answer": 1,
+      "explanation": "The past tense 'had' is correct because the action occurred at a specific past time ('last week's meeting')."
+    },
+    {
+      "id": "en_toeic_reading_011",
+      "question": "Which of the following sentences contains an error?\n(A) The financial report is due by the end of the month.\n(B) All employees needs to submit their timesheets on Friday.\n(C) The marketing team has developed a comprehensive strategy.\n(D) Both the manager and the director agrees with the proposal.",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "explanation": "Option B contains an error. 'Employees' is plural, so the verb should be 'need', not 'needs'. Options A, C, and D are correct."
+    },
+    {
+      "id": "en_toeic_reading_012",
+      "question": "Which sentence is grammatically incorrect?\n(A) Neither the sales manager nor the representatives was satisfied with the results.\n(B) The memo regarding the budget adjustments were sent yesterday.\n(C) Several of the attendees have submitted their feedback forms.\n(D) The quality of the products are guaranteed for one year.",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 1,
+      "explanation": "Option B is incorrect. 'Memo' is singular, so the verb should be 'was', not 'were'. The other options use correct singular/plural agreement."
+    },
+    {
+      "id": "en_toeic_reading_013",
+      "question": "Passage: 'The company implemented a new customer service protocol' this month. According to the passage, what was implemented?\n(A) A service fee\n(B) A protocol for customer service\n(C) A new company policy\n(D) A management structure",
+      "choices": [
+        "A service fee",
+        "A protocol for customer service",
+        "A new company policy",
+        "A management structure"
+      ],
+      "answer": 1,
+      "explanation": "The passage directly states that 'a new customer service protocol' was implemented, making option B the correct answer."
+    },
+    {
+      "id": "en_toeic_reading_014",
+      "question": "What is the primary purpose of the announcement?",
+      "choices": [
+        "To inform employees about schedule changes",
+        "To request feedback on recent policies",
+        "To announce retirement of senior staff",
+        "To introduce new company benefits"
+      ],
+      "answer": 0,
+      "explanation": "Based on the context of typical TOEIC passages, announcements generally inform about schedule or policy changes."
+    },
+    {
+      "id": "en_toeic_reading_015",
+      "question": "According to the memo, which statement is true?\n(A) The deadline has already passed.\n(B) Submissions are still being accepted.\n(C) The project has been cancelled.\n(D) Funding has been withdrawn.",
+      "choices": [
+        "The deadline has already passed",
+        "Submissions are still being accepted",
+        "The project has been cancelled",
+        "Funding has been withdrawn"
+      ],
+      "answer": 1,
+      "explanation": "Reading comprehension items require careful attention to explicit information in the passage."
+    },
+    {
+      "id": "en_toeic_reading_016",
+      "question": "The company will _____ additional resources to ensure the project's success.",
+      "choices": [
+        "allocate",
+        "allocated",
+        "allocation",
+        "allocates"
+      ],
+      "answer": 0,
+      "explanation": "The future tense construction 'will allocate' requires the base form of the verb. 'Allocate' is correct."
+    },
+    {
+      "id": "en_toeic_reading_017",
+      "question": "Because of the bad weather, _____.",
+      "choices": [
+        "the conference was postponed until next month",
+        "the delegates arrived on time",
+        "the venue was moved downtown",
+        "the agenda remained unchanged"
+      ],
+      "answer": 0,
+      "explanation": "The cause (bad weather) logically leads to postponement of the event. Option A presents the most logical consequence."
+    },
+    {
+      "id": "en_toeic_reading_018",
+      "question": "The contractor requested payment _____ to the completion of the first phase.",
+      "choices": [
+        "due",
+        "prior",
+        "following",
+        "subsequent"
+      ],
+      "answer": 1,
+      "explanation": "'Prior' means before, which makes sense in the context of requesting payment before completion. 'Prior to' is an idiomatic expression."
+    },
+    {
+      "id": "en_toeic_reading_019",
+      "question": "_____ the importance of the meeting, all team members are expected to attend.",
+      "choices": [
+        "Considering",
+        "Considered",
+        "Consider",
+        "Consideration"
+      ],
+      "answer": 0,
+      "explanation": "The participle 'Considering' at the start of a sentence introduces a reason or thought. It's the correct choice here."
+    },
+    {
+      "id": "en_toeic_reading_020",
+      "question": "The sales representative successfully negotiated a contract that _____ both parties.",
+      "choices": [
+        "benefits",
+        "beneficial",
+        "benefited",
+        "benefit"
+      ],
+      "answer": 2,
+      "explanation": "The past tense 'benefited' is needed to agree with the past-tense verb 'negotiated'."
+    },
+    {
+      "id": "en_toeic_reading_021",
+      "question": "READING COMPREHENSION: E-mail from Marketing Director\nSubject: Q4 Marketing Strategy Update\n\nDear Team,\n\nFollowing our recent strategic planning session, I am pleased to announce the new Q4 marketing initiatives. The focus will remain on digital transformation and customer engagement. All department heads must submit revised budget proposals by Friday.\n\nAdditionally, the annual marketing conference will take place from November 15-17 at the Grand Hotel. All team members are encouraged to attend.\n\nBest regards,\nJennifer Liu\n\nQuestion: When must budget proposals be submitted?",
+      "choices": [
+        "By the end of September",
+        "By Friday",
+        "Before November 15",
+        "After the conference"
+      ],
+      "answer": 1,
+      "explanation": "The email explicitly states 'All department heads must submit revised budget proposals by Friday'."
+    },
+    {
+      "id": "en_toeic_reading_022",
+      "question": "Based on the e-mail, what is the location of the marketing conference?",
+      "choices": [
+        "At company headquarters",
+        "At the Grand Hotel",
+        "At a regional office",
+        "At an unspecified venue"
+      ],
+      "answer": 1,
+      "explanation": "The email states 'the annual marketing conference will take place from November 15-17 at the Grand Hotel'."
+    },
+    {
+      "id": "en_toeic_reading_023",
+      "question": "What can be inferred about the company's priorities?",
+      "choices": [
+        "Cost reduction is the primary goal",
+        "Expansion into new markets is the focus",
+        "Digital transformation is important",
+        "Staff training is the main concern"
+      ],
+      "answer": 2,
+      "explanation": "The email states 'The focus will remain on digital transformation and customer engagement', indicating digital transformation is a priority."
+    },
+    {
+      "id": "en_toeic_reading_024",
+      "question": "The board of directors _____ the annual report before it was distributed to shareholders.",
+      "choices": [
+        "approving",
+        "approved",
+        "approve",
+        "approvingly"
+      ],
+      "answer": 1,
+      "explanation": "The past tense 'approved' is required because the report was distributed (past action) after approval occurred."
+    },
+    {
+      "id": "en_toeic_reading_025",
+      "question": "INSTRUCTION: An error is identified in the text below. Find and identify the error.\n\n'The research team have concluded that the new methodology are more effective than the previous system. They recommends implementing the changes immediately.'\n\nWhat is the first error?",
+      "choices": [
+        "'have' should be 'has'",
+        "'are' should be 'is'",
+        "'recommends' should be 'recommend'",
+        "All of the above are errors"
+      ],
+      "answer": 3,
+      "explanation": "All three statements contain agreement errors. 'Team' is singular (has), 'methodology' is singular (is), and 'They' plural requires 'recommend'."
+    },
+    {
+      "id": "en_toeic_reading_026",
+      "question": "The financing for the expansion project _____ secured through a combination of bank loans and investor funding.",
+      "choices": [
+        "were",
+        "was",
+        "is being",
+        "have been"
+      ],
+      "answer": 1,
+      "explanation": "'Financing' is a singular noun, so the past passive verb should be 'was secured', not 'were secured'."
+    },
+    {
+      "id": "en_toeic_reading_027",
+      "question": "_____ attending the seminar next week, please submit your registration form by Wednesday.",
+      "choices": [
+        "If you are",
+        "Because you are",
+        "Unless you are",
+        "Whether you are"
+      ],
+      "answer": 0,
+      "explanation": "'If you are' introduces a conditional statement that logically connects to the registration requirement."
+    },
+    {
+      "id": "en_toeic_reading_028",
+      "question": "The product warranty _____ extensive coverage for parts and labor for the first two years.",
+      "choices": [
+        "provided",
+        "provides",
+        "providing",
+        "has provided"
+      ],
+      "answer": 1,
+      "explanation": "The present tense 'provides' is appropriate here since the warranty is a current feature of the product."
+    },
+    {
+      "id": "en_toeic_reading_029",
+      "question": "Which of these is stated in the manual?\n'The device must be cleaned monthly with a soft cloth. Do not submerge in water. Regular maintenance will extend the product's lifespan.'\n(A) The device should be replaced annually.\n(B) The device can be submerged briefly.\n(C) Monthly cleaning is recommended.\n(D) The device requires professional servicing.",
+      "choices": [
+        "The device should be replaced annually",
+        "The device can be submerged briefly",
+        "Monthly cleaning is recommended",
+        "The device requires professional servicing"
+      ],
+      "answer": 2,
+      "explanation": "The manual explicitly states 'The device must be cleaned monthly', which corresponds to option C."
+    },
+    {
+      "id": "en_toeic_reading_030",
+      "question": "The policy _____ been in effect since January and has significantly reduced operational costs.",
+      "choices": [
+        "have",
+        "has",
+        "having",
+        "had"
+      ],
+      "answer": 1,
+      "explanation": "'Policy' is singular, so the present perfect requires 'has been', not 'have been'."
+    },
+    {
+      "id": "en_toeic_reading_031",
+      "question": "Rather than _____ the entire system, we decided to implement gradual improvements.",
+      "choices": [
+        "replace",
+        "replacing",
+        "replaced",
+        "to replace"
+      ],
+      "answer": 1,
+      "explanation": "After 'rather than', a gerund (-ing form) is used. 'Replacing' is the correct gerund."
+    },
+    {
+      "id": "en_toeic_reading_032",
+      "question": "PASSAGE FOR QUESTIONS 32-34:\n\nINTERNAL MEMO: OFFICE RENOVATION PROJECT\n\nManagement is pleased to announce the start of the office renovation project. The renovation will modernize our workspace and improve employee productivity. Phase 1 will focus on updating the fourth floor, scheduled to begin on March 1st. Phase 2, involving renovations to the second and third floors, will commence on May 1st. All employees are asked to retain documents and personal items in secure, lockable storage during renovations.\n\nWhy is the office being renovated?",
+      "choices": [
+        "To reduce operational costs",
+        "To accommodate new employees",
+        "To modernize the workspace and improve productivity",
+        "To comply with safety regulations"
+      ],
+      "answer": 2,
+      "explanation": "The memo states 'The renovation will modernize our workspace and improve employee productivity'."
+    },
+    {
+      "id": "en_toeic_reading_033",
+      "question": "According to the memo, when will Phase 2 of the renovation begin?",
+      "choices": [
+        "February 15th",
+        "March 1st",
+        "April 30th",
+        "May 1st"
+      ],
+      "answer": 3,
+      "explanation": "The memo clearly states 'Phase 2...will commence on May 1st'."
+    },
+    {
+      "id": "en_toeic_reading_034",
+      "question": "What are employees asked to do with their personal items?",
+      "choices": [
+        "Take them home immediately",
+        "Store them in secure, lockable storage",
+        "Leave them on their desks",
+        "Submit them to management"
+      ],
+      "answer": 1,
+      "explanation": "The memo states 'All employees are asked to retain documents and personal items in secure, lockable storage'."
+    },
+    {
+      "id": "en_toeic_reading_035",
+      "question": "The consultant's analysis _____ substantial cost savings in the first quarter alone.",
+      "choices": [
+        "identify",
+        "identified",
+        "identifies",
+        "identifying"
+      ],
+      "answer": 1,
+      "explanation": "The past tense 'identified' is needed because the analysis has already been completed."
+    },
+    {
+      "id": "en_toeic_reading_036",
+      "question": "Unless the vendor _____ the defective parts, we will seek an alternative supplier.",
+      "choices": [
+        "replace",
+        "might replace",
+        "will replace",
+        "replaces"
+      ],
+      "answer": 3,
+      "explanation": "In conditional statements with 'unless', the present tense is used in the if-clause. 'Replaces' is correct."
+    },
+    {
+      "id": "en_toeic_reading_037",
+      "question": "During the training session, participants _____ how to use the new software system.",
+      "choices": [
+        "learning",
+        "learned",
+        "will learn",
+        "has learned"
+      ],
+      "answer": 1,
+      "explanation": "The past tense 'learned' aligns with the past time reference 'During the training session'."
+    },
+    {
+      "id": "en_toeic_reading_038",
+      "question": "The contract specifies that _____ remain responsible for delivery to the final destination.",
+      "choices": [
+        "the shipper should",
+        "the shipper remain",
+        "shipper should remain",
+        "the shipper will be"
+      ],
+      "answer": 0,
+      "explanation": "'The shipper should' is the clear, grammatically correct form to complete this sentence in formal writing."
+    },
+    {
+      "id": "en_toeic_reading_039",
+      "question": "Which of these contains a spelling or word choice error?\n(A) The principle objective is to achieve sustainable growth.\n(B) The principal concerns of the board relate to cash flow.\n(C) Our principal consultant recommended the strategy.\n(D) All of the above are correct.",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": 0,
+      "explanation": "Option A is incorrect. It should be 'principal' (main/primary), not 'principle' (rule/fundamental truth)."
+    },
+    {
+      "id": "en_toeic_reading_040",
+      "question": "The marketing manager _____ the revised campaign strategy at the next board meeting.",
+      "choices": [
+        "will present",
+        "presents",
+        "is presenting",
+        "has presented"
+      ],
+      "answer": 0,
+      "explanation": "The future tense 'will present' is indicated by 'at the next board meeting', referring to a future event."
+    },
+    {
+      "id": "en_toeic_reading_041",
+      "question": "ADVERTISEMENT: Your company might have discovered savings in these areas:...\n\nWhich best fits in the blank?\n_____ your IT infrastructure is outdated, you may be overspending on maintenance and upgrades.",
+      "choices": [
+        "If",
+        "Although",
+        "Unless",
+        "When"
+      ],
+      "answer": 0,
+      "explanation": "'If' is the logical connector, suggesting a conditional relationship between outdated infrastructure and overspending."
+    },
+    {
+      "id": "en_toeic_reading_042",
+      "question": "The employee handbook _____ updated annually to reflect changes in company policy.",
+      "choices": [
+        "is being",
+        "is",
+        "has been",
+        "is being"
+      ],
+      "answer": 1,
+      "explanation": "'Is updated' (present passive) is the most appropriate as it describes a regular procedure."
+    },
+    {
+      "id": "en_toeic_reading_043",
+      "question": "What is the placement of a paragraph in the following text?\n\nParagraph A: 'Cost reduction remains a key priority.'\nParagraph B: 'To achieve this goal...'\nParagraph Missing: ???\nParagraph D: 'As a result, we plan to...'\n\nWhich sentence best fits in 'Paragraph Missing'?",
+      "choices": [
+        "We have increased our market share significantly.",
+        "Several strategies have been identified for implementation.",
+        "Our competitors offer lower prices than we do.",
+        "Customer satisfaction scores have improved this quarter."
+      ],
+      "answer": 1,
+      "explanation": "Option B flows logically from 'To achieve this goal...' with 'Several strategies have been identified for implementation' connecting paragraphs logically."
+    },
+    {
+      "id": "en_toeic_reading_044",
+      "question": "Following the merger, the two organizations _____ their accounting systems and procedures.",
+      "choices": [
+        "integrate",
+        "integrated",
+        "integrating",
+        "have integrated"
+      ],
+      "answer": 1,
+      "explanation": "The past tense 'integrated' matches the past reference 'Following the merger' (completed action)."
+    },
+    {
+      "id": "en_toeic_reading_045",
+      "question": "In order for employees _____ work-from-home privileges, they must meet specific performance criteria.",
+      "choices": [
+        "to obtain",
+        "obtaining",
+        "obtain",
+        "to be obtaining"
+      ],
+      "answer": 0,
+      "explanation": "The infinitive 'to obtain' is correct after 'in order for [noun]'."
+    },
+    {
+      "id": "en_toeic_reading_046",
+      "question": "The company has _____ its commitment to environmental sustainability through multiple initiatives.",
+      "choices": [
+        "demonstrate",
+        "demonstrated",
+        "demonstrating",
+        "demonstrates"
+      ],
+      "answer": 1,
+      "explanation": "The present perfect requires the past participle 'demonstrated' with 'has'."
+    },
+    {
+      "id": "en_toeic_reading_047",
+      "question": "Which sentence best completes the text?\n'The customer complained about the product...'\n(A) ...and the company offered a replacement.\n(B) ...but the warranty did not cover it.\n(C) ...so the customer demanded a refund immediately.\n(D) ...because it did not meet specifications.",
+      "choices": [
+        "and the company offered a replacement",
+        "but the warranty did not cover it",
+        "so the customer demanded a refund immediately",
+        "because it did not meet specifications"
+      ],
+      "answer": 0,
+      "explanation": "Option A provides a logical sequence of cause and effect, creating a coherent narrative."
+    },
+    {
+      "id": "en_toeic_reading_048",
+      "question": "The financial director _____ concern about the quarterly projections and requested updated forecasts.",
+      "choices": [
+        "expressed",
+        "expressing",
+        "expresses",
+        "will express"
+      ],
+      "answer": 0,
+      "explanation": "The past tense 'expressed' corresponds with the implied past action of requesting updated forecasts."
+    },
+    {
+      "id": "en_toeic_reading_049",
+      "question": "CLOZE TEST: Supply the missing words.\n'The company _____ a series of workshops to help employees _____ their technical skills.'\n(A) hosted/develop\n(B) hosts/developing\n(C) has hosted/develop\n(D) hosted/developing",
+      "choices": [
+        "hosted/develop",
+        "hosts/developing",
+        "has hosted/develop",
+        "hosted/developing"
+      ],
+      "answer": 2,
+      "explanation": "'Has hosted' (present perfect) indicates a recent completed action, and 'develop' (infinitive form) is parallel after the verb 'help'."
+    },
+    {
+      "id": "en_toeic_reading_050",
+      "question": "_____ the challenges faced during implementation, the project team remained committed to meeting the deadline.",
+      "choices": [
+        "Despite of",
+        "In spite",
+        "Though",
+        "Despite"
+      ],
+      "answer": 3,
+      "explanation": "'Despite' is the correct form here. 'Despite of' is not standard; 'in spite' must be followed by 'of'; 'though' can work but 'despite' is more precise."
+    }
+  ]
+}

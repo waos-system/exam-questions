@@ -1,0 +1,757 @@
+{
+  "genre": "Integrated Writing - TOEFL iBT",
+  "exam": "TOEFL",
+  "section": "Writing",
+  "questions": [
+    {
+      "id": "en_toefl_writing_001",
+      "question": "Summarize the reading passage and explain how the lecture contradicts or extends the information presented in the reading.",
+      "type": "Integrated",
+      "materials": "Reading: Article on climate change mitigation strategies; Lecture: Case study of renewable energy implementation challenges",
+      "wordCount": 150,
+      "choices": [
+        "The lecture extends the reading by providing specific implementation examples and challenges not mentioned in the general overview",
+        "The lecture and reading are completely unrelated",
+        "No differences exist between the reading and lecture",
+        "The lecture contradicts all points in the reading"
+      ],
+      "answer": 0,
+      "explanation": "Integrated writing requires synthesis of multiple sources. Strong responses summarize reading, identify lecture information, and explain relationship between sources. Answer 0 represents typical TOEFL relationship: extension with additional detail."
+    },
+    {
+      "id": "en_toefl_writing_002",
+      "question": "Write an essay explaining your position on the debate presented in the reading and lecture. Support your argument with evidence.",
+      "type": "Independent",
+      "topic": "Debate: Should governments prioritize economic growth or environmental protection?",
+      "wordCount": 300,
+      "choices": [
+        "Strong position with evidence-based support and counterargument acknowledgment",
+        "No position is necessary",
+        "Opinions cannot be supported with evidence",
+        "The debate is unimportant"
+      ],
+      "answer": 0,
+      "explanation": "Independent essays require clear thesis, supporting evidence, and logical organization. Evaluation considers argument strength, evidence quality, counterargument handling, and coherence."
+    },
+    {
+      "id": "en_toefl_writing_003",
+      "question": "The reading discusses urban planning principles, and the lecture presents a case study of their application. Explain how the principles are applied in the case study.",
+      "type": "Integrated",
+      "materials": "Reading: Summary of sustainable urban design; Lecture: City redesign project example",
+      "wordCount": 150,
+      "choices": [
+        "Identify reading principles and explain application in lecture example",
+        "The case study doesn't apply the principles",
+        "Principles and practice are unrelated",
+        "No application is attempted"
+      ],
+      "answer": 0,
+      "explanation": "Application synthesis task requires understanding general principles and identifying their specific instantiation in examples."
+    },
+    {
+      "id": "en_toefl_writing_004",
+      "question": "Write about a significant experience that changed your perspective or beliefs. Explain what you learned and how it has influenced you.",
+      "type": "Independent",
+      "topic": "Personal narrative about transformative experience",
+      "wordCount": 300,
+      "choices": [
+        "Present vivid experience description with clear learning and present-day influence explanation",
+        "Experiences have no influence on people",
+        "Perspective change is impossible",
+        "Learning explanations are unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Personal narrative essays should include specific details, clear cause-effect between experience and learning, and reflection on ongoing influence."
+    },
+    {
+      "id": "en_toefl_writing_005",
+      "question": "Summarize the main points from the reading and lecture, then explain how they address different aspects of the same issue.",
+      "type": "Integrated",
+      "materials": "Reading: Government policy perspective on health care; Lecture: Healthcare provider implementation challenges",
+      "wordCount": 150,
+      "choices": [
+        "Summarize both sources and explain how each addresses different components of the health care system",
+        "Both sources present identical information",
+        "The sources contradict each other entirely",
+        "Different aspects are irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Complementary information synthesis requires identifying distinct contributions from each source to understanding a multifaceted issue."
+    },
+    {
+      "id": "en_toefl_writing_006",
+      "question": "Do you agree that technology makes human relationships stronger or weaker? Write an essay supporting your position.",
+      "type": "Independent",
+      "topic": "Technology's impact on human relationships",
+      "wordCount": 300,
+      "choices": [
+        "Take clear position with evidence and address counterarguments logically",
+        "Both positions are equally valid without analysis",
+        "Technology has no effect on relationships",
+        "Position-taking is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Argumentative essays require clear thesis, supporting evidence with examples, acknowledgment of opposing views, and persuasive reasoning."
+    },
+    {
+      "id": "en_toefl_writing_007",
+      "question": "The reading presents theories about memory formation, and the lecture provides experimental evidence. Explain how the experiment supports or challenges the theories.",
+      "type": "Integrated",
+      "materials": "Reading: Cognitive psychology theories of memory; Lecture: Research findings on memory consolidation",
+      "wordCount": 150,
+      "choices": [
+        "Identify theories and explain how experimental evidence supports or challenges each theory",
+        "Theory and evidence are unrelated",
+        "No challenge or support is possible",
+        "Experiments don't test theories"
+      ],
+      "answer": 0,
+      "explanation": "Theory-evidence relationship writing requires understanding theoretical framework and evaluating whether empirical findings confirm, refute, or modify predictions."
+    },
+    {
+      "id": "en_toefl_writing_008",
+      "question": "Write an essay about an important goal you have set for yourself. Explain why this goal is important and what you plan to do to achieve it.",
+      "type": "Independent",
+      "topic": "Personal goal-setting and achievement planning",
+      "wordCount": 300,
+      "choices": [
+        "Clear goal with well-reasoned importance explanation and realistic action plan",
+        "Goals are unimportant",
+        "Planning is unnecessary",
+        "Goal selection is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Goal-oriented essays should clearly articulate the goal, explain its significance through context, and present logical steps toward achievement."
+    },
+    {
+      "id": "en_toefl_writing_009",
+      "question": "The reading presents statistics about educational attainment and employment, while the lecture provides context about behind-statistics. Explain this relationship.",
+      "type": "Integrated",
+      "materials": "Reading: Educational statistics and employment correlations; Lecture: Social barriers and educational access",
+      "wordCount": 150,
+      "choices": [
+        "Identify statistics and explain contextual factors the lecture reveals about interpreting aggregate data",
+        "Statistics and context are unrelated",
+        "No interpretation is necessary",
+        "Context doesn't matter"
+      ],
+      "answer": 0,
+      "explanation": "Data interpretation task requires connecting statistics to underlying social realities and understanding limitations of aggregate information."
+    },
+    {
+      "id": "en_toefl_writing_010",
+      "question": "Some argue that universities should focus on practical job training; others maintain they should emphasize critical thinking and broad knowledge. Which view aligns better with your beliefs? Write an essay explaining your position.",
+      "type": "Independent",
+      "topic": "Purpose of university education debate",
+      "wordCount": 300,
+      "choices": [
+        "Take defensible position with nuanced argument and both-sides acknowledgment",
+        "One position is obviously correct without analysis",
+        "No position differentiation is possible",
+        "The debate is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Educational philosophy essays should articulate position thoughtfully, acknowledge legitimate concerns of both perspectives, and argue for integrated approaches when appropriate."
+    },
+    {
+      "id": "en_toefl_writing_011",
+      "question": "The reading outlines a proposed policy, and the lecture discusses community responses. Summarize both perspectives and evaluate the policy's likely effectiveness.",
+      "type": "Integrated",
+      "materials": "Reading: Education technology integration policy; Lecture: Teacher and student implementation concerns",
+      "wordCount": 150,
+      "choices": [
+        "Summarize policy and concerns, then evaluate effectiveness probability considering stated obstacles",
+        "All policies are equally effective",
+        "Implementation concerns don't matter",
+        "Effectiveness cannot be evaluated"
+      ],
+      "answer": 0,
+      "explanation": "Policy evaluation writing requires understanding proposed change, identifying implementation challenges, and forming judgments about practical outcomes."
+    },
+    {
+      "id": "en_toefl_writing_012",
+      "question": "Describe and analyze a problem in your community or society. Propose solutions and discuss their feasibility.",
+      "type": "Independent",
+      "topic": "Problem analysis and solution proposal",
+      "wordCount": 300,
+      "choices": [
+        "Clearly present problem, explain why it matters, propose realistic solutions, and discuss implementation feasibility",
+        "Problems are unchangeable",
+        "Solutions don't exist",
+        "Feasibility analysis is unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Problem-solving essays should present issue clearly, explain its significance and causes, propose thoughtfully developed solutions, and realistically assess implementation challenges."
+    },
+    {
+      "id": "en_toefl_writing_013",
+      "question": "The reading discusses a historical events causes, and the lecture presents additional interpretation. Explain how the lecture enriches understanding of the event.",
+      "type": "Integrated",
+      "materials": "Reading: Historical event overview; Lecture: Alternative interpretations of causation",
+      "wordCount": 150,
+      "choices": [
+        "Identify reading interpretation and explain how lecture adds complexity or alternative viewpoints",
+        "Only one historical interpretation exists",
+        "Alternative views are invalid",
+        "Enrichment is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Historical interpretation synthesis recognizes that multiple valid perspectives exist on complex events and later scholarship may revise or complicate earlier understandings."
+    },
+    {
+      "id": "en_toefl_writing_014",
+      "question": "Write an essay about the influence of a person who has significantly impacted your life. Explain who they are and why they are important to you.",
+      "type": "Independent",
+      "topic": "Important person's influence on your life",
+      "wordCount": 300,
+      "choices": [
+        "Present person clearly with specific examples of their influence and reflection on your changed perspective or behavior",
+        "People don't influence each other",
+        "Specific examples are unnecessary",
+        "Influence is impossible to explain"
+      ],
+      "answer": 0,
+      "explanation": "Influence narrative essays should present the person through concrete examples, explain their specific impacts, and demonstrate thoughtful reflection on reciprocal relationship."
+    },
+    {
+      "id": "en_toefl_writing_015",
+      "question": "The reading presents economic theory, and the lecture discusses recent economic trends. Explain whether the trends support the theory or suggest it needs revision.",
+      "type": "Integrated",
+      "materials": "Reading: Economic forecasting models; Lecture: Recent market data and exceptions",
+      "wordCount": 150,
+      "choices": [
+        "Present theory, identify relevant data, and analyze agreement or discord between prediction and actual outcomes",
+        "Theory and data are never related",
+        "Theories don't require testing",
+        "Revision is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Theory-testing synthesis requires understanding theoretical predictions, comparing them to empirical observations, and assessing validity maintenance or need for modification."
+    },
+    {
+      "id": "en_toefl_writing_016",
+      "question": "Many people make different choices at different life stages. Write an essay discussing how your priorities or goals might change as you move through life.",
+      "type": "Independent",
+      "topic": "Evolution of priorities and goals across life stages",
+      "wordCount": 300,
+      "choices": [
+        "Present thoughtful reflection on how different life stages bring different priorities and explain underlying reasons",
+        "Priorities never change",
+        "Life stages are irrelevant",
+        "Change is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Lifecycle reflection essays should recognize developmental stages, explain how circumstances and perspectives evolve, and demonstrate nuanced understanding of human growth."
+    },
+    {
+      "id": "en_toefl_writing_017",
+      "question": "The reading examines environmental effects of a technology, and the lecture presents company perspectives on benefits. Synthesize these viewpoints.",
+      "type": "Integrated",
+      "materials": "Reading: Environmental impact study; Lecture: Industry response and safety records",
+      "wordCount": 150,
+      "choices": [
+        "Present both perspectives and discuss tensions between environmental concerns and claimed benefits",
+        "No competing perspectives exist",
+        "Synthesis is impossible",
+        "Both sides are equally wrong"
+      ],
+      "answer": 0,
+      "explanation": "Perspective synthesis requires fair representation of different stakeholder viewpoints, identification of areas of agreement and conflict, and thoughtful integration."
+    },
+    {
+      "id": "en_toefl_writing_018",
+      "question": "Do you think countries should invest more heavily in space exploration, or should these resources be directed toward solving problems on Earth? Write a persuasive essay supporting your position.",
+      "type": "Independent",
+      "topic": "Space exploration vs. earthbound problem-solving allocation debate",
+      "wordCount": 300,
+      "choices": [
+        "Present position with evidence-based argument and thoughtful counterargument engagement",
+        "The choice is obvious without analysis",
+        "Both positions are equally unconvincing",
+        "The debate is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Allocation debate essays should present the chosen position persuasively, acknowledge legitimate value in the alternative, and discuss trade-off implications thoughtfully."
+    },
+    {
+      "id": "en_toefl_writing_019",
+      "question": "The reading reviews research on the effectiveness of an educational method, and the lecture discusses implementation variations. Explain how variations might affect outcomes.",
+      "type": "Integrated",
+      "materials": "Reading: Meta-analysis of teaching technique effectiveness; Lecture: How different implementations vary",
+      "wordCount": 150,
+      "choices": [
+        "Present findings, describe variations, and discuss how differences in execution might alter effectiveness",
+        "Variations don't matter",
+        "Implementation is irrelevant",
+        "Outcomes are predetermined"
+      ],
+      "answer": 0,
+      "explanation": "Research application synthesis recognizes that laboratory findings may vary in field settings depending on contextual variation and implementation fidelity."
+    },
+    {
+      "id": "en_toefl_writing_020",
+      "question": "Write about something you have learned outside the classroom that has been valuable to you. Explain what you learned and how it has been useful.",
+      "type": "Independent",
+      "topic": "Informal learning experience and its utility",
+      "wordCount": 300,
+      "choices": [
+        "Present learning experience clearly with specific examples of how knowledge or skills are applied practically",
+        "Out-of-class learning has no value",
+        "Formal education is the only legitimate learning",
+        "Usefulness is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Informal learning essays should present learning context vividly, explain the knowledge/skill gained, and demonstrate practical applications or value in genuine situations."
+    },
+    {
+      "id": "en_toefl_writing_021",
+      "question": "The reading presents sociological research on cultural practices, and the lecture provides personal accounts from community members. Explain how personal narratives illustrate or complicate the research.",
+      "type": "Integrated",
+      "materials": "Reading: Sociological study of holiday traditions; Lecture: Individual and family variations in practice",
+      "wordCount": 150,
+      "choices": [
+        "Present research findings and explain how individual variations complicate generalizations",
+        "All individuals follow patterns identically",
+        "Research and lived experience are unrelated",
+        "Complications don't exist"
+      ],
+      "answer": 0,
+      "explanation": "Research-narrative synthesis recognizes that aggregate findings provide patterns while individual cases reveal variation, context-dependence, and exceptions to generalizations."
+    },
+    {
+      "id": "en_toefl_writing_022",
+      "question": "Some believe cultural globalization strengthens human connection; others contend it erodes local traditions. Write an essay explaining your perspective.",
+      "type": "Independent",
+      "topic": "Cultural globalization debate: connection vs. tradition preservation",
+      "wordCount": 300,
+      "choices": [
+        "Present nuanced position acknowledging both connection gains and tradition-loss concerns",
+        "One position is entirely correct",
+        "No middle ground exists",
+        "The debate is trivial"
+      ],
+      "answer": 0,
+      "explanation": "Globalization essays should recognize real tensions (increased access alongside cultural homogenization risks) and present thoughtful position acknowledging legitimate concerns on both sides."
+    },
+    {
+      "id": "en_toefl_writing_023",
+      "question": "The reading discusses a health care approach's theoretical basis, and the lecture presents patient outcomes data. Evaluate the approach's success based on available evidence.",
+      "type": "Integrated",
+      "materials": "Reading: Health care intervention design rationale; Lecture: Implementation and patient outcome results",
+      "wordCount": 150,
+      "choices": [
+        "Present approach, describe outcomes, and assess success degree considering theory and results",
+        "Theory and outcomes are unrelated",
+        "Success cannot be evaluated",
+        "All approaches are equally effective"
+      ],
+      "answer": 0,
+      "explanation": "Evidence-based evaluation writing requires understanding intervention logic, examining actual outcomes, comparing expectation and results, and reaching evidence-based conclusions."
+    },
+    {
+      "id": "en_toefl_writing_024",
+      "question": "Write an essay about a challenge you have overcome and what the experience taught you about yourself.",
+      "type": "Independent",
+      "topic": "Challenge overcoming and self-knowledge gained",
+      "wordCount": 300,
+      "choices": [
+        "Present challenge vividly, describe overcome process, and articulate clear self-insights gained",
+        "Challenges are insurmountable",
+        "Overcoming teaches nothing",
+        "Self-knowledge is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Challenge narratives should present obstacles clearly, describe problem-solving approaches, and reflect thoughtfully on how facing difficulty revealed personal capabilities or values."
+    },
+    {
+      "id": "en_toefl_writing_025",
+      "question": "The reading examines political philosophy concepts, and the lecture applies them to contemporary governance. Explain the applications and their implications.",
+      "type": "Integrated",
+      "materials": "Reading: Political philosophy on representation; Lecture: Modern democratic system applications",
+      "wordCount": 150,
+      "choices": [
+        "Identify concepts and explain contemporary applications with resulting governance implications",
+        "Philosophy is irrelevant to practice",
+        "Applications are impossible",
+        "Implications don't matter"
+      ],
+      "answer": 0,
+      "explanation": "Theory-application analysis connects abstract concepts to concrete instantiations and discusses practical consequences of theoretical frameworks in actual systems."
+    },
+    {
+      "id": "en_toefl_writing_026",
+      "question": "Do you believe that success in life is primarily determined by talent, effort, or circumstances? Write an essay explaining your perspective with supporting evidence.",
+      "type": "Independent",
+      "topic": "Success determinants: talent vs. effort vs. circumstances",
+      "wordCount": 300,
+      "choices": [
+        "Present multifactorial analysis with realistic acknowledgment of all three components' roles",
+        "Only one factor matters",
+        "Success is random",
+        "Determining success factors is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Success causation essays should recognize that achievement results from talent, hard work, and circumstantial factors in complex interaction rather than single determinants."
+    },
+    {
+      "id": "en_toefl_writing_027",
+      "question": "The reading reviews psychological literature on motivation, and the lecture presents a workplace case study. Explain how the case illustrates or challenges the theory.",
+      "type": "Integrated",
+      "materials": "Reading: Motivation theory in organizational psychology; Lecture: Employee motivation real-world example",
+      "wordCount": 150,
+      "choices": [
+        "Present theory, describe case, and analyze alignment between predicted and observed motivation patterns",
+        "Theory and practice never align",
+        "Cases don't illustrate theory",
+        "Challenge is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Theory-case analysis examines whether real-world examples support theoretical predictions and highlights contexts where theory may require refinement or alternative explanations."
+    },
+    {
+      "id": "en_toefl_writing_028",
+      "question": "Write about a topic you are passionate about and explain why it matters. What makes this subject important to you personally?",
+      "type": "Independent",
+      "topic": "Personal passion and its significance",
+      "wordCount": 300,
+      "choices": [
+        "Present topic passionately with personal connection explanation and importance articulation",
+        "Passion is irrelevant",
+        "Topics have no inherent importance",
+        "Personal connection is unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Passion-motivated essays should convey genuine interest through concrete details, explain personal connection clearly, and articulate what makes the topic meaningful."
+    },
+    {
+      "id": "en_toefl_writing_029",
+      "question": "The reading discusses technological innovation's development, and the lecture examines unintended social consequences. Synthesize these perspectives on technology's societal role.",
+      "type": "Integrated",
+      "materials": "Reading: Technology development and intended benefits; Lecture: Unforeseen social impacts and cultural changes",
+      "wordCount": 150,
+      "choices": [
+        "Present development narrative and discuss gap between intended benefits and actual societal impacts",
+        "Technology has only intended effects",
+        "Consequences are always predictable",
+        "Unintended impacts don't occur"
+      ],
+      "answer": 0,
+      "explanation": "Technology synthesis recognizes innovation complexity: stated purposes often diverge from actual societal outcomes as adoption occurs in complex cultural contexts."
+    },
+    {
+      "id": "en_toefl_writing_030",
+      "question": "Some argue that public education should emphasize standardized testing and measurable outcomes: others prioritize student well-being and diverse development. Discuss both approaches and your perspective.",
+      "type": "Independent",
+      "topic": "Educational approach comparison: standardization vs. holistic development",
+      "wordCount": 300,
+      "choices": [
+        "Present both approaches' logic, discuss tensions, and present position acknowledging tradeoffs",
+        "One approach is obviously correct",
+        "Both are equally flawed",
+        "The comparison is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Educational philosophy essays should fairly present standardization rationales (accountability, empirical measurement) and holistic approach values (whole-child development) while identifying genuine tensions."
+    },
+    {
+      "id": "en_toefl_writing_031",
+      "question": "The reading presents a historical period's literary movements, and the lecture discusses social conditions that influenced writers. Explain how history shaped literature.",
+      "type": "Integrated",
+      "materials": "Reading: Literary movement characteristics; Lecture: Historical events and social change context",
+      "wordCount": 150,
+      "choices": [
+        "Identify movements and explain how historical conditions influenced literary themes, forms, and cultural expression",
+        "History and literature are unrelated",
+        "Literature creates history",
+        "Influence is unexplainable"
+      ],
+      "answer": 0,
+      "explanation": "Literature-history synthesis recognizes reciprocal relationships: historical circumstances shape literary concerns while literary works reflect and contribute to cultural understanding."
+    },
+    {
+      "id": "en_toefl_writing_032",
+      "question": "Write about how you define success. Is success primarily about money, personal fulfillment, helping others, or something else? Explain your definition.",
+      "type": "Independent",
+      "topic": "Personal definition of success",
+      "wordCount": 300,
+      "choices": [
+        "Present comprehensive definition explaining components and priorities with personal examples",
+        "Success is indefinable",
+        "Money is the only success measure",
+        "Definitions are subjective and unimportant"
+      ],
+      "answer": 0,
+      "explanation": "Success definition essays should articulate thoughtful personal criteria, explain their importance, distinguish from societal default definitions, and provide illustrative examples."
+    },
+    {
+      "id": "en_toefl_writing_033",
+      "question": "The reading reviews neuroscience findings on brain plasticity, and the lecture discusses educational implications. Explain how neuroscience knowledge could improve learning approaches.",
+      "type": "Integrated",
+      "materials": "Reading: Neuroplasticity research findings; Lecture: Implications for teaching and practice",
+      "wordCount": 150,
+      "choices": [
+        "Present findings and explain how brain plasticity evidence suggests improved learning method possibilities",
+        "Neuroscience is irrelevant to education",
+        "Brain plasticity has no implications",
+        "Learning methods are unchangeable"
+      ],
+      "answer": 0,
+      "explanation": "Science-application synthesis connects research findings to practical implementations and explains mechanistic links between understanding and improved practice."
+    },
+    {
+      "id": "en_toefl_writing_034",
+      "question": "Write an essay about an ethical dilemma you have faced or observed. Explain the complexity of the situation and what you believe was the right approach.",
+      "type": "Independent",
+      "topic": "Ethical dilemma analysis and moral reasoning",
+      "wordCount": 300,
+      "choices": [
+        "Present dilemma complexity clearly, explain competing values at stake, and articulate ethical reasoning for your position",
+        "Ethical dilemmas are simple",
+        "Right answers are obvious",
+        "Moral reasoning is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Ethics essays should present genuine moral tension, acknowledge legitimate concerns on multiple sides, explain your reasoning thoroughly, and avoid overstating certainty."
+    },
+    {
+      "id": "en_toefl_writing_035",
+      "question": "The reading presents economic data on inequality growth, and the lecture discusses policy responses. Evaluate the proposed policies' adequacy in addressing the problem.",
+      "type": "Integrated",
+      "materials": "Reading: Inequality statistics and trend analysis; Lecture: Policy proposals and debate",
+      "wordCount": 150,
+      "choices": [
+        "Present problem scale and evaluate whether proposed responses adequately address identified causes",
+        "Data doesn't indicate problems",
+        "Policy evaluation is impossible",
+        "All proposed policies are equally effective"
+      ],
+      "answer": 0,
+      "explanation": "Policy evaluation requires understanding problem magnitude, assessing responses proportionality, identifying potential unintended consequences, and considering implementation feasibility."
+    },
+    {
+      "id": "en_toefl_writing_036",
+      "question": "Do you believe that individuals have more responsibility for social problems than governments and institutions? Write an essay supporting your position.",
+      "type": "Independent",
+      "topic": "Individual vs. institutional responsibility for social problems",
+      "wordCount": 300,
+      "choices": [
+        "Present nuanced position recognizing both individual agency and systemic factors in social issues",
+        "Individuals are entirely responsible",
+        "Individuals have no responsibility",
+        "Responsibility is undistributable"
+      ],
+      "answer": 0,
+      "explanation": "Responsibility essays should avoid determinism (either pure individual blame or pure victimization) and recognize agency-structure interactions and reasonable disagreement on emphasis."
+    },
+    {
+      "id": "en_toefl_writing_037",
+      "question": "The reading examines socialization processes during childhood, and the lecture presents cross-cultural variations. Discuss universal vs. culturally specific development aspects.",
+      "type": "Integrated",
+      "materials": "Reading: Child development socialization; Lecture: Cultural variations in parenting and values transmission",
+      "wordCount": 150,
+      "choices": [
+        "Identify universal aspects and explain how cultural context shapes development expressions differently",
+        "All development is universal",
+        "Culture is irrelevant to development",
+        "Variations are incompatible with universals"
+      ],
+      "answer": 0,
+      "explanation": "Cross-cultural development analysis recognizes that underlying developmental processes (attachment, language acquisition, socialization) operate across cultures while expressing through culturally specific forms."
+    },
+    {
+      "id": "en_toefl_writing_038",
+      "question": "Write about how you have changed or grown during your academic career. What experiences contributed most to your development?",
+      "type": "Independent",
+      "topic": "Academic growth and transformative experiences",
+      "wordCount": 300,
+      "choices": [
+        "Present genuine growth narrative with specific experiences and clear explanation of their developmental impact",
+        "People don't change",
+        "Growth is unmeasurable",
+        "Academic experiences don't transform people"
+      ],
+      "answer": 0,
+      "explanation": "Growth narratives should identify specific changes (perspective shifts, capability development, value evolution), connect them to identifiable experiences, and demonstrate self-reflection."
+    },
+    {
+      "id": "en_toefl_writing_039",
+      "question": "The reading discusses urban ecology research on biodiversity, and the lecture presents green infrastructure examples. Explain how design can support ecological goals.",
+      "type": "Integrated",
+      "materials": "Reading: Urban ecosystem and biodiversity research; Lecture: Green space and sustainable infrastructure design",
+      "wordCount": 150,
+      "choices": [
+        "Present ecological needs and explain how design features address biodiversity and habitat preservation goals",
+        "Urban areas cannot support ecology",
+        "Design is irrelevant to ecosystems",
+        "Goals are impossible to meet"
+      ],
+      "answer": 0,
+      "explanation": "Applied ecology synthesis connects scientific understanding to design practice and explains mechanistic relationships between design choices and ecological outcomes."
+    },
+    {
+      "id": "en_toefl_writing_040",
+      "question": "Some people believe their talents and abilities are fixed; others believe they can be developed through effort. Which view better aligns with reality? Write a persuasive essay.",
+      "type": "Independent",
+      "topic": "Fixed vs. growth mindset debate",
+      "wordCount": 300,
+      "choices": [
+        "Present growth mindset perspective with evidence while acknowledging natural variation and legitimate constraints",
+        "Fixed mindset position is clearly correct",
+        "Mindset doesn't affect achievement",
+        "No evidence supports either position"
+      ],
+      "answer": 0,
+      "explanation": "Mindset essays should present growth mindset benefits while acknowledging genuine natural differences and reasonable disagreement on effort-to-capability ratios across domains."
+    },
+    {
+      "id": "en_toefl_writing_041",
+      "question": "The reading analysis a company's corporate social responsibility program, and the lecture reveals implementation gaps. Compare intentions and practices.",
+      "type": "Integrated",
+      "materials": "Reading: CSR program description and stated goals; Lecture: Employee accounts of implementation challenges",
+      "wordCount": 150,
+      "choices": [
+        "Present goals and identify implementation challenges that prevent full intention realization",
+        "Intentions and practices always align",
+        "Implementation gaps don't occur",
+        "Comparison is unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Intention-practice gap analysis recognizes that even well-intentioned programs often face resource, cultural, or structural barriers to full implementation as designed."
+    },
+    {
+      "id": "en_toefl_writing_042",
+      "question": "Write an essay discussing what role family plays in shaping who you are. How have family circumstances, values, and relationships influenced your development?",
+      "type": "Independent",
+      "topic": "Family influence on identity and development",
+      "wordCount": 300,
+      "choices": [
+        "Discuss family circumstances, transmitted values, and relationships with their developmental impacts clearly",
+        "Family has no influence",
+        "Identity is self-determined alone",
+        "Family circumstances are unimportant"
+      ],
+      "answer": 0,
+      "explanation": "Family narrative essays should discuss specific family characteristics (structure, values, economic circumstances) and explain causal pathways through which they shaped perspectives."
+    },
+    {
+      "id": "en_toefl_writing_043",
+      "question": "The reading presents evolutionary psychology perspectives on human behavior, and the lecture discusses cultural variation in the same behaviors. Explain nature-nurture interaction.",
+      "type": "Integrated",
+      "materials": "Reading: Evolutionary explanations for behavioral tendencies; Lecture: Cultural expressions of behavior and values",
+      "wordCount": 150,
+      "choices": [
+        "Present evolutionary basis while explaining how culture shapes expression and meaning of behaviors",
+        "Evolution explains all human behavior",
+        "Culture is irrelevant to nature",
+        "Nature-nurture interaction is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Nature-nurture synthesis recognizes that behavior often reflects interaction: evolutionary tendencies provide predispositions that culture patterns, expresses, and sometimes constrains."
+    },
+    {
+      "id": "en_toefl_writing_044",
+      "question": "Do you believe that censorship of harmful content (violence, hate speech) is justified, or does it threaten free expression? Write an essay explaining your perspective.",
+      "type": "Independent",
+      "topic": "Free expression vs. harm prevention in content moderation",
+      "wordCount": 300,
+      "choices": [
+        "Present thoughtful position acknowledging genuine tensions between expression freedoms and protection from harm",
+        "One position is obviously correct",
+        "The tension can be easily resolved",
+        "The dilemma is irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Free speech essays should acknowledge legitimate values on both sides (expression freedom, protection from harassment and incitement) and discuss reasonable disagreement on boundaries."
+    },
+    {
+      "id": "en_toefl_writing_045",
+      "question": "The reading examines historical economic systems, and the lecture discusses their environmental impacts. Analyze relationships between economic organization and ecological sustainability.",
+      "type": "Integrated",
+      "materials": "Reading: Economic system descriptions; Lecture: Resource extraction and environmental consequences",
+      "wordCount": 150,
+      "choices": [
+        "Explain how economic system organization creates different environmental pressures and sustainability prospects",
+        "Economic systems don't affect environment",
+        "All systems impact environment identically",
+        "Sustainability is economically irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "System-ecology analysis examines how different economic incentives and mechanisms create varying environmental stresses and sustainable possibilities."
+    },
+    {
+      "id": "en_toefl_writing_046",
+      "question": "Write about a skill or knowledge you wish you had developed more fully. Why do you wish you had pursued it, and is it too late to start?",
+      "type": "Independent",
+      "topic": "Unfulfilled learning and future development possibilities",
+      "wordCount": 300,
+      "choices": [
+        "Present skill clearly, explain motivation for wishing development, discuss realistic starting opportunities",
+        "Developing new skills is impossible",
+        "Motivation is irrelevant",
+        "Starting new learning is always too late"
+      ],
+      "answer": 0,
+      "explanation": "Skill retrospective essays should honestly reflect on lost opportunities while maintaining realistic hope about future possibilities and providing actionable next steps."
+    },
+    {
+      "id": "en_toefl_writing_047",
+      "question": "The reading reviews medical research on a health condition, and the lecture discusses disparities in diagnosis and treatment. Explain how social factors complicate health outcomes.",
+      "type": "Integrated",
+      "materials": "Reading: Medical research on disease mechanisms; Lecture: Healthcare access and provider bias",
+      "wordCount": 150,
+      "choices": [
+        "Present medical understanding while explaining how social inequality affects who receives care and outcomes",
+        "Medicine is independent of social context",
+        "Health disparities don't exist",
+        "Social factors are irrelevant to outcomes"
+      ],
+      "answer": 0,
+      "explanation": "Health equity analysis recognizes that biological understanding of disease only partially explains outcomes; access, discrimination, and socioeconomic factors fundamentally shape health."
+    },
+    {
+      "id": "en_toefl_writing_048",
+      "question": "Some believe that helping others is primarily a moral obligation; others see it as a personal choice. What is your perspective on responsibility to help those in need?",
+      "type": "Independent",
+      "topic": "Moral obligation vs. individual choice in helping others",
+      "wordCount": 300,
+      "choices": [
+        "Present nuanced position on moral claims and personal autonomy in helping contexts",
+        "Helping is purely obligatory",
+        "Helping is purely voluntary",
+        "The question irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Moral obligation essays should engage seriously with genuine tension between universal moral claims and individual autonomy/capacity, acknowledging practical constraints on obligation."
+    },
+    {
+      "id": "en_toefl_writing_049",
+      "question": "The reading discusses gender socialization in education, and the lecture presents research on stereotype threat. Explain psychological mechanisms through which stereotypes affect performance.",
+      "type": "Integrated",
+      "materials": "Reading: Gender and academic achievement; Lecture: Stereotype threat research and interventions",
+      "wordCount": 150,
+      "choices": [
+        "Explain how stereotypes create cognitive and emotional burden that impairs performance and how intervention reduces this burden",
+        "Stereotypes have no psychological effect",
+        "Performance is entirely independent of environment",
+        "Threat effects are impossible"
+      ],
+      "answer": 0,
+      "explanation": "Psychological mechanism synthesis explains how social stereotypes create performance impairment through explicit cognitive pathways and identifies potential intervention points."
+    },
+    {
+      "id": "en_toefl_writing_050",
+      "question": "Write a reflective essay about what you believe your role should be in society. What do you want to contribute, and how will you work toward that contribution?",
+      "type": "Independent",
+      "topic": "Personal role in society and contribution intention",
+      "wordCount": 300,
+      "choices": [
+        "Present thoughtful role conception with values-based justification and concrete paths toward contribution",
+        "Individual contribution is impossible",
+        "Personal role is irrelevant",
+        "Impact requires no action"
+      ],
+      "answer": 0,
+      "explanation": "Civic/personal purpose essays should articulate meaningful contribution vision grounded in personal values, acknowledge realistic constraints, and identify concrete steps toward realization."
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "genre": "Academic Reading - TOEFL iBT",
+  "exam": "TOEFL",
+  "section": "Reading",
+  "questions": [
+    {
+      "id": "en_toefl_reading_001",
+      "question": "According to the passage, which of the following best describes the primary advantage of photosynthesis in marine ecosystems?",
+      "choices": [
+        "It converts sunlight into chemical energy that sustains the entire marine food web",
+        "It eliminates carbon dioxide from the atmosphere more efficiently than terrestrial plants",
+        "It prevents algal blooms from forming in coastal waters",
+        "It produces oxygen that is only used by ocean mammals"
+      ],
+      "answer": 0,
+      "explanation": "Photosynthesis is fundamental to marine food webs as it converts solar energy into chemical energy (glucose) that feeds all trophic levels. While it does produce oxygen and remove CO2, the primary advantage emphasized in academic texts is its role in energy conversion for the entire ecosystem."
+    },
+    {
+      "id": "en_toefl_reading_002",
+      "question": "The word 'sustains' in the passage is closest in meaning to which of the following?",
+      "choices": [
+        "temporarily supports",
+        "maintains or keeps alive",
+        "prevents harm to",
+        "provides nutrients for growth"
+      ],
+      "answer": 1,
+      "explanation": "'Sustains' means to maintain something continuously over time. In context, it refers to keeping the food web alive and functioning. 'Maintains or keeps alive' captures this meaning most accurately."
+    },
+    {
+      "id": "en_toefl_reading_003",
+      "question": "Which of the following statements about the role of phytoplankton can be inferred from the passage?",
+      "choices": [
+        "Phytoplankton are more important to marine ecosystems than to freshwater ecosystems",
+        "Phytoplankton require more sunlight than terrestrial plants for photosynthesis",
+        "Phytoplankton form the base of marine food chains and produce much of Earth's oxygen",
+        "Phytoplankton can survive in complete darkness by consuming organic matter"
+      ],
+      "answer": 2,
+      "explanation": "TOEFL reading questions often ask about inferences. The passage likely discusses phytoplankton as primary producers, which means educators and scientists recognize them as foundational to marine food chains and significant oxygen producers, even if not explicitly stated."
+    },
+    {
+      "id": "en_toefl_reading_004",
+      "question": "The author mentions coral reef ecosystems primarily to",
+      "choices": [
+        "explain why underwater photosynthesis is superior to land-based photosynthesis",
+        "provide an example of a system where photosynthesis is dependent on water clarity",
+        "argue that coral reefs should be protected from human interference",
+        "demonstrate that marine photosynthesis occurs in multiple environments with varying depths"
+      ],
+      "answer": 3,
+      "explanation": "When authors mention specific examples like coral reefs in academic passages, it's usually to illustrate broader principles. Here, coral reefs exemplify how marine photosynthesis functions across different marine habitats."
+    },
+    {
+      "id": "en_toefl_reading_005",
+      "question": "The passage implies that the depth of water affects photosynthetic rates because",
+      "choices": [
+        "Deeper water contains more minerals that fuel photosynthesis",
+        "Light penetration decreases with water depth, limiting photosynthesis",
+        "Organisms at greater depths have adapted to require less oxygen",
+        "Temperature fluctuations at greater depths enhance photosynthetic efficiency"
+      ],
+      "answer": 1,
+      "explanation": "This is a typical TOEFL inference question. The scientific principle that light necessary for photosynthesis decreases with depth is implied in discussions of underwater photosynthesis."
+    },
+    {
+      "id": "en_toefl_reading_006",
+      "question": "Based on the passage, which of the following would most likely result in a decrease in marine photosynthetic activity?",
+      "choices": [
+        "Increased nutrient availability in ocean water",
+        "Extended periods of cloud cover reducing sunlight penetration",
+        "Migration of fish species to deeper ocean regions",
+        "Expansion of ocean currents carrying warm water"
+      ],
+      "answer": 1,
+      "explanation": "Since photosynthesis requires light, anything reducing light availability (like prolonged cloud cover) would decrease photosynthetic activity. This type of question asks students to apply cause-and-effect reasoning."
+    },
+    {
+      "id": "en_toefl_reading_007",
+      "question": "What is the main idea of the paragraph discussing nitrogen cycling in aquatic systems?",
+      "choices": [
+        "Nitrogen is the primary limiting nutrient in all aquatic ecosystems",
+        "Bacteria transform nitrogen compounds in cycles that are essential to aquatic life",
+        "Excess nitrogen leads to eutrophication, which is beneficial to aquatic biodiversity",
+        "Marine organisms cannot synthesize proteins without consuming nitrogen directly from water"
+      ],
+      "answer": 1,
+      "explanation": "Main idea questions require identifying the central concept. The main idea of passages on nutrient cycling is that specific elements (in this case nitrogen) cycle through various forms via biological and chemical processes."
+    },
+    {
+      "id": "en_toefl_reading_008",
+      "question": "According to the passage, human activities have contributed to ocean acidification primarily through",
+      "choices": [
+        "Industrial pollution releasing acidic compounds directly into oceans",
+        "The absorption of excess atmospheric carbon dioxide by ocean water",
+        "The destruction of limestone-based coral reefs",
+        "The introduction of acidic fertilizers used in coastal agriculture"
+      ],
+      "answer": 1,
+      "explanation": "This question tests factual understanding of a cause-and-effect relationship. CO2 dissolves in seawater forming carbonic acid, thus increasing ocean acidity. This is the primary mechanism of human-induced ocean acidification."
+    },
+    {
+      "id": "en_toefl_reading_009",
+      "question": "The passage suggests that biodiversity in ecosystems is important because",
+      "choices": [
+        "Diverse species provide more food sources for human consumption",
+        "More species means greater ecosystem stability and resilience to environmental changes",
+        "Biodiversity increases the amount of photosynthesis occurring in an ecosystem",
+        "Species diversity directly correlates with the size of ecosystems"
+      ],
+      "answer": 1,
+      "explanation": "A standard theme in ecology passages is that biodiversity increases ecosystem resilience. Multiple species performing similar ecological roles provides redundancy and stability."
+    },
+    {
+      "id": "en_toefl_reading_010",
+      "question": "Which of the following best explains why tropical rainforests contain more biodiversity than temperate forests?",
+      "choices": [
+        "Tropical regions have more sunlight, allowing faster plant growth",
+        "The warm, wet climate and stable conditions support prolonged evolution and speciation",
+        "Tropical rainforests occupy larger geographic areas than temperate forests",
+        "Animals in tropical regions have faster reproductive cycles than in temperate regions"
+      ],
+      "answer": 1,
+      "explanation": "TOEFL passages on biodiversity typically explain that stable environmental conditions over long periods allow for greater speciation and ecological complexity."
+    },
+    {
+      "id": "en_toefl_reading_011",
+      "question": "The author's tone regarding climate change in the passage can best be characterized as",
+      "choices": [
+        "optimistic about technological solutions",
+        "cautionary and emphasizing urgency",
+        "neutral and presenting only factual observations",
+        "skeptical of scientific consensus"
+      ],
+      "answer": 1,
+      "explanation": "Academic TOEFL passages on climate often use cautionary language while maintaining objectivity. The tone emphasizes the importance and urgency of the issue based on scientific evidence."
+    },
+    {
+      "id": "en_toefl_reading_012",
+      "question": "It can be inferred that the evolution of antibiotic resistance in bacteria occurs because",
+      "choices": [
+        "Bacteria produce antibiotics to defend against competing microorganisms",
+        "Antibiotics cause mutations in bacterial DNA that confer resistance",
+        "Natural selection favors bacteria that survive antibiotic exposure",
+        "Bacteria consciously adapt their genetic structure to resist antibiotics"
+      ],
+      "answer": 2,
+      "explanation": "This microbiology passage inferential question tests understanding of natural selection. Antibiotic use creates selective pressure that favors resistant bacteria, allowing them to proliferate."
+    },
+    {
+      "id": "en_toefl_reading_013",
+      "question": "The passage indicates that the study of meteorology has historical importance in",
+      "choices": [
+        "establishing the discipline of chemistry",
+        "developing agriculture and maritime navigation practices",
+        "creating the first weather prediction models",
+        "understanding extraterrestrial atmospheric conditions"
+      ],
+      "answer": 1,
+      "explanation": "Historical TOEFL passages often discuss how scientific knowledge developed in response to practical human needs. Meteorology advances were crucial for agriculture and seafaring."
+    },
+    {
+      "id": "en_toefl_reading_014",
+      "question": "According to the passage, what is the primary mechanism by which continental drift affects biodiversity?",
+      "choices": [
+        "It causes immediate extinction of species unable to migrate",
+        "It separates populations, leading to isolated evolution and speciation",
+        "It increases geological activity that triggers volcanic extinctions",
+        "It alters ocean currents exclusively"
+      ],
+      "answer": 1,
+      "explanation": "Plate tectonics passages explain that continental separation isolates populations, allowing independent evolutionary development and divergence into separate species (allopatric speciation)."
+    },
+    {
+      "id": "en_toefl_reading_015",
+      "question": "The word 'profoundly' in the context of technological impact most nearly means",
+      "choices": [
+        "slowly and gradually",
+        "in a deep and far-reaching manner",
+        "mysteriously and unpredictably",
+        "superficially and minimally"
+      ],
+      "answer": 1,
+      "explanation": "'Profoundly' means deeply and significantly. In technology passages, it refers to substantial, transformative effects rather than minor or superficial changes."
+    },
+    {
+      "id": "en_toefl_reading_016",
+      "question": "Which of the following would most likely be discussed in a continuation of this passage about renewable energy?",
+      "choices": [
+        "The history of fossil fuel discovery and exploitation",
+        "Technological innovations in solar panel efficiency and energy storage",
+        "Reasons why renewable energy is too expensive for developing nations",
+        "Political debates about energy regulation in different countries"
+      ],
+      "answer": 1,
+      "explanation": "TOEFL passages follow logical progression. A passage on renewable energy would naturally continue with technological developments and implementations, not historical background or political debates."
+    },
+    {
+      "id": "en_toefl_reading_017",
+      "question": "The passage suggests that the primary challenge in wildlife conservation is",
+      "choices": [
+        "tracking animal populations across international borders",
+        "balancing human economic needs with ecosystem preservation",
+        "developing technology to monitor endangered species",
+        "increasing funding for research institutions"
+      ],
+      "answer": 1,
+      "explanation": "Conservation passages typically identify the fundamental tension between human development and environmental protection as the core challenge."
+    },
+    {
+      "id": "en_toefl_reading_018",
+      "question": "According to the passage, urban heat islands develop primarily because of",
+      "choices": [
+        "Greenhouse gas emissions from vehicles and industry",
+        "Replacement of vegetation with heat-absorbing infrastructure and reduced air circulation",
+        "Changes in atmospheric water vapor concentrations",
+        "Increased solar radiation during urban development"
+      ],
+      "answer": 1,
+      "explanation": "Urban ecology passages explain that dark building materials and pavement absorb solar energy, and reduced vegetation and wind circulation prevent heat dissipation."
+    },
+    {
+      "id": "en_toefl_reading_019",
+      "question": "The phrase 'threshold of consciousness' as used in the passage most likely refers to",
+      "choices": [
+        "the moment when an organism is born and becomes aware",
+        "the minimum level of neural activity required for conscious experience",
+        "the evolutionary stage when intelligence first develops",
+        "the age at which animals develop self-awareness"
+      ],
+      "answer": 1,
+      "explanation": "In neuroscience passages, 'threshold' refers to minimum requirements or critical levels. This phrase indicates the baseline neural activity necessary for consciousness."
+    },
+    {
+      "id": "en_toefl_reading_020",
+      "question": "It can be inferred from the passage that the Coriolis effect would NOT significantly impact",
+      "choices": [
+        "Hurricane formation in tropical regions",
+        "Ocean current patterns in the Atlantic",
+        "Wind patterns in the stratosphere",
+        "Air movement in a small laboratory chamber"
+      ],
+      "answer": 3,
+      "explanation": "The Coriolis effect requires large-scale motion and sufficient spatial distances to manifest. Small-scale laboratory air movements wouldn't be significantly affected."
+    },
+    {
+      "id": "en_toefl_reading_021",
+      "question": "The passage implies that metamorphic rocks are formed when",
+      "choices": [
+        "Magma cools and solidifies beneath Earth's surface",
+        "Existing rocks are subjected to extreme heat and pressure deep within the Earth",
+        "Layers of sediment are compacted and cemented together",
+        "Weathered rock particles are transported and deposited in new locations"
+      ],
+      "answer": 1,
+      "explanation": "Geology passages define metamorphic rock formation as the process where existing rocks (protoliths) are transformed by heat and pressure in the Earth's crust."
+    },
+    {
+      "id": "en_toefl_reading_022",
+      "question": "Based on the passage, the domestication of plants by early civilizations was possible because",
+      "choices": [
+        "Humans had developed advanced agricultural technology",
+        "Plants with favorable traits could be selectively bred across generations",
+        "Wild plants were naturally suited to farming conditions",
+        "Early humans possessed scientific knowledge of genetics"
+      ],
+      "answer": 1,
+      "explanation": "Agricultural history passages explain that domestication occurred through artificial selection—humans chose plants with desirable characteristics and planted their seeds, accumulating beneficial traits."
+    },
+    {
+      "id": "en_toefl_reading_023",
+      "question": "The passage indicates that cultural diffusion in ancient trade networks primarily served to",
+      "choices": [
+        "prevent conflicts between different civilizations",
+        "facilitate the exchange of goods, ideas, and technologies between regions",
+        "establish political dominance of larger empires",
+        "create standardized languages across continents"
+      ],
+      "answer": 1,
+      "explanation": "History passages on trade routes describe how material goods, artistic styles, technological innovations, and ideas flowed between connected regions."
+    },
+    {
+      "id": "en_toefl_reading_024",
+      "question": "Which of the following most directly explains the housing shortage described in the passage?",
+      "choices": [
+        "Insufficient government funding for urban development",
+        "Demand for housing exceeding its availability and construction capacity",
+        "Restrictions on new residential construction in urban areas",
+        "Rising property values making housing unaffordable"
+      ],
+      "answer": 1,
+      "explanation": "Supply and demand economics: shortages fundamentally occur when demand exceeds supply. This is the most direct cause of housing shortages."
+    },
+    {
+      "id": "en_toefl_reading_025",
+      "question": "The author's reference to historical economic cycles serves to",
+      "choices": [
+        "prove that economic crises are inevitable and unpredictable",
+        "demonstrate that economic patterns repeat and that current circumstances have precedents",
+        "argue that modern economics is superior to historical systems",
+        "show that technological advancement prevents future economic problems"
+      ],
+      "answer": 1,
+      "explanation": "Academic writing uses historical examples to establish patterns and provide context. References to past cycles support the claim that similar patterns appear throughout history."
+    },
+    {
+      "id": "en_toefl_reading_026",
+      "question": "It can be inferred that the social structure described in the passage was primarily maintained through",
+      "choices": [
+        "democratic participation and equal representation",
+        "religious authority and a rigid class hierarchy",
+        "voluntary agreements between independent communities",
+        "military force deployed from a central government"
+      ],
+      "answer": 1,
+      "explanation": "Anthropology and history passages typically explain that pre-modern societies used religious authority and class systems to maintain social order, as these appear in multiple TOEFL passages."
+    },
+    {
+      "id": "en_toefl_reading_027",
+      "question": "The passage suggests that the decline of the Roman Empire resulted primarily from",
+      "choices": [
+        "A single military defeat that destroyed the empire overnight",
+        "Multiple interrelated factors including economic decline, military pressure, and political instability",
+        "The rise of Christianity as the official state religion",
+        "Technological stagnation compared to neighboring civilizations"
+      ],
+      "answer": 1,
+      "explanation": "Complex historical events like empire decline are presented in TOEFL passages as resulting from multiple interconnected causes rather than single events."
+    },
+    {
+      "id": "en_toefl_reading_028",
+      "question": "Based on the passage, the primary purpose of the study was to",
+      "choices": [
+        "refute previous research findings on the topic",
+        "examine the relationship between two variables in specific populations",
+        "develop a new treatment for a previously untreated disease",
+        "establish universally applicable laws of biological behavior"
+      ],
+      "answer": 1,
+      "explanation": "Most TOEFL sciences passages center on research examining relationships or testing hypotheses within defined populations."
+    },
+    {
+      "id": "en_toefl_reading_029",
+      "question": "Which of the following best describes the organizational pattern of this passage?",
+      "choices": [
+        "Chronological description of events from earliest to most recent",
+        "Problem-solution format identifying challenges and proposed responses",
+        "Cause-effect analysis explaining how one phenomenon leads to another",
+        "Compare-contrast structure showing similarities and differences"
+      ],
+      "answer": 2,
+      "explanation": "TOEFL reading tests knowledge of text organization patterns. Questions like this require identifying how information is structured and sequenced."
+    },
+    {
+      "id": "en_toefl_reading_030",
+      "question": "The passage implies that factors such as humidity, temperature, and air pressure are collectively important to meteorology because",
+      "choices": [
+        "They are the only measurements available to weather scientists",
+        "They determine atmospheric conditions and enable weather prediction",
+        "They have remained constant throughout Earth's atmospheric history",
+        "They are equally important to all living organisms"
+      ],
+      "answer": 1,
+      "explanation": "Meteorology passages explain that atmospheric variables interact to determine weather patterns and make forecasting possible."
+    },
+    {
+      "id": "en_toefl_reading_031",
+      "question": "According to the passage, which of the following best explains why migratory birds navigate successfully across continents?",
+      "choices": [
+        "They rely on detailed mental maps of geographic features",
+        "They use multiple navigation mechanisms including magnetic detection and stellar orientation",
+        "They are guided by electrical currents in the Earth's magnetic field",
+        "They follow established flight corridors marked by previous generations"
+      ],
+      "answer": 1,
+      "explanation": "Animal behavior passages emphasize that migratory navigation involves multiple redundant systems—magnetic sensing, celestial navigation, and landmark recognition."
+    },
+    {
+      "id": "en_toefl_reading_032",
+      "question": "The word 'turbulent' in the context of weather patterns most nearly means",
+      "choices": [
+        "extremely cold and causing ice formation",
+        "characterized by violent, irregular air movements and instability",
+        "creating heavy precipitation and flooding",
+        "producing high winds that last for extended periods"
+      ],
+      "answer": 1,
+      "explanation": "'Turbulent' refers to chaotic, unpredictable movement. In meteorology, it describes irregular air motion and atmospheric instability."
+    },
+    {
+      "id": "en_toefl_reading_033",
+      "question": "Based on the passage, the use of pesticides in agriculture has had the unintended consequence of",
+      "choices": [
+        "increasing crop yields indefinitely",
+        "developing pest resistance and environmental harm",
+        "eliminating all insect populations benefiting ecosystems",
+        "reducing the need for soil nutrients and fertilizers"
+      ],
+      "answer": 1,
+      "explanation": "Agricultural science passages discuss the ecological consequences of pesticide use: selection for resistant pest populations and negative environmental impacts."
+    },
+    {
+      "id": "en_toefl_reading_034",
+      "question": "It can be inferred that the invention of the printing press was significant primarily because it",
+      "choices": [
+        "eliminated illiteracy in European populations",
+        "enabled rapid reproduction and mass distribution of written information",
+        "made handwriting obsolete as a form of communication",
+        "reduced the cost of paper production"
+      ],
+      "answer": 1,
+      "explanation": "History passages emphasize that the printing press's significance lay in its ability to replicate texts at scale, democratizing knowledge access."
+    },
+    {
+      "id": "en_toefl_reading_035",
+      "question": "The passage suggests that industrial societies differ from pre-industrial societies primarily in their",
+      "choices": [
+        "fundamental human values and moral principles",
+        "methods of obtaining and using energy and organizing labor",
+        "capacity to maintain political order and social stability",
+        "religious beliefs and spiritual orientations"
+      ],
+      "answer": 1,
+      "explanation": "Sociology passages define the industrial revolution through transformed energy systems (fossil fuels) and labor organization (factories, specialization)."
+    },
+    {
+      "id": "en_toefl_reading_036",
+      "question": "According to the passage, what distinguishes scientific theories from other explanatory systems?",
+      "choices": [
+        "They require unanimous agreement among all educated people",
+        "They are based on empirical evidence, testable, and subject to revision",
+        "They provide definitive answers that cannot be questioned",
+        "They originate from ancient philosophical traditions"
+      ],
+      "answer": 1,
+      "explanation": "Philosophy of science passages explain that science's defining characteristics are empirical foundations, falsifiability, and openness to revision based on evidence."
+    },
+    {
+      "id": "en_toefl_reading_037",
+      "question": "The passage indicates that ecosystems in tropical regions are particularly vulnerable to deforestation because",
+      "choices": [
+        "Tropical forests are less dense than temperate forests",
+        "They contain irreplaceable biodiversity and serve as carbon sinks crucial to climate regulation",
+        "Tropical soils are more fertile and therefore more valuable for agriculture",
+        "Animals in tropical regions reproduce more slowly than in other climates"
+      ],
+      "answer": 1,
+      "explanation": "Environmental science passages emphasize the dual importance of tropical rainforests: extraordinary biodiversity and critical carbon sequestration roles."
+    },
+    {
+      "id": "en_toefl_reading_038",
+      "question": "Which of the following can be best inferred about cognitive development in humans from the passage?",
+      "choices": [
+        "It progresses uniformly and identically in all individuals",
+        "It involves sequential stages with qualitatively different capabilities",
+        "It is primarily determined by genetic inheritance alone",
+        "It ceases once individuals reach adulthood"
+      ],
+      "answer": 1,
+      "explanation": "Developmental psychology passages present cognitive development as progressing through distinct stages (Piaget's theory), each with new capabilities."
+    },
+    {
+      "id": "en_toefl_reading_039",
+      "question": "The passage implies that the artistic movements described shared which of the following characteristics?",
+      "choices": [
+        "Support from royal patronage and government funding",
+        "Rejection of previous traditions and exploration of new aesthetic approaches",
+        "Primary focus on religious subject matter and spiritual themes",
+        "Adherence to strict rules of perspective and proportion"
+      ],
+      "answer": 1,
+      "explanation": "Art history passages on movements (Renaissance, Impressionism, Modernism) emphasize their revolutionary break from preceding traditions."
+    },
+    {
+      "id": "en_toefl_reading_040",
+      "question": "According to the passage, the primary function of the human immune system is to",
+      "choices": [
+        "maintain body temperature within normal ranges",
+        "recognize and eliminate pathogens and abnormal cells",
+        "regulate hormonal balance and metabolism",
+        "provide structural support to internal organs"
+      ],
+      "answer": 1,
+      "explanation": "Immunology passages define the immune system's core function as defense through recognition and elimination of foreign agents and abnormal cells."
+    },
+    {
+      "id": "en_toefl_reading_041",
+      "question": "It can be inferred from the passage that mathematical models of natural phenomena are valuable because they",
+      "choices": [
+        "provide perfect predictions of all future events",
+        "allow scientists to simplify complex systems and make testable predictions",
+        "replace the need for experimental research",
+        "prove the absolute truthfulness of scientific theories"
+      ],
+      "answer": 1,
+      "explanation": "Philosophy of science passages explain that mathematical modeling enables simplification of complexity while maintaining predictive power."
+    },
+    {
+      "id": "en_toefl_reading_042",
+      "question": "Based on the passage, the structure and function of proteins are most directly determined by",
+      "choices": [
+        "The amount of energy available to the cell",
+        "The DNA sequence encoding their specific amino acid sequences",
+        "The type of organism producing the protein",
+        "The environmental temperature where the protein is synthesized"
+      ],
+      "answer": 1,
+      "explanation": "Molecular biology passages establish the central dogma: DNA sequences directly determine amino acid sequences, which determine protein structure and function."
+    },
+    {
+      "id": "en_toefl_reading_043",
+      "question": "The passage suggests that environmental degradation and economic development have been historically difficult to balance because",
+      "choices": [
+        "Environmental protection is inherently incompatible with any economic growth",
+        "Short-term economic gains have been pursued despite long-term environmental costs",
+        "Developing nations cannot afford environmental protection measures",
+        "Industrial technology is fundamentally incapable of being environmentally sustainable"
+      ],
+      "answer": 1,
+      "explanation": "Environmental economics passages discuss the historical disconnect between economic incentives (short-term profit) and environmental concerns (long-term sustainability)."
+    },
+    {
+      "id": "en_toefl_reading_044",
+      "question": "Which of the following best describes the relationship between supply and demand in market economics as presented in the passage?",
+      "choices": [
+        "Supply and demand are independent variables that do not influence each other",
+        "They are inversely related, with increased demand steadily decreasing supply",
+        "Market prices tend toward equilibrium where supply and demand balance",
+        "Demand is always significantly greater than supply in natural markets"
+      ],
+      "answer": 2,
+      "explanation": "Economics passages explain that market equilibrium occurs where quantity supplied equals quantity demanded at a particular price."
+    },
+    {
+      "id": "en_toefl_reading_045",
+      "question": "The passage indicates that the study of linguistics has revealed that language acquisition in children involves",
+      "choices": [
+        "Simple imitation and memorization of adult speech patterns",
+        "Complex inborn mechanisms for determining grammatical rules from limited exposure",
+        "Direct instruction by caregivers using systematic teaching methods",
+        "Artificial practice with standardized language textbooks"
+      ],
+      "answer": 1,
+      "explanation": "Psycholinguistics passages discuss Chomsky's theory that children acquire language through innate grammatical mechanisms, not pure mimicry."
+    },
+    {
+      "id": "en_toefl_reading_046",
+      "question": "Based on the passage, successful organizations typically share which of the following characteristics?",
+      "choices": [
+        "Maximizing profit as their exclusive objective",
+        "Clear vision, effective communication, and adaptive leadership under changing conditions",
+        "Strict hierarchical structures with minimal employee input",
+        "Resistance to change and maintenance of traditional practices"
+      ],
+      "answer": 1,
+      "explanation": "Business and organizational psychology passages identify vision, communication, and adaptability as common features of successful organizations."
+    },
+    {
+      "id": "en_toefl_reading_047",
+      "question": "The passage implies that advances in medical technology have primarily contributed to extending human lifespan through",
+      "choices": [
+        "elimination of the aging process at the cellular level",
+        "preventive care, disease treatment, and improved diagnostic capabilities",
+        "genetic modifications of all human populations",
+        "reduction of the necessity for major lifestyle changes"
+      ],
+      "answer": 1,
+      "explanation": "Public health passages discuss how medical technology extended lifespan through disease prevention and treatment advances, not reversal of aging itself."
+    },
+    {
+      "id": "en_toefl_reading_048",
+      "question": "It can be inferred that the effectiveness of a particular teaching method depends on",
+      "choices": [
+        "the inherent intelligence level of the students, which is unchangeable",
+        "multiple factors including student characteristics, subject matter, and context of implementation",
+        "teacher seniority and years of classroom experience exclusively",
+        "the specific textbook used regardless of other variables"
+      ],
+      "answer": 1,
+      "explanation": "Educational research passages emphasize that teaching effectiveness results from interactions between student factors, content, methods, and contexts."
+    },
+    {
+      "id": "en_toefl_reading_049",
+      "question": "The passage suggests that cultural evolution differs from biological evolution primarily in that",
+      "choices": [
+        "it occurs much more rapidly through transmission of acquired traits",
+        "it is guided by deliberate human choices rather than natural selection alone",
+        "it affects physical body structures rather than social systems",
+        "it only occurs in modern industrial societies"
+      ],
+      "answer": 1,
+      "explanation": "Anthropology passages explain that cultural evolution can incorporate acquired characteristics and intentional design, unlike biological evolution."
+    },
+    {
+      "id": "en_toefl_reading_050",
+      "question": "Which of the following best describes the main purpose of the passage?",
+      "choices": [
+        "To provide entertainment through narratives of scientific discovery",
+        "To explain foundational concepts and present evidence for a particular scientific understanding",
+        "To criticize previous scientific approaches as entirely erroneous",
+        "To advocate for government funding of particular research programs"
+      ],
+      "answer": 1,
+      "explanation": "The primary purpose of academic TOEFL passages is typically to explain concepts and present supporting evidence, establishing the reader's understanding of the topic."
+    }
+  ]
+}

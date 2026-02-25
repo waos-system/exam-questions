@@ -1,0 +1,607 @@
+{
+  "genre": "英検 準1級・1級 高級レベル",
+  "exam": "英検 Advanced",
+  "level": "準1級・1級",
+  "questions": [
+    {
+      "id": "en_eiken_advanced_001",
+      "question": "The divergence between the two political parties is so _____ that compromise appears impossible.",
+      "choices": [
+        "profound",
+        "cavernous",
+        "chasm-like",
+        "yawning"
+      ],
+      "answer": 3,
+      "explanation": "'yawning divergence'で『広大な乖離』。妥協不可能な程。上級語彙。"
+    },
+    {
+      "id": "en_eiken_advanced_002",
+      "question": "The author's _____ exploration of existential dread is counterbalanced by moments of unexpected levity.",
+      "choices": [
+        "unflinching",
+        "unvarnished",
+        "unsparing",
+        "unbridled"
+      ],
+      "answer": 0,
+      "explanation": "'unflinching exploration'で『ひるまない探索』。存在的恐怖。予期しない陽気さ。"
+    },
+    {
+      "id": "en_eiken_advanced_003",
+      "question": "The government's _____ of minority rights has sparked international condemnation and calls for sanctions.",
+      "choices": [
+        "abridgment",
+        "curtailment",
+        "abrogation",
+        "circumscription"
+      ],
+      "answer": 2,
+      "explanation": "'abrogation of rights'で『権利の廃止』。国際的非難とサンクション要求。"
+    },
+    {
+      "id": "en_eiken_advanced_004",
+      "question": "Her _____ wit and sardonic observations have made her a sought-after social commentator.",
+      "choices": [
+        "trenchant",
+        "barbed",
+        "pointed",
+        "acerbic"
+      ],
+      "answer": 0,
+      "explanation": "'trenchant wit'で『鋭利なウィット』。社会評論家として引き合い。"
+    },
+    {
+      "id": "en_eiken_advanced_005",
+      "question": "The novel's exploration of _____ human relationships reveals the author's nuanced understanding of the psyche.",
+      "choices": [
+        "delicate",
+        "intricate",
+        "labyrinthine",
+        "byzantine"
+      ],
+      "answer": 2,
+      "explanation": "'labyrinthine relationships'で『迷路のような関係』。作者の心理理解。"
+    },
+    {
+      "id": "en_eiken_advanced_006",
+      "question": "The speaker's _____ comments inadvertently offended several members of the audience.",
+      "choices": [
+        "offhand",
+        "desultory",
+        "perfunctory",
+        "cavalier"
+      ],
+      "answer": 0,
+      "explanation": "'offhand comments'で『当てずっぽうなコメント』。無意識的に聴衆を激怒。"
+    },
+    {
+      "id": "en_eiken_advanced_007",
+      "question": "The policy's implementation has _____ unforeseen consequences that challenged the original assumptions.",
+      "choices": [
+        "precipitated",
+        "engendered",
+        "wrought",
+        "occasioned"
+      ],
+      "answer": 1,
+      "explanation": "'engendered unforeseen consequences'で『予期しない結果を生んだ』。"
+    },
+    {
+      "id": "en_eiken_advanced_008",
+      "question": "The artistic movement's _____ rejection of traditional aesthetics was both liberating and deeply polarizing.",
+      "choices": [
+        "wholesale",
+        "categorical",
+        "unequivocal",
+        "categorical"
+      ],
+      "answer": 0,
+      "explanation": "'wholesale rejection'で『完全な拒否』。伝統美学。解放的で分裂的。"
+    },
+    {
+      "id": "en_eiken_advanced_009",
+      "question": "The theorem's _____ elegance belies the profound mathematical sophistication underlying its proof.",
+      "choices": [
+        "austere",
+        "spare",
+        "stark",
+        "sober"
+      ],
+      "answer": 0,
+      "explanation": "'austere elegance'で『厳粛な優雅さ』。定理の証明の高度な数学。"
+    },
+    {
+      "id": "en_eiken_advanced_010",
+      "question": "The witness's _____ account of the events provided indispensable evidence for the prosecution.",
+      "choices": [
+        "meticulous",
+        "painstaking",
+        "precise",
+        "scrupulous"
+      ],
+      "answer": 0,
+      "explanation": "'meticulous account'で『細心の報告』。検察に不可欠な証拠。"
+    },
+    {
+      "id": "en_eiken_advanced_011",
+      "question": "The scholar's _____ critique of the prevalent paradigm has fundamentally reshaped the academic discourse.",
+      "choices": [
+        "incisive",
+        "penetrating",
+        "trenchant",
+        "razor-sharp"
+      ],
+      "answer": 2,
+      "explanation": "'trenchant critique'で『辛辣な批評』。学者の支配的パラダイム。"
+    },
+    {
+      "id": "en_eiken_advanced_012",
+      "question": "The legislation's _____ language has created ambiguity in its application across different jurisdictions.",
+      "choices": [
+        "esoteric",
+        "arcane",
+        "recondite",
+        "obtuse"
+      ],
+      "answer": 0,
+      "explanation": "'esoteric language'で『難解な言語』。様々な司法区域での適用。"
+    },
+    {
+      "id": "en_eiken_advanced_013",
+      "question": "The ethical _____ presented by artificial intelligence requires careful philosophical examination.",
+      "choices": [
+        "quandary",
+        "paradox",
+        "conundrum",
+        "impasse"
+      ],
+      "answer": 1,
+      "explanation": "'paradox of AI'で『AI倫理パラドックス』。慎重な哲学的検討必要。"
+    },
+    {
+      "id": "en_eiken_advanced_014",
+      "question": "The author's _____ observations about societal decay are delivered with mordant irony.",
+      "choices": [
+        "incisive",
+        "penetrating",
+        "sagacious",
+        "perspicacious"
+      ],
+      "answer": 0,
+      "explanation": "'incisive observations'で『鋭い観察』。社会的衰退。皮肉的に。"
+    },
+    {
+      "id": "en_eiken_advanced_015",
+      "question": "The diplomatic _____ resulting from the misunderstanding nearly precipitated an international crisis.",
+      "choices": [
+        "impasse",
+        "contretemps",
+        "imbroglio",
+        "standoff"
+      ],
+      "answer": 2,
+      "explanation": "'diplomatic imbroglio'で『外交的混乱』。国際的危機。"
+    },
+    {
+      "id": "en_eiken_advanced_016",
+      "question": "The ecosystem's _____ balance is maintained through complex interdependencies that science continues to elucidate.",
+      "choices": [
+        "delicate",
+        "precarious",
+        "precariously balanced",
+        "tenuous"
+      ],
+      "answer": 0,
+      "explanation": "'delicate balance'で『微妙なバランス』。生態系相互依存。"
+    },
+    {
+      "id": "en_eiken_advanced_017",
+      "question": "The document's _____ significance was only recognized decades after its composition.",
+      "choices": [
+        "latent",
+        "dormant",
+        "quiescent",
+        "recessive"
+      ],
+      "answer": 0,
+      "explanation": "'latent significance'で『潜在的重要性』。数十年後に認識。"
+    },
+    {
+      "id": "en_eiken_advanced_018",
+      "question": "The protagonist's _____ descent into moral relativism forms the thematic core of the narrative.",
+      "choices": [
+        "inexorable",
+        "relentless",
+        "ineluctable",
+        "inexorable"
+      ],
+      "answer": 0,
+      "explanation": "'inexorable descent'で『避けられない下降』。道徳的相対主義。"
+    },
+    {
+      "id": "en_eiken_advanced_019",
+      "question": "The philosopher's _____ arguments challenge fundamental assumptions about consciousness and reality.",
+      "choices": [
+        "trenchant",
+        "sinewy",
+        "muscular",
+        "taut"
+      ],
+      "answer": 0,
+      "explanation": "'trenchant arguments'で『辛辣な議論』。意識と現実の仮定。"
+    },
+    {
+      "id": "en_eiken_advanced_020",
+      "question": "The economic _____ of climate change requires a fundamental restructuring of global systems.",
+      "choices": [
+        "ramifications",
+        "exigencies",
+        "contingencies",
+        "vicissitudes"
+      ],
+      "answer": 0,
+      "explanation": "'ramifications of climate change'で『気候変動の効果』。"
+    },
+    {
+      "id": "en_eiken_advanced_021",
+      "question": "The protagonist's _____ struggle against societal constraints forms the emotional center of the work.",
+      "choices": [
+        "futile",
+        "quixotic",
+        "sisyphean",
+        "herculean"
+      ],
+      "answer": 2,
+      "explanation": "'Sisyphean struggle'で『シジフォスの闘い』。無益な努力。社会的制約。"
+    },
+    {
+      "id": "en_eiken_advanced_022",
+      "question": "The researcher's _____ methodology ensured that the findings could withstand rigorous peer scrutiny.",
+      "choices": [
+        "meticulous",
+        "scrupulous",
+        "punctilious",
+        "fastidious"
+      ],
+      "answer": 2,
+      "explanation": "'punctilious methodology'で『厳密な方法論』。同僚精査。"
+    },
+    {
+      "id": "en_eiken_advanced_023",
+      "question": "The government's _____ response to the humanitarian crisis drew international condemnation.",
+      "choices": [
+        "callous",
+        "indifferent",
+        "torpid",
+        "lethargic"
+      ],
+      "answer": 0,
+      "explanation": "'callous response'で『冷酷な対応』。人道危機。"
+    },
+    {
+      "id": "en_eiken_advanced_024",
+      "question": "The literary work's exploration of _____ themes resonates across temporal and cultural boundaries.",
+      "choices": [
+        "universal",
+        "archetypal",
+        "primordial",
+        "atavistic"
+      ],
+      "answer": 1,
+      "explanation": "'archetypal themes'で『原型的テーマ』。時間・文化超越。"
+    },
+    {
+      "id": "en_eiken_advanced_025",
+      "question": "The speaker's _____ delivery barely concealed the underlying anxiety and uncertainty.",
+      "choices": [
+        "sanguine",
+        "equanimous",
+        "phlegmatic",
+        "composed"
+      ],
+      "answer": 1,
+      "explanation": "'equanimous delivery'で『冷静な配信』。根底の不安・不確実性。"
+    },
+    {
+      "id": "en_eiken_advanced_026",
+      "question": "The historical narrative's _____ interpretation of events challenges orthodox historiography.",
+      "choices": [
+        "heterodox",
+        "unorthodox",
+        "unconventional",
+        "iconoclastic"
+      ],
+      "answer": 3,
+      "explanation": "'iconoclastic interpretation'で『偶像破壊的解釈』。正統史学。"
+    },
+    {
+      "id": "en_eiken_advanced_027",
+      "question": "The artist's latest work represents a _____ departure from established artistic conventions.",
+      "choices": [
+        "radical",
+        "fundamental",
+        "categorial",
+        "paradigmatic"
+      ],
+      "answer": 3,
+      "explanation": "'paradigmatic departure'で『パラダイムシフト的出発』。美的指針。"
+    },
+    {
+      "id": "en_eiken_advanced_028",
+      "question": "The institution's _____ management practices perpetuated systemic inequalities for generations.",
+      "choices": [
+        "ossified",
+        "calcified",
+        "petrified",
+        "stultified"
+      ],
+      "answer": 0,
+      "explanation": "'ossified practices'で『化石化した慣行』。構造的不平等複製。"
+    },
+    {
+      "id": "en_eiken_advanced_029",
+      "question": "The philosophical treatise's _____ argumentation required multiple readings to fully comprehend.",
+      "choices": [
+        "byzantine",
+        "labyrinthine",
+        "knotty",
+        "tortuous"
+      ],
+      "answer": 1,
+      "explanation": "'labyrinthine argumentation'で『迷路のような議論』。複数読所要。"
+    },
+    {
+      "id": "en_eiken_advanced_030",
+      "question": "The politician's _____ rhetoric skillfully obscured the fundamental incompetence of proposed solutions.",
+      "choices": [
+        "pellucid",
+        "mellifluous",
+        "honeyed",
+        "dulcet"
+      ],
+      "answer": 1,
+      "explanation": "'mellifluous rhetoric'で『甘い雄弁』。基本的無能性隠蔽。"
+    },
+    {
+      "id": "en_eiken_advanced_031",
+      "question": "The novelist's portrayal of human frailty demonstrates an almost _____ compassion for flawed characters.",
+      "choices": [
+        "sacrosanct",
+        "unforgiving",
+        "relentless",
+        "incandescent"
+      ],
+      "answer": 3,
+      "explanation": "'incandescent compassion'で『燃えているような同情』。人間脆弱性。"
+    },
+    {
+      "id": "en_eiken_advanced_032",
+      "question": "The institution's _____ commitment to the status quo rendered it incapable of necessary reform.",
+      "choices": [
+        "entrenched",
+        "deep-seated",
+        "ingrained",
+        "inveterate"
+      ],
+      "answer": 0,
+      "explanation": "'entrenched commitment'で『確立されたコミットメント』。現状維持。改革不可。"
+    },
+    {
+      "id": "en_eiken_advanced_033",
+      "question": "The theoretical framework's _____ assumptions about human behavior proved empirically untenable.",
+      "choices": [
+        "unexamined",
+        "unquestioned",
+        "tacit",
+        "implicit"
+      ],
+      "answer": 2,
+      "explanation": "'tacit assumptions'で『暗黙の仮定』。人間行動理論的枠組み。"
+    },
+    {
+      "id": "en_eiken_advanced_034",
+      "question": "The era's intellectual _____ produced an unprecedented flowering of artistic and scientific achievement.",
+      "choices": [
+        "ferment",
+        "fervor",
+        "effervescence",
+        "turbulence"
+      ],
+      "answer": 0,
+      "explanation": "'intellectual ferment'で『知的躍動』。美術・科学未曽有の花盛り。"
+    },
+    {
+      "id": "en_eiken_advanced_035",
+      "question": "The policy's unintended consequences _____ the reformer's original noble intentions.",
+      "choices": [
+        "vitiated",
+        "nullified",
+        "invalidated",
+        "negated"
+      ],
+      "answer": 0,
+      "explanation": "'vitiated the intentions'で『意図を損なった』。予期しない結果。"
+    },
+    {
+      "id": "en_eiken_advanced_036",
+      "question": "The author's _____ critique of consumerism reflects a deep disillusionment with contemporary society.",
+      "choices": [
+        "scathing",
+        "withering",
+        "vituperative",
+        "apoplectic"
+      ],
+      "answer": 0,
+      "explanation": "'scathing critique'で『痛烈な批評』。消費主義。社会的失望。"
+    },
+    {
+      "id": "en_eiken_advanced_037",
+      "question": "The nation's _____ economic policies finally prompted a popular uprising against government corruption.",
+      "choices": [
+        "profligate",
+        "improvident",
+        "spendthrift",
+        "sumptuous"
+      ],
+      "answer": 0,
+      "explanation": "'profligate policies'で『浪費的政策』。国民蜂起。政府腐敗抗議。"
+    },
+    {
+      "id": "en_eiken_advanced_038",
+      "question": "The manuscript's _____ provenance has made scholarly authentication exceptionally challenging.",
+      "choices": [
+        "murky",
+        "opaque",
+        "nebulous",
+        "obscure"
+      ],
+      "answer": 2,
+      "explanation": "'nebulous provenance'で『不明確な出所』。原稿。学術認証。"
+    },
+    {
+      "id": "en_eiken_advanced_039",
+      "question": "The phenomenon's _____ nature defies conventional scientific explanation and classification.",
+      "choices": [
+        "enigmatic",
+        "inscrutable",
+        "ineffable",
+        "unfathomable"
+      ],
+      "answer": 0,
+      "explanation": "'enigmatic nature'で『謎めいた性質』。現象。科学的説明。"
+    },
+    {
+      "id": "en_eiken_advanced_040",
+      "question": "The institution's _____ structure made organizational reform virtually impossible without external intervention.",
+      "choices": [
+        "labyrinthine",
+        "byzantine",
+        "convoluted",
+        "tortuous"
+      ],
+      "answer": 0,
+      "explanation": "'labyrinthine structure'で『迷路のような構造』。機関。"
+    },
+    {
+      "id": "en_eiken_advanced_041",
+      "question": "The scholar's _____ interpretation opened entirely new avenues of inquiry within the discipline.",
+      "choices": [
+        "seminal",
+        "germinal",
+        "generative",
+        "fecund"
+      ],
+      "answer": 0,
+      "explanation": "'seminal interpretation'で『種子的解釈』。学問領域。新分野開拓。"
+    },
+    {
+      "id": "en_eiken_advanced_042",
+      "question": "The movement's _____ idealism eventually succumbed to the pragmatic demands of political realism.",
+      "choices": [
+        "incandescent",
+        "ardent",
+        "fervent",
+        "passionate"
+      ],
+      "answer": 0,
+      "explanation": "'incandescent idealism'で『燃えるような理想主義』。運動。"
+    },
+    {
+      "id": "en_eiken_advanced_043",
+      "question": "The literary work's _____ exploration of mortality profoundly affected readers across generations.",
+      "choices": [
+        "unflinching",
+        "uncompromising",
+        "unvarnished",
+        "unsparing"
+      ],
+      "answer": 0,
+      "explanation": "'unflinching exploration'で『ひるまない探索』。死亡。読者複世代。"
+    },
+    {
+      "id": "en_eiken_advanced_044",
+      "question": "The diplomat's _____ approach to negotiation successfully bridged seemingly irreconcilable differences.",
+      "choices": [
+        "dexterous",
+        "adroit",
+        "nimble",
+        "felicitous"
+      ],
+      "answer": 3,
+      "explanation": "'felicitous approach'で『適切なアプローチ』。調停幅通せない差。"
+    },
+    {
+      "id": "en_eiken_advanced_045",
+      "question": "The manuscript's _____ revelations challenged cherished historical assumptions about the period.",
+      "choices": [
+        "startling",
+        "astonishing",
+        "arresting",
+        "astounding"
+      ],
+      "answer": 2,
+      "explanation": "'arresting revelations'で『引き止める啓示』。歴史的仮定。"
+    },
+    {
+      "id": "en_eiken_advanced_046",
+      "question": "The artist's _____ vision transcended conventional aesthetic boundaries and challenged viewer perceptions.",
+      "choices": [
+        "idiosyncratic",
+        "iconoclastic",
+        "heterodox",
+        "unconventional"
+      ],
+      "answer": 1,
+      "explanation": "'iconoclastic vision'で『偶像破壊的ビジョン』。美的境界超越。"
+    },
+    {
+      "id": "en_eiken_advanced_047",
+      "question": "The theoretical model's _____ assumptions ultimately proved incompatible with empirical observations.",
+      "choices": [
+        "foundational",
+        "axiomatic",
+        "bedrock",
+        "cardinal"
+      ],
+      "answer": 1,
+      "explanation": "'axiomatic assumptions'で『公理的仮定』。理論モデル。"
+    },
+    {
+      "id": "en_eiken_advanced_048",
+      "question": "The historical epoch's _____ cultural production reflected the turbulent social upheaval of the period.",
+      "choices": [
+        "prodigious",
+        "copious",
+        "profuse",
+        "luxuriant"
+      ],
+      "answer": 0,
+      "explanation": "'prodigious production'で『莫大な生産』。歴史的時期。社会的大変化。"
+    },
+    {
+      "id": "en_eiken_advanced_049",
+      "question": "The institution's _____ resistance to change ultimately hastened its inevitable decline and dissolution.",
+      "choices": [
+        "obdurate",
+        "adamant",
+        "intransigent",
+        "recalcitrant"
+      ],
+      "answer": 2,
+      "explanation": "'intransigent resistance'で『妥協しない抵抗』。機関。衰退・解散。"
+    },
+    {
+      "id": "en_eiken_advanced_050",
+      "question": "The philosopher's _____ thought experiments illuminated subtle logical paradoxes that had long escaped notice.",
+      "choices": [
+        "ingenious",
+        "clever",
+        "brilliant",
+        "luminous"
+      ],
+      "answer": 0,
+      "explanation": "'ingenious thought experiments'で『独創的な思考実験』。論理矛盾。"
+    }
+  ]
+}

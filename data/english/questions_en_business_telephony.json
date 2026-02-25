@@ -1,0 +1,607 @@
+{
+  "genre": "ビジネス英語 - 電話&交渉",
+  "exam": "Business English",
+  "section": "Telephony & Negotiation",
+  "questions": [
+    {
+      "id": "en_business_telephony_001",
+      "question": "What is the correct way to answer a business phone call?",
+      "choices": [
+        "Yeah, what do you want?",
+        "Company name, department, and your name: '[Company], [Department], Speaking.'",
+        "Hello?",
+        "Can I help you?"
+      ],
+      "answer": 1,
+      "explanation": "ビジネス電話応答は会社名、部門、名前を含む。プロフェッショナルと認識。"
+    },
+    {
+      "id": "en_business_telephony_002",
+      "question": "How should you request to speak with someone if they're unavailable?",
+      "choices": [
+        "Just hang up",
+        "Ask when they'll be available and offer to take a message or call back",
+        "Demand to speak with them",
+        "Be rude about it"
+      ],
+      "answer": 1,
+      "explanation": "不在時は利用可能時間確認、メッセージ取得またはコールバック提供。サービス志向。"
+    },
+    {
+      "id": "en_business_telephony_003",
+      "question": "What phrase is appropriate for putting someone on hold?",
+      "choices": [
+        "Stay there.",
+        "Please hold while I check. I'll be back momentarily.",
+        "Just wait.",
+        "Hang on."
+      ],
+      "answer": 1,
+      "explanation": "保留中は礼儀, 確認内容, 復帰時間見通し提供。顧客ケア示唆。"
+    },
+    {
+      "id": "en_business_telephony_004",
+      "question": "How should you handle a call from an angry customer?",
+      "choices": [
+        "Hang up on them",
+        "Listen actively, acknowledge frustration, apologize, offer solutions",
+        "Get defensive",
+        "Argue with them"
+      ],
+      "answer": 1,
+      "explanation": "怒った顧客対応は傾聴、不満認識、お詫び、解決策。関係修復。"
+    },
+    {
+      "id": "en_business_telephony_005",
+      "question": "What should you do if you don't understand what the caller is saying?",
+      "choices": [
+        "Pretend you understand",
+        "Politely ask them to repeat or clarify what they said",
+        "Just guess at their meaning",
+        "Get frustrated"
+      ],
+      "answer": 1,
+      "explanation": "不明確時も敬重に説明または確認要求。理解確保。誤解防止。"
+    },
+    {
+      "id": "en_business_telephony_006",
+      "question": "How should you end a business phone call professionally?",
+      "choices": [
+        "Just hang up",
+        "Summarize key points, confirm next steps, thank them, say goodbye",
+        "Say 'bye' abruptly",
+        "Leave awkwardly"
+      ],
+      "answer": 1,
+      "explanation": "電話終了は要点まとめ、次ステップ確認、感謝、別れの言葉。専門性。"
+    },
+    {
+      "id": "en_business_telephony_007",
+      "question": "What is the purpose of active listening in business phone conversations?",
+      "choices": [
+        "To be polite without understanding",
+        "To fully understand, show engagement, and catch important details",
+        "To pretend to listen",
+        "Listening isn't important"
+      ],
+      "answer": 1,
+      "explanation": "積極的傾聴は完全理解、エンゲージメント、重要詳細把握。効果的コミュニケーション。"
+    },
+    {
+      "id": "en_business_telephony_008",
+      "question": "How should you handle a caller asking for confidential information?",
+      "choices": [
+        "Give them whatever they ask for",
+        "Verify their identity and authorization before providing any information",
+        "Give partial information",
+        "Assume they have authority"
+      ],
+      "answer": 1,
+      "explanation": "機密情報要求時は身元確認と権限承認が必須。セキュリティ確保。"
+    },
+    {
+      "id": "en_business_telephony_009",
+      "question": "What should you do if a caller is being abusive or harassing?",
+      "choices": [
+        "Continue the call indefinitely",
+        "Calmly warn them, offer to transfer, disconnect if behavior continues",
+        "Abuse them back",
+        "Tolerate inappropriate behavior"
+      ],
+      "answer": 1,
+      "explanation": "虐待的発言者は冷静に警告、転送提供、継続なら切断。安全と境界。"
+    },
+    {
+      "id": "en_business_telephony_010",
+      "question": "How should you take a message accurately?",
+      "choices": [
+        "Write down whatever you remember",
+        "Get caller's name, phone number, message details, date/time, and confirm",
+        "Don't write anything down",
+        "Take notes you can't read"
+      ],
+      "answer": 1,
+      "explanation": "メッセージ正確性は、発信者名、電話番号、内容、日時、確認。誤解防止。"
+    },
+    {
+      "id": "en_business_telephony_011",
+      "question": "What phrase should you use to apologize for a company mistake?",
+      "choices": [
+        "That's not my problem.",
+        "I sincerely apologize for the error. We're committed to making this right.",
+        "You're overreacting.",
+        "It happens."
+      ],
+      "answer": 1,
+      "explanation": "企業ミス謝罪は真摯で、改善コミットメント。信頼と関係修復。"
+    },
+    {
+      "id": "en_business_telephony_012",
+      "question": "How should you approach a negotiation phone call preparation?",
+      "choices": [
+        "Go in unprepared",
+        "Research the other party, define objectives, anticipate objections, set limits",
+        "Wing it",
+        "Have no strategy"
+      ],
+      "answer": 1,
+      "explanation": "交渉電話準備は調査、目標定義、異議予測、限界設定。成功確率向上。"
+    },
+    {
+      "id": "en_business_telephony_013",
+      "question": "What should you do if you make a mistake during a phone call?",
+      "choices": [
+        "Pretend it didn't happen",
+        "Acknowledge the error immediately, correct it, confirm understanding",
+        "Try to hide it",
+        "Hope they didn't notice"
+      ],
+      "answer": 1,
+      "explanation": "電話ミス発生時も即座に認識、訂正、確認。信頼と専門性維持。"
+    },
+    {
+      "id": "en_business_telephony_014",
+      "question": "How should you handle a telemarketing or spam call in a business setting?",
+      "choices": [
+        "Engage with the caller indefinitely",
+        "Politely decline, ask not to call back, disconnect",
+        "Be rude",
+        "Keep them on the line"
+      ],
+      "answer": 1,
+      "explanation": "迷惑電話対応も礼儀正しくクイック。再接触禁止。時間効率。"
+    },
+    {
+      "id": "en_business_telephony_015",
+      "question": "What is the purpose of confirming details verbally in a phone negotiation?",
+      "choices": [
+        "To waste time",
+        "To ensure both parties understand terms, prevent disputes, document agreement",
+        "To confuse the other party",
+        "Confirmation is unnecessary"
+      ],
+      "answer": 1,
+      "explanation": "交渉で詳細確認は相互理解、紛争防止、合意文書化。透明性。"
+    },
+    {
+      "id": "en_business_telephony_016",
+      "question": "How should you handle a three-way phone call professionally?",
+      "choices": [
+        "Don't introduce the connected party",
+        "Introduce all parties, explain the purpose, facilitate discussion",
+        "Create confusion about who's calling",
+        "Don't explain anything"
+      ],
+      "answer": 1,
+      "explanation": "3者通話は全当事者紹介、目的説明、対話進行。明確性と整理。"
+    },
+    {
+      "id": "en_business_telephony_017",
+      "question": "What should you do if a negotiation reaches an impasse?",
+      "choices": [
+        "Get angry and hang up",
+        "Take a break, identify common ground, explore creative solutions, suggest follow-up",
+        "Give up",
+        "Make unreasonable demands"
+      ],
+      "answer": 1,
+      "explanation": "交渉行き詰まり時は休止、共通点探索、創造的解決、フォローアップ。建設的。"
+    },
+    {
+      "id": "en_business_telephony_018",
+      "question": "How should you document a phone conversation for business records?",
+      "choices": [
+        "Don't keep any record",
+        "Note date, time, participants, key points discussed, agreements, action items",
+        "Keep vague notes",
+        "Rely only on memory"
+      ],
+      "answer": 1,
+      "explanation": "電話記録は日付、時間、参加者、主要ポイント、合意、行動項目。参考性。"
+    },
+    {
+      "id": "en_business_telephony_019",
+      "question": "What phrase indicates you're ready to conclude negotiations?",
+      "choices": [
+        "I'm done.",
+        "Based on our discussion, I propose we move forward with the following terms...",
+        "Whatever.",
+        "Let's just end this."
+      ],
+      "answer": 1,
+      "explanation": "交渉結論は提案条件提示。正式で明確。合意導き出し。"
+    },
+    {
+      "id": "en_business_telephony_020",
+      "question": "How should you handle a caller with a strong accent?",
+      "choices": [
+        "Make fun of their accent",
+        "Listen carefully, ask for repetition politely if needed, don't make assumptions",
+        "Dismiss them",
+        "Assume you understood when you didn't"
+      ],
+      "answer": 1,
+      "explanation": "アクセント対応は丁寧傾聴、必要時に敬重に繰り返し要求。専門的理解。"
+    },
+    {
+      "id": "en_business_telephony_021",
+      "question": "What should you do if you need to gather information from multiple sources during a call?",
+      "choices": [
+        "Guess at the information",
+        "Explain you need to check, ask for permission to put on hold, gather info, return",
+        "Give incomplete information",
+        "Make up answers"
+      ],
+      "answer": 1,
+      "explanation": "複数源から情報収集が必要なら、保留許可要求、収集、復帰。正確性。"
+    },
+    {
+      "id": "en_business_telephony_022",
+      "question": "How should you approach boundary-setting in a business phone relationship?",
+      "choices": [
+        "Be hostile from the start",
+        "Be professional, state availability, respect caller's time, set reasonable expectations",
+        "Avoid all boundaries",
+        "Be dismissive"
+      ],
+      "answer": 1,
+      "explanation": "電話関係の境界は専門的で明確。利用可能性状態。相互尊重。期待設定。"
+    },
+    {
+      "id": "en_business_telephony_023",
+      "question": "What is the best way to overcome objections in a sales phone call?",
+      "choices": [
+        "Dismiss the objections",
+        "Acknowledge objections, ask questions, provide evidence-based responses, offer alternatives",
+        "Get defensive",
+        "Ignore concerns"
+      ],
+      "answer": 1,
+      "explanation": "営業電話異議対応は認識、質問、証拠提示、代替え。説得力。"
+    },
+    {
+      "id": "en_business_telephony_024",
+      "question": "How should you handle a call where the person is crying or emotionally upset?",
+      "choices": [
+        "Hang up immediately",
+        "Show empathy, listen without judgment, offer support and resources, stay calm",
+        "Dismiss their emotions",
+        "Get frustrated"
+      ],
+      "answer": 1,
+      "explanation": "感情的発信者対応は共感、判断なく傾聴、サポート、冷静性。人道的。"
+    },
+    {
+      "id": "en_business_telephony_025",
+      "question": "What should you do before transferring a caller to another department?",
+      "choices": [
+        "Just transfer without warning",
+        "Explain reason, confirm correct department, ensure warm transfer, provide direct number",
+        "Hang up and let them figure it out",
+        "Transfer without explanation"
+      ],
+      "answer": 1,
+      "explanation": "転送前は理由説明、部門確認、温かい転送、直通番号提供。顧客体験。"
+    },
+    {
+      "id": "en_business_telephony_026",
+      "question": "How should you handle price negotiations in a phone call?",
+      "choices": [
+        "Accept the first offer",
+        "Understand value, discuss options, justify pricing, seek mutually beneficial agreement",
+        "Refuse all negotiation",
+        "Offer unnecessary discounts"
+      ],
+      "answer": 1,
+      "explanation": "価格交渉は価値理解、オプション討論、価格正当化、ウィンウィン。持続性。"
+    },
+    {
+      "id": "en_business_telephony_027",
+      "question": "What phrase should you use if you need to escalate a customer issue?",
+      "choices": [
+        "Too bad, nothing I can do.",
+        "I understand this is important. Let me connect you with someone who can help further.",
+        "You're on your own.",
+        "I don't care."
+      ],
+      "answer": 1,
+      "explanation": "エスカレーション時は重要性認識、適切者へ接続。顧客満足。解決指向。"
+    },
+    {
+      "id": "en_business_telephony_028",
+      "question": "How should you verify a caller's identity without asking obvious security questions?",
+      "choices": [
+        "Skip verification",
+        "Ask contextual questions about their account or history before providing info",
+        "Assume they are who they say",
+        "Trust them immediately"
+      ],
+      "answer": 1,
+      "explanation": "身元確認は文脈質問。過去情報参照。セキュリティと流暢性。"
+    },
+    {
+      "id": "en_business_telephony_029",
+      "question": "What should you do if you accidentally say something confidential during a call?",
+      "choices": [
+        "Keep talking and hope they didn't notice",
+        "Acknowledge immediately, apologize, explain it was accidental, assess impact",
+        "Change the subject quickly",
+        "Deny saying it"
+      ],
+      "answer": 1,
+      "explanation": "機密情報誤開示時も即座に認識、お詫び、偶然性説明、影響評価。信頼性。"
+    },
+    {
+      "id": "en_business_telephony_030",
+      "question": "How should you approach a difficult negotiation where emotions are high?",
+      "choices": [
+        "React emotionally",
+        "Stay calm, focus on interests not positions, use 'I' statements, seek understanding",
+        "Get defensive",
+        "Escalate tensions"
+      ],
+      "answer": 1,
+      "explanation": "感情高い交渉は冷静さ維持。立場でなく利益焦点。'I'文使用。理解追求。"
+    },
+    {
+      "id": "en_business_telephony_031",
+      "question": "What is the best response to a caller saying 'I'm too busy to talk right now'?",
+      "choices": [
+        "Keep talking anyway",
+        "Respect their time, ask when is convenient, offer to call back, provide brief context",
+        "Get insulted",
+        "Hang up without being helpful"
+      ],
+      "answer": 1,
+      "explanation": "忙しい発信者も敬重。便利時間確認、コールバック提供、簡潔背景。相互尊重。"
+    },
+    {
+      "id": "en_business_telephony_032",
+      "question": "How should you handle a competitor calling your business?",
+      "choices": [
+        "Be hostile",
+        "Be professional, don't share sensitive info, be courteous, end appropriately",
+        "Share company secrets",
+        "Be rude"
+      ],
+      "answer": 1,
+      "explanation": "競合電話も専門的。機密非共有。礼儀正しく。適切に終了。秘密保護。"
+    },
+    {
+      "id": "en_business_telephony_033",
+      "question": "What should you do if a caller requests a price reduction without justification?",
+      "choices": [
+        "Immediately grant the reduction",
+        "Ask why they need reduction, explain value, offer alternatives, negotiate if appropriate",
+        "Refuse completely",
+        "Get angry"
+      ],
+      "answer": 1,
+      "explanation": "値引き要求時は理由確認、価値説明、代替え、適切なら交渉。判断的。"
+    },
+    {
+      "id": "en_business_telephony_034",
+      "question": "How should you follow up after an important business phone call?",
+      "choices": [
+        "Don't follow up",
+        "Send email summarizing key points, agreements, and next steps, confirm receipt",
+        "Never document conversations",
+        "Assume they remember everything"
+      ],
+      "answer": 1,
+      "explanation": "電話後フォローアップは要点、合意、次ステップメール。記録と確認。"
+    },
+    {
+      "id": "en_business_telephony_035",
+      "question": "What phrase is appropriate when asking for a commitment in negotiations?",
+      "choices": [
+        "You have to agree.",
+        "Based on what we've discussed, can we agree to move forward with this approach?",
+        "Take it or leave it.",
+        "Just say yes."
+      ],
+      "answer": 1,
+      "explanation": "交渉でのコミットメント要求は確認的で敬重。ウィンウィン枠組み。"
+    },
+    {
+      "id": "en_business_telephony_036",
+      "question": "How should you handle a call from a regulator or government agency?",
+      "choices": [
+        "Be evasive",
+        "Be cooperative, verify authority, understand purpose, consult management/legal if needed",
+        "Refuse to answer",
+        "Argue with them"
+      ],
+      "answer": 1,
+      "explanation": "規制機関電話は協力的。権限確認。目的理解。必要時にマネジメント/法的相談。"
+    },
+    {
+      "id": "en_business_telephony_037",
+      "question": "What should you do if you realize you're speaking with the wrong department?",
+      "choices": [
+        "Just keep talking",
+        "Apologize, ask for correct department, transfer courteously",
+        "Hang up on them",
+        "Keep giving wrong information"
+      ],
+      "answer": 1,
+      "explanation": "間違った部門時はお詫び、正部門確認、敬重に転送。顧客体験改善。"
+    },
+    {
+      "id": "en_business_telephony_038",
+      "question": "How should you establish rapport with a difficult negotiating partner?",
+      "choices": [
+        "Be cold and distant",
+        "Find common ground, explain mutual benefits, show genuine interest, be authentic",
+        "Be afraid of them",
+        "Avoid personal connection"
+      ],
+      "answer": 1,
+      "explanation": "困難な交渉相手とのラポール構築は共通点探索、相互利益、真正な関心。信頼。"
+    },
+    {
+      "id": "en_business_telephony_039",
+      "question": "What should you do if you know you cannot deliver what the client is requesting?",
+      "choices": [
+        "Lie and promise anyway",
+        "Be honest, explain limitations, offer realistic alternatives, maintain relationship",
+        "Avoid the conversation",
+        "Give false hope"
+      ],
+      "answer": 1,
+      "explanation": "配信不可時も正直に。限界説明。現実的代替え。関係維持。信頼重要。"
+    },
+    {
+      "id": "en_business_telephony_040",
+      "question": "How should you handle a call from an unhappy vendor or supplier?",
+      "choices": [
+        "Ignore their concerns",
+        "Listen, understand their issues, apologize if appropriate, find resolution",
+        "Be dismissive",
+        "Blame them"
+      ],
+      "answer": 1,
+      "explanation": "不満なベンダー対応は傾聴、懸念理解、適切なお詫び、解決探索。供給鎖維持。"
+    },
+    {
+      "id": "en_business_telephony_041",
+      "question": "What is the importance of tone of voice in business phone negotiations?",
+      "choices": [
+        "Tone doesn't matter when speaking",
+        "Tone conveys confidence, respect, and openness; critical to negotiation success",
+        "Use aggressive tone",
+        "Sound uncertain"
+      ],
+      "answer": 1,
+      "explanation": "電話トーンは信頼度、敬意、開放性を伝える。交渉成功に重要。"
+    },
+    {
+      "id": "en_business_telephony_042",
+      "question": "How should you handle a call where the person doesn't speak your native language fluently?",
+      "choices": [
+        "Make fun of their language skills",
+        "Speak clearly, use simple language, confirm understanding, be patient and respectful",
+        "Be impatient",
+        "Assume they understand everything"
+      ],
+      "answer": 1,
+      "explanation": "非ネイティブ発信者に対応は明確に話す、簡潔言語、理解確認、忍耐尊重。包括的。"
+    },
+    {
+      "id": "en_business_telephony_043",
+      "question": "What should you do if you need to discuss confidential information over the phone?",
+      "choices": [
+        "Use unsecured lines freely",
+        "Verify secure line, confirm recipient identity, state confidentiality expectations",
+        "Discuss openly without precautions",
+        "Skip security measures"
+      ],
+      "answer": 1,
+      "explanation": "機密情報電話はセキュア確認、身元確認、機密性状態。保護義務。"
+    },
+    {
+      "id": "en_business_telephony_044",
+      "question": "How should you approach a 'take it or leave it' ultimatum in negotiations?",
+      "choices": [
+        "Accept immediately without thought",
+        "Ask questions about flexibility, explore impact, propose alternatives, don't accept pressure",
+        "Walk away angrily",
+        "Feel threatened and give in"
+      ],
+      "answer": 1,
+      "explanation": "最後通牒対応は柔軟性確認、影響検討、代替え提案、圧力甘受なし。冷静性。"
+    },
+    {
+      "id": "en_business_telephony_045",
+      "question": "What phrase should you use to decline an unreasonable request?",
+      "choices": [
+        "Absolutely not!",
+        "I appreciate your request, but I'm unable to accommodate that. Can we discuss alternatives?",
+        "You're crazy.",
+        "That's stupid."
+      ],
+      "answer": 1,
+      "explanation": "不合理要求拒否も敬重。代替え討論提案。関係維持。建設的トーン。"
+    },
+    {
+      "id": "en_business_telephony_046",
+      "question": "How should you handle a call where both parties have reached agreement?",
+      "choices": [
+        "Just hang up",
+        "Confirm terms clearly, state next steps, express appreciation, send written confirmation",
+        "Assume they'll remember",
+        "Leave without closure"
+      ],
+      "answer": 1,
+      "explanation": "合意達成時も条件確認、次ステップ、感謝、書面確認。文書化。"
+    },
+    {
+      "id": "en_business_telephony_047",
+      "question": "What should you do if a caller becomes physically threatening or hostile?",
+      "choices": [
+        "Engage with verbal confrontation",
+        "Stay calm, don't escalate, end call politely, report to management/authorities",
+        "Respond with threats",
+        "Continue the conversation"
+      ],
+      "answer": 1,
+      "explanation": "脅迫的発信者は冷静、エスカレーション避け、終了、報告。安全第一。"
+    },
+    {
+      "id": "en_business_telephony_048",
+      "question": "How should you address discrepancies in agreements mentioned in a phone call?",
+      "choices": [
+        "Ignore them",
+        "Clarify immediately, note the discrepancy, confirm correct understanding in writing",
+        "Hope they go away",
+        "Avoid mentioning them"
+      ],
+      "answer": 1,
+      "explanation": "合意の不一致は即座に明確化、記録、書面で確認。問題防止。"
+    },
+    {
+      "id": "en_business_telephony_049",
+      "question": "What is the best way to build long-term partnerships through business calls?",
+      "choices": [
+        "Be transactional and short-term focused",
+        "Deliver on promises, show genuine interest, maintain regular contact, be reliable",
+        "Make empty promises",
+        "Avoid maintaining relationships"
+      ],
+      "answer": 1,
+      "explanation": "長期パートナーシップ構築は約束実行、真正な関心、定期接触、信頼性。持続。"
+    },
+    {
+      "id": "en_business_telephony_050",
+      "question": "How should you conclude a successful negotiation call?",
+      "choices": [
+        "Just say goodbye.",
+        "Celebrate agreement, confirm all terms, state next steps, express commitment, schedule follow-up",
+        "End abruptly",
+        "Leave details unclear"
+      ],
+      "answer": 1,
+      "explanation": "成功交渉終了は合意祝い、条件確認、次ステップ、コミットメント、フォローアップ予約。完結。"
+    }
+  ]
+}

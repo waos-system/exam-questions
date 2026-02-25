@@ -1,0 +1,657 @@
+{
+  "genre": "Academic Listening - TOEFL iBT",
+  "exam": "TOEFL",
+  "section": "Listening",
+  "questions": [
+    {
+      "id": "en_toefl_listening_001",
+      "question": "What is the main idea of the lecture?",
+      "context": "Biology lecture on photosynthesis processes in C3 and C4 plants",
+      "choices": [
+        "Photosynthesis occurs identically in all plant species",
+        "Different plant species have evolved distinct photosynthetic pathways adapted to their environments",
+        "C3 plants are more efficient than C4 plants in all conditions",
+        "Photosynthesis requires equal amounts of light and water"
+      ],
+      "answer": 1,
+      "explanation": "Main idea questions ask students to identify the central concept of a lecture. The lecture presents variation in photosynthetic adaptations across plant types."
+    },
+    {
+      "id": "en_toefl_listening_002",
+      "question": "According to the professor, why do C4 plants have an advantage in hot, dry climates?",
+      "context": "Continuation of photosynthesis lecture explaining metabolic pathways",
+      "choices": [
+        "They require less water to survive",
+        "Their photosynthetic pathway is more efficient at concentrating CO2, reducing water loss through transpiration",
+        "They have larger root systems",
+        "They only photosynthesize at night"
+      ],
+      "answer": 1,
+      "explanation": "Detail questions ask for specific information. C4 plants concentrate CO2 through stomata more efficiently, allowing them to close stomata sooner and conserve water."
+    },
+    {
+      "id": "en_toefl_listening_003",
+      "question": "What can be inferred about the distribution of C3 versus C4 plants?",
+      "context": "Professor discusses geographic distribution related to temperature and precipitation",
+      "choices": [
+        "C3 plants only exist in tropical regions",
+        "C4 plants are primarily found in cool, temperate regions with adequate moisture",
+        "C3 plants predominate in temperate regions while C4 plants are common in hot, arid regions",
+        "The two types are equally distributed globally"
+      ],
+      "answer": 2,
+      "explanation": "Inferential questions require combining information from the lecture. Temperature and precipitation patterns determine where these plants evolved and naturally occur."
+    },
+    {
+      "id": "en_toefl_listening_004",
+      "question": "What is the professor's attitude toward C4 photosynthesis?",
+      "context": "Lecture includes discussion of evolutionary innovation in plant metabolic processes",
+      "choices": [
+        "It's an inferior evolutionary adaptation",
+        "It's an admirable evolutionary innovation that enabled plant survival in challenging environments",
+        "It's an outdated process plants have abandoned",
+        "The professor expresses no opinion on the subject"
+      ],
+      "answer": 1,
+      "explanation": "Speaker attitude questions assess tone. Academic lectures use phrases like 'remarkable adaptation' or 'remarkable innovation' to indicate positive evaluation."
+    },
+    {
+      "id": "en_toefl_listening_005",
+      "question": "Which of the following would the professor most likely discuss next?",
+      "context": "End of discussion about photosynthetic pathways and their environmental determinants",
+      "choices": [
+        "The history of plant taxonomy",
+        "How understanding photosynthetic pathways helps predict responses to climate change",
+        "Why animals don't photosynthesize",
+        "The structure of plant cell walls"
+      ],
+      "answer": 1,
+      "explanation": "Prediction questions assess understanding of lecture flow. A logical continuation would apply the knowledge to contemporary challenges like climate adaptation."
+    },
+    {
+      "id": "en_toefl_listening_006",
+      "question": "What is the main topic of the conversation?",
+      "context": "Student conversation with professor about research project selection",
+      "choices": [
+        "Criticizing the student's academic performance",
+        "Discussing available research projects and matching them to student interests",
+        "Explaining how to conduct a literature review",
+        "Advising the student to change majors"
+      ],
+      "answer": 1,
+      "explanation": "Conversation main ideas typically involve the purpose and focus of the dialogue between speakers."
+    },
+    {
+      "id": "en_toefl_listening_007",
+      "question": "Why does the student seem uncertain about project selection?",
+      "context": "Student discusses concerns about workload and interest alignment",
+      "choices": [
+        "The professor hasn't explained the requirements clearly",
+        "The student is not interested in any available projects",
+        "The student is concerned about balancing project demands with other coursework and wants to ensure genuine interest",
+        "The student believes all projects are equally difficult"
+      ],
+      "answer": 2,
+      "explanation": "This detail-and-inference question requires listening for the student's expressed concerns about matching interests and workload capacity."
+    },
+    {
+      "id": "en_toefl_listening_008",
+      "question": "What advice does the professor give?",
+      "context": "Professor's recommendations for approaching project selection",
+      "choices": [
+        "Choose the project that requires the most work",
+        "Choose a project based on career prospects rather than interest",
+        "Read project descriptions carefully and meet with current researchers to evaluate fit before deciding",
+        "Make a quick decision to avoid overthinking the choice"
+      ],
+      "answer": 2,
+      "explanation": "Professor advice questions capture recommendations explicitly stated. The professor suggests informed decision-making through research and consultation."
+    },
+    {
+      "id": "en_toefl_listening_009",
+      "question": "What does the student imply about their previous research experience?",
+      "context": "Student mentions past work and relative comfort with different methods",
+      "choices": [
+        "They have no research experience",
+        "They have some laboratory experience but want to try different methodologies",
+        "They have exclusively done computational work",
+        "They view research experience as unimportant"
+      ],
+      "answer": 1,
+      "explanation": "Implied meaning questions require inferring from context. The student's expressed interest in exploring different approaches suggests some prior experience."
+    },
+    {
+      "id": "en_toefl_listening_010",
+      "question": "What is the main purpose of the lecture on mitochondrial dysfunction?",
+      "context": "Biology lecture on cellular respiration and energy production",
+      "choices": [
+        "To prove that cellular respiration never fails",
+        "To explain how mitochondrial damage leads to cellular energy deficits and disease",
+        "To argue that mitochondria are not essential to cell function",
+        "To describe how to build artificial mitochondria"
+      ],
+      "answer": 1,
+      "explanation": "Main purpose requires identifying the lecture's core objective: understanding the consequences of mitochondrial problems."
+    },
+    {
+      "id": "en_toefl_listening_011",
+      "question": "According to the lecture, what are the consequences of ATP depletion in cells?",
+      "context": "Professor explains energy-dependent cellular processes and their failure",
+      "choices": [
+        "Increased mitochondrial activity",
+        "Loss of essential cellular functions including ion pumping and protein synthesis",
+        "Improved cellular efficiency",
+        "Increased genetic mutation rates"
+      ],
+      "answer": 1,
+      "explanation": "Detail questions identify specific consequences explicitly explained in the lecture."
+    },
+    {
+      "id": "en_toefl_listening_012",
+      "question": "The professor mentions Leigh syndrome primarily to",
+      "context": "Example of a genetic disorder affecting mitochondrial function",
+      "choices": [
+        "provide entertainment with an interesting anecdote",
+        "illustrate consequences of mitochondrial dysfunction with a specific disease example",
+        "criticize genetic research",
+        "explain how to diagnose genetic diseases"
+      ],
+      "answer": 1,
+      "explanation": "Example purpose questions identify why a specific case is mentioned. Leigh syndrome exemplifies real-world consequences of mitochondrial problems."
+    },
+    {
+      "id": "en_toefl_listening_013",
+      "question": "What is implied about the prevalence of mitochondrial diseases?",
+      "context": "Professor discusses frequency and recognition of mitochondrial disorders",
+      "choices": [
+        "They are extremely common and well-understood",
+        "They are rare and often underdiagnosed because symptoms resemble other conditions",
+        "They affect only specific ethnic groups",
+        "They are becoming less common with modern medicine"
+      ],
+      "answer": 1,
+      "explanation": "Implied information questions require inference. The mention of underdiagnosis implies these diseases occur but aren't always recognized."
+    },
+    {
+      "id": "en_toefl_listening_014",
+      "question": "What does the student's question reveal about their understanding?",
+      "context": "Student asks clarifying question about the relationship between mutations and disease severity",
+      "choices": [
+        "They didn't listen to the lecture",
+        "They understand the basic concept but want clarification about variable expressivity",
+        "They believe all mutations are equally harmful",
+        "They are confused about fundamental genetics"
+      ],
+      "answer": 1,
+      "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked."
+    },
+    {
+      "id": "en_toefl_listening_015",
+      "question": "Which of the following would the professor most likely discuss as a related topic?",
+      "context": "Continuation of mitochondrial biology discussion",
+      "choices": [
+        "The history of microscopy",
+        "Carbohydrate chemistry",
+        "Mitochondrial genetics and heteroplasmy in inheritance",
+        "The discovery of DNA"
+      ],
+      "answer": 2,
+      "explanation": "Prediction questions extend the lecture's logical progression. Genetic inheritance of mitochondrial mutations is a natural continuation."
+    },
+    {
+      "id": "en_toefl_listening_016",
+      "question": "What is the main idea of the conversation?",
+      "context": "Library orientation between librarian and new student",
+      "choices": [
+        "Criticizing the student's research skills",
+        "Introducing library resources and research tools available to students",
+        "Discouraging library use in favor of online sources",
+        "Discussing the history of the university library"
+      ],
+      "answer": 1,
+      "explanation": "Conversation main ideas reflect the purpose and focus of speaker interaction."
+    },
+    {
+      "id": "en_toefl_listening_017",
+      "question": "According to the librarian, what advantage do proprietary databases offer over general search engines?",
+      "context": "Librarian explains research tool advantages",
+      "choices": [
+        "They are faster than search engines",
+        "They contain peer-reviewed academic content and advanced filtering capabilities not available in general searches",
+        "They are easier to use",
+        "They provide entertainment content"
+      ],
+      "answer": 1,
+      "explanation": "Detail questions identify specific information about tool capabilities and advantages."
+    },
+    {
+      "id": "en_toefl_listening_018",
+      "question": "What can be inferred about the student's previous research experience?",
+      "context": "Student's questions and library librarian's recommendations suggest experience level",
+      "choices": [
+        "They have extensive research experience",
+        "They appear to be new to academic research and need foundational guidance",
+        "They only use Google for research",
+        "They have never written a paper"
+      ],
+      "answer": 1,
+      "explanation": "Inference questions assess understanding of context clues suggesting the student is beginning academic research."
+    },
+    {
+      "id": "en_toefl_listening_019",
+      "question": "Why does the librarian stress the importance of citing sources?",
+      "context": "Discussion of academic integrity and citation practices",
+      "choices": [
+        "To make papers longer",
+        "Because it's required by university policy alone",
+        "To acknowledge intellectual property, enable source verification, and maintain academic integrity",
+        "Because it is trendy to cite sources"
+      ],
+      "answer": 2,
+      "explanation": "Reason questions ask for explanation of motivations or justifications provided in the conversation."
+    },
+    {
+      "id": "en_toefl_listening_020",
+      "question": "What is the librarian's attitude toward helping students with research?",
+      "context": "Librarian's tone and expressed availability throughout the conversation",
+      "choices": [
+        "Reluctant and unhelpful",
+        "Enthusiastic and supportive, emphasizing continued availability",
+        "Neutral and detached",
+        "Frustrated with student questions"
+      ],
+      "answer": 1,
+      "explanation": "Attitude questions assess speaker tone. Phrases like 'I'm happy to help' indicate enthusiasm and support."
+    },
+    {
+      "id": "en_toefl_listening_021",
+      "question": "According to the geology lecture, what process is primarily responsible for the formation of sedimentary rocks?",
+      "context": "Lecture on rock formation and geological processes",
+      "choices": [
+        "Volcanic eruption and lava cooling",
+        "Heat and pressure transformation of existing rocks",
+        "Weathering, transport, and compression of sediment particles",
+        "Chemical crystallization from pure solutions"
+      ],
+      "answer": 2,
+      "explanation": "Factual detail questions ask for explicit information from the lecture content."
+    },
+    {
+      "id": "en_toefl_listening_022",
+      "question": "Why does the professor mention the Grand Canyon in the lecture?",
+      "context": "Example of geological layering and fossil record",
+      "choices": [
+        "To discuss tourist attractions",
+        "To provide a vivid example of stratification and geological time recorded in visible rock layers",
+        "To criticize geological tourism",
+        "To explain how rocks are mined"
+      ],
+      "answer": 1,
+      "explanation": "Example purpose questions identify why specific illustrations are used in lectures."
+    },
+    {
+      "id": "en_toefl_listening_023",
+      "question": "What is implied about the age of Earth based on the lecture discussion?",
+      "context": "Professor discusses geological timescales and fossil evidence",
+      "choices": [
+        "Earth is only a few thousand years old",
+        "Earth is millions to billions of years old based on geological evidence",
+        "The age of Earth cannot be determined",
+        "Earth's age is unimportant to geology"
+      ],
+      "answer": 1,
+      "explanation": "Inference questions require combining information about layering, fossilization, and radiometric dating discussed in the lecture."
+    },
+    {
+      "id": "en_toefl_listening_024",
+      "question": "What question does a student ask that reveals their confusion?",
+      "context": "Student asks about the relationship between fossils and mineral composition",
+      "choices": [
+        "A question about how fossils form",
+        "A question about whether fossilization always involves replacement by minerals",
+        "A question about how to identify fossils",
+        "A question criticizing the professor"
+      ],
+      "answer": 1,
+      "explanation": "This question type asks what student questions suggest about understanding or misunderstanding of concepts."
+    },
+    {
+      "id": "en_toefl_listening_025",
+      "question": "The professor's response to the student's question indicates that",
+      "context": "Professor explains different fossilization processes",
+      "choices": [
+        "fossilization occurs through only one process",
+        "most fossils form identically",
+        "multiple distinct fossilization pathways exist, including mineral replacement, permineralization, and others",
+        "the student's question was incorrect"
+      ],
+      "answer": 2,
+      "explanation": "Response analysis questions assess what the professor's answer reveals about the topic."
+    },
+    {
+      "id": "en_toefl_listening_026",
+      "question": "What is the main purpose of the discussion about climate impacts on coral reefs?",
+      "context": "Lecture on marine biology and ecosystem effects of climate change",
+      "choices": [
+        "To entertain with stories about coral reefs",
+        "To explain the mechanisms through which climate change threatens reef ecosystems",
+        "To suggest that coral reefs are not important",
+        "To blame specific nations for climate change"
+      ],
+      "answer": 1,
+      "explanation": "Main purpose questions identify the core educational objective of the lecture segment."
+    },
+    {
+      "id": "en_toefl_listening_027",
+      "question": "According to the professor, what causes coral bleaching?",
+      "context": "Explanation of temperature-stress relationship in coral physiology",
+      "choices": [
+        "Excess nutrients in ocean water",
+        "Increased salinity from precipitation changes",
+        "Rising ocean temperatures stress symbiotic algae, causing them to leave the coral",
+        "Pollution from fishing vessels"
+      ],
+      "answer": 2,
+      "explanation": "Causal mechanism questions ask for explicitly stated reasons for biological phenomena."
+    },
+    {
+      "id": "en_toefl_listening_028",
+      "question": "What can be inferred about the recovery potential of bleached reefs?",
+      "context": "Professor discusses conditions necessary for reef recovery",
+      "choices": [
+        "Bleached reefs always recover completely",
+        "Bleached reefs can recover if temperature stress is relieved before too much damage occurs",
+        "Bleached reefs never recover",
+        "Recovery potential is unrelated to environmental conditions"
+      ],
+      "answer": 1,
+      "explanation": "Inference questions connect explicit information about recovery conditions to implications about recovery potential."
+    },
+    {
+      "id": "en_toefl_listening_029",
+      "question": "Which of the following would the professor most likely discuss next?",
+      "context": "End of coral reef discussion in broader climate change topic",
+      "choices": [
+        "The history of coral reef tourism",
+        "How other marine ecosystems respond to climate change",
+        "Criticism of environmental activists",
+        "The chemistry of seawater"
+      ],
+      "answer": 1,
+      "explanation": "Prediction questions extend the logical flow from one ecosystem discussion to related systems affected by climate change."
+    },
+    {
+      "id": "en_toefl_listening_030",
+      "question": "What is the main topic of the academic discussion between the teaching assistant and students?",
+      "context": "Discussion section on economic policy implications",
+      "choices": [
+        "Personal economic experiences of the discussants",
+        "How proposed economic policies would affect different populations",
+        "Criticism of all government intervention",
+        "Analysis of historical economic data unrelated to policy"
+      ],
+      "answer": 1,
+      "explanation": "Discussion main ideas focus on the central question or topic being analyzed by the group."
+    },
+    {
+      "id": "en_toefl_listening_031",
+      "question": "According to one student's contribution, what unintended consequence might result from the proposed minimum wage increase?",
+      "context": "Students discuss potential economic effects of policy implementation",
+      "choices": [
+        "Reduced government tax revenue",
+        "Businesses reducing hiring or hours, potentially affecting low-skilled workers",
+        "Immediate elimination of all poverty",
+        "Increased international trade"
+      ],
+      "answer": 1,
+      "explanation": "Detail questions identify specific predictions or concerns raised by discussion participants."
+    },
+    {
+      "id": "en_toefl_listening_032",
+      "question": "What is the teaching assistant's role in the discussion?",
+      "context": "TA guides discussion and adds economic context",
+      "choices": [
+        "To present their own opinion as the only correct answer",
+        "To encourage students to consider multiple perspectives and add economic analysis to their reasoning",
+        "To discourage student participation",
+        "To share personal anecdotes"
+      ],
+      "answer": 1,
+      "explanation": "Role questions identify the function a participant serves in the interaction."
+    },
+    {
+      "id": "en_toefl_listening_033",
+      "question": "What can be inferred about different students' economic perspectives?",
+      "context": "Multiple students present differing views on policy impacts",
+      "choices": [
+        "All students agree completely",
+        "Students bring different value systems and assumptions to economic analysis",
+        "Students are uniformly uninformed",
+        "Economic perspective is irrelevant to policy analysis"
+      ],
+      "answer": 1,
+      "explanation": "Inference questions note how different viewpoints in discussion reflect different underlying perspectives or values."
+    },
+    {
+      "id": "en_toefl_listening_034",
+      "question": "How does the teaching assistant respond when students disagree?",
+      "context": "TA's facilitating approach to student disagreement",
+      "choices": [
+        "By dismissing the students raising concerns",
+        "By acknowledging both perspectives and encouraging examination of underlying assumptions",
+        "By making a definitive pronouncement of correct policy",
+        "By changing the subject"
+      ],
+      "answer": 1,
+      "explanation": "Facilitation style questions assess how discussion leaders handle disagreement and diverse viewpoints."
+    },
+    {
+      "id": "en_toefl_listening_035",
+      "question": "What would the teaching assistant likely want students to understand from this discussion?",
+      "context": "Summary and takeaways from economic policy discussion",
+      "choices": [
+        "There is only one correct economic perspective",
+        "Economic policy effects are complex with multiple stakeholders affected differently",
+        "Economics is not worth studying",
+        "Personal anecdotes are more reliable than analysis"
+      ],
+      "answer": 1,
+      "explanation": "Learning objective questions identify what the instructor aims to teach through the discussion."
+    },
+    {
+      "id": "en_toefl_listening_036",
+      "question": "According to the lecture on Roman history, what contributed to the fall of the Western Roman Empire?",
+      "context": "History lecture discussing multiple causes of civilizational decline",
+      "choices": [
+        "A single military defeat",
+        "Multiple factors including economic decline, military pressure, government instability, and internal corruption",
+        "Christian religious conversion alone",
+        "Technological stagnation exclusively"
+      ],
+      "answer": 1,
+      "explanation": "Complex causation questions require students to recognize that major historical events result from multiple interconnected factors."
+    },
+    {
+      "id": "en_toefl_listening_037",
+      "question": "Why does the professor mention the reign of specific emperors?",
+      "context": "Examples of political instability and leadership transitions",
+      "choices": [
+        "To provide entertaining biographical stories",
+        "To illustrate how political instability weakened imperial authority and governance capacity",
+        "To praise or criticize individual rulers",
+        "To fill time in the lecture"
+      ],
+      "answer": 1,
+      "explanation": "Example purpose questions identify why specific historical details are included as illustrations of broader concepts."
+    },
+    {
+      "id": "en_toefl_listening_038",
+      "question": "What is implied about the economic conditions in the later Roman Empire?",
+      "context": "Discussion of fiscal policy, taxation, and inflation",
+      "choices": [
+        "The economy was thriving throughout the period",
+        "Economic systems broke down through debasement of currency, taxation problems, and trade disruption",
+        "Economic factors were irrelevant to imperial decline",
+        "Inflation benefited the empire"
+      ],
+      "answer": 1,
+      "explanation": "Inference questions combine information about monetary policy and economic indicators to assess the state of the economy."
+    },
+    {
+      "id": "en_toefl_listening_039",
+      "question": "What does a student's question reveal about their understanding?",
+      "context": "Student asks about the relationship between military and economic factors",
+      "choices": [
+        "The student didn't listen to the lecture",
+        "The student is beginning to see interconnections between different causes",
+        "The student believes single factors determine history",
+        "The student is challenging the professor"
+      ],
+      "answer": 1,
+      "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked about relationships between concepts."
+    },
+    {
+      "id": "en_toefl_listening_040",
+      "question": "Which topic would the professor most likely discuss next?",
+      "context": "End of Western Roman Empire decline discussion",
+      "choices": [
+        "Greek philosophy",
+        "The nature of the Eastern Roman (Byzantine) Empire and its continuance",
+        "Medieval European politics unrelated to Rome",
+        "Ancient Chinese dynasties"
+      ],
+      "answer": 1,
+      "explanation": "Prediction questions anticipate logical progression from one historical period to a related one."
+    },
+    {
+      "id": "en_toefl_listening_041",
+      "question": "What is the main idea of the environmental science lecture?",
+      "context": "Lecture on eutrophication and aquatic ecosystem degradation",
+      "choices": [
+        "Aquatic ecosystems are naturally resistant to all environmental changes",
+        "Excess nutrients cause complex cascading changes that degrade aquatic environments",
+        "Eutrophication is entirely beneficial",
+        "Aquatic ecosystems don't require protection"
+      ],
+      "answer": 1,
+      "explanation": "Main idea questions identify the central concept organizing the lecture."
+    },
+    {
+      "id": "en_toefl_listening_042",
+      "question": "According to the professor, what triggers the cascade of problems in eutrophic waters?",
+      "context": "Explanation of nutrient overload chain reaction",
+      "choices": [
+        "Excessive temperatures",
+        "Excess nutrient input promotes algal blooms, which die and decompose, depleting oxygen and killing aquatic life",
+        "Introduction of predatory fish",
+        "Changes in water pH"
+      ],
+      "answer": 1,
+      "explanation": "Causal sequence questions track the chain of events explained in the lecture."
+    },
+    {
+      "id": "en_toefl_listening_043",
+      "question": "What is implied about human activities and aquatic ecosystem health?",
+      "context": "Discussion of sources of excess nutrients",
+      "choices": [
+        "Human activities are irrelevant to aquatic systems",
+        "Human activities (agriculture, wastewater) are major contributors to eutrophication",
+        "Aquatic ecosystems are unaffected by human behavior",
+        "Humans have no responsibility for environmental protection"
+      ],
+      "answer": 1,
+      "explanation": "Inference questions connect information about nutrient sources to human responsibility and impact."
+    },
+    {
+      "id": "en_toefl_listening_044",
+      "question": "What prevention strategies does the professor discuss?",
+      "context": "Discussion of approaches to prevent or reduce eutrophication",
+      "choices": [
+        "Strategies are impossible to implement",
+        "Nutrient input reduction, wastewater treatment improvements, and agricultural practice modifications",
+        "Only one prevention approach exists",
+        "Prevention is not worth attempting"
+      ],
+      "answer": 1,
+      "explanation": "Solution question asking for specific strategies or interventions discussed in the lecture."
+    },
+    {
+      "id": "en_toefl_listening_045",
+      "question": "What is the professor's tone regarding environmental solutions?",
+      "context": "Discussion of feasibility and importance of addressing eutrophication",
+      "choices": [
+        "Hopeless and defeatist",
+        "Cautiously optimistic about the possibility of prevention and remediation",
+        "Completely unconcerned",
+        "Dismissive of all solutions"
+      ],
+      "answer": 1,
+      "explanation": "Tone questions assess the speaker's attitude, typically shown through word choice and emphasis."
+    },
+    {
+      "id": "en_toefl_listening_046",
+      "question": "Which of the following best represents what the professor expects students to understand from this lecture?",
+      "context": "Summary comments about ecosystem management implications",
+      "choices": [
+        "Environmental problems have no solutions",
+        "Aquatic ecosystem health requires understanding complex causal relationships and implementing preventive actions",
+        "Individual actions don't matter",
+        "Nature is invulnerable to human impact"
+      ],
+      "answer": 1,
+      "explanation": "Learning objective questions identify what students should take away from the lecture."
+    },
+    {
+      "id": "en_toefl_listening_047",
+      "question": "What is the main topic of the discussion about child language development?",
+      "context": "Psychology discussion section on first language acquisition",
+      "choices": [
+        "Criticizing theories of language development",
+        "Exploring how children acquire language and what cognitive mechanisms enable this rapid learning",
+        "Discussing only grammar rules",
+        "Comparing written and spoken language exclusively"
+      ],
+      "answer": 1,
+      "explanation": "Discussion main topics focus on the central research question or phenomenon under examination."
+    },
+    {
+      "id": "en_toefl_listening_048",
+      "question": "What evidence do discussants cite for the role of innate language mechanisms?",
+      "context": "Students present research showing language learning rates and complexity acquisition",
+      "choices": [
+        "Children learn languages at very different rates",
+        "Children acquire complex grammatical structures surprisingly quickly despite limited exposure and without explicit instruction",
+        "All children learn languages slowly",
+        "Languages are taught through formal instruction only"
+      ],
+      "answer": 1,
+      "explanation": "Evidence questions identify what specific research findings or observations support particular conclusions."
+    },
+    {
+      "id": "en_toefl_listening_049",
+      "question": "How do the discussants address the question of individual variation in language learning?",
+      "context": "Discussion of differences among children despite universal acquisition patterns",
+      "choices": [
+        "They ignore individual differences",
+        "They acknowledge universal principles while recognizing that environmental and individual factors create variation in pace and specific patterns",
+        "They focus only on differences without recognizing universals",
+        "They provide no discussion of variation"
+      ],
+      "answer": 1,
+      "explanation": "Nuance questions assess understanding of how discussants balance universal principles with individual variation."
+    },
+    {
+      "id": "en_toefl_listening_050",
+      "question": "What does the discussion reveal about the relationship between nature and nurture in language development?",
+      "context": "Synthesis discussion of innate mechanisms and environmental interaction",
+      "choices": [
+        "Nature is completely responsible",
+        "Nurture is completely responsible",
+        "Language development results from interaction between innate mechanisms and environmental input",
+        "The question is irrelevant to language learning"
+      ],
+      "answer": 2,
+      "explanation": "Synthesis questions require integrating multiple perspectives discussed to reach a comprehensive understanding."
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+[
+  {
+    "id": "sql_window_functions_001",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "次のクエリの出力結果として正しいものはどれか？\n\nSELECT employee_id, salary,\n       ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn\nFROM employees;\n\n従業員ID: 101, 102, 103, 104の給与がそれぞれ5000, 5000, 4500, 4000の場合",
+    "options": {
+      "A": "ROW_NUMBERは給与が同じ従業員に対して連続した異なる番号を割り当てる",
+      "B": "ROW_NUMBERは給与が同じ従業員に対して同じ番号を割り当てる",
+      "C": "ROW_NUMBERはNULLを返す",
+      "D": "ROW_NUMBERはエラーを発生させる"
+    },
+    "correct": "A",
+    "explanation": "ROW_NUMBER()関数は指定されたORDER BY句に基づいて各行に一意な連序番号を割り当てます。給与が同じ場合でも異なる行番号が割り当てられます（101: 1, 102: 2, 103: 3, 104: 4）。"
+  },
+  {
+    "id": "sql_window_functions_002",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "RANK関数とDENSE_RANK関数の違いについて、最も正確な説明はどれか？",
+    "options": {
+      "A": "RANK関数は同順位の場合はスキップしない。DENSE_RANK関数はスキップする",
+      "B": "RANK関数は同順位でもスキップしない。DENSE_RANK関数は同順位の次の番号をスキップする",
+      "C": "RANK関数は同順位の場合は同じランクを割り当てて次は番号をスキップする。DENSE_RANKはスキップしない",
+      "D": "両者に違いはない。異なる名前で同じ機能を提供する"
+    },
+    "correct": "C",
+    "explanation": "RANK関数で給与5000の従業員が2人いる場合、ランクは1, 1, 3となります（1の次は3）。DENSE_RANK関数では1, 1, 2となります（連続した番号）。"
+  },
+  {
+    "id": "sql_window_functions_003",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリについて、PARTITION BYの役割は何か？\n\nSELECT department_id, employee_id, salary,\n       ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) AS dept_rank\nFROM employees;",
+    "options": {
+      "A": "部門ごとに給与を合計する",
+      "B": "部門ごとに行番号をリセットして独立したウィンドウを作成する",
+      "C": "複数の部門を1つのグループに統合する",
+      "D": "部門ごとにフィルタリングしてデータを削除する"
+    },
+    "correct": "B",
+    "explanation": "PARTITION BYは論理的なウィンドウを分割します。各部門内で独立してROW_NUMBER()が計算され、各部門で1から始まります。"
+  },
+  {
+    "id": "sql_window_functions_004",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリの結果として正しいC列の値は？\n\nSELECT value,\n       SUM(value) OVER (ORDER BY id ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total\nFROM sales\nWHERE id IN (1, 2, 3, 4);\n\nデータ: id 1-100, 2-200, 3-150, 4-250",
+    "options": {
+      "A": "100, 300, 450, 700",
+      "B": "100, 200, 150, 250",
+      "C": "700, 700, 700, 700",
+      "D": "100, 300, 450, 700"
+    },
+    "correct": "D",
+    "explanation": "ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROWはランニング合計を計算します。各行では現在の行までのすべての値が合計されます（100, 100+200=300, 300+150=450, 450+250=700）。"
+  },
+  {
+    "id": "sql_window_functions_005",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "LAG関数とLEAD関数の主な違いはどれか？",
+    "options": {
+      "A": "LAGは前の行を参照し、LEADは後ろの行を参照する",
+      "B": "LAGは後ろの行を参照し、LEADは前の行を参照する",
+      "C": "LAGと LEADは同じ機能である",
+      "D": "LAGはPARTITION BYが必須だが、LEADは不要"
+    },
+    "correct": "A",
+    "explanation": "LAG(column, offset, default) OVER (ORDER BY col)は現在の行より前のオフセット行の値を取得します。LEAD()は現在の行より後ろのオフセット行の値を取得します。"
+  },
+  {
+    "id": "sql_window_functions_006",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "次のOVER句について正しい説明はどれか？\n\nSUM(salary) OVER (PARTITION BY department_id ORDER BY hire_date)",
+    "options": {
+      "A": "部門ごとに給与の合計を計算し、部門内で雇用日順に集約される",
+      "B": "全体の給与合計を計算する",
+      "C": "雇用日が最も古い従業員を検索する",
+      "D": "給与が昇順でソートされる"
+    },
+    "correct": "A",
+    "explanation": "このOVER句は部門ごとにウィンドウを分割し、各部門内で雇用日でソートして合計を計算します。ORDER BYが含まれているため、デフォルトウィンドウフレーム（RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW）が適用されます。"
+  },
+  {
+    "id": "sql_window_functions_007",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING フレーム指定の意味は？",
+    "options": {
+      "A": "現在の行のみを対象とする",
+      "B": "現在の行と前後の行を含む3行を対象とする",
+      "C": "現在の行の前の1行のみを対象とする",
+      "D": "現在の行の後ろの1行のみを対象とする"
+    },
+    "correct": "B",
+    "explanation": "ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING は、現在の行（CURRENT ROW）の前1行、現在の行、後ろ1行の計3行をウィンドウフレームに含めます。"
+  },
+  {
+    "id": "sql_window_functions_008",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリで COUNT(*) OVER()はいくつの値を返すか？\n\nSELECT employee_id, COUNT(*) OVER() AS total_employees\nFROM employees\nWHERE department_id = 10;",
+    "options": {
+      "A": "各行でdepartment_id 10の全従業員数を返す",
+      "B": "各行で1を返す",
+      "C": "全テーブルの行数を返す",
+      "D": "NULLを返す"
+    },
+    "correct": "A",
+    "explanation": "COUNT(*) OVER()にPARTITION BY句がないため、WHERE句で絞られたdepartment_id = 10の全行のカウント値が、各行で同じ値として返されます。"
+  },
+  {
+    "id": "sql_window_functions_009",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "ウィンドウ関数が使用できるクエリのセクションはどれか？",
+    "options": {
+      "A": "WHERE句のみ",
+      "B": "SELECT句のみ",
+      "C": "ORDER BY句のみ",
+      "D": "SELECT, ORDER BY, WHERE句のいずれでも使用できる"
+    },
+    "correct": "B",
+    "explanation": "ウィンドウ関数はSELECT句でのみ使用できます。WHERE句やGROUP BY句では使用できません。WHERE後はウィンドウ関数の計算が完了していないためです。"
+  },
+  {
+    "id": "sql_window_functions_010",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のINTERSECT句とウィンドウ関数を組み合わせたクエリについて正しい説明は？\n\nSELECT employee_id,\n       ROW_NUMBER() OVER (ORDER BY salary DESC) AS rank,\n       PERCENT_RANK() OVER (ORDER BY salary DESC) AS prank\nFROM employees;",
+    "options": {
+      "A": "PERCENT_RANK()は0から1の範囲で相対的なランク位置を返す",
+      "B": "PERCENT_RANK()は整数値のランクを返す",
+      "C": "PERCENT_RANK()はROW_NUMBER()と同じ値を返す",
+      "D": "PERCENT_RANK()はエラーを発生させる"
+    },
+    "correct": "A",
+    "explanation": "PERCENT_RANK()は（ランク-1）/（総行数-1）で計算された0から1の間の値を返します。相対的なランク位置を示します。"
+  },
+  {
+    "id": "sql_window_functions_011",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "RANGE BETWEEN句とROWS BETWEEN句の最も重要な違いは何か？",
+    "options": {
+      "A": "RANGE は論理的な範囲に基づき、ROWS は物理的な行数に基づく",
+      "B": "RANGE は物理的な行数に基づき、ROWS は論理的な範囲に基づく",
+      "C": "RANGE と ROWS に機能的な違いはない",
+      "D": "RANGE は降順、ROWS は昇順でのみ使用可能"
+    },
+    "correct": "A",
+    "explanation": "RANGE BETWEENは値に基づく論理的な範囲を定義します（例：給与5000内）。ROWS BETWEENは物理的な行数を指定します（例：前1行）。"
+  },
+  {
+    "id": "sql_window_functions_012",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "NTH_VALUE(column, n) OVER(...)関数の機能は？",
+    "options": {
+      "A": "ウィンドウ内のn番目の値を返す",
+      "B": "n個の値の合計を返す",
+      "C": "n個の値の平均を返す",
+      "D": "n番目より後ろのすべての値を返す"
+    },
+    "correct": "A",
+    "explanation": "NTH_VALUE(column, n)はウィンドウフレーム内のn番目の行の指定列の値を返します。n番目の行が存在しない場合はNULLが返されます。"
+  },
+  {
+    "id": "sql_window_functions_013",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリにおいて PARTITION BYを追加するとどのような変更が発生するか？\n\nBEF: LAG(salary) OVER (ORDER BY hire_date)\nAFT: LAG(salary) OVER (PARTITION BY department_id ORDER BY hire_date)",
+    "options": {
+      "A": "部門内でのみ前の行の給与を参照するようになる",
+      "B": "全テーブルを通じて前の行の給与を参照する",
+      "C": "部門別の給与合計が計算されるようになる",
+      "D": "エラーが発生する"
+    },
+    "correct": "A",
+    "explanation": "PARTITIONを追加することで、各部門内で独立したウィンドウが作成され、部門内でのみ前の行のデータが参照されるようになります。部門間の遷移では異なる部門の最後の行ではなくNULLが返されます。"
+  },
+  {
+    "id": "sql_window_functions_014",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "CUME_DIST()関数が返す値の範囲は？",
+    "options": {
+      "A": "1から総行数までの整数",
+      "B": "0から1の間の小数値",
+      "C": "常に1を返す",
+      "D": "1から100までのパーセンテージ"
+    },
+    "correct": "B",
+    "explanation": "CUME_DIST()は累積分布を計算し、0より大きく1以下の値を返します。（current row and all rows before it）/（total rows）で計算されます。"
+  },
+  {
+    "id": "sql_window_functions_015",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "次のクエリの実行結果について、最後の値（id=5）のラグは何か？\n\nSELECT id, value,\n       LAG(value, 1, 0) OVER (ORDER BY id) AS prev_value\nFROM data;",
+    "options": {
+      "A": "id=4の値",
+      "B": "0（デフォルト値）",
+      "C": "NULL",
+      "D": "id=1の値"
+    },
+    "correct": "B",
+    "explanation": "LAG(value, 1, 0)の第3引数は前の行が存在しない場合のデフォルト値です。最初の行（id=1）では前の行がないため、デフォルト値の0が返されます。"
+  },
+  {
+    "id": "sql_window_functions_016",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリで FIRST_VALUE()が返す値は何か？\n\nSELECT month, revenue,\n       FIRST_VALUE(revenue) OVER (PARTITION BY year ORDER BY month) AS first_month_revenue\nFROM sales;",
+    "options": {
+      "A": "各年の最初の月の売上高",
+      "B": "各月の最初の日の売上高",
+      "C": "全売上高の最小値",
+      "D": "各個月の売上高"
+    },
+    "correct": "A",
+    "explanation": "FIRST_VALUE()はウィンドウフレーム内の最初の行の指定列の値を返します。PARTITION BY year で各年ごとに分割され、ORDER BY month で最初の月が決定されます。"
+  },
+  {
+    "id": "sql_window_functions_017",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリの最適化について、ウィンドウ関数のパフォーマンスに関するベストプラクティスはどれか？\n\nSELECT employee_id, salary,\n       SUM(salary) OVER (PARTITION BY department_id ORDER BY hire_date \n                         ROWS BETWEEN 10 PRECEDING AND CURRENT ROW) AS running_total\nFROM employees;",
+    "options": {
+      "A": "PARTITION BYとORDER BYの両方を同じ列で指定する",
+      "B": "フレーム句を明示的に指定してスキャン範囲を制限する",
+      "C": "複数のウィンドウ関数を単一のOVER句で実行する",
+      "D": "ウィンドウ関数の代わりに自己結合を使用する"
+    },
+    "correct": "B",
+    "explanation": "明示的なフレーム句を指定することで、スキャンする行の範囲を制限し、パフォーマンスを向上させることができます。UNBOUNDED PRECEDINGは全行をスキャンするため、可能な限り避けるべきです。"
+  },
+  {
+    "id": "sql_window_functions_018",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "ORDER BY句がないOVER()クレーズの動作は？",
+    "options": {
+      "A": "デフォルトで昇順でソートされる",
+      "B": "すべての行が1つのウィンドウになる",
+      "C": "エラーが発生する",
+      "D": "ランダムな順序で処理される"
+    },
+    "correct": "B",
+    "explanation": "ORDER BYなしのOVER句では、PARTITION BYで指定されたグループ内の全行が1つのウィンドウになります（RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING）。"
+  },
+  {
+    "id": "sql_window_functions_019",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリについて、複数のウィンドウ関数の計算順序について正しいのはどれか？\n\nSELECT id, value,\n       ROW_NUMBER() OVER (ORDER BY id) AS rn,\n       SUM(value) OVER (ORDER BY id ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS running_sum\nFROM data;",
+    "options": {
+      "A": "ROW_NUMBERが先に計算され、その結果がSUMに使用される",
+      "B": "SUMが先に計算され、その結果がROW_NUMBERに使用される",
+      "C": "両方が独立して計算される",
+      "D": "計算順序は不定で、実装に依存する"
+    },
+    "correct": "C",
+    "explanation": "複数のウィンドウ関数は独立して計算されます。同じOVER句を持つ場合は効率的に一度のスキャンで計算される可能性がありますが、相互に依存することはありません。"
+  },
+  {
+    "id": "sql_window_functions_020",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "クエリ内で複数の異なるOVER句を使用する場合、パフォーマンスへの影響について正しいのはどれか？",
+    "options": {
+      "A": "異なるOVER句のたびにテーブル全体をスキャンするため、パフォーマンスが低下する",
+      "B": "OVERの個数に関わらずパフォーマンスに影響しない",
+      "C": "異なるPARTITION BYやORDER BYは追加のソートを実行するため、パフォーマンスが低下する",
+      "D": "最初のOVERの実行後、キャッシュされ2番目以降は高速"
+    },
+    "correct": "C",
+    "explanation": "異なるPARTITION BY、ORDER BY、フレーム句を持つウィンドウ関数は、各々独立してソートやスキャンが必要になり、クエリのコストが増加します。可能な限り同じOVER句を再利用することが推奨されます。"
+  },
+  {
+    "id": "sql_window_functions_021",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリの出力について、予想される結果は何か？\n\nSELECT quarter, sales,\n       LAG(sales, 1) OVER (ORDER BY quarter) AS prev_quarter_sales,\n       LEAD(sales, 1) OVER (ORDER BY quarter) AS next_quarter_sales\nFROM quarterly_sales\nWHERE year = 2024;",
+    "options": {
+      "A": "各四半期の売上と前後の四半期のデータが表示される",
+      "B": "LAGとLEADは同じ値を返すため、3列は同じ値",
+      "C": "prev_quarter_salesとnext_quarter_salesはどちらもNULL",
+      "D": "prev_quarter_salesのみNULLになり、next_quarter_salesは値を持つ"
+    },
+    "correct": "A",
+    "explanation": "各行に対して、LAGは該当四半期の前の四半期のデータ、LEADは次の四半期のデータが表示されます。最初の行のLAGはNULL、最後の行のLEADはNULLになります。"
+  },
+  {
+    "id": "sql_window_functions_022",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "AVG()をウィンドウ関数として使用する場合の構文は？",
+    "options": {
+      "A": "AVG(column) OVER (PARTITION BY col)",
+      "B": "AVERAGE(column) OVER (PARTITION BY col)",
+      "C": "AVG OVER (column PARTITION BY col)",
+      "D": "OVER AVG(column) PARTITION BY col"
+    },
+    "correct": "A",
+    "explanation": "ウィンドウ関数として使用されるAVG()の構文はAVG(column) OVER (window_specification)です。他のフォーマットはすべて構文エラーです。"
+  },
+  {
+    "id": "sql_window_functions_023",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリの結果として、employee 101とemployee 102が同じdepartmentで同じsalaryの場合、RANKの値は？\n\nSELECT employee_id, salary,\n       RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) AS rank\nFROM employees;",
+    "options": {
+      "A": "両方とも1",
+      "B": "101は1、102は2",
+      "C": "両方とも1、次の異なる給与は3",
+      "D": "101は1、102は3"
+    },
+    "correct": "C",
+    "explanation": "RANK関数は同一の値に対して同じランクを付与し、次のランクは付与されたランク数だけスキップされます。同じランク1の次は3になります。"
+  },
+  {
+    "id": "sql_window_functions_024",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "DENSE_RANKの同じシナリオでの結果は？",
+    "options": {
+      "A": "両方とも1",
+      "B": "101は1、102は2",
+      "C": "両方とも1、次の異なる給与は2",
+      "D": "101は1、102は3"
+    },
+    "correct": "C",
+    "explanation": "DENSE_RANK関数は同一の値に対して同じランクを付与し、次のランクはランク番号を連続させます。同じランク1の次は2になります（3ではない）。"
+  },
+  {
+    "id": "sql_window_functions_025",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで、部門ごとの給与ランキングを取得し、上位3名の従業員を抽出する場合、最も効率的な方法は？",
+    "options": {
+      "A": "ROW_NUMBERで行番号を付けてWHERE句で1～3をフィルタリング",
+      "B": "RANKで順位を付けてWHERE句で1～3をフィルタリング",
+      "C": "DENSE_RANKで順位を付けてWHERE句で1～3をフィルタリング",
+      "D": "全員の給与を計算してLIMITで3件取得"
+    },
+    "correct": "A",
+    "explanation": "同じ給与の従業員がいる場合、ROW_NUMBERは1～3の正確に3名を返します。RANKやDENSE_RANKでは同じランクの場合、3名以上の結果が返される可能性があります。"
+  },
+  {
+    "id": "sql_window_functions_026",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "NULLS FIRST/NULLS LASTの役割は？",
+    "options": {
+      "A": "NULLをウィンドウから除外する",
+      "B": "ORDER BY句内でNULLの並び順を制御する",
+      "C": "ウィンドウの最初と最後の行を示す",
+      "D": "NULLフレームを作成する"
+    },
+    "correct": "B",
+    "explanation": "NULLS FIRST/NULLS LASTはORDER BY句でNULLを含む列をソートする時に、NULLの位置を制御します。NULLS FIRSTは最初に、NULLS LASTは最後に配置されます。"
+  },
+  {
+    "id": "sql_window_functions_027",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のウィンドウ関数で、前月比の売上増加率を計算するのに最適な方法はどれか？",
+    "options": {
+      "A": "LAG関数で前月の売上を取得し、差分を計算",
+      "B": "LEAD関数で前月の売上を取得し、差分を計算",
+      "C": "ROW_NUMBERで各月にランクを付けて差分を計算",
+      "D": "RANK関数を使用して増加率を計算"
+    },
+    "correct": "A",
+    "explanation": "LAG関数は前の行（前月）の値を取得するため、前月比を計算する場合に最適です。LEAD関数は次の月のデータを参照するため、前月比計算には不向きです。"
+  },
+  {
+    "id": "sql_window_functions_028",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "RANGE BETWEENを使用する場合、ORDER BYの列がどのような値であっても機能するか？",
+    "options": {
+      "A": "すべての値の型で機能する",
+      "B": "数値とDATE/TIMESTAMP型でのみ機能する",
+      "C": "文字列型では使用不可",
+      "D": "型に関わらず機能するが、パフォーマンスは低下"
+    },
+    "correct": "B",
+    "explanation": "RANGE BETWEENは値の範囲を指定するため、数値型またはDATE/TIMESTAMP型のような計算可能な型が必要です。文字列型ではROWSフレームを使用する必要があります。"
+  },
+  {
+    "id": "sql_window_functions_029",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで複数の部門での給与の累積分布を計算する場合、正しいアプローチはどれか？",
+    "options": {
+      "A": "CUME_DIST() OVER (ORDER BY salary)",
+      "B": "CUME_DIST() OVER (PARTITION BY department_id ORDER BY salary)",
+      "C": "PERCENT_RANK() OVER (PARTITION BY department_id ORDER BY salary)",
+      "D": "BおよびCの両方"
+    },
+    "correct": "B",
+    "explanation": "部門ごとの累積分布は、各部門内で独立して計算する必要があります。PARTITION BY department_idを使用することで、各部門内での累積分布が正確に計算されます。"
+  },
+  {
+    "id": "sql_window_functions_030",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "次のクエリの出力形式について、SELECT句で複数のウィンドウ関数を指定した場合の結果は？",
+    "options": {
+      "A": "複数の結果セットが返される",
+      "B": "単一の結果セットで複数列が返される",
+      "C": "最初のウィンドウ関数の結果のみが返される",
+      "D": "エラーが発生する"
+    },
+    "correct": "B",
+    "explanation": "SELECT句に複数のウィンドウ関数がある場合、単一の結果セットで複数の列が返されます。各列は対応するウィンドウ関数の計算結果です。"
+  },
+  {
+    "id": "sql_window_functions_031",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "UNBOUNDED PRECEDING から CURRENT ROW までのフレーム指定で計算された SUM が、新しい行が追加されるたびに増加する機能は何と呼ばれるか？",
+    "options": {
+      "A": "ウィンドウフレーム",
+      "B": "ランニング合計",
+      "C": "累積計算",
+      "D": "BおよびC"
+    },
+    "correct": "D",
+    "explanation": "ランニング合計と累積計算は同義語で、UNBOUNDED PRECEDINGからCURRENT ROWまでのウィンドウフレームを使用して実装されます。"
+  },
+  {
+    "id": "sql_window_functions_032",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のシナリオで、各従業員が部門平均給与の何パーセント以上の給与を得ているかを計算する場合、使用すべきウィンドウ関数は？",
+    "options": {
+      "A": "AVG(salary) OVER (PARTITION BY department_id) とLAG()",
+      "B": "AVG(salary) OVER (PARTITION BY department_id) のみ",
+      "C": "PERCENT_RANK() OVER (PARTITION BY department_id ORDER BY salary)",
+      "D": "CUME_DIST() OVER (PARTITION BY department_id ORDER BY salary)"
+    },
+    "correct": "B",
+    "explanation": "各従業員の給与を部門平均で割ることで、パーセンテージを計算できます。AVG(salary) OVER (PARTITION BY department_id)で部門内の平均を各行で取得できるため、これだけで充分です。"
+  },
+  {
+    "id": "sql_window_functions_033",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "複数のORDER BY列をウィンドウ関数で指定する場合、結果にどのような影響があるか？",
+    "options": {
+      "A": "最初のORDER BY列のみが使用される",
+      "B": "すべてのORDER BY列が階層的に評価される",
+      "C": "複数のORDER BY列は許可されていない",
+      "D": "エラーが発生する"
+    },
+    "correct": "B",
+    "explanation": "複数のORDER BY列を指定すると、列が階層的に評価されます。最初の列で同じ値の場合、次の列でソートされます。"
+  },
+  {
+    "id": "sql_window_functions_034",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "ウィンドウ関数で IGNORE NULLS オプションの役割は何か？",
+    "options": {
+      "A": "NULLを0として扱う",
+      "B": "LAG/LEAD時にNULLをスキップして前/後ろの非NULL値を取得",
+      "C": "NULLを含むウィンドウを除外",
+      "D": "NULLはそのまま含まれる"
+    },
+    "correct": "B",
+    "explanation": "IGNORE NULLS オプション（LAG/LEADで使用可能）は、NULL値をスキップして最初の非NULL値を参照します。"
+  },
+  {
+    "id": "sql_window_functions_035",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで、各学生の成績の学年内ランクを取得し、同一成績の場合は同じランクを与える最適な方法は？",
+    "options": {
+      "A": "ROW_NUMBER() OVER (PARTITION BY grade ORDER BY score DESC)",
+      "B": "RANK() OVER (PARTITION BY grade ORDER BY score DESC)",
+      "C": "DENSE_RANK() OVER (PARTITION BY grade ORDER BY score DESC)",
+      "D": "BまたはCのどちらでも同じ結果"
+    },
+    "correct": "B",
+    "explanation": "同一成績に同じランクを与える場合、RANKまたはDENSE_RANKが使用できます。ランク番号をスキップするかどうかが異なります。通常、このシナリオではRANKが使用されます。"
+  },
+  {
+    "id": "sql_window_functions_036",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "ウィンドウ関数の計算過程について、ORDER BYが指定されていない場合のデフォルトウィンドウフレームは？",
+    "options": {
+      "A": "RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING",
+      "B": "ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+      "C": "RANGE BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING",
+      "D": "フレーム指定がない場合"
+    },
+    "correct": "A",
+    "explanation": "ORDER BYが指定されていないウィンドウ関数のデフォルトフレームは、RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWINGで、すべての行が1つのウィンドウになります。"
+  },
+  {
+    "id": "sql_window_functions_037",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "ORDER BYが指定されている場合のデフォルトウィンドウフレームは？",
+    "options": {
+      "A": "RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING",
+      "B": "ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+      "C": "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+      "D": "フレーム指定がない場合"
+    },
+    "correct": "C",
+    "explanation": "ORDER BYが指定されている場合、デフォルトフレームは RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROWです。これにより、現在の行までの値が累積されます。"
+  },
+  {
+    "id": "sql_window_functions_038",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のビジネスケースで、各月の売上が前月比で増加か減少かを判定するクエリを作成する際、最適なウィンドウ関数の組み合わせは？",
+    "options": {
+      "A": "LAG()で前月データを取得し、比較演算子で判定",
+      "B": "LEAD()で次月データを取得し、比較演算子で判定",
+      "C": "ROW_NUMBER()とCASE式で判定",
+      "D": "RANK()で順位を付けて判定"
+    },
+    "correct": "A",
+    "explanation": "現在の月の売上と前月の売上を比較するため、LAG()で前月のデータを取得し、CASE式で増減を判定するのが最適です。"
+  },
+  {
+    "id": "sql_window_functions_039",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "複数のウィンドウ関数で異なるORDER BY方向（昇順と降順）を指定する場合の注意点は？",
+    "options": {
+      "A": "許可されない、エラーが発生する",
+      "B": "許可されるが、パフォーマンスに影響がある",
+      "C": "許可されるが、結果が予測困難",
+      "D": "許可されず、同一のORDER BY方向を使用する必要がある"
+    },
+    "correct": "B",
+    "explanation": "異なるORDER BY方向を複数のウィンドウ関数で指定することは許可されていますが、各々異なるソート操作が必要になるため、パフォーマンスが低下します。"
+  },
+  {
+    "id": "sql_window_functions_040",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで、過去12ヶ月の移動平均売上を計算する場合、正しいウィンドウフレームは？",
+    "options": {
+      "A": "ROWS BETWEEN 12 PRECEDING AND CURRENT ROW",
+      "B": "ROWS BETWEEN 11 PRECEDING AND CURRENT ROW",
+      "C": "RANGE BETWEEN 12 PRECEDING AND CURRENT ROW",
+      "D": "ROWS BETWEEN 1 PRECEDING AND 11 FOLLOWING"
+    },
+    "correct": "A",
+    "explanation": "過去12ヶ月の移動平均は、現在の月を含めて過去12ヶ月分です。つまり、現在の行から12行前までを含めるため、ROWS BETWEEN 12 PRECEDING AND CURRENT ROWになります。"
+  },
+  {
+    "id": "sql_window_functions_041",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "基礎",
+    "question": "FIRST_VALUE()とLAST_VALUE()の動作について、デフォルトウィンドウフレームが指定されていない場合の違いは？",
+    "options": {
+      "A": "FIRST_VALUEはパーティション内の最初の値、LAST_VALUEは最後の値を返す",
+      "B": "ORDER BY がある場合、LAST_VALUE()は現在の行を返す可能性がある",
+      "C": "両者は同じ機能",
+      "D": "動作は不定"
+    },
+    "correct": "B",
+    "explanation": "ORDER BYが指定されている場合、デフォルトフレームは RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROWです。LAST_VALUE()は現在の行を返すため、パーティション内の最後の値を取得するには、フレームを明示的に指定する必要があります。"
+  },
+  {
+    "id": "sql_window_functions_042",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のクエリで、部門内で給与が高い順に従業員をランク付けする場合、同じ給与の従業員がいると複数の結果となる可能性がある関数は？",
+    "options": {
+      "A": "ROW_NUMBER()",
+      "B": "RANK()",
+      "C": "DENSE_RANK()",
+      "D": "BおよびC"
+    },
+    "correct": "D",
+    "explanation": "RANK()とDENSE_RANK()は同じ給与に同じランクを付与するため、複数の従業員が同じランクになる可能性があります。ROW_NUMBER()は必ず一意の番号を割り当てます。"
+  },
+  {
+    "id": "sql_window_functions_043",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで、各顧客の購入有効期間中の累積購買額を計算する場合、正しいウィンドウ指定は？",
+    "options": {
+      "A": "SUM(amount) OVER (PARTITION BY customer_id ORDER BY purchase_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)",
+      "B": "SUM(amount) OVER (PARTITION BY customer_id ORDER BY purchase_date)",
+      "C": "SUM(amount) OVER (ORDER BY purchase_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)",
+      "D": "AおよびB（両者は同じ結果）"
+    },
+    "correct": "D",
+    "explanation": "PARTITION BY customer_id で各顧客ごとにウィンドウを分割し、ORDER BY purchase_dateで購入日順にソートします。ORDER BYがある場合、デフォルトフレームが UNBOUNDED PRECEDINGからCURRENT ROWになるため、両者の結果は同じです。"
+  },
+  {
+    "id": "sql_window_functions_044",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "NTILE(n) 関数の機能は？",
+    "options": {
+      "A": "行をn個の等しい背の盛部分に分割しバケット番号を返す",
+      "B": "n番目の最大値を返す",
+      "C": "n番目の最小値を返す",
+      "D": "n行の合計を返す"
+    },
+    "correct": "A",
+    "explanation": "NTILE(n)は、ウィンドウをn個の等しい大きさのバケットに分割し、各行がどのバケットに属するかの番号（1からnまで）を返します。四分位数（n=4）やデシル（n=10）を計算するのに便利です。"
+  },
+  {
+    "id": "sql_window_functions_045",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで、全従業員を給与で20%ごとの5つグループに分け、各従業員のグループを表示する場合、使用する関数は？",
+    "options": {
+      "A": "NTILE(5) OVER (ORDER BY salary DESC)",
+      "B": "NTILE(20) OVER (ORDER BY salary DESC)",
+      "C": "PERCENT_RANK() OVER (ORDER BY salary DESC)",
+      "D": "CUME_DIST() OVER (ORDER BY salary DESC)"
+    },
+    "correct": "A",
+    "explanation": "従業員を給与で20%ごとに分ける（＝5グループ）場合、NTILE(5)を使用します。NTILE(20)は100%を20個に分割するため、不適切です。"
+  },
+  {
+    "id": "sql_window_functions_046",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "次のケースで、各カテゴリ内で売上が3番目に高い商品を抽出する場合、ROW_NUMBER()を使用する際の注意点は何か？",
+    "options": {
+      "A": "ROW_NUMBERはすべての値を返すため、直接使用可能",
+      "B": "同一売上の商品がある場合、3番目とは限らない可能性がある",
+      "C": "ROW_NUMBERは使用不可、RANK()またはDENSE_RANK()を使用すべき",
+      "D": "エラーが発生する"
+    },
+    "correct": "B",
+    "explanation": "ROW_NUMBER()は各行に一意な番号を割り当てるため、同一売上の複数商品がある場合、3番目として複数の商品が返される可能性があります。「3番目に高い売上」の定義に応じてRANK()またはDENSE_RANK()の使用を検討すべきです。"
+  },
+  {
+    "id": "sql_window_functions_047",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のクエリで、各従業員の給与が部門内でどの四分位に属するかを計算する場合、正しい方法は？",
+    "options": {
+      "A": "NTILE(4) OVER (PARTITION BY department_id ORDER BY salary)",
+      "B": "CUME_DIST() * 4 OVER (PARTITION BY department_id ORDER BY salary)",
+      "C": "PERCENT_RANK() * 100 OVER (PARTITION BY department_id ORDER BY salary)",
+      "D": "DENSE_RANK() OVER (PARTITION BY department_id ORDER BY salary)"
+    },
+    "correct": "A",
+    "explanation": "各従業員を給与で4つの四分位に分ける場合、NTILE(4) OVER (PARTITION BY department_id ORDER BY salary)を使用します。各従業員が1～4のいずれかの四分位番号を取得します。"
+  },
+  {
+    "id": "sql_window_functions_048",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "複数のウィンドウ関数を効率的に組み合わせる場合、パフォーマンス最適化で推奨されるアプローチは？",
+    "options": {
+      "A": "各ウィンドウ関数を別々のクエリで実行して結合",
+      "B": "可能な限り同じ PARTITION BY と ORDER BY を使用して複数のウィンドウ関数を組み合わせ",
+      "C": "複数のウィンドウ関数より集約関数とGROUP BYを使用",
+      "D": "ウィンドウ関数は避けて自己結合を使用"
+    },
+    "correct": "B",
+    "explanation": "同じPARTITION BYおよびORDER BYを持つウィンドウ関数は、同じソートパス内で計算できるため、パフォーマンスが向上します。複数のウィンドウ関数でソート条件が異なると、追加のソート処理が必要になります。"
+  },
+  {
+    "id": "sql_window_functions_049",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "中級",
+    "question": "ウィンドウ関数の結果がメモリに保持される場合、クエリパフォーマンスに関する注意点は何か？",
+    "options": {
+      "A": "大規模データセットでは追加のメモリが必要になる可能性がある",
+      "B": "メモリ使用量が増加すると、ディスク一時領域が使用される可能性がある",
+      "C": "ネットワーク帯域幅が影響を受ける",
+      "D": "AおよびB"
+    },
+    "correct": "D",
+    "explanation": "ウィンドウ関数は全行をメモリに保持する必要があるため、大規模データセットでは追加メモリが必要になります。メモリが不足する場合、ディスク一時領域を使用することになり、パフォーマンスが低下します。"
+  },
+  {
+    "id": "sql_window_functions_050",
+    "genre": "ウィンドウ関数・分析関数",
+    "exam": "SQL",
+    "level": "応用",
+    "question": "次のシナリオで、各部門の給与中央値を全従業員のレコードに表示する場合、最適なウィンドウ関数アプローチは？",
+    "options": {
+      "A": "MEDIAN()関数をウィンドウ関数として使用",
+      "B": "PERCENTILE_CONT(0.5) OVER (PARTITION BY department_id)",
+      "C": "NTILE(2) OVER (PARTITION BY department_id ORDER BY salary) で最初と次のグループの境界を手動検出",
+      "D": "GROUP BYで計算した結果を別途JOINする"
+    },
+    "correct": "B",
+    "explanation": "部門ごとの給与中央値(50パーセンタイル)をウィンドウ関数で取得する場合、PERCENTILE_CONT(0.5) OVER (PARTITION BY department_id)が最適です。MEDIAN()がない場合、PERCENTILE_CONT(0.5)で中央値を計算できます。"
+  }
+]

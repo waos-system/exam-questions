@@ -1,0 +1,606 @@
+{
+  "genre": "データサイエンス",
+  "exam": "Python",
+  "questions": [
+    {
+      "id": "python_data_science_001",
+      "question": "NumPyの利点として最も重要なものはどれか。",
+      "choices": [
+        "グラフィックス処理",
+        "ベクトル化演算による高速な数値計算",
+        "Webアプリケーション開発",
+        "自然言語処理専用"
+      ],
+      "answer": 1,
+      "explanation": "NumPyはベクトル化演算でPythonループより100-1000倍高速。科学計算の基盤。"
+    },
+    {
+      "id": "python_data_science_002",
+      "question": "NumPy配列作成の違いで正しいものはどれか。",
+      "choices": [
+        "np.array()とnp.zeros()は同じ",
+        "np.array()は既存データから、np.zeros()は0初期化配列",
+        "np.zeros()はランダム値",
+        "np.array()は2次元のみ"
+      ],
+      "answer": 1,
+      "explanation": "np.array()はリスト等から配列変換。np.zeros(shape)は指定形状の0行列作成。"
+    },
+    {
+      "id": "python_data_science_003",
+      "question": "NumPy配列のブロードキャストとは何か。",
+      "choices": [
+        "配列を放送する",
+        "異なる形状の配列を自動的に互換形状に拡張",
+        "要素を重複",
+        "並行処理"
+      ],
+      "answer": 1,
+      "explanation": "ブロードキャストは(3,)と(3,1)のような形状差を自動解決。NumPyの強力な機能。"
+    },
+    {
+      "id": "python_data_science_004",
+      "question": "NumPy配列のインデックスで正しいものはどれか。",
+      "choices": [
+        "arr[1,2]は1次元、2項目",
+        "arr[1,2]は2次元、(1,2)位置",
+        "arr[1,2]は不正",
+        "インデックスは文字列のみ"
+      ],
+      "answer": 1,
+      "explanation": "arr[i,j]で2次元配列のi行j列を指定。arr[i:j,k:l]でスライス。"
+    },
+    {
+      "id": "python_data_science_005",
+      "question": "ファンシーインデックス(Fancy Indexing)の説明として正しいものはどれか。",
+      "choices": [
+        "インデックスの複雑化",
+        "配列でインデックス指定し、複数行/列を一度に選択",
+        "インデックスの暗号化",
+        "リピートのみ"
+      ],
+      "answer": 1,
+      "explanation": "arr[[0,2,4]]で非連続な行を一度に取得。arr[:,[1,3]]で列選択。"
+    },
+    {
+      "id": "python_data_science_006",
+      "question": "Pandas DataFrameとSeriesの関係で正しいものはどれか。",
+      "choices": [
+        "DataFrameはSeriesの集合",
+        "Seriesは1次元、DataFrameは2次元データ構造",
+        "同じもの",
+        "SeriesはDataFrameに含まれない"
+      ],
+      "answer": 1,
+      "explanation": "DataFrameは複数のSeriesを列として持つ。Seriesは単一の名前付き列。"
+    },
+    {
+      "id": "python_data_science_007",
+      "question": "DataFrame.loc[]とiloc[]の違いはどれか。",
+      "choices": [
+        "同じ",
+        "loc[]はラベルベース、iloc[]は整数位置ベース",
+        "loc[]は位置、iloc[]はラベル",
+        "iloc[]は使わない"
+      ],
+      "answer": 1,
+      "explanation": "df.loc['row', 'col']でラベル指定。df.iloc[0,1]で整数位置指定。"
+    },
+    {
+      "id": "python_data_science_008",
+      "question": "DataFrameから複数列を選択する方法として正しいものはどれか。",
+      "choices": [
+        "df['col1']",
+        "df[['col1', 'col2']]",
+        "df.col1",
+        "df.select()"
+      ],
+      "answer": 1,
+      "explanation": "df[['col1','col2']]でリストを渡すと複数列選択。df['col1']は単一列。"
+    },
+    {
+      "id": "python_data_science_009",
+      "question": "DataFrameのfilterメソッドの主な用途は？",
+      "choices": [
+        "列名フィルタリング",
+        "列名でブール選択",
+        "値のフィルタリング",
+        "削除"
+      ],
+      "answer": 1,
+      "explanation": "df.filter(like='name')で'name'を含む列選択。df[df['col']>0]で値でフィルタ。"
+    },
+    {
+      "id": "python_data_science_010",
+      "question": "欠損値(NaN/None)を検出する方法として正しいものはどれか。",
+      "choices": [
+        "df.check_null()",
+        "df.isnull()またはdf.isna()",
+        "df.empty",
+        "df.validate()"
+      ],
+      "answer": 1,
+      "explanation": "df.isnull()またはdf.isna()でNaN値をTrueで返すブール配列取得。"
+    },
+    {
+      "id": "python_data_science_011",
+      "question": "dropna()メソッドの効果は？",
+      "choices": [
+        "NaN値をNoneに変更",
+        "NaN値を含む行を削除",
+        "NaN値を0で埋める",
+        "NaN値をカウント"
+      ],
+      "answer": 1,
+      "explanation": "df.dropna()はNaN含む行を削除。df.dropna(how='all')は全NaN行のみ削除。"
+    },
+    {
+      "id": "python_data_science_012",
+      "question": "欠損値をフォワードフィルで埋める場合のメソッドは？",
+      "choices": [
+        "df.fill()",
+        "df.fillna(method='ffill')またはdf.ffill()",
+        "df.forward_fill()",
+        "df.impute()"
+      ],
+      "answer": 1,
+      "explanation": "df.ffill()は直前の値で埋める。df.bfill()は直後の値で埋める。"
+    },
+    {
+      "id": "python_data_science_013",
+      "question": "df.groupby('col')の実行後、ブール式を通すには？",
+      "choices": [
+        "直接フィルタ",
+        ".filter()メソッドで条件指定",
+        ".apply()",
+        ".transform()"
+      ],
+      "answer": 1,
+      "explanation": "df.groupby('col').filter(lambda x: len(x)>2)で対象グループ抽出。"
+    },
+    {
+      "id": "python_data_science_014",
+      "question": "groupby().agg()で複数の集計関数を適用する方法は？",
+      "choices": [
+        "agg('sum')",
+        "agg(['sum', 'mean', 'count'])",
+        "agg()+agg()",
+        "複数適用不可"
+      ],
+      "answer": 1,
+      "explanation": "df.groupby('col').agg(['sum','mean','count'])で複数集計。"
+    },
+    {
+      "id": "python_data_science_015",
+      "question": "named aggregationの目的は？",
+      "choices": [
+        "グループ名指定",
+        "集計結果の列名を明示的に指定",
+        "グループ数えのみ",
+        "インデックス変更"
+      ],
+      "answer": 1,
+      "explanation": "agg(sum_val=('amount','sum'), avg_val=('amount','mean'))で結果列名制御。"
+    },
+    {
+      "id": "python_data_science_016",
+      "question": "df.merge()での内部結合(inner join)の説明として正しいものはどれか。",
+      "choices": [
+        "全行を保持",
+        "両方に存在するキーの行のみ",
+        "左側のみ保持",
+        "右側のみ保持"
+      ],
+      "answer": 1,
+      "explanation": "how='inner'は両DataFrameで共通キーの行のみ。how='outer'で全行保持。"
+    },
+    {
+      "id": "python_data_science_017",
+      "question": "左結合(left join)の動作として正しいものはどれか。",
+      "choices": [
+        "右に存在しない行は削除",
+        "左の全行+右の一致行。不一致は右列NaN",
+        "ランダム選択",
+        "行の削除なし"
+      ],
+      "answer": 1,
+      "explanation": "how='left'は左の全行保持。右に一致なければNaN埋め。"
+    },
+    {
+      "id": "python_data_science_018",
+      "question": "複数列でのマージの指定方法は？",
+      "choices": [
+        "on='col'",
+        "on=['col1','col2']",
+        "keys=['col1','col2']",
+        "両方正しい場合もある"
+      ],
+      "answer": 1,
+      "explanation": "pd.merge(df1, df2, on=['col1','col2'])で複数キー指定。"
+    },
+    {
+      "id": "python_data_science_019",
+      "question": "DatetimeIndexの利点は？",
+      "choices": [
+        "ラベル編集のみ",
+        "時間ベースのスライス、インデックス参照、リサンプリング",
+        "スピード向上のみ",
+        "メモリ削減"
+      ],
+      "answer": 1,
+      "explanation": "df.set_index(pd.to_datetime(df['date']))でDatetimeIndex設定。'2020':'2021'でスライス。"
+    },
+    {
+      "id": "python_data_science_020",
+      "question": "resample()の主な用途は？",
+      "choices": [
+        "データ削除",
+        "時系列のリサンプリング(頻度変更)。UPサンプリング、DOWNサンプリング",
+        "ランダムサンプリング",
+        "複製"
+      ],
+      "answer": 1,
+      "explanation": "df.resample('D').sum()で日仕集計。df.resample('H').mean()で時間平均。"
+    },
+    {
+      "id": "python_data_science_021",
+      "question": "shift()メソッドのシナリオは？",
+      "choices": [
+        "値をソート",
+        "行を上下にシフト。時間差特性の計算",
+        "列の名前変更",
+        "値の削除"
+      ],
+      "answer": 1,
+      "explanation": "df['prev']=df['value'].shift(1)で前行値を取得。diff()=shift変化を計算。"
+    },
+    {
+      "id": "python_data_science_022",
+      "question": "rolling()で移動平均を計算する方法は？",
+      "choices": [
+        "df.rolling(window=7).sum()",
+        "df.rolling(window=7).mean()",
+        "df.rolling(window=7).max()",
+        "全て可能"
+      ],
+      "answer": 3,
+      "explanation": "rolling(window=7)で7期間移動ウィンドウ。sum/mean/max/min等適用可。"
+    },
+    {
+      "id": "python_data_science_023",
+      "question": "pivot_table()での集計列指定は？",
+      "choices": [
+        "columns='col'",
+        "values='col', aggfunc='sum'",
+        "agg='col'",
+        "group_by='col'"
+      ],
+      "answer": 1,
+      "explanation": "pd.pivot_table(df, values='amount', index='date', columns='category', aggfunc='sum')"
+    },
+    {
+      "id": "python_data_science_024",
+      "question": "外れ値(outlier)検出の簡易方法は？",
+      "choices": [
+        "手視による確認",
+        "IQR(四分位範囲)を使用。Q1-1.5*IQRより小または大での判定",
+        "全て外れ値",
+        "統計検定のみ"
+      ],
+      "answer": 1,
+      "explanation": "Q1=df['col'].quantile(0.25)。外れ値:df['col']> Q3+1.5*IQRなど。"
+    },
+    {
+      "id": "python_data_science_025",
+      "question": "describe()メソッドが返す統計情報として正しいものはどれか。",
+      "choices": [
+        "最小値のみ",
+        "count,mean,std,min,25%,50%,75%,max",
+        "平均のみ",
+        "データ型のみ"
+      ],
+      "answer": 1,
+      "explanation": "df.describe()で数値列の8個統計量(count,mean,std,min,quartiles,max)。"
+    },
+    {
+      "id": "python_data_science_026",
+      "question": "df.info()の出力内容で重要なものはどれか。",
+      "choices": [
+        "データ値確認",
+        "列名、データ型、非Null数、メモリ使用量",
+        "グラフ表示",
+        "外れ値のみ"
+      ],
+      "answer": 1,
+      "explanation": "df.info()は列情報、Nullカウント、dtypeを表示。データ品質初期確認に有用。"
+    },
+    {
+      "id": "python_data_science_027",
+      "question": "correlation(相関)計算の目的は？",
+      "choices": [
+        "標準化",
+        "変数間の線形関係の強度測定",
+        "集約",
+        "削除"
+      ],
+      "answer": 1,
+      "explanation": "df.corr()でピアソン相関(-1~1)。-1で負相関、0で独立、1で正相関。"
+    },
+    {
+      "id": "python_data_science_028",
+      "question": "value_counts()の用途は？",
+      "choices": [
+        "平均計算",
+        "各ユニークな値の出現回数カウント",
+        "並べ替え",
+        "削除"
+      ],
+      "answer": 1,
+      "explanation": "df['col'].value_counts()でカテゴリの度数分布。normalize=Trueで割合。"
+    },
+    {
+      "id": "python_data_science_029",
+      "question": "データ型変換の方法として正しいものはどれか。",
+      "choices": [
+        "df.type('int')",
+        "df.astype('int')",
+        "df.convert('int')",
+        "df.cast(int)"
+      ],
+      "answer": 1,
+      "explanation": "df['col'].astype('int')で型変換。df['col'].astype('category')でカテゴリ化。"
+    },
+    {
+      "id": "python_data_science_030",
+      "question": "カテゴリ型(category)の利点は？",
+      "choices": [
+        "計算速度",
+        "メモリ効率。制限値セット。統計操作最適化",
+        "精度向上",
+        "グラフィックス"
+      ],
+      "answer": 1,
+      "explanation": "df['col']=df['col'].astype('category')でメモリ削減、操作高速化。"
+    },
+    {
+      "id": "python_data_science_031",
+      "question": "折れ線グラフをmatplotlibで描画する基本コードは？",
+      "choices": [
+        "plt.scatter()",
+        "plt.plot()",
+        "plt.bar()",
+        "plt.hist()"
+      ],
+      "answer": 1,
+      "explanation": "plt.plot(x,y)で折れ線。plt.scatter()で散布、plt.bar()で棒。"
+    },
+    {
+      "id": "python_data_science_032",
+      "question": "seabornのdistplot()の役割は？",
+      "choices": [
+        "カテゴリ分布",
+        "ヒストグラム+カーネル密度推定を重ねた分布図",
+        "散布図",
+        "箱ひげ図"
+      ],
+      "answer": 1,
+      "explanation": "sns.distplot(data)でヒストグラムとKDE、標準曲線表示。(depracated→histplot推奨)"
+    },
+    {
+      "id": "python_data_science_033",
+      "question": "boxplot()で表示される情報として正しいものはどれか。",
+      "choices": [
+        "平均値のみ",
+        "中央値、四分位数、外れ値",
+        "最大値のみ",
+        "全データ点"
+      ],
+      "answer": 1,
+      "explanation": "boxplotはQ1,median,Q3、ひげ、外れ値を表示。分布形確認に適切。"
+    },
+    {
+      "id": "python_data_science_034",
+      "question": "ヒートマップでデータを可視化する場合のメソッドは？",
+      "choices": [
+        "plt.heatmap()",
+        "sns.heatmap()",
+        "df.heatmap()",
+        "plt.imshow()"
+      ],
+      "answer": 1,
+      "explanation": "sns.heatmap(df.corr(), annot=True)で相関行列の色分け表示。"
+    },
+    {
+      "id": "python_data_science_035",
+      "question": "scatter plot(散布図)の主な用途は？",
+      "choices": [
+        "時系列表示",
+        "2変数の関係可視化。相関、外れ値、クラスタ検出",
+        "単一変数分布",
+        "割合表示"
+      ],
+      "answer": 1,
+      "explanation": "plt.scatter(x,y)で点配置。パターン認識に適切。c='category'で色分け可能。"
+    },
+    {
+      "id": "python_data_science_036",
+      "question": "figsize引数の目的は？",
+      "choices": [
+        "色実区",
+        "図のサイズ指定(幅,高さ)インチ単位",
+        "データサイズ",
+        "フォントサイズ"
+      ],
+      "answer": 1,
+      "explanation": "plt.figure(figsize=(12,6))で幅12、高さ6インチに設定。"
+    },
+    {
+      "id": "python_data_science_037",
+      "question": "DataFrame.plot関数の便利さは？",
+      "choices": [
+        "遅い",
+        "pandasデータからmatlibplotグラフを自動生成",
+        "テキスト表示",
+        "統計計算"
+      ],
+      "answer": 1,
+      "explanation": "df.plot(kind='line')、df.plot(kind='bar')で簡潔にグラフ作成。"
+    },
+    {
+      "id": "python_data_science_038",
+      "question": "正規化(normalization)と標準化(standardization)の違いは？",
+      "choices": [
+        "同じ",
+        "正規化:0-1範囲。標準化:平均0、分散1",
+        "正規化:削除。標準化:追加",
+        "逆順"
+      ],
+      "answer": 1,
+      "explanation": "正規化=(x-min)/(max-min)。標準化=(x-μ)/σ。MLの前処理で使用。"
+    },
+    {
+      "id": "python_data_science_039",
+      "question": "sklearnのStandardScaler使用例として正しいものはどれか。",
+      "choices": [
+        "scaler.fit(X).transform(X)",
+        "scaler.fit_transform(X)",
+        "両方正しい",
+        "直接使えない"
+      ],
+      "answer": 2,
+      "explanation": "from sklearn.preprocessing import StandardScaler。fit_transform()で一度に処理。"
+    },
+    {
+      "id": "python_data_science_040",
+      "question": "トレイン・テスト分割の目的は？",
+      "choices": [
+        "データ削除",
+        "モデル学習用と評価用に分割。過学習検出",
+        "スピード向上",
+        "メモリ削減"
+      ],
+      "answer": 1,
+      "explanation": "train_test_split(X,y,test_size=0.2)で80/20分割。モデル汎化性能評価に必須。"
+    },
+    {
+      "id": "python_data_science_041",
+      "question": "CrossValidationの利点は？",
+      "choices": [
+        "単一評価",
+        "複数分割で複数回評価。モデル性能の信頼性向上",
+        "データ削除",
+        "遅い"
+      ],
+      "answer": 1,
+      "explanation": "cross_val_score(model, X, y, cv=5)で5分割。各分割での平均スコア算出。"
+    },
+    {
+      "id": "python_data_science_042",
+      "question": "apply()でカスタム関数を適用する場合のシナリオは？",
+      "choices": [
+        "集計のみ",
+        "複雑な変換や条件処理。axis=0で列、axis=1で行",
+        "削除のみ",
+        "集計不可"
+      ],
+      "answer": 1,
+      "explanation": "df.apply(lambda x: x*2, axis=0)で各列に関数適用。axis=1で行。"
+    },
+    {
+      "id": "python_data_science_043",
+      "question": "applymap()の用途は？",
+      "choices": [
+        "行適用",
+        "全要素にスカラー関数適用(遅い)",
+        "列適用",
+        "削除"
+      ],
+      "answer": 1,
+      "explanation": "df.applymap(lambda x: x**2)で全要素に適用。(Python 3.13+ map_elements推奨)"
+    },
+    {
+      "id": "python_data_science_044",
+      "question": "Seriesの名前属性を設定する方法は？",
+      "choices": [
+        "Series.label='name'",
+        "Series.name='name'",
+        "Series.title='name'",
+        "Series.id='name'"
+      ],
+      "answer": 1,
+      "explanation": "s = pd.Series([1,2,3], name='values')で名前設定。s.name参照。"
+    },
+    {
+      "id": "python_data_science_045",
+      "question": "df.to_csv()の基本用法として正しいものはどれか。",
+      "choices": [
+        "df.to_csv()",
+        "df.to_csv('file.csv', index=False)",
+        "df.to_csv('file.csv', encoding='utf-8')",
+        "全て可能"
+      ],
+      "answer": 3,
+      "explanation": "index=Falseはインデックス除外。encoding='utf-8'で日本語対応。"
+    },
+    {
+      "id": "python_data_science_046",
+      "question": "read_csv()で大容量ファイル処理する場合の方法は？",
+      "choices": [
+        "全行読込",
+        "chunksize引数でチャンク処理",
+        "複数ファイル",
+        "不可"
+      ],
+      "answer": 1,
+      "explanation": "for chunk in pd.read_csv('file.csv', chunksize=1000):処理でメモリ効率化。"
+    },
+    {
+      "id": "python_data_science_047",
+      "question": "データパイプラインで一般的な順序は？",
+      "choices": [
+        "モデル → 前処理 → 可視化",
+        "抽出 → クリーニング → 変換 → 可視化 → モデル",
+        "可視化 → 抽出",
+        "モデル → 抽出"
+      ],
+      "answer": 1,
+      "explanation": "ETL(Extract Transform Load)+ EDA + モデル。順序が重要。"
+    },
+    {
+      "id": "python_data_science_048",
+      "question": "欠損値が大量の列の対応方法として適切なものは？",
+      "choices": [
+        "保持",
+        "drop()で列削除。または高度な補完アルゴリズム",
+        "すべて0で埋める",
+        "ランダム値"
+      ],
+      "answer": 1,
+      "explanation": "欠損率>50%は削除検討。<5%なら補完。ドメイン知識で判断。"
+    },
+    {
+      "id": "python_data_science_049",
+      "question": "pandasでの重複レコード処理として正しいものはどれか。",
+      "choices": [
+        "df.duplicated()",
+        "df.drop_duplicates(subset=['col1','col2'])",
+        "df.duplicate_check()",
+        "両方可能"
+      ],
+      "answer": 3,
+      "explanation": "duplicated()で重複判定。drop_duplicates()で削除。subset指定で特定列対象。"
+    },
+    {
+      "id": "python_data_science_050",
+      "question": "産業界での2019-2024年のデータサイエンスツール変化として正しいものはどれか。",
+      "choices": [
+        "Pandas衰退",
+        "PyArrow backend採用、Polarsなど高速ライブラリ登場、GPU処理拡大",
+        "NumPy廃止",
+        "変化なし"
+      ],
+      "answer": 1,
+      "explanation": "Pandas 2.0+ PyArrow、Dask/Spark分散処理、RAPIDS GPU処理が主流化。"
+    }
+  ]
+}

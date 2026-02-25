@@ -24,3 +24,4 @@ npm-debug.log*
 *.log
 tmp_check.js
 data/genres.json.bak
+tmpclaude*

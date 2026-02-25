@@ -1,0 +1,606 @@
+{
+  "genre": "ジェネリクス・ラムダ式・関数型",
+  "exam": "Java",
+  "questions": [
+    {
+      "id": "java_generics_lambda_001",
+      "question": "次のコードで、Listの型パラメータとして正しい宣言はどれか。",
+      "choices": [
+        "List<Object> list = new ArrayList<Object>();",
+        "List<T> list = new ArrayList<>();",
+        "List list = new ArrayList<String>();",
+        "List<String> list = new ArrayList<Object>();"
+      ],
+      "answer": 0,
+      "explanation": "ジェネリクスを正しく使用する場合、型パラメータは左右で一致する必要があります。Object型はすべてのクラスの親クラスであり、合法な使用法です。オプション1は型パラメータTが未定義、オプション2はワイルドカード型安全ではない、オプション3は共変性により失敗します。"
+    },
+    {
+      "id": "java_generics_lambda_002",
+      "question": "ジェネリクス型消去（Type Erasure）について、正しい説明はどれか。",
+      "choices": [
+        "実行時にジェネリア情報がすべて削除される",
+        "コンパイル時にジェネリクス型情報がすべて削除される",
+        "ジェネリクスが使用されているメモリ空間を解放する",
+        "ジェネリクス型パラメータが自動的に変換される"
+      ],
+      "answer": 1,
+      "explanation": "Java型消去は、コンパイル時にジェネリクス型情報が削除される機構です。List<String>はコンパイル後にList（生型）になります。これは後方互換性のためであり、実行時には型引数の情報は保持されません。"
+    },
+    {
+      "id": "java_generics_lambda_003",
+      "question": "次のメソッドシグネチャで、上位境界ワイルドカード(upper bound wildcard)の正しい使用例はどれか。",
+      "choices": [
+        "public void print(List<? super Number> list){}",
+        "public void print(List<? extends Number> list){}",
+        "public void print(List<Number> list){}",
+        "public void print(List<?> list){}"
+      ],
+      "answer": 1,
+      "explanation": "上位境界ワイルドカード「? extends Number」は、Numberクラスまたはそのサブクラスの型のみを受け入れます。これはNumberの上限（上界）を指定しています。superは下界、Numberは具体的な型、?は非境界ワイルドカードです。"
+    },
+    {
+      "id": "java_generics_lambda_004",
+      "question": "次のコード片で、ラムダ式の正しい構文はどれか。",
+      "choices": [
+        "(int x, int y) -> { return x + y; }",
+        "(int x, int y) { return x + y; }",
+        "int x, int y -> x + y",
+        "(x, y) { x + y }"
+      ],
+      "answer": 0,
+      "explanation": "ラムダ式の正しい構文は「(パラメータリスト) -> 式またはボディ」です。パラメータは括弧で囲む必要があり、->を使用します。複数のステートメントを含む場合、波括弧でボディを囲み、returnステートメントを使用します。"
+    },
+    {
+      "id": "java_generics_lambda_005",
+      "question": "関数型インターフェース(Functional Interface)の定義として正しいものはどれか。",
+      "choices": [
+        "複数の抽象メソッドを持つインターフェース",
+        "ジェネリクス型パラメータを必須とするインターフェース",
+        "1つだけの抽象メソッドを持つインターフェース",
+        "デフォルトメソッドのみを持つインターフェース"
+      ],
+      "answer": 2,
+      "explanation": "関数型インターフェースは、@FunctionalInterfaceアノテーションで標識される単一の抽象メソッドを持つインターフェースです。複数のデフォルトメソッドやstaticメソッドは持つことができますが、抽象メソッドは1つだけです。これによりラムダ式で実装でき、メソッド参照でも使用可能です。"
+    },
+    {
+      "id": "java_generics_lambda_006",
+      "question": "Predicate<String>インターフェースのテストに使用される形式メソッドはどれか。",
+      "choices": [
+        "apply(String s)",
+        "test(String s)",
+        "check(String s)",
+        "evaluate(String s)"
+      ],
+      "answer": 1,
+      "explanation": "Predicateインターフェースの抽象メソッドはtest()です。test(T t)はboolean型の値を返し、渡されたオブジェクトが条件を満たしているかを判定します。applyはFunctionインターフェースで使用されます。"
+    },
+    {
+      "id": "java_generics_lambda_007",
+      "question": "Function<Integer, String>インターフェースの実装として正しいラムダ式はどれか。",
+      "choices": [
+        "n -> String.valueOf(n)",
+        "(n) -> n.toString()",
+        "Integer n -> String.valueOf(n)",
+        "(Integer n, String s) -> n.toString()"
+      ],
+      "answer": 0,
+      "explanation": "Function<Integer, String>は、Integerを受け取ってStringを返します。正しいラムダ式は「n -> String.valueOf(n)」です。型推論によりnの型はIntegerと判断されます。オプション1はパラメータ型が明示的でない、オプション2はパラメータが2つ、オプション3はシグネチャが合致しません。"
+    },
+    {
+      "id": "java_generics_lambda_008",
+      "question": "Consumer<String>インターフェースのメソッドシグネチャとして正しいものはどれか。",
+      "choices": [
+        "String accept(String s)",
+        "void accept(String s)",
+        "boolean accept(String s)",
+        "void consume(String s)"
+      ],
+      "answer": 1,
+      "explanation": "Consumerインターフェースは汎用に値を消費するために使用されます。そのメソッドはvoid accept(T t)です。これは値を受け取り、戻り値なしで処理を行います。"
+    },
+    {
+      "id": "java_generics_lambda_009",
+      "question": "Supplier<String>インターフェースのメソッドシグネチャとして正しいものはどれか。",
+      "choices": [
+        "void supply()",
+        "String get()",
+        "String supply()",
+        "Object provide()"
+      ],
+      "answer": 1,
+      "explanation": "Supplierインターフェースはパラメータなしで値を供給するために使用されます。そのメソッドはT get()です。この場合、String get()がSupplier<String>の正しいシグネチャです。"
+    },
+    {
+      "id": "java_generics_lambda_010",
+      "question": "ストリームAPI内でlambda式を使用する場合、filterメソッドの正しい使用法はどれか。",
+      "choices": [
+        "stream.filter(x -> true)",
+        "stream.filter(n -> n > 5)",
+        "stream.filter(Predicate<Integer> p)",
+        "stream.filter(Function f)"
+      ],
+      "answer": 1,
+      "explanation": "filterメソッドはPredicate（boolean値を返す関数型インターフェース）を受け入れます。「n -> n > 5」はbooleanを返すラムダ式であり、5より大きい要素のみを許可します。"
+    },
+    {
+      "id": "java_generics_lambda_011",
+      "question": "mapメソッドの使用法として正しい例はどれか。",
+      "choices": [
+        "stream.map(n -> n * 2)",
+        "stream.map(n -> n > 5)",
+        "stream.map()",
+        "stream.map(Consumer c)"
+      ],
+      "answer": 0,
+      "explanation": "mapメソッドはFunction（値を別の型に変換）を受け入れます。「n -> n * 2」は各要素を2倍にして返すFunction<Integer, Integer>です。オプション1はPredicateで、3は引数なし、4はConsumerで、いずれも不適切です。"
+    },
+    {
+      "id": "java_generics_lambda_012",
+      "question": "forEachメソッドの使用法として正しい例はどれか。",
+      "choices": [
+        "stream.forEach(n -> System.out.println(n));",
+        "stream.forEach(n -> n > 5);",
+        "stream.forEach(Function f);",
+        "stream.forEach(n -> n);"
+      ],
+      "answer": 0,
+      "explanation": "forEachメソッドはConsumer（戻り値なし）を受け入れます。「n -> System.out.println(n)」は各要素を処理するConsumer<Integer>です。オプション1はPredicateで結果を返し、3はFunctionで変換するため不適切です。"
+    },
+    {
+      "id": "java_generics_lambda_013",
+      "question": "メソッド参照の種類のうち、正しい説明の組み合わせはどれか。",
+      "choices": [
+        "静的メソッド参照のみが存在する",
+        "インスタンスメソッド参照と静的メソッド参照がある",
+        "静的メソッド参照、インスタンスメソッド参照、コンストラクタ参照がある",
+        "メソッド参照はJavaでサポートされていない"
+      ],
+      "answer": 2,
+      "explanation": "メソッド参照には3つの種類があります。1) Integer::sum（静的メソッド）、2) obj::toString（インスタンスメソッド）、3) ArrayList::new（コンストラクタ参照）です。これらはすべてラムダ式の代替として使用できます。"
+    },
+    {
+      "id": "java_generics_lambda_014",
+      "question": "次のメソッド参照の形式として正しいものはどれか。",
+      "choices": [
+        "String.charAt",
+        "String::charAt",
+        "String.charAt()",
+        "String::charAt()"
+      ],
+      "answer": 1,
+      "explanation": "メソッド参照の構文は「ClassName::methodName」です。ダブルコロン（::）を使用します。括弧や呼び出し形式は使用しません。オプション1はコロン1つ、3と4は括弧を含むため不正です。"
+    },
+    {
+      "id": "java_generics_lambda_015",
+      "question": "コンストラクタ参照の正しい使用法はどれか。",
+      "choices": [
+        "ArrayList<String>::new()",
+        "ArrayList<String>::new",
+        "ArrayList::new(String)",
+        "ArrayList<String>::constructor"
+      ],
+      "answer": 1,
+      "explanation": "コンストラクタ参照の構文は「ClassName::new」です。型パラメータはClassName側に指定され、括弧はメソッド参照には含まれません。これは関数型インターフェースのSupplierなどで使用できます。"
+    },
+    {
+      "id": "java_generics_lambda_016",
+      "question": "下位境界ワイルドカード(lower bound wildcard)の正しい説明はどれか。",
+      "choices": [
+        "Number型またはそのスーパークラスのみを受け入れる",
+        "Number型またはそのサブクラスのみを受け入れる",
+        "Number型のみを受け入れる",
+        "すべての型を受け入れる"
+      ],
+      "answer": 0,
+      "explanation": "下位境界ワイルドカード「? super Number」は、NumberクラスOrそのスーパークラス（親）のみを許可します。これは生産者側に使用され、より一般的な型を受け入れます。"
+    },
+    {
+      "id": "java_generics_lambda_017",
+      "question": "次のコード片で、ジェネリクス境界の定義として正しいものはどれか。",
+      "choices": [
+        "public <T super Number> void method(T t) {}",
+        "public <T extends Number> void method(T t) {}",
+        "public <T & Comparable> void method(T t) {}",
+        "public <T where T extends Number> void method(T t) {}"
+      ],
+      "answer": 1,
+      "explanation": "型パラメータの上限を指定する構文は「<T extends ClassName>」です。extendsキーワードは継承と実装の両方を指します。superはワイルドカード仮引数に使用されます。"
+    },
+    {
+      "id": "java_generics_lambda_018",
+      "question": "複数の上限を持つ型パラメータの正しい定義はどれか。",
+      "choices": [
+        "<T extends A & B & C>",
+        "<T extends A, B, C>",
+        "<T extends (A & B & C)>",
+        "<T super A & B>"
+      ],
+      "answer": 0,
+      "explanation": "複数の上限を指定する場合、「&」を使用して複数のインターフェース（またはクラス）を結合します。「<T extends A & B & C>」の形式です。最初の1つはクラス、その後はインターフェースである必要があります。"
+    },
+    {
+      "id": "java_generics_lambda_019",
+      "question": "生型(raw type)と関連した問題について、正しい説明はどれか。",
+      "choices": [
+        "生型を使用することで型チェックが強化される",
+        "生型は後方互換性のために許可されている",
+        "生型はパフォーマンスが向上する",
+        "生型は実行時により安全である"
+      ],
+      "answer": 1,
+      "explanation": "生型（例：List）は、旧バージョンのコードとの互換性のために許可されています。しかし、型チェックが失われ、実行時に警告や予期しない動作が生じる可能性があります。現代のJavaコードでは生型の使用は非推奨です。"
+    },
+    {
+      "id": "java_generics_lambda_020",
+      "question": "reduce操作の正しい使用法はどれか。",
+      "choices": [
+        "stream.reduce((a, b) -> a + b);",
+        "stream.reduce(0, (a, b) -> a + b);",
+        "stream.reduce(Integer::sum);",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "reduceは複数の形式をサポートしています。1) reduce(BinaryOperator)، 2) reduce(T identity, BinaryOperator)، 3) reduce(T identity, BiFunction, BinaryOperator)です。メソッド参照も使用可能です。すべてのオプションは有効です。"
+    },
+    {
+      "id": "java_generics_lambda_021",
+      "question": "collect()メソッドの主な目的はどれか。",
+      "choices": [
+        "ストリームをコレクションに変換する",
+        "ストリーム内のすべての要素を出力する",
+        "ストリーム内の要素数を返す",
+        "ストリーム内の最初の要素を取得する"
+      ],
+      "answer": 0,
+      "explanation": "collect()メソッドは、ストリームの要素をコレクション（List、Set、Mapなど）に集約するために使用されます。Collectors クラスでは、多くの一般的な集約操作が提供されています。"
+    },
+    {
+      "id": "java_generics_lambda_022",
+      "question": "Collectors.toList()を使用する正しい例はどれか。",
+      "choices": [
+        "stream.collect(Collectors.toList())",
+        "List list = stream.toList()",
+        "stream.collect(toList())",
+        "stream.toList(Collectors)"
+      ],
+      "answer": 0,
+      "explanation": "collect()メソッドとCollectors.toList()の正しい組み合わせは「stream.collect(Collectors.toList())」です。これは、ストリームの要素をListに変換します。java.util.stream.Collectorsクラスをインポートする必要があります。"
+    },
+    {
+      "id": "java_generics_lambda_023",
+      "question": "flatMap()メソッドの目的として正しい説明はどれか。",
+      "choices": [
+        "ストリームの各要素をフラット化し、複数のストリームを1つのストリームに結合する",
+        "ストリームの要素をフィルター処理する",
+        "ストリームの要素を並列処理する",
+        "ストリームの要素を複製する"
+      ],
+      "answer": 0,
+      "explanation": "flatMap()は、各要素から複数の値を生成し、すべての結果を1つのストリームに結合します。例えば、List<List<Integer>>をList<Integer>に変換するのに使用されます。"
+    },
+    {
+      "id": "java_generics_lambda_024",
+      "question": "BiFunctionインターフェースのメソッドシグネチャとして正しいものはどれか。",
+      "choices": [
+        "void apply(T t, U u)",
+        "R apply(T t, U u)",
+        "boolean apply(T t, U u)",
+        "T apply(U u)"
+      ],
+      "answer": 1,
+      "explanation": "BiFunctionインターフェースは、2つのパラメータを受け取って値を返す関数型インターフェースです。シグネチャはR apply(T t, U u)であり、R（結果型）を返します。これはFunction<T,R>の拡張版です。"
+    },
+    {
+      "id": "java_generics_lambda_025",
+      "question": "sorted()メソッドをストリームで使用する正しい方法はどれか。",
+      "choices": [
+        "stream.sorted().collect(Collectors.toList());",
+        "stream.sorted((a, b) -> a.compareTo(b)).collect(Collectors.toList());",
+        "stream.sorted(Comparator.naturalOrder()).collect(Collectors.toList());",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "sorted()メソッドは複数の方法でサポートされています。1) sorted()（Comparableの実装を使用）、2) sorted(Comparator)（カスタム比較ロジック）です。すべてのオプションは有効で、場合に応じて使い分けられます。"
+    },
+    {
+      "id": "java_generics_lambda_026",
+      "question": "型消去により、次のジェネリクス情報のうち、実行時に失われるものはどれか。",
+      "choices": [
+        "クラスの型パラメータ情報",
+        "メソッドの型パラメータ情報",
+        "ワイルドカード情報",
+        "すべて"
+      ],
+      "answer": 3,
+      "explanation": "型消去により、コンパイル時にジェネリクスの型パラメータ情報がすべて削除されます。これには、クラスレベルの型パラメータ、メソッドレベルの型パラメータ、ワイルドカード情報が含まれます。これは後方互換性のためです。"
+    },
+    {
+      "id": "java_generics_lambda_027",
+      "question": "次のコード片で、コンパイルエラーが発生する理由で正しいものはどれか。テストコード：List<Integer> list = new ArrayList<String>();",
+      "choices": [
+        "型の互換性がない",
+        "Stringはジェネリクスをサポートしていない",
+        "ArrayListはリストではない",
+        "エラーは発生しない"
+      ],
+      "answer": 0,
+      "explanation": "このコード片ではコンパイルエラーが発生します。List<Integer>にArrayList<String>を代入しようとしていますが、型パラメータが一致しません。IntegerとStringは互換性がないため、コンパイラはこれを型安全でないと認識します。"
+    },
+    {
+      "id": "java_generics_lambda_028",
+      "question": "ジェネリクスの型パラメータに対する境界がない場合、型パラメータが暗黙的に拡張する型はどれか。",
+      "choices": [
+        "String",
+        "Object",
+        "Serializable",
+        "null"
+      ],
+      "answer": 1,
+      "explanation": "境界が指定されない型パラメータ（例：<T>）は、暗黙的にObject型に拡張されます。つまり、すべてのオブジェクトが許可されます。Object は Java のすべてのクラスの親クラスです。"
+    },
+    {
+      "id": "java_generics_lambda_029",
+      "question": "イミュータブルなストリームパイプラインについて、正しい説明はどれか。",
+      "choices": [
+        "ストリームはパイプライン処理中に元のコレクションを変更しない",
+        "ストリームはパイプライン処理中に元のコレクションを変更する",
+        "ストリームの中間操作は元のコレクションを必ず変更する",
+        "ストリームは元のコレクションのメモリを共有しない"
+      ],
+      "answer": 0,
+      "explanation": "ストリームはイミュータブルなパイプラインモデルを使用しています。パイプライン処理（filter、map、sorted など）は元のコレクションには影響を与えず、新しいストリームを返します。これにより、副作用のないプログラミングが可能になります。"
+    },
+    {
+      "id": "java_generics_lambda_030",
+      "question": "parallelStream()と通常のstream()の主な違いはどれか。",
+      "choices": [
+        "parallelStream()はすべての操作が必ず並列実行される",
+        "parallelStream()は複数のスレッドで処理を分割して実行する可能性がある",
+        "parallelStream()はソートできない",
+        "parallelStream()は順序を保証しない"
+      ],
+      "answer": 1,
+      "explanation": "parallelStream()は、マルチスレッド環境で処理を分割実行する可能性があります。一方、通常のstream()はシングルスレッドで処理されます。ただし、parallelStream()が常に速いわけではなく、データサイズと処理の複雑さに依存します。"
+    },
+    {
+      "id": "java_generics_lambda_031",
+      "question": "次のラムダ式について、キャプチャできない変数の特徴はどれか。",
+      "choices": [
+        "ローカル変数で値が変更される",
+        "メンバー変数として宣言されている",
+        "パラメータとして渡される",
+        "すべてキャプチャできる"
+      ],
+      "answer": 0,
+      "explanation": "ラムダ式が外側のスコープからローカル変数をキャプチャする場合、その変数は'effectively final'（実質的に不変）である必要があります。つまり、値が一度設定された後、変更されないことが必要です。値が変更される変数はキャプチャできません。"
+    },
+    {
+      "id": "java_generics_lambda_032",
+      "question": "IntStream.range()とIntStream.rangeClosed()の違いはどれか。",
+      "choices": [
+        "range()は終了値を含まず、rangeClosed()は終了値を含む",
+        "range()は終了値を含み、rangeClosed()は終了値を含まない",
+        "range()は昇順のみ、rangeClosed()は降順のみ",
+        "パフォーマンス以外に違いはない"
+      ],
+      "answer": 0,
+      "explanation": "IntStream.range(start, end)は[start, end)のように終了値を含まない範囲を生成します。一方、IntStream.rangeClosed(start, end)は[start, end]のように終了値を含む範囲を生成します。"
+    },
+    {
+      "id": "java_generics_lambda_033",
+      "question": "anyMatch()、allMatch()、noneMatch()の動作として正しい説明はどれか。",
+      "choices": [
+        "いずれも同じ結果を返す",
+        "anyMatch()は1つ以上マッチで真、allMatch()はすべてマッチで真、noneMatch()はマッチなしで真",
+        "anyMatch()はすべてマッチで真、allMatch()は1つ以上マッチで真、noneMatch()は不明",
+        "それぞれ最初の要素のみをテストする"
+      ],
+      "answer": 1,
+      "explanation": "3つのマッチング操作は異なる動作をします。anyMatch(Predicate)は1つ以上の要素がPredicateを満たす場合true、allMatch(Predicate)はすべてが満たす場合true、noneMatch(Predicate)は1つも満たさない場合trueを返します。"
+    },
+    {
+      "id": "java_generics_lambda_034",
+      "question": "findFirst()とfindAny()の違いについて、正しい説明はどれか。",
+      "choices": [
+        "findFirst()は最初の要素を返し、findAny()は任意の要素を返す可能性がある",
+        "findAny()は最初の要素を返し、findFirst()は任意の要素を返す",
+        "findFirst()はソート済みストリームのみで機能する",
+        "パフォーマンス特性は両者で同じである"
+      ],
+      "answer": 0,
+      "explanation": "findFirst()はストリーム内の最初の要素を返すOptionalを返しますが、findAny()はストリーム内の任意の要素を返す可能性があります。parallelStream()では、findAny()がパフォーマンスの面で有利な場合があります。"
+    },
+    {
+      "id": "java_generics_lambda_035",
+      "question": "Optional<T>を使用する主な目的はどれか。",
+      "choices": [
+        "ストリーム処理を高速化する",
+        "nullの可能性を安全に処理する",
+        "メモリ効率を向上させる",
+        "コード行数を削減する"
+      ],
+      "answer": 1,
+      "explanation": "Optional<T>は、nullの値がある可能性を型安全な方法で表現するために設計されています。get()、orElse()、orElseThrow()、ifPresent()などのメソッドにより、nullチェックを安全に行うことができます。"
+    },
+    {
+      "id": "java_generics_lambda_036",
+      "question": "Stream.of()メソッドの正しい使用法はどれか。",
+      "choices": [
+        "Stream.of(1, 2, 3, 4, 5);",
+        "Stream.of(new Integer[] {1, 2, 3});",
+        "Stream.of(new ArrayList<Integer>());",
+        "1と2の両方"
+      ],
+      "answer": 3,
+      "explanation": "Stream.of()メソッドは複数の要素を可変長引数として受け取ったり、配列を受け取ったりできます。Stream.of(1,2,3)またはStream.of(array)の両方が有効です。ただし、CollectionはStream.of()で直接処理できず、collection.stream()を使用する必要があります。"
+    },
+    {
+      "id": "java_generics_lambda_037",
+      "question": "distinct()メソッドの動作として正しいものはどれか。",
+      "choices": [
+        "ストリーム内の最初の要素のみを返す",
+        "ストリーム内の重複した要素を削除する",
+        "ストリーム内の要素をソートする",
+        "ストリーム内のカウントを返す"
+      ],
+      "answer": 1,
+      "explanation": "distinct()メソッドは、ストリーム内の重複した要素を削除した新しいストリームを返します。.equals()メソッドを使用して同一性を判定します。これは中間操作であり、分類（ターミナル）操作ではありません。"
+    },
+    {
+      "id": "java_generics_lambda_038",
+      "question": "ジェネリクス型パラメータに対して、インスタンス化できない理由で正しいものはどれか。",
+      "choices": [
+        "型消去によって型情報が削除されるため",
+        "型パラメータは抽象的なプレースホルダーであるため",
+        "JVMが型パラメータをサポートしていないため",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "型パラメータ（例：new T()）を使用してオブジェクトを作成することはできません。理由としては、1) 型消去により実行時に具体的な型が失われる、2) 型パラメータは抽象的なプレースホルダー、3) JVM は具体的なクラスのメタデータが必要です。"
+    },
+    {
+      "id": "java_generics_lambda_039",
+      "question": "次のコード片で、コンパイルエラーが発生する理由で正しいものはどれか。テストコード：List<Number> list = new ArrayList<Integer>();",
+      "choices": [
+        "型パラメータが共変的でないため",
+        "Integerはサブクラスではない",
+        "ArrayListは使用できない",
+        "エラーは発生しない"
+      ],
+      "answer": 0,
+      "explanation": "Javaのジェネリクスは不変(invariant)です。IntegerがNumberのサブクラスであっても、List<Integer>をList<Number>に代入することはできません。これは型安全性を保つためです。List<? extends Number>を使用すれば、このような代入が許可されます。"
+    },
+    {
+      "id": "java_generics_lambda_040",
+      "question": "peek()メソッドの用途として正しいものはどれか。",
+      "choices": [
+        "ストリームの中間結果をデバッグするために使用される",
+        "ストリーム内の各要素を変換する",
+        "ストリームの処理チェーンを終了する",
+        "追加のフィルター条件を適用する"
+      ],
+      "answer": 0,
+      "explanation": "peek()メソッドは、ストリーム内の各要素に対してアクション（通常はデバッグ出力）を実行する中間操作です。ストリームの処理パイプラインを変更せず、オブザーバーのような役割を果たします。"
+    },
+    {
+      "id": "java_generics_lambda_041",
+      "question": "count()メソッドをストリームで使用する正しい例はどれか。",
+      "choices": [
+        "stream.count()",
+        "stream.map(x -> 1).reduce(0, Integer::sum)",
+        "stream.collect(Collectors.counting())",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "ストリームの要素数をカウントするには複数の方法があります。1) count()ターミナル操作、2) map()とreduce()の組み合わせ、3) collect()とCollectors.counting()です。すべてが有効で、目的と状況に応じて使い分けられます。"
+    },
+    {
+      "id": "java_generics_lambda_042",
+      "question": "Collectors.groupingBy()の用途として正しいものはどれか。",
+      "choices": [
+        "ストリームの要素をキーに基づいてグループ化し、Mapを返す",
+        "ストリームの要素をソートする",
+        "ストリームの要素をフィルター処理する",
+        "ストリームの最初の要素を取得する"
+      ],
+      "answer": 0,
+      "explanation": "Collectors.groupingBy(Function keyMapper)は、ストリームのコレクターとして、要素をキー関数に基づいてグループ化します。結果はMap<K, List<T>>で、キーはグループ識別子、値はそのグループの要素のリストです。"
+    },
+    {
+      "id": "java_generics_lambda_043",
+      "question": "Collectors.joining()の動作として正しい説明はどれか。",
+      "choices": [
+        "ストリーム内の要素をStringに連結する",
+        "複数のストリームを結合する",
+        "ストリーム内の要素を論理的に結合する",
+        "2つのコレクションをマージする"
+      ],
+      "answer": 0,
+      "explanation": "Collectors.joining()は、Stringストリームの要素を1つのStringに連結するコレクターです。オプションで区切り文字、プレフィックス、サフィックスを指定できます。例：stream.collect(Collectors.joining(\", \"))"
+    },
+    {
+      "id": "java_generics_lambda_044",
+      "question": "次のメソッド参照のうち、イオンスタンスメソッド参照の直しい例はどれか。",
+      "choices": [
+        "Integer::sum",
+        "Math::max",
+        "String::length",
+        "ArrayList::new"
+      ],
+      "answer": 2,
+      "explanation": "インスタンスメソッド参照は、特定のオブジェクトセッションのメソッドを参照します。String::length は、String オブジェクトの length() メソッドを参照します。Integer::sum は静的メソッド、Math::max も静的メソッド、ArrayList::new はコンストラクタ参照です。"
+    },
+    {
+      "id": "java_generics_lambda_045",
+      "question": "bound型パラメータ参照の正しい例はどれか。",
+      "choices": [
+        "List<Object>::new",
+        "List<?>::new",
+        "Object::new",
+        "List<String>::new"
+      ],
+      "answer": 3,
+      "explanation": "型パラメータ参照では、List<String>::new のように具体的な型指定が可能です。Object::new は非ジェネリクス、List<?>::new はワイルドカード、List<Object>::new は包括的すぎるため、List<String>::new が最も適切です。"
+    },
+    {
+      "id": "java_generics_lambda_046",
+      "question": "limit()メソッドの動作として正しいものはどれか。",
+      "choices": [
+        "ストリームの最初のN個の要素を返す",
+        "ストリームの最後のN個の要素を返す",
+        "ストリームの要素を最大N個に制限する",
+        "1と3は同じ意味である"
+      ],
+      "answer": 3,
+      "explanation": "limit(long maxSize)メソッドは、ストリームを最初のmaxSize個の要素に制限する中間操作です。例えば、stream.limit(10)は、最初の10個の要素のみを含むストリームを返します。"
+    },
+    {
+      "id": "java_generics_lambda_047",
+      "question": "skip()メソッドの動作として正しいものはどれか。",
+      "choices": [
+        "最初のN個の要素をスキップする",
+        "最後のN個の要素をスキップする",
+        "条件に基づいて要素をスキップする",
+        "すべての要素をスキップする"
+      ],
+      "answer": 0,
+      "explanation": "skip(long n)メソッドは、ストリームの最初のn個の要素をスキップして、残りの要素を含むストリームを返します。例えば、stream.skip(5)は、最初の5つの要素を除いた残りを処理します。"
+    },
+    {
+      "id": "java_generics_lambda_048",
+      "question": "next()メソッドの説明で正しいものはどれか。",
+      "choices": [
+        "Iteratorインターフェースのメソッド",
+        "Streamインターフェースのメソッド",
+        "Optionalのメソッド",
+        "存在しないメソッド"
+      ],
+      "answer": 0,
+      "explanation": "next()メソッドは、Iteratorインターフェースに属するメソッドで、イテレータの次の要素を取得します。Streamインターフェースにはこのメソッドはなく、代わりにforEachやイテレータの利用が推奨されます。"
+    },
+    {
+      "id": "java_generics_lambda_049",
+      "question": "BinaryOperatorインターフェースの特徴について、正しい説明はどれか。",
+      "choices": [
+        "BiFunctionの関数型インターフェース",
+        "同じ型のパラメータを2つ受け取り、同じ型の結果を返す",
+        "Functionの特殊ケース",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "BinaryOperator<T>は、BiFunction<T, T, T>を拡張したインターフェースです。同じ型Tのパラメータを2つ受け取り、同じ型Tの結果を返します。これはFunctionの特殊な形式で、reduce操作などで使用されます。"
+    },
+    {
+      "id": "java_generics_lambda_050",
+      "question": "ラムダ式と匿名クラスの主な違いについて、正しい説明はどれか。",
+      "choices": [
+        "ラムダ式は機能的には同じだが、構文がより簡潔である",
+        "ラムダ式は関数型インターフェースのみを実装できる",
+        "匿名クラスより高速である",
+        "1と2は正しく、3も正しい"
+      ],
+      "answer": 3,
+      "explanation": "ラムダ式は匿名クラスよりも簡潔な構文を提供します。ただし、ラムダ式は関数型インターフェース（1つの抽象メソッド）のみを実装できます。パフォーマンスの点では、ラムダ式はインライン化される可能性があり、匿名クラスより効率的である傾向があります。"
+    }
+  ]
+}

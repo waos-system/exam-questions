@@ -1,0 +1,607 @@
+{
+  "genre": "ビジネス英語 - プレゼンテーション&会議",
+  "exam": "Business English",
+  "section": "Presentation & Meetings",
+  "questions": [
+    {
+      "id": "en_business_presentation_001",
+      "question": "How should you begin a formal business presentation?",
+      "choices": [
+        "Tell a joke and hope for laughs",
+        "Greet the audience, introduce yourself, state your topic and outline",
+        "Jump right into technical details",
+        "Assume everyone knows what you're talking about"
+      ],
+      "answer": 1,
+      "explanation": "プレゼン開始は、挨拶、自己紹介、テーマ、アウトラインで聴衆を準備させる。"
+    },
+    {
+      "id": "en_business_presentation_002",
+      "question": "What is the purpose of an agenda slide in a presentation?",
+      "choices": [
+        "To confuse the audience",
+        "To provide the audience with a clear structure and expectations",
+        "To make the presentation longer",
+        "To skip important content"
+      ],
+      "answer": 1,
+      "explanation": "アジェンダスライドは聴衆に期待値を示す。プレゼン構造を明確化。焦点と流れ。"
+    },
+    {
+      "id": "en_business_presentation_003",
+      "question": "Which phrase is appropriate for transitioning between presentation sections?",
+      "choices": [
+        "Whatever comes next...",
+        "Now that we've covered the background, let's move to the key findings.",
+        "Moving on to some random stuff.",
+        "Next thing up..."
+      ],
+      "answer": 1,
+      "explanation": "トランジションは前セクションを参照し、論理的流れを示す。聴衆の理解助成。"
+    },
+    {
+      "id": "en_business_presentation_004",
+      "question": "How should you handle audience questions during a presentation?",
+      "choices": [
+        "Ignore them and continue",
+        "Listen carefully, answer clearly, and defer complex questions if needed",
+        "Tell them to be quiet",
+        "Get defensive"
+      ],
+      "answer": 1,
+      "explanation": "質問対応は聴衆を尊重。明確に答える。必要なら詳細は後で。信頼と専門性を構築。"
+    },
+    {
+      "id": "en_business_presentation_005",
+      "question": "What should visual aids in a business presentation avoid?",
+      "choices": [
+        "Providing useful information",
+        "Being too simple",
+        "Excessive text, cluttered layouts, and distracting animations",
+        "Supporting your message"
+      ],
+      "answer": 2,
+      "explanation": "ビジュアルは簡潔で、サポート的。テキスト多用、混乱、派手なアニメーション避ける。"
+    },
+    {
+      "id": "en_business_presentation_006",
+      "question": "How should you present numerical data in a presentation?",
+      "choices": [
+        "Just read raw numbers without context",
+        "Use charts/graphs, provide context, highlight key insights",
+        "Overwhelm with all details",
+        "Make up approximate figures"
+      ],
+      "answer": 1,
+      "explanation": "データはグラフやチャートで。背景と主要インサイトを提供。理解容易に。"
+    },
+    {
+      "id": "en_business_presentation_007",
+      "question": "What is the recommended speaking pace for a business presentation?",
+      "choices": [
+        "As fast as possible",
+        "Steady, deliberate pace with pauses for emphasis and comprehension",
+        "So slow it's boring",
+        "Whatever feels natural, even if unclear"
+      ],
+      "answer": 1,
+      "explanation": "スピーキング速度は聴衆理解を助ける。強調と消化時間のポーズ。クリア表現。"
+    },
+    {
+      "id": "en_business_presentation_008",
+      "question": "How should you handle a technical failure during a presentation?",
+      "choices": [
+        "Panic and abandon the presentation",
+        "Stay calm, acknowledge the issue, and continue with a backup plan",
+        "Blame the technology",
+        "Just give up"
+      ],
+      "answer": 1,
+      "explanation": "技術的問題は冷静に対応。代替え案実行。プロフェッショナルさ維持。"
+    },
+    {
+      "id": "en_business_presentation_009",
+      "question": "Which opening statement captures audience attention effectively?",
+      "choices": [
+        "So, here's my presentation.",
+        "A thought-provoking question, statistic, or relevant statement that relates to the topic",
+        "This will be boring, but bear with me.",
+        "Let's get this over with."
+      ],
+      "answer": 1,
+      "explanation": "開始は関連する質問や統計で注意引く。聴衆をトピックに引き込む。"
+    },
+    {
+      "id": "en_business_presentation_010",
+      "question": "How should you conclude a business presentation?",
+      "choices": [
+        "Just disappear without saying anything",
+        "Summarize key points, state call-to-action, thank audience, open for questions",
+        "End abruptly",
+        "Tell a long story"
+      ],
+      "answer": 1,
+      "explanation": "結論は要点まとめ、行動項目、感謝。質問受け付けを示す。影響強化。"
+    },
+    {
+      "id": "en_business_presentation_011",
+      "question": "What role should body language play in a presentation?",
+      "choices": [
+        "Stand motionless and avoid eye contact",
+        "Use natural gestures, maintain eye contact, and show engagement",
+        "Pace constantly and distract from content",
+        "Face the screen instead of the audience"
+      ],
+      "answer": 1,
+      "explanation": "ボディランゲージは自然なジェスチャー、視線接触、エンゲージメント。信頼と信用性。"
+    },
+    {
+      "id": "en_business_presentation_012",
+      "question": "Which phrase effectively introduces supporting evidence?",
+      "choices": [
+        "Whatever...",
+        "As evidenced by the following data, this trend demonstrates...",
+        "I think...",
+        "Probably true..."
+      ],
+      "answer": 1,
+      "explanation": "'evidenced by'は主張を裏付ける。信頼性と信用性。データドリブン表現。"
+    },
+    {
+      "id": "en_business_presentation_013",
+      "question": "How should you prepare speaker notes for a presentation?",
+      "choices": [
+        "Don't prepare any notes",
+        "Write detailed points without reading verbatim from slides",
+        "Memorize everything word-for-word",
+        "Just wing it"
+      ],
+      "answer": 1,
+      "explanation": "スピーカー・ノートは詳細であるが、スライドから逐語的に読まない。自然に流暢に。"
+    },
+    {
+      "id": "en_business_presentation_014",
+      "question": "What should you do if you don't know the answer to an audience question?",
+      "choices": [
+        "Make something up",
+        "Acknowledge the gap and offer to research and follow up",
+        "Say you know but refuse to answer",
+        "Change the subject"
+      ],
+      "answer": 1,
+      "explanation": "不明回答時は正直に。調査して後日フォローアップ約束。専門性と信頼維持。"
+    },
+    {
+      "id": "en_business_presentation_015",
+      "question": "How should you use stories in a business presentation?",
+      "choices": [
+        "Use irrelevant personal stories",
+        "Use concise, relevant stories that illustrate key points",
+        "Tell long-winded anecdotes",
+        "Avoid stories entirely"
+      ],
+      "answer": 1,
+      "explanation": "ストーリーはポイント、短く関連性。聴衆エンゲージメント向上。記憶容易。"
+    },
+    {
+      "id": "en_business_presentation_016",
+      "question": "What is the purpose of a call-to-action in a presentation?",
+      "choices": [
+        "To confuse the audience",
+        "To clearly specify what you want the audience to do next",
+        "To waste time",
+        "To have no clear purpose"
+      ],
+      "answer": 1,
+      "explanation": "CTA（コール・トゥ・アクション）は聴衆の次ステップを明確化。行動促進。"
+    },
+    {
+      "id": "en_business_presentation_017",
+      "question": "How should you handle an aggressive or hostile audience question?",
+      "choices": [
+        "Respond with aggression",
+        "Remain calm, acknowledge the concern, and respond professionally",
+        "Refuse to answer",
+        "Get defensive"
+      ],
+      "answer": 1,
+      "explanation": "敵対的質問も冷静に。懸念を認識。プロフェッショナル対応。聴衆の信頼維持。"
+    },
+    {
+      "id": "en_business_presentation_018",
+      "question": "Which slide design approach is most effective for business presentations?",
+      "choices": [
+        "Colorful and animated on every slide",
+        "Clean, consistent, readable design with minimal distractions",
+        "Text-heavy slides that repeat your speech",
+        "Visually cluttered with many elements"
+      ],
+      "answer": 1,
+      "explanation": "スライド設計は清潔で一貫性。可読性。最小限の視覚的雑音。プロフェッショナル外観。"
+    },
+    {
+      "id": "en_business_presentation_019",
+      "question": "How should you present conflicting viewpoints in a presentation?",
+      "choices": [
+        "Only present your preferred viewpoint",
+        "Present opposing views fairly and explain why your position is stronger",
+        "Dismiss alternative viewpoints",
+        "Confuse the issue"
+      ],
+      "answer": 1,
+      "explanation": "対立見解は公正に提示。自分の立場が強い理由説明。信頼性と思慮深さ。"
+    },
+    {
+      "id": "en_business_presentation_020",
+      "question": "What should you do if you run out of time during a presentation?",
+      "choices": [
+        "Rush through the remaining content",
+        "Prioritize key points, acknowledge time constraints, offer follow-up",
+        "Just stop and leave",
+        "Keep talking over time"
+      ],
+      "answer": 1,
+      "explanation": "時間不足時は主要ポイント優先。時間制約を認識。フォローアップ提供。聴衆価値維持。"
+    },
+    {
+      "id": "en_business_presentation_021",
+      "question": "How should you engage participants at the beginning of a meeting?",
+      "choices": [
+        "Start immediately without introduction",
+        "Welcome attendees, state the purpose, outline agenda, invite participation",
+        "Just start talking",
+        "Assume everyone is ready to focus"
+      ],
+      "answer": 1,
+      "explanation": "会議開始は参加者歓迎、目的状態、アジェンダ、参加促し。準備と焦点。"
+    },
+    {
+      "id": "en_business_presentation_022",
+      "question": "What is the best way to facilitate discussion in a business meeting?",
+      "choices": [
+        "Dominate the conversation",
+        "Ask open-ended questions, listen actively, summarize points, encourage participation",
+        "Shut down opposing views",
+        "Make decisions unilaterally"
+      ],
+      "answer": 1,
+      "explanation": "会議進行はオープン質問、積極的傾聴、要点まとめ、参加促し。包括的引き出し。"
+    },
+    {
+      "id": "en_business_presentation_023",
+      "question": "How should you document decisions made in a meeting?",
+      "choices": [
+        "Don't document anything",
+        "Take notes including decisions, action items, responsible parties, and deadlines",
+        "Only remember important items",
+        "Rely on verbal agreements"
+      ],
+      "answer": 1,
+      "explanation": "会議記録は決定、行動項目、責任者、期限を含む。透明性と説明責任確保。"
+    },
+    {
+      "id": "en_business_presentation_024",
+      "question": "What should you do if a meeting participant keeps dominating the discussion?",
+      "choices": [
+        "Let them continue indefinitely",
+        "Politely redirect by acknowledging their input and inviting others to speak",
+        "Tell them to be quiet rudely",
+        "End the meeting"
+      ],
+      "answer": 1,
+      "explanation": "支配的参加者は敬意持ちながら、他の意見を引き出す。全員参加とバランス。"
+    },
+    {
+      "id": "en_business_presentation_025",
+      "question": "How should you handle a meeting that is losing focus?",
+      "choices": [
+        "Let it continue off-topic",
+        "Acknowledge the tangent, refocus on the agenda, and offer to discuss off-topic items later",
+        "Ignore the problem",
+        "Abruptly change topics"
+      ],
+      "answer": 1,
+      "explanation": "焦点外れ時も敬意持ちながら、アジェンダ復帰。後の議論提案。効率維持。"
+    },
+    {
+      "id": "en_business_presentation_026",
+      "question": "What is an effective way to summarize a meeting?",
+      "choices": [
+        "Don't summarize; assume everyone understood",
+        "Recap key decisions, action items with owners, deadlines, and confirm understanding",
+        "Only mention your own points",
+        "Summarize incorrectly"
+      ],
+      "answer": 1,
+      "explanation": "会議総括は主要決定、行動項目、所有者、期限を確認。明確性と責任。"
+    },
+    {
+      "id": "en_business_presentation_027",
+      "question": "How should you approach negotiation in a business setting?",
+      "choices": [
+        "Be aggressive and inflexible",
+        "Understand interests, seek win-win solutions, communicate clearly, maintain relationships",
+        "Refuse to compromise",
+        "Use manipulative tactics"
+      ],
+      "answer": 1,
+      "explanation": "交渉は利益理解、ウィンウィン、明確コミュニケーション、関係維持。長期的価値。"
+    },
+    {
+      "id": "en_business_presentation_028",
+      "question": "What should you do before making a persuasive argument in a meeting?",
+      "choices": [
+        "Just state your opinion",
+        "Research thoroughly, understand counterarguments, prepare data, anticipate objections",
+        "Wing it with no preparation",
+        "Assume everyone agrees"
+      ],
+      "answer": 1,
+      "explanation": "説得的議論は徹底的調査、反論理解、データ準備、異議予測。説得力と信頼度。"
+    },
+    {
+      "id": "en_business_presentation_029",
+      "question": "How should you handle disagreement in a meeting without escalating tension?",
+      "choices": [
+        "Ignore the disagreement",
+        "Acknowledge different perspectives, focus on common goals, seek understanding",
+        "Get into a debate",
+        "End the partnership"
+      ],
+      "answer": 1,
+      "explanation": "相違対応は異なる視点認識、共通目標焦点、理解追求。建設的対話。"
+    },
+    {
+      "id": "en_business_presentation_030",
+      "question": "What is the purpose of clarifying questions in a meeting?",
+      "choices": [
+        "To waste time",
+        "To ensure understanding and prevent misinterpretation",
+        "To confuse people",
+        "To show off knowledge"
+      ],
+      "answer": 1,
+      "explanation": "明確化質問は理解確保、誤解防止。全員同じページに。効率的進行。"
+    },
+    {
+      "id": "en_business_presentation_031",
+      "question": "How should you respond to a colleague's presentation you disagree with?",
+      "choices": [
+        "Publicly criticize without constructive feedback",
+        "Provide constructive feedback respectfully, citing specific points",
+        "Stay silent and complain later",
+        "Dismiss their entire presentation"
+      ],
+      "answer": 1,
+      "explanation": "異議フィードバックは建設的で敬重。特定ポイント引用。協働関係維持。"
+    },
+    {
+      "id": "en_business_presentation_032",
+      "question": "What should you include in meeting minutes for official documentation?",
+      "choices": [
+        "Random notes with no structure",
+        "Date, attendees, agenda items, decisions, action items with owners and deadlines",
+        "Only gossip and personal thoughts",
+        "Vague and incomplete information"
+      ],
+      "answer": 1,
+      "explanation": "会議議事録は正式文書。日付、出席者、議題、決定、行動項目。参考記録。"
+    },
+    {
+      "id": "en_business_presentation_033",
+      "question": "How should you use visuals to support points during a presentation?",
+      "choices": [
+        "Use visuals that distract from your message",
+        "Use relevant images, charts, graphs that strengthen key points without overwhelming",
+        "Use as many visuals as possible",
+        "Avoid visuals entirely"
+      ],
+      "answer": 1,
+      "explanation": "ビジュアル使用は関連性。要点強化。過剰でない。理解と記憶向上。"
+    },
+    {
+      "id": "en_business_presentation_034",
+      "question": "What is the recommended format for a business meeting follow-up email?",
+      "choices": [
+        "Rambling and unclear",
+        "Summary of decisions, action items with owners/deadlines, next steps, gratitude",
+        "No follow-up at all",
+        "Only your action items matter"
+      ],
+      "answer": 1,
+      "explanation": "フォローアップメールは決定、行動項目、所有者、期限、次ステップ。責任明確化。"
+    },
+    {
+      "id": "en_business_presentation_035",
+      "question": "How should you establish credibility when presenting on an unfamiliar topic?",
+      "choices": [
+        "Pretend you're an expert",
+        "Acknowledge gaps in expertise, cite sources, show thorough research",
+        "Make up credentials",
+        "Avoid the topic"
+      ],
+      "answer": 1,
+      "explanation": "未知分野プレゼンは専門家謙虚さ、源泉引用、研究証明。信頼と正直。"
+    },
+    {
+      "id": "en_business_presentation_036",
+      "question": "What technique helps audiences remember key points from your presentation?",
+      "choices": [
+        "Speak very fast",
+        "Use repetition, visuals, stories, and clear signposting of main ideas",
+        "Mumble unclear",
+        "Use vague language"
+      ],
+      "answer": 1,
+      "explanation": "記憶支援は反復、ビジュアル、ストーリー、明確な主アイデア表示。保持性向上。"
+    },
+    {
+      "id": "en_business_presentation_037",
+      "question": "How should you handle a situation where no one is asking questions at the end?",
+      "choices": [
+        "Leave immediately",
+        "Offer specific prompts: 'Does anyone have questions about X or would like clarification on Y?'",
+        "Assume complete understanding",
+        "Just end awkwardly"
+      ],
+      "answer": 1,
+      "explanation": "質問なし時は具体的プロンプト提供。参加促し。理解確認。エンゲージメント向上。"
+    },
+    {
+      "id": "en_business_presentation_038",
+      "question": "What is the best approach to presenting solutions to complex problems?",
+      "choices": [
+        "Jump to solutions without context",
+        "Explain the problem, discuss alternatives, recommend solution with rationale",
+        "Skip explaining the problem",
+        "Offer vague recommendations"
+      ],
+      "answer": 1,
+      "explanation": "複雑問題解決は背景説明、代替え、推奨と理由。思慮深い対応。買収性。"
+    },
+    {
+      "id": "en_business_presentation_039",
+      "question": "How should you manage time in a meeting with multiple agenda items?",
+      "choices": [
+        "Spend all time on the first item",
+        "Allocate specific time per item, monitor progress, adjust as needed",
+        "Let discussions run indefinitely",
+        "Skip important items"
+      ],
+      "answer": 1,
+      "explanation": "時間管理は項目別配分。進捗監視。必要調整。生産性と包括的カバレッジ。"
+    },
+    {
+      "id": "en_business_presentation_040",
+      "question": "What should you do if a key decision-maker is absent from the meeting?",
+      "choices": [
+        "Make important decisions without them",
+        "Document status, explain impact of absence, suggest follow-up meeting",
+        "Postpone indefinitely",
+        "Make assumptions about their position"
+      ],
+      "answer": 1,
+      "explanation": "主要意思決定者不在時も会議進行。状況記録。不在の影響説明。フォローアップ提案。"
+    },
+    {
+      "id": "en_business_presentation_041",
+      "question": "How should you conclude a persuasive presentation?",
+      "choices": [
+        "Just stop talking",
+        "Reinforce main message, restate call-to-action, show commitment, invite engagement",
+        "End abruptly",
+        "Apologize for presenting"
+      ],
+      "answer": 1,
+      "explanation": "説得的プレゼン終了は主メッセージ強化、CTA再言、コミットメント、エンゲージメント。影響確保。"
+    },
+    {
+      "id": "en_business_presentation_042",
+      "question": "What is an effective way to address a critical comment in a meeting?",
+      "choices": [
+        "Get emotional and defensive",
+        "Listen, acknowledge validity, respond with facts, maintain professionalism",
+        "Dismiss the comment",
+        "Get into argument"
+      ],
+      "answer": 1,
+      "explanation": "批判対応は聴取、妥当性認識、事実対応、プロフェッショナル。学習機会。"
+    },
+    {
+      "id": "en_business_presentation_043",
+      "question": "How should you present data-driven recommendations?",
+      "choices": [
+        "Use only intuition",
+        "Show data sources, explain methodology, highlight key metrics, connect to recommendations",
+        "Hide unfavorable data",
+        "Make unsupported claims"
+      ],
+      "answer": 1,
+      "explanation": "データ推奨は源泉明示、方法論説明、主要計測値、推奨接続。信頼度向上。"
+    },
+    {
+      "id": "en_business_presentation_044",
+      "question": "What should you do if a participant raises an important issue that's not on the agenda?",
+      "choices": [
+        "Ignore it completely",
+        "Acknowledge importance, note it, propose time to discuss, stay on track",
+        "Derail entire meeting",
+        "Dismiss the concern"
+      ],
+      "answer": 1,
+      "explanation": "未予定の重要議題も認識。記録。別会議提案。アジェンダ維持と懸念尊重。"
+    },
+    {
+      "id": "en_business_presentation_045",
+      "question": "How should you handle presenting bad news in a business context?",
+      "choices": [
+        "Hide it and hope nobody finds out",
+        "Be honest and direct, explain impact, propose solutions, maintain confidence",
+        "Blame others",
+        "Minimize the severity"
+      ],
+      "answer": 1,
+      "explanation": "悪いニュース提示は正直で直接的。影響説明。解決策提示。信頼維持。"
+    },
+    {
+      "id": "en_business_presentation_046",
+      "question": "What is the purpose of a backup plan or contingency plan in presentations?",
+      "choices": [
+        "To waste time planning",
+        "To handle technical failures, unexpected issues, and keep presentation on track",
+        "To complicate things",
+        "To have no purpose"
+      ],
+      "answer": 1,
+      "explanation": "バックアッププラン技術障害、予期しない問題対応。プレゼン継続。プロフェッショナルさ。"
+    },
+    {
+      "id": "en_business_presentation_047",
+      "question": "How should you use metaphors or analogies in a business presentation?",
+      "choices": [
+        "Use confusing comparisons",
+        "Use clear, relevant analogies that simplify complex concepts",
+        "Avoid all comparisons",
+        "Use obscure references"
+      ],
+      "answer": 1,
+      "explanation": "メタファーと類推は複雑概念簡潔化。明確で関連性。理解向上と記憶。"
+    },
+    {
+      "id": "en_business_presentation_048",
+      "question": "What should you do if you realize you made a factual error during a presentation?",
+      "choices": [
+        "Ignore it and never mention it",
+        "Correct it immediately, acknowledge the error, continue with accurate information",
+        "Try to cover it up",
+        "Hope nobody noticed"
+      ],
+      "answer": 1,
+      "explanation": "事実エラー発見時も即座に訂正。エラー認識。正確情報継続。信頼性維持。"
+    },
+    {
+      "id": "en_business_presentation_049",
+      "question": "How should you prepare for handling difficult personalities in a meeting?",
+      "choices": [
+        "Avoid dealing with them",
+        "Anticipate concerns, have responses ready, stay professional, don't take personally",
+        "Expect conflict and fight back",
+        "Cancel the meeting"
+      ],
+      "answer": 1,
+      "explanation": "困難な性格対応も準備。懸念予測。プロフェッショナル。個人的でない。平静性。"
+    },
+    {
+      "id": "en_business_presentation_050",
+      "question": "What is the key to delivering a memorable conclusion in a presentation?",
+      "choices": [
+        "Just say 'that's it'",
+        "Connect back to opening, reinforce key message, leave with a powerful statement",
+        "End with no closure",
+        "Apologize for taking time"
+      ],
+      "answer": 1,
+      "explanation": "印象的結論は開始復帰、主メッセージ強化、パワフル宣言。持続インパクト。"
+    }
+  ]
+}

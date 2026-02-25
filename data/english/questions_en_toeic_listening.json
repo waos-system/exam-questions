@@ -1,0 +1,606 @@
+{
+  "genre": "Listening",
+  "exam": "TOEIC",
+  "questions": [
+    {
+      "id": "en_toeic_listening_001",
+      "question": "Look at the photo. What is the man doing?\n(A) He is reading a document\n(B) He is having a meeting\n(C) He is making a phone call\n(D) He is writing in his planner",
+      "choices": [
+        "He is reading a document",
+        "He is having a meeting",
+        "He is making a phone call",
+        "He is writing in his planner"
+      ],
+      "answer": 2,
+      "explanation": "In the photograph, the man is holding a phone to his ear, which indicates he is making a phone call."
+    },
+    {
+      "id": "en_toeic_listening_002",
+      "question": "Listen to the short talk. What is the speaker mainly discussing?\n(A) Product quality improvements\n(B) Changes to the delivery schedule\n(C) New warehouse locations\n(D) Training requirements for staff",
+      "choices": [
+        "Product quality improvements",
+        "Changes to the delivery schedule",
+        "New warehouse locations",
+        "Training requirements for staff"
+      ],
+      "answer": 1,
+      "explanation": "The speaker announces that due to increased demand, delivery schedules will be modified to ensure timely shipments."
+    },
+    {
+      "id": "en_toeic_listening_003",
+      "question": "What does the man request?\n(A) A copy of the report\n(B) A meeting with the director\n(C) Technical support for his computer\n(D) Information about the project timeline",
+      "choices": [
+        "A copy of the report",
+        "A meeting with the director",
+        "Technical support for his computer",
+        "Information about the project timeline"
+      ],
+      "answer": 3,
+      "explanation": "The man asks for details about when the project will be completed, requesting information about the timeline."
+    },
+    {
+      "id": "en_toeic_listening_004",
+      "question": "Why does the woman go to the store?\n(A) To exchange a product\n(B) To return and purchase new items\n(C) To inquire about a discount\n(D) To apply for a customer loyalty card",
+      "choices": [
+        "To exchange a product",
+        "To return and purchase new items",
+        "To inquire about a discount",
+        "To apply for a customer loyalty card"
+      ],
+      "answer": 1,
+      "explanation": "The woman mentions that she needs to return a damaged product and also wants to buy replacement items."
+    },
+    {
+      "id": "en_toeic_listening_005",
+      "question": "What is the caller's problem?\n(A) His account was charged twice\n(B) He cannot access his account\n(C) His credit card is expired\n(D) The billing address is incorrect",
+      "choices": [
+        "His account was charged twice",
+        "He cannot access his account",
+        "His credit card is expired",
+        "The billing address is incorrect"
+      ],
+      "answer": 0,
+      "explanation": "The caller states that his account has been charged twice for the same order and requests a refund."
+    },
+    {
+      "id": "en_toeic_listening_006",
+      "question": "When will the maintenance work be completed?\n(A) This evening\n(B) Tomorrow morning\n(C) In two days\n(D) Next week",
+      "choices": [
+        "This evening",
+        "Tomorrow morning",
+        "In two days",
+        "Next week"
+      ],
+      "answer": 1,
+      "explanation": "The technician indicates that the maintenance is scheduled to finish by tomorrow morning."
+    },
+    {
+      "id": "en_toeic_listening_007",
+      "question": "What is the main topic of the announcement?\n(A) A new product launch\n(B) Quarterly financial results\n(C) Office relocation details\n(D) Employee benefits changes",
+      "choices": [
+        "A new product launch",
+        "Quarterly financial results",
+        "Office relocation details",
+        "Employee benefits changes"
+      ],
+      "answer": 2,
+      "explanation": "The announcement focuses on informing employees about the move to a new office building and the effective date."
+    },
+    {
+      "id": "en_toeic_listening_008",
+      "question": "Why is the meeting being postponed?\n(A) The manager is ill\n(B) Some participants cannot attend\n(C) The presentation materials are not ready\n(D) The conference room is not available",
+      "choices": [
+        "The manager is ill",
+        "Some participants cannot attend",
+        "The presentation materials are not ready",
+        "The conference room is not available"
+      ],
+      "answer": 1,
+      "explanation": "The speaker mentions that several key attendees are traveling and cannot make the scheduled meeting time."
+    },
+    {
+      "id": "en_toeic_listening_009",
+      "question": "What does the man want to do?\n(A) Upgrade his insurance plan\n(B) Cancel his subscription\n(C) Dispute a claim\n(D) Report a missing document",
+      "choices": [
+        "Upgrade his insurance plan",
+        "Cancel his subscription",
+        "Dispute a claim",
+        "Report a missing document"
+      ],
+      "answer": 0,
+      "explanation": "The man indicates he would like to increase his coverage and asks about the available premium options."
+    },
+    {
+      "id": "en_toeic_listening_010",
+      "question": "Where are the speakers?\n(A) In a restaurant\n(B) At an airport\n(C) In an office break room\n(D) At a retail store",
+      "choices": [
+        "In a restaurant",
+        "At an airport",
+        "In an office break room",
+        "At a retail store"
+      ],
+      "answer": 1,
+      "explanation": "The background announcements and discussion about flight boarding indicate the speakers are at an airport."
+    },
+    {
+      "id": "en_toeic_listening_011",
+      "question": "What is the woman asking about?\n(A) The refund policy\n(B) Shipping costs and delivery time\n(C) Product specifications\n(D) Warranty information",
+      "choices": [
+        "The refund policy",
+        "Shipping costs and delivery time",
+        "Product specifications",
+        "Warranty information"
+      ],
+      "answer": 1,
+      "explanation": "The woman questions how much shipping will cost and when the package will arrive at her location."
+    },
+    {
+      "id": "en_toeic_listening_012",
+      "question": "Why does the caller sound frustrated?\n(A) He has called multiple times about the same issue\n(B) The staff member is rude\n(C) The service is more expensive than expected\n(D) He is on hold for too long",
+      "choices": [
+        "He has called multiple times about the same issue",
+        "The staff member is rude",
+        "The service is more expensive than expected",
+        "He is on hold for too long"
+      ],
+      "answer": 0,
+      "explanation": "The caller expresses that this is his third call about the unresolved problem with his order."
+    },
+    {
+      "id": "en_toeic_listening_013",
+      "question": "What is the purpose of the training session?\n(A) To introduce new equipment\n(B) To improve customer service skills\n(C) To review safety procedures\n(D) To discuss the annual budget",
+      "choices": [
+        "To introduce new equipment",
+        "To improve customer service skills",
+        "To review safety procedures",
+        "To discuss the annual budget"
+      ],
+      "answer": 2,
+      "explanation": "The trainer emphasizes the importance of following evacuation procedures and understanding emergency protocols."
+    },
+    {
+      "id": "en_toeic_listening_014",
+      "question": "How much experience does the candidate have?\n(A) Less than one year\n(B) One to three years\n(C) Three to five years\n(D) More than five years",
+      "choices": [
+        "Less than one year",
+        "One to three years",
+        "Three to five years",
+        "More than five years"
+      ],
+      "answer": 3,
+      "explanation": "The candidate mentions she has been working in this field for seven years with multiple companies."
+    },
+    {
+      "id": "en_toeic_listening_015",
+      "question": "What action will the employee take next?\n(A) Submit the revised proposal\n(B) Schedule another meeting\n(C) Review the budget again\n(D) Contact the client for approval",
+      "choices": [
+        "Submit the revised proposal",
+        "Schedule another meeting",
+        "Review the budget again",
+        "Contact the client for approval"
+      ],
+      "answer": 0,
+      "explanation": "The employee agrees to make the requested revisions and will send the updated proposal by Thursday."
+    },
+    {
+      "id": "en_toeic_listening_016",
+      "question": "What does the hotel receptionist suggest?\n(A) Booking a tour with the concierge\n(B) Dining at the hotel restaurant\n(C) Visiting a nearby shopping district\n(D) Renting a car for the stay",
+      "choices": [
+        "Booking a tour with the concierge",
+        "Dining at the hotel restaurant",
+        "Visiting a nearby shopping district",
+        "Renting a car for the stay"
+      ],
+      "answer": 2,
+      "explanation": "The receptionist recommends checking out the shopping area located just two blocks from the hotel."
+    },
+    {
+      "id": "en_toeic_listening_017",
+      "question": "According to the message, what time is the deadline?\n(A) By noon today\n(B) By end of business today\n(C) By tomorrow afternoon\n(D) By Friday morning",
+      "choices": [
+        "By noon today",
+        "By end of business today",
+        "By tomorrow afternoon",
+        "By Friday morning"
+      ],
+      "answer": 3,
+      "explanation": "The voice message states all approvals must be submitted no later than Friday morning at 9 AM."
+    },
+    {
+      "id": "en_toeic_listening_018",
+      "question": "What is the woman's concern about the proposal?\n(A) It exceeds the allocated budget\n(B) The timeline is too short\n(C) It lacks detailed specifications\n(D) It doesn't address all requirements",
+      "choices": [
+        "It exceeds the allocated budget",
+        "The timeline is too short",
+        "It lacks detailed specifications",
+        "It doesn't address all requirements"
+      ],
+      "answer": 3,
+      "explanation": "The woman points out that the proposal fails to include solutions for several of the client's main concerns."
+    },
+    {
+      "id": "en_toeic_listening_019",
+      "question": "Why does the man need to leave early?\n(A) He has a doctor's appointment\n(B) He has a family commitment\n(C) He needs to pick up a package\n(D) He has another meeting scheduled",
+      "choices": [
+        "He has a doctor's appointment",
+        "He has a family commitment",
+        "He needs to pick up a package",
+        "He has another meeting scheduled"
+      ],
+      "answer": 1,
+      "explanation": "The man explains that he must leave by 4 PM to pick up his children from school."
+    },
+    {
+      "id": "en_toeic_listening_020",
+      "question": "What is the speaker's recommendation?\n(A) Invest in new technology\n(B) Hire additional staff\n(C) Expand into new markets\n(D) Reduce operational expenses",
+      "choices": [
+        "Invest in new technology",
+        "Hire additional staff",
+        "Expand into new markets",
+        "Reduce operational expenses"
+      ],
+      "answer": 0,
+      "explanation": "The speaker argues that modernizing their systems will improve efficiency and ultimately save money in the long run."
+    },
+    {
+      "id": "en_toeic_listening_021",
+      "question": "How will the participants receive the agenda?\n(A) By email before the meeting\n(B) Upon arrival at the venue\n(C) During the opening remarks\n(D) A week before the event",
+      "choices": [
+        "By email before the meeting",
+        "Upon arrival at the venue",
+        "During the opening remarks",
+        "A week before the event"
+      ],
+      "answer": 0,
+      "explanation": "The organizer announces that detailed agendas will be sent to all participants via email two days before the conference."
+    },
+    {
+      "id": "en_toeic_listening_022",
+      "question": "What problem occurred during the event?\n(A) The sound system malfunctioned\n(B) An attendee became ill\n(C) The venue was too small\n(D) The catering service was late",
+      "choices": [
+        "The sound system malfunctioned",
+        "An attendee became ill",
+        "The venue was too small",
+        "The catering service was late"
+      ],
+      "answer": 0,
+      "explanation": "The speaker mentions that due to technical difficulties with the microphone, the presentation had to be paused briefly."
+    },
+    {
+      "id": "en_toeic_listening_023",
+      "question": "What action is required from the employee?\n(A) Complete a training module\n(B) Update personal information in the system\n(C) Sign a new employment contract\n(D) Attend a performance review",
+      "choices": [
+        "Complete a training module",
+        "Update personal information in the system",
+        "Sign a new employment contract",
+        "Attend a performance review"
+      ],
+      "answer": 1,
+      "explanation": "The HR representative reminds employees that they must verify and update their contact details in the employee database by month's end."
+    },
+    {
+      "id": "en_toeic_listening_024",
+      "question": "According to the announcement, what is being discontinued?\n(A) The morning shift\n(B) A customer service line\n(C) The loyalty rewards program\n(D) A product line",
+      "choices": [
+        "The morning shift",
+        "A customer service line",
+        "The loyalty rewards program",
+        "A product line"
+      ],
+      "answer": 1,
+      "explanation": "The announcement states that due to staffing changes, the 24/7 customer support line will be closed effective next month."
+    },
+    {
+      "id": "en_toeic_listening_025",
+      "question": "What is the main advantage mentioned?\n(A) Lower cost\n(B) Better quality\n(C) Faster delivery\n(D) Improved customer service",
+      "choices": [
+        "Lower cost",
+        "Better quality",
+        "Faster delivery",
+        "Improved customer service"
+      ],
+      "answer": 2,
+      "explanation": "The sales representative emphasizes that the new supplier can deliver orders within 48 hours, compared to the current 5-7 day timeframe."
+    },
+    {
+      "id": "en_toeic_listening_026",
+      "question": "What does the caller plan to do?\n(A) File a complaint with management\n(B) Return the defective item\n(C) Request a price adjustment\n(D) Cancel the entire order",
+      "choices": [
+        "File a complaint with management",
+        "Return the defective item",
+        "Request a price adjustment",
+        "Cancel the entire order"
+      ],
+      "answer": 1,
+      "explanation": "The caller states she wants to send back the broken unit and receive a replacement as soon as possible."
+    },
+    {
+      "id": "en_toeic_listening_027",
+      "question": "What information is being requested?\n(A) Budget allocation\n(B) Previous sales data\n(C) Employee performance evaluations\n(D) Competitive pricing analysis",
+      "choices": [
+        "Budget allocation",
+        "Previous sales data",
+        "Employee performance evaluations",
+        "Competitive pricing analysis"
+      ],
+      "answer": 1,
+      "explanation": "The manager asks for quarterly sales figures from the past two years to prepare the market analysis report."
+    },
+    {
+      "id": "en_toeic_listening_028",
+      "question": "What is the speaker most concerned about?\n(A) Client dissatisfaction\n(B) Project costs increasing\n(C) Staff shortages\n(D) Schedule delays",
+      "choices": [
+        "Client dissatisfaction",
+        "Project costs increasing",
+        "Staff shortages",
+        "Schedule delays"
+      ],
+      "answer": 3,
+      "explanation": "The project manager expresses worry that falling behind schedule will impact the client's business operations."
+    },
+    {
+      "id": "en_toeic_listening_029",
+      "question": "Why must the procedures be updated?\n(A) New regulations require it\n(B) Employees requested changes\n(C) To improve efficiency\n(D) The current system is obsolete",
+      "choices": [
+        "New regulations require it",
+        "Employees requested changes",
+        "To improve efficiency",
+        "The current system is obsolete"
+      ],
+      "answer": 0,
+      "explanation": "The compliance officer states that recent changes in industry standards mandate that all procedures be revised immediately."
+    },
+    {
+      "id": "en_toeic_listening_030",
+      "question": "What will happen next week?\n(A) A department meeting\n(B) System maintenance\n(C) Office holiday closure\n(D) Staff training",
+      "choices": [
+        "A department meeting",
+        "System maintenance",
+        "Office holiday closure",
+        "Staff training"
+      ],
+      "answer": 1,
+      "explanation": "The IT coordinator announces that the network servers will undergo scheduled maintenance on Tuesday and Wednesday of next week."
+    },
+    {
+      "id": "en_toeic_listening_031",
+      "question": "What does the customer want to verify?\n(A) The order total\n(B) The shipping address\n(C) The delivery date\n(D) The product details",
+      "choices": [
+        "The order total",
+        "The shipping address",
+        "The delivery date",
+        "The product details"
+      ],
+      "answer": 1,
+      "explanation": "The customer reads back his address to confirm it's correct before completing the order."
+    },
+    {
+      "id": "en_toeic_listening_032",
+      "question": "According to the speaker, when should the report be finalized?\n(A) Today by 5 PM\n(B) Tomorrow morning\n(C) By the end of the week\n(D) In two weeks",
+      "choices": [
+        "Today by 5 PM",
+        "Tomorrow morning",
+        "By the end of the week",
+        "In two weeks"
+      ],
+      "answer": 2,
+      "explanation": "The director specifies that the final report must be completed and submitted by Friday for the Monday board meeting."
+    },
+    {
+      "id": "en_toeic_listening_033",
+      "question": "What is the primary reason for the rate increase?\n(A) Higher operating costs\n(B) Increased demand\n(C) Competitor pricing\n(D) Service expansion",
+      "choices": [
+        "Higher operating costs",
+        "Increased demand",
+        "Competitor pricing",
+        "Service expansion"
+      ],
+      "answer": 0,
+      "explanation": "The utility company representative explains that rising fuel and maintenance costs necessitate the rate adjustment."
+    },
+    {
+      "id": "en_toeic_listening_034",
+      "question": "What type of work experience does the applicant lack?\n(A) Customer interaction\n(B) Team management\n(C) Software development\n(D) Financial analysis",
+      "choices": [
+        "Customer interaction",
+        "Team management",
+        "Software development",
+        "Financial analysis"
+      ],
+      "answer": 1,
+      "explanation": "The interviewer notes that while the candidate has strong technical skills, they have not managed a team before."
+    },
+    {
+      "id": "en_toeic_listening_035",
+      "question": "How many locations will be affected by the changes?\n(A) One office\n(B) Three offices\n(C) Five offices\n(D) All regional offices",
+      "choices": [
+        "One office",
+        "Three offices",
+        "Five offices",
+        "All regional offices"
+      ],
+      "answer": 3,
+      "explanation": "The executive announces that the new policy will be implemented company-wide across all branch locations simultaneously."
+    },
+    {
+      "id": "en_toeic_listening_036",
+      "question": "What is the purpose of the follow-up meeting?\n(A) To review quarterly results\n(B) To discuss the implementation plan\n(C) To address remaining concerns\n(D) To finalize the contract",
+      "choices": [
+        "To review quarterly results",
+        "To discuss the implementation plan",
+        "To address remaining concerns",
+        "To finalize the contract"
+      ],
+      "answer": 2,
+      "explanation": "The participants agree to reconvene next week to clarify outstanding issues before moving forward with the project."
+    },
+    {
+      "id": "en_toeic_listening_037",
+      "question": "What did the employee accomplish?\n(A) Completed the project early\n(B) Increased sales by 15 percent\n(C) Resolved a major client issue\n(D) Hired new team members",
+      "choices": [
+        "Completed the project early",
+        "Increased sales by 15 percent",
+        "Resolved a major client issue",
+        "Hired new team members"
+      ],
+      "answer": 1,
+      "explanation": "The manager commends the employee for exceeding expectations and achieving a 15 percent increase in quarterly sales."
+    },
+    {
+      "id": "en_toeic_listening_038",
+      "question": "What does the service representative recommend?\n(A) Purchasing the extended warranty\n(B) Upgrading to the premium plan\n(C) Scheduling a maintenance appointment\n(D) Registering the product online",
+      "choices": [
+        "Purchasing the extended warranty",
+        "Upgrading to the premium plan",
+        "Scheduling a maintenance appointment",
+        "Registering the product online"
+      ],
+      "answer": 0,
+      "explanation": "The representative suggests that the extended warranty would provide better protection and peace of mind for the customer."
+    },
+    {
+      "id": "en_toeic_listening_039",
+      "question": "What will be provided at the conference?\n(A) Free meals and accommodations\n(B) Training materials and certificates\n(C) Job placement assistance\n(D) Travel reimbursement",
+      "choices": [
+        "Free meals and accommodations",
+        "Training materials and certificates",
+        "Job placement assistance",
+        "Travel reimbursement"
+      ],
+      "answer": 1,
+      "explanation": "The registration confirmation mentions that all participants will receive comprehensive training resources and completion certificates."
+    },
+    {
+      "id": "en_toeic_listening_040",
+      "question": "What issue did the department face?\n(A) Low employee morale\n(B) Equipment failure\n(C) Insufficient funding\n(D) High employee turnover",
+      "choices": [
+        "Low employee morale",
+        "Equipment failure",
+        "Insufficient funding",
+        "High employee turnover"
+      ],
+      "answer": 2,
+      "explanation": "The department head reports that budget cuts have limited their ability to hire additional support staff and purchase necessary materials."
+    },
+    {
+      "id": "en_toeic_listening_041",
+      "question": "According to the instructions, what must be done before the presentation?\n(A) The slides must be reviewed\n(B) Questions must be submitted in advance\n(C) The handouts must be printed\n(D) The audio equipment must be tested",
+      "choices": [
+        "The slides must be reviewed",
+        "Questions must be submitted in advance",
+        "The handouts must be printed",
+        "The audio equipment must be tested"
+      ],
+      "answer": 3,
+      "explanation": "The technician reminds everyone that the sound system will be checked and adjusted before the beginning of the presentation."
+    },
+    {
+      "id": "en_toeic_listening_042",
+      "question": "What type of accommodation does the hotel offer?\n(A) Only standard rooms\n(B) Rooms with free breakfast\n(C) Suites with kitchen facilities\n(D) Multiple room categories",
+      "choices": [
+        "Only standard rooms",
+        "Rooms with free breakfast",
+        "Suites with kitchen facilities",
+        "Multiple room categories"
+      ],
+      "answer": 3,
+      "explanation": "The hotel concierge describes various options including standard rooms, deluxe rooms, and suites to accommodate different needs and budgets."
+    },
+    {
+      "id": "en_toeic_listening_043",
+      "question": "What is the main obstacle to the project?\n(A) Lack of qualified personnel\n(B) Inadequate resources\n(C) Technical limitations\n(D) Competing priorities",
+      "choices": [
+        "Lack of qualified personnel",
+        "Inadequate resources",
+        "Technical limitations",
+        "Competing priorities"
+      ],
+      "answer": 0,
+      "explanation": "The project lead indicates that finding experienced professionals with the required skill set has been the primary challenge."
+    },
+    {
+      "id": "en_toeic_listening_044",
+      "question": "By when must the inventory be completed?\n(A) By end of today\n(B) By tomorrow noon\n(C) By Friday\n(D) By next Monday",
+      "choices": [
+        "By end of today",
+        "By tomorrow noon",
+        "By Friday",
+        "By next Monday"
+      ],
+      "answer": 2,
+      "explanation": "The warehouse manager states that all inventory counts must be finished and reconciled by the end of the business week."
+    },
+    {
+      "id": "en_toeic_listening_045",
+      "question": "What feedback did the client provide?\n(A) The proposal was too expensive\n(B) The timeline was too aggressive\n(C) The design met their expectations\n(D) They want additional features added",
+      "choices": [
+        "The proposal was too expensive",
+        "The timeline was too aggressive",
+        "The design met their expectations",
+        "They want additional features added"
+      ],
+      "answer": 2,
+      "explanation": "The designer reports that the client expressed satisfaction with the final design and approved it without requiring changes."
+    },
+    {
+      "id": "en_toeic_listening_046",
+      "question": "What does the caller need assistance with?\n(A) Installing software\n(B) Recovering lost data\n(C) Resetting a password\n(D) Upgrading the operating system",
+      "choices": [
+        "Installing software",
+        "Recovering lost data",
+        "Resetting a password",
+        "Upgrading the operating system"
+      ],
+      "answer": 2,
+      "explanation": "The customer calls because he cannot remember his login credentials and needs to reset his password."
+    },
+    {
+      "id": "en_toeic_listening_047",
+      "question": "What change is being made to the team structure?\n(A) Two positions will be eliminated\n(B) New departments will be created\n(C) Reporting lines will be reorganized\n(D) Several roles will be consolidated",
+      "choices": [
+        "Two positions will be eliminated",
+        "New departments will be created",
+        "Reporting lines will be reorganized",
+        "Several roles will be consolidated"
+      ],
+      "answer": 3,
+      "explanation": "The executive explains that to improve efficiency, three smaller units will merge into one streamlined department."
+    },
+    {
+      "id": "en_toeic_listening_048",
+      "question": "What is the customer service representative's suggestion?\n(A) Wait for a sale to purchase the item\n(B) Check the warehouse for availability\n(C) Pre-order the product now\n(D) Visit a retail location instead",
+      "choices": [
+        "Wait for a sale to purchase the item",
+        "Check the warehouse for availability",
+        "Pre-order the product now",
+        "Visit a retail location instead"
+      ],
+      "answer": 2,
+      "explanation": "The representative recommends placing a pre-order to ensure the customer receives the item when it becomes available next month."
+    },
+    {
+      "id": "en_toeic_listening_049",
+      "question": "What responsibility will the new hire have?\n(A) Managing the sales team\n(B) Handling client accounts\n(C) Preparing financial reports\n(D) Coordinating marketing campaigns",
+      "choices": [
+        "Managing the sales team",
+        "Handling client accounts",
+        "Preparing financial reports",
+        "Coordinating marketing campaigns"
+      ],
+      "answer": 1,
+      "explanation": "The HR manager describes the position as an account executive role responsible for managing key client relationships and ensuring customer satisfaction."
+    },
+    {
+      "id": "en_toeic_listening_050",
+      "question": "What action will be taken if the standards are not met?\n(A) The contract will be terminated\n(B) Penalties will be imposed\n(C) Prices will be reduced\n(D) A notice will be issued",
+      "choices": [
+        "The contract will be terminated",
+        "Penalties will be imposed",
+        "Prices will be reduced",
+        "A notice will be issued"
+      ],
+      "answer": 1,
+      "explanation": "The compliance officer warns that vendors failing to meet service level agreements will face financial penalties as outlined in the contract terms."
+    }
+  ]
+}

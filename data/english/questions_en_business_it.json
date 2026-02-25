@@ -1,0 +1,607 @@
+{
+  "genre": "ビジネス英語 - IT&技術",
+  "exam": "Business English",
+  "section": "IT & Technical English",
+  "questions": [
+    {
+      "id": "en_business_it_001",
+      "question": "What does 'API' stand for in software development?",
+      "choices": [
+        "Application Programming Interface",
+        "Advanced Program Interaction",
+        "Automated Process Installation",
+        "Application Product Information"
+      ],
+      "answer": 0,
+      "explanation": "API（Application Programming Interface）はソフトウェア間の通信標準。技術英語の基本格語。"
+    },
+    {
+      "id": "en_business_it_002",
+      "question": "How should you explain a system outage to a non-technical manager?",
+      "choices": [
+        "Use highly technical jargon they won't understand",
+        "Explain clear impact, simplified cause, estimated duration, ongoing steps, user communication",
+        "Ignore the issue and hope they don't notice",
+        "Make technical excuses"
+      ],
+      "answer": 1,
+      "explanation": "技術トラブル報告は経営層向けに影響、原因（簡潔）、期間、対策、通知を示す。"
+    },
+    {
+      "id": "en_business_it_003",
+      "question": "What is the purpose of 'documentation' in IT projects?",
+      "choices": [
+        "To waste time",
+        "To provide clear instructions, maintain knowledge, enable maintenance and reduce errors",
+        "It serves no purpose",
+        "Just for filing"
+      ],
+      "answer": 1,
+      "explanation": "技術文書は指示明確化、知識維持、保守容易化、エラー削減。必須。"
+    },
+    {
+      "id": "en_business_it_004",
+      "question": "How should you respond to 'I don't understand tech; can you explain it simply?'",
+      "choices": [
+        "Say 'it's too complicated'",
+        "Use analogies, avoid jargon, provide step-by-step explanation, ask if they follow",
+        "Use more technical terms",
+        "Refuse to explain"
+      ],
+      "answer": 1,
+      "explanation": "技術説明は類推、専門用語回避、段階的、理解確認。アクセス性。"
+    },
+    {
+      "id": "en_business_it_005",
+      "question": "What does 'bandwidth' typically refer to in IT discussions?",
+      "choices": [
+        "The width of internet cables",
+        "The capacity to handle data transmission or workload",
+        "The speed of a computer",
+        "The size of storage devices"
+      ],
+      "answer": 1,
+      "explanation": "バンド幅は数据転送容量またはワークロード処理能力。技術組織言語。"
+    },
+    {
+      "id": "en_business_it_006",
+      "question": "How should you describe a cybersecurity breach in business communication?",
+      "choices": [
+        "Minimize the issue",
+        "Acknowledge severity, explain what happened, detail response, outline prevention, support affected",
+        "Hide the breach",
+        "Blame external factors"
+      ],
+      "answer": 1,
+      "explanation": "セキュリティ漏洩は重大性認識、説明、対応、予防、サポート。透明性と信頼。"
+    },
+    {
+      "id": "en_business_it_007",
+      "question": "What is 'cloud computing' in simple business terms?",
+      "choices": [
+        "Weather prediction",
+        "Internet-based services and storage accessed remotely rather than locally",
+        "Flying computers",
+        "A type of server"
+      ],
+      "answer": 1,
+      "explanation": "クラウド計算はリモートアクセスのインターネットベースサービス。技術用語。"
+    },
+    {
+      "id": "en_business_it_008",
+      "question": "How should you handle a user's request for a complex technical solution?",
+      "choices": [
+        "Immediately approve and implement",
+        "Understand requirements, assess feasibility, estimate costs/timeline, explore alternatives",
+        "Refuse without explanation",
+        "Provide technical jargon"
+      ],
+      "answer": 1,
+      "explanation": "複雑技術要求は要件理解、可行性評価、コスト・期間見積、代替え検討。専門的。"
+    },
+    {
+      "id": "en_business_it_009",
+      "question": "What does 'user experience' (UX) primarily concern?",
+      "choices": [
+        "How expensive the software is",
+        "How intuitive and satisfying a product is for end-users",
+        "The brand color",
+        "Server specifications"
+      ],
+      "answer": 1,
+      "explanation": "ユーザーエクスペリエンス（UX）は製品がユーザーにとって直感的で満足度が基本。"
+    },
+    {
+      "id": "en_business_it_010",
+      "question": "How should you present IT costs to senior management?",
+      "choices": [
+        "Just list all technical expenses",
+        "Explain ROI, business value, risk mitigation, and compare with alternatives",
+        "Assume they understand technical costs",
+        "Provide only technical details"
+      ],
+      "answer": 1,
+      "explanation": "IT費用報告は経営層向けにROI、ビジネス価値、リスク緩和、比較。正当化。"
+    },
+    {
+      "id": "en_business_it_011",
+      "question": "What does 'scalability' mean in the context of IT systems?",
+      "choices": [
+        "The color of the servers",
+        "The ability to handle increased load without performance degradation",
+        "How loud the servers are",
+        "The weight of equipment"
+      ],
+      "answer": 1,
+      "explanation": "スケーラビリティは負荷増加に性能低下せず対応能力。技術要件。"
+    },
+    {
+      "id": "en_business_it_012",
+      "question": "How should you explain 'downtime' impact on the business?",
+      "choices": [
+        "It doesn't matter",
+        "Quantify lost productivity, revenue impact, customer effects, operational costs",
+        "Just say it's bad",
+        "Ignore business impact"
+      ],
+      "answer": 1,
+      "explanation": "ダウンタイム影響は生産性損失、収益、顧客、運営費定量化。ビジネス視点。"
+    },
+    {
+      "id": "en_business_it_013",
+      "question": "What is 'data migration' in IT projects?",
+      "choices": [
+        "Moving computers to a new office",
+        "Transferring data from one system to another while maintaining integrity",
+        "Deleting data",
+        "Creating backups"
+      ],
+      "answer": 1,
+      "explanation": "データマイグレーションは完全性保持しながら新システムへデータ移行。重要プロセス。"
+    },
+    {
+      "id": "en_business_it_014",
+      "question": "How should you describe software 'bugs' to business stakeholders?",
+      "choices": [
+        "Ignore them",
+        "Explain severity level, impact on functionality, repair timeline, workarounds",
+        "Call them 'features'",
+        "Hide them from stakeholders"
+      ],
+      "answer": 1,
+      "explanation": "バグ説明は重大度レベル、機能影響、修復タイムライン、代替え。透明性。"
+    },
+    {
+      "id": "en_business_it_015",
+      "question": "What does 'firewall' do in network security?",
+      "choices": [
+        "Cools down servers",
+        "Monitors and controls incoming/outgoing network traffic to prevent unauthorized access",
+        "Accelerates internet speed",
+        "Stores backup data"
+      ],
+      "answer": 1,
+      "explanation": "ファイアウォールはネットワークトラフィック監視・制御で不正アクセス防止。セキュリティ。"
+    },
+    {
+      "id": "en_business_it_016",
+      "question": "How should you justify IT infrastructure investments to the board?",
+      "choices": [
+        "Just say it's necessary",
+        "Link to strategic goals, demonstrate ROI, show competitive advantage, address risks",
+        "Use technical specifications",
+        "Make emotional appeals"
+      ],
+      "answer": 1,
+      "explanation": "IT海外投資正当化は戦略目標、ROI、競争優位、リスク。経営層言語。"
+    },
+    {
+      "id": "en_business_it_017",
+      "question": "What is a 'patch' or 'update' in software?",
+      "choices": [
+        "A new product",
+        "Code modifications to fix bugs, improve security, or add features",
+        "A type of storage",
+        "A company logo"
+      ],
+      "answer": 1,
+      "explanation": "パッチ・更新はバグ修正、セキュリティ向上、機能追加のコード変更。保守的。"
+    },
+    {
+      "id": "en_business_it_018",
+      "question": "How should you approach 'change management' in IT implementations?",
+      "choices": [
+        "Make changes without notice",
+        "Plan changes, communicate impact, train users, monitor transition, support adoption",
+        "Implement immediately without preparation",
+        "Hope users adapt on their own"
+      ],
+      "answer": 1,
+      "explanation": "変更管理は計画、コミュニケ、ユーザー教育、過渡期監視。設定採用。"
+    },
+    {
+      "id": "en_business_it_019",
+      "question": "What does 'compliance' mean in the context of IT systems?",
+      "choices": [
+        "Complaining about systems",
+        "Adherence to regulations, standards, and policies governing data, security, and operations",
+        "Computer compliance",
+        "Following user instructions"
+      ],
+      "answer": 1,
+      "explanation": "コンプライアンスは規制、標準、ポリシー見直し。データセキュリティ、運用。"
+    },
+    {
+      "id": "en_business_it_020",
+      "question": "How should you explain 'latency' to non-technical users?",
+      "choices": [
+        "It's a type of disease",
+        "The delay between an action and its response; affects system speed and responsiveness",
+        "An award or achievement",
+        "A policy"
+      ],
+      "answer": 1,
+      "explanation": "レイテンシは行動と反応の遅延。システム速度と応答性。ユーザー体験。"
+    },
+    {
+      "id": "en_business_it_021",
+      "question": "What is the importance of 'testing' in software development?",
+      "choices": [
+        "It's optional",
+        "Identifies bugs early, ensures quality, reduces production errors, minimizes costs",
+        "Takes too long",
+        "Unnecessary if code is well-written"
+      ],
+      "answer": 1,
+      "explanation": "テストはバグ早期発見、品質確保、本番エラー削減、費用最小化。必須。"
+    },
+    {
+      "id": "en_business_it_022",
+      "question": "How should you communicate technical requirements to developers?",
+      "choices": [
+        "Use only business terms they won't understand",
+        "Provide clear specifications, use examples, document requirements, confirm understanding",
+        "Be vague",
+        "Don't document anything"
+      ],
+      "answer": 1,
+      "explanation": "開発者への技術要件は明確仕様、例示、文書化、理解確認。実装。"
+    },
+    {
+      "id": "en_business_it_023",
+      "question": "What is 'load balancing' in system architecture?",
+      "choices": [
+        "Balancing the weight of servers",
+        "Distributing work across multiple servers to optimize performance and prevent overload",
+        "A type of software",
+        "Storing data equally"
+      ],
+      "answer": 1,
+      "explanation": "ロードバランシングは複数サーバーで作業分散。性能最適化とオーバーロード防止。"
+    },
+    {
+      "id": "en_business_it_024",
+      "question": "How should you handle a request for an unsupported technology?",
+      "choices": [
+        "Immediately reject it",
+        "Understand the business need, evaluate risks, explore alternatives, make informed decision",
+        "Simply refuse",
+        "Promise to support it"
+      ],
+      "answer": 1,
+      "explanation": "サポート対象外技術への要求はビジネスニーズ理解、リスク評価、代替え、判断的決定。"
+    },
+    {
+      "id": "en_business_it_025",
+      "question": "What does 'database' do in business applications?",
+      "choices": [
+        "Stores company furniture",
+        "Stores, organizes, and enables retrieval of structured business data",
+        "A type of decoration",
+        "A calendar"
+      ],
+      "answer": 1,
+      "explanation": "データベースは構造化ビジネスデータ保存、整理、検索。核心インフラ。"
+    },
+    {
+      "id": "en_business_it_026",
+      "question": "How should you present IT security risks to executives?",
+      "choices": [
+        "Scare them without solutions",
+        "Explain threat credibility, potential business impact, probability, mitigation strategies",
+        "Use only technical details",
+        "Minimize the importance"
+      ],
+      "answer": 1,
+      "explanation": "セキュリティリスク提示は脅威信用度、ビジネス影響、確率、緩和策。経営層言語。"
+    },
+    {
+      "id": "en_business_it_027",
+      "question": "What is 'encryption' in data security?",
+      "choices": [
+        "Breaking data into pieces",
+        "Converting data into code to prevent unauthorized access or eavesdropping",
+        "Deleting sensitive data",
+        "Storing data in secret locations"
+      ],
+      "answer": 1,
+      "explanation": "暗号化はデータをコード変換。不正アクセスと盗聴防止。セキュリティ主要。"
+    },
+    {
+      "id": "en_business_it_028",
+      "question": "How should you document a system's technical architecture?",
+      "choices": [
+        "Don't document it",
+        "Create diagrams, document components, explain interactions, maintain current version",
+        "Only in your head",
+        "Use informal notes"
+      ],
+      "answer": 1,
+      "explanation": "システム設計文書はダイアグラム、部品説明、相互作用、最新版保持。参考性。"
+    },
+    {
+      "id": "en_business_it_029",
+      "question": "What does 'virtual machine' (VM) mean in IT?",
+      "choices": [
+        "A machine that reads minds",
+        "A software simulation of a computer running on another computer",
+        "A physical computer",
+        "A type of storage drive"
+      ],
+      "answer": 1,
+      "explanation": "仮想マシンはコンピュータソフトウェアシミュレーション。別コンピュータで実行。"
+    },
+    {
+      "id": "en_business_it_030",
+      "question": "How should you explain 'technical debt' to business leaders?",
+      "choices": [
+        "It's not important",
+        "Delayed work/shortcuts that incur future costs; balance speed with quality",
+        "Just a technical term",
+        "Ignore it completely"
+      ],
+      "answer": 1,
+      "explanation": "技術債務は遅延作業・近道による将来費用。速度と品質のバランス。経営層化。"
+    },
+    {
+      "id": "en_business_it_031",
+      "question": "What is the purpose of 'version control' in software development?",
+      "choices": [
+        "To store old files",
+        "Track changes, enable collaboration, maintain history, facilitate rollback if needed",
+        "It's just bureaucratic",
+        "A type of file storage"
+      ],
+      "answer": 1,
+      "explanation": "バージョン管理は変更追跡、協択促進、履歴維持、必要時ロールバック。本質的。"
+    },
+    {
+      "id": "en_business_it_032",
+      "question": "How should you approach prioritizing IT projects?",
+      "choices": [
+        "Do whatever is loudest",
+        "Align with business goals, assess risks, evaluate resources, determine urgency and impact",
+        "Random selection",
+        "Let developers choose"
+      ],
+      "answer": 1,
+      "explanation": "IT優先順位付けは事業目標、リスク評価、資源評価、緊急度と影響。戦略的。"
+    },
+    {
+      "id": "en_business_it_033",
+      "question": "What does 'redundancy' mean in IT infrastructure?",
+      "choices": [
+        "Wasting resources",
+        "Duplicate systems ensuring continuity if primary systems fail",
+        "Repeating the same code",
+        "Extra employees"
+      ],
+      "answer": 1,
+      "explanation": "冗長性は一次システム障害時の継続性確保。デュプリケートシステム。信頼性。"
+    },
+    {
+      "id": "en_business_it_034",
+      "question": "How should you communicate a software release to stakeholders?",
+      "choices": [
+        "Don't tell anyone",
+        "Explain new features, improvements, any risks, deployment timing, support availability",
+        "Only technical details",
+        "Surprise them with changes"
+      ],
+      "answer": 1,
+      "explanation": "ソフトウェア発表は新機能、改善、リスク、配置タイミング、サポート。透明性。"
+    },
+    {
+      "id": "en_business_it_035",
+      "question": "What is 'disaster recovery' in IT operations?",
+      "choices": [
+        "A beach vacation after a crash",
+        "Plans and processes to restore systems and data after catastrophic failure",
+        "A type of backup",
+        "Just a backup plan"
+      ],
+      "answer": 1,
+      "explanation": "ディザスタリカバリはシステムとデータ復元計画・プロセス。重大障害後。不可欠。"
+    },
+    {
+      "id": "en_business_it_036",
+      "question": "How should you explain 'data privacy' to users and stakeholders?",
+      "choices": [
+        "Privacy is not important",
+        "Explain what data is collected, how it's protected, user rights, compliance measures",
+        "Tell them nothing will be shared",
+        "Make promises you can't keep"
+      ],
+      "answer": 1,
+      "explanation": "データプライバシー説明は収集データ、保護、ユーザー権、コンプライアンス。透明。"
+    },
+    {
+      "id": "en_business_it_037",
+      "question": "What does 'middleware' do in software systems?",
+      "choices": [
+        "Sits in the middle of an office",
+        "Facilitates communication and data exchange between applications and systems",
+        "A type of server",
+        "A storage device"
+      ],
+      "answer": 1,
+      "explanation": "ミドルウェアはアプリケーション・システム間コミュニケーション促進。統合層。"
+    },
+    {
+      "id": "en_business_it_038",
+      "question": "How should you handle legacy system modernization projects?",
+      "choices": [
+        "Ignore old systems",
+        "Assess current functionality, plan gradual transition, manage risks, maintain operations",
+        "Replace everything immediately",
+        "Keep old systems forever"
+      ],
+      "answer": 1,
+      "explanation": "レガシーシステム近代化は機能評価、段階的移行、リスク管理、運用維持。戦略的。"
+    },
+    {
+      "id": "en_business_it_039",
+      "question": "What is 'integration' in the context of business systems?",
+      "choices": [
+        "Combining companies",
+        "Connecting different systems to share data and communicate seamlessly",
+        "Physical merging",
+        "A type of software"
+      ],
+      "answer": 1,
+      "explanation": "統合は異なるシステム接続。データ共有とシームレス通信。運用効率。"
+    },
+    {
+      "id": "en_business_it_040",
+      "question": "How should you present IT industry trends to decision-makers?",
+      "choices": [
+        "Ignore trends and stick to old methods",
+        "Explain relevance to business, competitive advantage, implementation timeline, costs",
+        "Focus only on hype",
+        "Assume leaders know all trends"
+      ],
+      "answer": 1,
+      "explanation": "IT技術トレンド提示は事業関連性、競争優位、実装時間、費用。戦略化。"
+    },
+    {
+      "id": "en_business_it_041",
+      "question": "What does 'throughput' measure in system performance?",
+      "choices": [
+        "The physical size of data",
+        "The amount of data or transactions processed per unit time",
+        "The speed of a single transaction",
+        "The cost of operations"
+      ],
+      "answer": 1,
+      "explanation": "スループットは単位時間当たりのデータ・トランザクション処理量。性能指標。"
+    },
+    {
+      "id": "en_business_it_042",
+      "question": "How should you communicate IT project delays to stakeholders?",
+      "choices": [
+        "Hide the delay as long as possible",
+        "Explain causes, revised timeline, mitigation actions, impact assessment",
+        "Blame external factors",
+        "Provide no updates"
+      ],
+      "answer": 1,
+      "explanation": "プロジェクト遅延報告は原因、修正タイムライン、対策、影響。早期透明性。"
+    },
+    {
+      "id": "en_business_it_043",
+      "question": "What is 'containerization' in modern application deployment?",
+      "choices": [
+        "Storing applications in boxes",
+        "Packaging applications with dependencies for consistent deployment across environments",
+        "A type of storage",
+        "A shipping method"
+      ],
+      "answer": 1,
+      "explanation": "コンテナ化は依存性以外のアプリケーション配置。環境一貫性。近代配置。"
+    },
+    {
+      "id": "en_business_it_044",
+      "question": "How should you address skills gaps in your IT team?",
+      "choices": [
+        "Ignore them",
+        "Assess gaps, provide training, hire talent, plan succession, organize knowledge transfers",
+        "Blame employees",
+        "Accept lower quality"
+      ],
+      "answer": 1,
+      "explanation": "スキルギャップは評価、教育、採用、承継計画、知識転移。チーム開発。"
+    },
+    {
+      "id": "en_business_it_045",
+      "question": "What does 'DevOps' approach emphasize in software development?",
+      "choices": [
+        "Only development, no operations",
+        "Collaboration between development and operations for faster, reliable deployments",
+        "Separate development and operations",
+        "Using older methods"
+      ],
+      "answer": 1,
+      "explanation": "DevOpsは開発と運用の協働。高速、信赖できるデプロイメント。現代手法。"
+    },
+    {
+      "id": "en_business_it_046",
+      "question": "How should you explain 'artificial intelligence' (AI) applications in business?",
+      "choices": [
+        "It's just science fiction",
+        "Explain specific use cases, expected benefits, risks, implementation timeline, investment",
+        "Only mention hype",
+        "Avoid discussing AI"
+      ],
+      "answer": 1,
+      "explanation": "AI応用説明は具体的用途、期待利益、リスク、実装時間、投資。経営層化。"
+    },
+    {
+      "id": "en_business_it_047",
+      "question": "What is the importance of 'monitoring' IT systems?",
+      "choices": [
+        "It's just extra work",
+        "Detects issues early, ensures uptime, optimizes performance, enables preventive maintenance",
+        "Monitoring is unnecessary",
+        "Wait for problems to happen"
+      ],
+      "answer": 1,
+      "explanation": "システム監視は早期問題検出、アップタイム確保、性能最適化、予防保守。必須。"
+    },
+    {
+      "id": "en_business_it_048",
+      "question": "How should you handle vendor selection for IT solutions?",
+      "choices": [
+        "Choose the cheapest option",
+        "Evaluate features, Total Cost of Ownership (TCO), support, flexibility, fit with strategy",
+        "Let a single person decide",
+        "Ignore vendor reputation"
+      ],
+      "answer": 1,
+      "explanation": "ベンダー選定は機能、総所有費、サポート、柔軟性、戦略適合。多角評価。"
+    },
+    {
+      "id": "en_business_it_049",
+      "question": "What does 'machine learning' enable in business applications?",
+      "choices": [
+        "Nothing special",
+        "Systems to learn from data, improve performance, and make decisions without explicit programming",
+        "It's just a buzzword",
+        "Only for tech companies"
+      ],
+      "answer": 1,
+      "explanation": "機械学習はデータから学習、性能改善、プログラミング不要の決定。革新的。"
+    },
+    {
+      "id": "en_business_it_050",
+      "question": "How should you conclude an IT strategy presentation?",
+      "choices": [
+        "Just stop talking",
+        "Recap goals, align with business vision, confirm commitment, outline next steps, invite questions",
+        "End abruptly",
+        "Leave without clear conclusions"
+      ],
+      "answer": 1,
+      "explanation": "IT戦略プレゼン結論は目標まとめ、事業ビジョン、コミットメント、次ステップ、質問。完結。"
+    }
+  ]
+}

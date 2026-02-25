@@ -1,0 +1,606 @@
+{
+  "genre": "非同期処理",
+  "exam": "Python",
+  "questions": [
+    {
+      "id": "python_async_001",
+      "question": "Python 3.7+で非同期プログラムを実行する最適なエントリーポイントはどれか。",
+      "choices": [
+        "loop.run_until_complete()",
+        "asyncio.run()",
+        "loop.run_forever()",
+        "asyncio.gather()"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.run()はPython 3.7+で導入された推奨される方法。イベントループの作成、実行、クローズを自動管理する。"
+    },
+    {
+      "id": "python_async_002",
+      "question": "コルーチンを定義する形式として正しいものはどれか。",
+      "choices": [
+        "def async_func(): pass",
+        "async def async_func(): pass",
+        "@asyncio.coroutine\\ndef async_func(): pass",
+        "func = asyncio.coroutine(def_func)"
+      ],
+      "answer": 1,
+      "explanation": "async defはPython 3.5で導入された標準的なコルーチン定義形式。"
+    },
+    {
+      "id": "python_async_003",
+      "question": "次のコードの問題点は何か？`task = asyncio.create_task(coro)`",
+      "choices": [
+        "taskが実行されない",
+        "問題なし、正常に動作する",
+        "awaitしないと結果を取得できない",
+        "loop.create_taskを使うべき"
+      ],
+      "answer": 2,
+      "explanation": "create_taskはコルーチンをタスクに変換するが、結果を取得するにはawaitが必要。"
+    },
+    {
+      "id": "python_async_004",
+      "question": "awaitの役割として正しいものはどれか。",
+      "choices": [
+        "新しいタスクを作成する",
+        "コルーチンの完了を待機し、結果を返す",
+        "イベントループを停止する",
+        "複数のタスクを並行実行する"
+      ],
+      "answer": 1,
+      "explanation": "awaitはコルーチン実行の完了を待機する。await時点で制御がイベントループに戻される。"
+    },
+    {
+      "id": "python_async_005",
+      "question": "asyncio.create_task()とawait coro()の主な違いはどれか。",
+      "choices": [
+        "create_taskは同期的、awaitは非同期",
+        "create_taskは即座にスケジュール、awaitは直列実行",
+        "create_taskは失敗するが、awaitは成功する",
+        "差はない、同じである"
+      ],
+      "answer": 1,
+      "explanation": "create_task()はコルーチンを即座にスケジュールしてタスクを返す。awaitは直列的に実行される。"
+    },
+    {
+      "id": "python_async_006",
+      "question": "イベントループについて正しい説明はどれか。",
+      "choices": [
+        "複数のスレッドで並行実行できる",
+        "一度に複数の非同期操作を実行さらない",
+        "スレッドごとに1つのイベントループが推奨される",
+        "CPUバウンドなタスクに最適"
+      ],
+      "answer": 2,
+      "explanation": "スレッドごとに1つのイベントループを持つ。イベントループはI/Oバウンドなタスクに最適。"
+    },
+    {
+      "id": "python_async_007",
+      "question": "asyncio.gather()の主な用途は何か。",
+      "choices": [
+        "複数のコルーチンを並行実行し結果をまとめる",
+        "コルーチンをシリアル実行する",
+        "イベントループを初期化する",
+        "タスクをキャンセルする"
+      ],
+      "answer": 0,
+      "explanation": "gather()は複数のコルーチン/タスクを並行実行し、すべての結果をリストで返す。"
+    },
+    {
+      "id": "python_async_008",
+      "question": "gather(coro1(), coro2(), return_exceptions=True)の効果は？",
+      "choices": [
+        "例外が発生したら即座に中断",
+        "例外をキャッチして結果リストに含める",
+        "例外を無視して続行",
+        "例外タイプのみ返す"
+      ],
+      "answer": 1,
+      "explanation": "return_exceptions=Trueで例外をキャッチし、結果リストに例外オブジェクトが含まれる。"
+    },
+    {
+      "id": "python_async_009",
+      "question": "asyncio.wait()とgather()の違いとして最も適切なものはどれか。",
+      "choices": [
+        "waitはタスク取り消し、gatherは実行",
+        "waitはタスク完了の監視、gatherは結果集約",
+        "速度はwaitが圧倒的に速い",
+        "差はない"
+      ],
+      "answer": 1,
+      "explanation": "wait()はタスク完了を監視し、return_when引数で制御可能。gather()は結果をリストで返す。"
+    },
+    {
+      "id": "python_async_010",
+      "question": "asyncio.wait_for()の主な役割は何か。",
+      "choices": [
+        "複数タスクの実行を待機する",
+        "指定時間内に完了しない場合にTimeoutErrorを発生させる",
+        "タスクをキャンセルする",
+        "イベントループを待機する"
+      ],
+      "answer": 1,
+      "explanation": "wait_for(coro, timeout)は指定時間内に完了しないとasyncio.TimeoutErrorを発生させる。"
+    },
+    {
+      "id": "python_async_011",
+      "question": "コルーチンと異なり、タスク(Task)の特徴はどれか。",
+      "choices": [
+        "一度だけ実行できる",
+        "スケジュール済みで並行実行される",
+        "await不可",
+        "イベントループが不要"
+      ],
+      "answer": 1,
+      "explanation": "タスクはコルーチンをラップし、作成時点でイベントループにスケジュールされる。"
+    },
+    {
+      "id": "python_async_012",
+      "question": "Futureについての説明として正しいものはどれか。",
+      "choices": [
+        "Taskより高レベルな抽象化",
+        "非同期操作の結果を表す低レベルなオブジェクト",
+        "コルーチンと同じ",
+        "イベントループの一部"
+      ],
+      "answer": 1,
+      "explanation": "Futureは非同期操作の結果のプレースホルダ。Taskはコルーチンをラップしたより高レベルなFuture。"
+    },
+    {
+      "id": "python_async_013",
+      "question": "async contextmanagerを定義するために必要なメソッドはどれか。",
+      "choices": [
+        "__enter__と__exit__",
+        "__aenter__と__aexit__",
+        "setup()とteardown()",
+        "begin()とend()"
+      ],
+      "answer": 1,
+      "explanation": "async with構文を使うには__aenter__と__aexit__メソッドがAsyncContextManagerに必要。"
+    },
+    {
+      "id": "python_async_014",
+      "question": "asyncio context managerの一般的な使用例は何か。",
+      "choices": [
+        "CPU集約的タスク",
+        "データベース接続やHTTPセッションなどのリソース管理",
+        "スレッド作成",
+        "プロセス管理"
+      ],
+      "answer": 1,
+      "explanation": "async contextmanagerは非同期リソース(DB接続、HTTPセッション等)の確実なクローズに使用される。"
+    },
+    {
+      "id": "python_async_015",
+      "question": "async generatorの定義形式として正しいものはどれか。",
+      "choices": [
+        "def async_gen(): yield x",
+        "async def async_gen(): yield x",
+        "@asyncio.generator\\ndef async_gen(): yield x",
+        "def async_gen():await yield x"
+      ],
+      "answer": 1,
+      "explanation": "async def内でyieldを使うとasync generator。async forで反復処理できる。"
+    },
+    {
+      "id": "python_async_016",
+      "question": "async generatorで値を取得するための反復構文は？",
+      "choices": [
+        "for item in async_gen()",
+        "async for item in async_gen()",
+        "async.forEach(async_gen())",
+        "await async_gen()"
+      ],
+      "answer": 1,
+      "explanation": "async forはasync generatorからの非同期反復を行う。通常のforは使用できない。"
+    },
+    {
+      "id": "python_async_017",
+      "question": "非同期コードで例外を処理する場合、どのような考慮が必要か？",
+      "choices": [
+        "特別な配慮はない",
+        "タスク内の例外はawaitまで遅延。task.result()で発生",
+        "すべての例外は自動的にキャッチされる",
+        "例外処理はできない"
+      ],
+      "answer": 1,
+      "explanation": "タスク内の例外はまず記録され、task.result()やawaitで初めて例外が発生する。"
+    },
+    {
+      "id": "python_async_018",
+      "question": "タスクをキャンセルしたとき、何が発生するか。",
+      "choices": [
+        "タスクは強制終了される",
+        "asyncio.CancelledErrorが次のawaitポイントで発生",
+        "タスクは一時停止される",
+        "イベントループが停止"
+      ],
+      "answer": 1,
+      "explanation": "task.cancel()はasyncio.CancelledErrorを発生させる。このエラーはawaitで処理可能。"
+    },
+    {
+      "id": "python_async_019",
+      "question": "concurrent.futures.ThreadPoolExecutorを非同期コードで使う方法は？",
+      "choices": [
+        "直接呼び出し",
+        "loop.run_in_executor()で囲みawaitする",
+        "async with",
+        "使用不可"
+      ],
+      "answer": 1,
+      "explanation": "run_in_executor()はブロッキング関数をスレッドプールで実行し、非同期化できる。"
+    },
+    {
+      "id": "python_async_020",
+      "question": "asyncio.sleepの主な用途は何か。",
+      "choices": [
+        "CPU時間を消費する",
+        "イベントループへの制御を返す遅延",
+        "スレッドを停止する",
+        "タスクをキャンセル"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.sleep()はawait時点で制御をイベントループに返し、他のタスク実行を許可する。"
+    },
+    {
+      "id": "python_async_021",
+      "question": "非同期処理が適用できるタスクの特性として正しいものはどれか。",
+      "choices": [
+        "CPU集約的",
+        "I/Oバウンド",
+        "メモリ集約的",
+        "キャッシュ依存"
+      ],
+      "answer": 1,
+      "explanation": "非同期処理はI/Oバウンドなタスク(ネットワーク、ファイルI/O)に最適。CPU集約的は向かない。"
+    },
+    {
+      "id": "python_async_022",
+      "question": "asyncio.TaskGroupの主な利点は何か。(Python 3.11+)",
+      "choices": [
+        "より高速",
+        "構造化並行処理とスコープ管理",
+        "CPU性能向上",
+        "メモリ削減"
+      ],
+      "answer": 1,
+      "explanation": "TaskGroupはasync with内で複数タスクをグループ化し、構造化並行処理を実現する。"
+    },
+    {
+      "id": "python_async_023",
+      "question": "asyncio.Taskで任意の例外を記録するメカニズムは？",
+      "choices": [
+        "自動的に忘れられる",
+        "task._exception属性に保存される",
+        "キャッシュされない",
+        "ファイルに記録される"
+      ],
+      "answer": 1,
+      "explanation": "タスク内の例外は内部に記録され、result()やawaitで式となる。"
+    },
+    {
+      "id": "python_async_024",
+      "question": "複数の非同期ファイル操作を並行実行する最適なパターンは？",
+      "choices": [
+        "forループで順序実行",
+        "asyncio.gather()で並行実行",
+        "Threadで実行",
+        "スリープで遅延"
+      ],
+      "answer": 1,
+      "explanation": "gather()は複数のI/O操作を並行実行し、全結果を効率よく取得できる。"
+    },
+    {
+      "id": "python_async_025",
+      "question": "非同期プログラミングでデッドロックを回避するための重要な実践は？",
+      "choices": [
+        "ロック機構を使わない",
+        "asyncio.Lockを適切に使用し、await時に放棄しない",
+        "ロックは不要",
+        "スレッドを使う"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.Lockなど非同期ロック使用時、awaitで制御が返る際に適切にロック処理する。"
+    },
+    {
+      "id": "python_async_026",
+      "question": "asyncio.queueの主な用途は？",
+      "choices": [
+        "同期キュー",
+        "非同期タスク間のメッセージング",
+        "CPU管理",
+        "メモリ管理"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.Queueはコルーチン間でデータを安全にやり取りするスレッドセーフキュー。"
+    },
+    {
+      "id": "python_async_027",
+      "question": "asyncio.Eventを使う目的は？",
+      "choices": [
+        "ファイル操作",
+        "複数のコルーチン間の同期シグナリング",
+        "CPUスケジューリング",
+        "メモリ確保"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.Eventはシグナリング機構。set(), clear(), wait()で複数コルーチン同期。"
+    },
+    {
+      "id": "python_async_028",
+      "question": "asyncio.SubprocessProtocolの使用シーンは？",
+      "choices": [
+        "HTTPプロトコル",
+        "サブプロセス通信",
+        "データベース接続",
+        "ネットワーク通信"
+      ],
+      "answer": 1,
+      "explanation": "SubprocessProtocolは非同期サブプロセス通信。asyncio.create_subprocess_exec()と組み合わせ。"
+    },
+    {
+      "id": "python_async_029",
+      "question": "getline()の主な役割は？",
+      "choices": [
+        "複数コルーチン起動",
+        "現在実行中のコルーチンを取得",
+        "イベントループを取得",
+        "タスク削除"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.get_running_loop()は現在のイベントループを取得する。"
+    },
+    {
+      "id": "python_async_030",
+      "question": "asyncio.Shield()の目的は？",
+      "choices": [
+        "タスク同期",
+        "タスク親の取り消しから保護",
+        "メモリ管理",
+        "エラー検出"
+      ],
+      "answer": 1,
+      "explanation": "shield()はタスクを親のキャンセルから保護。親がキャンセルされても子タスク継続。"
+    },
+    {
+      "id": "python_async_031",
+      "question": "asyncio.gather()でタスク例外が発生した場合、デフォルト動作はどれか。",
+      "choices": [
+        "すべてのタスク継続",
+        "最初の例外で他のタスクもキャンセル",
+        "例外を無視",
+        "ロギング"
+      ],
+      "answer": 1,
+      "explanation": "デフォルトでは最初の例外で即座に中断。return_exceptions=Trueで例外をリストに含める。"
+    },
+    {
+      "id": "python_async_032",
+      "question": "キー-バリュー非同期ストレージの実装に適した機構は？",
+      "choices": [
+        "asyncio.Queue",
+        "asyncio.Dict(存在しない)",
+        "dict + asyncio.Lock",
+        "sqlite"
+      ],
+      "answer": 2,
+      "explanation": "dict + asyncio.Lockで非同期セーフなキャッシュを実装。ロック適用で安全性確保。"
+    },
+    {
+      "id": "python_async_033",
+      "question": "非同期コンテキスト終了時の例外処理で考慮すべき点は？",
+      "choices": [
+        "単に無視する",
+        "__aexit__で例外タイプを確認し、適切に処理",
+        "ロギングのみ",
+        "再スロー必須"
+      ],
+      "answer": 1,
+      "explanation": "__aexit__は例外情報を受け取る。Trueを返すと例外を無視、Falseで再スロー。"
+    },
+    {
+      "id": "python_async_034",
+      "question": "asyncio serverのテスト方法として推奨される実践は？",
+      "choices": [
+        "手動テスト",
+        "pytest-asyncioとasync test関数",
+        "スレッド使用",
+        "sleep ブロッキング"
+      ],
+      "answer": 1,
+      "explanation": "pytest-asyncioは非同期テストフレームワーク。async defテスト関数で非同期サーバテスト。"
+    },
+    {
+      "id": "python_async_035",
+      "question": "asyncio.run()実行時にイベントループがすでに実行中だった場合の挙動は？",
+      "choices": [
+        "新しいループ作成",
+        "RuntimeErrorを発生させる",
+        "既存ループを使う",
+        "ブロック"
+      ],
+      "answer": 1,
+      "explanation": "ネストしたasyncio.run()呼び出しはRuntimeErrorを発生させる。"
+    },
+    {
+      "id": "python_async_036",
+      "question": "非同期DBドライバ(例: asyncpg)の利点は？",
+      "choices": [
+        "同方向ポーリング",
+        "DB クエリもブロッキングでなく、I/Oバウンド効率化",
+        "CPUスピード向上",
+        "メモリ削減"
+      ],
+      "answer": 1,
+      "explanation": "asyncpgなどの非同期ドライバはDB アクセスをブロッキングなしに行え、高並行性実現。"
+    },
+    {
+      "id": "python_async_037",
+      "question": "FastAPIとasync/awaitの関係として正しいものはどれか。",
+      "choices": [
+        "FastAPIはasyncio非対応",
+        "FastAPIはasyncio標準サポート、高性能API開発",
+        "FastAPIはスレッドのみ",
+        "FastAPIはasyncioを隠蔽"
+      ],
+      "answer": 1,
+      "explanation": "FastAPIはasyncio統合。async defエンドポイントで自動的に非同期で実行される。"
+    },
+    {
+      "id": "python_async_038",
+      "question": "非同期プログラムのデバッグ時にMEMORYリークを検出する方法は？",
+      "choices": [
+        "ビジュアル検査",
+        "asyncio debug mode + objgraph, memory_profiler",
+        "print文",
+        "テスト不可"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.run(asyncio_debug=True)とobjgraph, memory_profilerでメモリリーク検出。"
+    },
+    {
+      "id": "python_async_039",
+      "question": "非同期スリープを使って定期実行を実装する場合、推奨パターンは？",
+      "choices": [
+        "while True: await asyncio.sleep()",
+        "asyncio.TaskGroup + while + sleep",
+        "カスタムループ作成",
+        "時間パッケージ"
+      ],
+      "answer": 0,
+      "explanation": "while True: await asyncio.sleep(interval)で定期実行ループを実装できる。"
+    },
+    {
+      "id": "python_async_040",
+      "question": "複数の非同期HTTPリクエストを効率よく実行する場合のベストプラクティスは？",
+      "choices": [
+        "forループで順序実行",
+        "aiohttp.ClientSession + gather()",
+        "requests同期ライブラリ",
+        "マルチスレッド"
+      ],
+      "answer": 1,
+      "explanation": "aiolhttp.ClientSessionとgather()で複数リクエストを並行実行し、レイテンシ削減。"
+    },
+    {
+      "id": "python_async_041",
+      "question": "task.done()メソッドの用途は？",
+      "choices": [
+        "タスクを変更",
+        "タスク完了状態をチェック",
+        "タスク削除",
+        "タスク再開"
+      ],
+      "answer": 1,
+      "explanation": "done()はタスク完了したかTrueまたはFalseで返す。ポーリング時に有用。"
+    },
+    {
+      "id": "python_async_042",
+      "question": "task.result()を完了前に呼ぶとどうなるか。",
+      "choices": [
+        "None返す",
+        "InvalidStateErrorを発生させる",
+        "待機する",
+        "例外を無視"
+      ],
+      "answer": 1,
+      "explanation": "未完了タスクのresult()呼び出しはasyncio.InvalidStateErrorを発生させつ。"
+    },
+    {
+      "id": "python_async_043",
+      "question": "非同期コルーチンで'return'で値を返した場合、その値を取得する位置は？",
+      "choices": [
+        "コルーチン定義側",
+        "awaitまたはresult()の戻り値",
+        "ログファイル",
+        "グローバル変数"
+      ],
+      "answer": 1,
+      "explanation": "awaitの戻り値またはresult()でコルーチンの戻り値を取得。"
+    },
+    {
+      "id": "python_async_044",
+      "question": "asyncio.Conditionの役割は？",
+      "choices": [
+        "ファイル条件",
+        "非同期条件変数。複数のアクターが条件を待機/シグナル",
+        "ループ制御",
+        "メモリチェック"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.Conditionはロックと条件変数を組み合わせた非同期プリミティブ。"
+    },
+    {
+      "id": "python_async_045",
+      "question": "asyncio.TimeoutErrorを自分で発生させる方法は？",
+      "choices": [
+        "raise asyncio.TimeoutError",
+        "await asyncio.wait_for(coro, timeout=0)",
+        "両方可",
+        "不可"
+      ],
+      "answer": 2,
+      "explanation": "raise asyncio.TimeoutError()で直接発生、または wait_for()で自動発生。"
+    },
+    {
+      "id": "python_async_046",
+      "question": "イベントループ ポリシー(asyncio policy)の主な用途は？",
+      "choices": [
+        "セキュリティ管理",
+        "プラットフォーム別のイベントループ実装選択",
+        "パフォーマンス監視",
+        "ロギング"
+      ],
+      "answer": 1,
+      "explanation": "asyncio policyはプラットフォーム別(Windows/Unix)のイベントループ構築を制御。"
+    },
+    {
+      "id": "python_async_047",
+      "question": "asyncio.run()がPython 3.7以前でない場合、代替方法は？",
+      "choices": [
+        "asyncio.get_event_loop().run_until_complete()",
+        "asyncio改良パッケージ",
+        "マルチプロセッシング",
+        "スレッド化"
+      ],
+      "answer": 0,
+      "explanation": "loop.run_until_complete()で手動にイベントループ管理。Python 3.6以前での標準。"
+    },
+    {
+      "id": "python_async_048",
+      "question": "非同期コード内でsyncライブラリ関数を呼び出す際はどうする？",
+      "choices": [
+        "直接呼び出し(ブロッキング)",
+        "run_in_executor()でスレッドプール実行",
+        "非同期ラッパー不要",
+        "不可"
+      ],
+      "answer": 1,
+      "explanation": "loop.run_in_executor()で同期関数をスレッドで実行し、非同期化する。"
+    },
+    {
+      "id": "python_async_049",
+      "question": "複数コルーチン実行順序を制御する場合のシグナリング機構は？",
+      "choices": [
+        "asyncio.Event + set()/wait()",
+        "グローバル変数",
+        "プリント文",
+        "ファイル読み込み"
+      ],
+      "answer": 0,
+      "explanation": "asyncio.Eventでsync point作成。wait()で待機、set()でシグナル送信。"
+    },
+    {
+      "id": "python_async_050",
+      "question": "asyncioを使った実装が実際に期待通りに動作するか確認するための推奨ステップは？",
+      "choices": [
+        "本番環境で実行",
+        "pytest-asyncio + ローカルテスト + 負荷テスト",
+        "ドキュメント読み",
+        "運を祈る"
+      ],
+      "answer": 1,
+      "explanation": "pytest-asyncioでユニットテスト、locustなどで負荷テストし、実装をバリデートする。"
+    }
+  ]
+}
