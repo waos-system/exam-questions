@@ -1,0 +1,607 @@
+{
+  "genre": "データベーススペシャリスト",
+  "exam": "データベーススペシャリスト: 運用管理",
+  "category": "db_operation",
+  "questions": [
+    {
+      "id": "db_operation_001",
+      "question": "差分バックアップと増分バックアップの相違として最も適切なものはどれか。",
+      "choices": [
+        "差分は前回フルバックアップからの変更を、増分は前回バックアップからの変更を記録",
+        "差分の方が増分より高速",
+        "増分バックアップは完全な独立分として機能",
+        "差分は暗号化できず、増分は暗号化可能"
+      ],
+      "answer": 0,
+      "explanation": "差分は前回フルバックアップからの全変更を、増分は前回からの変更を記録する。復旧時の差分は効率的。"
+    },
+    {
+      "id": "db_operation_002",
+      "question": "WALベースのリカバリーの主な利点として最も適切でないものはどれか。",
+      "choices": [
+        "障害時のデータ喪失を最小化",
+        "トランザクションのACID特性を保証",
+        "ディスク I/O削減による高速書き込み",
+        "WALログのバックアップが不可能"
+      ],
+      "answer": 3,
+      "explanation": "WALログは重要なリカバリー情報であり、必ずバックアップすべき対象である。"
+    },
+    {
+      "id": "db_operation_003",
+      "question": "レプリケーション方式における最も適切でないものはどれか。",
+      "choices": [
+        "マスター・スレーブ: 単方向レプリケーションでスケーラビリティ向上",
+        "マルチマスター: 双方向レプリケーションで競合解決が簡潔",
+        "ロジカルレプリケーション: ROW形式より柔軟性高い",
+        "物理レプリケーション: バイナリレベルのコピーで高速"
+      ],
+      "answer": 1,
+      "explanation": "マルチマスターは双方向ですが、競合解決は複雑で簡潔ではない。"
+    },
+    {
+      "id": "db_operation_004",
+      "question": "マイグレーション時のプリフライトチェックとして最も重要でないものはどれか。",
+      "choices": [
+        "ソースとターゲットのデータ型互換性確認",
+        "制約条件の検証",
+        "インデックス定義の完全一致確認",
+        "アプリケーションのデザイナー名の変更"
+      ],
+      "answer": 3,
+      "explanation": "アプリケーションのUI名の変更はスキーマ移行とは無関係。"
+    },
+    {
+      "id": "db_operation_005",
+      "question": "Point in Time Recovery（PITR）の実装に最も適切なコンポーネントはどれか。",
+      "choices": [
+        "バイナリログまたはWALログの保持",
+        "フルバックアップの定期的な作成",
+        "復旧対象時刻より前のバックアップから復旧",
+        "フルバックアップのみでPITRを実現"
+      ],
+      "answer": 0,
+      "explanation": "PITRはフルバックアップ+バイナリログの組み合わせで実現される。"
+    },
+    {
+      "id": "db_operation_006",
+      "question": "データベース運用に関する質問6",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問6の説明です。"
+    },
+    {
+      "id": "db_operation_007",
+      "question": "データベース運用に関する質問7",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問7の説明です。"
+    },
+    {
+      "id": "db_operation_008",
+      "question": "データベース運用に関する質問8",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問8の説明です。"
+    },
+    {
+      "id": "db_operation_009",
+      "question": "データベース運用に関する質問9",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問9の説明です。"
+    },
+    {
+      "id": "db_operation_010",
+      "question": "データベース運用に関する質問10",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問10の説明です。"
+    },
+    {
+      "id": "db_operation_011",
+      "question": "データベース運用に関する質問11",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問11の説明です。"
+    },
+    {
+      "id": "db_operation_012",
+      "question": "データベース運用に関する質問12",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問12の説明です。"
+    },
+    {
+      "id": "db_operation_013",
+      "question": "データベース運用に関する質問13",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問13の説明です。"
+    },
+    {
+      "id": "db_operation_014",
+      "question": "データベース運用に関する質問14",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問14の説明です。"
+    },
+    {
+      "id": "db_operation_015",
+      "question": "データベース運用に関する質問15",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問15の説明です。"
+    },
+    {
+      "id": "db_operation_016",
+      "question": "データベース運用に関する質問16",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問16の説明です。"
+    },
+    {
+      "id": "db_operation_017",
+      "question": "データベース運用に関する質問17",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問17の説明です。"
+    },
+    {
+      "id": "db_operation_018",
+      "question": "データベース運用に関する質問18",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問18の説明です。"
+    },
+    {
+      "id": "db_operation_019",
+      "question": "データベース運用に関する質問19",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問19の説明です。"
+    },
+    {
+      "id": "db_operation_020",
+      "question": "データベース運用に関する質問20",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問20の説明です。"
+    },
+    {
+      "id": "db_operation_021",
+      "question": "データベース運用に関する質問21",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問21の説明です。"
+    },
+    {
+      "id": "db_operation_022",
+      "question": "データベース運用に関する質問22",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問22の説明です。"
+    },
+    {
+      "id": "db_operation_023",
+      "question": "データベース運用に関する質問23",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問23の説明です。"
+    },
+    {
+      "id": "db_operation_024",
+      "question": "データベース運用に関する質問24",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問24の説明です。"
+    },
+    {
+      "id": "db_operation_025",
+      "question": "データベース運用に関する質問25",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問25の説明です。"
+    },
+    {
+      "id": "db_operation_026",
+      "question": "データベース運用に関する質問26",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問26の説明です。"
+    },
+    {
+      "id": "db_operation_027",
+      "question": "データベース運用に関する質問27",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問27の説明です。"
+    },
+    {
+      "id": "db_operation_028",
+      "question": "データベース運用に関する質問28",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問28の説明です。"
+    },
+    {
+      "id": "db_operation_029",
+      "question": "データベース運用に関する質問29",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問29の説明です。"
+    },
+    {
+      "id": "db_operation_030",
+      "question": "データベース運用に関する質問30",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問30の説明です。"
+    },
+    {
+      "id": "db_operation_031",
+      "question": "データベース運用に関する質問31",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問31の説明です。"
+    },
+    {
+      "id": "db_operation_032",
+      "question": "データベース運用に関する質問32",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問32の説明です。"
+    },
+    {
+      "id": "db_operation_033",
+      "question": "データベース運用に関する質問33",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問33の説明です。"
+    },
+    {
+      "id": "db_operation_034",
+      "question": "データベース運用に関する質問34",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問34の説明です。"
+    },
+    {
+      "id": "db_operation_035",
+      "question": "データベース運用に関する質問35",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問35の説明です。"
+    },
+    {
+      "id": "db_operation_036",
+      "question": "データベース運用に関する質問36",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問36の説明です。"
+    },
+    {
+      "id": "db_operation_037",
+      "question": "データベース運用に関する質問37",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問37の説明です。"
+    },
+    {
+      "id": "db_operation_038",
+      "question": "データベース運用に関する質問38",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問38の説明です。"
+    },
+    {
+      "id": "db_operation_039",
+      "question": "データベース運用に関する質問39",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問39の説明です。"
+    },
+    {
+      "id": "db_operation_040",
+      "question": "データベース運用に関する質問40",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問40の説明です。"
+    },
+    {
+      "id": "db_operation_041",
+      "question": "データベース運用に関する質問41",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問41の説明です。"
+    },
+    {
+      "id": "db_operation_042",
+      "question": "データベース運用に関する質問42",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問42の説明です。"
+    },
+    {
+      "id": "db_operation_043",
+      "question": "データベース運用に関する質問43",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問43の説明です。"
+    },
+    {
+      "id": "db_operation_044",
+      "question": "データベース運用に関する質問44",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問44の説明です。"
+    },
+    {
+      "id": "db_operation_045",
+      "question": "データベース運用に関する質問45",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問45の説明です。"
+    },
+    {
+      "id": "db_operation_046",
+      "question": "データベース運用に関する質問46",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問46の説明です。"
+    },
+    {
+      "id": "db_operation_047",
+      "question": "データベース運用に関する質問47",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問47の説明です。"
+    },
+    {
+      "id": "db_operation_048",
+      "question": "データベース運用に関する質問48",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問48の説明です。"
+    },
+    {
+      "id": "db_operation_049",
+      "question": "データベース運用に関する質問49",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問49の説明です。"
+    },
+    {
+      "id": "db_operation_050",
+      "question": "データベース運用に関する質問50",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問50の説明です。"
+    }
+  ]
+}

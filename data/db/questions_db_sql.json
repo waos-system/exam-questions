@@ -1,0 +1,607 @@
+{
+  "genre": "データベーススペシャリスト",
+  "exam": "データベーススペシャリスト: SQLとアプリケーション設計",
+  "category": "db_sql",
+  "questions": [
+    {
+      "id": "db_sql_001",
+      "question": "JOIN方式を選択する際の最も重要な検討要素として最も適切でないものはどれか。",
+      "choices": [
+        "マッチしないレコードの扱い",
+        "結合キーの一致条件",
+        "テーブルスキャン順序による実行速度の絶対差",
+        "結合テーブルの行数と結果セットサイズの予測"
+      ],
+      "answer": 2,
+      "explanation": "JOIN方式の選択はマッチ条件や削除/保持方針が重要。テーブルスキャン順序も影響するが絶対差は問題化しない場合が多い。"
+    },
+    {
+      "id": "db_sql_002",
+      "question": "ウィンドウ関数ROW_NUMBER()、RANK()、DENSE_RANK()の相違として最も適切でないものはどれか。",
+      "choices": [
+        "ROW_NUMBER()は常に連続する一意な番号を上げ",
+        "RANK()は同点に同じ順位を上げ、次の順位は飛ぶ",
+        "DENSE_RANK()は同点に同じ順位を上げ、次の順位は連続",
+        "3つを組み合わせることで、FROM句のテーブル結合を完全に置き換える"
+      ],
+      "answer": 3,
+      "explanation": "ウィンドウ関数は結果を計算・順序付けするが、異なるテーブルのデータを統合する場合はJOINは別途必要。"
+    },
+    {
+      "id": "db_sql_003",
+      "question": "SQLサブクエリの最適化について、最も適切でないものはどれか。",
+      "choices": [
+        "関連サブクエリは外側クエリの各行について実行される",
+        "相関なしサブクエリは1回実行され結果をキャッシュ",
+        "IN句のサブクエリはすべてのデータベースで最適化される",
+        "EXISTS句は行の存在確認であり、IN()より効率的な場合が多い"
+      ],
+      "answer": 2,
+      "explanation": "IN句のサブクエリは最適化エンジンに依存し、すべてのDBMSで最適化されるとは限らない。"
+    },
+    {
+      "id": "db_sql_004",
+      "question": "CTE（WITH句）のメリットとして最も適切でないものはどれか。",
+      "choices": [
+        "複雑なクエリの可読性向上",
+        "再帰的なデータ処理のサポート",
+        "CTEはすべてのSQLダイアレクトで同じ実行速度",
+        "CTEはマテリアライズドビューと異なり、CTE使用時のみ計算"
+      ],
+      "answer": 2,
+      "explanation": "CTE使用時の実行速度はデータベース製品によって大きく異なる。"
+    },
+    {
+      "id": "db_sql_005",
+      "question": "トランザクション分離レベルのSERIALIZABLEとREAD COMMITTEDの相違として最も適切でないものはどれか。",
+      "choices": [
+        "SERIALIZABLEは最も厳密で、READ COMMITTEDは緩和",
+        "SERIALIZABLEはファントムリードを防止",
+        "READ COMMITTED はダーティリードを防止",
+        "SERIALIZABLEは常にREAD COMMITTEDより高速"
+      ],
+      "answer": 3,
+      "explanation": "SERIALIZABLEはロック・競合が多くなり、通常はREAD COMMITTEDより遅い。"
+    },
+    {
+      "id": "db_sql_006",
+      "question": "データベースSQL設計に関する質問6",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問6の説明です。"
+    },
+    {
+      "id": "db_sql_007",
+      "question": "データベースSQL設計に関する質問7",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問7の説明です。"
+    },
+    {
+      "id": "db_sql_008",
+      "question": "データベースSQL設計に関する質問8",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問8の説明です。"
+    },
+    {
+      "id": "db_sql_009",
+      "question": "データベースSQL設計に関する質問9",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問9の説明です。"
+    },
+    {
+      "id": "db_sql_010",
+      "question": "データベースSQL設計に関する質問10",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問10の説明です。"
+    },
+    {
+      "id": "db_sql_011",
+      "question": "データベースSQL設計に関する質問11",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問11の説明です。"
+    },
+    {
+      "id": "db_sql_012",
+      "question": "データベースSQL設計に関する質問12",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問12の説明です。"
+    },
+    {
+      "id": "db_sql_013",
+      "question": "データベースSQL設計に関する質問13",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問13の説明です。"
+    },
+    {
+      "id": "db_sql_014",
+      "question": "データベースSQL設計に関する質問14",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問14の説明です。"
+    },
+    {
+      "id": "db_sql_015",
+      "question": "データベースSQL設計に関する質問15",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問15の説明です。"
+    },
+    {
+      "id": "db_sql_016",
+      "question": "データベースSQL設計に関する質問16",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問16の説明です。"
+    },
+    {
+      "id": "db_sql_017",
+      "question": "データベースSQL設計に関する質問17",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問17の説明です。"
+    },
+    {
+      "id": "db_sql_018",
+      "question": "データベースSQL設計に関する質問18",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問18の説明です。"
+    },
+    {
+      "id": "db_sql_019",
+      "question": "データベースSQL設計に関する質問19",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問19の説明です。"
+    },
+    {
+      "id": "db_sql_020",
+      "question": "データベースSQL設計に関する質問20",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問20の説明です。"
+    },
+    {
+      "id": "db_sql_021",
+      "question": "データベースSQL設計に関する質問21",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問21の説明です。"
+    },
+    {
+      "id": "db_sql_022",
+      "question": "データベースSQL設計に関する質問22",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問22の説明です。"
+    },
+    {
+      "id": "db_sql_023",
+      "question": "データベースSQL設計に関する質問23",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問23の説明です。"
+    },
+    {
+      "id": "db_sql_024",
+      "question": "データベースSQL設計に関する質問24",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問24の説明です。"
+    },
+    {
+      "id": "db_sql_025",
+      "question": "データベースSQL設計に関する質問25",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問25の説明です。"
+    },
+    {
+      "id": "db_sql_026",
+      "question": "データベースSQL設計に関する質問26",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問26の説明です。"
+    },
+    {
+      "id": "db_sql_027",
+      "question": "データベースSQL設計に関する質問27",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問27の説明です。"
+    },
+    {
+      "id": "db_sql_028",
+      "question": "データベースSQL設計に関する質問28",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問28の説明です。"
+    },
+    {
+      "id": "db_sql_029",
+      "question": "データベースSQL設計に関する質問29",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問29の説明です。"
+    },
+    {
+      "id": "db_sql_030",
+      "question": "データベースSQL設計に関する質問30",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問30の説明です。"
+    },
+    {
+      "id": "db_sql_031",
+      "question": "データベースSQL設計に関する質問31",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問31の説明です。"
+    },
+    {
+      "id": "db_sql_032",
+      "question": "データベースSQL設計に関する質問32",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問32の説明です。"
+    },
+    {
+      "id": "db_sql_033",
+      "question": "データベースSQL設計に関する質問33",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問33の説明です。"
+    },
+    {
+      "id": "db_sql_034",
+      "question": "データベースSQL設計に関する質問34",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問34の説明です。"
+    },
+    {
+      "id": "db_sql_035",
+      "question": "データベースSQL設計に関する質問35",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問35の説明です。"
+    },
+    {
+      "id": "db_sql_036",
+      "question": "データベースSQL設計に関する質問36",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問36の説明です。"
+    },
+    {
+      "id": "db_sql_037",
+      "question": "データベースSQL設計に関する質問37",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問37の説明です。"
+    },
+    {
+      "id": "db_sql_038",
+      "question": "データベースSQL設計に関する質問38",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問38の説明です。"
+    },
+    {
+      "id": "db_sql_039",
+      "question": "データベースSQL設計に関する質問39",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問39の説明です。"
+    },
+    {
+      "id": "db_sql_040",
+      "question": "データベースSQL設計に関する質問40",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問40の説明です。"
+    },
+    {
+      "id": "db_sql_041",
+      "question": "データベースSQL設計に関する質問41",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問41の説明です。"
+    },
+    {
+      "id": "db_sql_042",
+      "question": "データベースSQL設計に関する質問42",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問42の説明です。"
+    },
+    {
+      "id": "db_sql_043",
+      "question": "データベースSQL設計に関する質問43",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問43の説明です。"
+    },
+    {
+      "id": "db_sql_044",
+      "question": "データベースSQL設計に関する質問44",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問44の説明です。"
+    },
+    {
+      "id": "db_sql_045",
+      "question": "データベースSQL設計に関する質問45",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問45の説明です。"
+    },
+    {
+      "id": "db_sql_046",
+      "question": "データベースSQL設計に関する質問46",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問46の説明です。"
+    },
+    {
+      "id": "db_sql_047",
+      "question": "データベースSQL設計に関する質問47",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問47の説明です。"
+    },
+    {
+      "id": "db_sql_048",
+      "question": "データベースSQL設計に関する質問48",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問48の説明です。"
+    },
+    {
+      "id": "db_sql_049",
+      "question": "データベースSQL設計に関する質問49",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問49の説明です。"
+    },
+    {
+      "id": "db_sql_050",
+      "question": "データベースSQL設計に関する質問50",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問50の説明です。"
+    }
+  ]
+}

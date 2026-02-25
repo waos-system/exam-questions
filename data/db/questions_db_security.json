@@ -1,0 +1,607 @@
+{
+  "genre": "データベーススペシャリスト",
+  "exam": "データベーススペシャリスト: セキュリティと権限管理",
+  "category": "db_security",
+  "questions": [
+    {
+      "id": "db_security_001",
+      "question": "RBACとABACの相違について最も適切でないものはどれか。",
+      "choices": [
+        "RBACは職務に基づいた固定された権限付与",
+        "ABACはユーザー属性・リソース属性で動的制御",
+        "ABACは複雑できめ細かい制御が可能だが管理負荷も高い",
+        "RBACは絶対にABACより安全性が高い"
+      ],
+      "answer": 3,
+      "explanation": "安全性は実装品質に依存し、RBACが絶対に安全とは限らない。"
+    },
+    {
+      "id": "db_security_002",
+      "question": "SQLインジェクション攻撃の防御方法として最も適切でないものはどれか。",
+      "choices": [
+        "プリペアドステートメントの使用",
+        "入力値の厳密な検証とホワイトリスト方式",
+        "ORマッパーのパラメータ化クエリ",
+        "すべてのユーザー入力からコメント記号を削除"
+      ],
+      "answer": 3,
+      "explanation": "単純なコメント記号削除は不完全な防御。プリペアドステートメントが本質的な対策。"
+    },
+    {
+      "id": "db_security_003",
+      "question": "カラムレベル暗号化の特性として最も適切でないものはどれか。",
+      "choices": [
+        "保存時データの暗号化",
+        "アプリケーション修正なしの透過的実装",
+        "インデックスと統計情報も同時に暗号化される",
+        "取得したデータが復号化されてアプリケーションに渡される"
+      ],
+      "answer": 2,
+      "explanation": "一部のDBMSではインデックスと統計情報を暗号化しないオプションもある。"
+    },
+    {
+      "id": "db_security_004",
+      "question": "監査ログ実装において最も重要でない要素はどれか。",
+      "choices": [
+        "DML操作とDDL操作のログ記録",
+        "ログの改ざん防止",
+        "ログの無期限保持",
+        "権限変更のトレーサビリティ"
+      ],
+      "answer": 2,
+      "explanation": "ログの無期限保持はストレージコスト、規制要件の問題がある。"
+    },
+    {
+      "id": "db_security_005",
+      "question": "最小権限の原則に従う設定として最も適切でないものはどれか。",
+      "choices": [
+        "アプリケーション用ユーザーは必要なテーブルのみにアクセス権",
+        "管理者権限は日常的なクエリ実行に使用",
+        "ディレクトリアクセス権は監査担当者のみに限定",
+        "一般ユーザーはSELECT権のみで、データ更新は機能管理者経由"
+      ],
+      "answer": 1,
+      "explanation": "管理者権限は日常クエリに使用すべきでなく、必要な時のみ限定使用すべき。"
+    },
+    {
+      "id": "db_security_006",
+      "question": "データベースセキュリティに関する質問6",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問6の説明です。"
+    },
+    {
+      "id": "db_security_007",
+      "question": "データベースセキュリティに関する質問7",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問7の説明です。"
+    },
+    {
+      "id": "db_security_008",
+      "question": "データベースセキュリティに関する質問8",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問8の説明です。"
+    },
+    {
+      "id": "db_security_009",
+      "question": "データベースセキュリティに関する質問9",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問9の説明です。"
+    },
+    {
+      "id": "db_security_010",
+      "question": "データベースセキュリティに関する質問10",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問10の説明です。"
+    },
+    {
+      "id": "db_security_011",
+      "question": "データベースセキュリティに関する質問11",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問11の説明です。"
+    },
+    {
+      "id": "db_security_012",
+      "question": "データベースセキュリティに関する質問12",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問12の説明です。"
+    },
+    {
+      "id": "db_security_013",
+      "question": "データベースセキュリティに関する質問13",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問13の説明です。"
+    },
+    {
+      "id": "db_security_014",
+      "question": "データベースセキュリティに関する質問14",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問14の説明です。"
+    },
+    {
+      "id": "db_security_015",
+      "question": "データベースセキュリティに関する質問15",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問15の説明です。"
+    },
+    {
+      "id": "db_security_016",
+      "question": "データベースセキュリティに関する質問16",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問16の説明です。"
+    },
+    {
+      "id": "db_security_017",
+      "question": "データベースセキュリティに関する質問17",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問17の説明です。"
+    },
+    {
+      "id": "db_security_018",
+      "question": "データベースセキュリティに関する質問18",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問18の説明です。"
+    },
+    {
+      "id": "db_security_019",
+      "question": "データベースセキュリティに関する質問19",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問19の説明です。"
+    },
+    {
+      "id": "db_security_020",
+      "question": "データベースセキュリティに関する質問20",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問20の説明です。"
+    },
+    {
+      "id": "db_security_021",
+      "question": "データベースセキュリティに関する質問21",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問21の説明です。"
+    },
+    {
+      "id": "db_security_022",
+      "question": "データベースセキュリティに関する質問22",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問22の説明です。"
+    },
+    {
+      "id": "db_security_023",
+      "question": "データベースセキュリティに関する質問23",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問23の説明です。"
+    },
+    {
+      "id": "db_security_024",
+      "question": "データベースセキュリティに関する質問24",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問24の説明です。"
+    },
+    {
+      "id": "db_security_025",
+      "question": "データベースセキュリティに関する質問25",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問25の説明です。"
+    },
+    {
+      "id": "db_security_026",
+      "question": "データベースセキュリティに関する質問26",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問26の説明です。"
+    },
+    {
+      "id": "db_security_027",
+      "question": "データベースセキュリティに関する質問27",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問27の説明です。"
+    },
+    {
+      "id": "db_security_028",
+      "question": "データベースセキュリティに関する質問28",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問28の説明です。"
+    },
+    {
+      "id": "db_security_029",
+      "question": "データベースセキュリティに関する質問29",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問29の説明です。"
+    },
+    {
+      "id": "db_security_030",
+      "question": "データベースセキュリティに関する質問30",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問30の説明です。"
+    },
+    {
+      "id": "db_security_031",
+      "question": "データベースセキュリティに関する質問31",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問31の説明です。"
+    },
+    {
+      "id": "db_security_032",
+      "question": "データベースセキュリティに関する質問32",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問32の説明です。"
+    },
+    {
+      "id": "db_security_033",
+      "question": "データベースセキュリティに関する質問33",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問33の説明です。"
+    },
+    {
+      "id": "db_security_034",
+      "question": "データベースセキュリティに関する質問34",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問34の説明です。"
+    },
+    {
+      "id": "db_security_035",
+      "question": "データベースセキュリティに関する質問35",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問35の説明です。"
+    },
+    {
+      "id": "db_security_036",
+      "question": "データベースセキュリティに関する質問36",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問36の説明です。"
+    },
+    {
+      "id": "db_security_037",
+      "question": "データベースセキュリティに関する質問37",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問37の説明です。"
+    },
+    {
+      "id": "db_security_038",
+      "question": "データベースセキュリティに関する質問38",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問38の説明です。"
+    },
+    {
+      "id": "db_security_039",
+      "question": "データベースセキュリティに関する質問39",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問39の説明です。"
+    },
+    {
+      "id": "db_security_040",
+      "question": "データベースセキュリティに関する質問40",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問40の説明です。"
+    },
+    {
+      "id": "db_security_041",
+      "question": "データベースセキュリティに関する質問41",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問41の説明です。"
+    },
+    {
+      "id": "db_security_042",
+      "question": "データベースセキュリティに関する質問42",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問42の説明です。"
+    },
+    {
+      "id": "db_security_043",
+      "question": "データベースセキュリティに関する質問43",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問43の説明です。"
+    },
+    {
+      "id": "db_security_044",
+      "question": "データベースセキュリティに関する質問44",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問44の説明です。"
+    },
+    {
+      "id": "db_security_045",
+      "question": "データベースセキュリティに関する質問45",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問45の説明です。"
+    },
+    {
+      "id": "db_security_046",
+      "question": "データベースセキュリティに関する質問46",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問46の説明です。"
+    },
+    {
+      "id": "db_security_047",
+      "question": "データベースセキュリティに関する質問47",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問47の説明です。"
+    },
+    {
+      "id": "db_security_048",
+      "question": "データベースセキュリティに関する質問48",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問48の説明です。"
+    },
+    {
+      "id": "db_security_049",
+      "question": "データベースセキュリティに関する質問49",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問49の説明です。"
+    },
+    {
+      "id": "db_security_050",
+      "question": "データベースセキュリティに関する質問50",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問50の説明です。"
+    }
+  ]
+}

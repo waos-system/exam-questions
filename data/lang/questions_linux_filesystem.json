@@ -1,0 +1,756 @@
+{
+  "genre": "Linux ファイルシステムと権限",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_filesystem_001",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "Linux のルートディレクトリ（/）直下に配置される、システム実行可能ファイルが保存されるディレクトリはどれか？",
+      "options": {
+        "A": "/bin",
+        "B": "/sbin",
+        "C": "/usr/bin",
+        "D": "/opt"
+      },
+      "correct": "A",
+      "explanation": "/bin は基本的なコマンド（ls、cat など）が配置されます。/sbin はシステム管理者向けコマンド、/usr/bin はユーザーコマンドです。"
+    },
+    {
+      "id": "linux_filesystem_002",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "Linux のファイルシステムツリーにおいて、ユーザーのホームディレクトリはどこに配置されるか？",
+      "options": {
+        "A": "/root",
+        "B": "/home",
+        "C": "/user",
+        "D": "/users"
+      },
+      "correct": "B",
+      "explanation": "/home は一般ユーザーのホームディレクトリを格納します。root ユーザーのホームは /root です。/user、/users は標準的ではありません。"
+    },
+    {
+      "id": "linux_filesystem_003",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "一時ファイルを保存するディレクトリはどれか？",
+      "options": {
+        "A": "/tmp",
+        "B": "/var/tmp",
+        "C": "/storage",
+        "D": "/tempfiles"
+      },
+      "correct": "A",
+      "explanation": "/tmp は一時ファイル用のディレクトリです。/var/tmp もありますが、/tmp がより一般的です。システム起動時に /tmp は清掃されることもあります。"
+    },
+    {
+      "id": "linux_filesystem_004",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "デバイスファイルが配置されるディレクトリはどれか？",
+      "options": {
+        "A": "/dev",
+        "B": "/devices",
+        "C": "/sys",
+        "D": "/hardware"
+      },
+      "correct": "A",
+      "explanation": "/dev はデバイスファイル（/dev/sda、/dev/tty など）が配置されます。/sys はカーネルインターフェース情報です。"
+    },
+    {
+      "id": "linux_filesystem_005",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "設定ファイルやインストールプログラムが配置されるディレクトリはどれか？",
+      "options": {
+        "A": "/etc",
+        "B": "/config",
+        "C": "/settings",
+        "D": "/conf"
+      },
+      "correct": "A",
+      "explanation": "/etc はシステム全体の設定ファイルを格納します。/proc、/sys、/var など多くの重要なディレクトリと同様に、FHS（Filesystem Hierarchy Standard）に定義されています。"
+    },
+    {
+      "id": "linux_filesystem_006",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "可変長データ（ログファイルなど）が保存されるディレクトリはどれか？",
+      "options": {
+        "A": "/data",
+        "B": "/var",
+        "C": "/log",
+        "D": "/logs"
+      },
+      "correct": "B",
+      "explanation": "/var は可変長データが保存されるディレクトリです。/var/log にログファイル、/var/spool にスプール、/var/cache にキャッシュが保存されます。"
+    },
+    {
+      "id": "linux_filesystem_007",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルを読み取り専用にするパーミッションはどれか？",
+      "options": {
+        "A": "444",
+        "B": "555",
+        "C": "666",
+        "D": "777"
+      },
+      "correct": "A",
+      "explanation": "444 は所有者、グループ、その他すべてに対して読み取り（r）のみを許可します。555 は実行可能です。"
+    },
+    {
+      "id": "linux_filesystem_008",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "rwx------ のパーミッションを8進法で表現する場合、どれが正しいか？",
+      "options": {
+        "A": "600",
+        "B": "700",
+        "C": "755",
+        "D": "777"
+      },
+      "correct": "B",
+      "explanation": "rwx------はr(4) + w(2) + x(1) = 7、グループとその他は全て 0 となるため、700 です。"
+    },
+    {
+      "id": "linux_filesystem_009",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パーミッション rw-rw-r-- を8進法で表現する場合、どれが正しいか？",
+      "options": {
+        "A": "664",
+        "B": "644",
+        "C": "774",
+        "D": "744"
+      },
+      "correct": "A",
+      "explanation": "rw-rw-r--は所有者 rw(6)、グループ rw(6)、その他 r(4) となるため、664 です。"
+    },
+    {
+      "id": "linux_filesystem_010",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "chmod コマンドでファイルを実行可能にする場合、どのオプションを使用するか？",
+      "options": {
+        "A": "chmod +x file",
+        "B": "chmod 755 file",
+        "C": "chmod a+x file",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全て同様に実行可能にします。+x は所有者のみ、a+x はすべてに対して実行権を付与します。"
+    },
+    {
+      "id": "linux_filesystem_011",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "chown コマンドの主な役割はどれか？",
+      "options": {
+        "A": "ファイルの所有者を変更する",
+        "B": "ファイルのパーミッションを変更する",
+        "C": "ファイルを削除する",
+        "D": "ファイルのサイズを確認する"
+      },
+      "correct": "A",
+      "explanation": "chown はファイルの所有者およびグループを変更します。chmod はパーミッション、rm は削除です。"
+    },
+    {
+      "id": "linux_filesystem_012",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルの所有者をユーザー 'john' に、グループを 'users' に変更する場合、コマンドはどれか？",
+      "options": {
+        "A": "chown john file",
+        "B": "chown john:users file",
+        "C": "chown john.users file",
+        "D": "Bと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "chown john:users file または chown john.users file の両方が使用できます。新しい構文は john:users です。"
+    },
+    {
+      "id": "linux_filesystem_013",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ディレクトリとその中身すべてのパーミッションを再帰的に変更する場合のコマンドはどれか？",
+      "options": {
+        "A": "chmod 755 dir/",
+        "B": "chmod -r 755 dir/",
+        "C": "chmod -R 755 dir/",
+        "D": "chmod --all 755 dir/"
+      },
+      "correct": "C",
+      "explanation": "chmod -R（大文字）はディレクトリ内のすべてのファイルに再帰的に適用します。-r は stat コマンドなどで使用されます。"
+    },
+    {
+      "id": "linux_filesystem_014",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ディレクトリが実行可能である理由は何か？",
+      "options": {
+        "A": "ディレクトリ内のプログラムを実行するため",
+        "B": "ディレクトリに入れるため",
+        "C": "ディレクトリの内容を変更するため",
+        "D": "ディレクトリを削除するため"
+      },
+      "correct": "B",
+      "explanation": "ディレクトリの実行権（x）は、そのディレクトリに 'cd' できることを意味します。ファイル操作を行うには実行権が必要です。"
+    },
+    {
+      "id": "linux_filesystem_015",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルシステムのタイプを確認するコマンドはどれか？",
+      "options": {
+        "A": "df -T",
+        "B": "mount | grep type",
+        "C": "fstype",
+        "D": "stat -f"
+      },
+      "correct": "A",
+      "explanation": "df -T は各マウントポイントのファイルシステムタイプを表示します。mount | grep type でも同様の情報が得られます。"
+    },
+    {
+      "id": "linux_filesystem_016",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ディスク使用量を確認するコマンドはどれか？",
+      "options": {
+        "A": "du",
+        "B": "df",
+        "C": "ls -l",
+        "D": "stat"
+      },
+      "correct": "B",
+      "explanation": "df（disk free）はマウントされたファイルシステムの使用量を表示します。du はディレクトリサイズを表示します。"
+    },
+    {
+      "id": "linux_filesystem_017",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ディレクトリのサイズを見積もるコマンドはどれか？",
+      "options": {
+        "A": "df /dir",
+        "B": "du -sh /dir",
+        "C": "ls -lh /dir",
+        "D": "stat /dir"
+      },
+      "correct": "B",
+      "explanation": "du -sh /dir はディレクトリ '/dir' のサイズを人間が読みやすい形式で表示します。-s は合計、-h は人間向け形式です。"
+    },
+    {
+      "id": "linux_filesystem_018",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シンボリックリンクを作成するコマンドはどれか？",
+      "options": {
+        "A": "ln -s source link",
+        "B": "ln source link",
+        "C": "link source link",
+        "D": "symlink source link"
+      },
+      "correct": "A",
+      "explanation": "ln -s でシンボリックリンクを作成します。-s がないと ハードリンクになります。"
+    },
+    {
+      "id": "linux_filesystem_019",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ハードリンクとシンボリックリンクの主な違いは何か？",
+      "options": {
+        "A": "ハードリンクは同じ inode を共有し、シンボリックリンクはパスを指す",
+        "B": "シンボリックリンクは同じ inode を共有し、ハードリンクはパスを指す",
+        "C": "機能的に同じで、表記が異なるだけ",
+        "D": "ハードリンクはディレクトリに対応し、シンボリックリンクはファイルに対応"
+      },
+      "correct": "A",
+      "explanation": "ハードリンクは同じ inode を指す別の名前で、元ファイルと同等です。シンボリックリンク（ソフトリンク）はパスを指す参照です。"
+    },
+    {
+      "id": "linux_filesystem_020",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "inode とは何か？",
+      "options": {
+        "A": "ファイル名を保存する情報構造",
+        "B": "ファイルのメタデータ（大きさ、パーミッション、所有者など）を保存する情報構造",
+        "C": "ファイルの内容を圧縮する方式",
+        "D": "ディレクトリを表すノード"
+      },
+      "correct": "B",
+      "explanation": "inode（index node）はファイルメタデータを格納する構造体です。inode番号はファイルシステム内で一意です。"
+    },
+    {
+      "id": "linux_filesystem_021",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルの inode 番号を表示するコマンドはどれか？",
+      "options": {
+        "A": "ls -i",
+        "B": "ls -n",
+        "C": "stat",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "ls -i または stat でファイルの inode 番号を表示できます。"
+    },
+    {
+      "id": "linux_filesystem_022",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特殊パーミッション SUID の役割はどれか？",
+      "options": {
+        "A": "ファイル所有者の権限で実行可能にする",
+        "B": "グループ権限で実行可能にする",
+        "C": "すべてのユーザーが所有者権限で実行できる",
+        "D": "セキュリティ制限の追加"
+      },
+      "correct": "A",
+      "explanation": "SUID（Set User ID）が設定されたファイルは、実行ユーザーが誰であれ、ファイル所有者の権限で実行されます。"
+    },
+    {
+      "id": "linux_filesystem_023",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特殊パーミッション SGID の役割はどれか？",
+      "options": {
+        "A": "ファイル所有者の権限で実行可能にする",
+        "B": "グループの権限で実行可能にする",
+        "C": "ディレクトリの場合、新規ファイルがグループを継承する",
+        "D": "ファイルを所有者のみが変更可能にする"
+      },
+      "correct": "C",
+      "explanation": "SGID（Set Group ID）がディレクトリに設定されると、そこに作成されたファイルはディレクトリのグループを継承します。"
+    },
+    {
+      "id": "linux_filesystem_024",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特殊パーミッション Sticky bit の役割は何か？",
+      "options": {
+        "A": "ファイルの削除を制限する",
+        "B": "ディレクトリ内のファイルを、所有者のみ削除可能にする",
+        "C": "ファイル実行権を固定する",
+        "D": "ディレクトリ内のファイルすべてを読み取り専用にする"
+      },
+      "correct": "B",
+      "explanation": "Sticky bit がディレクトリに設定されると、ディレクトリ内のファイルは所有者またはroot のみ削除可能になります。/tmp に設定されています。"
+    },
+    {
+      "id": "linux_filesystem_025",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SUID を設定するコマンドはどれか？",
+      "options": {
+        "A": "chmod 4755 file",
+        "B": "chmod u+s file",
+        "C": "chmod 2755 file",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "chmod 4755 または chmod u+s でファイルに SUID を設定できます。4 は SUID を示します。"
+    },
+    {
+      "id": "linux_filesystem_026",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SGID を設定するコマンドはどれか？",
+      "options": {
+        "A": "chmod 4755 dir",
+        "B": "chmod g+s dir",
+        "C": "chmod 2755 dir",
+        "D": "Bと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "chmod 2755 または chmod g+s でディレクトリに SGID を設定できます。2 は SGID を示します。"
+    },
+    {
+      "id": "linux_filesystem_027",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "Sticky bit を設定するコマンドはどれか？",
+      "options": {
+        "A": "chmod 1755 dir",
+        "B": "chmod +t dir",
+        "C": "chmod a+t dir",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "chmod 1755、chmod +t、chmod a+t のいずれかで Sticky bit を設定できます。1 は Sticky bit を示します。"
+    },
+    {
+      "id": "linux_filesystem_028",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ACL（Access Control List）とは何か？",
+      "options": {
+        "A": "標準的な Unix パーミッションより詳細なアクセス制御",
+        "B": "ユーザーID対応表",
+        "C": "ファイルのバックアップリスト",
+        "D": "システムログの監査機能"
+      },
+      "correct": "A",
+      "explanation": "ACL は従来のパーミッションを補完し、特定のユーザーやグループに対しきめ細かいアクセス制御を提供します。"
+    },
+    {
+      "id": "linux_filesystem_029",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ACL を設定するコマンドはどれか？",
+      "options": {
+        "A": "setfacl",
+        "B": "chmod",
+        "C": "acl",
+        "D": "facl"
+      },
+      "correct": "A",
+      "explanation": "setfacl コマンドで ACL を設定し、getfacl で確認します。"
+    },
+    {
+      "id": "linux_filesystem_030",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルのメタデータを詳細に表示するコマンドはどれか？",
+      "options": {
+        "A": "ls -la",
+        "B": "stat",
+        "C": "file",
+        "D": "identify"
+      },
+      "correct": "B",
+      "explanation": "stat コマンドはファイルの詳細なメタデータ（inode、アクセス時刻、変更時刻など）を表示します。"
+    },
+    {
+      "id": "linux_filesystem_031",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "マウントされているファイルシステムを表示するコマンドはどれか？",
+      "options": {
+        "A": "mount",
+        "B": "mount -l",
+        "C": "lsmount",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "mount または mount -l でマウント情報を表示できます。-l はラベル表示も含みます。"
+    },
+    {
+      "id": "linux_filesystem_032",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "パーティションやディスクのマウント を行うコマンドはどれか？",
+      "options": {
+        "A": "mount /dev/sda1 /mnt",
+        "B": "attach /dev/sda1 /mnt",
+        "C": "link /dev/sda1 /mnt",
+        "D": "bind /dev/sda1 /mnt"
+      },
+      "correct": "A",
+      "explanation": "mount で指定のパーティションをマウントポイントにマウントします。umount でアンマウントします。"
+    },
+    {
+      "id": "linux_filesystem_033",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルシステムをアンマウントするコマンドはどれか？",
+      "options": {
+        "A": "unmount /mnt",
+        "B": "umount /mnt",
+        "C": "detach /mnt",
+        "D": "mount -u /mnt"
+      },
+      "correct": "B",
+      "explanation": "umount（『u』マウント）でファイルシステムをアンマウントします。スペルは 'unmount' ではなく 'umount' です。"
+    },
+    {
+      "id": "linux_filesystem_034",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "アンマウントが失敗する一般的な原因は何か？",
+      "options": {
+        "A": "ディレクトリ内のファイルが開かれている",
+        "B": "マウントポイント内にディレクトリが存在する",
+        "C": "パーティションのサイズが小さい",
+        "D": "ファイルシステムが fsck を実行している"
+      },
+      "correct": "A",
+      "explanation": "マウント中のディレクトリが使用中（カレントディレクトリやファイルが開かれている）と、アンマウントに失敗します。"
+    },
+    {
+      "id": "linux_filesystem_035",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "一般ユーザーがマウント可能なオプション設定はどれか？",
+      "options": {
+        "A": "/etc/fstab に user オプションを追加",
+        "B": "/etc/fstab に users オプションを追加",
+        "C": "/etc/fstab に noroot オプションを追加",
+        "D": "/dev に対する chmod で権限を変更"
+      },
+      "correct": "A",
+      "explanation": "/etc/fstab に user オプション（単数）を指定すると、該当ユーザーがマウント可能になります。users（複数）なら誰でも可能です。"
+    },
+    {
+      "id": "linux_filesystem_036",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "inode テーブルが満杯になった場合、何が起こるか？",
+      "options": {
+        "A": "ディスク容量が満杯で、新規ファイルそれなくなる",
+        "B": "inode 数が上限に達し、新規ファイル作成ができなくなる",
+        "C": "システムが自動的に古い inode を削除する",
+        "D": "パーミッション設定が無効になる"
+      },
+      "correct": "B",
+      "explanation": "ディスク容量があってもinode が枯渇すると、新規ファイルを作成できません。df -i で inode 使用状況を確認できます。"
+    },
+    {
+      "id": "linux_filesystem_037",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "inode 使用率を確認するコマンドはどれか？",
+      "options": {
+        "A": "df -h",
+        "B": "df -i",
+        "C": "du -i",
+        "D": "stat -i"
+      },
+      "correct": "B",
+      "explanation": "df -i でファイルシステムの inode 使用率を表示します。"
+    },
+    {
+      "id": "linux_filesystem_038",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイル削除時に『Permission denied』が表示される場合、何が原因か？",
+      "options": {
+        "A": "ファイル自身の書き込み権がない",
+        "B": "親ディレクトリの書き込み権がない",
+        "C": "ファイルが読み取り専用で、他に所有者がいる",
+        "D": "ファイルが実行中である"
+      },
+      "correct": "B",
+      "explanation": "ファイル削除にはそのファイル自身の権限ではなく、親ディレクトリの書き込み権が必要です。"
+    },
+    {
+      "id": "linux_filesystem_039",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "隠しファイル（ドット で始まるファイル）を表示するオプションはどれか？",
+      "options": {
+        "A": "ls -a",
+        "B": "ls -h",
+        "C": "ls -A",
+        "D": "ls -1"
+      },
+      "correct": "A",
+      "explanation": "ls -a（all）で隠しファイルを含むすべてのファイルを表示します。-A は . と .. を除きます。"
+    },
+    {
+      "id": "linux_filesystem_040",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルを別の場所にコピー時、パーミッションを保持するオプションはどれか？",
+      "options": {
+        "A": "cp -p file1 file2",
+        "B": "cp -P file1 file2",
+        "C": "cp -a file1 file2",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "cp -p（preserve）でパーミッション、所有者、タイムスタンプを保持します。cp -a（archive）でもパーミッション保持可能です。"
+    },
+    {
+      "id": "linux_filesystem_041",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルシステムの整合性をチェックするコマンドはどれか？",
+      "options": {
+        "A": "fsck",
+        "B": "chkdsk",
+        "C": "scanfs",
+        "D": "verifyfs"
+      },
+      "correct": "A",
+      "explanation": "fsck（File System Check）はファイルシステムの整合性をチェックし、修復します。マウント中のファイルシステムでは実行できません。"
+    },
+    {
+      "id": "linux_filesystem_042",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルの access time、modify time、change time の定義として正しいものはどれか？",
+      "options": {
+        "A": "access：ファイルが最後に読み込まれた時刻、modify：内容が最後に変更された時刻、change：inode が最後に変更された時刻",
+        "B": "access：inode が最後に変更された、modify：最後に読まれた、change：ファイル作成時刻",
+        "C": "全て同じで呼び方が異なるだけ",
+        "D": "access：ファイル作成時刻、modify：最後に読まれた、change：最後に変更された"
+      },
+      "correct": "A",
+      "explanation": "atime（access time）：読み込み、mtime（modify time）：内容変更、ctime（change time）：inode情報変更です。stat で確認できます。"
+    },
+    {
+      "id": "linux_filesystem_043",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルのテンポラル属性（touch）を変更するコマンドはどれか？",
+      "options": {
+        "A": "touch -t file",
+        "B": "touch -d '2023-01-01' file",
+        "C": "touch -m file",
+        "D": "touch --date='2023-01-01 12:00:00' file"
+      },
+      "correct": "D",
+      "explanation": "touch で atime/mtime を変更できます。-d、--date、--time で具体的な時刻指定が可能です。"
+    },
+    {
+      "id": "linux_filesystem_044",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "lsof コマンドの主な機能は何か？",
+      "options": {
+        "A": "開かれているファイルを一覧表示する",
+        "B": "ファイルサイズを表示する",
+        "C": "ファイルを検索する",
+        "D": "ファイルロックを設定する"
+      },
+      "correct": "A",
+      "explanation": "lsof（list open files）は開かれているファイル、ソケット、パイプなどを表示します。プロセスが使用しているファイルを特定するのに有用です。"
+    },
+    {
+      "id": "linux_filesystem_045",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特定のプロセスにより開かれているファイルを表示する場合、コマンドはどれか？",
+      "options": {
+        "A": "lsof -p <PID>",
+        "B": "lsof -c <command>",
+        "C": "lsof -d <file>",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "lsof -p <PID> でプロセスID、lsof -c <command> でコマンド名で検索できます。"
+    },
+    {
+      "id": "linux_filesystem_046",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "作業ディレクトリを表示するコマンドはどれか？",
+      "options": {
+        "A": "pwd",
+        "B": "cwd",
+        "C": "dir",
+        "D": "curdir"
+      },
+      "correct": "A",
+      "explanation": "pwd（print working directory）は現在のディレクトリパスを表示します。"
+    },
+    {
+      "id": "linux_filesystem_047",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルの絶対パスと相対パスの違いは何か？",
+      "options": {
+        "A": "絶対パス：ルートから始まるパス、相対パス：現在のディレクトリから始まるパス",
+        "B": "絶対パス：シンボリックリンク、相対パス：ハードリンク",
+        "C": "絶対パス：ファイルシステム内のパス、相対パス：パーテーション内のパス",
+        "D": "機能的には同じで、表記方法が異なるだけ"
+      },
+      "correct": "A",
+      "explanation": "絶対パスは /root/path のように / から始まり、相対パスは ./path や ../path のように現在地からの関係を表します。"
+    },
+    {
+      "id": "linux_filesystem_048",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ディレクトリツリーを視覚的に表示するコマンドはどれか？",
+      "options": {
+        "A": "tree",
+        "B": "ls -R",
+        "C": "find . -type d",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "tree またはls -R でディレクトリ構造を表示できます。tree がより見やすい形式です。"
+    },
+    {
+      "id": "linux_filesystem_049",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "UMASKの役割は何か？",
+      "options": {
+        "A": "作成されたファイルのデフォルトパーミッションを設定する",
+        "B": "ユーザーマスクを設定する",
+        "C": "パスワードマスクを設定する",
+        "D": "セッションマスクを設定する"
+      },
+      "correct": "A",
+      "explanation": "UMASK はファイルやディレクトリ作成時に自動的に削除されるパーミッションを指定します。例：umask 0022 で 755 のデフォルトになります。"
+    },
+    {
+      "id": "linux_filesystem_050",
+      "genre": "Linux ファイルシステムと権限",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "UMASK 値 0022 の場合、新規ファイルのデフォルトパーミッションはどれか？",
+      "options": {
+        "A": "644",
+        "B": "755",
+        "C": "600",
+        "D": "777"
+      },
+      "correct": "A",
+      "explanation": "ファイル作成時のデフォルトは 666、UMASKが 0022 の場合、666 - 022 = 644 になります。"
+    }
+  ]
+}

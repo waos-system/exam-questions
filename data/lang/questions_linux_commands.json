@@ -1,0 +1,756 @@
+{
+  "genre": "Linux コマンド操作",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_commands_001",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "次のコマンドで、ファイル 'file.txt' の最初の10行を表示する場合、最も適切なものはどれか？",
+      "options": {
+        "A": "tail -n 10 file.txt",
+        "B": "head -n 10 file.txt",
+        "C": "cat file.txt | grep -m 10",
+        "D": "sed -n '1,10p' file.txt"
+      },
+      "correct": "B",
+      "explanation": "head コマンドはファイルの先頭から指定行数を表示します。-n オプションで行数を指定できます。tail は最後の行を表示します。"
+    },
+    {
+      "id": "linux_commands_002",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "複数のファイルを結合して出力するコマンドはどれか？",
+      "options": {
+        "A": "cut",
+        "B": "paste",
+        "C": "cat",
+        "D": "comb"
+      },
+      "correct": "C",
+      "explanation": "cat コマンドは複数のファイルを指定することで、それらを結合して標準出力に表示します。例：cat file1.txt file2.txt"
+    },
+    {
+      "id": "linux_commands_003",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルの内容を逆順（最後から最初へ）で表示するコマンドはどれか？",
+      "options": {
+        "A": "rev",
+        "B": "tac",
+        "C": "inv",
+        "D": "back"
+      },
+      "correct": "B",
+      "explanation": "tac コマンドは 'cat' の逆で、ファイルの行を逆順で表示します。rev コマンドは各行の文字を逆順にします。"
+    },
+    {
+      "id": "linux_commands_004",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パイプ（|）の役割として最も適切なものはどれか？",
+      "options": {
+        "A": "ファイルをバックアップする",
+        "B": "コマンドの標準出力を次のコマンドの標準入力に渡す",
+        "C": "複数のコマンドを並行実行する",
+        "D": "エラーメッセージをリダイレクトする"
+      },
+      "correct": "B",
+      "explanation": "パイプ（|）は、左側のコマンドの出力を右側のコマンドの入力として渡します。例：ls | grep txt"
+    },
+    {
+      "id": "linux_commands_005",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "標準出力をファイルにリダイレクトするための記号はどれか？",
+      "options": {
+        "A": "|",
+        "B": "<",
+        "C": ">",
+        "D": ">>"
+      },
+      "correct": "C",
+      "explanation": "単一の > はファイルを上書き保存します。>> は追記します。< は標準入力リダイレクトを表します。"
+    },
+    {
+      "id": "linux_commands_006",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルの末尾25行を表示するコマンドとしてどれが最も適切か？",
+      "options": {
+        "A": "head -n 25 file.txt",
+        "B": "tail -n 25 file.txt",
+        "C": "sed '1,d' file.txt",
+        "D": "grep -c '' file.txt"
+      },
+      "correct": "B",
+      "explanation": "tail -n 25 はファイルの最後から25行を表示します。-n を省略して tail -25 でも動作します。"
+    },
+    {
+      "id": "linux_commands_007",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "テキストファイルから特定の行を削除する sed コマンドはどれか？",
+      "options": {
+        "A": "sed '5d' file.txt",
+        "B": "sed '5s' file.txt",
+        "C": "sed '5c' file.txt",
+        "D": "sed '5i' file.txt"
+      },
+      "correct": "A",
+      "explanation": "sed の 'd' コマンドは行を削除します。5d は5行目を削除します。'5,10d' で5〜10行を削除できます。"
+    },
+    {
+      "id": "linux_commands_008",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "テキストの置換を行うコマンドで最も汎用的なものはどれか？",
+      "options": {
+        "A": "tr",
+        "B": "sed",
+        "C": "grep",
+        "D": "awk"
+      },
+      "correct": "B",
+      "explanation": "sed は Stream Editor で、複雑な置換が可能です。例：sed 's/old/new/g' で全置換ができます。tr は1文字置換に限定されます。"
+    },
+    {
+      "id": "linux_commands_009",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "複数ファイルから特定の文字列を検索するコマンドはどれか？",
+      "options": {
+        "A": "find . -name '*.txt'",
+        "B": "grep -r 'pattern' .",
+        "C": "locate 'pattern'",
+        "D": "which 'pattern'"
+      },
+      "correct": "B",
+      "explanation": "grep -r（または grep --recursive）は複数のファイルを再帰的に検索します。-r オプションが重要です。"
+    },
+    {
+      "id": "linux_commands_010",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "grep コマンドで、マッチした行の行番号を表示するオプションはどれか？",
+      "options": {
+        "A": "-l",
+        "B": "-n",
+        "C": "-c",
+        "D": "-v"
+      },
+      "correct": "B",
+      "explanation": "grep -n はマッチした行番号を表示します。-l はファイル名のみ、-c はマッチ数、-v は非マッチ行を表示します。"
+    },
+    {
+      "id": "linux_commands_011",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイル内の単語の出現回数をカウントするコマンドはどれか？",
+      "options": {
+        "A": "wc -w",
+        "B": "wc -l",
+        "C": "wc -c",
+        "D": "wc -b"
+      },
+      "correct": "A",
+      "explanation": "wc -w はファイル内の単語数をカウントします。-l は行数、-c はバイト数、-m は文字数となります。"
+    },
+    {
+      "id": "linux_commands_012",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "大量のテキスト処理に適した強力なコマンドラインツールはどれか？",
+      "options": {
+        "A": "cut",
+        "B": "sort",
+        "C": "awk",
+        "D": "paste"
+      },
+      "correct": "C",
+      "explanation": "awk は列データ処理に最適で、複雑なテキスト処理ができます。cut は列抽出、sort は並置換です。"
+    },
+    {
+      "id": "linux_commands_013",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "フィールド区切り文字を指定して列を抽出するコマンドはどれか？",
+      "options": {
+        "A": "cut -d : -f 1 /etc/passwd",
+        "B": "grep -d : -f 1 /etc/passwd",
+        "C": "paste -d : -f 1 /etc/passwd",
+        "D": "sed -d : -f 1 /etc/passwd"
+      },
+      "correct": "A",
+      "explanation": "cut -d '区切り文字' -f '列番号' で指定された列を抽出します。/etc/passwd の例では、-d : でコロン区切り、-f 1 で第1フィールドを抽出します。"
+    },
+    {
+      "id": "linux_commands_014",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "テキストを昇順に並べ替えるコマンドはどれか？",
+      "options": {
+        "A": "uniq",
+        "B": "sort",
+        "C": "order",
+        "D": "arrange"
+      },
+      "correct": "B",
+      "explanation": "sort コマンドはテキストを昇順に並べ替えます。-r オプションで降順、-n で数値ソート、-u で重複削除ができます。"
+    },
+    {
+      "id": "linux_commands_015",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "重複行を削除するコマンドはどれか？",
+      "options": {
+        "A": "sort -u",
+        "B": "grep -u",
+        "C": "uniq",
+        "D": "awk -u"
+      },
+      "correct": "C",
+      "explanation": "uniq コマンドは連続する重複行を削除します。事前に sort で並べ替えておく必要があります。sort -u でも重複削除ができます。"
+    },
+    {
+      "id": "linux_commands_016",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ディレクトリ内のファイルを再帰的に検索するコマンドはどれか？",
+      "options": {
+        "A": "locate",
+        "B": "find",
+        "C": "which",
+        "D": "whereis"
+      },
+      "correct": "B",
+      "explanation": "find コマンドはディレクトリツリーを再帰的に検索します。locate はデータベースを使用し、which はコマンドのパスを検索します。"
+    },
+    {
+      "id": "linux_commands_017",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "find コマンドで、特定のサイズ以上のファイルを検索する場合、どのオプションを使用するか？",
+      "options": {
+        "A": "-size +100M",
+        "B": "-large +100M",
+        "C": "-bigfile 100M",
+        "D": "-larger +100M"
+      },
+      "correct": "A",
+      "explanation": "find -size +100M は100MB以上のファイルを検索します。-size -100M で100MB以下、-size 100M でちょうど100MBです。"
+    },
+    {
+      "id": "linux_commands_018",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "24時間以内に変更されたファイルを検索するコマンドはどれか？",
+      "options": {
+        "A": "find . -mtime -1",
+        "B": "find . -mtime 1",
+        "C": "find . -mtime +1",
+        "D": "find . -mtime -24h"
+      },
+      "correct": "A",
+      "explanation": "find -mtime -1 は過去24時間に変更されたファイルを検索します。-mtime は日単位、-mmin は分単位です。"
+    },
+    {
+      "id": "linux_commands_019",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルの内容をページごとに表示するコマンドはどれか？",
+      "options": {
+        "A": "less",
+        "B": "tail",
+        "C": "head",
+        "D": "sed"
+      },
+      "correct": "A",
+      "explanation": "less はページングコマンドで、大きなファイルを効率的に閲覧できます。more も同様ですが、less がより高機能です。"
+    },
+    {
+      "id": "linux_commands_020",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "リアルタイムでファイルの最後の行を監視するコマンドはどれか？",
+      "options": {
+        "A": "tail -f file.log",
+        "B": "tail -w file.log",
+        "C": "tail -r file.log",
+        "D": "tail -t file.log"
+      },
+      "correct": "A",
+      "explanation": "tail -f（follow）はファイルに追記されるデータをリアルタイムで表示します。ログファイル監視に非常に有用です。"
+    },
+    {
+      "id": "linux_commands_021",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "複数のコマンドを順序に実行し、1つが失敗したら後続を実行しない場合、どの記号を使用するか？",
+      "options": {
+        "A": ";",
+        "B": "||",
+        "C": "&&",
+        "D": "|"
+      },
+      "correct": "C",
+      "explanation": "&& は AND演算子で、前のコマンドが成功（返り値0）した場合のみ次を実行します。; は常に次を実行します。"
+    },
+    {
+      "id": "linux_commands_022",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "複数のコマンドを順序に実行し、1つが失敗したら後続を実行する場合、どの記号を使用するか？",
+      "options": {
+        "A": "&&",
+        "B": "||",
+        "C": ";",
+        "D": "|"
+      },
+      "correct": "C",
+      "explanation": "; はセミコロンで、前のコマンドの成功/失敗に関わらず、次のコマンドを実行します。"
+    },
+    {
+      "id": "linux_commands_023",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "grep で正規表現を使用する場合、どのオプションが必要か？",
+      "options": {
+        "A": "-E（Extended Regular Expression）",
+        "B": "-R（Recursive）",
+        "C": "-P（Perl）",
+        "D": "-L（Link）"
+      },
+      "correct": "A",
+      "explanation": "grep -E（または egrep）で拡張正規表現が使用できます。-P でPerl互換正規表現も可能です。"
+    },
+    {
+      "id": "linux_commands_024",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "テキストファイルから空行を削除するコマンドはどれか？",
+      "options": {
+        "A": "grep -v '^$' file.txt",
+        "B": "grep '^$' file.txt",
+        "C": "sed '/^$/d' file.txt",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "grep -v '^$' は空行以外の行を表示し、sed '/^$/d' は空行を削除します。両方とも同じ結果が得られます。"
+    },
+    {
+      "id": "linux_commands_025",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "awk でのパターンマッチングにおいて、最初の行をスキップする場合はどのようにするか？",
+      "options": {
+        "A": "awk 'NR>1'",
+        "B": "awk 'NR<1'",
+        "C": "awk 'NR=1'",
+        "D": "awk 'NR!=1'"
+      },
+      "correct": "A",
+      "explanation": "awk 'NR>1' は入力レコード番号（NR）が1より大きい行を処理します。これで最初の行（ヘッダー）をスキップできます。"
+    },
+    {
+      "id": "linux_commands_026",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "sed コマンドで特定行より後のすべてを表示しない場合、どのようにするか？",
+      "options": {
+        "A": "sed '10,$d'",
+        "B": "sed '10q'",
+        "C": "sed '1,10p'",
+        "D": "sed '10p'"
+      },
+      "correct": "A",
+      "explanation": "sed '10,$d' は10行目以降をすべて削除します。sed '10q' は10行目で終了します。-n '1,10p' で1〜10行のみ表示します。"
+    },
+    {
+      "id": "linux_commands_027",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "複数のファイルから同じ内容の行を検出するコマンドはどれか？",
+      "options": {
+        "A": "comm",
+        "B": "join",
+        "C": "diff",
+        "D": "paste"
+      },
+      "correct": "A",
+      "explanation": "comm は2つのソート済みファイルを比較し、共通行と異なる行を表示します。diff は違いを表示、join は共通キーで結合します。"
+    },
+    {
+      "id": "linux_commands_028",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "2つのテキストファイルの差分を表示するコマンドはどれか？",
+      "options": {
+        "A": "comm",
+        "B": "diff",
+        "C": "cmp",
+        "D": "sdiff"
+      },
+      "correct": "B",
+      "explanation": "diff はファイル間の差分を詳細に表示します。cmp は異なる最初のバイト位置を表示、sdiff は並行表示です。"
+    },
+    {
+      "id": "linux_commands_029",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェル変数を定義する方法として最も適切なものはどれか？",
+      "options": {
+        "A": "variable = value",
+        "B": "variable=value",
+        "C": "set variable=value",
+        "D": "export variable value"
+      },
+      "correct": "B",
+      "explanation": "Bash では variable=value（スペースなし）で変数を定義します。export を使うと環境変数になり、子プロセスに継承されます。"
+    },
+    {
+      "id": "linux_commands_030",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェル変数を環境変数に設定するコマンドはどれか？",
+      "options": {
+        "A": "set VAR=value",
+        "B": "declare VAR=value",
+        "C": "export VAR=value",
+        "D": "global VAR=value"
+      },
+      "correct": "C",
+      "explanation": "export コマンドで変数を環境変数に設定し、子プロセスでアクセス可能にします。declare はシェル変数の型指定に使用します。"
+    },
+    {
+      "id": "linux_commands_031",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプト内でコマンド置換をする場合、どの構文を使用するか？",
+      "options": {
+        "A": "$(command) または `command`",
+        "B": "{command}",
+        "C": "[command]",
+        "D": "command()"
+      },
+      "correct": "A",
+      "explanation": "$(command) は現代的なコマンド置換で、バッククォート（`command`）も使用可能です。$(command) の方が推奨されます。"
+    },
+    {
+      "id": "linux_commands_032",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで変数の値をテストする場合、何を使用するか？",
+      "options": {
+        "A": "if [ $var ]",
+        "B": "if [ -z $var ]",
+        "C": "if [ -n $var ]",
+        "D": "if test $var"
+      },
+      "correct": "A",
+      "explanation": "[ $var ] は変数が空でないことをテストします。-z は空、-n は空でないことをテストします。"
+    },
+    {
+      "id": "linux_commands_033",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルが存在するかテストする sh条件式はどれか？",
+      "options": {
+        "A": "if [ -f file ]",
+        "B": "if [ -d file ]",
+        "C": "if [ -e file ]",
+        "D": "if [ -x file ]"
+      },
+      "correct": "A",
+      "explanation": "-f は通常ファイル、-d はディレクトリ、-e は何らかのファイル、-x は実行可能をテストします。"
+    },
+    {
+      "id": "linux_commands_034",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "テキストの最後の10行を取得するコマンドで、次のうち正確なものはどれか？",
+      "options": {
+        "A": "tail -10",
+        "B": "tail -n10",
+        "C": "tail -10 file.txt",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全て同じ結果を得られます。-n は省略可能で、tail -10 または tail -n10 は同じです。"
+    },
+    {
+      "id": "linux_commands_035",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "grep で、単語単位での検索を行う場合のオプションはどれか？",
+      "options": {
+        "A": "-w",
+        "B": "-W",
+        "C": "-x",
+        "D": "-s"
+      },
+      "correct": "A",
+      "explanation": "grep -w（word word）は単語全体にマッチします。-x はラインぜんたいにマッチします。"
+    },
+    {
+      "id": "linux_commands_036",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "複数のテキストをスペースで区切って拡張表示するコマンドはどれか？",
+      "options": {
+        "A": "cat",
+        "B": "join",
+        "C": "paste -d ' '",
+        "D": "merge"
+      },
+      "correct": "C",
+      "explanation": "paste コマンドは複数ファイルの対応する行を結合します。-d で区切り文字を指定できます。"
+    },
+    {
+      "id": "linux_commands_037",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "英大文字を英小文字に変換するコマンドはどれか？",
+      "options": {
+        "A": "tr A-Z a-z",
+        "B": "tr '[A-Z]' '[a-z]'",
+        "C": "sed 's/[A-Z]/[a-z]/'",
+        "D": "awk '{print tolower($0)}'"
+      },
+      "correct": "A",
+      "explanation": "tr A-Z a-z は大文字を小文字に変換します。リスト表記を使う際は tr '[A-Z]' '[a-z]' となります。"
+    },
+    {
+      "id": "linux_commands_038",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特定のパターンを含まない行を表示するコマンドはどれか？",
+      "options": {
+        "A": "grep pattern",
+        "B": "grep -v pattern",
+        "C": "grep -x pattern",
+        "D": "grep -l pattern"
+      },
+      "correct": "B",
+      "explanation": "grep -v（invert）はマッチしない行を表示します。-x はライン全体マッチ、-l はファイル名を表示します。"
+    },
+    {
+      "id": "linux_commands_039",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "grep で、大文字小文字を区別しない検索をするオプションはどれか？",
+      "options": {
+        "A": "-i",
+        "B": "-c",
+        "C": "-I",
+        "D": "-s"
+      },
+      "correct": "A",
+      "explanation": "grep -i（ignore-case）は大文字小文字を区別せず検索します。-c はマッチ数を表示です。"
+    },
+    {
+      "id": "linux_commands_040",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルのモード（パーミッション）を表示するコマンドはどれか？",
+      "options": {
+        "A": "ls -l",
+        "B": "file -m",
+        "C": "stat",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "ls -l でパーミッションを表示できます。stat はより詳細な情報を表示します。"
+    },
+    {
+      "id": "linux_commands_041",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ファイルタイプを判定するコマンドはどれか？",
+      "options": {
+        "A": "type",
+        "B": "file",
+        "C": "kind",
+        "D": "format"
+      },
+      "correct": "B",
+      "explanation": "file コマンドはファイルタイプを分析して表示します。バイナリかテキストかなども判定できます。"
+    },
+    {
+      "id": "linux_commands_042",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "16進数ダンプを表示するコマンドはどれか？",
+      "options": {
+        "A": "hexdump",
+        "B": "hex",
+        "C": "dump",
+        "D": "od"
+      },
+      "correct": "A",
+      "explanation": "hexdump または od コマンドでファイルを16進法で表示できます。-C オプションで ASCII表示も可能です。"
+    },
+    {
+      "id": "linux_commands_043",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "2つのファイルをバイト単位で比較するコマンドはどれか？",
+      "options": {
+        "A": "cmp",
+        "B": "diff",
+        "C": "comm",
+        "D": "compare"
+      },
+      "correct": "A",
+      "explanation": "cmp はバイト単位の比較を行い、異なる最初のバイト位置を表示します。diff は行単位です。"
+    },
+    {
+      "id": "linux_commands_044",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "文字列を特定列で抽出するコマンドはどれか？",
+      "options": {
+        "A": "cut -c 1-10",
+        "B": "cut -f 1-10",
+        "C": "cut -d 1-10",
+        "D": "cut -x 1-10"
+      },
+      "correct": "A",
+      "explanation": "cut -c は文字位置範囲を指定します。cut -f はフィールド指定で -d で区切り文字を指定します。"
+    },
+    {
+      "id": "linux_commands_045",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルの先頭数バイトと签名を表示するコマンドはどれか？",
+      "options": {
+        "A": "file",
+        "B": "strings",
+        "C": "od",
+        "D": "hexdump"
+      },
+      "correct": "A",
+      "explanation": "file コマンドはマジックナンバー（ファイルタイプの署名）を読んで、ファイルタイプを判定および表示します。"
+    },
+    {
+      "id": "linux_commands_046",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "テキストファイルから印字不可能な文字を表示するコマンドはどれか？",
+      "options": {
+        "A": "cat -v",
+        "B": "cat -A",
+        "C": "od -c",
+        "D": "strings"
+      },
+      "correct": "A",
+      "explanation": "cat -v は制御文字を表示します。-A で TAB（^I）や行末（$）も表示します。"
+    },
+    {
+      "id": "linux_commands_047",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "テキストの複数フレーズを同時に置換する最も効率的な方法はどれか？",
+      "options": {
+        "A": "複数の sed コマンドをパイプで繋ぐ",
+        "B": "awk で複数の gsub() を使う",
+        "C": "複数の sed コマンドを -e で指定する",
+        "D": "複数回の tr コマンド"
+      },
+      "correct": "C",
+      "explanation": "sed -e 's/pat1/rep1/g' -e 's/pat2/rep2/g' で複数の置換を効率的に実行できます。"
+    },
+    {
+      "id": "linux_commands_048",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "入力から重複する最初の単語を見つけるコマンドスイートはどれか？",
+      "options": {
+        "A": "sort | uniq",
+        "B": "sort | uniq -d",
+        "C": "sort -u",
+        "D": "uniq -i < sorted_file"
+      },
+      "correct": "B",
+      "explanation": "sort | uniq -d はソート後に重複行のみを表示します。uniq -c で重複回数も表示できます。"
+    },
+    {
+      "id": "linux_commands_049",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイルの最後から N 行を除いたすべての行を表示するコマンドはどれか？",
+      "options": {
+        "A": "head -n -3 file.txt",
+        "B": "tail -n +3 file.txt",
+        "C": "sed '$-2,$d' file.txt",
+        "D": "head -n -3"
+      },
+      "correct": "A",
+      "explanation": "head -n -3 は最後の3行を除いた全行を表示します。負の値で『最後から』の指定が可能です。"
+    },
+    {
+      "id": "linux_commands_050",
+      "genre": "Linux コマンド操作",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "テキストファイルから JSON を抽出するのに最適なコマンドはどれか？",
+      "options": {
+        "A": "grep",
+        "B": "jq",
+        "C": "awk",
+        "D": "sed"
+      },
+      "correct": "B",
+      "explanation": "jq は JSON フィルター・パーサーで、JSON データを処理するためのコマンドラインツールです。awk や sed でも可能ですが jq が最適です。"
+    }
+  ]
+}

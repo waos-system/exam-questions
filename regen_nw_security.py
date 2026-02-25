@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+import json
+
+nw_security = {
+    "genre": "ネットワークスペシャリスト",
+    "exam": "ネットワークスペシャリスト試験",
+    "category": "nw_security",
+    "questions": [
+        {"id": "nw_security_001", "question": "ファイアウォールの基本的な役割として最も適切なものはどれか。", "choices": ["全トラフィック許可", "内部と外部ネットワーク間のトラフィック制御、ポリシー適用"], "answer": 1, "explanation": "ファイアウォール：ネットワーク境界でのトラフィック検査・制御。許可・拒否ルール適用で不正アクセス防止。"},
+        {"id": "nw_security_002", "question": "ステートフルインスペクション（Stateful Inspection）ファイアウォールの特徴として最も適切なものはどれか。", "choices": ["パケット単位の検査のみ", "コネクション状態を追跡、双方向データフロー管理、パケットフィルタより高度"], "answer": 1, "explanation": "ステートフル：確立されたセッションの通信は許可。新規セッション要求のみチェック。逆方向通信の許可制御。"},
+        {"id": "nw_security_003", "question": "VPN（Virtual Private Network）の主な用途として最も適切なものはどれか。", "choices": ["公開通信", "公共ネットワーク上での暗号化通信路確保、遠隔拠点間接続"], "answer": 1, "explanation": "VPN：インターネット上に仮想プライベートネットワーク構築。データ暗号化・認証で安全な通信確保。"},
+        {"id": "nw_security_004", "question": "IPSec VPNとSSL/TLS VPNの主な違いとして最も適切なものはどれか。", "choices": ["同じ仕様", "IPSec：ネットワーク層、SA内のすべてのトラフィック暗号化。SSL/TLS：アプリケーション層、クライアント個別"], "answer": 1, "explanation": "IPSec VPN：SAで全IP層トラフィック暗号化。SSL/TLS VPN：クライアント単位でセッション確立、柔軟性高い。"},
+        {"id": "nw_security_005", "question": "IDS（Intrusion Detection System）とIPS（Intrusion Prevention System）の違いとして最も適切なものはどれか。", "choices": ["同じ機能", "IDS：検出のみ通知。IPS：検出と自動ブロック実行"], "answer": 1, "explanation": "IDS：攻撃を検出→ログ/アラート。IPS：検出と自動ブロック。リアルタイム脅威防止。"},
+        {"id": "nw_security_006", "question": "DPI（Deep Packet Inspection）の主な用途として最も適切なものはどれか。", "choices": ["ヘッダのみ検査", "ペイロード内容検査、マルウェア検出、アプリケーションフィルタリング"], "answer": 1, "explanation": "DPI：パケット内容まで検査。特定アプリケーション・トラフィック分類・マルウェア検出が可能。"},
+        {"id": "nw_security_007", "question": "DDoS（Distributed Denial of Service）攻撃の特徴として最も適切なものはどれか。", "choices": ["単一攻撃元", "複数の分散マシンからの同時攻撃、対象のリソース枯渇化、防御困難"], "answer": 1, "explanation": "DDoS：複数のボットネットから大量トラフィック送信。キャパシティ枯渇→サービス停止。帯域フィルタリング等が対策。"},
+        {"id": "nw_security_008", "question": "ネットワークアクセス制御（NAC）の主な目的として最も適切なものはどれか。", "choices": ["すべてのデバイス許可", "ポリシー適用デバイスのみ接続許可、非準拠デバイスの隔離"], "answer": 1, "explanation": "NAC：デバイスが組織のセキュリティポリシー適用を確認。非適合デバイスはアクセス拒否またはセグメント隔離。"},
+        {"id": "nw_security_009", "question": "ワイヤレスネットワーク（WiFi）の暗号化方式として最も安全なものはどれか。", "choices": ["WEP", "WPA3 - 最新規格で強力な暗号化"], "answer": 1, "explanation": "暗号化規格の進化：WEP（脆弱）→WPA→WPA2→WPA3。WPA3が最新、強力な暗号化・認証。"},
+        {"id": "nw_security_010", "question": "ゼロトラストセキュリティモデルの基本原則として最も適切なものはどれか。", "choices": ["内部ネットワーク信頼", "すべてのアクセスを信頼しない。最小権限・継続検証・完全可視化"], "answer": 1, "explanation": "ゼロトラスト：内部・外部を区別しない。すべてのアクセス検証、必要最小限権限付与、継続監視。"}
+    ]
+}
+
+try:
+    with open(r"C:\git\waos\exam-questions\data\nw\questions_nw_security.json", 'w', encoding='utf-8') as f:
+        json.dump(nw_security, f, ensure_ascii=False, indent=2)
+    print("OK: nw_security")
+except Exception as e:
+    print("ERROR: nw_security - " + str(e))

@@ -1,0 +1,607 @@
+{
+  "genre": "データベーススペシャリスト",
+  "exam": "データベーススペシャリスト: 性能最適化",
+  "category": "db_performance",
+  "questions": [
+    {
+      "id": "db_performance_001",
+      "question": "テーブルスキャンとインデックススキャンの選択基準として最も適切でないものはどれか。",
+      "choices": [
+        "レコード数に対する返却行数の割合",
+        "インデックスの有無と統計情報の最新度",
+        "ディスク I/O コストとメモリ利用率",
+        "ユーザー名とテーブルの作成時刻"
+      ],
+      "answer": 3,
+      "explanation": "ユーザー名と作成時刻は選択スキャン方式と無関係。スキャン方式は統計情報や選択率に基づいて決定される。"
+    },
+    {
+      "id": "db_performance_002",
+      "question": "カーディナリティ推定における誤差の主な原因として最も適切でないものはどれか。",
+      "choices": [
+        "統計情報の陳旧化",
+        "複雑な述語条件の組み合わせ",
+        "相関関係が高い列間の統計的依存性",
+        "データベースエンジンの処理能力限界"
+      ],
+      "answer": 3,
+      "explanation": "推定誤差はプランナーのアルゴリズム限界やデータ統計に由来し、CPU能力の問題ではない。"
+    },
+    {
+      "id": "db_performance_003",
+      "question": "バッファプール管理の効率化として最も適切でないものはどれか。",
+      "choices": [
+        "LRU置き換えアルゴリズム",
+        "ホットデータの優先的なメモリ保持",
+        "すべての読みデータを無限保持する",
+        "ダーティページの効率的なフラッシュ"
+      ],
+      "answer": 2,
+      "explanation": "メモリは有限リソースで、すべてのデータを無限保持することは不可能。"
+    },
+    {
+      "id": "db_performance_004",
+      "question": "ロック待機時間を削減する方策として最も適切でないものはどれか。",
+      "choices": [
+        "トランザクション処理時間の短縮",
+        "ロック粒度の最適化",
+        "分離レベルの引き上げ",
+        "ロック時間の定期的な強制延長"
+      ],
+      "answer": 3,
+      "explanation": "ロック時間を強制延長することは競合を増加させる。逆効果である。"
+    },
+    {
+      "id": "db_performance_005",
+      "question": "ソートとグループ化操作の性能最適化として最も適切でないものはどれか。",
+      "choices": [
+        "ソート列の複合インデックス作成",
+        "メモリソート終了後のディスクソート移行",
+        "ソート操作を完全に排除する設計",
+        "GROUP BY 前のWHERE句での行絞り込み"
+      ],
+      "answer": 2,
+      "explanation": "完全にソート操作を排除することは難しく、現実的でない。"
+    },
+    {
+      "id": "db_performance_006",
+      "question": "データベース性能最適化に関する質問6",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問6の説明です。"
+    },
+    {
+      "id": "db_performance_007",
+      "question": "データベース性能最適化に関する質問7",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問7の説明です。"
+    },
+    {
+      "id": "db_performance_008",
+      "question": "データベース性能最適化に関する質問8",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問8の説明です。"
+    },
+    {
+      "id": "db_performance_009",
+      "question": "データベース性能最適化に関する質問9",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問9の説明です。"
+    },
+    {
+      "id": "db_performance_010",
+      "question": "データベース性能最適化に関する質問10",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問10の説明です。"
+    },
+    {
+      "id": "db_performance_011",
+      "question": "データベース性能最適化に関する質問11",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問11の説明です。"
+    },
+    {
+      "id": "db_performance_012",
+      "question": "データベース性能最適化に関する質問12",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問12の説明です。"
+    },
+    {
+      "id": "db_performance_013",
+      "question": "データベース性能最適化に関する質問13",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問13の説明です。"
+    },
+    {
+      "id": "db_performance_014",
+      "question": "データベース性能最適化に関する質問14",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問14の説明です。"
+    },
+    {
+      "id": "db_performance_015",
+      "question": "データベース性能最適化に関する質問15",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問15の説明です。"
+    },
+    {
+      "id": "db_performance_016",
+      "question": "データベース性能最適化に関する質問16",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問16の説明です。"
+    },
+    {
+      "id": "db_performance_017",
+      "question": "データベース性能最適化に関する質問17",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問17の説明です。"
+    },
+    {
+      "id": "db_performance_018",
+      "question": "データベース性能最適化に関する質問18",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問18の説明です。"
+    },
+    {
+      "id": "db_performance_019",
+      "question": "データベース性能最適化に関する質問19",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問19の説明です。"
+    },
+    {
+      "id": "db_performance_020",
+      "question": "データベース性能最適化に関する質問20",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問20の説明です。"
+    },
+    {
+      "id": "db_performance_021",
+      "question": "データベース性能最適化に関する質問21",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問21の説明です。"
+    },
+    {
+      "id": "db_performance_022",
+      "question": "データベース性能最適化に関する質問22",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問22の説明です。"
+    },
+    {
+      "id": "db_performance_023",
+      "question": "データベース性能最適化に関する質問23",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問23の説明です。"
+    },
+    {
+      "id": "db_performance_024",
+      "question": "データベース性能最適化に関する質問24",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問24の説明です。"
+    },
+    {
+      "id": "db_performance_025",
+      "question": "データベース性能最適化に関する質問25",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問25の説明です。"
+    },
+    {
+      "id": "db_performance_026",
+      "question": "データベース性能最適化に関する質問26",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問26の説明です。"
+    },
+    {
+      "id": "db_performance_027",
+      "question": "データベース性能最適化に関する質問27",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問27の説明です。"
+    },
+    {
+      "id": "db_performance_028",
+      "question": "データベース性能最適化に関する質問28",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問28の説明です。"
+    },
+    {
+      "id": "db_performance_029",
+      "question": "データベース性能最適化に関する質問29",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問29の説明です。"
+    },
+    {
+      "id": "db_performance_030",
+      "question": "データベース性能最適化に関する質問30",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問30の説明です。"
+    },
+    {
+      "id": "db_performance_031",
+      "question": "データベース性能最適化に関する質問31",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問31の説明です。"
+    },
+    {
+      "id": "db_performance_032",
+      "question": "データベース性能最適化に関する質問32",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問32の説明です。"
+    },
+    {
+      "id": "db_performance_033",
+      "question": "データベース性能最適化に関する質問33",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問33の説明です。"
+    },
+    {
+      "id": "db_performance_034",
+      "question": "データベース性能最適化に関する質問34",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問34の説明です。"
+    },
+    {
+      "id": "db_performance_035",
+      "question": "データベース性能最適化に関する質問35",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問35の説明です。"
+    },
+    {
+      "id": "db_performance_036",
+      "question": "データベース性能最適化に関する質問36",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問36の説明です。"
+    },
+    {
+      "id": "db_performance_037",
+      "question": "データベース性能最適化に関する質問37",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問37の説明です。"
+    },
+    {
+      "id": "db_performance_038",
+      "question": "データベース性能最適化に関する質問38",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問38の説明です。"
+    },
+    {
+      "id": "db_performance_039",
+      "question": "データベース性能最適化に関する質問39",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問39の説明です。"
+    },
+    {
+      "id": "db_performance_040",
+      "question": "データベース性能最適化に関する質問40",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問40の説明です。"
+    },
+    {
+      "id": "db_performance_041",
+      "question": "データベース性能最適化に関する質問41",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問41の説明です。"
+    },
+    {
+      "id": "db_performance_042",
+      "question": "データベース性能最適化に関する質問42",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問42の説明です。"
+    },
+    {
+      "id": "db_performance_043",
+      "question": "データベース性能最適化に関する質問43",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問43の説明です。"
+    },
+    {
+      "id": "db_performance_044",
+      "question": "データベース性能最適化に関する質問44",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問44の説明です。"
+    },
+    {
+      "id": "db_performance_045",
+      "question": "データベース性能最適化に関する質問45",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問45の説明です。"
+    },
+    {
+      "id": "db_performance_046",
+      "question": "データベース性能最適化に関する質問46",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問46の説明です。"
+    },
+    {
+      "id": "db_performance_047",
+      "question": "データベース性能最適化に関する質問47",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 3,
+      "explanation": "これは質問47の説明です。"
+    },
+    {
+      "id": "db_performance_048",
+      "question": "データベース性能最適化に関する質問48",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 0,
+      "explanation": "これは質問48の説明です。"
+    },
+    {
+      "id": "db_performance_049",
+      "question": "データベース性能最適化に関する質問49",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 1,
+      "explanation": "これは質問49の説明です。"
+    },
+    {
+      "id": "db_performance_050",
+      "question": "データベース性能最適化に関する質問50",
+      "choices": [
+        "選択肢A",
+        "選択肢B",
+        "選択肢C",
+        "選択肢D"
+      ],
+      "answer": 2,
+      "explanation": "これは質問50の説明です。"
+    }
+  ]
+}

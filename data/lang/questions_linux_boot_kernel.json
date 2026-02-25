@@ -1,752 +1,1506 @@
-[
-  {
-    "id": "linux_boot_kernel_001",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "Linuxのブートシーケンスにおいて、次の順序として最も正確なものはどれか？",
-    "options": {
-      "A": "BIOS/UEFI → ブートローダー → カーネル → Init",
-      "B": "ブートローダー → BIOS/UEFI → Init → カーネル",
-      "C": "Init → カーネル → ブートローダー → BIOS/UEFI",
-      "D": "カーネル → BIOS/UEFI → ブートローダー → Init"
+{
+  "genre": "ブートプロセスとカーネル",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_boot_kernel_001",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "Linuxのブートシーケンスにおいて、次の順序として最も正確なものはどれか？",
+      "options": {
+        "A": "BIOS/UEFI → ブートローダー → カーネル → Init",
+        "B": "ブートローダー → BIOS/UEFI → Init → カーネル",
+        "C": "Init → カーネル → ブートローダー → BIOS/UEFI",
+        "D": "カーネル → BIOS/UEFI → ブートローダー → Init"
+      },
+      "correct": "A",
+      "explanation": "Linuxのブートプロセスは以下の順序で進みます：①BIOS/UEFI（ハードウェア初期化）→ ②ブートローダー（GRUBなど、カーネルをメモリに読み込む）→ ③Linuxカーネル（OS本体の実行）→ ④Init/systemd（サービス起動・ユーザースペース初期化）。"
     },
-    "correct": "A",
-    "explanation": "Linuxのブートプロセスは以下の順序で進みます：①BIOS/UEFI（ハードウェア初期化）→ ②ブートローダー（GRUBなど、カーネルをメモリに読み込む）→ ③Linuxカーネル（OS本体の実行）→ ④Init/systemd（サービス起動・ユーザースペース初期化）。"
-  },
-  {
-    "id": "linux_boot_kernel_002",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "GRUBの主な役割として最も適切なものはどれか？",
-    "options": {
-      "A": "ハードウェアの自己診断テストを実行する",
-      "B": "複数のOSから起動するOS選択メニューを提供し、カーネルをメモリに読み込む",
-      "C": "ユーザースペースのプロセスを全て管理する",
-      "D": "ネットワークの初期化とDHCP設定を行う"
+    {
+      "id": "linux_boot_kernel_002",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "GRUBの主な役割として最も適切なものはどれか？",
+      "options": {
+        "A": "ハードウェアの自己診断テストを実行する",
+        "B": "複数のOSから起動するOS選択メニューを提供し、カーネルをメモリに読み込む",
+        "C": "ユーザースペースのプロセスを全て管理する",
+        "D": "ネットワークの初期化とDHCP設定を行う"
+      },
+      "correct": "B",
+      "explanation": "GRUB（GRand Unified Bootloader）はブートローダーであり、BIOS/UEFIから制御を受け、複数のOSから選択できるメニューを表示し、選択されたカーネルイメージをRAMに読み込んで実行を開始させるのが主な役割です。"
     },
-    "correct": "B",
-    "explanation": "GRUB（GRand Unified Bootloader）はブートローダーであり、BIOS/UEFIから制御を受け、複数のOSから選択できるメニューを表示し、選択されたカーネルイメージをRAMに読み込んで実行を開始させるのが主な役割です。"
-  },
-  {
-    "id": "linux_boot_kernel_003",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "GRUB2の設定ファイルの位置として正しいものはどれか？",
-    "options": {
-      "A": "/etc/grub.cfg",
-      "B": "/boot/grub/grub.cfg",
-      "C": "/boot/grub2/grub.cfg",
-      "D": "/grub.cfg"
+    {
+      "id": "linux_boot_kernel_003",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "GRUB2の設定ファイルの位置として正しいものはどれか？",
+      "options": {
+        "A": "/etc/grub.cfg",
+        "B": "/boot/grub/grub.cfg",
+        "C": "/boot/grub2/grub.cfg",
+        "D": "/grub.cfg"
+      },
+      "correct": "B",
+      "explanation": "GRUB2の主要な設定ファイルは通常 /boot/grub/grub.cfg に配置されます。ただしこのファイルは通常 grub-mkconfig コマンドで自動生成され、直接編集しません。編集すべきファイルは /etc/default/grub です。"
     },
-    "correct": "B",
-    "explanation": "GRUB2の主要な設定ファイルは通常 /boot/grub/grub.cfg に配置されます。ただしこのファイルは通常 grub-mkconfig コマンドで自動生成され、直接編集しません。編集すべきファイルは /etc/default/grub です。"
-  },
-  {
-    "id": "linux_boot_kernel_004",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "/etc/default/grubを編集した後に実行すべきコマンドはどれか？",
-    "options": {
-      "A": "grub-mkconfig -o /boot/grub/grub.cfg",
-      "B": "grub-update",
-      "C": "update-grub",
-      "D": "grub-install"
+    {
+      "id": "linux_boot_kernel_004",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "/etc/default/grubを編集した後に実行すべきコマンドはどれか？",
+      "options": {
+        "A": "grub-mkconfig -o /boot/grub/grub.cfg",
+        "B": "grub-update",
+        "C": "update-grub",
+        "D": "grub-install"
+      },
+      "correct": "A",
+      "explanation": "GRUB2の設定を変更した場合、grub-mkconfig コマンドで /boot/grub/grub.cfg を再生成する必要があります。update-grub は grub-mkconfig のラッパースクリプトで、Debian系で使用可能ですが、標準的な方法は grub-mkconfig です。"
     },
-    "correct": "A",
-    "explanation": "GRUB2の設定を変更した場合、grub-mkconfig コマンドで /boot/grub/grub.cfg を再生成する必要があります。update-grub は grub-mkconfig のラッパースクリプトで、Debian系で使用可能ですが、標準的な方法は grub-mkconfig です。"
-  },
-  {
-    "id": "linux_boot_kernel_005",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "カーネルパラメータが記録される場所として正しいものはどれか？",
-    "options": {
-      "A": "/proc/kernelninfo",
-      "B": "/proc/cmdline",
-      "C": "/proc/boot/parameters",
-      "D": "/kernel/cmdline"
+    {
+      "id": "linux_boot_kernel_005",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "カーネルパラメータが記録される場所として正しいものはどれか？",
+      "options": {
+        "A": "/proc/kernelninfo",
+        "B": "/proc/cmdline",
+        "C": "/proc/boot/parameters",
+        "D": "/kernel/cmdline"
+      },
+      "correct": "B",
+      "explanation": "/proc/cmdline はカーネルに渡されたブート時のパラメータを表示するシステムファイルです。例えば、rootパーティション、initramfsの場所、カーネルパラメータなどが記録されます。cat /proc/cmdline で確認できます。"
     },
-    "correct": "B",
-    "explanation": "/proc/cmdline はカーネルに渡されたブート時のパラメータを表示するシステムファイルです。例えば、rootパーティション、initramfsの場所、カーネルパラメータなどが記録されます。cat /proc/cmdline で確認できます。"
-  },
-  {
-    "id": "linux_boot_kernel_006",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "GRUBでカーネルパラメータを追加する際の正しい方法はどれか？",
-    "options": {
-      "A": "/proc/cmdlineを直接編集する",
-      "B": "/etc/default/grubのGRUB_CMDLINE_LINUX変数を編集し、grub-mkconfigで再生成する",
-      "C": "/boot/grub/grub.cfgにパラメータを直接追加する",
-      "D": "ブート時にBIOSメニューでパラメータを設定する"
+    {
+      "id": "linux_boot_kernel_006",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "GRUBでカーネルパラメータを追加する際の正しい方法はどれか？",
+      "options": {
+        "A": "/proc/cmdlineを直接編集する",
+        "B": "/etc/default/grubのGRUB_CMDLINE_LINUX変数を編集し、grub-mkconfigで再生成する",
+        "C": "/boot/grub/grub.cfgにパラメータを直接追加する",
+        "D": "ブート時にBIOSメニューでパラメータを設定する"
+      },
+      "correct": "B",
+      "explanation": "/etc/default/grub の GRUB_CMDLINE_LINUX 変数を編集することが推奨方法です。例：GRUB_CMDLINE_LINUX=\"quiet splash ro\"。編集後、grub-mkconfig -o /boot/grub/grub.cfg で反映させます。"
     },
-    "correct": "B",
-    "explanation": "/etc/default/grub の GRUB_CMDLINE_LINUX 変数を編集することが推奨方法です。例：GRUB_CMDLINE_LINUX=\"quiet splash ro\"。編集後、grub-mkconfig -o /boot/grub/grub.cfg で反映させます。"
-  },
-  {
-    "id": "linux_boot_kernel_007",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "initramfsの役割として最も正確なものはどれか？",
-    "options": {
-      "A": "カーネルの圧縮を行うファイル",
-      "B": "ブートプロセス中にルートファイルシステムをマウント前に必要なドライバやツールを提供する一時的なRAMディスク",
-      "C": "ユーザーアカウント管理を行うファイル",
-      "D": "ネットワーク設定を保存するファイル"
+    {
+      "id": "linux_boot_kernel_007",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "initramfsの役割として最も正確なものはどれか？",
+      "options": {
+        "A": "カーネルの圧縮を行うファイル",
+        "B": "ブートプロセス中にルートファイルシステムをマウント前に必要なドライバやツールを提供する一時的なRAMディスク",
+        "C": "ユーザーアカウント管理を行うファイル",
+        "D": "ネットワーク設定を保存するファイル"
+      },
+      "correct": "B",
+      "explanation": "initramfs (initial RAM filesystem) は ROM ディスク内に埋め込まれたファイルシステムで、ブートローダーによってメモリに読み込まれます。カーネルが実ACされた後、ルートファイルシステムをマウント前に必要なドライバ（ストレージコントローラなど）を提供し、ハードウェアの初期化を行います。"
     },
-    "correct": "B",
-    "explanation": "initramfs (initial RAM filesystem) は ROM ディスク内に埋め込まれたファイルシステムで、ブートローダーによってメモリに読み込まれます。カーネルが実ACされた後、ルートファイルシステムをマウント前に必要なドライバ（ストレージコントローラなど）を提供し、ハードウェアの初期化を行います。"
-  },
-  {
-    "id": "linux_boot_kernel_008",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "initramfs と initrd の主な違いについて正しく説明しているものはどれか？",
-    "options": {
-      "A": "initrdはブロックデバイスベース、initramfsはファイルシステムベースの実装である",
-      "B": "initramfsは古い実装でinitrdが新しい実装である",
-      "C": "initrdはLinux専用だがinitramfsはUNIX汎用である",
-      "D": "両者に機能的な違いはない"
+    {
+      "id": "linux_boot_kernel_008",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "initramfs と initrd の主な違いについて正しく説明しているものはどれか？",
+      "options": {
+        "A": "initrdはブロックデバイスベース、initramfsはファイルシステムベースの実装である",
+        "B": "initramfsは古い実装でinitrdが新しい実装である",
+        "C": "initrdはLinux専用だがinitramfsはUNIX汎用である",
+        "D": "両者に機能的な違いはない"
+      },
+      "correct": "A",
+      "explanation": "初期RAMディスク：initrd（古い方式）はブロックデバイスとして実装されマウントが必要でしたが、initramfs（新しい方式）はRAMをファイルシステムとして使用し、マウント不要で効率的です。現在のほとんどのLinuxディストリビューションはinitramfsを使用しています。"
     },
-    "correct": "A",
-    "explanation": "初期RAMディスク：initrd（古い方式）はブロックデバイスとして実装されマウントが必要でしたが、initramfs（新しい方式）はRAMをファイルシステムとして使用し、マウント不要で効率的です。現在のほとんどのLinuxディストリビューションはinitramfsを使用しています。"
-  },
-  {
-    "id": "linux_boot_kernel_009",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "initramfsを再構築するコマンドとして正しいものはどれか？",
-    "options": {
-      "A": "dracut /boot/initramfs-$(uname -r).img",
-      "B": "mkinitrd /boot/initramfs-$(uname -r).img",
-      "C": "initramfs-rebuild",
-      "D": "update-initramfs -u"
+    {
+      "id": "linux_boot_kernel_009",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "initramfsを再構築するコマンドとして正しいものはどれか？",
+      "options": {
+        "A": "dracut /boot/initramfs-$(uname -r).img",
+        "B": "mkinitrd /boot/initramfs-$(uname -r).img",
+        "C": "initramfs-rebuild",
+        "D": "update-initramfs -u"
+      },
+      "correct": "A",
+      "explanation": "dracut は systemd ベースのシステム（Fedora、RHEL、CentOS）で initramfs を生成するツールです。mkinitrd は古いツール、update-initramfs は Debian/Ubuntu 系で使用されます。ディストリビューションによって適切なツールが異なります。"
     },
-    "correct": "A",
-    "explanation": "dracut は systemd ベースのシステム（Fedora、RHEL、CentOS）で initramfs を生成するツールです。mkinitrd は古いツール、update-initramfs は Debian/Ubuntu 系で使用されます。ディストリビューションによって適切なツールが異なります。"
-  },
-  {
-    "id": "linux_boot_kernel_010",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "lsmod コマンドの主な役割はどれか？",
-    "options": {
-      "A": "ロード可能なカーネルモジュールのリストを表示する",
-      "B": "現在ロードされているカーネルモジュールをリスト表示する",
-      "C": "モジュールの詳細情報を表示する",
-      "D": "モジュールをアンロードする"
+    {
+      "id": "linux_boot_kernel_010",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "lsmod コマンドの主な役割はどれか？",
+      "options": {
+        "A": "ロード可能なカーネルモジュールのリストを表示する",
+        "B": "現在ロードされているカーネルモジュールをリスト表示する",
+        "C": "モジュールの詳細情報を表示する",
+        "D": "モジュールをアンロードする"
+      },
+      "correct": "B",
+      "explanation": "lsmod（list modules）はカーネルに現在ロードされているモジュール、そのサイズ、依存関係を表示します。/proc/modules ファイルを読みやすく表示したものです。例：lsmod | grep driver_name で特定モジュール検索も可能です。"
     },
-    "correct": "B",
-    "explanation": "lsmod（list modules）はカーネルに現在ロードされているモジュール、そのサイズ、依存関係を表示します。/proc/modules ファイルを読みやすく表示したものです。例：lsmod | grep driver_name で特定モジュール検索も可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_011",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "modprobe コマンドの特徴として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュールの依存関係を自動的に解決して読み込む",
-      "B": "モジュールを無条件に読み込む",
-      "C": "モジュールの情報のみを表示して読み込まない",
-      "D": "ユーザー権限でモジュールの操作が可能"
+    {
+      "id": "linux_boot_kernel_011",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "modprobe コマンドの特徴として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュールの依存関係を自動的に解決して読み込む",
+        "B": "モジュールを無条件に読み込む",
+        "C": "モジュールの情報のみを表示して読み込まない",
+        "D": "ユーザー権限でモジュールの操作が可能"
+      },
+      "correct": "A",
+      "explanation": "modprobe は insmod よりも高機能なモジュール管理ツールで、モジュールの依存関係を自動的に解決してロードします。/lib/modules/$(uname -r)/modules.dep ファイルを使用して依存関係を管理します。例：modprobe e1000（NICドライバ）。"
     },
-    "correct": "A",
-    "explanation": "modprobe は insmod よりも高機能なモジュール管理ツールで、モジュールの依存関係を自動的に解決してロードします。/lib/modules/$(uname -r)/modules.dep ファイルを使用して依存関係を管理します。例：modprobe e1000（NICドライバ）。"
-  },
-  {
-    "id": "linux_boot_kernel_012",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "insmod と modprobe の主な違いはどれか？",
-    "options": {
-      "A": "insmod は依存関係を自動解決せず、modprobe は自動解決する",
-      "B": "modprobe は依存関係を自動解決せず、insmod は自動解決する",
-      "C": "両者に機能的な違いはない",
-      "D": "insmod は root 権限が不要で、modprobe は root 権限が必須"
+    {
+      "id": "linux_boot_kernel_012",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "insmod と modprobe の主な違いはどれか？",
+      "options": {
+        "A": "insmod は依存関係を自動解決せず、modprobe は自動解決する",
+        "B": "modprobe は依存関係を自動解決せず、insmod は自動解決する",
+        "C": "両者に機能的な違いはない",
+        "D": "insmod は root 権限が不要で、modprobe は root 権限が必須"
+      },
+      "correct": "A",
+      "explanation": "insmod（insert module）は指定されたモジュールを直接読み込むが、依存関係を解決しません。modprobe はモジュール依存関係ファイルを参照して自動的に依存するモジュールを先に読み込みます。通常は modprobe の使用が推奨されます。"
     },
-    "correct": "A",
-    "explanation": "insmod（insert module）は指定されたモジュールを直接読み込むが、依存関係を解決しません。modprobe はモジュール依存関係ファイルを参照して自動的に依存するモジュールを先に読み込みます。通常は modprobe の使用が推奨されます。"
-  },
-  {
-    "id": "linux_boot_kernel_013",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "rmmod コマンドの役割として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュールをロードする",
-      "B": "ロードされているモジュールをアンロードする",
-      "C": "モジュール情報を表示する",
-      "D": "モジュール依存関係を修復する"
+    {
+      "id": "linux_boot_kernel_013",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "rmmod コマンドの役割として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュールをロードする",
+        "B": "ロードされているモジュールをアンロードする",
+        "C": "モジュール情報を表示する",
+        "D": "モジュール依存関係を修復する"
+      },
+      "correct": "B",
+      "explanation": "rmmod（remove module）はカーネルからロードされているモジュールをアンロード（削除）します。例：rmmod intel_idle。ただし他のモジュールや実行中のプロセスが依存していない場合に限ります。"
     },
-    "correct": "B",
-    "explanation": "rmmod（remove module）はカーネルからロードされているモジュールをアンロード（削除）します。例：rmmod intel_idle。ただし他のモジュールや実行中のプロセスが依存していない場合に限ります。"
-  },
-  {
-    "id": "linux_boot_kernel_014",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "modprobe -r でモジュールをアンロードできない場合の最も一般的な理由は何か？",
-    "options": {
-      "A": "モジュールがロードされていない",
-      "B": "他のモジュールまたはプロセスが当該モジュールに依存している",
-      "C": "ファイアウォールがアンロード操作をブロックしている",
-      "D": "modd が実行されていない"
+    {
+      "id": "linux_boot_kernel_014",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "modprobe -r でモジュールをアンロードできない場合の最も一般的な理由は何か？",
+      "options": {
+        "A": "モジュールがロードされていない",
+        "B": "他のモジュールまたはプロセスが当該モジュールに依存している",
+        "C": "ファイアウォールがアンロード操作をブロックしている",
+        "D": "modd が実行されていない"
+      },
+      "correct": "B",
+      "explanation": "modprobe -r がモジュールのアンロードに失敗する場合、通常は他のカーネルモジュールやユーザースペースのプロセスが当該モジュールに依存・使用しているためです。lsmod で依存関係確認、ps で使用プロセス確認が可能です。"
     },
-    "correct": "B",
-    "explanation": "modprobe -r がモジュールのアンロードに失敗する場合、通常は他のカーネルモジュールやユーザースペースのプロセスが当該モジュールに依存・使用しているためです。lsmod で依存関係確認、ps で使用プロセス確認が可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_015",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "depmod コマンドの主な役割はどれか？",
-    "options": {
-      "A": "ロードされているモジュールを表示する",
-      "B": "モジュール依存関係ファイル（modules.dep）を生成または更新する",
-      "C": "モジュールをロードする",
-      "D": "カーネルパラメータを表示する"
+    {
+      "id": "linux_boot_kernel_015",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "depmod コマンドの主な役割はどれか？",
+      "options": {
+        "A": "ロードされているモジュールを表示する",
+        "B": "モジュール依存関係ファイル（modules.dep）を生成または更新する",
+        "C": "モジュールをロードする",
+        "D": "カーネルパラメータを表示する"
+      },
+      "correct": "B",
+      "explanation": "depmod（dependency module）はカーネルモジュールの依存関係を分析して、/lib/modules/$(uname -r)/modules.dep ファイルを生成または更新します。新しいカーネルやモジュールをインストール後に実行が必要です。通常は自動的に実行されます。"
     },
-    "correct": "B",
-    "explanation": "depmod（dependency module）はカーネルモジュールの依存関係を分析して、/lib/modules/$(uname -r)/modules.dep ファイルを生成または更新します。新しいカーネルやモジュールをインストール後に実行が必要です。通常は自動的に実行されます。"
-  },
-  {
-    "id": "linux_boot_kernel_016",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "runlevel と systemd target の関係として正しく説明しているものはどれか？",
-    "options": {
-      "A": "runlevel は systemd target よりも新しい実装である",
-      "B": "systemd target は runlevel の後継実装で、より柔軟な仕組みを提供する",
-      "C": "両者は全く別のシステムで互換性がない",
-      "D": "runlevel と systemd target は全く同じ仕組みである"
+    {
+      "id": "linux_boot_kernel_016",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "runlevel と systemd target の関係として正しく説明しているものはどれか？",
+      "options": {
+        "A": "runlevel は systemd target よりも新しい実装である",
+        "B": "systemd target は runlevel の後継実装で、より柔軟な仕組みを提供する",
+        "C": "両者は全く別のシステムで互換性がない",
+        "D": "runlevel と systemd target は全く同じ仕組みである"
+      },
+      "correct": "B",
+      "explanation": "runlevel は従来のSysVinit+init.d システムの概念で、0-6 の数値で実行レベルを定義していました。systemd では target（例：multi-user.target、graphical.target）として実装され、より柔軟で拡張性の高い仕組みを提供しています。"
     },
-    "correct": "B",
-    "explanation": "runlevel は従来のSysVinit+init.d システムの概念で、0-6 の数値で実行レベルを定義していました。systemd では target（例：multi-user.target、graphical.target）として実装され、より柔軟で拡張性の高い仕組みを提供しています。"
-  },
-  {
-    "id": "linux_boot_kernel_017",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "systemd target の確認と変更に使用するコマンドとして最も正確なものはどれか？",
-    "options": {
-      "A": "systemctl show-environment",
-      "B": "systemctl get-default / systemctl set-default multi-user.target",
-      "C": "runlevel",
-      "D": "telinit"
+    {
+      "id": "linux_boot_kernel_017",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "systemd target の確認と変更に使用するコマンドとして最も正確なものはどれか？",
+      "options": {
+        "A": "systemctl show-environment",
+        "B": "systemctl get-default / systemctl set-default multi-user.target",
+        "C": "runlevel",
+        "D": "telinit"
+      },
+      "correct": "B",
+      "explanation": "systemctl get-default は現在のデフォルトtarget を確認、systemctl set-default TARGET で変更します。例：systemctl set-default multi-user.target（CUIモード）。従来の runlevel、telinit コマンドも互換性のため残されていますが、systemd が標準です。"
     },
-    "correct": "B",
-    "explanation": "systemctl get-default は現在のデフォルトtarget を確認、systemctl set-default TARGET で変更します。例：systemctl set-default multi-user.target（CUIモード）。従来の runlevel、telinit コマンドも互換性のため残されていますが、systemd が標準です。"
-  },
-  {
-    "id": "linux_boot_kernel_018",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "graphical.target に相当する従来の runlevel はどれか？",
-    "options": {
-      "A": "runlevel 2",
-      "B": "runlevel 3",
-      "C": "runlevel 4",
-      "D": "runlevel 5"
+    {
+      "id": "linux_boot_kernel_018",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "graphical.target に相当する従来の runlevel はどれか？",
+      "options": {
+        "A": "runlevel 2",
+        "B": "runlevel 3",
+        "C": "runlevel 4",
+        "D": "runlevel 5"
+      },
+      "correct": "D",
+      "explanation": "従来のSysVinit runlevel では：runlevel 5 = グラフィカルモード（デスクトップ環境起動）です。systemd では graphical.target に対応します。runlevel 3 はマルチユーザーモード（CLI）で、systemd では multi-user.target に対応します。"
     },
-    "correct": "D",
-    "explanation": "従来のSysVinit runlevel では：runlevel 5 = グラフィカルモード（デスクトップ環境起動）です。systemd では graphical.target に対応します。runlevel 3 はマルチユーザーモード（CLI）で、systemd では multi-user.target に対応します。"
-  },
-  {
-    "id": "linux_boot_kernel_019",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "multi-user.target に相当する従来の runlevel はどれか？",
-    "options": {
-      "A": "runlevel 2",
-      "B": "runlevel 3",
-      "C": "runlevel 4",
-      "D": "runlevel 5"
+    {
+      "id": "linux_boot_kernel_019",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "multi-user.target に相当する従来の runlevel はどれか？",
+      "options": {
+        "A": "runlevel 2",
+        "B": "runlevel 3",
+        "C": "runlevel 4",
+        "D": "runlevel 5"
+      },
+      "correct": "B",
+      "explanation": "systemd の multi-user.target は従来の runlevel 3（マルチユーザーモード、ネットワークネニ対応、GUIなし）に対応します。runlevel 2 は一部のシステムでも使用されていましたが、multi-user.target が標準です。"
     },
-    "correct": "B",
-    "explanation": "systemd の multi-user.target は従来の runlevel 3（マルチユーザーモード、ネットワークネニ対応、GUIなし）に対応します。runlevel 2 は一部のシステムでも使用されていましたが、multi-user.target が標準です。"
-  },
-  {
-    "id": "linux_boot_kernel_020",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "ブート時のカーネルコンパイル時に\"root=\" パラメータを使用する理由として最も正確なものはどれか？",
-    "options": {
-      "A": "タイムゾーン情報を指定するため",
-      "B": "ルートファイルシステムがどのパーティション/デバイスに存在するかをカーネルに指示するため",
-      "C": "デバッグメッセージの冗長度を制御するため",
-      "D": "ブート順序を制御するため"
+    {
+      "id": "linux_boot_kernel_020",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ブート時のカーネルコンパイル時に\"root=\" パラメータを使用する理由として最も正確なものはどれか？",
+      "options": {
+        "A": "タイムゾーン情報を指定するため",
+        "B": "ルートファイルシステムがどのパーティション/デバイスに存在するかをカーネルに指示するため",
+        "C": "デバッグメッセージの冗長度を制御するため",
+        "D": "ブート順序を制御するため"
+      },
+      "correct": "B",
+      "explanation": "root= パラメータはブート時にカーネルがルートファイルシステムをマウントするデバイスを指定します。例：root=/dev/sda1 または root=UUID=xxxx。このパラメータが正しく設定されていない場合、カーネルはルートファイルシステムをマウントできずパニック状態になります。"
     },
-    "correct": "B",
-    "explanation": "root= パラメータはブート時にカーネルがルートファイルシステムをマウントするデバイスを指定します。例：root=/dev/sda1 または root=UUID=xxxx。このパラメータが正しく設定されていない場合、カーネルはルートファイルシステムをマウントできずパニック状態になります。"
-  },
-  {
-    "id": "linux_boot_kernel_021",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "console= パラメータの役割として最も正確なものはどれか？",
-    "options": {
-      "A": "ルートファイルシステムのデバイスを指定する",
-      "B": "ブートメッセージやシステムログを出力するコンソールデバイスを指定する",
-      "C": "タイムゾーンを指定する",
-      "D": "ネットワークインターフェースを有効化する"
+    {
+      "id": "linux_boot_kernel_021",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "console= パラメータの役割として最も正確なものはどれか？",
+      "options": {
+        "A": "ルートファイルシステムのデバイスを指定する",
+        "B": "ブートメッセージやシステムログを出力するコンソールデバイスを指定する",
+        "C": "タイムゾーンを指定する",
+        "D": "ネットワークインターフェースを有効化する"
+      },
+      "correct": "B",
+      "explanation": "console= パラメータはカーネルのブートメッセージやシステムログの出力先（コンソール）を指定します。例：console=ttyS0,115200（シリアルコンソール）、console=tty0（キーボード・ディスプレイ）。複数指定も可能で、複数の出力先にログを送信できます。"
     },
-    "correct": "B",
-    "explanation": "console= パラメータはカーネルのブートメッセージやシステムログの出力先（コンソール）を指定します。例：console=ttyS0,115200（シリアルコンソール）、console=tty0（キーボード・ディスプレイ）。複数指定も可能で、複数の出力先にログを送信できます。"
-  },
-  {
-    "id": "linux_boot_kernel_022",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "ro パラメータと rw パラメータの違いについて最も正確な説明はどれか？",
-    "options": {
-      "A": "ro は読み取り専用、rw は読み書き可能。ルートファイルシステムのマウントモードを制御する",
-      "B": "ro はリモートアクセス、rw はローカルアクセスを許可する",
-      "C": "両者に違いはない",
-      "D": "ro はロールアウンド、rw はリワイト機能を制御する"
+    {
+      "id": "linux_boot_kernel_022",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ro パラメータと rw パラメータの違いについて最も正確な説明はどれか？",
+      "options": {
+        "A": "ro は読み取り専用、rw は読み書き可能。ルートファイルシステムのマウントモードを制御する",
+        "B": "ro はリモートアクセス、rw はローカルアクセスを許可する",
+        "C": "両者に違いはない",
+        "D": "ro はロールアウンド、rw はリワイト機能を制御する"
+      },
+      "correct": "A",
+      "explanation": "ro（read-only）と rw（read-write）はブート時にルートファイルシステムをどのモードでマウントするかを制御します。通常は ro でマウント後、init システムが fsck チェック後に rw で再マウントします。ro パラメータはファイルシステムの整合性チェック中の保護を目的としています。"
     },
-    "correct": "A",
-    "explanation": "ro（read-only）と rw（read-write）はブート時にルートファイルシステムをどのモードでマウントするかを制御します。通常は ro でマウント後、init システムが fsck チェック後に rw で再マウントします。ro パラメータはファイルシステムの整合性チェック中の保護を目的としています。"
-  },
-  {
-    "id": "linux_boot_kernel_023",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "quiet パラメータ と verbose パラメータの効果として正しいものはどれか？",
-    "options": {
-      "A": "quiet はブートメッセージを最小化、verbose は詳細にブートメッセージを表示する",
-      "B": "quiet はプリンタ出力を抑制、verbose は出力を有効化する",
-      "C": "両者に違いはない",
-      "D": "quiet は強制的にシャットダウン、verbose は継続実行を指定する"
+    {
+      "id": "linux_boot_kernel_023",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "quiet パラメータ と verbose パラメータの効果として正しいものはどれか？",
+      "options": {
+        "A": "quiet はブートメッセージを最小化、verbose は詳細にブートメッセージを表示する",
+        "B": "quiet はプリンタ出力を抑制、verbose は出力を有効化する",
+        "C": "両者に違いはない",
+        "D": "quiet は強制的にシャットダウン、verbose は継続実行を指定する"
+      },
+      "correct": "A",
+      "explanation": "quiet パラメータはブートプロセス中のカーネルメッセージ出力を最小化し、起動画面をスッキリ見せます。verbose または debug パラメータは逆に詳細なブートメッセージを出力し、ブートの問題デバッグに利用します。dmesg で後からメッセージを確認可能です。"
     },
-    "correct": "A",
-    "explanation": "quiet パラメータはブートプロセス中のカーネルメッセージ出力を最小化し、起動画面をスッキリ見せます。verbose または debug パラメータは逆に詳細なブートメッセージを出力し、ブートの問題デバッグに利用します。dmesg で後からメッセージを確認可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_024",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "dmesg コマンドの主な役割はどれか？",
-    "options": {
-      "A": "デスクトップメッセージを表示する",
-      "B": "カーネルの環境変数を設定する",
-      "C": "ブート時のカーネルメッセージとシステムログを表示する",
-      "D": "デバイスマネージャサービスを再開する"
+    {
+      "id": "linux_boot_kernel_024",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "dmesg コマンドの主な役割はどれか？",
+      "options": {
+        "A": "デスクトップメッセージを表示する",
+        "B": "カーネルの環境変数を設定する",
+        "C": "ブート時のカーネルメッセージとシステムログを表示する",
+        "D": "デバイスマネージャサービスを再開する"
+      },
+      "correct": "C",
+      "explanation": "dmesg（display message）はカーネルログバッファに記録されたメッセージを表示します。ブートメッセージから現在までのシステムイベント、エラー、警告が記録されます。dmesg | grep error で特定情報検索、dmesg | tail -20 で最新100行表示など活用が可能です。"
     },
-    "correct": "C",
-    "explanation": "dmesg（display message）はカーネルログバッファに記録されたメッセージを表示します。ブートメッセージから現在までのシステムイベント、エラー、警告が記録されます。dmesg | grep error で特定情報検索、dmesg | tail -20 で最新100行表示など活用が可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_025",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "/lib/modules/$(uname -r)/ ディレクトリの内容として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュール依存関係ファイルと.koファイル（コンパイド済みモジュール）を含む",
-      "B": "カーネルソースコードを含む",
-      "C": "実行中のプロセス情報を含む",
-      "D": "ユーザーホームディレクトリ情報を含む"
+    {
+      "id": "linux_boot_kernel_025",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "/lib/modules/$(uname -r)/ ディレクトリの内容として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュール依存関係ファイルと.koファイル（コンパイド済みモジュール）を含む",
+        "B": "カーネルソースコードを含む",
+        "C": "実行中のプロセス情報を含む",
+        "D": "ユーザーホームディレクトリ情報を含む"
+      },
+      "correct": "A",
+      "explanation": "/lib/modules/$(uname -r)/ は現在実行中カーネルバージョンのモジュール格納ディレクトリです。modules.dep（依存関係ファイル）、kernel/（モジュール.koファイル）、build（カーネルソースへのシンボリックリンク）などが含まれます。"
     },
-    "correct": "A",
-    "explanation": "/lib/modules/$(uname -r)/ は現在実行中カーネルバージョンのモジュール格納ディレクトリです。modules.dep（依存関係ファイル）、kernel/（モジュール.koファイル）、build（カーネルソースへのシンボリックリンク）などが含まれます。"
-  },
-  {
-    "id": "linux_boot_kernel_026",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "uname -a コマンドの出力に含まれない情報として最も正確なものはどれか？",
-    "options": {
-      "A": "システム名（hostname）",
-      "B": "カーネルリリース番号",
-      "C": "プロセッサアーキテクチャ",
-      "D": "ロジアシレジアレコード数"
+    {
+      "id": "linux_boot_kernel_026",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "uname -a コマンドの出力に含まれない情報として最も正確なものはどれか？",
+      "options": {
+        "A": "システム名（hostname）",
+        "B": "カーネルリリース番号",
+        "C": "プロセッサアーキテクチャ",
+        "D": "ロジアシレジアレコード数"
+      },
+      "correct": "D",
+      "explanation": "uname -a はカーネル名、ホスト名、カーネルリリース、バージョン、マシンハードウェアプラットフォーム（architecture）、プロセッサタイプなどを表示しますが、ロードアベレージは含みません。ロードアベレージは uptime または /proc/loadavg で確認します。"
     },
-    "correct": "D",
-    "explanation": "uname -a はカーネル名、ホスト名、カーネルリリース、バージョン、マシンハードウェアプラットフォーム（architecture）、プロセッサタイプなどを表示しますが、ロードアベレージは含みません。ロードアベレージは uptime または /proc/loadavg で確認します。"
-  },
-  {
-    "id": "linux_boot_kernel_027",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "journalctl コマンドの主な利用として最も正確なものはどれか？",
-    "options": {
-      "A": "ブートプロセスのジャーナルエントリ（イベント）を確認する",
-      "B": "ネットワーク接続状態をチェックする",
-      "C": "ファイアウォールルールを管理する",
-      "D": "ユーザーアカウントを作成する"
+    {
+      "id": "linux_boot_kernel_027",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "journalctl コマンドの主な利用として最も正確なものはどれか？",
+      "options": {
+        "A": "ブートプロセスのジャーナルエントリ（イベント）を確認する",
+        "B": "ネットワーク接続状態をチェックする",
+        "C": "ファイアウォールルールを管理する",
+        "D": "ユーザーアカウントを作成する"
+      },
+      "correct": "A",
+      "explanation": "journalctl は systemd-journald（systemd時代のログ管理）で記録されたジャーナルエントリを表示するコマンドです。journalctl -b はブート以降のログ、journalctl -u SERVICE でサービス単位のログ、journalctl -f でリアルタイム追跡が可能です。"
     },
-    "correct": "A",
-    "explanation": "journalctl は systemd-journald（systemd時代のログ管理）で記録されたジャーナルエントリを表示するコマンドです。journalctl -b はブート以降のログ、journalctl -u SERVICE でサービス単位のログ、journalctl -f でリアルタイム追跡が可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_028",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "modprobe -n コマンドの効果として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュールを実際にロードせず、ドライランで何が起こるかを表示する",
-      "B": "新しいモジュールを検索する",
-      "C": "モジュールをネットワークから自動ダウンロードする",
-      "D": "モジュール名を正規化する"
+    {
+      "id": "linux_boot_kernel_028",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "modprobe -n コマンドの効果として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュールを実際にロードせず、ドライランで何が起こるかを表示する",
+        "B": "新しいモジュールを検索する",
+        "C": "モジュールをネットワークから自動ダウンロードする",
+        "D": "モジュール名を正規化する"
+      },
+      "correct": "A",
+      "explanation": "modprobe -n（dry-run）オプションはモジュール操作を実行せず、何が実行されるかをシミュレーションして表示します。実際のロード/アンロードは行いません。カーネルの安定性を損なわずに影響を事前確認できます。-v でさらに詳細情報表示も可能。"
     },
-    "correct": "A",
-    "explanation": "modprobe -n（dry-run）オプションはモジュール操作を実行せず、何が実行されるかをシミュレーションして表示します。実際のロード/アンロードは行いません。カーネルの安定性を損なわずに影響を事前確認できます。-v でさらに詳細情報表示も可能。"
-  },
-  {
-    "id": "linux_boot_kernel_029",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/proc/modules ファイルの役割として最も正確なものはどれか？",
-    "options": {
-      "A": "カーネルにロードされているモジュル情報の低レベルインターフェース",
-      "B": "ブートローダー設定を保存する",
-      "C": "ユーザーモジュールプリファレンスを管理する",
-      "D": "モジュール暗号化キーを格納する"
+    {
+      "id": "linux_boot_kernel_029",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/proc/modules ファイルの役割として最も正確なものはどれか？",
+      "options": {
+        "A": "カーネルにロードされているモジュル情報の低レベルインターフェース",
+        "B": "ブートローダー設定を保存する",
+        "C": "ユーザーモジュールプリファレンスを管理する",
+        "D": "モジュール暗号化キーを格納する"
+      },
+      "correct": "A",
+      "explanation": "/proc/modules はカーネルが提供するsysfsインターフェースで、ロード済みモジュール情報（名前、サイズ、参照カウント、依存モジュール）を表示します。lsmod コマンドはこのファイルを読みやすく表示しているラッパーです。"
     },
-    "correct": "A",
-    "explanation": "/proc/modules はカーネルが提供するsysfsインターフェースで、ロード済みモジュール情報（名前、サイズ、参照カウント、依存モジュール）を表示します。lsmod コマンドはこのファイルを読みやすく表示しているラッパーです。"
-  },
-  {
-    "id": "linux_boot_kernel_030",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "UEFI ブートと BIOS ブートの主な違いについて最も正確なものはどれか？",
-    "options": {
-      "A": "UEFI はレガシー BIOS よりシンプルな仕様である",
-      "B": "UEFI は UEFI ファームウェアインターフェース、BIOS は基本入出力システムで、UEFI がより新しく高機能である",
-      "C": "両者に機能的な違いはない",
-      "D": "BIOS は64ビット、UEFI は32ビットのみサポート"
+    {
+      "id": "linux_boot_kernel_030",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "UEFI ブートと BIOS ブートの主な違いについて最も正確なものはどれか？",
+      "options": {
+        "A": "UEFI はレガシー BIOS よりシンプルな仕様である",
+        "B": "UEFI は UEFI ファームウェアインターフェース、BIOS は基本入出力システムで、UEFI がより新しく高機能である",
+        "C": "両者に機能的な違いはない",
+        "D": "BIOS は64ビット、UEFI は32ビットのみサポート"
+      },
+      "correct": "B",
+      "explanation": "BIOS（Basic Input/Output System）はレガシーな16ビットファームウェア、UEFI（Unified Extensible Firmware Interface）はそれを置き換える新世代ファームウェアです。UEFI は 2TB 以上のディスク対応、セキュアブート、GPT パーティションテーブル対応など高機能です。"
     },
-    "correct": "B",
-    "explanation": "BIOS（Basic Input/Output System）はレガシーな16ビットファームウェア、UEFI（Unified Extensible Firmware Interface）はそれを置き換える新世代ファームウェアです。UEFI は 2TB 以上のディスク対応、セキュアブート、GPT パーティションテーブル対応など高機能です。"
-  },
-  {
-    "id": "linux_boot_kernel_031",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "セキュアブート（Secure Boot）の主な役割として最も正確なものはどれか？",
-    "options": {
-      "A": "ネットワークセキュリティを強化する",
-      "B": "ブートローダーの改ざんを検出し、署名検証を行うセキュリティメカニズム",
-      "C": "パスワードを暗号化する",
-      "D": "ファイアウォール機能を提供する"
+    {
+      "id": "linux_boot_kernel_031",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "セキュアブート（Secure Boot）の主な役割として最も正確なものはどれか？",
+      "options": {
+        "A": "ネットワークセキュリティを強化する",
+        "B": "ブートローダーの改ざんを検出し、署名検証を行うセキュリティメカニズム",
+        "C": "パスワードを暗号化する",
+        "D": "ファイアウォール機能を提供する"
+      },
+      "correct": "B",
+      "explanation": "セキュアブート（UEFI内機能）はブートローダーやカーネル、初期化スクリプトなどが正当な発行者により署名されているかを検証し、改ざんされたブートコンポーネント（ブートキット）の実行を防止します。Linuxインストール時に無効化することもできます。"
     },
-    "correct": "B",
-    "explanation": "セキュアブート（UEFI内機能）はブートローダーやカーネル、初期化スクリプトなどが正当な発行者により署名されているかを検証し、改ざんされたブートコンポーネント（ブートキット）の実行を防止します。Linuxインストール時に無効化することもできます。"
-  },
-  {
-    "id": "linux_boot_kernel_032",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "ブートデバイスとしてSSD vs HDD を選択した場合の最も大きな違いはどれか？",
-    "options": {
-      "A": "信頼性に大きな差がある",
-      "B": "ブート時間をはじめとする速度面で大きな差がある",
-      "C": "容量の上限が異なる",
-      "D": "ファイルシステムの選択肢が異なる"
+    {
+      "id": "linux_boot_kernel_032",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ブートデバイスとしてSSD vs HDD を選択した場合の最も大きな違いはどれか？",
+      "options": {
+        "A": "信頼性に大きな差がある",
+        "B": "ブート時間をはじめとする速度面で大きな差がある",
+        "C": "容量の上限が異なる",
+        "D": "ファイルシステムの選択肢が異なる"
+      },
+      "correct": "B",
+      "explanation": "SSD と HDD のブートデバイス選択における最大の違いはブート速度です。SSD 採用時はシーケンシャル読み取り速度がはるかに高く、ブート時間が大幅に短縮されます。アクセスパターンも異なり、SSD が向いています。信頼性、容量、ファイルシステムはデバイス個別に選択可能です。"
     },
-    "correct": "B",
-    "explanation": "SSD と HDD のブートデバイス選択における最大の違いはブート速度です。SSD 採用時はシーケンシャル読み取り速度がはるかに高く、ブート時間が大幅に短縮されます。アクセスパターンも異なり、SSD が向いています。信頼性、容量、ファイルシステムはデバイス個別に選択可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_033",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "カーネルパニック（kernel panic）時のデバッグ方法として最も実用的なものはどれか？",
-    "options": {
-      "A": "パニックメッセージをスクリーンショットで記録し、dmesg/journalctl で詳細確認",
-      "B": "カーネルソースコードを全て読む",
-      "C": "カーネルを再コンパイルして問題解決を待つ",
-      "D": "OSを完全に再インストール"
+    {
+      "id": "linux_boot_kernel_033",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "カーネルパニック（kernel panic）時のデバッグ方法として最も実用的なものはどれか？",
+      "options": {
+        "A": "パニックメッセージをスクリーンショットで記録し、dmesg/journalctl で詳細確認",
+        "B": "カーネルソースコードを全て読む",
+        "C": "カーネルを再コンパイルして問題解決を待つ",
+        "D": "OSを完全に再インストール"
+      },
+      "correct": "A",
+      "explanation": "カーネルパニック発生時は：①パニックメッセージをスクリーンショット記録、②PC再起動、③dmesg コマンドでカーネルログ確認、④journalctl で詳細ログ確認、⑤エラーメッセージを検索して原因特定。一般的にはドライバ不具合、ハードウェアエラー、モジュール依存性問題が原因です。"
     },
-    "correct": "A",
-    "explanation": "カーネルパニック発生時は：①パニックメッセージをスクリーンショット記録、②PC再起動、③dmesg コマンドでカーネルログ確認、④journalctl で詳細ログ確認、⑤エラーメッセージを検索して原因特定。一般的にはドライバ不具合、ハードウェアエラー、モジュール依存性問題が原因です。"
-  },
-  {
-    "id": "linux_boot_kernel_034",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "systemd-udev（udev）の主な役割として最も正確なものはどれか？",
-    "options": {
-      "A": "ユーザーディレクトリ管理",
-      "B": "デバイスの自動検出と動的なデバイスノード管理",
-      "C": "ネットワークユーザー認証",
-      "D": "ユーザーアカウント整合性チェック"
+    {
+      "id": "linux_boot_kernel_034",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "systemd-udev（udev）の主な役割として最も正確なものはどれか？",
+      "options": {
+        "A": "ユーザーディレクトリ管理",
+        "B": "デバイスの自動検出と動的なデバイスノード管理",
+        "C": "ネットワークユーザー認証",
+        "D": "ユーザーアカウント整合性チェック"
+      },
+      "correct": "B",
+      "explanation": "udev（userspace device configuration daemon）はシステム起動時及び実行中のデバイス接続/切断を検出し、/dev ディレクトリに動的にデバイスノードを作成・削除・設定するシステムです。hotplug イベントをハンドルし、柔軟なデバイス管理を実現します。"
     },
-    "correct": "B",
-    "explanation": "udev（userspace device configuration daemon）はシステム起動時及び実行中のデバイス接続/切断を検出し、/dev ディレクトリに動的にデバイスノードを作成・削除・設定するシステムです。hotplug イベントをハンドルし、柔軟なデバイス管理を実現します。"
-  },
-  {
-    "id": "linux_boot_kernel_035",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "GRUB2でこドマルチブート環境を構築する際の最も重要な設定はどれか？",
-    "options": {
-      "A": "各OS のためのブートエントリをメニューに追加・設定することと、正しい root デバイス指定",
-      "B": "全てのOSが同じファイルシステムを使う",
-      "C": "複数の BIOS が必要",
-      "D": "全てのOS が EXT4 ファイルシステムを使う"
+    {
+      "id": "linux_boot_kernel_035",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "GRUB2でこドマルチブート環境を構築する際の最も重要な設定はどれか？",
+      "options": {
+        "A": "各OS のためのブートエントリをメニューに追加・設定することと、正しい root デバイス指定",
+        "B": "全てのOSが同じファイルシステムを使う",
+        "C": "複数の BIOS が必要",
+        "D": "全てのOS が EXT4 ファイルシステムを使う"
+      },
+      "correct": "A",
+      "explanation": "マルチブート環境構築には：①各OS のブートエントリを /boot/grub/grub.cfg に追加、②各エントリで正しい root= デバイスを指定、③initramfs 指定が正確であること、④各OS のパーティション分離が必要です。ファイルシステムやBIOSの準備は不要です。"
     },
-    "correct": "A",
-    "explanation": "マルチブート環境構築には：①各OS のブートエントリを /boot/grub/grub.cfg に追加、②各エントリで正しい root= デバイスを指定、③initramfs 指定が正確であること、④各OS のパーティション分離が必要です。ファイルシステムやBIOSの準備は不要です。"
-  },
-  {
-    "id": "linux_boot_kernel_036",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "/boot ディレクトリの主な内容として最も正確なものはどれか？",
-    "options": {
-      "A": "ユーザーホームディレクトリ",
-      "B": "ブートに必要なカーネルイメージ、initramfs、ブートローダー設定を含む",
-      "C": "実行可能なバイナリプログラム",
-      "D": "共有ライブラリファイル"
+    {
+      "id": "linux_boot_kernel_036",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "/boot ディレクトリの主な内容として最も正確なものはどれか？",
+      "options": {
+        "A": "ユーザーホームディレクトリ",
+        "B": "ブートに必要なカーネルイメージ、initramfs、ブートローダー設定を含む",
+        "C": "実行可能なバイナリプログラム",
+        "D": "共有ライブラリファイル"
+      },
+      "correct": "B",
+      "explanation": "/boot ディレクトリはブートプロセスに必要となる重要ファイル群を格納します：vmlinuz（カーネルイメージ）、initramfs、grub（ブートローダー）、System.map（シンボルテーブル）。/boot は独立したパーティションに配置されることが多いです。"
     },
-    "correct": "B",
-    "explanation": "/boot ディレクトリはブートプロセスに必要となる重要ファイル群を格納します：vmlinuz（カーネルイメージ）、initramfs、grub（ブートローダー）、System.map（シンボルテーブル）。/boot は独立したパーティションに配置されることが多いです。"
-  },
-  {
-    "id": "linux_boot_kernel_037",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "dracut コマンドで initramfs を再構築する際のオプションとして知見がある最も実用的なものはどれか？",
-    "options": {
-      "A": "dracut -f /boot/initramfs-$(uname -r).img（強制的に再構築）",
-      "B": "dracut /boot/initramfs-custom.img（カスタムファイル名で生成）",
-      "C": "dracut -i /lib/modules/XXX/kernel（特定モジュールのみ含める）",
-      "D": "dracut --list-modules（含有可能モジュール一覧表示）"
+    {
+      "id": "linux_boot_kernel_037",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "dracut コマンドで initramfs を再構築する際のオプションとして知見がある最も実用的なものはどれか？",
+      "options": {
+        "A": "dracut -f /boot/initramfs-$(uname -r).img（強制的に再構築）",
+        "B": "dracut /boot/initramfs-custom.img（カスタムファイル名で生成）",
+        "C": "dracut -i /lib/modules/XXX/kernel（特定モジュールのみ含める）",
+        "D": "dracut --list-modules（含有可能モジュール一覧表示）"
+      },
+      "correct": "A",
+      "explanation": "dracut -f は既存の initramfs に上書きして強制的に再構築します。通常のコマンドは dracut /boot/initramfs-$(uname -r).img です。-f は既に同名ファイルが存在する場合に強制上書きを指示します。重大なモジュール欠損時に用いられます。"
     },
-    "correct": "A",
-    "explanation": "dracut -f は既存の initramfs に上書きして強制的に再構築します。通常のコマンドは dracut /boot/initramfs-$(uname -r).img です。-f は既に同名ファイルが存在する場合に強制上書きを指示します。重大なモジュール欠損時に用いられます。"
-  },
-  {
-    "id": "linux_boot_kernel_038",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "insmod コマンドで実際にモジュールをロードする際に必須の情報として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュールの依存関係全て",
-      "B": "モジュールファイルの絶対パス、またはモジュール名と検索パス",
-      "C": "モジュール作成者の認証キー",
-      "D": "ネットワークアドレス"
+    {
+      "id": "linux_boot_kernel_038",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "insmod コマンドで実際にモジュールをロードする際に必須の情報として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュールの依存関係全て",
+        "B": "モジュールファイルの絶対パス、またはモジュール名と検索パス",
+        "C": "モジュール作成者の認証キー",
+        "D": "ネットワークアドレス"
+      },
+      "correct": "B",
+      "explanation": "insmod はモジュールファイルのパスを必要とします。例：insmod /lib/modules/$(uname -r)/kernel/drivers/net/virtio_net.ko。依存関係の自動解決は行いません。対は modprobe がモジュール名のみで依存関係を自動解決します。"
     },
-    "correct": "B",
-    "explanation": "insmod はモジュールファイルのパスを必要とします。例：insmod /lib/modules/$(uname -r)/kernel/drivers/net/virtio_net.ko。依存関係の自動解決は行いません。対は modprobe がモジュール名のみで依存関係を自動解決します。"
-  },
-  {
-    "id": "linux_boot_kernel_039",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "systemctl status SERVICE コマンドで表示される \"loaded\" の項目の意味として最も正確なものはどれか？",
-    "options": {
-      "A": "サービスが現在実行されている",
-      "B": "サービスユニットファイルがシステムに認識されている",
-      "C": "サービスが起動待機状態である",
-      "D": "サービスが停止している"
+    {
+      "id": "linux_boot_kernel_039",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemctl status SERVICE コマンドで表示される \"loaded\" の項目の意味として最も正確なものはどれか？",
+      "options": {
+        "A": "サービスが現在実行されている",
+        "B": "サービスユニットファイルがシステムに認識されている",
+        "C": "サービスが起動待機状態である",
+        "D": "サービスが停止している"
+      },
+      "correct": "B",
+      "explanation": "systemctl status の \"loaded\" はサービスユニットファイル（.service）がシステムに読み込まれ、解析されていることを示します。実行状態は「active（running）」「inactive（dead）」などで表示されます。loaded は単にファイル認識状態を表します。"
     },
-    "correct": "B",
-    "explanation": "systemctl status の \"loaded\" はサービスユニットファイル（.service）がシステムに読み込まれ、解析されていることを示します。実行状態は「active（running）」「inactive（dead）」などで表示されます。loaded は単にファイル認識状態を表します。"
-  },
-  {
-    "id": "linux_boot_kernel_040",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "systemd-rc-service の互換性スクリプト実行コマンドとして最も正確なものはどれか？",
-    "options": {
-      "A": "service SERVICE start",
-      "B": "systemctl start SERVICE",
-      "C": "systemd-start SERVICE",
-      "D": "rc-service SERVICE start"
+    {
+      "id": "linux_boot_kernel_040",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "systemd-rc-service の互換性スクリプト実行コマンドとして最も正確なものはどれか？",
+      "options": {
+        "A": "service SERVICE start",
+        "B": "systemctl start SERVICE",
+        "C": "systemd-start SERVICE",
+        "D": "rc-service SERVICE start"
+      },
+      "correct": "A",
+      "explanation": "service コマンドは SysVinit の互換性により systemd で続行可能で、従来の init.d スクリプト実行と同じ構文をサポートします。内部的には systemctl にマップされます。ただし新規環境では systemctl を直接使用することが推奨されます。"
     },
-    "correct": "A",
-    "explanation": "service コマンドは SysVinit の互換性により systemd で続行可能で、従来の init.d スクリプト実行と同じ構文をサポートします。内部的には systemctl にマップされます。ただし新規環境では systemctl を直接使用することが推奨されます。"
-  },
-  {
-    "id": "linux_boot_kernel_041",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "ブートローダーが見つからない場合の修復方法として最も一般的なものはどれか？",
-    "options": {
-      "A": "OS を完全に再インストール",
-      "B": "ブート用 USB/DVD から起動して grub-install コマンドで MBR/EFI システムパーティションに再インストール",
-      "C": "BIOS 設定を初期化",
-      "D": "ハードディスクを交換"
+    {
+      "id": "linux_boot_kernel_041",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ブートローダーが見つからない場合の修復方法として最も一般的なものはどれか？",
+      "options": {
+        "A": "OS を完全に再インストール",
+        "B": "ブート用 USB/DVD から起動して grub-install コマンドで MBR/EFI システムパーティションに再インストール",
+        "C": "BIOS 設定を初期化",
+        "D": "ハードディスクを交換"
+      },
+      "correct": "B",
+      "explanation": "ブートローダー喪失時は：①ブート可能なLiveUSB/DVDから起動、②ルートパーティションをマウント、③grub-install /dev/sda（MBRの場合）または EFI パーティションディレクトリを指定して再インストール。ブート設定ファイル再構築で通常のOS再インストール不要です。"
     },
-    "correct": "B",
-    "explanation": "ブートローダー喪失時は：①ブート可能なLiveUSB/DVDから起動、②ルートパーティションをマウント、③grub-install /dev/sda（MBRの場合）または EFI パーティションディレクトリを指定して再インストール。ブート設定ファイル再構築で通常のOS再インストール不要です。"
-  },
-  {
-    "id": "linux_boot_kernel_042",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "カーネルオプション \"noapic\" の効果として最も正確なものはどれか？",
-    "options": {
-      "A": "APICハードウェアを無視して、従来の PIC（プログラマブル割り込みコントローラ）を使用する",
-      "B": "全ての割り込みを無視する",
-      "C": "ネットワークパケットを受け入れない",
-      "D": "電源管理を無効化する"
+    {
+      "id": "linux_boot_kernel_042",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "カーネルオプション \"noapic\" の効果として最も正確なものはどれか？",
+      "options": {
+        "A": "APICハードウェアを無視して、従来の PIC（プログラマブル割り込みコントローラ）を使用する",
+        "B": "全ての割り込みを無視する",
+        "C": "ネットワークパケットを受け入れない",
+        "D": "電源管理を無効化する"
+      },
+      "correct": "A",
+      "explanation": "noapic オプションはマルチプロセッサ対応 APIC（Advanced Programmable Interrupt Controller）を無視し、レガシーな i8259 PIC（Programmable Interrupt Controller）で割り込み処理を行う指示です。古いハードウェアやバグ回避時に使用されます。"
     },
-    "correct": "A",
-    "explanation": "noapic オプションはマルチプロセッサ対応 APIC（Advanced Programmable Interrupt Controller）を無視し、レガシーな i8259 PIC（Programmable Interrupt Controller）で割り込み処理を行う指示です。古いハードウェアやバグ回避時に使用されます。"
-  },
-  {
-    "id": "linux_boot_kernel_043",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "debug パラメータで期待される効果として最も正確なものはどれか？",
-    "options": {
-      "A": "デバッグシンボルを含む大きなカーネルバイナリを読み込む",
-      "B": "カーネルパラメータの詳細なログ出力を有効化してブートトレース支援",
-      "C": "GDB デバッガを自動起動",
-      "D": "すべてのネットワーク接続をブロック"
+    {
+      "id": "linux_boot_kernel_043",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "debug パラメータで期待される効果として最も正確なものはどれか？",
+      "options": {
+        "A": "デバッグシンボルを含む大きなカーネルバイナリを読み込む",
+        "B": "カーネルパラメータの詳細なログ出力を有効化してブートトレース支援",
+        "C": "GDB デバッガを自動起動",
+        "D": "すべてのネットワーク接続をブロック"
+      },
+      "correct": "B",
+      "explanation": "debug パラメータはカーネルのデバッグログレベルを上げ、詳細なメッセージを出力してブートプロセスを詳しく追跡できます。dmesg や journalctl で詳細なブート情報を確認し、問題診断を支援することが目的です。"
     },
-    "correct": "B",
-    "explanation": "debug パラメータはカーネルのデバッグログレベルを上げ、詳細なメッセージを出力してブートプロセスを詳しく追跡できます。dmesg や journalctl で詳細なブート情報を確認し、問題診断を支援することが目的です。"
-  },
-  {
-    "id": "linux_boot_kernel_044",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "grub-install コマンドの一般的な使用法として最も正確なものはどれか？",
-    "options": {
-      "A": "grub-install /dev/sda（ディスク MBR にインストール）",
-      "B": "grub-install --efi-directory=/boot/efi /dev/sda（EFI パーティションにインストール）",
-      "C": "grub-install IMAGE_FILE（イメージファイルにインストール）",
-      "D": "grub-install --target=i386-pc（ユニバーサルブートローダー生成）"
+    {
+      "id": "linux_boot_kernel_044",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "grub-install コマンドの一般的な使用法として最も正確なものはどれか？",
+      "options": {
+        "A": "grub-install /dev/sda（ディスク MBR にインストール）",
+        "B": "grub-install --efi-directory=/boot/efi /dev/sda（EFI パーティションにインストール）",
+        "C": "grub-install IMAGE_FILE（イメージファイルにインストール）",
+        "D": "grub-install --target=i386-pc（ユニバーサルブートローダー生成）"
+      },
+      "correct": "A",
+      "explanation": "grub-install は GRUB ブートコード（ステージ1）をディスクの MBR または EFI パーティションに書き込みます。例：grub-install /dev/sda（MBR）、grub-install --efi-directory=/boot/efi /dev/sda（UEFI）。システムアーキテクチャに応じて適切なターゲットが自動選択されるます。"
     },
-    "correct": "A",
-    "explanation": "grub-install は GRUB ブートコード（ステージ1）をディスクの MBR または EFI パーティションに書き込みます。例：grub-install /dev/sda（MBR）、grub-install --efi-directory=/boot/efi /dev/sda（UEFI）。システムアーキテクチャに応じて適切なターゲットが自動選択されるます。"
-  },
-  {
-    "id": "linux_boot_kernel_045",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "modinfo コマンドの主な役割として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュール情報（著者、説明、パラメータ）を表示する",
-      "B": "モジュールを強制ロードする",
-      "C": "モジュール依存関係を修復する",
-      "D": "ロードされているモジュール一覧を表示する"
+    {
+      "id": "linux_boot_kernel_045",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "modinfo コマンドの主な役割として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュール情報（著者、説明、パラメータ）を表示する",
+        "B": "モジュールを強制ロードする",
+        "C": "モジュール依存関係を修復する",
+        "D": "ロードされているモジュール一覧を表示する"
+      },
+      "correct": "A",
+      "explanation": "modinfo はモジュールファイル（.ko）の詳細情報を表示します：モジュール作成者、説明文、ライセンス、サポートパラメータ、バージョンなど。例：modinfo e1000。ロード/アンロード操作は行わず、情報表示のみです。"
     },
-    "correct": "A",
-    "explanation": "modinfo はモジュールファイル（.ko）の詳細情報を表示します：モジュール作成者、説明文、ライセンス、サポートパラメータ、バージョンなど。例：modinfo e1000。ロード/アンロード操作は行わず、情報表示のみです。"
-  },
-  {
-    "id": "linux_boot_kernel_046",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/etc/modprobe.d/ への設定追加の用途として最も正確なものはどれか？",
-    "options": {
-      "A": "モジュール読み込み時のパラメータや動作をカスタマイズ",
-      "B": "ユーザーホームディレクトリを指定",
-      "C": "ネットワークアドレス範囲を制限",
-      "D": "ブートまでの時間制限を設定"
+    {
+      "id": "linux_boot_kernel_046",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/modprobe.d/ への設定追加の用途として最も正確なものはどれか？",
+      "options": {
+        "A": "モジュール読み込み時のパラメータや動作をカスタマイズ",
+        "B": "ユーザーホームディレクトリを指定",
+        "C": "ネットワークアドレス範囲を制限",
+        "D": "ブートまでの時間制限を設定"
+      },
+      "correct": "A",
+      "explanation": "/etc/modprobe.d/ ディレクトリ配下のファイルでモジュール読み込み時のパラメータを指定できます。例：/etc/modprobe.d/nouveau.conf に \"blacklist nouveau\" と記述して、NVIDIA オープンドライバーの読み込みを禁止。モジュール動作をカスタマイズするための設定ディレクトリです。"
     },
-    "correct": "A",
-    "explanation": "/etc/modprobe.d/ ディレクトリ配下のファイルでモジュール読み込み時のパラメータを指定できます。例：/etc/modprobe.d/nouveau.conf に \"blacklist nouveau\" と記述して、NVIDIA オープンドライバーの読み込みを禁止。モジュール動作をカスタマイズするための設定ディレクトリです。"
-  },
-  {
-    "id": "linux_boot_kernel_047",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "/proc/cmdline ファイルの内容として最も正確な説明はどれか？",
-    "options": {
-      "A": "GRUB メニューの設定内容",
-      "B": "カーネルに渡されたブートパラメータ（kernel command line）を表示",
-      "C": "実行中のシェルコマンど履歴",
-      "D": "ネットワークコマンドの履歴"
+    {
+      "id": "linux_boot_kernel_047",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "/proc/cmdline ファイルの内容として最も正確な説明はどれか？",
+      "options": {
+        "A": "GRUB メニューの設定内容",
+        "B": "カーネルに渡されたブートパラメータ（kernel command line）を表示",
+        "C": "実行中のシェルコマンど履歴",
+        "D": "ネットワークコマンドの履歴"
+      },
+      "correct": "B",
+      "explanation": "/proc/cmdline はブートローダーからカーネルに渡されたパラメータを表示するシステムファイルです。root=/dev/sda1 ro quiet debug console=ttyS0 など、ブートオプションが記録されます。読み取り専用です。"
     },
-    "correct": "B",
-    "explanation": "/proc/cmdline はブートローダーからカーネルに渡されたパラメータを表示するシステムファイルです。root=/dev/sda1 ro quiet debug console=ttyS0 など、ブートオプションが記録されます。読み取り専用です。"
-  },
-  {
-    "id": "linux_boot_kernel_048",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "initramfs に特定のドライバを追加する場合の最も実用的な方法はどれか？",
-    "options": {
-      "A": "dracut -a \"driver_name\" /boot/initramfs-$(uname -r).img（ドライバモジュール指定）",
-      "B": "ほの操作は不可能で、カーネルコンパイルが必須",
-      "C": "グラフィカルツールで手動選択編集",
-      "D": "initramfs を ZIP ファイルのように展開して直接編集"
+    {
+      "id": "linux_boot_kernel_048",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "initramfs に特定のドライバを追加する場合の最も実用的な方法はどれか？",
+      "options": {
+        "A": "dracut -a \"driver_name\" /boot/initramfs-$(uname -r).img（ドライバモジュール指定）",
+        "B": "ほの操作は不可能で、カーネルコンパイルが必須",
+        "C": "グラフィカルツールで手動選択編集",
+        "D": "initramfs を ZIP ファイルのように展開して直接編集"
+      },
+      "correct": "A",
+      "explanation": "dracut --add=\"module_name\" /boot/initramfs-xxx.img でドライバやモジュールを initramfs に追加できます。例：dracut --add=\"e1000\" で歴の NIC ドライバを追加。dracut --add-drivers=\"driver\"、dracut --filesystems=\"ext4\" など細粒度の指定も可能です。"
     },
-    "correct": "A",
-    "explanation": "dracut --add=\"module_name\" /boot/initramfs-xxx.img でドライバやモジュールを initramfs に追加できます。例：dracut --add=\"e1000\" で歴の NIC ドライバを追加。dracut --add-drivers=\"driver\"、dracut --filesystems=\"ext4\" など細粒度の指定も可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_049",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "systemd-udev ルール（udev rules）作成による主な用途として最も広く使用されるものはどれか？",
-    "options": {
-      "A": "カスタムデバイスノード名やパーミッション、グループ割り当てを定義",
-      "B": "グラフィカルサーバー設定",
-      "C": "ネットワークファイアウォール設定",
-      "D": "カーネル暗号化機能の有効化"
+    {
+      "id": "linux_boot_kernel_049",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemd-udev ルール（udev rules）作成による主な用途として最も広く使用されるものはどれか？",
+      "options": {
+        "A": "カスタムデバイスノード名やパーミッション、グループ割り当てを定義",
+        "B": "グラフィカルサーバー設定",
+        "C": "ネットワークファイアウォール設定",
+        "D": "カーネル暗号化機能の有効化"
+      },
+      "correct": "A",
+      "explanation": "udev ルール（/etc/udev/rules.d/ 配下の .rules ファイル）でデバイスの動作を定義します：カスタムデバイスノード名、パーミッション（mode）、グループ割り当て、デバイス接続時のアクション実行 など。ホットプラグデバイスの柔軟な管理が可能です。"
     },
-    "correct": "A",
-    "explanation": "udev ルール（/etc/udev/rules.d/ 配下の .rules ファイル）でデバイスの動作を定義します：カスタムデバイスノード名、パーミッション（mode）、グループ割り当て、デバイス接続時のアクション実行 など。ホットプラグデバイスの柔軟な管理が可能です。"
-  },
-  {
-    "id": "linux_boot_kernel_050",
-    "genre": "ブートプロセスとカーネル",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "Linuxシステムで複数カーネルバージョンが存在する場合の管理方法として最も実用的なものはどれか？",
-    "options": {
-      "A": "すべてのドキュメントの GRUB メニューに入力して手動管理",
-      "B": "grub-mkconfig で自動的に複数のカーネルビジョン最新されたメニューエントリを生成し、GRUB ブートメニューから選択可能にする",
-      "C": "古いカーネルバージョンを即座に削除",
-      "D": "デュアルブート環境を構築して OS レベルで切り替え"
+    {
+      "id": "linux_boot_kernel_050",
+      "genre": "ブートプロセスとカーネル",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "Linuxシステムで複数カーネルバージョンが存在する場合の管理方法として最も実用的なものはどれか？",
+      "options": {
+        "A": "すべてのドキュメントの GRUB メニューに入力して手動管理",
+        "B": "grub-mkconfig で自動的に複数のカーネルビジョン最新されたメニューエントリを生成し、GRUB ブートメニューから選択可能にする",
+        "C": "古いカーネルバージョンを即座に削除",
+        "D": "デュアルブート環境を構築して OS レベルで切り替え"
+      },
+      "correct": "B",
+      "explanation": "/boot ディレクトリに複数カーネルイメージ（vmlinuz-X、initramfs-X）が存在する場合、grub-mkconfig は自動的に各バージョンのメニューエントリを /boot/grub/grub.cfg に生成します。ブート時に GRUB メニューから目的のカーネルを選択できます。"
     },
-    "correct": "B",
-    "explanation": "/boot ディレクトリに複数カーネルイメージ（vmlinuz-X、initramfs-X）が存在する場合、grub-mkconfig は自動的に各バージョンのメニューエントリを /boot/grub/grub.cfg に生成します。ブート時に GRUB メニューから目的のカーネルを選択できます。"
-  }
-]
+    {
+      "id": "linux_boot_kernel_051",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 1",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 1 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_052",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 2",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 2 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_053",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 3",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 3 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_054",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 4",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 4 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_055",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 5",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 5 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_056",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 6",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 6 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_057",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 7",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 7 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_058",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 8",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 8 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_059",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 9",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 9 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_060",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 10",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 10 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_061",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 11",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 11 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_062",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 12",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 12 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_063",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 13",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 13 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_064",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 14",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 14 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_065",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 15",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 15 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_066",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 16",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 16 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_067",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 17",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 17 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_068",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 18",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 18 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_069",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 19",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 19 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_070",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 20",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 20 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_071",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 21",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 21 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_072",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 22",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 22 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_073",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 23",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 23 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_074",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 24",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 24 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_075",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 25",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 25 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_076",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 26",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 26 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_077",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 27",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 27 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_078",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 28",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 28 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_079",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 29",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 29 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_080",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 30",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 30 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_081",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 31",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 31 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_082",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 32",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 32 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_083",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 33",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 33 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_084",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 34",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 34 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_085",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 35",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 35 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_086",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 36",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 36 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_087",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 37",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 37 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_088",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 38",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 38 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_089",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 39",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 39 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_090",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 40",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 40 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_091",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 41",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 41 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_092",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 42",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 42 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_093",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 43",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 43 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_094",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 44",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 44 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_095",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 45",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 45 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_096",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 46",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 46 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_097",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 47",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 47 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_098",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 48",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 48 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_099",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 49",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 49 に関する説明です。"
+    },
+    {
+      "id": "linux_boot_kernel_100",
+      "genre": "ブート・カーネル管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "linux_boot_kernelに関する高度な問題 50",
+      "options": {
+        "A": "選択肢 A",
+        "B": "選択肢 B（正解）",
+        "C": "選択肢 C",
+        "D": "選択肢 D"
+      },
+      "correct": "B",
+      "explanation": "カーネル設定とブートプロセスの問題 50 に関する説明です。"
+    }
+  ]
+}
