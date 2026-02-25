@@ -1,0 +1,606 @@
+{
+  "genre": "アノテーション・リフレクション",
+  "exam": "Java",
+  "questions": [
+    {
+      "id": "java_annotations_001",
+      "question": "@Overrideアノテーションの主な目的として正しいものはどれか。",
+      "choices": [
+        "メソッドをオーバーロードすることを宣言する",
+        "親クラスまたはインターフェースのメソッドをオーバーライドすることを意図を明示し、コンパイラがチェックする",
+        "メソッドの可視性を上書きする",
+        "メソッドの実装を強制する"
+      ],
+      "answer": 1,
+      "explanation": "@Overrideアノテーションは、メソッドが親クラスまたはインターフェースのメソッドをオーバーライドしていることを示します。これにより、コンパイラはメソッドシグネチャのエラーをチェックし、実際にオーバーライドしていない場合はコンパイルエラーを出します。"
+    },
+    {
+      "id": "java_annotations_002",
+      "question": "@Deprecatedアノテーションの使用目的として最も適切なものはどれか。",
+      "choices": [
+        "クラスやメソッドが非推奨であることを示し、代わりになる方法があることを警告する",
+        "クラスやメソッドを完全に削除する",
+        "クラスやメソッドへのアクセスを禁止する",
+        "クラスやメソッドのパフォーマンスを向上させる"
+      ],
+      "answer": 0,
+      "explanation": "@Deprecatedアノテーションは、クラス、メソッド、フィールド等が将来のバージョンで削除される可能性があることを示す警告です。通常、JavaDocコメントと共に、推奨される代替方法を提供します。コンパイラはこのアノテーションが付けられた要素を使用する場合、警告メッセージを生成します。"
+    },
+    {
+      "id": "java_annotations_003",
+      "question": "@SuppressWarningsアノテーションの主な用途として正しいものはどれか。",
+      "choices": [
+        "すべてのコンパイラ警告を無条件に削除する",
+        "特定のコンパイラ警告を抑制する",
+        "実行時エラーを防ぐ",
+        "パフォーマンスを最適化する"
+      ],
+      "answer": 1,
+      "explanation": "@SuppressWarningsアノテーションは、指定されたコンパイラ警告を抑制します。例えば、@SuppressWarnings(\"unchecked\")はジェネリクス型チェック警告を抑制します。ただし、実際の問題を解決するのではなく、警告を表示しないだけです。"
+    },
+    {
+      "id": "java_annotations_004",
+      "question": "@FunctionalInterfaceアノテーションについて、正しい説明はどれか。",
+      "choices": [
+        "インターフェースが3つ以上の抽象メソッドを持つことを示す",
+        "インターフェースが1つだけの抽象メソッドを持つことを示し、コンパイラが検証する",
+        "インターフェースがラムダ式で実装できないことを示す",
+        "インターフェースが複数の型パラメータを持つことを示す"
+      ],
+      "answer": 1,
+      "explanation": "@FunctionalInterfaceアノテーションは、インターフェースが関数型インターフェースであること（1つの抽象メソッドのみ）を宣言します。デフォルトメソッドやstaticメソッドは複数持つことができますが、抽象メソッドは1つだけです。コンパイラがこれを検証し、違反するとコンパイルエラーになります。"
+    },
+    {
+      "id": "java_annotations_005",
+      "question": "@Retentionメタアノテーションについて、正しい説明はどれか。",
+      "choices": [
+        "アノテーションがクラス、メソッド、フィールドのどれに適用できるかを指定する",
+        "アノテーション情報がいつまで保持されるかを指定する",
+        "アノテーションがコンパイル時に処理されるかを指定する",
+        "アノテーションが継承されるかを指定する"
+      ],
+      "answer": 1,
+      "explanation": "@Retentionメタアノテーションは、アノテーション情報の保持期間を指定します。RetentionPolicy.SOURCEはソースコードのみ、CLASSはクラスファイルまで、RUNTIMEは実行時まで保持されます。リフレクションでアノテーション情報にアクセスする場合はRUNTIMEが必要です。"
+    },
+    {
+      "id": "java_annotations_006",
+      "question": "@Targetメタアノテーションについて、正しい説明はどれか。",
+      "choices": [
+        "アノテーション情報がいつまで保持されるかを指定する",
+        "アノテーションがクラス、メソッド、フィールド等のどの要素に適用できるかを指定する",
+        "アノテーションが継承されるかを指定する",
+        "アノテーションがコンパイル時に処理するかを指定する"
+      ],
+      "answer": 1,
+      "explanation": "@Targetメタアノテーションは、アノテーションが適用できる対象を指定します。ElementTypeの値により、TYPE（クラス）、METHOD（メソッド）、FIELD（フィールド）、PARAMETER（パラメータ）、LOCAL_VARIABLE（ローカル変数）等が指定できます。"
+    },
+    {
+      "id": "java_annotations_007",
+      "question": "@Inheritedメタアノテーションについて、正しい説明はどれか。",
+      "choices": [
+        "アノテーションが子クラスに継承されることを指定する",
+        "アノテーション自身が他のアノテーションから継承することを指定する",
+        "アノテーションがメソッドのみに適用できることを指定する",
+        "アノテーション情報が実行時に保持されることを指定する"
+      ],
+      "answer": 0,
+      "explanation": "@Inheritedメタアノテーションが付けられたアノテーションは、親クラスに付けられた場合、その子クラスでもそのアノテーションが継承されたものとして見なされます。ただし、これはクラスに対してのみ適用され、メソッドには適用されません。"
+    },
+    {
+      "id": "java_annotations_008",
+      "question": "@Repeatableメタアノテーションの目的として正しいものはどれか。",
+      "choices": [
+        "同じアノテーションを複数回適用することを許可する",
+        "アノテーションの値を繰り返し使用することを指定する",
+        "アノテーションのメソッドが複数の値を返すことを指定する",
+        "アノテーションが複数のターゲットに適用されることを指定する"
+      ],
+      "answer": 0,
+      "explanation": "@Repeatableメタアノテーションを使用すると、同じアノテーションを同じ要素に複数回適用できるようになります。@Repeatable(値は容器のアノテーションクラス)で指定し、リフレクションで複数のアノテーション値を取得できます。"
+    },
+    {
+      "id": "java_annotations_009",
+      "question": "カスタムアノテーション定義として正しいコード例はどれか。",
+      "choices": [
+        "interface MyAnnotation { String value(); }",
+        "@interface MyAnnotation { String value(); }",
+        "class MyAnnotation { String value(); }",
+        "annotation MyAnnotation { String value(); }"
+      ],
+      "answer": 1,
+      "explanation": "カスタムアノテーションは@interfaceキーワードを使用して定義します。これにより、コンパイラはアノテーション型として認識します。メソッドはパラメータを持たず、戻り値の型を持つ必要があります。"
+    },
+    {
+      "id": "java_annotations_010",
+      "question": "次のアノテーション定義で、デフォルト値を指定する正しい方法はどれか。",
+      "choices": [
+        "@interface MyAnnotation { String value = \"default\"; }",
+        "@interface MyAnnotation { String value() = \"default\"; }",
+        "@interface MyAnnotation { String value() default \"default\"; }",
+        "@interface MyAnnotation { default String value(); }"
+      ],
+      "answer": 2,
+      "explanation": "アノテーション要素のデフォルト値はdefaultキーワードを使用して指定します。構文は「型 メソッド名() default 値;」です。デフォルト値を指定すると、そのアノテーション使用時に値を指定しなくても構いません。"
+    },
+    {
+      "id": "java_annotations_011",
+      "question": "次のアノテーション定義で、複数の値を受け取る正しい方法はどれか。",
+      "choices": [
+        "@interface MyAnnotation { String[] values(); }",
+        "@interface MyAnnotation { String value1(), value2(); }",
+        "@interface MyAnnotation { String value1(); String value2(); }",
+        "@interface MyAnnotation { String[] value(); }"
+      ],
+      "answer": 0,
+      "explanation": "アノテーション要素が配列型を指定することで、複数の値を受け取ることができます。@interface MyAnnotation { String[] values(); } で、使用時は@MyAnnotation(values={\"a\", \"b\"})と指定できます。"
+    },
+    {
+      "id": "java_annotations_012",
+      "question": "リフレクションAPIを使用してクラスのアノテーション情報を取得する正しい方法はどれか。",
+      "choices": [
+        "Class<?> clazz = MyClass.class; Annotation[] annos = clazz.getAnnotations();",
+        "Class<?> clazz = MyClass.class; Annotation[] annos = clazz.getFields();",
+        "MyClass obj = new MyClass(); Annotation[] annos = obj.getAnnotations();",
+        "Annotation[] annos = MyClass.getAnnotations();"
+      ],
+      "answer": 0,
+      "explanation": "ClassオブジェクトのgetAnnotations()メソッドを使用することで、クラスに付けられたすべてのアノテーション情報を取得できます。リフレクションでアノテーション情報を取得する場合、Classオブジェクトの取得が最初のステップです。"
+    },
+    {
+      "id": "java_annotations_013",
+      "question": "特定のアノテーションのみを取得するリフレクション方法として正しいものはどれか。",
+      "choices": [
+        "Class<?> clazz = MyClass.class; MyAnnotation anno = clazz.getAnnotation(MyAnnotation.class);",
+        "Class<?> clazz = MyClass.class; MyAnnotation anno = clazz.getAnnotations()[0];",
+        "Class<?> clazz = MyClass.class; MyAnnotation anno = clazz.getDeclaredAnnotation(MyAnnotation.class);",
+        "Annotation anno = clazz.findAnnotation(MyAnnotation.class);"
+      ],
+      "answer": 0,
+      "explanation": "ClassオブジェクトのgetAnnotation(Class<T>)メソッドは、指定された型のアノテーションを取得します。アノテーションが存在しない場合はnullを返します。getDeclaredAnnotation()は継承されたアノテーションを含みません。"
+    },
+    {
+      "id": "java_annotations_014",
+      "question": "メソッドのアノテーション情報をリフレクションで取得する正しい方法はどれか。",
+      "choices": [
+        "Method method = MyClass.class.getMethod(\"myMethod\"); Annotation[] annos = method.getAnnotations();",
+        "Method method = MyClass.class.getMethod(\"myMethod\", String.class); Annotation[] annos = method.getAnnotations();",
+        "Annotation[] annos = MyClass.class.getAnnotations();",
+        "Method method = MyClass.getMethod(\"myMethod\"); Annotation[] annos = method.getAnnotations();"
+      ],
+      "answer": 1,
+      "explanation": "メソッドのアノテーション情報を取得するには、getMethod()でMethodオブジェクトを取得し、そのgetAnnotations()メソッドを呼び出します。getMethod()にはメソッド名とパラメータ型を指定する必要があります。"
+    },
+    {
+      "id": "java_annotations_015",
+      "question": "フィールドのアノテーション情報をリフレクションで取得する正しい方法はどれか。",
+      "choices": [
+        "Field field = MyClass.class.getField(\"myField\"); Annotation[] annos = field.getAnnotations();",
+        "Annotation[] annos = MyClass.class.getField(\"myField\").getAnnotations();",
+        "Annotation[] annos = MyClass.class.getAnnotations();",
+        "Field field = MyClass.getField(\"myField\"); Annotation[] annos = field.getAnnotations();"
+      ],
+      "answer": 0,
+      "explanation": "フィールドのアノテーション情報を取得するには、getField()でFieldオブジェクトを取得し、そのgetAnnotations()メソッドを呼び出します。getField()で取得できるのはpublicフィールドのみで、非publicなフィールドはgetDeclaredField()を使用します。"
+    },
+    {
+      "id": "java_annotations_016",
+      "question": "アノテーションの値を取得するリフレクション方法として正しいものはどれか。",
+      "choices": [
+        "MyAnnotation anno = clazz.getAnnotation(MyAnnotation.class); String value = anno.value();",
+        "MyAnnotation anno = clazz.getAnnotation(MyAnnotation.class); String value = anno.getValue();",
+        "String value = clazz.getAnnotationValue(MyAnnotation.class);",
+        "Annotation anno = clazz.getAnnotations()[0]; String value = anno.getValue(\"value\");"
+      ],
+      "answer": 0,
+      "explanation": "アノテーションオブジェクトから値を取得するには、アノテーション型にキャストした後、そのメソッドを直接呼び出します。アノテーション定義内のメソッド名でアクセスします。value()メソッドはgetterオブジェクトプロキシにより自動的に提供されます。"
+    },
+    {
+      "id": "java_annotations_017",
+      "question": "@Deprecatedアノテーションのparametersとして正しいものはどれか。",
+      "choices": [
+        "@Deprecated(value=\"説明\", since=\"1.0\")",
+        "@Deprecated(description=\"説明\", since=\"1.0\")",
+        "@Deprecated(value=\"説明\", forRemoval=true, since=\"11\")",
+        "@Deprecated(message=\"説明\")"
+      ],
+      "answer": 2,
+      "explanation": "Java 9以降の@Deprecatedアノテーションは、since属性（非推奨が導入されたバージョン）と、forRemoval属性（将来削除されるかどうか）をサポートしています。forRemoval=trueの場合、その要素は今後のバージョンで削除される可能性があります。"
+    },
+    {
+      "id": "java_annotations_018",
+      "question": "リフレクションでコンストラクタのアノテーション情報を取得する正しい方法はどれか。",
+      "choices": [
+        "Constructor<?> constructor = MyClass.class.getConstructor(String.class); Annotation[] annos = constructor.getAnnotations();",
+        "Annotation[] annos = MyClass.class.getConstructors()[0].getAnnotations();",
+        "Annotation[] annos = MyClass.class.getAnnotations();",
+        "Annotation[] annos = MyClass.class.getDeclaredConstructor().getAnnotations();"
+      ],
+      "answer": 0,
+      "explanation": "コンストラクタのアノテーション情報を取得するには、getConstructor()またはgetDeclaredConstructor()でConstructorオブジェクトを取得し、そのgetAnnotations()メソッドを呼び出します。"
+    },
+    {
+      "id": "java_annotations_019",
+      "question": "包括的なアノテーション情報（継承されたものを含む）を取得する方法として正しいものはどれか。",
+      "choices": [
+        "Annotation[] annos = clazz.getAnnotations();",
+        "Annotation[] annos = clazz.getDeclaredAnnotations();",
+        "Annotation[] annos = clazz.getAllAnnotations();",
+        "AnnotatedElement element = clazz; Annotation[] annos = element.getAnnotations();"
+      ],
+      "answer": 0,
+      "explanation": "getAnnotations()は@Inheritedメタアノテーションが付けられたアノテーションを含む、すべてのアノテーション情報を返します。getDeclaredAnnotations()は継承されたアノテーションを含まず、その要素に直接適用されたアノテーションのみを返します。"
+    },
+    {
+      "id": "java_annotations_020",
+      "question": "カスタムアノテーションで複数の値を受け取る場合、使用時の正しい構文はどれか。",
+      "choices": [
+        "@MyAnnotation(\"value1\", \"value2\")",
+        "@MyAnnotation(values1=\"value1\", values2=\"value2\")",
+        "@MyAnnotation({\"value1\", \"value2\"})",
+        "@MyAnnotation(value={\"value1\", \"value2\"})"
+      ],
+      "answer": 3,
+      "explanation": "配列型のアノテーション要素を使用する場合、value={}の構文で複数の値を指定します。単一の値の場合は波括弧を省略できます。各値はカンマで区切ります。"
+    },
+    {
+      "id": "java_annotations_021",
+      "question": "@FunctionalInterfaceアノテーションが付いたインターフェースで、複数の抽象メソッドがある場合、どうなるか。",
+      "choices": [
+        "実行時にエラーが発生する",
+        "コンパイルエラーが発生する",
+        "警告が出るが、コンパイルされる",
+        "ラムダ式で実装できなくなる"
+      ],
+      "answer": 1,
+      "explanation": "@FunctionalInterfaceアノテーションが付いたインターフェースが2つ以上の抽象メソッドを定義している場合、コンパイルエラーが発生します。コンパイラが定義と実装の矛盾をチェックします。"
+    },
+    {
+      "id": "java_annotations_022",
+      "question": "@Retentionを指定しない場合、デフォルトの保持方針はどれか。",
+      "choices": [
+        "RetentionPolicy.SOURCE",
+        "RetentionPolicy.CLASS",
+        "RetentionPolicy.RUNTIME",
+        "アノテーション情報は保持されない"
+      ],
+      "answer": 1,
+      "explanation": "@Retentionを指定しない場合、デフォルトはRetentionPolicy.CLASSです。これはアノテーション情報がコンパイル後のクラスファイルに含まれますが、実行時には利用不可になります。"
+    },
+    {
+      "id": "java_annotations_023",
+      "question": "@Targetを指定しない場合、アノテーションの適用可能な対象はどれか。",
+      "choices": [
+        "クラスのみ",
+        "メソッドのみ",
+        "すべての要素型",
+        "何にも適用できない"
+      ],
+      "answer": 2,
+      "explanation": "@Targetを指定しない場合、アノテーションはすべての要素型（TYPE、FIELD、METHOD、PARAMETER等）に適用可能になります。"
+    },
+    {
+      "id": "java_annotations_024",
+      "question": "複数の@Targetを指定する場合、正しい構文はどれか。",
+      "choices": [
+        "@Target(ElementType.METHOD, ElementType.FIELD)",
+        "@Target({ElementType.METHOD, ElementType.FIELD})",
+        "@Target(value={ElementType.METHOD, ElementType.FIELD})",
+        "@Target(ElementType.METHOD) @Target(ElementType.FIELD)"
+      ],
+      "answer": 1,
+      "explanation": "複数のElementTypeを指定する場合、配列としてカンマで区切って指定します。@Target({ElementType.METHOD, ElementType.FIELD})がアノテーションがメソッドとフィールドの両方に適用可能なことを示します。"
+    },
+    {
+      "id": "java_annotations_025",
+      "question": "リフレクションでアノテーションが存在するかどうかを確認する正しい方法はどれか。",
+      "choices": [
+        "if(clazz.isAnnotationPresent(MyAnnotation.class)) {}",
+        "if(clazz.hasAnnotation(MyAnnotation.class)) {}",
+        "if(clazz.getAnnotation(MyAnnotation.class) != null) {}",
+        "if(clazz.containsAnnotation(MyAnnotation.class)) {}"
+      ],
+      "answer": 0,
+      "explanation": "isAnnotationPresent()メソッドはアノテーションが存在するかどうかをboolean値で返します。これはgetAnnotation()がnullかどうかをチェックするより簡潔で効率的な方法です。"
+    },
+    {
+      "id": "java_annotations_026",
+      "question": "カスタムアノテーションで型パラメータが受け入れられない理由として正しいものはどれか。",
+      "choices": [
+        "セキュリティ上の理由",
+        "パフォーマンス上の理由",
+        "アノテーション要素の型がコンパイル時に定数である必要があるため",
+        "アノテーションが実行時に処理されるため"
+      ],
+      "answer": 2,
+      "explanation": "アノテーション要素は、コンパイル時に定数である必要があります。つまり、primitiveタイプ、String、enumタイプ、アノテーション型、これらの配列のみが許可されます。型パラメータのような動的な型は許可されません。"
+    },
+    {
+      "id": "java_annotations_027",
+      "question": "アノテーション処理の実行タイミングについて、正しい説明はどれか。",
+      "choices": [
+        "実行時のみ",
+        "コンパイル時のみ",
+        "コンパイル時と実行時の両方が可能",
+        "クラスロード時のみ"
+      ],
+      "answer": 2,
+      "explanation": "アノテーション処理のタイミングはRetentionPolicyに依存します。SOURCE段階で削除されるアノテーションはコンパイル時処理のみ、RUNTIMEはリフレクションで実行時処理が可能、CLASSはクラスファイルに含まれますが実行時には処理できません。"
+    },
+    {
+      "id": "java_annotations_028",
+      "question": "アノテーションプロセッサが実装する必要があるインターフェースはどれか。",
+      "choices": [
+        "AnnotationProcessor",
+        "Processor",
+        "AnnotationHandler",
+        "ProcessorFactory"
+      ],
+      "answer": 1,
+      "explanation": "アノテーションプロセッサはjavax.annotation.processing.Processorインターフェースを実装する必要があります。このインターフェースはprocess()メソッドを定義しており、アノテーション処理ロジックを実装します。"
+    },
+    {
+      "id": "java_annotations_029",
+      "question": "@SuppressWarnings(\"unchecked\")が抑制する警告はどれか。",
+      "choices": [
+        "未使用の変数警告",
+        "ジェネリクス型チェック警告",
+        "非推奨メソッド警告",
+        "null参照警告"
+      ],
+      "answer": 1,
+      "explanation": "\"unchecked\"キーワードは、ジェネリクス型チェック警告を抑制します。例え、キャスト時またはジェネリクス境界の不整合の場合に使用します。他には\"deprecation\"（非推奨）、\"unused\"（未使用）等があります。"
+    },
+    {
+      "id": "java_annotations_030",
+      "question": "@SuppressWarnings(\"deprecation\")が抑制する警告はどれか。",
+      "choices": [
+        "ジェネリクス型チェック警告",
+        "非推奨メソッド（@Deprecated）の使用警告",
+        "未使用の変数警告",
+        "null参照警告"
+      ],
+      "answer": 1,
+      "explanation": "\"deprecation\"キーワードは、@Deprecatedが付けられた非推奨メソッドやクラスの使用時に出される警告を抑制します。"
+    },
+    {
+      "id": "java_annotations_031",
+      "question": "@Inheritedメタアノテーションが適用されるケースとしてNOTを選びなさい。",
+      "choices": [
+        "親クラスに付けられたアノテーションが子クラスに継承される",
+        "親クラスのメソッドに付けられたアノテーションが子クラスのオーバーライドメソッドに継承される",
+        "インターフェースのデフォルトメソッドのアノテーション",
+        "親クラスのフィールドに付けられたアノテーションが子クラスのフィールドに継承される"
+      ],
+      "answer": 1,
+      "explanation": "@Inheritedはクラスレベルのアノテーション継承のみをサポートします。メソッドやフィールドレベルのアノテーション継承には適用されません。メソッドのオーバーライドでもアノテーションは継承されず、明示的に付ける必要があります。"
+    },
+    {
+      "id": "java_annotations_032",
+      "question": "リフレクションでパラメータのアノテーションを取得する方法として正しいものはどれか。",
+      "choices": [
+        "Method method = ....; Annotation[] annos = method.getParameterAnnotations()[0];",
+        "Method method = ...; Annotation[] annos = method.getAnnotation(0);",
+        "Parameter[] params = method.getParameters(); Annotation[] annos = params[0].getAnnotations();",
+        "Annotation[] annos = method.getParameterAnnotations();"
+      ],
+      "answer": 2,
+      "explanation": "Java 8以降、getParameters()メソッドでParameterオブジェクト配列を取得し、各ParameterのgetAnnotations()メソッドで注釈を取得できます。また、getParameterAnnotations()メソッドで全パラメータの注釈を2次元配列として取得することもできます。"
+    },
+    {
+      "id": "java_annotations_033",
+      "question": "カスタムアノテーション定義で、value要素を含む場合の使用構文として正しいものはどれか。",
+      "choices": [
+        "@MyAnnotation(value=\"test\")",
+        "@MyAnnotation(\"test\")",
+        "両方正しい",
+        "両方とも正しくない"
+      ],
+      "answer": 2,
+      "explanation": "アノテーション要素が単一の要素で名前がvalueの場合、値を直接指定できます。@MyAnnotation(\"test\")と@MyAnnotation(value=\"test\")の両方が有効です。"
+    },
+    {
+      "id": "java_annotations_034",
+      "question": "@Repeatableメタアノテーションの容器アノテーション(container annotation)として必要な要件はどれか。",
+      "choices": [
+        "配列型のメンバーを持つ必要がある",
+        "複数のメンバーを持つ必要がある",
+        "@Targetが指定される必要がある",
+        "@Retentionが指定される必要がある"
+      ],
+      "answer": 0,
+      "explanation": "容器アノテーションは、@Repeatable注釈したアノテーションの配列を保持するメンバーを持つ必要があります。例えば、@interface Authorities { Authority[] value(); }のように、元のアノテーション型の配列を確保するメンバーが必須です。"
+    },
+    {
+      "id": "java_annotations_035",
+      "question": "@Repeatableアノテーションを使用する場合、複数のアノテーションを取得する方法として正しいものはどれか。",
+      "choices": [
+        "Method method = ...; Annotation[] annos = method.getAnnotations();",
+        "Method method = ...; Authority[] annos = method.getAnnotationsByType(Authority.class);",
+        "Method method = ...; Authorities container = method.getAnnotation(Authorities.class);",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "複数のアノテーションを適切に取得するには複数の方法があります。getAnnotations()で全アノテーション、getAnnotationsByType()で指定型の全アノテーション、getAnnotation(容器)で容器アノテーション経由での取得が可能です。"
+    },
+    {
+      "id": "java_annotations_036",
+      "question": "アノテーションプロセッサの処理順序として正しいものはどれか。",
+      "choices": [
+        "実行時にランダムに処理される",
+        "複数のプロセッサが複数のラウンドで実行される",
+        "1回のコンパイルラウンドで一度だけ実行される",
+        "ソースコードの上から順に処理される"
+      ],
+      "answer": 1,
+      "explanation": "アノテーションプロセッサはコンパイル時に複数のラウンドで暴露され、各ラウンドでプロセッサが呼び出されます。新しいソースファイルが生成される場合、次のラウンドが実行されます。processingEnv.getFiler()でファイルを生成できます。"
+    },
+    {
+      "id": "java_annotations_037",
+      "question": "Elementsユーティリティクラスの主な役割として正しいものはどれか。",
+      "choices": [
+        "アノテーション情報を取得する",
+        "プラグラムの要素（クラス、メソッド等）に関する情報を提供する",
+        "ソースコードファイルを操作する",
+        "コンパイルエラーメッセージを生成する"
+      ],
+      "answer": 1,
+      "explanation": "Elementsは、javax.lang.model.util.Elementsヘルパークラスで、Element（プログラムの構成要素）の情報を取得するためのユーティリティメソッドを提供します。アノテーションプロセッサ内でprocessingEnv.getElementUtils()で取得できます。"
+    },
+    {
+      "id": "java_annotations_038",
+      "question": "Typesユーティリティクラスの主な役割として正しいものはどれか。",
+      "choices": [
+        "アノテーション情報を取得する",
+        "型(Type)に関する情報を提供し、型操作を行う",
+        "ソースコードの文法をチェックする",
+        "コンパイルエラーを生成する"
+      ],
+      "answer": 1,
+      "explanation": "Typesは、javax.lang.model.util.Typesヘルパークラスで、型(Type)に関する情報を提供し、型比較や型変換などの操作を行うユーティリティメソッドを提供します。processingEnv.getTypeUtils()で取得できます。"
+    },
+    {
+      "id": "java_annotations_039",
+      "question": "クラスのメタデータをリフレクションで取得する例として正しいものはどれか。",
+      "choices": [
+        "Class<?> clazz = MyClass.class; Method[] methods = clazz.getMethods();",
+        "Class<?> clazz = MyClass.class; Field[] fields = clazz.getFields();",
+        "Class<?> clazz = MyClass.class; Constructor<?>[] constructors = clazz.getConstructors();",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "Classオブジェクトのメタデータ取得メソッドは複数あります。getMethods()はメソッド情報、getFields()はフィールド情報、getConstructors()はコンストラクタ情報を取得します。Declaredバージョンはprivateメンバーも含みます。"
+    },
+    {
+      "id": "java_annotations_040",
+      "question": "@SuppressWarnings(\"all\")の効果として正しいものはどれか。",
+      "choices": [
+        "すべてのコンパイラ警告を抑制する",
+        "特定の警告タイプのみを抑制する",
+        "エラーを抑制する",
+        "実行時警告を抑制する"
+      ],
+      "answer": 0,
+      "explanation": "\"all\"キーワードを使用すると、すべてのコンパイラ警告が抑制されます。ただし、アンチパターンと見なされるため、具体的な警告タイプを指定することが推奨されます。"
+    },
+    {
+      "id": "java_annotations_041",
+      "question": "リフレクションを使用して、classファイルから削除されたアノテーション情報を取得しようとした場合、どうなるか。",
+      "choices": [
+        "nullが返される",
+        "例外が発生する",
+        "空の配列が返される",
+        "コンパイルエラーが発生する"
+      ],
+      "answer": 0,
+      "explanation": "@Retention(RetentionPolicy.SOURCE)で定義されたアノテーションは、ソースモードレベルエラーままコンパイルされません。したがって、classファイルに含まれず、リフレクションで取得することはできません。getAnnotation()はnullを返します。"
+    },
+    {
+      "id": "java_annotations_042",
+      "question": "アノテーション定義で、何の型も指定できない要素はどれか。",
+      "choices": [
+        "void型",
+        "List<String>型",
+        "カスタムクラス型",
+        "型配列"
+      ],
+      "answer": 0,
+      "explanation": "アノテーション要素の返却型としてvoid型は許可されません。primitiveタイプ、String、enum、annotation、Class、および これらの配列のみが許可されます。"
+    },
+    {
+      "id": "java_annotations_043",
+      "question": "複数のメソッドに同じアノテーションを継承させるパターンとして正しいものはどれか。",
+      "choices": [
+        "@Inheritedメタアノテーション",
+        "@Overrideアノテーション",
+        "手動でメソッドに付ける",
+        "インターフェースに付ける"
+      ],
+      "answer": 2,
+      "explanation": "@Inheritedはクラスレベルのアノテーション継承のみをサポートします。メソッドレベルのアノテーション継承は自動的には行われません。各メソッドに明示的にアノテーションを付ける必要があります。"
+    },
+    {
+      "id": "java_annotations_044",
+      "question": "アノテーション処理の失敗時に処理を中断するメソッドはどれか。",
+      "choices": [
+        "processingEnv.getMessager().printMessage(Kind.ERROR, ...)",
+        "processingEnv.getMessager().abortProcessing()",
+        "processingEnv.getMessager().throwException(...)",
+        "processingEnv.abort()"
+      ],
+      "answer": 0,
+      "explanation": "processingEnv.getMessager().printMessage(Kind.ERROR, ...)でエラーメッセージを出力し、コンパイルを中断できます。Kind.ERRORを指定すると、コンパイルエラーになります。"
+    },
+    {
+      "id": "java_annotations_045",
+      "question": "リフレクションでジェネリック型の完全な型情報を取得するために使用する必要があるインターフェースはどれか。",
+      "choices": [
+        "ParameterizedType",
+        "TypeVariable",
+        "GenericDeclaration",
+        "すべて関連している"
+      ],
+      "answer": 3,
+      "explanation": "ジェネリック型の完全な型情報を取得するには、ParameterizedType（List<String>などの型パラメータ化）、TypeVariable（型変数<T>）、GenericDeclaration（ジェネリック情報を保持するエンティティ）を共に使用する必要があります。"
+    },
+    {
+      "id": "java_annotations_046",
+      "question": "アノテーションプロセッサでコンパイラに新しいソースファイルを生成させるメソッドはどれか。",
+      "choices": [
+        "processingEnv.getFiler().createSourceFile(...)",
+        "processingEnv.getFiler().createResource(...)",
+        "processingEnv.getSourceLoader().createFile(...)",
+        "processingEnv.createNewFile(...)"
+      ],
+      "answer": 0,
+      "explanation": "processingEnv.getFiler().createSourceFile()メソッドで新しいJavaソースファイルを生成できます。これにより、アノテーションプロセッサが自動的にコードを生成することができます。createResource()はテキストファイルなどのリソースファイルを生成します。"
+    },
+    {
+      "id": "java_annotations_047",
+      "question": "アノテーションプロセッサがサポートするオプションを宣言する正しい方法はどれか。",
+      "choices": [
+        "processingEnv.getOptions(); ",
+        "@SupportedOptions({\"option1\", \"option2\"})",
+        "processingEnv.getSupportedOptions();",
+        "getProcessorOptions();"
+      ],
+      "answer": 1,
+      "explanation": "アノテーションプロセッサがサポートするコンパイラオプション（例：-Aoption1=value）を宣言するには、@SupportedOptionsアノテーションを使用します。これににより、processingEnv.getOptions()でそれらの値を取得できます。"
+    },
+    {
+      "id": "java_annotations_048",
+      "question": "アノテーションプロセッサがサポートする対象アノテーションを宣言する正しい方法はどれか。",
+      "choices": [
+        "@SupportedAnnotationTypes({\"com.example.MyAnnotation\"})",
+        "@Target(MyAnnotation.class)",
+        "processingEnv.getSupportedAnnotations();",
+        "getSupportedAnnotationTypes();"
+      ],
+      "answer": 0,
+      "explanation": "プロセッサがサポートする対象アノテーション（完全修飾名で指定）を宣言するには、@SupportedAnnotationTypesアノテーションを使用します。このプロセッサに送られるアノテーション型を指定します。"
+    },
+    {
+      "id": "java_annotations_049",
+      "question": "アノテーション定義で許可される修飾子として正しいものはどれか。",
+      "choices": [
+        "public、private、protected",
+        "publicのみ、またはデフォルト（package-private）",
+        "static、final",
+        "abstract、synchronized"
+      ],
+      "answer": 1,
+      "explanation": "アノテーション型の修飾子はpublicまたはパッケージプライベート（アクセス修飾子なし）のみが許可されます。private、protected、static、final、abstract等は適用できません。"
+    },
+    {
+      "id": "java_annotations_050",
+      "question": "リフレクション APIの完全な例として、クラスのすべてのpublicメソッドにアノテーションが付いているかをチェックする場合、正しい手順はどれか。",
+      "choices": [
+        "Class<?> clazz = MyClass.class; Method[] methods = clazz.getMethods(); for(Method m : methods) { if(m.getAnnotations().length > 0) }",
+        "Class<?> clazz = MyClass.class; Method[] methods = clazz.getDeclaredMethods(); for(Method m : methods) { if(m.isAnnotationPresent(MyAnnotation.class)) }",
+        "MyClass obj = new MyClass(); Method[] methods = obj.getMethods();",
+        "Class<?> clazz = MyClass.class; for(Method m : clazz.getMethods()) { MyAnnotation anno = m.getAnnotation(MyAnnotation.class); if(anno != null) }"
+      ],
+      "answer": 3,
+      "explanation": "正しいアプローチは、Classオブジェクトを取得し、getMethods()でpublicメソッドを取得し、各メソッドのgetAnnotation()で特定のアノテーション情報を取得することです。これでアノテーションの存在確認と値の取得が両方可能です。"
+    }
+  ]
+}

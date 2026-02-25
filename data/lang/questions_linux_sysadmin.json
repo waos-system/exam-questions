@@ -1,0 +1,606 @@
+{
+  "genre": "システム管理と監視",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_sysadmin_001",
+      "question": "Linuxシステムの主要なログファイルが保存されているディレクトリはどれか。",
+      "choices": [
+        "/etc/logs",
+        "/var/log",
+        "/usr/logs",
+        "/home/logs"
+      ],
+      "answer": 1,
+      "explanation": "/var/log はシステムログファイルの標準保存ディレクトリ。syslog、auth.log、kern.log などが配置される。"
+    },
+    {
+      "id": "linux_sysadmin_002",
+      "question": "Authentication関連のログファイルはどれか。",
+      "choices": [
+        "/var/log/kernel.log",
+        "/var/log/messages",
+        "/var/log/auth.log",
+        "/var/log/dmesg"
+      ],
+      "answer": 2,
+      "explanation": "/var/log/auth.log はユーザー認証・sudo実行・SSH接続試行などの記録を保存する。"
+    },
+    {
+      "id": "linux_sysadmin_003",
+      "question": "kernelメッセージを確認するコマンドはどれか。",
+      "choices": [
+        "dmesg",
+        "kernel",
+        "klog",
+        "syslog"
+      ],
+      "answer": 0,
+      "explanation": "dmesg コマンドはカーネルのリングバッファに保存されたメッセージを表示。ハードウェア検出やモジュール読み込み情報が含まれる。"
+    },
+    {
+      "id": "linux_sysadmin_004",
+      "question": "rsyslogの基本設定ファイルはどこか。",
+      "choices": [
+        "/etc/syslog.conf",
+        "/etc/rsyslog.conf",
+        "/var/log/rsyslog.conf",
+        "/etc/systemd/rsyslog.conf"
+      ],
+      "answer": 1,
+      "explanation": "/etc/rsyslog.conf がrsyslogのメイン設定ファイル。ログの送信先、形式、フィルタリングルールが記述される。"
+    },
+    {
+      "id": "linux_sysadmin_005",
+      "question": "journalctlコマンドで最新のログを100行表示する方法はどれか。",
+      "choices": [
+        "journalctl -n 100",
+        "journalctl --tail=100",
+        "journalctl -l 100",
+        "journalctl --lines 100"
+      ],
+      "answer": 1,
+      "explanation": "journalctl --tail=100 またはエイリアスの -n 100 で最新N行を表示。systemdジャーナルログの確認に使用。"
+    },
+    {
+      "id": "linux_sysadmin_006",
+      "question": "journalctlで特定のサービス(例：nginx)のログを表示する方法はどれか。",
+      "choices": [
+        "journalctl service=nginx",
+        "journalctl -u nginx",
+        "journalctl --service nginx",
+        "journalctl --filter nginx"
+      ],
+      "answer": 1,
+      "explanation": "journalctl -u nginx で指定したサービスのログのみを表示。systemdジャーナルの重要なフィルタリング方法。"
+    },
+    {
+      "id": "linux_sysadmin_007",
+      "question": "journalctlで日付範囲を指定してログを表示する方法はどれか。",
+      "choices": [
+        "journalctl -d 2024-01-01 -d 2024-01-31",
+        "journalctl --since 2024-01-01 --until 2024-01-31",
+        "journalctl -s 2024-01-01 -e 2024-01-31",
+        "journalctl --from 2024-01-01 --to 2024-01-31"
+      ],
+      "answer": 1,
+      "explanation": "journalctl --since と --until オプションで日時範囲指定。ISO8601形式(YYYY-MM-DD HH:MM:SS)に対応。"
+    },
+    {
+      "id": "linux_sysadmin_008",
+      "question": "syslogプロトコルの標準ポート番号はどれか。",
+      "choices": [
+        "22",
+        "53",
+        "514",
+        "8514"
+      ],
+      "answer": 2,
+      "explanation": "UDP 514がsyslog標準ポート。TLS使用時は6514。リモートログサーバーへの送信に使用。"
+    },
+    {
+      "id": "linux_sysadmin_009",
+      "question": "rsyslogでログメッセージのタイムスタンプを変更する場合、どのディレクティブを使うか。",
+      "choices": [
+        "timestamp-format",
+        "$ActionFileDefaultTemplate",
+        "template",
+        "time-format"
+      ],
+      "answer": 2,
+      "explanation": "rsyslogの template ディレクティブで日時書式を含むカスタムログ形式を定義。$ActionFileDefaultTemplate で適用。"
+    },
+    {
+      "id": "linux_sysadmin_010",
+      "question": "cronジョブのログを確認するコマンドはどれか。",
+      "choices": [
+        "grep cron /var/log/syslog",
+        "tail /var/log/cron",
+        "cat /var/log/cron.log",
+        "cron -l"
+      ],
+      "answer": 0,
+      "explanation": "cronジョブのログはsyslogに記録される。grep cron /var/log/syslog または journalctl -u cron で確認可能。"
+    },
+    {
+      "id": "linux_sysadmin_011",
+      "question": "logrotateの設定ファイルはどれか。",
+      "choices": [
+        "/etc/rotate.conf",
+        "/etc/logrotate.conf",
+        "/var/log/rotate.conf",
+        "/etc/log/rotation.conf"
+      ],
+      "answer": 1,
+      "explanation": "/etc/logrotate.conf がlogrotateのメイン設定ファイル。/etc/logrotate.d/ ディレクトリのスクリプトも読み込まれる。"
+    },
+    {
+      "id": "linux_sysadmin_012",
+      "question": "logrotateで1日ごとにログを分割する場合のディレクティブはどれか。",
+      "choices": [
+        "hourly",
+        "daily",
+        "rotate 1",
+        "size 1K"
+      ],
+      "answer": 1,
+      "explanation": "logrotate設定で daily ディレクティブを使用すると1日単位でログをローテーション。weekly、monthly、yearly も指定可能。"
+    },
+    {
+      "id": "linux_sysadmin_013",
+      "question": "logrotateでローテーション後、古いログファイルを指定日数保持する場合のディレクティブはどれか。",
+      "choices": [
+        "keep 7",
+        "retain 7",
+        "rotate 7",
+        "store 7"
+      ],
+      "answer": 2,
+      "explanation": "rotate 7 で7世代分のログを保持。rotate 0 が指定されると、分割直後に削除される。"
+    },
+    {
+      "id": "linux_sysadmin_014",
+      "question": "logrotateのpostrotate スクリプト例として適切なものはどれか。",
+      "choices": [
+        "postrotate { systemctl restart syslog }",
+        "postrotate\\n systemctl restart rsyslog\\nendscript",
+        "post-rotate systemctl restart rsyslog",
+        "after-rotate systemctl restart rsyslog end"
+      ],
+      "answer": 1,
+      "explanation": "logrotate設定では postrotate と endscript の間にコマンドを記述。newlines となります。syslog再起動でローテーション完了後の設定を反映。"
+    },
+    {
+      "id": "linux_sysadmin_015",
+      "question": "logrotateで圧縮されたログにオプションを追加する場合のディレクティブはどれか。",
+      "choices": [
+        "compress-option",
+        "compresscmd",
+        "compress-level",
+        "compression"
+      ],
+      "answer": 1,
+      "explanation": "compresscmd ディレクティブで圧縮コマンド(gzip等)を指定。デフォルトはgzipで .gz 拡張子が付く。"
+    },
+    {
+      "id": "linux_sysadmin_016",
+      "question": "topコマンドで表示される PRI (Priority) の値が意味することはどれか。",
+      "choices": [
+        "CPUにおける優先度",
+        "プロセスのメモリ優先度",
+        "I/O優先度",
+        "実行待ちキューでの位置"
+      ],
+      "answer": 0,
+      "explanation": "PRI はプロセスのカーネル内での実行優先度。低い値ほど高優先度。NI (Nice値)で調整可能。"
+    },
+    {
+      "id": "linux_sysadmin_017",
+      "question": "topコマンドを実行した際、VIRT、RES、SHR を説明するもので、正しいものはどれか。",
+      "choices": [
+        "VIRT=仮想メモリ総量、RES=物理メモリ使用量、SHR=共有メモリ",
+        "VIRT=物理メモリ、RES=被作成メモリ、SHR=共有ライブラリ",
+        "VIRT=仮想メモリ開始、RES=結果、SHR=共有",
+        "VIRT=可視域、RES=リソース、SHR=シェア"
+      ],
+      "answer": 0,
+      "explanation": "VIRT(仮想メモリ)=プロセスが要求した全メモリ、RES(物理メモリ)=実際に使用中のメモリ、SHR(共有メモリ)=複数プロセスで共有のメモリ。"
+    },
+    {
+      "id": "linux_sysadmin_018",
+      "question": "htopコマンドで表示されるロードアベレージの意味は何か。",
+      "choices": [
+        "CPU平均使用率",
+        "メモリ平均使用，",
+        "一定期間の平均実行可能プロセス数",
+        "ディスク I/O平均値"
+      ],
+      "answer": 2,
+      "explanation": "ロードアベレージ(Load Average)は、直近1分・5分・15分間の平均実行可能プロセス数。CPU数と比較して過負荷を判断。"
+    },
+    {
+      "id": "linux_sysadmin_019",
+      "question": "iostatコマンドでディスクの平均読み書きキューサイズを確認するパラメータはどれか。",
+      "choices": [
+        "avgqu-sz",
+        "avqsz",
+        "avg-queue",
+        "aqsz"
+      ],
+      "answer": 0,
+      "explanation": "iostat -x でディスク詳細統計を表示。avgqu-sz は平均キューサイズで disk I/O の遅延を示す。"
+    },
+    {
+      "id": "linux_sysadmin_020",
+      "question": "vmstatコマンドで実行可能状態のプロセス数を表示するフィールドはどれか。",
+      "choices": [
+        "r (run queue)",
+        "b (block)",
+        "nr (number run)",
+        "rq (run queue size)"
+      ],
+      "answer": 0,
+      "explanation": "vmstat の r フィールドは実行待ちプロセス数。b フィールドはI/O待機中のプロセス数。CPU使用率を判断する重要な指標。"
+    },
+    {
+      "id": "linux_sysadmin_021",
+      "question": "sarコマンドでCPU使用率の内訳を表示するには、どのオプションを使うか。",
+      "choices": [
+        "sar -c",
+        "sar -u",
+        "sar -p",
+        "sar -m"
+      ],
+      "answer": 1,
+      "explanation": "sar -u でCPU使用率を表示。user%、nice%、system%、iowait%、steal%、idle% に分類。"
+    },
+    {
+      "id": "linux_sysadmin_022",
+      "question": "sarコマンドでディスク I/O統計を表示するオプションはどれか。",
+      "choices": [
+        "sar -d",
+        "sar -i",
+        "sar -o",
+        "sar -b"
+      ],
+      "answer": 0,
+      "explanation": "sar -d でディスク I/O統計を表示。読み書きの件数やスループット情報を確認可能。"
+    },
+    {
+      "id": "linux_sysadmin_023",
+      "question": "MemAvailable (利用可能メモリ) はどのファイルから確認できるか。",
+      "choices": [
+        "/proc/meminfo",
+        "/sys/meminfo",
+        "/proc/mem",
+        "/dev/meminfo"
+      ],
+      "answer": 0,
+      "explanation": "/proc/meminfo に MemTotal、MemFree、MemAvailable などのメモリ関連情報が格納。free コマンドもこのファイルを読み込む。"
+    },
+    {
+      "id": "linux_sysadmin_024",
+      "question": "キャッシュ汚れ度(Dirty Pages)を確認するコマンド/ファイルはどれか。",
+      "choices": [
+        "cat /proc/meminfo | grep Dirty",
+        "vmstat 1 5 | grep dirty",
+        "iostat -x | grep dirty",
+        "top -b | grep Dirty"
+      ],
+      "answer": 0,
+      "explanation": "/proc/meminfo の Dirty フィールドでメモリ上の未書き込みデータ量を確認。書き込み待機中のメモリを示す。"
+    },
+    {
+      "id": "linux_sysadmin_025",
+      "question": "mpstatコマンドで複数CPU間のパフォーマンスを比較する際、正しい使い方はどれか。",
+      "choices": [
+        "mpstat -P all",
+        "mpstat -A",
+        "mpstat all",
+        "mpstat -c"
+      ],
+      "answer": 0,
+      "explanation": "mpstat -P all で全CPU別の統計情報を表示。各CPUコアの使用率を個別確認し、負荷の不均衡を検出。"
+    },
+    {
+      "id": "linux_sysadmin_026",
+      "question": "nice値とrenice コマンドについて、正しい説明はどれか。",
+      "choices": [
+        "nice値が高いほど優先度が高い",
+        "nice値が低いほど優先度が低い",
+        "nice値は固定で変更できない",
+        "reniceで UIDを変更できる"
+      ],
+      "answer": 1,
+      "explanation": "nice値は-20〜19で、低いほど高優先度。renice でプロセス実行中に優先度調整可能。"
+    },
+    {
+      "id": "linux_sysadmin_027",
+      "question": "プロセスの CPU affinity を確認するコマンドはどれか。",
+      "choices": [
+        "ps -o affinity",
+        "taskset -c -p PID",
+        "top -b | grep CPU",
+        "cpuinfo PID"
+      ],
+      "answer": 1,
+      "explanation": "taskset -c -p PID でプロセスの CPU affinity（どのCPUで実行されるか）を確認・変更可能。NUMA環境での最適化に重要。"
+    },
+    {
+      "id": "linux_sysadmin_028",
+      "question": "プロセス監視で、zombie プロセスが発生する原因は何か。",
+      "choices": [
+        "メモリ不足",
+        "ファイルディスクリプタ不足",
+        "子プロセスの終了が親プロセスに待機される",
+        "ディスク容量不足"
+      ],
+      "answer": 2,
+      "explanation": "zombie プロセスは子プロセスが終了しても親が wait() を実行しない状態。プロセステーブルに残存し、リソース浪費。"
+    },
+    {
+      "id": "linux_sysadmin_029",
+      "question": "ps コマンドで実行中のプロセスの CPU使用率をリアルタイムで監視するには、どのコマンドが最適か。",
+      "choices": [
+        "ps aux | sort",
+        "watch -n 1 'ps aux | sort -k 3'",
+        "ps -L -o %cpu",
+        "ps --cpu | tail"
+      ],
+      "answer": 1,
+      "explanation": "watch -n 1 'ps aux | sort -k 3' で1秒間隔でCPU使用率を監視。top や htop も選択肢だが、ps活用の場合の最适解。"
+    },
+    {
+      "id": "linux_sysadmin_030",
+      "question": "systemd-cgtop コマンドの目的は何か。",
+      "choices": [
+        "システムの温度を監視",
+        "cgroup別のリソース使用状況を監視",
+        "ネットワークトラフィックを確認",
+        "ディスク容量の内訳を表示"
+      ],
+      "answer": 1,
+      "explanation": "systemd-cgtop は cgroup (Control Group) 単位でリソース使用状況をリアルタイム表示。サービス別の CPU/メモリ使用量を確認可能。"
+    },
+    {
+      "id": "linux_sysadmin_031",
+      "question": "プロセスがオープンしているファイルディスクリプタ数の上限値はどこで確認できるか。",
+      "choices": [
+        "ulimit -n",
+        "getrlimit -f",
+        "limit -c",
+        "sysctl fs.limits"
+      ],
+      "answer": 0,
+      "explanation": "ulimit -n でシェルセッションのファイルディスクリプタ上限を確認・変更可能。/etc/security/limits.conf で上限を設定。"
+    },
+    {
+      "id": "linux_sysadmin_032",
+      "question": "lsofコマンドで特定のプロセスがオープンしているファイルを確認するには、どのオプションを使うか。",
+      "choices": [
+        "lsof -p PID",
+        "lsof --pid=PID",
+        "lsof PID",
+        "lsof -P PID"
+      ],
+      "answer": 0,
+      "explanation": "lsof -p PID で指定プロセスがオープンしているファイル・ソケット・デバイスを表示。トラブルシューティング時に有用。"
+    },
+    {
+      "id": "linux_sysadmin_033",
+      "question": "ps コマンドで、親プロセスのPIDを確認するにはどのオプションを使うか。",
+      "choices": [
+        "ps -o ppid",
+        "ps -u ppid",
+        "ps --parent",
+        "ps -p ppid"
+      ],
+      "answer": 0,
+      "explanation": "ps -o ppid でプロセスのPPID(Parent Process ID)をカスタム出力。プロセス階層の把握に利用。"
+    },
+    {
+      "id": "linux_sysadmin_034",
+      "question": "プロセスのメモリリーク検出に利用するツールはどれか。",
+      "choices": [
+        "valgrind",
+        "strace",
+        "tcpdump",
+        "netstat"
+      ],
+      "answer": 0,
+      "explanation": "valgrind はメモリリーク検出・デバッグツール。メモリアロケーション追跡とメモリエラー検出に用いる。"
+    },
+    {
+      "id": "linux_sysadmin_035",
+      "question": "システムコール追跡ツール straceの利用例として適切なものはどれか。",
+      "choices": [
+        "strace -e open プロセス名",
+        "strace -f プロセス名",
+        "strace -e open(2) プロセス名",
+        "strace -p PID -e trace=open"
+      ],
+      "answer": 3,
+      "explanation": "strace -p PID -e trace=open で実行中プロセスの open() システムコール追跡。-f で子プロセスも追跡可能。"
+    },
+    {
+      "id": "linux_sysadmin_036",
+      "question": "/proc/[PID]/stat ファイルでプロセスの状態を判定する場合、どのフィールドを確認するか。",
+      "choices": [
+        "第1フィールド",
+        "第3フィールド",
+        "第8フィールド",
+        "第10フィールド"
+      ],
+      "answer": 1,
+      "explanation": "/proc/[PID]/stat の第3フィールド(state)でプロセス状態を確認。S(sleep)、R(running)、D(disk sleep)など。"
+    },
+    {
+      "id": "linux_sysadmin_037",
+      "question": "プロセス優先度スケジューリングで、実時間スケジューリングポリシーはどれか。",
+      "choices": [
+        "SCHED_OTHER",
+        "SCHED_BATCH",
+        "SCHED_FIFO",
+        "SCHED_IDLE"
+      ],
+      "answer": 2,
+      "explanation": "SCHED_FIFO (First In First Out) はリアルタイムスケジューリング。SCHED_OTHER は通常のタイムスライス方式。"
+    },
+    {
+      "id": "linux_sysadmin_038",
+      "question": "swapメモリの使用状況を確認するコマンドはどれか。",
+      "choices": [
+        "free -h",
+        "swap -l",
+        "swapon -l",
+        "swapstat"
+      ],
+      "answer": 0,
+      "explanation": "free -h でメモリ・スワップの使用状況を表示。swapon -s でswap パーティション一覧も確認可能。"
+    },
+    {
+      "id": "linux_sysadmin_039",
+      "question": "メモリページキャッシュのドロップ(キャッシュ削除)を実行するコマンドはどれか。",
+      "choices": [
+        "sync; echo 3 > /proc/sys/vm/drop_caches",
+        "drop_cache 3",
+        "cache --drop",
+        "flush_memory"
+      ],
+      "answer": 0,
+      "explanation": "sync 実行後、echo 3 > /proc/sys/vm/drop_caches でページキャッシュ・バッファ・inode キャッシュをドロップ。測定前などに使用。"
+    },
+    {
+      "id": "linux_sysadmin_040",
+      "question": "numa ノード間のメモリアクセス遅延を考慮したチューニングで使うコマンドはどれか。",
+      "choices": [
+        "numactl",
+        "numa-policy",
+        "numstat",
+        "numa-balance"
+      ],
+      "answer": 0,
+      "explanation": "numactl でNUMA ノードをバインド。例：numactl --physcpubind=0 --localalloc ./app で特定ノードでプロセス実行。"
+    },
+    {
+      "id": "linux_sysadmin_041",
+      "question": "ページキャッシュ比率が高い状況で、メモリ圧力を軽減する方法はどれか。",
+      "choices": [
+        "swappiness パラメータを低下",
+        "vm.dirty_ratio を上限",
+        "oom_killer の無効化",
+        "compact_memory を実行"
+      ],
+      "answer": 0,
+      "explanation": "sysctl vm.swappiness を低下(デフォルト60)させると、スワップ使用を減少させ、ページキャッシュ優先。"
+    },
+    {
+      "id": "linux_sysadmin_042",
+      "question": "CPU キャッシュの効率を報告するツールはどれか。",
+      "choices": [
+        "perf stat",
+        "cache-info",
+        "cpustat",
+        "l3cache"
+      ],
+      "answer": 0,
+      "explanation": "perf stat でCPU キャッシュ miss 率などのパフォーマンスカウンタを表示。CPU効率分析に有用。"
+    },
+    {
+      "id": "linux_sysadmin_043",
+      "question": "ディスク I/O ウェイト時間が高い場合、どの統計値が大きくなるか。",
+      "choices": [
+        "%user",
+        "%iowait",
+        "%idle",
+        "%nice"
+      ],
+      "answer": 1,
+      "explanation": "ディスク I/O 待機により %iowait (I/O Wait %) が増加。CPU が I/O 完了待ちの割合を示す重要な指標。"
+    },
+    {
+      "id": "linux_sysadmin_044",
+      "question": "iostat でディスク読み込み遅延を確認するパラメータはどれか。",
+      "choices": [
+        "r_await",
+        "rreq/s",
+        "svctm",
+        "rsz"
+      ],
+      "answer": 0,
+      "explanation": "iostat -x の r_await はディスク読み込み要求の平均完了時間(ミリ秒)。w_await は書き込み遅延。"
+    },
+    {
+      "id": "linux_sysadmin_045",
+      "question": "disk queue length が大きい場合、何を示しているか。",
+      "choices": [
+        "CPU 使用率が高い",
+        "ディスク I/O が飽和気味",
+        "メモリが不足",
+        "ネットワークが混雑"
+      ],
+      "answer": 1,
+      "explanation": "disk queue length = avgqu-sz が大きいと、ディスク I/O が処理しきれず待機待ち。I/O バウンドを示す。"
+    },
+    {
+      "id": "linux_sysadmin_046",
+      "question": "ディスクのランダム I/O と シーケンシャル I/O をベンチマークするツールはどれか。",
+      "choices": [
+        "bonnie++",
+        "fio",
+        "dd if=/dev/zero",
+        "iozone"
+      ],
+      "answer": 1,
+      "explanation": "fio (Flexible I/O tester) はディスク I/O ベンチマークの標準ツール。詳細な設定でI/O パターンをシミュレート可能。"
+    },
+    {
+      "id": "linux_sysadmin_047",
+      "question": "crontabで毎月1日の午前3時にジョブを実行する記述はどれか。",
+      "choices": [
+        "0 3 1 * * command",
+        "3 1 * * 1 command",
+        "1 3 * * * command",
+        "0 3 * 1 * command"
+      ],
+      "answer": 0,
+      "explanation": "crontab 書式：分 時 日 月 曜日 コマンド。'0 3 1 * *' で毎月1日3時0分実行。"
+    },
+    {
+      "id": "linux_sysadmin_048",
+      "question": "crontabで毎週金曜日の午後6時に実行するスケジュール記述はどれか。",
+      "choices": [
+        "0 6 * * 5 command",
+        "0 18 * * 5 command",
+        "6 * * 5 command",
+        "0 18 * * Friday command"
+      ],
+      "answer": 1,
+      "explanation": "crontab で週5(金曜)の18時(午後6時)は '0 18 * * 5'。曜日は0(日)〜6(土)。"
+    },
+    {
+      "id": "linux_sysadmin_049",
+      "question": "systemd timer で定期実行を実装する場合、必要なファイルはどれか。",
+      "choices": [
+        ".service ファイルのみ",
+        ".timer ファイルのみ",
+        ".service と .timer ファイル",
+        ".service と .cron ファイル"
+      ],
+      "answer": 2,
+      "explanation": "systemd timer ではサービスを定義する .service と、スケジュール定義の .timer ファイルが必要。/etc/systemd/system/ 配置。"
+    },
+    {
+      "id": "linux_sysadmin_050",
+      "question": "systemd timer で 毎日午前2時にサービスを実行する OnCalendar 設定はどれか。",
+      "choices": [
+        "OnCalendar=*-*-* 02:00:00",
+        "OnCalendar=daily 02:00",
+        "OnCalendar=*02:00",
+        "OnCalendar=@daily 02:00"
+      ],
+      "answer": 0,
+      "explanation": "systemd timer の OnCalendar は ISO8601形式。'*-*-* 02:00:00' で毎日午前2時。'*-*-* 02:30:00' なら2時30分。"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "genre": "Webアプリケーション開発",
+  "exam": "Python",
+  "questions": [
+    {
+      "id": "python_web_001",
+      "question": "Flaskで基本的なルートを定義する方法として正しいものはどれか。",
+      "choices": [
+        "@app.route('/path')\ndef handler():",
+        "@route('/path')",
+        "def app_route('/path'):",
+        "@app.get('/path')"
+      ],
+      "answer": 0,
+      "explanation": "Flaskではデコレータ @app.route() でルートを定義する。"
+    },
+    {
+      "id": "python_web_002",
+      "question": "Flaskで複数のHTTPメソッドを1つのルートで処理する書き方として適切なものはどれか。",
+      "choices": [
+        "@app.route('/path', method=['GET', 'POST'])",
+        "@app.route('/path', methods=['GET', 'POST'])",
+        "@app.route('/path', http=['GET', 'POST'])",
+        "@app.route('/path', handle=['GET', 'POST'])"
+      ],
+      "answer": 1,
+      "explanation": "methods パラメータで複数のHTTPメソッドを指定する。"
+    },
+    {
+      "id": "python_web_003",
+      "question": "FlaskでJsonification（JSON応答）を返す標準的な方法はどれか。",
+      "choices": [
+        "return json.dumps(data)",
+        "return jsonify(data)",
+        "return render_json(data)",
+        "return json_response(data)"
+      ],
+      "answer": 1,
+      "explanation": "jsonify() はFlask組み込みで、適切なContent-Typeヘッダを設定する。"
+    },
+    {
+      "id": "python_web_004",
+      "question": "Flaskでリクエストボディから JSON データを取得する方法として正しいものはどれか。",
+      "choices": [
+        "request.data.json",
+        "request.json",
+        "request.body_json",
+        "request.get_json()"
+      ],
+      "answer": 3,
+      "explanation": "request.get_json() または request.json でJSON解析データを取得する。"
+    },
+    {
+      "id": "python_web_005",
+      "question": "DjangoのORMで単一オブジェクトを取得するメソッドとして適切なものはどれか。",
+      "choices": [
+        "Model.select()",
+        "Model.get()",
+        "Model.objects.get()",
+        "Model.find()"
+      ],
+      "answer": 2,
+      "explanation": "Django ORM では Model.objects.get() で単一オブジェクトを取得する。"
+    },
+    {
+      "id": "python_web_006",
+      "question": "Djangoで複数オブジェクトをフィルタリングして取得するメソッドはどれか。",
+      "choices": [
+        "Model.objects.filter()",
+        "Model.objects.where()",
+        "Model.objects.select()",
+        "Model.objects.find()"
+      ],
+      "answer": 0,
+      "explanation": "filter() で条件に合致する複数オブジェクトのQuerySetを返す。"
+    },
+    {
+      "id": "python_web_007",
+      "question": "Djangoテンプレートで変数を出力する構文として正しいものはどれか。",
+      "choices": [
+        "{{ variable }}",
+        "{% variable %}",
+        "<% variable %>",
+        "[[ variable ]]"
+      ],
+      "answer": 0,
+      "explanation": "{{ }} で変数を展開する。{% %} はタグ（制御文）用。"
+    },
+    {
+      "id": "python_web_008",
+      "question": "Djangoテンプレートで条件分岐を行う構文として正しいものはどれか。",
+      "choices": [
+        "{{ if condition }} ... {{ endif }}",
+        "{% if condition %} ... {% endif %}",
+        "<!-- if condition --> ... <!-- /if -->",
+        "{%if condition%} ... {%/if%}"
+      ],
+      "answer": 1,
+      "explanation": "{% if %} ... {% endif %} でテンプレート内の条件分岐を実装する。"
+    },
+    {
+      "id": "python_web_009",
+      "question": "DjangoのURLルーティングで、URLパターンマッチングに使う関数は何か。",
+      "choices": [
+        "django.urls.url()",
+        "django.urls.path()",
+        "django.urls.route()",
+        "django.urls.pattern()"
+      ],
+      "answer": 1,
+      "explanation": "path() またはre_path() でURLパターンを定義する（url()は非推奨）。"
+    },
+    {
+      "id": "python_web_010",
+      "question": "Flaskでパスパラメータを使う場合の定義として正しいものはどれか。",
+      "choices": [
+        "@app.route('/user/<user_id>')",
+        "@app.route('/user/{user_id}')",
+        "@app.route('/user/:user_id')",
+        "@app.route('/user/<id:user_id>')"
+      ],
+      "answer": 0,
+      "explanation": "< > でパス変数を定義し、関数引数で受け取る。"
+    },
+    {
+      "id": "python_web_011",
+      "question": "DjangoのURL逆解決で、ビュー関数の名前からURLを生成する関数はどれか。",
+      "choices": [
+        "reverse_url()",
+        "reverse()",
+        "get_url()",
+        "url_for()"
+      ],
+      "answer": 1,
+      "explanation": "reverse() で ビュー名からURLを生成し、テンプレートでは {% url %} タグを使う。"
+    },
+    {
+      "id": "python_web_012",
+      "question": "Flask-WTFでCSRFトークンを有効にするための認証キー設定の説明として正しいものはどれか。",
+      "choices": [
+        "app.config['CSRF_TOKEN'] = 'secret'",
+        "app.config['SECRET_KEY'] = 'secret'",
+        "app.config['TOKEN_SECRET'] = 'secret'",
+        "app.config['SECURITY_KEY'] = 'secret'"
+      ],
+      "answer": 1,
+      "explanation": "SECRET_KEY はセッションとCSRF保護に必須の設定項目。"
+    },
+    {
+      "id": "python_web_013",
+      "question": "FlaskでformデータをPOST経由で取得する方法として適切なものはどれか。",
+      "choices": [
+        "request.form.get()",
+        "request.data.get()",
+        "request.POST.get()",
+        "request.body.get()"
+      ],
+      "answer": 0,
+      "explanation": "request.form で フォームパラメータにアクセスできる。"
+    },
+    {
+      "id": "python_web_014",
+      "question": "Djangoのセッション管理で、セッションデータにキー情報を保存する方法として正しいものはどれか。",
+      "choices": [
+        "session['key'] = value",
+        "request.session['key'] = value",
+        "Session['key'] = value",
+        "set_session('key', value)"
+      ],
+      "answer": 1,
+      "explanation": "request.session は辞書のように使用でき、自動的に永続化される。"
+    },
+    {
+      "id": "python_web_015",
+      "question": "Flaskでセッションデータを保存する方法として正しいものはどれか。",
+      "choices": [
+        "flask.session['key'] = value",
+        "session['key'] = value",
+        "from flask import session; session['key'] = value",
+        "store_session('key', value)"
+      ],
+      "answer": 2,
+      "explanation": "flask モジュールから session をインポートして使用する。"
+    },
+    {
+      "id": "python_web_016",
+      "question": "Flaskでuser認証情報を persistent方式で管理するためのメジャーな拡張はどれか。",
+      "choices": [
+        "Flask-Login",
+        "Flask-Auth",
+        "Flask-Security",
+        "Flask-User"
+      ],
+      "answer": 0,
+      "explanation": "Flask-Login はセッション管理と current_user サポートを提供する標準拡張。"
+    },
+    {
+      "id": "python_web_017",
+      "question": "RESTful APIでリソース名の複数形を使用することの利点として適切なものはどれか。",
+      "choices": [
+        "パフォーマンスが向上する",
+        "コレクションリソースを表現でき、慣例的で一貫性がある",
+        "HTTPメソッドの数が増える",
+        "データベースサイズが削減される"
+      ],
+      "answer": 1,
+      "explanation": "複数形（/users）はコレクション、単数形（/user/1）はリソースを表現する。"
+    },
+    {
+      "id": "python_web_018",
+      "question": "FlaskでRESTful APIをサポートする標準的な拡張はどれか。",
+      "choices": [
+        "Flask-API",
+        "Flask-RESTful",
+        "Flask-REST",
+        "Flask-RESTAPI"
+      ],
+      "answer": 1,
+      "explanation": "Flask-RESTful はResource クラスベースのAPI開発を簡潔にする。"
+    },
+    {
+      "id": "python_web_019",
+      "question": "カスタムHTTPステータスコードとメッセージを設定してレスポンスを返す方法として適切なものはどれか。",
+      "choices": [
+        "return data, 201, headers",
+        "return make_response(data, 201)",
+        "return jsonify(data), 201",
+        "response(data, 201)"
+      ],
+      "answer": 0,
+      "explanation": "タプルで (data, status_code, headers) を返すと、Flaskが自動処理する。"
+    },
+    {
+      "id": "python_web_020",
+      "question": "Djangoのミドルウェア（middleware）の説明として正しいものはどれか。",
+      "choices": [
+        "ユーザーリクエストとビュー処理の間で処理を挿入できる層",
+        "テンプレート内処理の中核",
+        "データベース接続の管理層",
+        "キャッシング専用の仕組み"
+      ],
+      "answer": 0,
+      "explanation": "ミドルウェアはリクエスト/レスポンスの前後で処理を実行する。"
+    },
+    {
+      "id": "python_web_021",
+      "question": "Flaskでエラーハンドラを定義する装飾子として正しいものはどれか。",
+      "choices": [
+        "@app.error_handler(404)",
+        "@app.errorhandler(404)",
+        "@error_handler(404)",
+        "@handle_error(404)"
+      ],
+      "answer": 1,
+      "explanation": "@app.errorhandler(エラーコード) でエラー処理を定義する。"
+    },
+    {
+      "id": "python_web_022",
+      "question": "HTTPステータスコード 404 の意味として正しいものはどれか。",
+      "choices": [
+        "Unauthorized（認可不足）",
+        "Not Found（見つからない）",
+        "Internal Server Error（サーバー側エラー）",
+        "Bad Request（不正なリクエスト）"
+      ],
+      "answer": 1,
+      "explanation": "404 はリクエストされたリソースが見つからないことを示す。"
+    },
+    {
+      "id": "python_web_023",
+      "question": "HTTPステータスコード 500 の意味として正しいものはどれか。",
+      "choices": [
+        "Unauthorized（認可不足）",
+        "Not Found（見つからない）",
+        "Internal Server Error（サーバー側エラー）",
+        "Service Unavailable（サービス利用不可）"
+      ],
+      "answer": 2,
+      "explanation": "500 は予期しないサーバー側エラーを示す。"
+    },
+    {
+      "id": "python_web_024",
+      "question": "Flaskで静的ファイル（CSS、JavaScript、画像）を提供するデフォルトパスは何か。",
+      "choices": [
+        "/resources",
+        "/public",
+        "/static",
+        "/assets"
+      ],
+      "answer": 2,
+      "explanation": "Flask は app.static_folder（デフォルト /static）から静的ファイルを提供する。"
+    },
+    {
+      "id": "python_web_025",
+      "question": "DjangoでPOSTリクエストのCSRF保護を無効化する装飾子はどれか。",
+      "choices": [
+        "@csrf_excluded",
+        "@csrf_exempt",
+        "@no_csrf",
+        "@disable_csrf"
+      ],
+      "answer": 1,
+      "explanation": "@csrf_exempt で個別ビューのCSRF保護を無効化できる。"
+    },
+    {
+      "id": "python_web_026",
+      "question": "Flask-CORSのセットアップで、すべてのリソースに対してCORSを有効にする方法は何か。",
+      "choices": [
+        "cors = CORS(app)",
+        "enable_cors(app)",
+        "app.config['CORS_ENABLED'] = True",
+        "cors.init_app(app)"
+      ],
+      "answer": 0,
+      "explanation": "CORS(app) でアプリケーション全体にCORSサポートを追加する。"
+    },
+    {
+      "id": "python_web_027",
+      "question": "CORSのプリフライトリクエストとは何か。",
+      "choices": [
+        "初回接続の確認リクエスト",
+        "OPTIONS メソッドで実際のリクエスト前にサーバーの許可を確認するリクエスト",
+        "PUSHメソッドの準備リクエスト",
+        "キャッシュの チェックリクエスト"
+      ],
+      "answer": 1,
+      "explanation": "プリフライトはOPTIONSメソッドでCORS許可を確認してから実リクエストを送信する。"
+    },
+    {
+      "id": "python_web_028",
+      "question": "Djangoで非同期ビュー関数を定義する場合の async/await 対応としてのバージョン要件は何か。",
+      "choices": [
+        "Django 2.1+",
+        "Django 3.1+",
+        "Django 4.1+",
+        "Django 5.0+"
+      ],
+      "answer": 1,
+      "explanation": "Django 3.1 から ネイティブの async ビューサポートが公式に提供されている。"
+    },
+    {
+      "id": "python_web_029",
+      "question": "Flaskで gzip 圧縮レスポンスを有効にする拡張はどれか。",
+      "choices": [
+        "Flask-Compress",
+        "Flask-Gzip",
+        "Flask-Deflate",
+        "Flask-Encoding"
+      ],
+      "answer": 0,
+      "explanation": "Flask-Compress は自動的にレスポンスをgzip压縩する。"
+    },
+    {
+      "id": "python_web_030",
+      "question": "DjangoのORM で複数の条件を組み合わせてAND検索する方法は何か。",
+      "choices": [
+        "Model.objects.filter().filter()",
+        "Model.objects.filter(Q(cond1) & Q(cond2))",
+        "Model.objects.filter(cond1, cond2)",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "filter の連鎖、Q オブジェクト、カンマ区切り すべて AND となる。"
+    },
+    {
+      "id": "python_web_031",
+      "question": "DjangoのORM で OR検索を行う方法として正しいものはどれか。",
+      "choices": [
+        "Model.objects.filter(cond1 | cond2)",
+        "Model.objects.filter(Q(cond1) | Q(cond2))",
+        "Model.objects.filter(cond1).or(cond2)",
+        "Model.objects.filter_or(cond1, cond2)"
+      ],
+      "answer": 1,
+      "explanation": "Q() オブジェクトを | で連結することで OR検索を実現する。"
+    },
+    {
+      "id": "python_web_032",
+      "question": "Flaskでリダイレクトレスポンスを返す関数は何か。",
+      "choices": [
+        "redirect(url)",
+        "redirect_to(url)",
+        "goto(url)",
+        "route(url)"
+      ],
+      "answer": 0,
+      "explanation": "redirect() でHTTP リダイレクトレスポンス（302など）を返す。"
+    },
+    {
+      "id": "python_web_033",
+      "question": "Djangoでビュー引数の型変換を行うPythonパス変数としての正しい定義は何か。",
+      "choices": [
+        "path('post/<int:pk>/', views.post_detail)",
+        "path('post/<id:pk>/', views.post_detail)",
+        "path('post/<pk:int>/', views.post_detail)",
+        "path('post/<:int:pk>/', views.post_detail)"
+      ],
+      "answer": 0,
+      "explanation": "<int:pk> で pk をint型に変換する。str, int, slug, uuid などが利用可能。"
+    },
+    {
+      "id": "python_web_034",
+      "question": "WSGIサーバーの役割として正しいものはどれか。",
+      "choices": [
+        "Webフレームワークとしてのすべての機能を提供する",
+        "Pythonアプリケーションとウェブサーバーの橋渡し規格を実装する",
+        "データベース接続の管理",
+        "フロントエンド JavaScriptの実行"
+      ],
+      "answer": 1,
+      "explanation": "WSGI は標準インターフェースで、Pythonアプリを HTTPリクエスト/レスポンスに変換する。"
+    },
+    {
+      "id": "python_web_035",
+      "question": "gunicorn の基本的な起動コマンドとして正しいものはどれか。",
+      "choices": [
+        "gunicorn app.py",
+        "gunicorn app:app",
+        "gunicorn run app.py",
+        "gunicorn start --app app.py"
+      ],
+      "answer": 1,
+      "explanation": "gunicorn app:app は module:variable の形式でアプリケーションを指定する。"
+    },
+    {
+      "id": "python_web_036",
+      "question": "nginx の主な役割として適切なものはどれか。",
+      "choices": [
+        "Pythonスクリプトの実行エンジン",
+        "リバースプロキシとロードバランサー、静的ファイル配信",
+        "データベースサーバー",
+        "ユーザー認証のみ"
+      ],
+      "answer": 1,
+      "explanation": "nginx はWebサーバー兼リバースプロキシとして、gunicorn などのアプリサーバーの前に置かれる。"
+    },
+    {
+      "id": "python_web_037",
+      "question": "Django管理画面（admin）を有効にするための必要な設定として正しいものはどれか。",
+      "choices": [
+        "settings.py に django.contrib.admin を INSTALLED_APPS に追加し、urls.py に admin.site.urls を含める",
+        "models.py でadmin_enable = True と設定",
+        "@admin デコレータをモデルに付ける",
+        "manage.py で enable_admin を実行"
+      ],
+      "answer": 0,
+      "explanation": "admin アプリを登録して urls.site.urls をインクルードすることで管理画面が有効化される。"
+    },
+    {
+      "id": "python_web_038",
+      "question": "Djangoモデルで整数値として save() 前にバリデーションを行える Meta オプションはどれか。",
+      "choices": [
+        "validators",
+        "constraints",
+        "class Meta: constraints = [...]",
+        "すべて利用可能"
+      ],
+      "answer": 2,
+      "explanation": "Meta.constraints でモデルレベルの制約を定義できる（Django 2.2+）。"
+    },
+    {
+      "id": "python_web_039",
+      "question": "Flask テンプレートで外部テンプレートを継承する構文はどれか。",
+      "choices": [
+        "{% extends 'base.html' %}",
+        "{% include 'base.html' %}",
+        "{% inherit 'base.html' %}",
+        "{% import 'base.html' %}"
+      ],
+      "answer": 0,
+      "explanation": "extends で基底テンプレートを継承し、block で内容をオーバーライドする。"
+    },
+    {
+      "id": "python_web_040",
+      "question": "Flaskで別のテンプレートを埋め込む（再利用）する構文はどれか。",
+      "choices": [
+        "{% extends 'partial.html' %}",
+        "{% include 'partial.html' %}",
+        "{% render 'partial.html' %}",
+        "{% import 'partial.html' as x %}"
+      ],
+      "answer": 1,
+      "explanation": "include で対象テンプレートの内容をその場で展開する。"
+    },
+    {
+      "id": "python_web_041",
+      "question": "DjangoのQuerySet.select_related() の主な目的は何か。",
+      "choices": [
+        "全件取得の高速化",
+        "1対1、Foreign Key 関連オブジェクトをJOINで先読みし、N+1問題を回避",
+        "キャッシュ更新",
+        "テーブル指定"
+      ],
+      "answer": 1,
+      "explanation": "select_related() は SQL JOINで関連オブジェクトを一度取得する。"
+    },
+    {
+      "id": "python_web_042",
+      "question": "DjangoのQuerySet.prefetch_related() の主な目的は何か。",
+      "choices": [
+        "1対1、Foreign Key 関連を JOIN で先読み",
+        "ManyToMany、逆ForeignKey など複数オブジェクトを別クエリで効率取得し、N+1問題を回避",
+        "キャッシュ無効化",
+        "カウント最適化のみ"
+      ],
+      "answer": 1,
+      "explanation": "prefetch_related() は複数クエリを使用して多対多等を効率取得する。"
+    },
+    {
+      "id": "python_web_043",
+      "question": "Flaskで request リクエストオブジェクトから HTTPヘッダを取得する方法は何か。",
+      "choices": [
+        "request.headers['Content-Type']",
+        "request.get_header('Content-Type')",
+        "request.headers.get('Content-Type')",
+        "すべて正しい"
+      ],
+      "answer": 2,
+      "explanation": "request.headers は werkzeug.datastructures.Headers で、get() メソッドが使える。"
+    },
+    {
+      "id": "python_web_044",
+      "question": "DjangoのQuerySet をページング処理する方法として正しいものはどれか。",
+      "choices": [
+        "queryset[0:10]",
+        "from django.core.paginator import Paginator; Paginator(queryset, 10)",
+        "queryset.paginate(page=1, per_page=10)",
+        "queryset.limit(10).offset(0)"
+      ],
+      "answer": 1,
+      "explanation": "Paginator を使用して QuerySet をページング処理する。"
+    },
+    {
+      "id": "python_web_045",
+      "question": "セッション固定攻撃を防ぐためロジイン成功時にセッションを再生成する考え方の説明として正しいものはどれか。",
+      "choices": [
+        "不要な処理",
+        "攻撃者が既知のセッションIDを無効化できるため有効",
+        "ブラウザキャッシュの削除",
+        "HTTPSの強制実装のみで十分"
+      ],
+      "answer": 1,
+      "explanation": "ログイン時にセッションを更新することで、攻撃者の固定化したセッションIDを無効化する。"
+    },
+    {
+      "id": "python_web_046",
+      "question": "Flask-SQLAlchemy でデータベース接続文字列を設定する方法として正しいものはどれか。",
+      "choices": [
+        "app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://...'",
+        "db.config['DATABASE_URL'] = 'postgresql://...'",
+        "SQLAlchemy.connect('postgresql://...')",
+        "db.set_connection('postgresql://...')"
+      ],
+      "answer": 0,
+      "explanation": "SQLALCHEMY_DATABASE_URI で データベース接続文字列を設定する。"
+    },
+    {
+      "id": "python_web_047",
+      "question": "DjangoのCache framework でメモリキャッシュバックエンドを使用する設定として正しいものはどれか。",
+      "choices": [
+        "BACKEND: 'django.core.cache.backends.memory.MemoryCache'",
+        "BACKEND: 'django.core.cache.backends.locmem.LocMemCache'",
+        "BACKEND: 'django.core.cache.backends.ram.RamCache'",
+        "BACKEND: 'django.cache.memory'"
+      ],
+      "answer": 1,
+      "explanation": "LocMemCache は ローカルメモリキャッシュで、開発に使用される。"
+    },
+    {
+      "id": "python_web_048",
+      "question": "REST API で HATEOAS（ハイパーメディアの制約）を実装する利点として適切なものはどれか。",
+      "choices": [
+        "APIドキュメントが不要になる",
+        "クライアント実装が簡潔化する",
+        "APIレスポンスにハイパーリンクを含め、クライアントが動的に次のアクションを発見できる",
+        "パフォーマンスの2倍高速化"
+      ],
+      "answer": 2,
+      "explanation": "HATEOAS はレスポンスに関連リソースのリンクを含め、クライアント独立性を高める。"
+    },
+    {
+      "id": "python_web_049",
+      "question": "HTTP キャッシュヘッダの Cache-Control: max-age=3600 の意味として正しいものはどれか。",
+      "choices": [
+        "3600バイト以上キャッシュされない",
+        "3600秒間ブラウザがキャッシュを有効と判定する",
+        "サーバーが3600秒以内に再取得する",
+        "最大接続数が3600"
+      ],
+      "answer": 1,
+      "explanation": "max-age=3600 は秒数で キャッシュ有効期限を指定する。"
+    },
+    {
+      "id": "python_web_050",
+      "question": "Flask でアプリケーション設定を異なる環境（開発、テスト、本番）ごとに分ける标准的なパターンはどれか。",
+      "choices": [
+        "settings.py に全設定を記述し、環境変数で切り替え",
+        "config.py に Config, DevelopmentConfig, TestingConfig, ProductionConfig クラスを定義し、app.config.from_object() で読み込む",
+        "実行時にset_config() を呼び出す",
+        "環境変数に全て依存する"
+      ],
+      "answer": 1,
+      "explanation": "Config クラスの階層継承により異なる環境設定を管理するのが Flaskのベストプラクティス."
+    }
+  ]
+}

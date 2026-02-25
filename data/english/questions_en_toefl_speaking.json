@@ -1,0 +1,737 @@
+{
+  "genre": "Integrated Speaking - TOEFL iBT",
+  "exam": "TOEFL",
+  "section": "Speaking",
+  "questions": [
+    {
+      "id": "en_toefl_speaking_001",
+      "question": "Describe a memorable academic experience. How did it influence your learning approach?",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "A professor's creative teaching method that transformed your understanding",
+        "A group project that taught you collaboration skills",
+        "A research experience that sparked academic interest",
+        "A classroom discussion that challenged your perspectives"
+      ],
+      "answer": -1,
+      "explanation": "Independent speaking task requires personal experience narrative. Evaluate responses on clarity, organization, vocabulary range, and fluency. Strong responses include specific details and explain the impact on learning."
+    },
+    {
+      "id": "en_toefl_speaking_002",
+      "question": "Some students prefer studying in groups; others prefer studying alone. Which approach do you favor and why?",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Group study for collaboration and discussion",
+        "Solo study for concentration and independence",
+        "Both, depending on the subject and context",
+        "Neither is effective for learning"
+      ],
+      "answer": -1,
+      "explanation": "This preference question assesses ability to state position, provide reasons, and support with examples. Evaluate organization, supporting details, and coherence."
+    },
+    {
+      "id": "en_toefl_speaking_003",
+      "question": "Explain how this proposal addresses the problem discussed in the reading and lecture.",
+      "type": "Integrated",
+      "materials": "Reading passage about urban food deserts; Lecture on community garden initiatives",
+      "duration": "60 seconds",
+      "choices": [
+        "The proposal addresses food access by creating local growing spaces in underserved communities",
+        "The proposal requires no community involvement to succeed",
+        "The proposal solves all poverty issues comprehensively",
+        "The proposal is too expensive to implement"
+      ],
+      "answer": 0,
+      "explanation": "Integrated tasks require synthesis of reading and lecture information. Evaluate ability to summarize key points, make connections, and organize information clearly."
+    },
+    {
+      "id": "en_toefl_speaking_004",
+      "question": "The student offers two solutions to the scheduling problem. Summarize her proposed solutions and indicate which one you think is more practical.",
+      "type": "Integrated",
+      "materials": "Listening: Student conversation about course scheduling conflicts",
+      "duration": "60 seconds",
+      "choices": [
+        "Switching to online courses; taking classes in a different time block",
+        "Dropping one course entirely",
+        "Only one practical solution exists",
+        "Neither solution addresses the problem"
+      ],
+      "answer": 0,
+      "explanation": "Listening-based integrated task requires identifying and summarizing information, plus evaluating options. Assess comprehension, summary accuracy, and reasoning."
+    },
+    {
+      "id": "en_toefl_speaking_005",
+      "question": "Describe a cultural practice from your country that reflects the values of your community.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Religious festivals and family gatherings",
+        "Food preparation rituals and shared meals",
+        "Educational celebration traditions",
+        "Community service and mutual support practices"
+      ],
+      "answer": -1,
+      "explanation": "Cultural description task. Evaluate clarity of description, accuracy of cultural detail, and ability to explain cultural significance and values."
+    },
+    {
+      "id": "en_toefl_speaking_006",
+      "question": "The professor explains two methods for teaching environmental awareness. Compare these methods and explain which would be more effective for young children.",
+      "type": "Integrated",
+      "materials": "Lecture on environmental education approaches: Outdoor experience vs. classroom instruction",
+      "duration": "60 seconds",
+      "choices": [
+        "Direct outdoor experience; classroom laboratory activities",
+        "Only one method works for education",
+        "Children don't benefit from environmental education",
+        "The professor presented no comparison"
+      ],
+      "answer": 0,
+      "explanation": "Comparison task requires identifying and contrasting methods, then evaluating effectiveness. Strong responses support preference with reasoning."
+    },
+    {
+      "id": "en_toefl_speaking_007",
+      "question": "The student contacts her advisor about changing majors. What are her main concerns, and what advice does the advisor offer?",
+      "type": "Integrated",
+      "materials": "Conversation: Student meets with academic advisor",
+      "duration": "60 seconds",
+      "choices": [
+        "Concerns about job prospects; advice to meet with career counselor",
+        "The student is satisfied with current major",
+        "The advisor discourages changing majors",
+        "No concerns or advice are mentioned"
+      ],
+      "answer": 0,
+      "explanation": "Conversation comprehension and summary task. Evaluate ability to identify key information and report it clearly."
+    },
+    {
+      "id": "en_toefl_speaking_008",
+      "question": "Imagine you could change one aspect of your educational experience. What would you change and explain your reasoning.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Curriculum content and subject offerings",
+        "Teaching methods and classroom structure",
+        "Assessment and evaluation approaches",
+        "Campus facilities and resources"
+      ],
+      "answer": -1,
+      "explanation": "Independent preference/opinion task. Assess articulation of position, reasoning quality, examples provided, and overall coherence."
+    },
+    {
+      "id": "en_toefl_speaking_009",
+      "question": "According to the reading and lecture, what does the new research suggest about the cognitive benefits of bilingualism?",
+      "type": "Integrated",
+      "materials": "Reading article on bilingual cognitive development; Lecture discussing research findings",
+      "duration": "60 seconds",
+      "choices": [
+        "Bilingualism enhances flexibility in problem-solving and executive function",
+        "Bilingualism provides no cognitive advantage",
+        "Monolingualism is superior for academic achievement",
+        "Language learning doesn't affect cognitive development"
+      ],
+      "answer": 0,
+      "explanation": "Content synthesis task. Evaluate integration of information from multiple sources, accuracy, and clear communication of main points."
+    },
+    {
+      "id": "en_toefl_speaking_010",
+      "question": "Discuss a personal goal you have set for yourself. Explain what steps you are taking to achieve this goal.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Academic achievement goals with study strategies",
+        "Professional development goals with skill-building plans",
+        "Personal improvement goals with practice approaches",
+        "Any meaningful personal goal"
+      ],
+      "answer": -1,
+      "explanation": "Personal goal-setting task. Evaluate clarity of goal, appropriateness of strategies, and articulate explanation of connection between actions and outcomes."
+    },
+    {
+      "id": "en_toefl_speaking_011",
+      "question": "What problem is the student experiencing, and what does the professor suggest the student do about it?",
+      "type": "Integrated",
+      "materials": "Professor-student office hour conversation about academic struggles",
+      "duration": "60 seconds",
+      "choices": [
+        "Student is overwhelmed with coursework; professor suggests accessing tutoring and time management resources",
+        "Student is bored with material; professor suggests changing majors immediately",
+        "No problem is mentioned",
+        "Professor has no solutions"
+      ],
+      "answer": 0,
+      "explanation": "Problem-solution conversation task. Assess comprehension, summary accuracy, and ability to relay specific suggestions clearly."
+    },
+    {
+      "id": "en_toefl_speaking_012",
+      "question": "Some people believe that formal education is the most important path to success; others emphasize practical work experience. Discuss both perspectives.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Present both viewpoints and evaluate their merits",
+        "Advocate only for formal education",
+        "Promote only work experience",
+        "Claim success requires neither"
+      ],
+      "answer": 0,
+      "explanation": "Balanced perspective task. Evaluate ability to present multiple viewpoints fairly and explain reasoning for each approach."
+    },
+    {
+      "id": "en_toefl_speaking_013",
+      "question": "Summarize the main points of the lecture on renewable energy. What are the main advantages and challenges mentioned?",
+      "type": "Integrated",
+      "materials": "Lecture on renewable energy technologies and implementation challenges",
+      "duration": "60 seconds",
+      "choices": [
+        "Advantages: sustainable, reduces emissions; Challenges: high initial costs, technological limitations",
+        "Renewable energy has only advantages",
+        "Fossil fuels outperform renewable energy",
+        "No challenges exist for renewable implementation"
+      ],
+      "answer": 0,
+      "explanation": "Lecture summary with analysis task. Assess accuracy of information capture, balanced discussion of advantages and limitations, and clarity."
+    },
+    {
+      "id": "en_toefl_speaking_014",
+      "question": "The vice president of student affairs announces a policy change. What is the change, and what are students' reactions to it?",
+      "type": "Integrated",
+      "materials": "Campus announcement: Student meeting discussing new residential hall policies",
+      "duration": "60 seconds",
+      "choices": [
+        "Change: Residential halls will have mandatory quiet hours; reactions include both support and concerns about enforcement",
+        "No policy change is announced",
+        "Students are uniformly positive about all changes",
+        "The policy details are not mentioned"
+      ],
+      "answer": 0,
+      "explanation": "Announcement comprehension and reaction reporting task. Evaluate accurate summary of new information and clear presentation of multiple perspectives."
+    },
+    {
+      "id": "en_toefl_speaking_015",
+      "question": "Describe a challenge you have faced and explain how you overcame it.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Academic challenge overcome through perseverance and strategy",
+        "Social or interpersonal challenge resolved through communication",
+        "Practical life challenge addressed through planning and adaptation",
+        "Any meaningful personal challenge"
+      ],
+      "answer": -1,
+      "explanation": "Challenge-and-solution narrative. Assess storytelling coherence, problem-solving approach, and reflection on lessons learned."
+    },
+    {
+      "id": "en_toefl_speaking_016",
+      "question": "The reading describes a community initiative, and the lecture provides additional context. How does the lecture enhance your understanding of the initiative?",
+      "type": "Integrated",
+      "materials": "Reading: Article on community-based language exchange program; Lecture: Implementation and outcomes",
+      "duration": "60 seconds",
+      "choices": [
+        "Lecture provides context about program development, participation patterns, and measured success",
+        "Lecture contradicts the reading",
+        "Lecture adds no new information",
+        "No lecture context is provided"
+      ],
+      "answer": 0,
+      "explanation": "Enhancement-of-understanding task. Evaluate ability to identify complementary information and explain how it deepens comprehension."
+    },
+    {
+      "id": "en_toefl_speaking_017",
+      "question": "Do you prefer city living or living in a rural area? Explain your preference with specific examples.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "City: diverse culture, opportunities, but crowded and expensive",
+        "Rural: quiet, nature, but limited services and isolation",
+        "Mixed perspective acknowledging trade-offs",
+        "No preference between locations"
+      ],
+      "answer": -1,
+      "explanation": "Environment preference task. Evaluate clarity of preference, specific supporting examples, and acknowledgment of trade-offs."
+    },
+    {
+      "id": "en_toefl_speaking_018",
+      "question": "The professor discusses two theories explaining behavior change. Compare these theories and discuss their applications.",
+      "type": "Integrated",
+      "materials": "Lecture on behavioral psychology: Positive reinforcement vs. intrinsic motivation approaches",
+      "duration": "60 seconds",
+      "choices": [
+        "Compare theoretical approaches and discuss when each is most effective",
+        "Only one theory is discussed",
+        "Theories are irrelevant to behavior change",
+        "No comparison is requested"
+      ],
+      "answer": 0,
+      "explanation": "Theory comparison and application task. Assess understanding of distinct approaches and ability to discuss practical implications."
+    },
+    {
+      "id": "en_toefl_speaking_019",
+      "question": "The student calls the financial aid office. Why is the student calling, and what information does the representative provide?",
+      "type": "Integrated",
+      "materials": "Phone conversation: Student inquires about financial aid application status",
+      "duration": "60 seconds",
+      "choices": [
+        "Student seeks status update; representative provides timeline and required documentation",
+        "Student calls about unrelated issue",
+        "No new information is provided",
+        "The conversation details are unclear"
+      ],
+      "answer": 0,
+      "explanation": "Service interaction comprehension. Evaluate identification of student's purpose and accurate relay of service representative's information."
+    },
+    {
+      "id": "en_toefl_speaking_020",
+      "question": "What should people consider before making a major life decision? Provide examples.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Short-term and long-term impacts, personal values, available resources, advice from trusted people",
+        "Only immediate financial considerations",
+        "No planning is necessary",
+        "All major decisions are equally important"
+      ],
+      "answer": -1,
+      "explanation": "Decision-making framework task. Evaluate comprehensiveness of considerations offered and relevance of examples provided."
+    },
+    {
+      "id": "en_toefl_speaking_021",
+      "question": "According to the reading and lecture, what factors influence the persistence of regional economic inequalities?",
+      "type": "Integrated",
+      "materials": "Reading: Article on regional development disparities; Lecture: Economic geography and infrastructure investment",
+      "duration": "60 seconds",
+      "choices": [
+        "Historical investment patterns, infrastructure access, education availability, industry location decisions",
+        "Regional inequality is purely random",
+        "All regions have equal economic development",
+        "Individual effort alone determines regional prosperity"
+      ],
+      "answer": 0,
+      "explanation": "Multifactorial analysis task. Assess ability to synthesize information about complex causes and present them coherently."
+    },
+    {
+      "id": "en_toefl_speaking_022",
+      "question": "The student approaches a professor during office hours about an assignment. What is the student's concern, and what feedback does the professor provide?",
+      "type": "Integrated",
+      "materials": "Office hour conversation: Student discusses assignment requirements and receives feedback",
+      "duration": "60 seconds",
+      "choices": [
+        "Student seeks clarification on expectations; professor provides specific guidance and resources",
+        "Student complains without seeking solutions",
+        "Professor provides no feedback",
+        "The discussion topic is completely different"
+      ],
+      "answer": 0,
+      "explanation": "Academic support interaction task. Evaluate comprehension of student's question and professor's guidance."
+    },
+    {
+      "id": "en_toefl_speaking_023",
+      "question": "Describe an important historical or contemporary figure and explain why you find them significant.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Describe person's accomplishments and lasting impact",
+        "Create fictional figures",
+        "Discuss only ancient history",
+        "Significance is irrelevant"
+      ],
+      "answer": -1,
+      "explanation": "Biographical significance task. Assess clarity of description, explanation of significance, and supporting examples."
+    },
+    {
+      "id": "en_toefl_speaking_024",
+      "question": "The lecture outlines a historical process with multiple stages. Summary each stage and explain the significance of the overall process.",
+      "type": "Integrated",
+      "materials": "History lecture: Stages of industrialization and societal transformation",
+      "duration": "60 seconds",
+      "choices": [
+        "Summarize each stage chronologically and explain transformative impact on society",
+        "Only one stage exists",
+        "Stages are unrelated to each other",
+        "The process is not significant"
+      ],
+      "answer": 0,
+      "explanation": "Historical process analysis task. Assess sequential understanding and ability to explain interconnections between stages."
+    },
+    {
+      "id": "en_toefl_speaking_025",
+      "question": "What qualities make an effective leader? Provide examples from your own observations.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Clear vision, strong communication, decision-making ability, ethical standards, team support",
+        "Leadership requires only formal authority",
+        "Qualities of leadership are irrelevant",
+        "All leaders share identical traits"
+      ],
+      "answer": -1,
+      "explanation": "Leadership qualities task. Evaluate thoughtfulness of qualities identified and relevance of personal examples."
+    },
+    {
+      "id": "en_toefl_speaking_026",
+      "question": "The campus sustainability office presents information about waste reduction initiatives. What are the main initiatives, and what behavioral changes are they encouraging?",
+      "type": "Integrated",
+      "materials": "Campus presentation: Sustainability program overview and participation expectations",
+      "duration": "60 seconds",
+      "choices": [
+        "Initiatives: recycling, composting, reducing single-use items; encourage conservation habits",
+        "No initiatives are mentioned",
+        "No behavior change is expected",
+        "Sustainability is irrelevant to campuses"
+      ],
+      "answer": 0,
+      "explanation": "Institutional information comprehension. Assess identification of programs and communication expectations."
+    },
+    {
+      "id": "en_toefl_speaking_027",
+      "question": "How does modern technology impact human relationships? Discuss both positive and negative effects.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Positive: connectivity, accessibility; Negative: reduced face-to-face interaction, miscommunication",
+        "Technology only improves relationships",
+        "Technology has no impact on relationships",
+        "Only negative effects exist"
+      ],
+      "answer": -1,
+      "explanation": "Technology impact analysis task. Assess balanced discussion of effects and supporting reasoning."
+    },
+    {
+      "id": "en_toefl_speaking_028",
+      "question": "Based on the reading and lecture, what are the primary methods used to address climate change, and what challenges do these methods face?",
+      "type": "Integrated",
+      "materials": "Reading: Climate change mitigation strategies; Lecture: Implementation barriers and opportunities",
+      "duration": "60 seconds",
+      "choices": [
+        "Methods and their challenges; discuss feasibility and trade-offs",
+        "No methods are proposed",
+        "Climate change is unsolvable",
+        "Challenges don't exist for any solutions"
+      ],
+      "answer": 0,
+      "explanation": "Solutions and barriers analysis task. Assess understanding of approaches and realistic assessment of implementation difficulties."
+    },
+    {
+      "id": "en_toefl_speaking_029",
+      "question": "A student discusses an internship opportunity with a career mentor. What is the student's situation, and what advice does the mentor offer?",
+      "type": "Integrated",
+      "materials": "Conversation: Student explores internship decision with mentor",
+      "duration": "60 seconds",
+      "choices": [
+        "Student weighs internship against other activities; mentor provides decision-making framework",
+        "Student declines all opportunities",
+        "Mentor discourages internships",
+        "No advice is given"
+      ],
+      "answer": 0,
+      "explanation": "Career guidance comprehension. Assess identification of student's decision context and communication of mentorship guidance."
+    },
+    {
+      "id": "en_toefl_speaking_030",
+      "question": "Describe a skill you have developed and explain how it has been useful to you.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Technical skill with practical applications",
+        "Interpersonal skill and relevant contexts",
+        "Communication skill and professional value",
+        "Any meaningful skill"
+      ],
+      "answer": -1,
+      "explanation": "Skill development narrative. Assess clarity of skill description and relevance of examples showing how it has been applied."
+    },
+    {
+      "id": "en_toefl_speaking_031",
+      "question": "The professor presents research on a social phenomenon. Summarize the research question, methodology, and main findings.",
+      "type": "Integrated",
+      "materials": "Lecture: Research presentation on social behavior patterns",
+      "duration": "60 seconds",
+      "choices": [
+        "Summarize question, describe methodology, report key findings",
+        "Only findings are important",
+        "Methodology is irrelevant",
+        "No research is presented"
+      ],
+      "answer": 0,
+      "explanation": "Research summary task. Assess understanding of research structure and ability to communicate main points clearly."
+    },
+    {
+      "id": "en_toefl_speaking_032",
+      "question": "When you are faced with difficult decisions, how do you typically approach them?",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Gather information, consider options, seek advice, evaluate consequences",
+        "Make impulsive decisions without thinking",
+        "Avoid making decisions",
+        "The approach is irrelevant"
+      ],
+      "answer": -1,
+      "explanation": "Decision-making approach task. Evaluate selfawareness, method description, and soundness of approach demonstrated."
+    },
+    {
+      "id": "en_toefl_speaking_033",
+      "question": "The reading discusses a policy proposal, and the lecture presents responses from affected communities. What is the proposal, and how do communities view it?",
+      "type": "Integrated",
+      "materials": "Reading: Educational policy proposal; Lecture: Community stakeholder perspectives",
+      "duration": "60 seconds",
+      "choices": [
+        "Summarize proposal and report multiple community perspectives",
+        "Only the proposal matters, not responses",
+        "All communities agree completely",
+        "Community input is not relevant"
+      ],
+      "answer": 0,
+      "explanation": "Policy and stakeholder perspective task. Assess integration of multiple viewpoints and balanced representation."
+    },
+    {
+      "id": "en_toefl_speaking_034",
+      "question": "A student discusses changing study habits with a tutor. What study challenges does the student face, and what strategies does the tutor suggest?",
+      "type": "Integrated",
+      "materials": "Tutoring session: Student discusses struggling with retention and organization",
+      "duration": "60 seconds",
+      "choices": [
+        "Student identifies challenges; tutor suggests active recall, spaced repetition, and organization strategies",
+        "Student has no difficulties",
+        "Tutor offers no suggestions",
+        "The session topic is different"
+      ],
+      "answer": 0,
+      "explanation": "Tutoring interaction comprehension. Assess identification of problems and clear communication of suggested strategies."
+    },
+    {
+      "id": "en_toefl_speaking_035",
+      "question": "What role does creativity play in your field of study or interest? Provide examples.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Creativity as essential problem-solving tool with field-specific examples",
+        "Creativity is irrelevant",
+        "Only artistic fields require creativity",
+        "No examples are needed"
+      ],
+      "answer": -1,
+      "explanation": "Field-specific creativity task. Assess understanding of creative applications in chosen domain and quality of examples."
+    },
+    {
+      "id": "en_toefl_speaking_036",
+      "question": "Based on the lecture, what are the main causes of the environmental phenomenon discussed, and what are potential solutions?",
+      "type": "Integrated",
+      "materials": "Environmental science lecture: Causes and solutions for a specific ecological problem",
+      "duration": "60 seconds",
+      "choices": [
+        "Identify multiple causes and discuss proposed solutions with feasibility assessment",
+        "Only one cause exists",
+        "No solutions are possible",
+        "Causes are unimportant"
+      ],
+      "answer": 0,
+      "explanation": "Causal analysis and problem-solving task. Assess understanding of system complexity and practical solution feasibility."
+    },
+    {
+      "id": "en_toefl_speaking_037",
+      "question": "The student visits the student health center with a concern. What is the concern, and what health resources does the center offer?",
+      "type": "Integrated",
+      "materials": "Health center visit: Student inquires about wellness services",
+      "duration": "60 seconds",
+      "choices": [
+        "Student describes concern; center explains available services and preventive approaches",
+        "No health resources exist",
+        "The visit is about different matters",
+        "Resources are not discussed"
+      ],
+      "answer": 0,
+      "explanation": "Health services interaction comprehension. Assess identification of student's need and communication of available support."
+    },
+    {
+      "id": "en_toefl_speaking_038",
+      "question": "What is the relationship between education and personal development? Discuss with specific examples.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Education develops critical thinking, self-awareness, and opportunities for growth",
+        "Education is purely technical skill transmission",
+        "Education has no impact on personal development",
+        "Examples are unnecessary"
+      ],
+      "answer": -1,
+      "explanation": "Education-development relationship task. Assess thoughtfulness of connections made and quality of supporting examples."
+    },
+    {
+      "id": "en_toefl_speaking_039",
+      "question": "The lecture presents a technological innovation and its societal implications. Explain the technology and discuss its broader impact.",
+      "type": "Integrated",
+      "materials": "Technology lecture: Innovation overview and societal consequences",
+      "duration": "60 seconds",
+      "choices": [
+        "Explain technology and analyze positive and negative societal implications",
+        "No innovation is discussed",
+        "Technology has no societal impact",
+        "Only positive effects matter"
+      ],
+      "answer": 0,
+      "explanation": "Technology impact analysis task. Assess technical comprehension and nuanced discussion of consequences."
+    },
+    {
+      "id": "en_toefl_speaking_040",
+      "question": "The student meets with a professor to discuss a research project proposal. What is the student's research idea, and what feedback does the professor provide?",
+      "type": "Integrated",
+      "materials": "Research meeting: Student presents idea; professor provides constructive feedback",
+      "duration": "60 seconds",
+      "choices": [
+        "Summarize research idea and report professor's feedback and suggestions",
+        "No research is discussed",
+        "Professor provides no feedback",
+        "The meeting is about coursework"
+      ],
+      "answer": 0,
+      "explanation": "Academic research consultation comprehension. Assess accurate portrayal of research direction and constructive feedback."
+    },
+    {
+      "id": "en_toefl_speaking_041",
+      "question": "Describe a place that is important to you and explain its significance.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Describe location sensory details and personal significance",
+        "Place descriptions are irrelevant",
+        "Only famous locations matter",
+        "Significance explanations are unnecessary"
+      ],
+      "answer": -1,
+      "explanation": "Place significance narrative. Assess descriptive clarity and emotional connection to location."
+    },
+    {
+      "id": "en_toefl_speaking_042",
+      "question": "According to the reading and lecture, what factors influence language choice in multilingual communities?",
+      "type": "Integrated",
+      "materials": "Reading: Sociolinguistics article; Lecture: Code-switching and language selection factors",
+      "duration": "60 seconds",
+      "choices": [
+        "Social context, audience, topic, and identity relationships influence language choice",
+        "No factors affect language selection",
+        "Language choice is random",
+        "All languages are selected equally"
+      ],
+      "answer": 0,
+      "explanation": "Sociolinguistic factors synthesis task. Assess understanding of complex social influences on language use."
+    },
+    {
+      "id": "en_toefl_speaking_043",
+      "question": "The student seeks advice about managing stress and time effectively. What concerns does the student express, and what strategies are recommended?",
+      "type": "Integrated",
+      "materials": "Counseling center conversation: Student discusses time pressure and stress management",
+      "duration": "60 seconds",
+      "choices": [
+        "Student expresses specific concerns; counselor recommends prioritization, breaks, and support strategies",
+        "Student has no concerns",
+        "No strategies are discussed",
+        "The conversation is about different topics"
+      ],
+      "answer": 0,
+      "explanation": "Wellness consultation comprehension. Assess identification of concerns and clear communication of coping strategies."
+    },
+    {
+      "id": "en_toefl_speaking_044",
+      "question": "How have your interests and goals evolved over time? Explain what influenced these changes.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Describe evolution and factors that prompted change",
+        "Interests never change",
+        "Influences are irrelevant",
+        "Evolution is unimportant"
+      ],
+      "answer": -1,
+      "explanation": "Personal growth narrative. Assess self-reflection, clear articulation of change, and understanding of influences."
+    },
+    {
+      "id": "en_toefl_speaking_045",
+      "question": "The professor explains an economic concept with examples from different contexts. Summarize the concept and its applications.",
+      "type": "Integrated",
+      "materials": "Economics lecture: Concept explanation with multiple real-world examples",
+      "duration": "60 seconds",
+      "choices": [
+        "Define concept and explain its applications across different contexts",
+        "Concepts are too abstract to apply",
+        "Examples are unimportant",
+        "No applications are discussed"
+      ],
+      "answer": 0,
+      "explanation": "Economic concept application task. Assess conceptual understanding and ability to identify cross-context relevance."
+    },
+    {
+      "id": "en_toefl_speaking_046",
+      "question": "A student meets with a financial advisor during registration planning. What questions does the student ask, and what information does the advisor provide?",
+      "type": "Integrated",
+      "materials": "Academic advising session: Registration decision discussion",
+      "duration": "60 seconds",
+      "choices": [
+        "Student seeks course guidance; advisor explains requirements, prerequisites, and planning strategies",
+        "Student needs no advising",
+        "No guidance is provided",
+        "The meeting is unrelated to registration"
+      ],
+      "answer": 0,
+      "explanation": "Academic advising comprehension. Assess identification of student questions and communication of institutional guidance."
+    },
+    {
+      "id": "en_toefl_speaking_047",
+      "question": "Describe the most important lesson you have learned in your academic career.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Reflect on significant learning about subject matter, approach, or personal development",
+        "Academic lessons have no value",
+        "Learning is irrelevant",
+        "No lessons are learned"
+      ],
+      "answer": -1,
+      "explanation": "Academic reflection task. Assess thoughtfulness of lesson identified and ability to articulate its significance."
+    },
+    {
+      "id": "en_toefl_speaking_048",
+      "question": "The lecture discusses a literary work and its cultural context. Explain the work's significance within its cultural period.",
+      "type": "Integrated",
+      "materials": "Literature lecture: Historical context and cultural impact of work",
+      "duration": "60 seconds",
+      "choices": [
+        "Describe work and explain cultural-historical significance",
+        "Cultural context is irrelevant",
+        "Only the plot matters",
+        "No significance is discussed"
+      ],
+      "answer": 0,
+      "explanation": "Literary context analysis task. Assess historical comprehension and ability to explain cultural importance."
+    },
+    {
+      "id": "en_toefl_speaking_049",
+      "question": "The student discusses a potential major choice with an academic counselor. What factors influence the student's decision?",
+      "type": "Integrated",
+      "materials": "Counseling conversation: Student explores major selection criteria",
+      "duration": "60 seconds",
+      "choices": [
+        "Student considers interests, career prospects, required courses, and workload",
+        "Student has already decided on a major",
+        "No factors are discussed",
+        "The conversation is about different topics"
+      ],
+      "answer": 0,
+      "explanation": "Decision-making factor identification task. Assess understanding of how students evaluate major choices."
+    },
+    {
+      "id": "en_toefl_speaking_050",
+      "question": "What advice would you give to someone just beginning their academic journey? Explain your reasoning.",
+      "type": "Independent",
+      "duration": "45 seconds",
+      "choices": [
+        "Provide actionable advice based on your experience and understanding of academic success",
+        "No advice is valuable",
+        "New students need no guidance",
+        "Experience is irrelevant"
+      ],
+      "answer": -1,
+      "explanation": "Reflective advice task. Assess thoughtfulness of recommendations, grounding in experience, and ability to explain reasoning."
+    }
+  ]
+}

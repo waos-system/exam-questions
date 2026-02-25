@@ -1,0 +1,606 @@
+{
+  "genre": "マルチスレッド・並行処理",
+  "exam": "Java",
+  "questions": [
+    {
+      "id": "java_concurrency_001",
+      "question": "Javaでスレッドを作成する方法として正しいものはどれか。",
+      "choices": [
+        "Threadクラスを直接インスタンス化し、run()メソッドを呼び出す",
+        "Threadクラスを拡張し、run()メソッドをオーバーライドしてstart()を呼び出す",
+        "Runnableインターフェースを実装し、run()メソッドを呼び出す",
+        "スレッド作成のためにThreadFactoryクラスが必須である"
+      ],
+      "answer": 1,
+      "explanation": "スレッドを作成する正しい方法は、Threadクラスを拡張してrun()メソッドをオーバーライドし、start()メソッドを呼び出すことです。run()を直接呼び出すと同期実行になります。Runnableインターフェースを実装する方法もありますが、この場合も最終的にstart()を呼び出す必要があります。"
+    },
+    {
+      "id": "java_concurrency_002",
+      "question": "Thread.start()とThread.run()の違いについて正しい説明はどれか。",
+      "choices": [
+        "start()はスレッドを作成し、run()は同じスレッド内で実行される",
+        "run()はスレッドを作成し、start()は同じスレッド内で実行される",
+        "両者は同じ効果を持つが、start()が推奨される",
+        "start()はスレッドプールで実行され、run()はメインスレッドで実行される"
+      ],
+      "answer": 0,
+      "explanation": "start()メソッドは新しいスレッドを作成して、そのスレッド内でrun()を実行します。一方、run()を直接呼び出すと、現在のスレッド（通常はメインスレッド）内で同期的に実行されます。これは最も一般的なスレッド関連の間違いです。"
+    },
+    {
+      "id": "java_concurrency_003",
+      "question": "Runnableインターフェースを使用したスレッド作成の正しい使用例はどれか。",
+      "choices": [
+        "Runnable r = new Runnable() { public void run() {} }; r.run();",
+        "Runnable r = new Runnable() { public void run() {} }; new Thread(r).start();",
+        "Runnable r = () -> {}; r.start();",
+        "new Runnable() { public void run() {} }.start();"
+      ],
+      "answer": 1,
+      "explanation": "Runnableインターフェースの場合、ラムダ式またはアノニマスクラスで実装し、それをThreadコンストラクタに渡してからstart()を呼び出します。オプション0はrun()を直接呼び出しており、2・3はRunnableオブジェクトには直接start()メソッドがありません。"
+    },
+    {
+      "id": "java_concurrency_004",
+      "question": "スレッドのライフサイクルについて、正しい遷移順序はどれか。",
+      "choices": [
+        "新規(New) → 実行可能(Runnable) → 実行中(Running) → 終了(Terminated)",
+        "新規(New) → 実行中(Running) → 待機(Waiting) → 実行可能(Runnable) → 終了(Terminated)",
+        "新規(New) → 実行可能(Runnable) → 待機(Waiting) → 実行可能(Runnable) → 終了(Terminated)",
+        "実行可能(Runnable) → 新規(New) → 実行中(Running) → 終了(Terminated)"
+      ],
+      "answer": 2,
+      "explanation": "Javaスレッドの正しいライフサイクルは：新規→実行可能→(待機)→実行可能→終了です。スレッドはstart()で実行可能状態になり、スケジューラが実行を決定します。wait()やsleep()によって待機状態に遷移し、その状態が解除されると再び実行可能状態に戻ります。"
+    },
+    {
+      "id": "java_concurrency_005",
+      "question": "Thread.sleep()について正しい説明はどれか。",
+      "choices": [
+        "現在のスレッドを一時停止し、スレッドの所有権を失う",
+        "現在のスレッドを一時停止するが、スレッドの所有権を保持する",
+        "スレッドを永遠に一時停止する",
+        "スレッドポーリングのメカニズムを実装する"
+      ],
+      "answer": 1,
+      "explanation": "Thread.sleep()は指定ミリ秒の間、現在のスレッドを一時停止します。重要な点は、スレッドが保有するロック（synchronized）を解放しないということです。つまり、モニターロックは保持されたままです。待機状態に遷移しますが、時間経過後は自動的に実行可能状態に戻ります。"
+    },
+    {
+      "id": "java_concurrency_006",
+      "question": "synchronizedキーワードについて正しい説明はどれか。",
+      "choices": [
+        "変数へのアクセスを自動的にスレッドセーフにする",
+        "メソッドまたはブロックへのアクセスをスレッドセーフにし、モニターロックを使用する",
+        "すべてのスレッド間通信を可能にする",
+        "スレッド間のデータ変更を制限する"
+      ],
+      "answer": 1,
+      "explanation": "synchronizedは、メソッドまたはブロックへの排他的なアクセスを保証するメカニズムです。内部的にはインスタンスまたはクラスオブジェクトのモニターロックを使用します。synchronized(obj)の場合、2つ以上のスレッドが同時にその領域に進入することはできません。"
+    },
+    {
+      "id": "java_concurrency_007",
+      "question": "volatileキーワードについて正しい説明はどれか。",
+      "choices": [
+        "メソッドまたはコードブロックへのアクセスを排他的にする",
+        "変数への変更が全スレッドから可視化され、キャッシュをバイパスすることを保証する",
+        "変数の不変性を保証する",
+        "マルチスレッド環境でのすべての競合状態を解決する"
+      ],
+      "answer": 1,
+      "explanation": "volatileキーワードは、変数への読み書きをメインメモリから直接行うことを指定します。これにより、あるスレッドが書き込んだ値が他のスレッドから可視化されることが保証されます。ただし、volatileは排他的なアクセスは保証しません。原子的操作や複合操作の同期には不十分です。"
+    },
+    {
+      "id": "java_concurrency_008",
+      "question": "synchronizedメソッドとsynchronized(this)ブロックの違いについて正しい説明はどれか。",
+      "choices": [
+        "synchronizedメソッドはクラスロックを使用し、synchronized(this)はインスタンスロックを使用する",
+        "synchronizedメソッドはインスタンスロックを使用し、synchronized(this)も同じインスタンスロックを使用する",
+        "synchronizedメソッドはより高速である",
+        "synchronized(this)はより多くのスレッドセーフを提供する"
+      ],
+      "answer": 1,
+      "explanation": "synchronizedメソッドとsynchronized(this)ブロックは事実上等価です。どちらもそのインスタンスのモニターロックを使用します。同じロックに基づいているため、一つでが実行中であれば、他方のメソッドまたはブロックも待機します。パフォーマンスに実質的な違いはありません。"
+    },
+    {
+      "id": "java_concurrency_009",
+      "question": "静的synchronized()メソッドについて正しい説明はどれか。",
+      "choices": [
+        "インスタンスのロックを使用する",
+        "クラスオブジェクトのロックを使用する",
+        "グローバルロックを使用する",
+        "ロックを必要としない"
+      ],
+      "answer": 1,
+      "explanation": "静的synchronizedメソッドは、そのクラスオブジェクトのモニターロック（クラスレベルロック）を使用します。インスタンスsynchronizedメソッドはインスタンスロックを使用し、これらは異なるロックです。したがって、静的メソッドとインスタンスメソッドは同時に実行できます。"
+    },
+    {
+      "id": "java_concurrency_010",
+      "question": "wait()メソッドについて正しい説明はどれか。",
+      "choices": [
+        "スレッドを指定ミリ秒の間一時停止する",
+        "モニターロックを解放して待機状態に遷移し、notify()で再開できる",
+        "スレッドスケジューリングを遅延させる",
+        "他のスレッドが完了するまで待機する"
+      ],
+      "answer": 1,
+      "explanation": "wait()はsynchronized領域内で呼び出す必要があり、その際に保有するロックを一時的に解放します。その後、waitセット内で待機します。notify()またはnotifyAll()が呼び出されると、そのオブジェクトのロックを再獲得する機会が得られます。これはスレッド間通信の基本メカニズムです。"
+    },
+    {
+      "id": "java_concurrency_011",
+      "question": "wait()とsleep()の主な違いはどれか。",
+      "choices": [
+        "wait()はロックを解放し、sleep()は保持したままである",
+        "sleep()はロックを解放し、wait()は保持したままである",
+        "両者は全く同じである",
+        "wait()はスレッドを永遠に停止し、sleep()は期間限定である"
+      ],
+      "answer": 0,
+      "explanation": "wait()とsleep()の重要な違いは、wait()が保有するモニターロックを解放する一方、sleep()は解放しないということです。wait()はObject.wait()であり、notify()で再開できます。sleep()はThread.sleep()で、時間経過によって自動的に再開されます。"
+    },
+    {
+      "id": "java_concurrency_012",
+      "question": "notify()とnotifyAll()の違いについて正しい説明はどれか。",
+      "choices": [
+        "notify()は待機している全スレッドを再開し、notifyAll()は1つだけを選ぶ",
+        "notify()は待機している1つのスレッドを再開し、notifyAll()は全スレッドを再開する",
+        "notifyAll()はより低レベルのメソッドである",
+        "notify()はnotifyAll()より高速である"
+      ],
+      "answer": 1,
+      "explanation": "notify()は待機セット内の任意の1つのスレッドを選び、それに通知します。notifyAll()は全ての待機しているスレッドに通知します。一般的には、データの状態変化の性質によって異なります。複数のスレッドが異なる条件で待機している場合、notifyAll()が推奨されます（条件の偽検出を避けるため）。"
+    },
+    {
+      "id": "java_concurrency_013",
+      "question": "ConcurrentHashMapについて正しい説明はどれか。",
+      "choices": [
+        "全体をロックするため、同時アクセスは完全に同期される",
+        "セグメントベースのロックにより、複数スレッドが異なるセグメントに同時アクセスできる",
+        "ロック機構がないため、同期されない",
+        "スレッドセーフですが、読み取り専用である"
+      ],
+      "answer": 1,
+      "explanation": "ConcurrentHashMapは内部的にセグメント（バケット）に分割されており、各セグメントは独立してロックされます。これにより、複数のスレッドが異なるセグメントに同時にアクセスできます。HashMapのsynchronizedラッパーとは異なり、より高いスループットを提供します。デフォルトではセグメント数は16です。"
+    },
+    {
+      "id": "java_concurrency_014",
+      "question": "CopyOnWriteArrayListについて正しい説明はどれか。",
+      "choices": [
+        "すべての操作でリスト全体をコピーする",
+        "書き込み操作で基となるリストをコピーし、読み取り操作は軽量である",
+        "読み取り操作は同期されるが、書き込み操作は同期されない",
+        "イテレータが同期されない"
+      ],
+      "answer": 1,
+      "explanation": "CopyOnWriteArrayListは読み取り頻度が高く書き込み頻度が低い場合に最適化されています。書き込み操作（add、remove）では基となるリスト全体をコピーしてから変更します。読み取り操作やイテレータは元の配列に直接作用するため、ロックが不要です。これにより、読み取り性能が大幅に向上します。"
+    },
+    {
+      "id": "java_concurrency_015",
+      "question": "ConcurrentLinkedQueueについて正しい説明はどれか。",
+      "choices": [
+        "スレッドセーフなFIFOキューで、ロックベースの同期を使用する",
+        "スレッドセーフなFIFOキューで、ロックなしの同期を使用する",
+        "ブロッキングキューで、容量が制限されている",
+        "スレッドセーフではない"
+      ],
+      "answer": 1,
+      "explanation": "ConcurrentLinkedQueueはロック不要のスレッドセーフなFIFOキューです。内部的にはアトミック変数とCompare-And-Swap（CAS）操作を使用してロック不要の同期を実現します。容量制限がないため、offer()は常に成功します。ブロッキング操作（take、put）はサポートされていません。"
+    },
+    {
+      "id": "java_concurrency_016",
+      "question": "BlockingQueueについて正しい説明はどれか。",
+      "choices": [
+        "空の場合にtake()は無期限に待機し、満杯の場合にput()も同様に待機する",
+        "空の場合にtake()は例外をスローし、満杯の場合にput()も同様である",
+        "ブロッキング機能を持たず、すべての操作が即座に完了する",
+        "読み取り専用のキューである"
+      ],
+      "answer": 0,
+      "explanation": "BlockingQueueは容量制限のあるスレッドセーフなキューです。キューが空の場合、take()メソッドは要素が利用可能になるまで無期限に待機します。満杯の場合、put()メソッドはスペースが利用可能になるまで無期限に待機します。これはプロデューサー・コンシューマーパターンに最適です。"
+    },
+    {
+      "id": "java_concurrency_017",
+      "question": "ArrayBlockingQueueについて正しい説明はどれか。",
+      "choices": [
+        "容量が可変的である",
+        "要素を保存するために単一のロックを使用することができ、あるいは分割ロックを使用できる",
+        "固定容量を持ち、単一のロックを使用する",
+        "ロックなしの同期を使用する"
+      ],
+      "answer": 2,
+      "explanation": "ArrayBlockingQueueは固定サイズ容量を持つブロッキングキューです。内部的には単一のロックを使用してhead とtail ポインタの同期を行います。LinkedBlockingQueueはデフォルトで分割ロック（異なるロック）を使用でき、より高いスループットを提供します。"
+    },
+    {
+      "id": "java_concurrency_018",
+      "question": "プロデューサー・コンシューマーパターンについて最も適切な実装はどれか。",
+      "choices": [
+        "sharedObjectをsynchronizedメソッドのみで保護し、一度に1つのプロデューサー・コンシューマペアを実装する",
+        "BlockingQueueを使用し、複数のプロデューサーとコンシューマーを実装する",
+        "Thread.sleep()の間隔をポーリングしてデータの可用性を確認する",
+        "wait()とnotify()を使用した単純な実装が常に最良である"
+      ],
+      "answer": 1,
+      "explanation": "BlockingQueueはプロデューサー・コンシューマーパターンに最適な選択です。put()とtake()ブロッキング操作により、複数のプロデューサーとコンシューマーを自動的に同期します。ポーリングやbusy-waitingは非効率で、wait()とnotify()を正しく使用するより簡潔です。"
+    },
+    {
+      "id": "java_concurrency_019",
+      "question": "ExecutorServiceについて正しい説明はどれか。",
+      "choices": [
+        "タスク実行のキューイングと管理を提供するが、スレッドプール管理は含まない",
+        "タスク実行、キューイング、およびスレッドプール管理を提供する",
+        "通常のオブジェクト指向イディオムの実装に使用される",
+        "同期のための仧定メソッドを提供する"
+      ],
+      "answer": 1,
+      "explanation": "ExecutorServiceはExecutorインターフェースを拡張し、タスク送信、実行管理、スレッドプール管理の機能を提供します。submit()、shutdown()、awaitTermination()などのメソッドを備えており、スレッド作成・管理の複雑性を隠蔽します。"
+    },
+    {
+      "id": "java_concurrency_020",
+      "question": "Executors.newFixedThreadPool(n)について正しい説明はどれか。",
+      "choices": [
+        "n個のスレッドで構成されるスレッドプール。タスクが多い場合、新しいスレッドが動的に作成される",
+        "n個のスレッドで構成される固定サイズのスレッドプール。追加タスクはキューに入る",
+        "単一のスレッドで実行され、nはタイムアウト値である",
+        "タスク数に応じてスレッド数が自動的に調整される"
+      ],
+      "answer": 1,
+      "explanation": "newFixedThreadPool(n)は正確にn個のスレッドを保持する固定サイズのスレッドプールを作成します。追加のタスクはキューに入り、スレッドが利用可能になるまで待機します。スレッド数は決して増加しません。CPU集約的なタスクに適しています。"
+    },
+    {
+      "id": "java_concurrency_021",
+      "question": "Executors.newCachedThreadPool()について正しい説明はどれか。",
+      "choices": [
+        "固定数のスレッドを保持する",
+        "スレッド数が必要に応じて増加・減少する可変サイズプール。アイドル時間後にスレッドを終了する",
+        "常に単一のスレッドを使用する",
+        "スレッドの再利用を行わない"
+      ],
+      "answer": 1,
+      "explanation": "newCachedThreadPool()は必要に応じてスレッドを動的に作成し、一定のアイドル時間（デフォルト60秒）後に終了します。スレッドプールのサイズは利用可能なタスク数と実行中のタスク数に基づいて増減します。短期的な多数のタスクに適しています。"
+    },
+    {
+      "id": "java_concurrency_022",
+      "question": "Executors.newSingleThreadExecutor()について正しい説明はどれか。",
+      "choices": [
+        "複数のスレッドを管理するが、常に単一のスレッドで実行される",
+        "常に単一のスレッドで実行し、タスク順序を保証する",
+        "スレッドプールのメリットなし",
+        "タスク送信時にスレッドを作成する"
+      ],
+      "answer": 1,
+      "explanation": "newSingleThreadExecutor()は単一のスレッドを保持するExecutorServiceです。すべてのタスクはFIFO順で実行されることが保証されます。ワーカースレッドが予期せず終了した場合、再度作成されます。タスク順序が重要な場合に使用します。"
+    },
+    {
+      "id": "java_concurrency_023",
+      "question": "ExecutorService.submit()とexecute()の違いについて正しい説明はどれか。",
+      "choices": [
+        "submit()はFutureを返し、execute()は返さない",
+        "execute()はより高速である",
+        "submit()はRunnableのみを受け入れ、execute()はCallableも受け入れる",
+        "異なるスレッドプールで実行される"
+      ],
+      "answer": 0,
+      "explanation": "Executor.execute()はRunnableを受け入れ、戻り値がない（void）です。ExecutorService.submit()はRunnableまたはCallableを受け入れ、Futureオブジェクトを返します。Futureにより、タスクの完了を待機し、結果を取得したり例外を処理できます。"
+    },
+    {
+      "id": "java_concurrency_024",
+      "question": "Futureについて正しい説明はどれか。",
+      "choices": [
+        "非同期タスク実行の状態と結果を表す",
+        "スレッドへの参照を保持する",
+        "タスク実行のスケジューリングを制御する",
+        "実行済みタスクの履歴を保存する"
+      ],
+      "answer": 0,
+      "explanation": "Futureはnon-blockingで非同期操作の結果を表します。get()でタスク完了まで待機、isDone()で完了確認、cancel()でキャンセルができます。タイムアウト付きのget(long timeout, TimeUnit unit)もあります。Callableを使用する場合に特に有用です。"
+    },
+    {
+      "id": "java_concurrency_025",
+      "question": "CountDownLatchについて正しい説明はどれか。",
+      "choices": [
+        "複数のスレッドの同時実行を可能にする",
+        "一定数のスレッドが完了するまで、他のスレッドを待機させる",
+        "スレッド間でデータを交換するメカニズムである",
+        "スレッドプールのサイズを制限する"
+      ],
+      "answer": 1,
+      "explanation": "CountDownLatchはカウンター初期化時に指定された回数のcountDown()呼び出しまで、await()で待機するメカニズムです。通常、非同期タスク完了を待つために使用されます。一度カウンターがゼロに達すると、後続のawait()はブロックしません。"
+    },
+    {
+      "id": "java_concurrency_026",
+      "question": "CyclicBarrierについて正しい説明はどれか。",
+      "choices": [
+        "一度だけ使用可能な同期ポイント",
+        "複数回使用可能な同期ポイント。すべてのパーティがbarrierに達するまで待機する",
+        "スレッドをキャンセル可能にする",
+        "スレッドプールのサイズを管理する"
+      ],
+      "answer": 1,
+      "explanation": "CyclicBarrierは複数のスレッドが特定ポイントで同期されるメカニズムです。パーティ数を指定してインスタンス化し、各スレッドがawait()を呼び出すと、すべてが到達するまで待機します。barierを越えると再度使用できます。ゲーム開始待機やラウンド同期に有用です。"
+    },
+    {
+      "id": "java_concurrency_027",
+      "question": "Semaphoreについて正しい説明はどれか。",
+      "choices": [
+        "スレッド間で意識を交換するメカニズム",
+        "限定リソースへのアクセス数を制限する許可メカニズム",
+        "スレッド実行順序を保証する",
+        "スレッドプール数を制限する"
+      ],
+      "answer": 1,
+      "explanation": "Semaphoreは許可数を指定して初期化され、acquire()で許可を取得し、release()で解放します。許可数を超えるスレッドは、他のスレッドが許可を解放するまで待機します。コネクションプール、スロットリング、リソース制限に使用されます。"
+    },
+    {
+      "id": "java_concurrency_028",
+      "question": "Exchangerについて正しい説明はどれか。",
+      "choices": [
+        "複数のスレッド間でデータバッファを交換する同期ポイント",
+        "スレッド間竜同期のみを提供する",
+        "ロック機構である",
+        "タスク実行スケジューラである"
+      ],
+      "answer": 0,
+      "explanation": "Exchangerはジェネリック型Tのオブジェクト2つを交換する同期ポイントです。exchange()を呼び出すスレッドは、他のスレッドも交換を実行するまで待機します。プロデューサー・コンシューマーペアがバッファを交換する場合に有用です。"
+    },
+    {
+      "id": "java_concurrency_029",
+      "question": "dealdlockについて正しい説明はどれか。",
+      "choices": [
+        "スレッド実行時の例外である",
+        "複数のスレッドが互いにロック取得を待って無限に待機する状況",
+        "スレッドの優先度設定エラーである",
+        "メモリリークの原因である"
+      ],
+      "answer": 1,
+      "explanation": "Deadlockは相互依存する複数のスレッドが互いにロックを待つ状況です。例えば、スレッドAがロック1を保有してロック2를 待ち、スレッドBがロック2を保有してロック1を待つ場合です。Javaはデッドロック検出機能を持たないため、予防が重要です。"
+    },
+    {
+      "id": "java_concurrency_030",
+      "question": "deadlockを予防する方法として最適なものはどれか。",
+      "choices": [
+        "できるだけ多くのロックを使用する",
+        "ロック取得順序を一貫させ、タイムアウトを設定する",
+        "すべての操作をsynchronizedでラップする",
+        "スレッド優先度を高く設定する"
+      ],
+      "answer": 1,
+      "explanation": "デッドロック予防の主要な戦略：1）すべてのスレッドが同じ順序でロックを取得する、2）タイムアウト付きlock()を使用する、3）重ね合わせロック領域を最小化する、4）異なるロックの必要性を排除する。最適な方法はロック設計を再考することです。"
+    },
+    {
+      "id": "java_concurrency_031",
+      "question": "ReentrantLockについて正しい説明はどれか。",
+      "choices": [
+        "synchronizedと異なり、タイムアウト付きロック取得をサポート",
+        "synchronizedより常に高速である",
+        "監視（fairness）モード選択、条件待機（Condition）をサポート",
+        "主スレッドのみで使用可能である"
+      ],
+      "answer": 2,
+      "explanation": "ReentrantLockは適応ロック、tryLock(long timeout, TimeUnit unit)によるタイムアウト、Conditionオブジェクトによる整理された待機・通知、fairnessパラメータ(true=FIFO順)をサポートします。synchronizedではできない細かい制御が可能です。同じスレッドから複数回ロック取得可能（reentrant）。"
+    },
+    {
+      "id": "java_concurrency_032",
+      "question": "ReadWriteLockについて正しい説明はどれか。",
+      "choices": [
+        "読み取りと書き込みを同等に処理する",
+        "複数の読み取りスレッドを許可し、書き込みは排他的である",
+        "読み取り操作のみをサポート",
+        "スレッド順序変更メカニズム"
+      ],
+      "answer": 1,
+      "explanation": "ReadWriteLockは読み取り頻度が高く書き込み頻度が低い場合に最適化されています。複数のスレッドが同時に読み取ることができますが、書き込みは排他的（他の読み取り・書き込みを排除）。ReentrantReadWriteLockが標準実装です。"
+    },
+    {
+      "id": "java_concurrency_033",
+      "question": "StampedLockについて正しい説明はどれか。",
+      "choices": [
+        "ReentrantReadWriteLockの安全だが遅い代替品である",
+        "楽観的読み取りをサポートし、より高パフォーマンスである",
+        "ジェネリック型パラメータが必須",
+        "読み取りのみをサポート"
+      ],
+      "answer": 1,
+      "explanation": "StampedLockはJava 8で導入された高性能ロック。楽観的読み取り（ロック取得なし）をサポートし、変更検出時のみ検証します。ReadWriteLockより高スループットですが、使用法がより複雑です。"
+    },
+    {
+      "id": "java_concurrency_034",
+      "question": "AtomicIntegerについて正しい説明はどれか。",
+      "choices": [
+        "volatile intの同期ラッパー",
+        "Compare-And-Swap（CAS）操作を使用したロック不要の原子的整数",
+        "synchronizedブロックを使用した整数",
+        "スレッドセーフでない"
+      ],
+      "answer": 1,
+      "explanation": "AtomicIntegerはロック不要で原子的な操作（incrementAndGet、compareAndSet等）を提供します。内部的にはvolatile+CAS操作です。synchronizedやReentrantLockより軽量で、単純なインクリメント操作に最適です。"
+    },
+    {
+      "id": "java_concurrency_035",
+      "question": "AtomicReferenceについて正しい説明はどれか。",
+      "choices": [
+        "オブジェクト参照の原子的更新を提供",
+        "参照型のジェネリック管理のみを提供",
+        "スレッドセーフではない",
+        "不変オブジェクト参照のみサポート"
+      ],
+      "answer": 0,
+      "explanation": "AtomicReferenceは任意のオブジェクト参照に対して、compare-and-setやgetterなど原子的操作を提供します。AtomicIntegerと同様にロック不要で高性能です。"
+    },
+    {
+      "id": "java_concurrency_036",
+      "question": "LongAdderについて正しい説明はどれか。",
+      "choices": [
+        "AtomicLongより常に高速である",
+        "高競合環境でのAtomicLongより高スループットを提供",
+        "可逆算術操作のみをサポート",
+        "単一値の原子的管理のみ"
+      ],
+      "answer": 1,
+      "explanation": "LongAdderはJava 8で導入され、複数のセル（cell）を使用してスケーラビリティを向上させます。高競合環境ではAtomicLongより大幅に高パフォーマンスです。ただし、現在値の取得は近似値(sum())のため、正確性が必要な場合はAtomicLongを使用します。"
+    },
+    {
+      "id": "java_concurrency_037",
+      "question": "ThreadLocalについて正しい説明はどれか。",
+      "choices": [
+        "スレッド間でデータを共有するメカニズム",
+        "各スレッドが独立したデータコピーを保有するメカニズム",
+        "スレッドプール管理",
+        "ロック機構"
+      ],
+      "answer": 1,
+      "explanation": "ThreadLocalは各スレッドが独立した変数値を持つようにします。同じThreadLocalインスタンスに対してget()/set()でアクセスしても、スレッドごとに異なる値を保持します。HTTP リクエストコンテキスト、ユーザーセッション情報に有用です。メモリリークに注意（remove()の呼び出し）。"
+    },
+    {
+      "id": "java_concurrency_038",
+      "question": "ForkJoinPoolについて正しい説明はどれか。",
+      "choices": [
+        "I/O操作が多いタスクに最適化されている",
+        "分割・統治タスク実行に最適化されたスレッドプール",
+        "単一スレッドの実行を強制",
+        "バッチ処理専用"
+      ],
+      "answer": 1,
+      "explanation": "ForkJoinPoolはRecursiveTask/RecursiveActionを使用して、大規模タスクを分割し、並列実行後に結果を統合します。work-stealingスケジューリングにより負荷均衡を実現。ストリームAPI並列処理、分割統治アルゴリズムに適しています。"
+    },
+    {
+      "id": "java_concurrency_039",
+      "question": "ストリームAPI並列処理（parallel()）について正しい説明はどれか。",
+      "choices": [
+        "すべての場合で自動的に最適なパフォーマンスを提供",
+        "CPU集約的タスクで高有効性を示すが、I/O操作では注意が必要",
+        "synchronizedと一緒に使用すべき",
+        "データサイズに関係なく常に使用すべき"
+      ],
+      "answer": 1,
+      "explanation": "Parallel streamsは内部的にForkJoinPoolを使用します。CPU集約的タスク（数値計算等）に有効ですが、小データセット、I/O操作、出力操作が含む場合はオーバーヘッドで遅くなります。synchronizedは避けるべき（競合）。"
+    },
+    {
+      "id": "java_concurrency_040",
+      "question": "Thread.interruptについて正しい説明はどれか。",
+      "choices": [
+        "スレッドを直ちに終了させる",
+        "スレッドの割り込みフラグを設定し、InterruptedExceptionを発生させる可能性がある",
+        "スレッドをスケジュール外にする",
+        "メモリを解放する"
+      ],
+      "answer": 1,
+      "explanation": "interrupt()はスレッドの割り込みフラグを設定します。wait()、sleep()、join()実行中なら直ちにInterruptedExceptionをスロー。割り込みフラグはisInterrupted()またはThread.interrupted()で確認できます。gracefulなスレッド終了に使用されます。"
+    },
+    {
+      "id": "java_concurrency_041",
+      "question": "BlockingQueueのpoll()とtake()の違いについて正しい説明はどれか。",
+      "choices": [
+        "poll()は調査目的、take()はデータ取得目的",
+        "poll()はタイムアウト可能で、キューが空なら即座に(null)を返す。take()は無期限に待機",
+        "両者に実質的な違いはない",
+        "take()はより高速である"
+      ],
+      "answer": 1,
+      "explanation": "BlockingQueue.take()はキューが空の場合、要素が利用可能になるまで無期限に待機します。poll()はタイムアウトなしの場合、キューが空ならnullを直ちに返し、poll(timeout, unit)ではタイムアウト後にnullを返します。"
+    },
+    {
+      "id": "java_concurrency_042",
+      "question": "PriorityBlockingQueueについて正しい説明はどれか。",
+      "choices": [
+        "FIFO順序でのキュー処理",
+        "要素をソート順に取得するブロッキングキュー（優先度キュー）",
+        "スレッド優先度に基づくキュー",
+        "読み取り専用キュー"
+      ],
+      "answer": 1,
+      "explanation": "PriorityBlockingQueueは優先度付きのブロッキングキューです。要素にComparableを実装するか、Comparatorを提供して挿入順ではなくソート順で取得されます。優先度高いタスク先行実行などに使用。"
+    },
+    {
+      "id": "java_concurrency_043",
+      "question": "DelayedQueueについて正しい説明はどれか。",
+      "choices": [
+        "時間遅延なしに要素を提供",
+        "要素の遅延期限が満了するまでtake()がブロックしピュー",
+        "スレッド遅延スケジューリング専用",
+        "キャッシング目的で使用"
+      ],
+      "answer": 1,
+      "explanation": "DelayedQueueはDelayedインターフェース実装の要素を遅延期間まで取得できません。遅延が満了する要素のみがtake()で取得可能。スケジューリング、タイムアウト管理、リトライ機構に有用です。"
+    },
+    {
+      "id": "java_concurrency_044",
+      "question": "callableインターフェースについて正しい説明はどれか。",
+      "choices": [
+        "スレッド実行用のインターフェース（戻り値なし）",
+        "戻り値とチェック例外をサポートする計算インターフェース",
+        "ロック機構",
+        "スレッドプール管理"
+      ],
+      "answer": 1,
+      "explanation": "Callableは単一メソッドcall()which戻り値を返し、チェック例外をスロー可能です。RunnableはVoid戻り値のみで例外をスロー不可。Callable<V>で型パラメータVが戻り型。ExecutorService.submit(Callable)はFuture<V>を返します。"
+    },
+    {
+      "id": "java_concurrency_045",
+      "question": "InvokeAllについて正しい説明はどれか。",
+      "choices": [
+        "全タスク完了時の最初の結果のみ取得",
+        "複数のCallableを送信して、すべてのFutureが完了/タイムアウトまで待機",
+        "一度に1つのタスクを実行",
+        "スレッド割り込めをスケジュール"
+      ],
+      "answer": 1,
+      "explanation": "invokeAll()は複数のCallableをリストで送信し、リスト<Future>を返します。すべていタスクが完了するか、タイムアウトするまで待機します。invokeAny()は最初のタスク完了結果を返します。"
+    },
+    {
+      "id": "java_concurrency_046",
+      "question": "TimeUnitについて正しい説明はどれか。",
+      "choices": [
+        "スレッドプール管理ユーティリティ",
+        "時間単位を表示し、変換機能を提供する列挙型",
+        "タイムアウト値のコン定数ビット",
+        "実時間計測"
+      ],
+      "answer": 1,
+      "explanation": "TimeUnitはNANOSECONDS、MICROSECONDS、MILLISECONDS、SECONDS、MINUTES、HOURS、DAYSを定義します。toMillis()、toSeconds()等で単位変換、sleep()やAwait()のタイムアウト指定に使用。"
+    },
+    {
+      "id": "java_concurrency_047",
+      "question": "false sharingについて正しい説明はどれか。",
+      "choices": [
+        "スレッド間のメモリ共有障害",
+        "異なるスレッドの変数がCPUキャッシュ同じラインに配置され、相互無効化による性能低下",
+        "違法な共通変更",
+        "スレッドセーフ違反"
+      ],
+      "answer": 1,
+      "explanation": "False sharingはCPUキャッシュラインの粒度問題です。独立した変数が64バイト以内に配置されると同じキャッシュラインに乗り、一つが更新されるとキャッシュ無効化が発生します。LongAdderのセル分散、@jdk.internal.vm.annotation.Contendedはkore対策。"
+    },
+    {
+      "id": "java_concurrency_048",
+      "question": "Memory visibilityについて正しい説明はどれか。",
+      "choices": [
+        "スレッド間でメモリ読み書き順序が保証される",
+        "volatile、synchronized、lock操作によってメモリ可視性が保証される",
+        "メモリアクセス速度",
+        "キャッシュサイズ"
+      ],
+      "answer": 1,
+      "explanation": "Memory visibilityはあるスレッドの変更が他のスレッドから可視化されることです。Java Memory Model (JMM)により、volatile読み書き、synchronized进入・退出、lock・unlock操作はvisibility guardasheを提供します。"
+    },
+    {
+      "id": "java_concurrency_049",
+      "question": "Happens-beforeについて正しい説明はどれか。",
+      "choices": [
+        "スレッド実行実時間順序",
+        "メモリ操作の可視化順序を保証するメモリモデルル",
+        "スレッド優先度",
+        "CPU動作速度"
+      ],
+      "answer": 1,
+      "explanation": "Happens-beforeはJMM規定のメモリ操作間の順序関係です。例：スレッド開始前のメモリ操作はスタート後に可視、lock解放前の操作はロック取得後に可視等。これにより、正しく同期されたプログラムは一貫した実行を得ます。"
+    },
+    {
+      "id": "java_concurrency_050",
+      "question": "Java Concurrencyの設計ベストプラクティスで最も重要なものはどれか。",
+      "choices": [
+        "できるだけ多くのロックを使用する",
+        "不変性を活用し、最小限なロック領域、適切な並行ユーティリティを使用する",
+        "すべての操作をsynchronized",
+        "スレッド数を多く設定する"
+      ],
+      "answer": 1,
+      "explanation": "Java並行設計のベストプラクティス：1）スレッドセーフなキャラクター（不変オブジェクト）、2）共有状態最小化、3）ロック範囲最小化、4）同期メージャー（ConcurrentHashMap、atomic変数etc）の選択、5）高レベルユーティリティの活用（Executor、Fork/Join）。これらは複雑性減少とバグ削減を実現。"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "genre": "英検 3級 中級レベル",
+  "exam": "英検 Intermediate",
+  "level": "3級",
+  "questions": [
+    {
+      "id": "en_eiken_intermediate_001",
+      "question": "My friend is worried because she ___ her keys.",
+      "choices": [
+        "lose",
+        "has lost",
+        "loses",
+        "is losing"
+      ],
+      "answer": 1,
+      "explanation": "最近失くした状態が続いているため、現在完了形'has lost'が正しい。"
+    },
+    {
+      "id": "en_eiken_intermediate_002",
+      "question": "If you study hard, you ___ the exam.",
+      "choices": [
+        "pass",
+        "will pass",
+        "would pass",
+        "are passing"
+      ],
+      "answer": 1,
+      "explanation": "If節内は現在形、主節未来形。'will pass'が正しい。"
+    },
+    {
+      "id": "en_eiken_intermediate_003",
+      "question": "She suggested that I ___ earlier to the meeting.",
+      "choices": [
+        "come",
+        "came",
+        "comes",
+        "coming"
+      ],
+      "answer": 0,
+      "explanation": "'suggest that'の後は原形。'come'が正い。"
+    },
+    {
+      "id": "en_eiken_intermediate_004",
+      "question": "The company was founded ___ 1990.",
+      "choices": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 1,
+      "explanation": "年号は'in'で示す。'in 1990'が標準。"
+    },
+    {
+      "id": "en_eiken_intermediate_005",
+      "question": "I wish I _____ more money to travel.",
+      "choices": [
+        "have",
+        "had",
+        "would have",
+        "having"
+      ],
+      "answer": 1,
+      "explanation": "wish節内は仮定法過去。'had'が正しい。"
+    },
+    {
+      "id": "en_eiken_intermediate_006",
+      "question": "She has been working here ___ five years.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間は'for'で示す。'for five years'が正しい。"
+    },
+    {
+      "id": "en_eiken_intermediate_007",
+      "question": "The movie was so boring that I almost fell _____.",
+      "choices": [
+        "sleep",
+        "asleep",
+        "sleepy",
+        "sleeping"
+      ],
+      "answer": 1,
+      "explanation": "'fell asleep'で'眠りに落ちた'。'asleep'は形容詞。"
+    },
+    {
+      "id": "en_eiken_intermediate_008",
+      "question": "She doesn't mind _____ late.",
+      "choices": [
+        "work",
+        "to work",
+        "working",
+        "works"
+      ],
+      "answer": 2,
+      "explanation": "'don't mind + V-ing'で'~するのは構わない'。"
+    },
+    {
+      "id": "en_eiken_intermediate_009",
+      "question": "I would have gone if I _____ about the party.",
+      "choices": [
+        "knew",
+        "had known",
+        "would know",
+        "know"
+      ],
+      "answer": 1,
+      "explanation": "仮定法過去完了。'would have gone'に対応して'had known'。"
+    },
+    {
+      "id": "en_eiken_intermediate_010",
+      "question": "He is known _____ his excellent teaching skills.",
+      "choices": [
+        "as",
+        "for",
+        "to",
+        "by"
+      ],
+      "answer": 1,
+      "explanation": "'be known for'で'~で知られている'。"
+    },
+    {
+      "id": "en_eiken_intermediate_011",
+      "question": "The two cars are almost _____, but this one is bigger.",
+      "choices": [
+        "similar",
+        "same",
+        "alike",
+        "the same"
+      ],
+      "answer": 0,
+      "explanation": "'similar'は述語形容詞。'alike'と同義。"
+    },
+    {
+      "id": "en_eiken_intermediate_012",
+      "question": "He succeeded in _____ a doctor without much difficulty.",
+      "choices": [
+        "become",
+        "becoming",
+        "to become",
+        "becomes"
+      ],
+      "answer": 1,
+      "explanation": "'succeed in + V-ing'で'~するのに成功する'。"
+    },
+    {
+      "id": "en_eiken_intermediate_013",
+      "question": "Unless you call me, I _____ that you are coming.",
+      "choices": [
+        "wouldn't know",
+        "won't know",
+        "don't know",
+        "didn't know"
+      ],
+      "answer": 1,
+      "explanation": "'Unless'は'if not'の意味。未来形'won't know'。"
+    },
+    {
+      "id": "en_eiken_intermediate_014",
+      "question": "The game was cancelled _____ the bad weather.",
+      "choices": [
+        "because of",
+        "because",
+        "although",
+        "however"
+      ],
+      "answer": 0,
+      "explanation": "名詞が続くなら'because of'。'bad weather'の前。"
+    },
+    {
+      "id": "en_eiken_intermediate_015",
+      "question": "Can you help me _____ this problem?",
+      "choices": [
+        "solve",
+        "solving",
+        "to solve",
+        "solved"
+      ],
+      "answer": 0,
+      "explanation": "'help + 原形'で'~するのを手伝う'。"
+    },
+    {
+      "id": "en_eiken_intermediate_016",
+      "question": "I'm interested _____ learning new languages.",
+      "choices": [
+        "to",
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 1,
+      "explanation": "'be interested in'で'~に興味がある'。"
+    },
+    {
+      "id": "en_eiken_intermediate_017",
+      "question": "The students are busy _____ for the exam.",
+      "choices": [
+        "study",
+        "studying",
+        "to study",
+        "studies"
+      ],
+      "answer": 1,
+      "explanation": "'be busy + V-ing'で'~するのに忙しい'。"
+    },
+    {
+      "id": "en_eiken_intermediate_018",
+      "question": "She made a _____ mistake in the exam.",
+      "choices": [
+        "careless",
+        "carefully",
+        "carelessly",
+        "care"
+      ],
+      "answer": 0,
+      "explanation": "'mistake'の前は形容詞'careless'。"
+    },
+    {
+      "id": "en_eiken_intermediate_019",
+      "question": "The book was ___ interesting that I finished it in one day.",
+      "choices": [
+        "very",
+        "so",
+        "such",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "'so + 形容詞 + that'で'とても~なので'。"
+    },
+    {
+      "id": "en_eiken_intermediate_020",
+      "question": "I haven't seen Tom ___ he left for America.",
+      "choices": [
+        "until",
+        "while",
+        "since",
+        "unless"
+      ],
+      "answer": 2,
+      "explanation": "'since'で時の起点。'~して以来ずっと'という完了形。"
+    },
+    {
+      "id": "en_eiken_intermediate_021",
+      "question": "The patient felt much ___ after taking the medicine.",
+      "choices": [
+        "better",
+        "good",
+        "well",
+        "best"
+      ],
+      "answer": 0,
+      "explanation": "'feel'の後の形容詞で'better'は比較級。'much better'で'ずっと良い'。"
+    },
+    {
+      "id": "en_eiken_intermediate_022",
+      "question": "Despite ___ hard, he failed the exam.",
+      "choices": [
+        "studying",
+        "study",
+        "studied",
+        "studies"
+      ],
+      "answer": 0,
+      "explanation": "'Despite + V-ing'で'~にもかかわらず'。"
+    },
+    {
+      "id": "en_eiken_intermediate_023",
+      "question": "The manager encouraged his staff ___ new ideas.",
+      "choices": [
+        "to suggest",
+        "suggesting",
+        "suggest",
+        "suggested"
+      ],
+      "answer": 0,
+      "explanation": "'encourage + 目的語 + to不定詞'で'~するよう勇気づける'。"
+    },
+    {
+      "id": "en_eiken_intermediate_024",
+      "question": "The weather was so bad that we decided to postpone the _____.",
+      "choices": [
+        "event",
+        "evening",
+        "activity",
+        "accident"
+      ],
+      "answer": 0,
+      "explanation": "'decide to postpone'は'延期する'。'event'（行事）がふさわしい。"
+    },
+    {
+      "id": "en_eiken_intermediate_025",
+      "question": "She is ___ popular singer in our country.",
+      "choices": [
+        "the more",
+        "a most",
+        "the most",
+        "most"
+      ],
+      "answer": 2,
+      "explanation": "最高級。'the most popular'で'最も有名な'。"
+    },
+    {
+      "id": "en_eiken_intermediate_026",
+      "question": "I'm looking forward to _____ you soon.",
+      "choices": [
+        "see",
+        "seeing",
+        "to see",
+        "saw"
+      ],
+      "answer": 1,
+      "explanation": "'look forward to + V-ing'で'~をいまから楽しみにしている'。"
+    },
+    {
+      "id": "en_eiken_intermediate_027",
+      "question": "The house needs _____.",
+      "choices": [
+        "repair",
+        "to repair",
+        "repairing",
+        "repaired"
+      ],
+      "answer": 2,
+      "explanation": "'need + V-ing'で受動的な意味。'needs repairing'で'修理が必要'。"
+    },
+    {
+      "id": "en_eiken_intermediate_028",
+      "question": "What would you do if you _____ a million dollars?",
+      "choices": [
+        "win",
+        "won",
+        "would win",
+        "have won"
+      ],
+      "answer": 1,
+      "explanation": "仮定法過去。If節に過去形'won'。"
+    },
+    {
+      "id": "en_eiken_intermediate_029",
+      "question": "It's possible that she _____ the news by now.",
+      "choices": [
+        "hear",
+        "hears",
+        "has heard",
+        "heard"
+      ],
+      "answer": 2,
+      "explanation": "'by now'（今までに）で現在完了形'has heard'。"
+    },
+    {
+      "id": "en_eiken_intermediate_030",
+      "question": "The film was so _____ that most people fell asleep.",
+      "choices": [
+        "bored",
+        "boring",
+        "tiresome",
+        "tired"
+      ],
+      "answer": 1,
+      "explanation": "映画が退屈'boring'。'bored'は人の感情。"
+    },
+    {
+      "id": "en_eiken_intermediate_031",
+      "question": "She worked so hard that she _____ her health.",
+      "choices": [
+        "damaged",
+        "ruined",
+        "spoiled",
+        "harmed"
+      ],
+      "answer": 1,
+      "explanation": "'ruin one's health'で'健康を損なう'は慣用句。"
+    },
+    {
+      "id": "en_eiken_intermediate_032",
+      "question": "The accident happened _____ I was crossing the street.",
+      "choices": [
+        "when",
+        "while",
+        "during",
+        "before"
+      ],
+      "answer": 0,
+      "explanation": "'when'は瞬間。'while'は継続。街を渡り始めた瞬間なので'when'。"
+    },
+    {
+      "id": "en_eiken_intermediate_033",
+      "question": "The article is written _____ a famous journalist.",
+      "choices": [
+        "by",
+        "from",
+        "in",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "受動態で行為者は'by'で示す。'written by'。"
+    },
+    {
+      "id": "en_eiken_intermediate_034",
+      "question": "She told me that she _____ her job.",
+      "choices": [
+        "resign",
+        "would resign",
+        "has resigned",
+        "resigned"
+      ],
+      "answer": 1,
+      "explanation": "過去の報告で、仮定またはその直後の計画は'would'で表示。"
+    },
+    {
+      "id": "en_eiken_intermediate_035",
+      "question": "He made an apology _____ breaking the vase.",
+      "choices": [
+        "for",
+        "about",
+        "of",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "'apologize for'で'~についてお詫びする'。'make an apology for'。"
+    },
+    {
+      "id": "en_eiken_intermediate_036",
+      "question": "_____ he was tired, he didn't give up.",
+      "choices": [
+        "Although",
+        "Because",
+        "Therefore",
+        "However"
+      ],
+      "answer": 0,
+      "explanation": "'Although'で譲歩。'tired'にもかかわらず諦めなかった。"
+    },
+    {
+      "id": "en_eiken_intermediate_037",
+      "question": "The teacher explained the lesson _____ all students understood.",
+      "choices": [
+        "so",
+        "so that",
+        "such that",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "'so that'で目的を表す『~するために』。"
+    },
+    {
+      "id": "en_eiken_intermediate_038",
+      "question": "The concert will be held _____ next Saturday.",
+      "choices": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "曜日は'on'。'on Saturday'。"
+    },
+    {
+      "id": "en_eiken_intermediate_039",
+      "question": "I can't remember the name of the person _____ I met yesterday.",
+      "choices": [
+        "which",
+        "that",
+        "where",
+        "when"
+      ],
+      "answer": 1,
+      "explanation": "目的語の関係代名詞'that'。省略可能。"
+    },
+    {
+      "id": "en_eiken_intermediate_040",
+      "question": "If I _____ your advice, I wouldn't have failed.",
+      "choices": [
+        "took",
+        "had taken",
+        "would take",
+        "have taken"
+      ],
+      "answer": 1,
+      "explanation": "仮定法過去完了。'would have failed'ならIf節は'had taken'。"
+    },
+    {
+      "id": "en_eiken_intermediate_041",
+      "question": "They are arguing _____ where to go for vacation.",
+      "choices": [
+        "about",
+        "of",
+        "over",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "'argue about'で『~について議論する』。"
+    },
+    {
+      "id": "en_eiken_intermediate_042",
+      "question": "The city has been developing _____ a rapid pace.",
+      "choices": [
+        "in",
+        "at",
+        "with",
+        "on"
+      ],
+      "answer": 1,
+      "explanation": "'at a rapid pace'で『急速なペースで』。'at'が速度・比率。"
+    },
+    {
+      "id": "en_eiken_intermediate_043",
+      "question": "She speaks French as _____ as English.",
+      "choices": [
+        "fluent",
+        "fluently",
+        "fluency",
+        "more fluent"
+      ],
+      "answer": 1,
+      "explanation": "'as fluently as'で『英語と同じくらい流暢に』。副詞。"
+    },
+    {
+      "id": "en_eiken_intermediate_044",
+      "question": "The storm caused terrible _____ to the coastal areas.",
+      "choices": [
+        "damaging",
+        "damage",
+        "damages",
+        "damaged"
+      ],
+      "answer": 1,
+      "explanation": "'cause damage'で『被害をもたらす』。'damage'は不可算。"
+    },
+    {
+      "id": "en_eiken_intermediate_045",
+      "question": "He spent hours _____ for his lost dog.",
+      "choices": [
+        "search",
+        "searching",
+        "to search",
+        "searched"
+      ],
+      "answer": 1,
+      "explanation": "'spend time + V-ing'で『~するのに時間をかける』。"
+    },
+    {
+      "id": "en_eiken_intermediate_046",
+      "question": "The two friends hadn't seen each other _____ ten years.",
+      "choices": [
+        "for",
+        "since",
+        "in",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "現在完了形'haven't seen'で期間は'for'。'for ten years'。"
+    },
+    {
+      "id": "en_eiken_intermediate_047",
+      "question": "She was wearing a blue dress _____ a red hat.",
+      "choices": [
+        "and",
+        "with",
+        "in",
+        "of"
+      ],
+      "answer": 1,
+      "explanation": "'wearing + 衣類'の受け身的な別衣類は'with'。'with a red hat'。"
+    },
+    {
+      "id": "en_eiken_intermediate_048",
+      "question": "The price of the product has increased _____ 50%.",
+      "choices": [
+        "by",
+        "to",
+        "at",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "増加量は'by'。'increased by 50%'。"
+    },
+    {
+      "id": "en_eiken_intermediate_049",
+      "question": "It's about time you _____ home.",
+      "choices": [
+        "go",
+        "went",
+        "should go",
+        "going"
+      ],
+      "answer": 1,
+      "explanation": "'It's about time + 過去形'で『もう~すべき頃だ』という仮定法。"
+    },
+    {
+      "id": "en_eiken_intermediate_050",
+      "question": "The factory is _____ to be closed next month.",
+      "choices": [
+        "because",
+        "likely",
+        "possible",
+        "probable"
+      ],
+      "answer": 1,
+      "explanation": "'be likely to'で『~である可能性が高い』。"
+    }
+  ]
+}

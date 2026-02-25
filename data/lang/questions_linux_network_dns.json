@@ -1,0 +1,607 @@
+{
+  "genre": "ネットワーク設定とDNS",
+  "exam": "Linux",
+  "category": "linux_network_dns",
+  "questions": [
+    {
+      "id": "linux_network_dns_001",
+      "question": "Linux システムで、動的ホスト設定プロトコル (DHCP) を使用してネットワークインターフェースに IP アドレスを割り当てるコマンドはどれか？",
+      "choices": [
+        "ifconfig eth0 dhcp",
+        "dhclient eth0",
+        "ip addr add dhcp eth0",
+        "systemctl start dhcp"
+      ],
+      "answer": 1,
+      "explanation": "dhclient コマンドは DHCP クライアントをスタートさせ、指定されたインターフェースに IP アドレスを動的に割り当てる。"
+    },
+    {
+      "id": "linux_network_dns_002",
+      "question": "ネットワークインターフェースを有効にするための「ip」コマンドの正しい構文はどれか？",
+      "choices": [
+        "ip link set eth0 up",
+        "ip up eth0",
+        "ip interface eth0 enable",
+        "ip eth0 activate"
+      ],
+      "answer": 0,
+      "explanation": "「ip link set <interface> up」コマンドは、指定されたネットワークインターフェースを有効にする。"
+    },
+    {
+      "id": "linux_network_dns_003",
+      "question": "/etc/resolv.conf ファイルの主な役割は何か？",
+      "choices": [
+        "ネットワークインターフェースの IP アドレスを設定する",
+        "DNS リゾルバーの設定を指定する",
+        "ルーティングテーブルを定義する",
+        "DHCP サーバーの設定を管理する"
+      ],
+      "answer": 1,
+      "explanation": "/etc/resolv.conf は、DNS ネームサーバーとドメイン検索パスを指定し、DNS 解決を設定するファイルである。"
+    },
+    {
+      "id": "linux_network_dns_004",
+      "question": "静的 IP アドレスを Linux システムに割り当てるための「ip」コマンドの正しい構文はどれか？",
+      "choices": [
+        "ip addr add 192.168.1.100/24 dev eth0",
+        "ip address set 192.168.1.100 eth0",
+        "ip static 192.168.1.100/24 eth0",
+        "ip config addr 192.168.1.100 eth0"
+      ],
+      "answer": 0,
+      "explanation": "「ip addr add <IP>/<CIDR> dev <interface>」コマンドは、インターフェースに静的 IP アドレスを追加する。"
+    },
+    {
+      "id": "linux_network_dns_005",
+      "question": "CIDR 表記法の「/24」は何を意味するか？",
+      "choices": [
+        "ホストアドレス",
+        "ネットマスク 255.255.255.0",
+        "サブネット のビット数",
+        "IP アドレスの最後のオクテット"
+      ],
+      "answer": 1,
+      "explanation": "/24 は、ネットマスクが 255.255.255.0 であることを意味し、最初の 24 ビットがネットワークアドレス、残りの 8 ビットがホストアドレスである。"
+    },
+    {
+      "id": "linux_network_dns_006",
+      "question": "systemd-resolved を使用して DNS リゾルバーを確認するコマンドはどれか？",
+      "choices": [
+        "cat /etc/resolv.conf",
+        "resolvectl status",
+        "systemctl status resolved",
+        "dns list"
+      ],
+      "answer": 1,
+      "explanation": "resolvectl status コマンドは、systemd-resolved の DNS リゾルバー設定と状態を表示する。"
+    },
+    {
+      "id": "linux_network_dns_007",
+      "question": "ネットワークホスト名を設定するコマンドはどれか？",
+      "choices": [
+        "hostname newname",
+        "set-hostname newname",
+        "hostnamectl set-hostname newname",
+        "systemctl hostname newname"
+      ],
+      "answer": 2,
+      "explanation": "hostnamectl set-hostname コマンドは、システムホスト名を永続的に変更する（systemd ベースのシステムで）。"
+    },
+    {
+      "id": "linux_network_dns_008",
+      "question": "DNS 名前解決をテストするためのコマンドはどれか？",
+      "choices": [
+        "ping example.com",
+        "nslookup example.com",
+        "traceroute example.com",
+        "netstat example.com"
+      ],
+      "answer": 1,
+      "explanation": "nslookup コマンドは、ドメイン名の DNS 解決をテストし、A/AAAA/MX レコードなどの情報を取得する。"
+    },
+    {
+      "id": "linux_network_dns_009",
+      "question": "ネットワークルーティングテーブルを表示するコマンドはどれか？",
+      "choices": [
+        "netstat -r",
+        "route show",
+        "ip route list",
+        "show routing"
+      ],
+      "answer": 0,
+      "explanation": "netstat -r（または ip route list）コマンドは、ネットワークルーティングテーブルを表示する。"
+    },
+    {
+      "id": "linux_network_dns_010",
+      "question": "ネットワークインターフェースの詳細情報（IP アドレス、MAC アドレスなど）を表示するコマンドはどれか？",
+      "choices": [
+        "ifconfig eth0",
+        "ip addr show eth0",
+        "ip link show eth0",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "ifconfig、ip addr show、ip link show はすべて、インターフェースの詳細情報を表示するコマンドである。"
+    },
+    {
+      "id": "linux_network_dns_011",
+      "question": "ネットワークの到達可能性をテストするためのコマンドはどれか？",
+      "choices": [
+        "ping IP/hostname",
+        "traceroute IP/hostname",
+        "nslookup IP/hostname",
+        "netstat -a"
+      ],
+      "answer": 0,
+      "explanation": "ping コマンドは、ICMP エコー要求を送信して、ターゲットホストの到達可能性和応答時間を測定する。"
+    },
+    {
+      "id": "linux_network_dns_012",
+      "question": "ホストまでのネットワークパスを追跡するコマンドはどれか？",
+      "choices": [
+        "route trace",
+        "traceroute hostname",
+        "netstat -t",
+        "ping -t hostname"
+      ],
+      "answer": 1,
+      "explanation": "traceroute コマンドは、送信元からターゲットホストまでの各ルータを表示し、ネットワークパスを追跡する。"
+    },
+    {
+      "id": "linux_network_dns_013",
+      "question": "活動中のネットワーク接続と待機中のリッスンポートをリアルタイムで監視するコマンドはどれか？",
+      "choices": [
+        "netstat -u",
+        "ss -tulpn",
+        "lsof -i",
+        "すべて正しい"
+      ],
+      "answer": 1,
+      "explanation": "ss -tulpn コマンドは、TCP/UDP のリッスンポートと活動中の接続をリアルタイムで表示し、ss コマンドは netstat の新しい代替である。"
+    },
+    {
+      "id": "linux_network_dns_014",
+      "question": "/etc/hostname ファイルの用途は何か？",
+      "choices": [
+        "DNS サーバーのアドレスを指定する",
+        "システムホスト名を永続的に保存する",
+        "ネットワークインターフェース設定を管理する",
+        "ルーティングルールを定義する"
+      ],
+      "answer": 1,
+      "explanation": "/etc/hostname は、シスシステムのホスト名を永続的に保存するファイルである。"
+    },
+    {
+      "id": "linux_network_dns_015",
+      "question": "ネットワークインターフェースを一時的に無効にするコマンドはどれか？",
+      "choices": [
+        "ifdown eth0",
+        "ip link set eth0 down",
+        "systemctl stop eth0",
+        "選択肢1と2両方正しい"
+      ],
+      "answer": 3,
+      "explanation": "ifdown と ip link set eth0 down は、ネットワークインターフェースを一時的に無効にする両方の方法である。"
+    },
+    {
+      "id": "linux_network_dns_016",
+      "question": "DNS キャッシュをクリアするには、systemd-resolved で何を実行するか？",
+      "choices": [
+        "resolvectl flush-caches",
+        "systemctl restart resolved",
+        "clear-dns-cache",
+        "dns-clean"
+      ],
+      "answer": 0,
+      "explanation": "resolvectl flush-caches コマンドは、systemd-resolved の DNS キャッシュをクリアする。"
+    },
+    {
+      "id": "linux_network_dns_017",
+      "question": "DHCP クライアントから獲得したリース情報を確認するコマンドはどれか？",
+      "choices": [
+        "dhclient -r",
+        "cat /var/lib/dhclient/dhclient.leases",
+        "dhclient -x",
+        "dhcp status"
+      ],
+      "answer": 1,
+      "explanation": "/var/lib/dhclient/dhclient.leases ファイルには、DHCP から獲得した IP アドレスとリース情報が保存されている。"
+    },
+    {
+      "id": "linux_network_dns_018",
+      "question": "DHCP リースを強制的に解放し、新しいアドレスを取得するコマンドはどれか？",
+      "choices": [
+        "dhclient eth0",
+        "dhclient -r eth0 && dhclient eth0",
+        "systemctl restart dhcp",
+        "ip addr flush eth0"
+      ],
+      "answer": 1,
+      "explanation": "dhclient -r はリースを解放し、続けてdhclient を実行して新しいアドレスを取得する。"
+    },
+    {
+      "id": "linux_network_dns_019",
+      "question": "ネットワークインターフェース設定ファイルが Debian/Ubuntu で保存される場所はどこか？",
+      "choices": [
+        "/etc/sysconfig/network-scripts/",
+        "/etc/network/interfaces または /etc/netplan/",
+        "/etc/config/network",
+        "/etc/network/conf.d/"
+      ],
+      "answer": 1,
+      "explanation": "Debian/Ubuntu では、ネットワーク設定は /etc/network/interfaces または新しいシステムでは /etc/netplan/ に保存される。"
+    },
+    {
+      "id": "linux_network_dns_020",
+      "question": "DHCP クライアントを無効にして静的 IP を設定するには、/etc/network/interfaces で何をすればよいか？",
+      "choices": [
+        "iface eth0 inet loopback",
+        "iface eth0 inet dhcp",
+        "iface eth0 inet static で、address、netmask、gateway を指定する",
+        "auto eth0 dhcp"
+      ],
+      "answer": 2,
+      "explanation": "静的 IP を設定するには、「iface eth0 inet static」と指定して、address、netmask、gateway を続けて指定する。"
+    },
+    {
+      "id": "linux_network_dns_021",
+      "question": "DNS サーバーアドレスを /etc/resolv.conf に追加する方法はどれか？",
+      "choices": [
+        "ip dns add 8.8.8.8",
+        "nameserver 8.8.8.8 行を追加する",
+        "dns 8.8.8.8",
+        "resolver 8.8.8.8"
+      ],
+      "answer": 1,
+      "explanation": "/etc/resolv.conf に \"nameserver 8.8.8.8\" の行を追加して、DNS サーバーを指定する。"
+    },
+    {
+      "id": "linux_network_dns_022",
+      "question": "ローカルホストの IP アドレスはどれか？",
+      "choices": [
+        "0.0.0.0",
+        "127.0.0.1",
+        "192.168.0.1",
+        "255.255.255.255"
+      ],
+      "answer": 1,
+      "explanation": "127.0.0.1 は localhost のループバックアドレスで、ローカルマシンを表す。"
+    },
+    {
+      "id": "linux_network_dns_023",
+      "question": "TCP/IP モデルで、HTTP がどのレイヤーで動作するか？",
+      "choices": [
+        "物理層（レイヤー1）",
+        "データリンク層（レイヤー2）",
+        "アプリケーション層（レイヤー7）",
+        "トランスポート層（レイヤー4）"
+      ],
+      "answer": 2,
+      "explanation": "HTTP はアプリケーション層（レイヤー7）のプロトコルで、TCP/IP の最上層で動作する。"
+    },
+    {
+      "id": "linux_network_dns_024",
+      "question": "DNS 解決プロセスで、ホスト名から IP アドレスへの変換を行うものはどれか？",
+      "choices": [
+        "DNS リゾルバー",
+        "DNS リカーシブリゾルバー",
+        "DNS オーソリティティブサーバー",
+        "すべてが関わる"
+      ],
+      "answer": 3,
+      "explanation": "DNS 解決は、リゾルバー、リカーシブリゾルバー、オーソリティティブサーバーなど複数のコンポーネントが協力して行う。"
+    },
+    {
+      "id": "linux_network_dns_025",
+      "question": "\"nslookup\" コマンドで、特定の DNS サーバーに対してドメインをクエリするには何を使用するか？",
+      "choices": [
+        "nslookup -server example.com @8.8.8.8",
+        "nslookup example.com 8.8.8.8",
+        "nslookup example.com -dns 8.8.8.8",
+        "nslookup -query example.com 8.8.8.8"
+      ],
+      "answer": 1,
+      "explanation": "nslookup <domain> <dns-server> で、特定の DNS サーバーに対してドメイン名をクエリできる。"
+    },
+    {
+      "id": "linux_network_dns_026",
+      "question": "\"dig\" コマンドで、NS レコード（ネームサーバー）を検索するには何を追加するか？",
+      "choices": [
+        "dig NS example.com",
+        "dig -NS example.com",
+        "dig +NS example.com",
+        "dig --type=NS example.com"
+      ],
+      "answer": 0,
+      "explanation": "dig NS <domain> コマンドは、指定されたドメインのネームサーバー（NS レコード）を検索する。"
+    },
+    {
+      "id": "linux_network_dns_027",
+      "question": "ローカル /etc/hosts ファイルは何に使用されるか？",
+      "choices": [
+        "ホスト間の通信を制御する",
+        "ホスト名と IP アドレスのローカルマッピングを定義する",
+        "DNS サーバーの権限を確認する",
+        "ルーティング情報を保存する"
+      ],
+      "answer": 1,
+      "explanation": "/etc/hosts は、ホスト名と IP アドレスのローカルマッピングを定義し、DNS 問い合わせより優先される。"
+    },
+    {
+      "id": "linux_network_dns_028",
+      "question": "\"netstat -tulnp\" コマンドの出力で、LISTEN 状態にあるエントリはどういう意味か？",
+      "choices": [
+        "接続が確立している",
+        "ポートがサービスのリッスンを待機している",
+        "接続が切断されている",
+        "パケットが送信されている"
+      ],
+      "answer": 1,
+      "explanation": "LISTEN 状態は、ポートがサービスの受信接続をリッスンしていることを示す。"
+    },
+    {
+      "id": "linux_network_dns_029",
+      "question": "\"ip route add default via 192.168.1.1 dev eth0\" コマンドの役割は何か？",
+      "choices": [
+        "静的 IP アドレスを設定する",
+        "デフォルトゲートウェイを設定する",
+        "DNS サーバーを設定する",
+        "DHCPリースを更新する"
+      ],
+      "answer": 1,
+      "explanation": "このコマンドはデフォルトゲートウェイを設定し、宛先アドレスが既知のルート外のパケットをゲートウェイにルーティングする。"
+    },
+    {
+      "id": "linux_network_dns_030",
+      "question": "Debian/Ubuntu で、netplan を使用してネットワークを再度有効にするコマンドはどれか？",
+      "choices": [
+        "netplan generate",
+        "netplan apply",
+        "systemctl restart networking",
+        "netplan activate"
+      ],
+      "answer": 1,
+      "explanation": "netplan apply コマンドは、/etc/netplan/ の設定を適用してネットワークを再度有効にする。"
+    },
+    {
+      "id": "linux_network_dns_031",
+      "question": "\"ping -c 4 hostname\" コマンドで、\"-c 4\" フラグは何を意味するか？",
+      "choices": [
+        "4 つの DNS サーバーをテストする",
+        "4 つのパケットを送信する",
+        "4 秒間待機する",
+        "4 つのインターフェースを確認する"
+      ],
+      "answer": 1,
+      "explanation": "-c フラグは送信するパケット数を指定し、-c 4 は 4 つのパケットを送信することを意味する。"
+    },
+    {
+      "id": "linux_network_dns_032",
+      "question": "\"ip addr show\" コマンドで、BROADCAST というフラグはどういう意味か？",
+      "choices": [
+        "インターフェースがブロードキャストアドレスをサポートしている",
+        "ブロードキャストトラフィックが有効である",
+        "インターフェースが停止している",
+        "マルチキャストが有効である"
+      ],
+      "answer": 0,
+      "explanation": "BROADCAST フラグは、インターフェースがブロードキャストアドレスをサポートしており、ブロードキャストパケット（全ホストへの送信）を処理できることを示す。"
+    },
+    {
+      "id": "linux_network_dns_033",
+      "question": "ネットワークインターフェースに複数の IP アドレスを設定するコマンドはどれか？",
+      "choices": [
+        "ip addr add 192.168.1.10/24 dev eth0",
+        "ip addr add 192.168.1.11/24 dev eth0",
+        "両方のコマンドを続けて実行する",
+        "ifconfig eth0:1 192.168.1.11"
+      ],
+      "answer": 2,
+      "explanation": "複数の IP アドレスは、複数回「ip addr add」コマンドを実行して追加できる。"
+    },
+    {
+      "id": "linux_network_dns_034",
+      "question": "\"ss -tulnp\" コマンドで、\"ESTAB\" 状態はどういう意味か？",
+      "choices": [
+        "接続が確立されている",
+        "接続待機中",
+        "接続を閉鎖中",
+        "接続が拒否されている"
+      ],
+      "answer": 0,
+      "explanation": "ESTAB（ESTABLISHED）状態は、TCP 接続が確立されており、データが送受信されることを示す。"
+    },
+    {
+      "id": "linux_network_dns_035",
+      "question": "DNS リゾルバーの設定を確認するために systemd-resolved で使用するコマンドはどれか？",
+      "choices": [
+        "systemctl -l resolved",
+        "resolvectl query example.com",
+        "resolvectl status",
+        "systemctl show resolved"
+      ],
+      "answer": 2,
+      "explanation": "resolvectl status コマンドは、systemd-resolved の現在の DNS サーバーとドメイン検索パスを表示する。"
+    },
+    {
+      "id": "linux_network_dns_036",
+      "question": "\"ping\" コマンドで、パケット損失率が 100% の場合、それは何を意味するか？",
+      "choices": [
+        "すべてのパケットが正常に受信された",
+        "すべてのパケットが到達しなかった",
+        "接続が不安定である",
+        "パケットが遅延している"
+      ],
+      "answer": 1,
+      "explanation": "100% のパケット損失は、すべての ICMP エコー要求がターゲットから応答を受け取らなかったことを意味し、ホストに到達できない。"
+    },
+    {
+      "id": "linux_network_dns_037",
+      "question": "\"ip route\" コマンドで、ルーティングテーブルに新しいルートを追加するには何を使用するか？",
+      "choices": [
+        "ip route add",
+        "ip route set",
+        "ip route insert",
+        "ip route create"
+      ],
+      "answer": 0,
+      "explanation": "\"ip route add\" コマンドは、ルーティングテーブルに新しいルート（経路）を追加する。"
+    },
+    {
+      "id": "linux_network_dns_038",
+      "question": "ネットワークインターフェースの MTU（最大転送ユニット）を変更するコマンドはどれか？",
+      "choices": [
+        "ip link set eth0 mtu 1500",
+        "mtu set eth0 1500",
+        "ifconfig eth0 mtu 1500",
+        "選択肢1と3両方正しい"
+      ],
+      "answer": 3,
+      "explanation": "ip link set と ifconfig はどちらも MTU を変更できるコマンドである。"
+    },
+    {
+      "id": "linux_network_dns_039",
+      "question": "\"traceroute\" と \"mtr\" コマンドの主な違いは何か？",
+      "choices": [
+        "traceroute はホップレイテンシを表示し、mtr はリアルタイムで監視できる",
+        "mtr は Windows のみで動作する",
+        "traceroute で UDP を使用し、mtr は ICMP を使用する",
+        "mtr は古いシステムでのみ動作する"
+      ],
+      "answer": 0,
+      "explanation": "\"mtr（My Traceroute）は traceroute と ping の機能を統合し、ネットワークパスをリアルタイムで継続的に監視できる。"
+    },
+    {
+      "id": "linux_network_dns_040",
+      "question": "\"ip addr del 192.168.1.100/24 dev eth0\" コマンドの役割は何か？",
+      "choices": [
+        "インターフェースから IP アドレスを削除する",
+        "ルーティングテーブルからエントリを削除する",
+        "DNS 設定を削除する",
+        "DHCP リースを削除する"
+      ],
+      "answer": 0,
+      "explanation": "このコマンドは、指定されたネットワークインターフェースから IP アドレスを削除する。"
+    },
+    {
+      "id": "linux_network_dns_041",
+      "question": "DNS キャッシュが有効化されているかを確認するコマンドはどれか？",
+      "choices": [
+        "resolvectl status",
+        "grep -i cache /etc/resolv.conf",
+        "cat /etc/systemd/resolved.conf",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "複数の方法でキャッシュの設定を確認できる。"
+    },
+    {
+      "id": "linux_network_dns_042",
+      "question": "RedHat/CentOS で、ネットワークインターフェース設定ファイルはどこに保存されるか？",
+      "choices": [
+        "/etc/network/interfaces",
+        "/etc/sysconfig/network-scripts/ifcfg-eth0",
+        "/etc/netplan/",
+        "/etc/config/network"
+      ],
+      "answer": 1,
+      "explanation": "RedHat/CentOS では、ネットワーク設定は /etc/sysconfig/network-scripts/ ディレクトリに保存される。"
+    },
+    {
+      "id": "linux_network_dns_043",
+      "question": "\"ifup eth0\" コマンドと \"ip link set eth0 up\" コマンドの関係は何か？",
+      "choices": [
+        "まったく無関係である",
+        "ifup は ip link set の古い方法である",
+        "どちらもネットワークインターフェースを有効にするが、ifup はより詳細な設定を適用する",
+        "ip link set は ifup の上級版である"
+      ],
+      "answer": 2,
+      "explanation": "どちらもインターフェースを有効にするが、ifup は /etc/network/interfaces の設定を読み込んで適用し、ip link set はインターフェースの状態だけを変更する。"
+    },
+    {
+      "id": "linux_network_dns_044",
+      "question": "\"dig\" コマンドで、垂直形式で詳細な出力を表示するには何を使用するか？",
+      "choices": [
+        "dig +short example.com",
+        "dig +noall +answer example.com",
+        "dig +trace example.com",
+        "dig +verbose example.com"
+      ],
+      "answer": 1,
+      "explanation": "dig +noall +answer は、有用な回答情報のみを表示し、詳細で読みやすい形式で出力する。"
+    },
+    {
+      "id": "linux_network_dns_045",
+      "question": "\"netstat -an | grep LISTEN\" コマンドが表示するものは何か？",
+      "choices": [
+        "すべてのリッスンポートと接続ステータス",
+        "停止中のサービス",
+        "リモートホストからの接続",
+        "ルーティングテーブル"
+      ],
+      "answer": 0,
+      "explanation": "このコマンドは、システムでリッスン中のすべてのポート（TCP と UDP）と、サービスの数値アドレスを表示する。"
+    },
+    {
+      "id": "linux_network_dns_046",
+      "question": "ネットワークインターフェースをプロミスキャスモード（全トラフィックキャプチャ）に設定するコマンドはどれか？",
+      "choices": [
+        "ip link set eth0 promisc on",
+        "ifconfig eth0 promisc",
+        "tcpdump -i eth0",
+        "選択肢1と2両方正しい"
+      ],
+      "answer": 3,
+      "explanation": "ip link set と ifconfig は両方ともプロミスキャスモードを設定できる。"
+    },
+    {
+      "id": "linux_network_dns_047",
+      "question": "DHCP クライアントから特定のオプション（例：DNS）を除外するには、以下のファイルで何を設定するか？",
+      "choices": [
+        "/etc/resolv.conf で、request オプションを修正する",
+        "/etc/dhcp/dhclient.conf で、request を設定する",
+        "/etc/network/interfaces で、dhcp-identifier を修正する",
+        "DHCP クライアントは自動的に除外できない"
+      ],
+      "answer": 1,
+      "explanation": "/etc/dhcp/dhclient.conf で、request（要求するオプション）を設定して DHCP オプションをカスタマイズできる。"
+    },
+    {
+      "id": "linux_network_dns_048",
+      "question": "\"ip link show\" コマンドで、インターフェースが DOWN 状態にある場合、これは何を意味するか？",
+      "choices": [
+        "インターフェースが無効になっている",
+        "ケーブルが接続されていない",
+        "ドライバが読み込まれていない",
+        "すべての場合を示す"
+      ],
+      "answer": 0,
+      "explanation": "DOWN 状態は、インターフェースが管理上無効にされていることを意味する。"
+    },
+    {
+      "id": "linux_network_dns_049",
+      "question": "\"systemctl restart networking\" と \"systemctl restart systemd-networkd\" の違いは何か？",
+      "choices": [
+        "restart networking はレガシーネットワーク管理の再起動で、systemd-networkd は systemd ネットワーク管理の再起動である",
+        "両者は完全に同じである",
+        "restart networking は Debian ベースのシステムで、systemd-networkd は RedHat ベースのシステムで使用される",
+        "restart networking は古いシステムでのみ動作する"
+      ],
+      "answer": 0,
+      "explanation": "restart networking はレガシーネットワークサービス（/etc/init.d/networking）を再起動し、systemd-networkd は systemd ベースのネットワーク管理デーモンを再起動する。"
+    },
+    {
+      "id": "linux_network_dns_050",
+      "question": "\"route -n\" コマンドと \"ip route show\" コマンドの出力の主な違いは何か？",
+      "choices": [
+        "まったく異なるフォーマットで表示される",
+        "ip route show はより新しく、より詳細な情報を提供する",
+        "route -n は DNS 名前解決を無効にして数値アドレスを表示する",
+        "選択肢1と3両方正しい"
+      ],
+      "answer": 3,
+      "explanation": "route -n は数値ホストアドレスをルーティングテーブルに表示し、ip route show はより詳細で新しいフォーマットで表示する。"
+    }
+  ]
+}

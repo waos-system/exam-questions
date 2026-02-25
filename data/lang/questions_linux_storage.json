@@ -1,0 +1,606 @@
+{
+  "genre": "ストレージ管理",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_storage_001",
+      "question": "fdiskコマンドで新しいディスク(/dev/sdb)をMBRの主パーティションで分割する際、最初に実行すべきコマンドはどれか。",
+      "choices": [
+        "fdisk -l /dev/sdb",
+        "fdisk /dev/sdb",
+        "parted /dev/sdb",
+        "mkfs.ext4 /dev/sdb1"
+      ],
+      "answer": 1,
+      "explanation": "fdisk /dev/sdbでインタラクティブモードを開いて、パーティションの作成・編集ができます。fdisk -lは既存パーティションの確認、partedはGPT形式向け、mkfs.ext4はパーティション作成後のファイルシステム作成です。"
+    },
+    {
+      "id": "linux_storage_002",
+      "question": "fdiskで新しいパーティションを作成する際、「+2G」で2GBのサイズを指定しました。パーティションテーブルに書き込むにはどのコマンドを実行すべきか。",
+      "choices": [
+        "w",
+        "q",
+        "p",
+        "d"
+      ],
+      "answer": 0,
+      "explanation": "fdisk内でwコマンドはパーティションテーブルをディスクに書き込み、qは変更を破棄して終了、pは現在のパーティション構成を表示、dはパーティション削除です。"
+    },
+    {
+      "id": "linux_storage_003",
+      "question": "2TB以上のディスクをパーティション分割する場合、MBR形式の制限により何が問題となるか。",
+      "choices": [
+        "パーティションの最大サイズが2TBに限定される",
+        "管理できるパーティション数が4個に制限される",
+        "ディスク I/Oパフォーマンスが低下する",
+        "ext4ファイルシステムが利用できなくなる"
+      ],
+      "answer": 0,
+      "explanation": "MBRパーティションテーブルは32ビットのセクタアドレスを使用するため、最大容量が約2.2TBに限定されます。2TB以上のディスクはGPT形式を使用すべきです。"
+    },
+    {
+      "id": "linux_storage_004",
+      "question": "partedコマンドを使用してGPTパーティションテーブルのディスクを作成する際、最初に実行すべきコマンドはどれか。",
+      "choices": [
+        "parted /dev/sdc mktable gpt",
+        "parted /dev/sdc",
+        "gdisk /dev/sdc",
+        "fdisk -g /dev/sdc"
+      ],
+      "answer": 0,
+      "explanation": "parted /dev/sdc mktable gptでGPTパーティションテーブルを初期化できます。gdiskもGPT対応ですが、partedが標準コマンドです。"
+    },
+    {
+      "id": "linux_storage_005",
+      "question": "gdiskコマンドの特徴として正しいものはどれか。",
+      "choices": [
+        "MBRパーティションのみに対応している",
+        "GPT形式のディスクに特化した対話的ツール",
+        "Linuxで最も高速なパーティションツール",
+        "拡張パーティションの作成に特化している"
+      ],
+      "answer": 1,
+      "explanation": "gdiskはGPTパーティションテーブル専用の対話的ツールで、fdiskのGPT版として機能します。MBR対応はせず、GUIDベースのパーティション管理を行います。"
+    },
+    {
+      "id": "linux_storage_006",
+      "question": "Linux ext4ファイルシステムの特徴として正しいものはどれか。",
+      "choices": [
+        "マスタキーとなるスーパーブロックの情報が1か所にのみ保存される",
+        "最大ファイルシステムサイズは16TBである",
+        "journalingにより、クラッシュ後の高速な整合性チェックが可能である",
+        "マルチプロセッサ環境で並行書き込みができない"
+      ],
+      "answer": 2,
+      "explanation": "ext4はメタデータジャーナリングを採用しており、不完全な書き込み操作を記録することで、クラッシュ後のfsck実行時間が大幅に短縮されます。スーパーブロックのコピーは複数個保存され、最大サイズは16EBです。"
+    },
+    {
+      "id": "linux_storage_007",
+      "question": "XFSファイルシステムが大規模ファイルや大容量ディスクに適している理由として最も適切なものはどれか。",
+      "choices": [
+        "inodeサイズが小さく、メモリ効率が良い",
+        "高速な書き込みキャッシュと効率的なメタデータ処理により、高スループットを実現する",
+        "複数のディスクに自動的にデータを分散される",
+        "LVMとの組み合わせでのみ高速化される"
+      ],
+      "answer": 1,
+      "explanation": "XFSは遅延書き込み、バッファレッドIO、効率的なメタデータ構造によって、大規模ファイル環境で優れたパフォーマンスを発揮します。特にストレージエリアネットワーク(SAN)環境での使用に適しています。"
+    },
+    {
+      "id": "linux_storage_008",
+      "question": "Btrfsファイルシステムの特徴として正しいものはどれか。",
+      "choices": [
+        "デバイスの追加後、自動的にオンラインで容量拡張できない",
+        "スナップショット機能により、ファイルシステムのポイントインタイム復旧が可能である",
+        "複数のディスクをまたいだRAID構成には対応していない",
+        "journalingが必須であり、journalingなしでのマウントは不可能である"
+      ],
+      "answer": 1,
+      "explanation": "Btrfsはスナップショット、自動デバイス管理、RAID対応、マルチデバイス対応などの機能を備えています。journalingはなく、Copy-on-Writeメカニズムを採用しています。"
+    },
+    {
+      "id": "linux_storage_009",
+      "question": "mkfs.ext4でファイルシステムを作成する際、-Fオプションを使用しない場合、既存のファイルシステムがあると何が発生するか。",
+      "choices": [
+        "既存ファイルシステムが上書きされる",
+        "警告メッセージが表示され、確認入力を求められる",
+        "エラーが発生し、コマンドが中止される",
+        "新しいファイルシステムが既存ファイルシステムに統合される"
+      ],
+      "answer": 1,
+      "explanation": "mkfs.ext4は安全性のため、既存ファイルシステムを検出すると警告メッセージを表示し、ユーザーの確認を求めます。-Fオプションで強制上書きできます。"
+    },
+    {
+      "id": "linux_storage_010",
+      "question": "LVM（Logical Volume Manager）の層構造の正しい順序はどれか。",
+      "choices": [
+        "物理ボリューム(PV) → ボリュームグループ(VG) → 論理ボリューム(LV)",
+        "ボリュームグループ(VG) → 物理ボリューム(PV) → 論理ボリューム(LV)",
+        "論理ボリューム(LV) → 物理ボリューム(PV) → ボリュームグループ(VG)",
+        "物理ボリューム(PV) → 論理ボリューム(LV) → ボリュームグループ(VG)"
+      ],
+      "answer": 0,
+      "explanation": "LVMの階層構造は、複数の物理デバイスからPVを作成し、これをVGで管理し、VGから複数のLVを作成する段階的なアプローチです。"
+    },
+    {
+      "id": "linux_storage_011",
+      "question": "pvcreateコマンドの用途として正しいものはどれか。",
+      "choices": [
+        "ボリュームグループを作成する",
+        "論理ボリュームを作成する",
+        "物理ボリュームを作成するために、ディスクやパーティションを初期化する",
+        "物理ボリュームの状態を表示する"
+      ],
+      "answer": 2,
+      "explanation": "pvcreateはディスク/パーティションをLVM用に初期化し、物理ボリュームとして認識可能にする前処理コマンドです。"
+    },
+    {
+      "id": "linux_storage_012",
+      "question": "vgcreateコマンドで新しいボリュームグループを作成する際、複数の物理ボリュームを使用する場合のコマンド形式として正しいものはどれか。",
+      "choices": [
+        "vgcreate myvg /dev/sdb1 /dev/sdc1",
+        "vgcreate -m /dev/sdb1 /dev/sdc1 myvg",
+        "vgcreate /dev/sdb1 /dev/sdc1",
+        "vgcreate -a myvg /dev/sdb1 /dev/sdc1"
+      ],
+      "answer": 0,
+      "explanation": "vgcreate ボリュームグループ名 物理ボリューム1 物理ボリューム2...の形式で複数のPVをVGに組み入れます。"
+    },
+    {
+      "id": "linux_storage_013",
+      "question": "lvcreateコマンドで5GBの論理ボリュームを作成する場合、正しいコマンドはどれか。",
+      "choices": [
+        "lvcreate -L 5G myvg",
+        "lvcreate -L 5G myvg mylv",
+        "lvcreate -L 5GB -n mylv myvg",
+        "lvcreate -s 5G myvg mylv"
+      ],
+      "answer": 2,
+      "explanation": "lvcreate -L 5G -n 論理ボリューム名 ボリュームグループ名の形式が正しい。-Lはサイズ指定、-nは論理ボリューム名指定、-sはスナップショット作成オプションです。"
+    },
+    {
+      "id": "linux_storage_014",
+      "question": "LVMの利点として最も適切なものはどれか。",
+      "choices": [
+        "複数の物理ディスク上の領域を透過的に管理でき、オンラインで容量拡張が可能である",
+        "全ての物理ディスクが自動的にRAID保護される",
+        "ファイルシステムのチェック時間が大幅に短縮される",
+        "ext4よりも優れたパフォーマンスを提供する"
+      ],
+      "answer": 0,
+      "explanation": "LVMの主な利点は、複数のデバイスからの容量を透過的に統合して管理でき、オンラインで追加拡張が可能な点です。RAID保護やfsck高速化はLVM自体の機能ではなく、別途設定が必要です。"
+    },
+    {
+      "id": "linux_storage_015",
+      "question": "mountコマンドなしでファイルシステムをマウントするには、/etc/fstabファイルにどの情報を記述する必要があるか。",
+      "choices": [
+        "デバイス、マウントポイント、ファイルシステムタイプのみ",
+        "デバイス、マウントポイント、ファイルシステムタイプ、マウントオプション、ダンプ頻度、チェック順序",
+        "マウントオプションとダンプ頻度のみ",
+        "デバイスとマウントポイントのみ"
+      ],
+      "answer": 1,
+      "explanation": "fstabの各行は: デバイス、マウントポイント、ファイルシステムタイプ、オプション、ダンプ頻度(dump)、チェック順序(pass)の6つのフィールドで構成されます。"
+    },
+    {
+      "id": "linux_storage_016",
+      "question": "mountコマンドで既にマウント済みのファイルシステムを別のマウントポイントに再マウントする場合、最初にどのコマンドを実行すべきか。",
+      "choices": [
+        "umount /現在のマウントポイント",
+        "remount -o /新しいマウントポイント",
+        "mount -o remount /現在のマウントポイント",
+        "unmount /新しいマウントポイント"
+      ],
+      "answer": 0,
+      "explanation": "既にマウント済みのファイルシステムを別の場所に変更する場合は、umountで現在のマウントを解除してから、新しいマウントポイントで再度mountする必要があります。"
+    },
+    {
+      "id": "linux_storage_017",
+      "question": "mountコマンドで-oオプションを使用してマウント時にreadonly属性を設定するには、どのオプションを指定すべきか。",
+      "choices": [
+        "-o ro",
+        "-o rw",
+        "-o readonly",
+        "-o nowrite"
+      ],
+      "answer": 0,
+      "explanation": "mount -o roで読み取り専用マウント、mount -o rwで読み書き可能マウント、mount -o noautoで自動マウント無効などのオプションが使用できます。"
+    },
+    {
+      "id": "linux_storage_018",
+      "question": "umountコマンドで「device is busy」エラーが発生した場合の対処方法として適切なものはどれか。",
+      "choices": [
+        "強制的に電源を切る",
+        "fuser /マウントポイント で使用プロセスを確認し、該当プロセスを終了してから再度umountを実行する",
+        "mount -o remountでマウントし直す",
+        "fsckコマンドを実行してファイルシステムをチェックする"
+      ],
+      "answer": 1,
+      "explanation": "マウントポイントが\"busy\"状態とは、そのマウント上で実行中のプロセスがあることを意味します。fuser/lsofコマンドで確認し、プロセスを終了させることで解決できます。"
+    },
+    {
+      "id": "linux_storage_019",
+      "question": "fsckコマンドを実行する際、マウント済みファイルシステムに対して実行すると何が起こるか。",
+      "choices": [
+        "ファイルシステムが自動的にチェックされる",
+        "警告が表示され、実行が拒否される可能性がある",
+        "データが自動的に修復される",
+        "マウントが解除される"
+      ],
+      "answer": 1,
+      "explanation": "fsckはマウント済みのファイルシステムに対して実行すると危険なため、警告を表示し、実行を拒否することがあります。fsckはアンマウント状態で実行すべきです。"
+    },
+    {
+      "id": "linux_storage_020",
+      "question": "ext4ファイルシステムをチェック・修復する際、中程度の破損を修復するfsckコマンドのオプションはどれか。",
+      "choices": [
+        "fsck.ext4 -y /dev/sda1",
+        "fsck.ext4 -f /dev/sda1",
+        "fsck.ext4 -p /dev/sda1",
+        "fsck.ext4 -c /dev/sda1"
+      ],
+      "answer": 0,
+      "explanation": "fsck.ext4 -yで全ての質問に\"yes\"で答えて修復を実行、-fで強制チェック、-pで自動修復(minor issues)を実行します。-cはバッドブロックのチェックです。"
+    },
+    {
+      "id": "linux_storage_021",
+      "question": "xfs_repairコマンドでXFSファイルシステムを修復する場合、実行前に満たすべき条件はどれか。",
+      "choices": [
+        "ファイルシステムがマウント状態である",
+        "ファイルシステムが完全にアンマウント状態である",
+        "ext4形式に変換されている",
+        "rootユーザー以外のユーザーで実行する"
+      ],
+      "answer": 1,
+      "explanation": "xfs_repairはチェック者がアンマウント状態のXFSファイルシステムに対してのみ実行可能です。マウント状態での実行は危険であり、システムがリード専用にマウントしている場合もあります。"
+    },
+    {
+      "id": "linux_storage_022",
+      "question": "diskquotaの用途として最も適切なものはどれか。",
+      "choices": [
+        "ディスク容量の自動拡張を管理する",
+        "ユーザー/グループのディスク使用量を制限する",
+        "複数のディスクを自動的にバックアップする",
+        "ファイルシステムのパフォーマンスを向上させる"
+      ],
+      "answer": 1,
+      "explanation": "disk quotaはユーザーやグループがディスク容量を使いすぎることを防ぐため、使用量の上限(hard limit)と警告値(soft limit)を設定します。"
+    },
+    {
+      "id": "linux_storage_023",
+      "question": "disk quotaを有効にするため、/etc/fstabに記述するマウントオプションとして正しいものはどれか。",
+      "choices": [
+        "noauto",
+        "usrquota,grpquota",
+        "nosuid",
+        "nofail"
+      ],
+      "answer": 1,
+      "explanation": "fstabのオプション欄にusrquota（ユーザークォータ）、grpquota（グループクォータ）を指定することで、マウント時に自動的にdisk quotaが有効化されます。"
+    },
+    {
+      "id": "linux_storage_024",
+      "question": "edquotaコマンドの用途として正しいものはどれか。",
+      "choices": [
+        "ユーザーのクォータ使用状況を表示する",
+        "クォータデータベースをチェックする",
+        "ユーザー/グループのクォータ値を編集する",
+        "クォータを無効にする"
+      ],
+      "answer": 2,
+      "explanation": "edquotaはユーザー/グループのsoft limitとhard limitを編集するコマンドです。quotaコマンドで確認、repquotaでレポート表示ができます。"
+    },
+    {
+      "id": "linux_storage_025",
+      "question": "tarコマンドでディレクトリ/home/user全体をバックアップ、gzip圧縮して、backup.tar.gzファイルに保存する場合、正しいコマンドはどれか。",
+      "choices": [
+        "tar -xzf backup.tar.gz /home/user",
+        "tar -czf backup.tar.gz /home/user",
+        "tar -cf backup.tar.gz /home/user",
+        "tar -zcf backup.tar.gz /home/user"
+      ],
+      "answer": 1,
+      "explanation": "tar -czf ファイル名 ディレクトリ名で、-c(作成)、-z(gzip圧縮)、-f(ファイルに保存)のオプションを組み合わせてバックアップを作成します。"
+    },
+    {
+      "id": "linux_storage_026",
+      "question": "tar -tzf backup.tar.gzコマンドの実行結果として得られるものはどれか。",
+      "choices": [
+        "backup.tar.gzの内容を現在のディレクトリに抽出する",
+        "backup.tar.gzに含まれるファイル一覧を表示する",
+        "backup.tar.gzを解凍してディスク容量を表示する",
+        "backup.tar.gzのチェックサムを検証する"
+      ],
+      "answer": 1,
+      "explanation": "tar -tzfで、-t(一覧表示)、-z(gzip解凍)、-f(ファイルから読込)のオプションにより、アーカイブ内のファイル一覧を表示できます。"
+    },
+    {
+      "id": "linux_storage_027",
+      "question": "rsyncコマンドで/source/ディレクトリを/destination/に同期する場合、末尾スラッシュ有無の違いとして正しいものはどれか。",
+      "choices": [
+        "末尾スラッシュの有無で動作に差異はない",
+        "rsync -avsource/は/sourceディレクトリ内のファイルのみコピー、rsync -av source は sourceディレクトリ全体をコピー",
+        "末尾スラッシュがあるとエラーが発生する",
+        "末尾スラッシュがないと圧縮されない"
+      ],
+      "answer": 1,
+      "explanation": "rsync /source/ は/source内のファイルを同期、rsync /sourceは/sourceディレクトリ全体を同期する動作の違いがあります。"
+    },
+    {
+      "id": "linux_storage_028",
+      "question": "rsyncで削除されたファイルをリモートサーバーからも削除する場合、追加すべきオプションはどれか。",
+      "choices": [
+        "--delete",
+        "--remove",
+        "--sync",
+        "--clean"
+      ],
+      "answer": 0,
+      "explanation": "rsync --deleteオプションを使用すると、送信元に存在しないファイルをリモート側から削除して同期を取ります。これは危険なオプションなので使用時は注意が必要です。"
+    },
+    {
+      "id": "linux_storage_029",
+      "question": "ddコマンドを使用してディスク/dev/sdaの内容をディスク/dev/sdbに完全コピーする場合、最も適切なコマンドはどれか。",
+      "choices": [
+        "dd if=/dev/sda of=/dev/sdb",
+        "dd if=/dev/sdb of=/dev/sda",
+        "cp /dev/sda /dev/sdb",
+        "dd if=/dev/sda of=/dev/sdb bs=4M"
+      ],
+      "answer": 0,
+      "explanation": "dd if=入力ファイル of=出力ファイルで、ディスク全体をセクタ単位でコピーできます。bs(block size)を指定すると高速化できます。"
+    },
+    {
+      "id": "linux_storage_030",
+      "question": "ddコマンドでディスクイメージをファイルに保存し、後で別のディスクに復元する際の適切な手順はどれか。",
+      "choices": [
+        "dd if=/dev/sda of=/backup/disk.img bs=4M && dd if=/backup/disk.img of=/dev/sdb bs=4M",
+        "dd if=/dev/sda > /backup/disk.img && dd < /backup/disk.img > /dev/sdb",
+        "dd /dev/sda /backup/disk.img",
+        "cp /dev/sda /backup/disk.img"
+      ],
+      "answer": 0,
+      "explanation": "dd if=...でバックアップを作成し、dd if=backup of=/dev/...で復元します。bs(block size)を指定するとディスクIO効率が向上します。"
+    },
+    {
+      "id": "linux_storage_031",
+      "question": "RAID 1（ミラーリング）の特徴として最も適切なものはどれか。",
+      "choices": [
+        "複数のディスクにデータが分散されるが、容量は2倍必要である",
+        "1つのディスク障害時もデータが保護され、高い障害耐性を持つが、使用可能容量は50%になる",
+        "パフォーマンスが最も良いが、障害耐性がない",
+        "最大5個までディスクを組み入れることができる"
+      ],
+      "answer": 1,
+      "explanation": "RAID 1は複数ディスクに同一データを複製し、1個のディスク障害時もデータが保護されます。但し、使用可能容量は50%（複数ディスクの容量の合計の半分）になります。"
+    },
+    {
+      "id": "linux_storage_032",
+      "question": "RAID 5の特徴として最も適切なものはどれか。",
+      "choices": [
+        "最低3個のディスクが必要で、パリティ情報により1個のディスク障害に対応できる",
+        "最低2個のディスクで構成でき、ディスク間でデータを分散する",
+        "容量効率が最も高く、複数ディスク障害でも対応できる",
+        "複数のディスク障害時でもデータは保護されるが、パフォーマンスが低い"
+      ],
+      "answer": 0,
+      "explanation": "RAID 5は最低3個のディスクで構成され、ストライピング+パリティにより、1個のディスク障害を許容し、容量効率は(n-1)/nです。RAID 6は2個障害に対応します。"
+    },
+    {
+      "id": "linux_storage_033",
+      "question": "RAID 0（ストライピング）の利点と欠点として正しい組み合わせはどれか。",
+      "choices": [
+        "利点：高速、欠点：障害耐性がない",
+        "利点：障害耐性、欠点：低速",
+        "利点：容量効率、欠点：複雑な構成",
+        "利点：低コスト、欠点：管理が難しい"
+      ],
+      "answer": 0,
+      "explanation": "RAID 0はディスク間でデータを分散させることで読み書き性能を向上させますが、1個のディスク障害でもデータが失われるため、通常は重要なデータには使用しません。"
+    },
+    {
+      "id": "linux_storage_034",
+      "question": "dfコマンドで各マウント済みファイルシステムのディスク使用量を表示する際、1KBコマンドブロック単位で表示するオプションはどれか。",
+      "choices": [
+        "df -k",
+        "df -h",
+        "df -B1K",
+        "df -m"
+      ],
+      "answer": 0,
+      "explanation": "df -kで1KBブロック単位、df -hで人間が読みやすい単位(MB, GB等)、df -mでMB単位での表示ができます。-Bオプションで任意のブロックサイズを指定できます。"
+    },
+    {
+      "id": "linux_storage_035",
+      "question": "df -iコマンドの実行結果として得られるものはどれか。",
+      "choices": [
+        "ディスク使用量のサマリーを表示する",
+        "複合形式でディスク容量とinodeを表示する",
+        "inodeの使用状況を表示する",
+        "ディスク容量を動的に監視する"
+      ],
+      "answer": 2,
+      "explanation": "df -iでinodeの使用状況を表示できます。これはファイルシステムが保有する最大ファイル数に関連し、小さなファイルが多いシステムではinodeが先に満杯になることがあります。"
+    },
+    {
+      "id": "linux_storage_036",
+      "question": "duコマンドで/homeディレクトリの容量を表示し、結果をファイルサイズでソート（大きい順）する場合、正しいコマンドはどれか。",
+      "choices": [
+        "du -sh /home | sort -rn",
+        "du /home | sort -h",
+        "du -h /home | sort -rh",
+        "du -m /home | sort -n"
+      ],
+      "answer": 2,
+      "explanation": "du -h /home で人間が読みやすい単位で表示し、sort -rh で逆順数値ソート（人間が読みやすい単位対応）します。-rはreverse(逆順)、-hはhuman-readable フォーマットでソートします。"
+    },
+    {
+      "id": "linux_storage_037",
+      "question": "du -s /home/userコマンドの実行結果として得られるものはどれか。",
+      "choices": [
+        "/home/user以下の全ファイルの容量を個別に表示する",
+        "/home/userディレクトリ全体の合計容量のみ表示する",
+        "/home/userの詳細なメタデータを表示する",
+        "/home/userのディレクトリ構造を木型表示する"
+      ],
+      "answer": 1,
+      "explanation": "du -s（summary）でディレクトリ全体の合計容量のみを表示します。オプションなしのduはサブディレクトリ毎の容量を表示します。"
+    },
+    {
+      "id": "linux_storage_038",
+      "question": "キャッシュが原因でdfの空き容量表示と実際の書き込み可能容量が異なることがあるため、キャッシュをクリアするコマンドはどれか。",
+      "choices": [
+        "sync",
+        "clear cache",
+        "echo 3 > /proc/sys/vm/drop_caches",
+        "cache --clear"
+      ],
+      "answer": 2,
+      "explanation": "echo 3 > /proc/sys/vm/drop_cachesでメモリ内のキャッシュをクリアできます。syncはディスク同期、他はLinux標準コマンドではありません。"
+    },
+    {
+      "id": "linux_storage_039",
+      "question": "smartctlコマンドを使用してディスク（/dev/sda）のS.M.A.R.T.情報を取得する場合、正しいコマンドはどれか。",
+      "choices": [
+        "smartctl -a /dev/sda",
+        "smartctl /dev/sda",
+        "smartctl --info /dev/sda",
+        "smartctl -s /dev/sda"
+      ],
+      "answer": 0,
+      "explanation": "smartctl -a /dev/sdaでディスクのS.M.A.R.T.全情報を表示します。これによりディスク障害の予兆を検出できます。"
+    },
+    {
+      "id": "linux_storage_040",
+      "question": "blkidコマンドの用途として最も適切なものはどれか。",
+      "choices": [
+        "ブロックデバイスとファイルシステム情報（UUID、LABEL等）を表示する",
+        "ブロックデバイスのパフォーマンス計測を行う",
+        "ブロックデバイスをリセットする",
+        "ブロックデバイスのスナップショットを作成する"
+      ],
+      "answer": 0,
+      "explanation": "blkidはマウント済み/未マウント問わず、全ブロックデバイスのUUID、LABEL、ファイルシステムタイプなどの情報を表示します。"
+    },
+    {
+      "id": "linux_storage_041",
+      "question": "lsblkコマンドで表示される情報として最も適切なものはどれか。",
+      "choices": [
+        "全プロセスのメモリ使用量",
+        "ディスクパーティションおよぶロックデバイスの階層表示",
+        "ネットワークインターフェース一覧",
+        "実行中のバックアップジョブ"
+      ],
+      "answer": 1,
+      "explanation": "lsblkはディスク、パーティション、ループデバイスなどのブロックデバイスを階層的に表示します。これはdfコマンドと異なり、アンマウント状態のデバイスも表示できます。"
+    },
+    {
+      "id": "linux_storage_042",
+      "question": "partprobeコマンドの用途として最も適切なものはどれか。",
+      "choices": [
+        "ディスクの容量を測定する",
+        "パーティションテーブルの変更をカーネルに認識させる",
+        "破損したパーティションを自動修復する",
+        "パーティションのバックアップを作成する"
+      ],
+      "answer": 1,
+      "explanation": "partprobeはカーネルにパーティションテーブルの変更を再読み込みさせます。fdiskやpartedでパーティション変更後、システム再起動なしに変更を反映させるために使用します。"
+    },
+    {
+      "id": "linux_storage_043",
+      "question": "ext4ファイルシステムでファイルの最大サイズとして正しいものはどれか。",
+      "choices": [
+        "2GB",
+        "4GB",
+        "16TB",
+        "2TB"
+      ],
+      "answer": 2,
+      "explanation": "ext4は16TBの最大ファイルサイズに対応しており、ファイルシステム全体では16EBまで対応します。"
+    },
+    {
+      "id": "linux_storage_044",
+      "question": "fsck実行中に \"Inode.deleted.use 'e2fsck -y'to fix\"というメッセージが表示された場合、これはどのような問題を示唆しているか。",
+      "choices": [
+        "ハードウェアの障害が発生している",
+        "ディスク容量が満杯になっている",
+        "inodeメタデータが破損しており、対象inodeを削除する必要がある",
+        "ファイルシステムのマウントに失敗している"
+      ],
+      "answer": 2,
+      "explanation": "このメッセージはinodeメタデータに問題があると検出され、修復時に対象inodeの削除が提案されることを意味します。"
+    },
+    {
+      "id": "linux_storage_045",
+      "question": "LVMの論理ボリューム拡張時に、ファイルシステムも同時に拡張する場合のコマンド順序として正しいものはどれか。",
+      "choices": [
+        "lvextendでLVを拡張 → resize2fsでファイルシステムを拡張",
+        "resize2fsでファイルシステムを拡張 → lvextendでLVを拡張",
+        "fsckでチェック → lvextendでLV拡張 → resize2fs",
+        "lvextend -r を使用して一度で両方を拡張"
+      ],
+      "answer": 3,
+      "explanation": "lvextend -r オプションでLVとファイルシステムを同時に拡張できます。オプションなしの場合は、先にlvextend、その後にresize2fs/xfs_growfsでファイルシステムを拡張する必要があります。"
+    },
+    {
+      "id": "linux_storage_046",
+      "question": "ACL（Access Control List）をext4ファイルシステムで有効にするためのマウントオプションはどれか。",
+      "choices": [
+        "default_acl",
+        "acl",
+        "enable_acl",
+        "posix_acl"
+      ],
+      "answer": 1,
+      "explanation": "mount -o acl で、ext4ファイルシステムのACL機能を有効にすることができます。fstabにも記述できます。"
+    },
+    {
+      "id": "linux_storage_047",
+      "question": "LVMのスナップショット機能について、正しい説明はどれか。",
+      "choices": [
+        "スナップショットは物理的にデータ全体をコピーするため、元のLVと同じサイズが必要である",
+        "スナップショットはCopy-on-Writeにより、変更分のみを保管するため、容量効率が良い",
+        "スナップショットは自動的に削除され、手動削除はできない",
+        "スナップショットは読み取り専用であり、書き込みはできない"
+      ],
+      "answer": 1,
+      "explanation": "LVMのスナップショットはCopy-on-Write方式で動作し、元のLVから変更があった領域のみをスナップショット領域に記録するため、容量効率が良く、バックアップに活用できます。"
+    },
+    {
+      "id": "linux_storage_048",
+      "question": "SELinuxが有効な環境で、新しいマウントポイントにファイルシステムをマウントした場合、SELinuxコンテキストを適切に設定する方法として最も適切なものはどれか。",
+      "choices": [
+        "restoreconコマンドでコンテキストを復元する",
+        "chconコマンドで手動設定する",
+        "semanageコマンドで新規ルール追加が必要な場合のみ",
+        "マウントオプションで\"context=\"を指定する"
+      ],
+      "answer": 0,
+      "explanation": "新しいマウントポイントではrestoreconコマンドで自動的にSELinuxコンテキストを復元するのが一般的です。手動設定（chcon）も可能ですが、ポリシー変更には semanage の使用が必要な場合があります。"
+    },
+    {
+      "id": "linux_storage_049",
+      "question": "インクリメンタルバックアップを実装する場合、前回のバックアップの時刻情報を保存する理由として最も適切なものはどれか。",
+      "choices": [
+        "ディスク容量を節約するため",
+        "次回のバックアップで変更ファイルのみを検出できるようにするため",
+        "バックアッププロセスのログを記録するため",
+        "ネットワークスループットを削減するため"
+      ],
+      "answer": 1,
+      "explanation": "インクリメンタルバックアップは前回バックアップからの変更分のみをバックアップするため、タイムスタンプ情報で変更ファイルを特定します。"
+    },
+    {
+      "id": "linux_storage_050",
+      "question": "RAID環境でディスク障害が発生した場合、RebuildプロセスにおいてI/Oパフォーマンスの低下が顕著になる理由はどれか。",
+      "choices": [
+        "Rebuildプロセスが個別のディスク全容量を読み取りながら再構築するため",
+        "RAIDのパリティ計算に大量のCPUリソースが費やされるため",
+        "別のディスク障害の発生確率が高になるため",
+        "メモリ容量が不足するため"
+      ],
+      "answer": 0,
+      "explanation": "RAID Rebuildプロセスでは、残存するディスク全体をスキャンしながら、パリティからデータを再構築する必要があります。この過程で随時ディスクIOが大量に発生し、通常のストレージアクセスパフォーマンスが低下します。"
+    }
+  ]
+}

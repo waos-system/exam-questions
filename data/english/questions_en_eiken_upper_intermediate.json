@@ -1,0 +1,607 @@
+{
+  "genre": "英検 準2級・2級 上級レベル",
+  "exam": "英検 Upper-Intermediate",
+  "level": "準2級・2級",
+  "questions": [
+    {
+      "id": "en_eiken_upper_intermediate_001",
+      "question": "The politician's speech was so _____ that it swayed public opinion.",
+      "choices": [
+        "persuasive",
+        "persuading",
+        "persuaded",
+        "persuasively"
+      ],
+      "answer": 0,
+      "explanation": "スピーチを修飾する形容詞は'persuasive'。説得的な演説。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_002",
+      "question": "_____ her background in finance, she was the ideal candidate for the position.",
+      "choices": [
+        "Given",
+        "Giving",
+        "Being given",
+        "To give"
+      ],
+      "answer": 0,
+      "explanation": "'Given'は前置詞として『~を考えると』。背景を考慮して。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_003",
+      "question": "The new policy _____ considerable debate among stakeholders.",
+      "choices": [
+        "triggered",
+        "has triggered",
+        "triggering",
+        "triggers"
+      ],
+      "answer": 0,
+      "explanation": "完了した事実。'triggered'で政策導入と論争は完了。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_004",
+      "question": "She has made it clear that she will not _____ to pressure from the board.",
+      "choices": [
+        "succumb",
+        "succeed",
+        "submit to",
+        "subside"
+      ],
+      "answer": 0,
+      "explanation": "'succumb to pressure'で『圧力に屈する』。上級語彙。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_005",
+      "question": "His _____ observations about society earned him recognition as a thoughtful critic.",
+      "choices": [
+        "acute",
+        "accute",
+        "acute",
+        "astute"
+      ],
+      "answer": 2,
+      "explanation": "'astute observations'で『鋭い観察』。社会評論家として高く評価された。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_006",
+      "question": "The museum's _____ collection of Renaissance art attracted art enthusiasts from around the world.",
+      "choices": [
+        "unprecedented",
+        "unparalleled",
+        "incomparable",
+        "matchless"
+      ],
+      "answer": 1,
+      "explanation": "'unparalleled collection'で『比類のないコレクション』。美術愛好家を引き付けた。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_007",
+      "question": "The board decided to _____ the proposed merger due to regulatory concerns.",
+      "choices": [
+        "shelve",
+        "shelf",
+        "abolish",
+        "extinguish"
+      ],
+      "answer": 0,
+      "explanation": "'shelve a proposal'で『提案を棚上げにする』。規制懸念が理由。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_008",
+      "question": "This new evidence _____ the defendant's alibi, which could lead to overturning the conviction.",
+      "choices": [
+        "bolsters",
+        "undermines",
+        "corroborates",
+        "refutes"
+      ],
+      "answer": 2,
+      "explanation": "'corroborates an alibi'で『不在証明を裏付ける』。証拠が有利に。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_009",
+      "question": "The author's _____ style makes the complex subject matter accessible to general readers.",
+      "choices": [
+        "lucid",
+        "lurid",
+        "liquid",
+        "limpid"
+      ],
+      "answer": 0,
+      "explanation": "'lucid style'で『明確な文体』。複雑なテーマを一般読者に理解させる。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_010",
+      "question": "The government's _____ to address inflation has frustrated economists and citizens alike.",
+      "choices": [
+        "failure",
+        "negligence",
+        "inaction",
+        "default"
+      ],
+      "answer": 2,
+      "explanation": "'inaction on inflation'で『インフレ対策の不作為』。経済学者と市民を同様に失望させた。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_011",
+      "question": "The research _____ the widely accepted theory that single-tasking is more efficient than multitasking.",
+      "choices": [
+        "validates",
+        "vindicates",
+        "verifies",
+        "substantiates"
+      ],
+      "answer": 0,
+      "explanation": "'validates the theory'で『理論を検証する』。シングルタスキング効率性。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_012",
+      "question": "Despite the company's _____ financial situation, management remains optimistic about future growth.",
+      "choices": [
+        "precarious",
+        "delicate",
+        "unstable",
+        "uncertain"
+      ],
+      "answer": 0,
+      "explanation": "'precarious financial situation'で『危機的財務状況』。経営陣は楽観的。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_013",
+      "question": "The journalist's _____ reporting revealed systemic corruption within the organization.",
+      "choices": [
+        "meticulous",
+        "scrupulous",
+        "rigorous",
+        "diligent"
+      ],
+      "answer": 2,
+      "explanation": "'rigorous reporting'で『厳密な報道』。組織内構造的腐敗を暴露。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_014",
+      "question": "The climate change agreement was widely viewed as a _____ attempt by developed nations.",
+      "choices": [
+        "superficial",
+        "halfhearted",
+        "perfunctory",
+        "token"
+      ],
+      "answer": 1,
+      "explanation": "'halfhearted attempt'で『中途半端な試み』。先進国による気候変動協定。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_015",
+      "question": "The economic _____ of entering the new market required extensive market research and planning.",
+      "choices": [
+        "ramifications",
+        "implications",
+        "consequences",
+        "repercussions"
+      ],
+      "answer": 1,
+      "explanation": "'implications of entering'で『参入の含意』。新市場進出の経済的検討。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_016",
+      "question": "The professor's _____ explanation of quantum physics lost many students early on.",
+      "choices": [
+        "obtuse",
+        "abstruse",
+        "obscure",
+        "cryptic"
+      ],
+      "answer": 1,
+      "explanation": "'abstruse explanation'で『難解な説明』。量子物理学の多くの学生が早期脱落。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_017",
+      "question": "The committee's decision to _____ the unpopular regulation was met with both praise and criticism.",
+      "choices": [
+        "repeal",
+        "revoke",
+        "rescind",
+        "abrogate"
+      ],
+      "answer": 0,
+      "explanation": "いずれも不人気規制を廃止・撤回する、だが'repeal'は法律廃止の一般的表現。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_018",
+      "question": "The athlete's _____ for excellence drove her to train harder than her competitors.",
+      "choices": [
+        "pursuit",
+        "chase",
+        "hunt",
+        "quest"
+      ],
+      "answer": 0,
+      "explanation": "'pursuit of excellence'で『卓越性追求』。競争相手より努力。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_019",
+      "question": "Her _____ criticism of the proposal made colleagues hesitant to voice their own concerns.",
+      "choices": [
+        "acerbic",
+        "sarcastic",
+        "biting",
+        "caustic"
+      ],
+      "answer": 0,
+      "explanation": "'acerbic criticism'で『激辛な批評』。同僚が懸念を述べるのに躊躇。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_020",
+      "question": "The scientist's _____ approach to research has resulted in numerous breakthrough discoveries.",
+      "choices": [
+        "systematic",
+        "methodical",
+        "meticulous",
+        "rigorous"
+      ],
+      "answer": 3,
+      "explanation": "'rigorous approach'で『厳密なアプローチ』。数多くのブレークスルー発見。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_021",
+      "question": "The government's _____ of the environmental regulations disappointed conservation groups.",
+      "choices": [
+        "relaxation",
+        "loosening",
+        "easing",
+        "mitigation"
+      ],
+      "answer": 0,
+      "explanation": "'relaxation of regulations'で『規制の緩和』。環境保全グループを失望させた。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_022",
+      "question": "The witness provided _____ testimony that corroborated the defendant's version of events.",
+      "choices": [
+        "compelling",
+        "credible",
+        "convincing",
+        "persuasive"
+      ],
+      "answer": 1,
+      "explanation": "'credible testimony'で『信頼できる証言』。被告人の側の叙述を裏付け。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_023",
+      "question": "The novel's _____ narrative structure challenges readers to piece together the fragmented story.",
+      "choices": [
+        "convoluted",
+        "intricate",
+        "labyrinthine",
+        "Byzantine"
+      ],
+      "answer": 0,
+      "explanation": "'convoluted narrative'で『複雑な物語構造』。読者が話を組み立てる必要。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_024",
+      "question": "The activist's _____ speech at the rally energized supporters and galvanized public opinion.",
+      "choices": [
+        "fiery",
+        "passionate",
+        "inflammatory",
+        "impassioned"
+      ],
+      "answer": 0,
+      "explanation": "'fiery speech'で『激烈な演説』。支持者エネルギー化し世論喚起。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_025",
+      "question": "The economic downturn _____ fears of widespread job losses across multiple industries.",
+      "choices": [
+        "exacerbated",
+        "aggravated",
+        "worsened",
+        "intensified"
+      ],
+      "answer": 0,
+      "explanation": "'exacerbated fears'で『懸念を悪化させた』。経済低迷が複数業界。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_026",
+      "question": "The professor's _____ remarks about student performance were intended to motivate, not demotivate.",
+      "choices": [
+        "frank",
+        "blunt",
+        "candid",
+        "forthright"
+      ],
+      "answer": 0,
+      "explanation": "'frank remarks'で『率直な発言』。学生成績について動機付け意図。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_027",
+      "question": "The organization decided to _____ its operations to focus on core business areas.",
+      "choices": [
+        "streamline",
+        "consolidate",
+        "rationalize",
+        "optimize"
+      ],
+      "answer": 0,
+      "explanation": "'streamline operations'で『業務を合理化』。中核事業領域に焦点。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_028",
+      "question": "The author's _____ use of metaphor enriches the text and engages readers emotionally.",
+      "choices": [
+        "judicious",
+        "careful",
+        "prudent",
+        "wise"
+      ],
+      "answer": 0,
+      "explanation": "'judicious use of metaphor'で『判断的なメタファー使用』。読者を感情的に引き込む。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_029",
+      "question": "The pandemic _____ millions of people worldwide, causing unprecedented health and economic crises.",
+      "choices": [
+        "ravaged",
+        "devastated",
+        "wrought",
+        "wreaked havoc on"
+      ],
+      "answer": 0,
+      "explanation": "'ravaged millions'で『何百万人を荒廃させた』。パンデミック危機。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_030",
+      "question": "The board member's _____ approach to addressing concerns frustrated those seeking immediate action.",
+      "choices": [
+        "deliberate",
+        "cautious",
+        "circumspect",
+        "measured"
+      ],
+      "answer": 2,
+      "explanation": "'circumspect approach'で『慎重なアプローチ』。懸念対応方法。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_031",
+      "question": "The treaty's _____ terms were negotiated over months of intense diplomatic discussions.",
+      "choices": [
+        "intricate",
+        "complicated",
+        "complex",
+        "convoluted"
+      ],
+      "answer": 0,
+      "explanation": "'intricate terms'で『複雑な条件』。数ヶ月の激しい外交交渉。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_032",
+      "question": "The social media platform was _____ for enabling the spread of misinformation.",
+      "choices": [
+        "criticized",
+        "lambasted",
+        "excoriated",
+        "castigated"
+      ],
+      "answer": 2,
+      "explanation": "'excoriated for enabling spread'で『厳しく非難された』。偽情報拡散。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_033",
+      "question": "The novel's exploration of existential themes resonates with readers seeking _____ meaning in life.",
+      "choices": [
+        "profound",
+        "deep",
+        "significant",
+        "meaningful"
+      ],
+      "answer": 0,
+      "explanation": "'profound meaning'で『深い意味』。小説が実在的テーマ探索。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_034",
+      "question": "The company's _____ for sustainability has led to significant reductions in carbon emissions.",
+      "choices": [
+        "commitment",
+        "dedication",
+        "devotion",
+        "allegiance"
+      ],
+      "answer": 0,
+      "explanation": "'commitment to sustainability'で『持続可能性へのコミットメント』。排出削減。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_035",
+      "question": "The witness's conflicting accounts _____ the prosecution's case against the defendant.",
+      "choices": [
+        "undermined",
+        "weakened",
+        "compromised",
+        "jeopardized"
+      ],
+      "answer": 0,
+      "explanation": "'undermined the case'で『事件を弱体化』。矛盾する証言。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_036",
+      "question": "The architect's _____ designs revolutionized modern building aesthetics and functionality.",
+      "choices": [
+        "visionary",
+        "imaginative",
+        "innovative",
+        "creative"
+      ],
+      "answer": 0,
+      "explanation": "'visionary designs'で『先見的設計』。近代建築美学機能革命。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_037",
+      "question": "The scientist's research _____ decades of assumptions about the disease's origins.",
+      "choices": [
+        "overturned",
+        "toppled",
+        "upended",
+        "inverted"
+      ],
+      "answer": 0,
+      "explanation": "'overturned decades of assumptions'で『数十年の仮定を転覆した』。病気起源。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_038",
+      "question": "The financial advisor provided _____ counsel that helped the client avoid a costly mistake.",
+      "choices": [
+        "prudent",
+        "sensible",
+        "wise",
+        "judicious"
+      ],
+      "answer": 0,
+      "explanation": "'prudent counsel'で『慎重な助言』。クライアント高額ミス回避。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_039",
+      "question": "The documentary _____ the harsh realities of poverty in developing nations.",
+      "choices": [
+        "exposé",
+        "revealed",
+        "laid bare",
+        "uncovered"
+      ],
+      "answer": 2,
+      "explanation": "'laid bare the realities'で『厳しい現実を露わにした』。発展途上国貧困。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_040",
+      "question": "The politician's _____ behavior during the scandal damaged her credibility irreparably.",
+      "choices": [
+        "evasive",
+        "evasion",
+        "evasively",
+        "evasiveness"
+      ],
+      "answer": 0,
+      "explanation": "'evasive behavior'で『回避的な振る舞い』。スキャンダル中信用度損傷。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_041",
+      "question": "The organization's _____ to traditional hierarchy sparked a cultural shift within the company.",
+      "choices": [
+        "departure from",
+        "abandonment of",
+        "rejection of",
+        "renunciation of"
+      ],
+      "answer": 0,
+      "explanation": "'departure from tradition'で『伝統からの出発』。文化的シフト引き起こし。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_042",
+      "question": "The athlete's _____ determination enabled her to overcome numerous obstacles and achieve her dreams.",
+      "choices": [
+        "indomitable",
+        "unconquerable",
+        "invincible",
+        "unquenchable"
+      ],
+      "answer": 0,
+      "explanation": "'indomitable determination'で『屈しない決意』。多くの障害克服し夢達成。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_043",
+      "question": "The region's _____ economic development has created new opportunities and attracted foreign investment.",
+      "choices": [
+        "burgeoning",
+        "flourishing",
+        "thriving",
+        "booming"
+      ],
+      "answer": 0,
+      "explanation": "'burgeoning development'で『急速に成長する発展』。機会創出、外国投資。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_044",
+      "question": "The author's _____ style of writing makes the philosophical concepts accessible to readers without academic backgrounds.",
+      "choices": [
+        "pellucid",
+        "transparent",
+        "lucid",
+        "crystal-clear"
+      ],
+      "answer": 2,
+      "explanation": "'lucid style'で『明確な文体』。哲学概念を学問背景なし読者に理解させる。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_045",
+      "question": "The scandal _____ the company's reputation, requiring years of effort to rebuild trust.",
+      "choices": [
+        "besmirched",
+        "tarnished",
+        "soiled",
+        "stained"
+      ],
+      "answer": 0,
+      "explanation": "'besmirched the reputation'で『評判を傷つけた』。信用復活に長年必要。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_046",
+      "question": "The historical novel _____ readers in the complexities of medieval society.",
+      "choices": [
+        "immerses",
+        "plunges",
+        "engrosses",
+        "absorbs"
+      ],
+      "answer": 0,
+      "explanation": "'immerses readers'で『読者を没頭させる』。中世社会複雑性。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_047",
+      "question": "The government's _____ policies regarding climate change have drawn criticism from environmental advocates.",
+      "choices": [
+        "ambivalent",
+        "equivocal",
+        "ambiguous",
+        "indefinite"
+      ],
+      "answer": 0,
+      "explanation": "'ambivalent policies'で『曖昧な政策』。気候変動に対する環境課題。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_048",
+      "question": "The company's _____ investment in research and development positioned it as an industry leader.",
+      "choices": [
+        "substantial",
+        "considerable",
+        "significant",
+        "sizable"
+      ],
+      "answer": 0,
+      "explanation": "'substantial investment'で『相当な投資』。研究開発。業界リーダー地位。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_049",
+      "question": "The treaty's failure to _____ the underlying grievances between the nations ultimately led to renewed conflict.",
+      "choices": [
+        "redress",
+        "remedy",
+        "rectify",
+        "correct"
+      ],
+      "answer": 0,
+      "explanation": "'redress the grievances'で『不満を是正する』。条約失敗が紛争再発。"
+    },
+    {
+      "id": "en_eiken_upper_intermediate_050",
+      "question": "The climate report's _____ findings have prompted governments worldwide to accelerate their climate action plans.",
+      "choices": [
+        "sobering",
+        "serious",
+        "grave",
+        "dire"
+      ],
+      "answer": 0,
+      "explanation": "'sobering findings'で『冷静にさせる調査結果』。気候報告書。気候行動計画加速。"
+    }
+  ]
+}

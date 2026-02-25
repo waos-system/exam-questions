@@ -1,0 +1,606 @@
+{
+  "genre": "ファイアウォールと通信制御",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_firewall_001",
+      "question": "iptablesで使用される3つのデフォルトチェーンはどれか。",
+      "choices": [
+        "ACCEPT, REJECT, DROP",
+        "INPUT, OUTPUT, FORWARD",
+        "PREROUTING, INPUT, POSTROUTING",
+        "SOURCE, DEST, ROUTE"
+      ],
+      "answer": 1,
+      "explanation": "iptablesの filter テーブルには INPUT（入力）、OUTPUT（出力）、FORWARD（転送）の3つのデフォルトチェーンがあります。PREROUTING と POSTROUTING は nat テーブルのチェーンです。"
+    },
+    {
+      "id": "linux_firewall_002",
+      "question": "iptablesの nat テーブルに含まれるチェーンはどれか。",
+      "choices": [
+        "INPUT, OUTPUT, FORWARD",
+        "PREROUTING, POSTROUTING, FORWARD",
+        "PREROUTING, OUTPUT, POSTROUTING",
+        "INPUT, PREROUTING, FORWARD"
+      ],
+      "answer": 2,
+      "explanation": "nat テーブルには PREROUTING（ルーティング前）、OUTPUT（ローカル出力）、POSTROUTING（ルーティング後）の3つのチェーンがあります。NAT変換を行う場合に使用します。"
+    },
+    {
+      "id": "linux_firewall_003",
+      "question": "iptablesのルール追加で -A オプションの意味は何か。",
+      "choices": [
+        "Append（末尾に追加）",
+        "Authorize（認可）",
+        "Archive（アーカイブ）",
+        "Abort（中止）"
+      ],
+      "answer": 0,
+      "explanation": "-A オプションはルールをチェーンの末尾に追加します。-I（Insert）はルールを先頭に挿入し、-D（Delete）は削除します。"
+    },
+    {
+      "id": "linux_firewall_004",
+      "question": "SSH接続を許可するiptablesルールはどれか。",
+      "choices": [
+        "iptables -A INPUT -p tcp --dport 22 -j DROP",
+        "iptables -A INPUT -p tcp --dport 22 -j ACCEPT",
+        "iptables -A OUTPUT -p tcp --sport 22 -j REJECT",
+        "iptables -A FORWARD -p tcp --dport 22 -j LOG"
+      ],
+      "answer": 1,
+      "explanation": "SSH（ポート22）を許可するには、INPUT チェーンで tcp プロトコル、ポート 22 宛のパケットに対して -j ACCEPT ターゲットを指定します。"
+    },
+    {
+      "id": "linux_firewall_005",
+      "question": "iptablesでLoopback（127.0.0.1）からのすべてのパケットを許可するルールはどれか。",
+      "choices": [
+        "iptables -A INPUT -i lo -j ACCEPT",
+        "iptables -A INPUT -s 127.0.0.1 -j DROP",
+        "iptables -A FORWARD -o lo -j ACCEPT",
+        "iptables -A OUTPUT -d 127.0.0.1 -j REJECT"
+      ],
+      "answer": 0,
+      "explanation": "-i lo はループバックインターフェースを指定します。ルーカルプロセス間通信を許可するために必須です。-s は送信元IPアドレスを指定します。"
+    },
+    {
+      "id": "linux_firewall_006",
+      "question": "iptablesでUDPプロトコルのDNS（ポート53）トラフィックをブロックするルールはどれか。",
+      "choices": [
+        "iptables -A INPUT -p udp --sport 53 -j ACCEPT",
+        "iptables -A INPUT -p udp --dport 53 -j DROP",
+        "iptables -A OUTPUT -p dns --port 53 -j REJECT",
+        "iptables -A FORWARD -p 53 -j DROP"
+      ],
+      "answer": 1,
+      "explanation": "-p udp でUDPプロトコルを指定し、--dport 53 で宛先ポート53（DNS）を指定します。-j DROP で該当パケットをドロップします。"
+    },
+    {
+      "id": "linux_firewall_007",
+      "question": "iptablesで特定のネットワークセグメント（192.168.1.0/24）からのHTTPアクセスを許可するルールはどれか。",
+      "choices": [
+        "iptables -A INPUT -s 192.168.1.0/24 -p tcp --dport 80 -j ACCEPT",
+        "iptables -A INPUT -d 192.168.1.0/24 -p tcp --sport 80 -j ACCEPT",
+        "iptables -A FORWARD -s 192.168.1.0/24 -j ACCEPT",
+        "iptables -A OUTPUT -s 192.168.1.0/24 -p tcp --dport 80 -j ACCEPT"
+      ],
+      "answer": 0,
+      "explanation": "-s オプションで送信元ネットワークを指定し、-p tcp --dport 80 でHTTP（ポート80）を指定します。INPUT チェーンで受け入れ側のルールを設定します。"
+    },
+    {
+      "id": "linux_firewall_008",
+      "question": "iptablesのルールを表示するコマンドはどれか。",
+      "choices": [
+        "iptables -L",
+        "iptables -S",
+        "iptables -P",
+        "iptables -U"
+      ],
+      "answer": 0,
+      "explanation": "iptables -L はすべてのルールを見やすく表示します。-S はセットアップコマンド形式で表示、-P はポリシーを表示、-U は存在しません。"
+    },
+    {
+      "id": "linux_firewall_009",
+      "question": "iptables -L コマンドで詳細情報（パケット数、バイト数）を表示するオプションはどれか。",
+      "choices": [
+        "-v（verbose）",
+        "-d（detail）",
+        "-f（full）",
+        "-x（extended）"
+      ],
+      "answer": 0,
+      "explanation": "-v（verbose）オプションを付けることで、マッチしたパケット数、総バイト数などの詳細情報が表示されます。"
+    },
+    {
+      "id": "linux_firewall_010",
+      "question": "iptablesでINPUTチェーンのデフォルトポリシーを DROP に設定するコマンドはどれか。",
+      "choices": [
+        "iptables -P INPUT DROP",
+        "iptables -A INPUT DROP",
+        "iptables --policy INPUT DROP",
+        "iptables -S INPUT DROP"
+      ],
+      "answer": 0,
+      "explanation": "-P（Policy）オプションでチェーンのデフォルトポリシーを設定します。P の後にチェーン名、そしてターゲット（ACCEPT/DROP/REJECT）を指定します。"
+    },
+    {
+      "id": "linux_firewall_011",
+      "question": "Source NAT（SNAT）を実装するために使うiptablesテーブルはどれか。",
+      "choices": [
+        "filter テーブル",
+        "nat テーブル",
+        "mangle テーブル",
+        "raw テーブル"
+      ],
+      "answer": 1,
+      "explanation": "NAT（ネットワークアドレス変換）は nat テーブルで実装されます。SNAT は POSTROUTING チェーンで送信元アドレスを変換します。"
+    },
+    {
+      "id": "linux_firewall_012",
+      "question": "Destination NAT（DNAT）でPort Forwardingを実装する場合、どのチェーンで設定するか。",
+      "choices": [
+        "PREROUTING チェーン",
+        "POSTROUTING チェーン",
+        "OUTPUT チェーン",
+        "FORWARD チェーン"
+      ],
+      "answer": 0,
+      "explanation": "DNAT は PREROUTING チェーンで実装され、ルーティング前に宛先アドレス/ポートを変換します。これによりポートフォワーディングが実現します。"
+    },
+    {
+      "id": "linux_firewall_013",
+      "question": "外部からのポート 8080 へのアクセスを内部ウェブサーバ（192.168.1.10:80）にフォワードするiptablesコマンドはどれか。",
+      "choices": [
+        "iptables -t nat -A DNAT --dport 8080 -j DNAT --to-destination 192.168.1.10:80",
+        "iptables -t nat -A PREROUTING -p tcp --dport 8080 -j DNAT --to-destination 192.168.1.10:80",
+        "iptables -A FORWARD -p tcp --dport 8080 -j ACCEPT",
+        "iptables -t nat -A POSTROUTING -p tcp --sport 8080 -j SNAT --to-source 192.168.1.10"
+      ],
+      "answer": 1,
+      "explanation": "DNAT は -t nat -A PREROUTING で設定し、-j DNAT --to-destination で宛先を指定します。ポート番号を含める場合はホスト:ポート形式です。"
+    },
+    {
+      "id": "linux_firewall_014",
+      "question": "iptablesの mangle テーブルの主な用途は何か。",
+      "choices": [
+        "パケットのフィルタリング",
+        "NAT変換",
+        "パケットの修正（TTL、ToSなど）",
+        "パケットのログ記録"
+      ],
+      "answer": 2,
+      "explanation": "mangle テーブルはパケットのメタ情報を修正します。TTL（Time To Live）、ToS（Type of Service）、マークの設定などを行います。"
+    },
+    {
+      "id": "linux_firewall_015",
+      "question": "iptablesで接続追跡（Connection Tracking）を有効にするために必要なモジュールは何か。",
+      "choices": [
+        "nf_conntrack",
+        "nf_nat",
+        "nf_filter",
+        "nf_stateless"
+      ],
+      "answer": 0,
+      "explanation": "nf_conntrack（Netfilter Connection Tracking）モジュールがコネクション追跡を提供し、ステートフル・ファイアウォール機能を実現します。"
+    },
+    {
+      "id": "linux_firewall_016",
+      "question": "iptablesで既存接続と関連するパケットを自動的に許可するための状態マッチはどれか。",
+      "choices": [
+        "-m state --state ESTABLISHED,RELATED",
+        "-m conntrack --ctstate ESTABLISHED,RELATED",
+        "-m tracking --status OPEN",
+        "-m connection --state ACTIVE"
+      ],
+      "answer": 0,
+      "explanation": "-m state モジュールで既に確立された接続（ESTABLISHED）と関連する接続（RELATED）を指定します。これにより帰りのトラフィックが自動許可されます。"
+    },
+    {
+      "id": "linux_firewall_017",
+      "question": "以下のiptablesルールの実行順序について、最も効率的な順序はどれか？ (A)すべての確立接続を許可 (B)違反パケットをログ出力 (C)新規HTTP接続許可 (D)すべてをドロップ",
+      "choices": [
+        "A → C → B → D",
+        "A → C → D → B",
+        "B → C → A → D",
+        "C → A → B → D"
+      ],
+      "answer": 0,
+      "explanation": "最初に確立接続を許可（A）、次に新規接続を許可（C）、ルール違反時はログ出力（B）、最後にデフォルトドロップ（D）の順が効率的です。"
+    },
+    {
+      "id": "linux_firewall_018",
+      "question": "iptablesでパケットをログ出力する場合のターゲットはどれか。",
+      "choices": [
+        "-j LOG",
+        "-j SYSLOG",
+        "-j DEBUG",
+        "-j RECORD"
+      ],
+      "answer": 0,
+      "explanation": "-j LOG ターゲットでパケットをカーネルログに出力します。--log-prefix オプションでプレフィックスを付けることもできます。"
+    },
+    {
+      "id": "linux_firewall_019",
+      "question": "iptablesのログを記録する場合、通常どのファイルに出力されるか。",
+      "choices": [
+        "/var/log/firewall.log",
+        "/var/log/kernel.log または /var/log/syslog",
+        "/var/log/iptables.log",
+        "/var/log/netfilter.log"
+      ],
+      "answer": 1,
+      "explanation": "iptables の LOG ターゲットはカーネルログとして /var/log/kernel.log または /var/log/syslog に記録されます。"
+    },
+    {
+      "id": "linux_firewall_020",
+      "question": "ufw（Uncomplicated Firewall）でポート 22 の SSH アクセスを許可するコマンドはどれか。",
+      "choices": [
+        "ufw allow 22",
+        "ufw open 22",
+        "ufw enable 22",
+        "ufw accept 22"
+      ],
+      "answer": 0,
+      "explanation": "ufw allow コマンドはポート番号やサービス名を指定してトラフィックを許可します。ufw allow 22 で SSH を許可します。"
+    },
+    {
+      "id": "linux_firewall_021",
+      "question": "ufw で特定のIPアドレス（192.168.1.50）からのポート 5432 アクセスを許可するコマンドはどれか。",
+      "choices": [
+        "ufw allow from 192.168.1.50 to any port 5432",
+        "ufw allow 192.168.1.50:5432",
+        "ufw open from 192.168.1.50 port 5432",
+        "ufw permit 192.168.1.50 5432"
+      ],
+      "answer": 0,
+      "explanation": "ufw allow from [IP] to any port [ポート番号] の形式で、特定のIPアドレスからの特定ポートへのアクセスを許可します。"
+    },
+    {
+      "id": "linux_firewall_022",
+      "question": "ufw ですべてのルールを削除してリセットするコマンドはどれか。",
+      "choices": [
+        "ufw clear",
+        "ufw reset",
+        "ufw flush",
+        "ufw remove all"
+      ],
+      "answer": 1,
+      "explanation": "ufw reset コマンドですべてのルールを削除し、ファイアウォールをデフォルト状態にリセットします。"
+    },
+    {
+      "id": "linux_firewall_023",
+      "question": "ufw の設定ファイルが保存されるディレクトリはどれか。",
+      "choices": [
+        "/etc/iptables/",
+        "/etc/ufw/",
+        "/etc/firewall/",
+        "/var/lib/ufw/"
+      ],
+      "answer": 1,
+      "explanation": "ufw の設定ファイルは /etc/ufw/ ディレクトリに保存されます。ルール設定は /etc/ufw/rules.v4 や rules.v6 に記録されます。"
+    },
+    {
+      "id": "linux_firewall_024",
+      "question": "firewalld でサービスを永続的に許可するコマンドはどれか。",
+      "choices": [
+        "firewall-cmd --add-service=http",
+        "firewall-cmd --permanent --add-service=http",
+        "firewall-cmd --enable http",
+        "firewall-cmd --allow http"
+      ],
+      "answer": 1,
+      "explanation": "--permanent オプションを付けることで、ファイアウォールの再起動後も設定が保持されます。--add-service でサービスを許可します。"
+    },
+    {
+      "id": "linux_firewall_025",
+      "question": "firewalld で一時的にHTTPSサービスを許可し、その後設定を反映させるコマンド手順はどれか。",
+      "choices": [
+        "firewall-cmd --add-service=https ; firewall-cmd --reload",
+        "firewall-cmd --permanent --add-service=https ; firewall-cmd --reload",
+        "firewall-cmd --add-service=https ; firewall-cmd --restart",
+        "firewall-cmd --enable https && firewall-cmd --apply"
+      ],
+      "answer": 1,
+      "explanation": "--permanent を付けてルールを追加し、--reload で設定を再読み込みして反映させます。これで永続的に設定されます。"
+    },
+    {
+      "id": "linux_firewall_026",
+      "question": "firewalld で現在のゾーン（zone）を確認するコマンドはどれか。",
+      "choices": [
+        "firewall-cmd --get-zone",
+        "firewall-cmd --get-active-zones",
+        "firewall-cmd --list-zones",
+        "firewall-cmd --show-zone"
+      ],
+      "answer": 1,
+      "explanation": "firewall-cmd --get-active-zones で現在アクティブなゾーンが表示されます。different zones have different security levels."
+    },
+    {
+      "id": "linux_firewall_027",
+      "question": "firewalld のゾーンの中で、最も制限的（セキュアな）ゾーンはどれか。",
+      "choices": [
+        "public",
+        "work",
+        "internal",
+        "drop"
+      ],
+      "answer": 3,
+      "explanation": "drop ゾーンは明示的に許可されたトラフィック以外をすべてドロップします。public は公開ネットワーク用、internal は内部ネットワーク用、work は職場ネットワーク用です。"
+    },
+    {
+      "id": "linux_firewall_028",
+      "question": "firewalld でカスタムサービスを定義するファイルはどれか。",
+      "choices": [
+        "/etc/firewalld/services/*.xml",
+        "/etc/firewalld/custom/*.conf",
+        "/var/lib/firewalld/services.xml",
+        "/etc/services.firewall"
+      ],
+      "answer": 0,
+      "explanation": "/etc/firewalld/services/ ディレクトリに XML 形式でカスタムサービスを定義できます。"
+    },
+    {
+      "id": "linux_firewall_029",
+      "question": "firewalld でポートを直接許可するコマンドで、正しいものはどれか。",
+      "choices": [
+        "firewall-cmd --permanent --add-port=8080/tcp",
+        "firewall-cmd --permanent --open-port 8080/tcp",
+        "firewall-cmd --add-tcp-port=8080",
+        "firewall-cmd --permit-port 8080"
+      ],
+      "answer": 0,
+      "explanation": "firewall-cmd --permanent --add-port=ポート番号/プロトコル でポートを許可します。プロトコルは tcp または udp を指定します。"
+    },
+    {
+      "id": "linux_firewall_030",
+      "question": "stateless なファイアウォール設定と stateful なファイアウォール設定の最大の違いは何か。",
+      "choices": [
+        "ルール数の多さ",
+        "接続追跡機能の有無",
+        "使用されるプロトコル",
+        "パフォーマンス"
+      ],
+      "answer": 1,
+      "explanation": "Stateful ファイアウォールは接続状態を追跡し、確立された接続に対する帰りのパケットを自動的に許可します。Stateless はすべてのパケットを個別に検査します。"
+    },
+    {
+      "id": "linux_firewall_031",
+      "question": "iptables で TCP接続の SYN フラッド攻撃を軽減するために使用できるマッチはどれか。",
+      "choices": [
+        "-m limit --limit 25/minute",
+        "-m state --state NEW",
+        "-m flood --threshold 100",
+        "-m ddos --detection on"
+      ],
+      "answer": 0,
+      "explanation": "-m limit モジュールでレート制限を設定でき、--limit オプションで単位時間当たりのパケット数を制限し、SYN フラッド攻撃を軽減できます。"
+    },
+    {
+      "id": "linux_firewall_032",
+      "question": "iptables でリジェクション時に ICMP 応答を送信するターゲットはどれか。",
+      "choices": [
+        "-j DROP",
+        "-j REJECT",
+        "-j ICMP-REJECT",
+        "-j DENY"
+      ],
+      "answer": 1,
+      "explanation": "-j REJECT はパケットを破棄し、送信元に ICMP エラーメッセージ（host-unreachable など）を返します。DROP は応答を返さずに無視します。"
+    },
+    {
+      "id": "linux_firewall_033",
+      "question": "iptables で逆引きDNS解決（RDNS）を防いで パフォーマンスを向上させるオプションはどれか。",
+      "choices": [
+        "-v でログに数値表示",
+        "-n で IP アドレスを数値で表示",
+        "-N でホスト名解決を無効化",
+        "-x で拡張表示を有効化"
+      ],
+      "answer": 1,
+      "explanation": "iptables -L -n でホスト名の逆引き解決が行われず、IP アドレスが数値で表示されるため高速です。"
+    },
+    {
+      "id": "linux_firewall_034",
+      "question": "iptables で特定のマック（MAC）アドレスからのトラフィックをブロックするために使用するマッチはどれか。",
+      "choices": [
+        "-m mac --mac-source アドレス",
+        "-m ethernet --mac-address",
+        "-m l2 --src-mac",
+        "-m link --mac"
+      ],
+      "answer": 0,
+      "explanation": "-m mac モジュールで --mac-source オプションを使用し、送信元 MAC アドレスを指定してマッチングできます。"
+    },
+    {
+      "id": "linux_firewall_035",
+      "question": "iptables で着信インターフェース（eth0）を明示的に指定するオプションはどれか。",
+      "choices": [
+        "-i eth0",
+        "-I eth0",
+        "--input-interface eth0",
+        "-d eth0"
+      ],
+      "answer": 0,
+      "explanation": "-i（input interface）オプションで着信インターフェースを指定します。-o は出力インターフェース、-d は宛先IP、-I はルール挿入です。"
+    },
+    {
+      "id": "linux_firewall_036",
+      "question": "iptables で出力インターフェース（eth1）を明示的に指定するオプションはどれか。",
+      "choices": [
+        "-o eth1",
+        "-O eth1",
+        "--output eth1",
+        "-e eth1"
+      ],
+      "answer": 0,
+      "explanation": "-o（output interface）オプションで出力インターフェースを指定します。主に FORWARD チェーンと OUTPUT チェーンで使用されます。"
+    },
+    {
+      "id": "linux_firewall_037",
+      "question": "iptables の設定を再起動後も永続させるために、通常どのパッケージを使用するか。",
+      "choices": [
+        "ufw",
+        "iptables-service",
+        "firewalld",
+        "iptables-persistent"
+      ],
+      "answer": 3,
+      "explanation": "iptables-persistent パッケージを使用することで、iptables の設定を /etc/iptables/ ディレクトリに保存し、再起動後に自動的に復元できます。"
+    },
+    {
+      "id": "linux_firewall_038",
+      "question": "iptables-persistent で設定を保存するコマンドはどれか。",
+      "choices": [
+        "dpkg-reconfigure iptables-persistent",
+        "iptables-save > /etc/iptables/rules.v4",
+        "systemctl save iptables",
+        "iptables --save-config"
+      ],
+      "answer": 0,
+      "explanation": "dpkg-reconfigure iptables-persistent コマンドで現在のルールを保存します。または手動で iptables-save で保存することもできます。"
+    },
+    {
+      "id": "linux_firewall_039",
+      "question": "複数のインターフェースでNATを実装する場合、どのインターフェースをNATアドレスプールとして指定するか。",
+      "choices": [
+        "内部ネットワークインターフェース",
+        "外部（インターネット接続）インターフェース",
+        "ループバックインターフェース",
+        "どちらでもよい"
+      ],
+      "answer": 1,
+      "explanation": "SNAT では外部インターフェース（通常は eth0 など WAN 側）で NAT を実装し、内部ネットワークのトラフィックを外部アドレスに変換します。"
+    },
+    {
+      "id": "linux_firewall_040",
+      "question": "iptables で動的に IP アドレスを取得する環境でフローティング IP アドレスに基づいて SNAT を設定するコマンドはどれか。",
+      "choices": [
+        "iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to `hostname -I`",
+        "iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE",
+        "iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source 0.0.0.0",
+        "iptables -t nat -A POSTROUTING -o eth0 -j DNAT --to-destination eth0"
+      ],
+      "answer": 1,
+      "explanation": "MASQUERADE ターゲットは自動的にインターフェースの現在の IP アドレスを使用するため、動的 IP 環境に最適です。"
+    },
+    {
+      "id": "linux_firewall_041",
+      "question": "iptables でマルチポート（80, 443, 8080）をまとめて指定するオプションはどれか。",
+      "choices": [
+        "--dport 80,443,8080",
+        "-m multiport --dports 80,443,8080",
+        "--ports 80:443:8080",
+        "-m ports --list 80,443,8080"
+      ],
+      "answer": 1,
+      "explanation": "-m multiport モジュールを使用し、--dports で複数のポート番号をカンマで区切って指定します。"
+    },
+    {
+      "id": "linux_firewall_042",
+      "question": "iptables でポート範囲（1000:2000）を指定するオプション形式はどれか。",
+      "choices": [
+        "--dport 1000-2000",
+        "--dport 1000-2000",
+        "--dport '1000:2000'",
+        "--port-range 1000 2000"
+      ],
+      "answer": 0,
+      "explanation": "--dport で ハイフン（-）を使用してポート範囲を指定します。例：--dport 1024:65535"
+    },
+    {
+      "id": "linux_firewall_043",
+      "question": "iptables で特定のTCP フラグ（SYN フラグ）の組み合わせでマッチングするモジュールはどれか。",
+      "choices": [
+        "-m flag --syn",
+        "-m tcp --tcp-flags SYN,ACK SYN",
+        "-m conntrack --ctstate SYN",
+        "-m state --syn-only"
+      ],
+      "answer": 1,
+      "explanation": "-m tcp --tcp-flags フラグ1,フラグ2 フラグ3 で TCP フラグの組み合わせをマッチングします。SYN フラグのみであれば --tcp-flags SYN,ACK SYN を使用します。"
+    },
+    {
+      "id": "linux_firewall_044",
+      "question": "iptables で ICMP ping リクエストをブロックするコマンドはどれか。",
+      "choices": [
+        "iptables -A INPUT -p icmp --icmp-type echo-request -j DROP",
+        "iptables -A INPUT -p icmp -j DROP",
+        "iptables -A INPUT -p ping -j DROP",
+        "iptables -A INPUT --icmp-echo-request -j DROP"
+      ],
+      "answer": 0,
+      "explanation": "-p icmp --icmp-type echo-request で ping リクエスト（ICMP echo request）を指定してドロップします。"
+    },
+    {
+      "id": "linux_firewall_045",
+      "question": "firewalld で現在設定されているすべてのルールを確認するコマンドの正確な組み合わせはどれか。",
+      "choices": [
+        "firewall-cmd --list-all",
+        "firewall-cmd --get-all-rules",
+        "firewall-cmd --show-config",
+        "firewall-cmd --display-rules"
+      ],
+      "answer": 0,
+      "explanation": "firewall-cmd --list-all で現在のゾーンのすべての設定（サービス、ポート、ルール）が表示されます。"
+    },
+    {
+      "id": "linux_firewall_046",
+      "question": "firewalld でポートを一時的に許可した場合、その設定が失われるタイミングはどれか。",
+      "choices": [
+        "firewall-cmd --reload を実行したとき",
+        "firewalld デーモンを再起動したとき",
+        "firewall-cmd --permanent でコミットしたとき",
+        "ファイアウォールが無効化されたとき"
+      ],
+      "answer": 1,
+      "explanation": "--permanent なしで追加したルールはメモリに保持されるだけで、firewalld デーモン再起動時に失われます。"
+    },
+    {
+      "id": "linux_firewall_047",
+      "question": "iptables でタイムスタンプ（TCP option）を削除して通信を最適化するターゲットはどれか。",
+      "choices": [
+        "ACCEPT",
+        "TOS",
+        "CHECKSUM",
+        "これは iptables では実装されていない"
+      ],
+      "answer": 3,
+      "explanation": "TCP タイムスタンプ削除は iptables ではサポートされていません。これは TCP スタック（カーネル）レベルの設定です。"
+    },
+    {
+      "id": "linux_firewall_048",
+      "question": "netfilter フレームワークの層別構成で、最もコネクション追跡が行われる層はどれか。",
+      "choices": [
+        "リンク層",
+        "ネットワーク層",
+        "トランスポート層",
+        "アプリケーション層"
+      ],
+      "answer": 1,
+      "explanation": "netfilter（iptables）はネットワーク層（Layer 3）で動作し、接続追跡（コネクションステート）を管理します。"
+    },
+    {
+      "id": "linux_firewall_049",
+      "question": "iptables のテーブル処理順序で、最初に処理されるテーブルはどれか。",
+      "choices": [
+        "filter",
+        "nat",
+        "mangle",
+        "raw"
+      ],
+      "answer": 3,
+      "explanation": "raw テーブルが最初に処理され、コネクション追跡の対象から除外するパケットに NOTRACK マークを付けられます。その後 mangle → nat → filter の順になります。"
+    },
+    {
+      "id": "linux_firewall_050",
+      "question": "iptables ルールでログを記録し、その後パケットを DROP する場合の正確な設定方法はどれか。",
+      "choices": [
+        "iptables -A INPUT -p tcp --dport 22 -j LOG ; iptables -A INPUT -p tcp --dport 22 -j DROP",
+        "iptables -A INPUT -p tcp --dport 22 -j LOG,DROP",
+        "iptables -A INPUT -p tcp --dport 22 -j LOG && -j DROP",
+        "iptables -A INPUT -p tcp --dport 22 --log-drop"
+      ],
+      "answer": 0,
+      "explanation": "LOG ターゲットはパケットをドロップしないため、別のルールで DROP する必要があります。最初にログを記録し、次のルールでドロップします。"
+    }
+  ]
+}
