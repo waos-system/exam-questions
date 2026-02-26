@@ -1,0 +1,682 @@
+[
+  {
+    "exam": "ITパスポート試験",
+    "exam_id": "ip",
+    "section": "ストラテジ系",
+    "section_id": "ip_strategy",
+    "file": "data/ip/questions_ip_strategy.json",
+    "current_count": 20,
+    "needed_count": 30,
+    "expected_count": 20
+  },
+  {
+    "exam": "ITパスポート試験",
+    "exam_id": "ip",
+    "section": "マネジメント系",
+    "section_id": "ip_management",
+    "file": "data/ip/questions_ip_management.json",
+    "current_count": 20,
+    "needed_count": 30,
+    "expected_count": 20
+  },
+  {
+    "exam": "ITパスポート試験",
+    "exam_id": "ip",
+    "section": "テクノロジ系",
+    "section_id": "ip_technology",
+    "file": "data/ip/questions_ip_technology.json",
+    "current_count": 12,
+    "needed_count": 38,
+    "expected_count": 30
+  },
+  {
+    "exam": "ITパスポート試験",
+    "exam_id": "ip",
+    "section": "情報セキュリティ",
+    "section_id": "ip_security",
+    "file": "data/ip/questions_ip_security.json",
+    "current_count": 8,
+    "needed_count": 42,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "情報セキュリティ全般",
+    "section_id": "sg_overview",
+    "file": "data/sg/questions_sg_overview.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "情報セキュリティ管理",
+    "section_id": "sg_management",
+    "file": "data/sg/questions_sg_management.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "情報セキュリティ対策",
+    "section_id": "sg_measures",
+    "file": "data/sg/questions_sg_measures.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "法務・コンプライアンス",
+    "section_id": "sg_law",
+    "file": "data/sg/questions_sg_law.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "暗号化・暗号技術",
+    "section_id": "sg_encryption",
+    "file": "data/sg/questions_sg_encryption.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "インシデント対応と事業継続",
+    "section_id": "sg_incident",
+    "file": "data/sg/questions_sg_incident.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "情報セキュリティマネジメント試験",
+    "exam_id": "sg",
+    "section": "セキュリティ教育と意識向上",
+    "section_id": "sg_awareness",
+    "file": "data/sg/questions_sg_awareness.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "コンピュータ構成要素",
+    "section_id": "fe_computer",
+    "file": "data/fe/questions_fe_computer.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "システム構成要素",
+    "section_id": "fe_system",
+    "file": "data/fe/questions_fe_system.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "ソフトウェア",
+    "section_id": "fe_software",
+    "file": "data/fe/questions_fe_software.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "ハードウェア",
+    "section_id": "fe_hardware",
+    "file": "data/fe/questions_fe_hardware.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "ネットワーク",
+    "section_id": "fe_network",
+    "file": "data/fe/questions_fe_network.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "データベース",
+    "section_id": "fe_db",
+    "file": "data/fe/questions_fe_db.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "セキュリティ",
+    "section_id": "fe_security",
+    "file": "data/fe/questions_fe_security.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "アルゴリズムとプログラミング",
+    "section_id": "fe_algorithm",
+    "file": "data/fe/questions_fe_algorithm.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "システム開発・マネジメント",
+    "section_id": "fe_management",
+    "file": "data/fe/questions_fe_management.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "基本情報技術者試験",
+    "exam_id": "fe",
+    "section": "ストラテジ・経営",
+    "section_id": "fe_strategy",
+    "file": "data/fe/questions_fe_strategy.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "ネットワーク",
+    "section_id": "ap_network",
+    "file": "data/ap/questions_ap_network.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "データベース",
+    "section_id": "ap_db",
+    "file": "data/ap/questions_ap_db.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "セキュリティ",
+    "section_id": "ap_security",
+    "file": "data/ap/questions_ap_security.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "システムアーキテクチャ",
+    "section_id": "ap_system",
+    "file": "data/ap/questions_ap_system.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "アルゴリズムとデータ構造",
+    "section_id": "ap_algorithm",
+    "file": "data/ap/questions_ap_algorithm.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "プロジェクトマネジメント",
+    "section_id": "ap_management",
+    "file": "data/ap/questions_ap_management.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "応用情報技術者試験",
+    "exam_id": "ap",
+    "section": "ストラテジ・ITガバナンス",
+    "section_id": "ap_strategy",
+    "file": "data/ap/questions_ap_strategy.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "ITストラテジスト試験",
+    "exam_id": "st",
+    "section": "業務改革と投資評価",
+    "section_id": "st_enterprise",
+    "file": "data/st/questions_st_enterprise.json",
+    "current_count": 35,
+    "needed_count": 15,
+    "expected_count": 50
+  },
+  {
+    "exam": "ITストラテジスト試験",
+    "exam_id": "st",
+    "section": "ガバナンスとマネジメント",
+    "section_id": "st_governance",
+    "file": "data/st/questions_st_governance.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 50
+  },
+  {
+    "exam": "ITストラテジスト試験",
+    "exam_id": "st",
+    "section": "システム企画",
+    "section_id": "st_architecture",
+    "file": "data/st/questions_st_architecture.json",
+    "current_count": 25,
+    "needed_count": 25,
+    "expected_count": 50
+  },
+  {
+    "exam": "システムアーキテクト試験",
+    "exam_id": "sa",
+    "section": "要件定義",
+    "section_id": "sa_requirements",
+    "file": "data/sa/questions_sa_requirements.json",
+    "current_count": 25,
+    "needed_count": 25,
+    "expected_count": 50
+  },
+  {
+    "exam": "システムアーキテクト試験",
+    "exam_id": "sa",
+    "section": "システム設計",
+    "section_id": "sa_design",
+    "file": "data/sa/questions_sa_design.json",
+    "current_count": 23,
+    "needed_count": 27,
+    "expected_count": 50
+  },
+  {
+    "exam": "システムアーキテクト試験",
+    "exam_id": "sa",
+    "section": "評価と品質保証",
+    "section_id": "sa_quality",
+    "file": "data/sa/questions_sa_quality.json",
+    "current_count": 20,
+    "needed_count": 30,
+    "expected_count": 50
+  },
+  {
+    "exam": "システムアーキテクト試験",
+    "exam_id": "sa",
+    "section": "運用・保守と移行",
+    "section_id": "sa_maintenance",
+    "file": "data/sa/questions_sa_maintenance.json",
+    "current_count": 20,
+    "needed_count": 30,
+    "expected_count": 50
+  },
+  {
+    "exam": "プロジェクトマネージャー試験",
+    "exam_id": "pm",
+    "section": "プロジェクト統合管理",
+    "section_id": "pm_integration",
+    "file": "data/pm/questions_pm_integration.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "プロジェクトマネージャー試験",
+    "exam_id": "pm",
+    "section": "スコープ・スケジュール管理",
+    "section_id": "pm_scope",
+    "file": "data/pm/questions_pm_scope.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "プロジェクトマネージャー試験",
+    "exam_id": "pm",
+    "section": "コスト・リスク管理",
+    "section_id": "pm_cost_risk",
+    "file": "data/pm/questions_pm_cost_risk.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "プロジェクトマネージャー試験",
+    "exam_id": "pm",
+    "section": "品質・調達管理",
+    "section_id": "pm_quality",
+    "file": "data/pm/questions_pm_quality.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "プロジェクトマネージャー試験",
+    "exam_id": "pm",
+    "section": "ステークホルダー・コミュニケーション管理",
+    "section_id": "pm_stakeholder",
+    "file": "data/pm/questions_pm_stakeholder.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "プロジェクトマネージャー試験",
+    "exam_id": "pm",
+    "section": "アジャイル・ハイブリッド手法",
+    "section_id": "pm_agile",
+    "file": "data/pm/questions_pm_agile.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "ネットワークスペシャリスト試験",
+    "exam_id": "nw",
+    "section": "ネットワーク設計",
+    "section_id": "nw_design",
+    "file": "data/nw/questions_nw_design.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 50
+  },
+  {
+    "exam": "ネットワークスペシャリスト試験",
+    "exam_id": "nw",
+    "section": "プロトコル技術",
+    "section_id": "nw_protocol",
+    "file": "data/nw/questions_nw_protocol.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 50
+  },
+  {
+    "exam": "ネットワークスペシャリスト試験",
+    "exam_id": "nw",
+    "section": "セキュリティと可用性",
+    "section_id": "nw_security",
+    "file": "data/nw/questions_nw_security.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 50
+  },
+  {
+    "exam": "ネットワークスペシャリスト試験",
+    "exam_id": "nw",
+    "section": "運用・監視・障害対応",
+    "section_id": "nw_operation",
+    "file": "data/nw/questions_nw_operation.json",
+    "current_count": 6,
+    "needed_count": 44,
+    "expected_count": 50
+  },
+  {
+    "exam": "データベーススペシャリスト試験",
+    "exam_id": "db",
+    "section": "SQLとアプリケーション設計",
+    "section_id": "db_sql",
+    "file": "data/db/questions_db_sql.json",
+    "current_count": 12,
+    "needed_count": 38,
+    "expected_count": 50
+  },
+  {
+    "exam": "データベーススペシャリスト試験",
+    "exam_id": "db",
+    "section": "運用管理",
+    "section_id": "db_operation",
+    "file": "data/db/questions_db_operation.json",
+    "current_count": 5,
+    "needed_count": 45,
+    "expected_count": 50
+  },
+  {
+    "exam": "データベーススペシャリスト試験",
+    "exam_id": "db",
+    "section": "性能評価と最適化",
+    "section_id": "db_performance",
+    "file": "data/db/questions_db_performance.json",
+    "current_count": 5,
+    "needed_count": 45,
+    "expected_count": 50
+  },
+  {
+    "exam": "データベーススペシャリスト試験",
+    "exam_id": "db",
+    "section": "セキュリティと監査",
+    "section_id": "db_security",
+    "file": "data/db/questions_db_security.json",
+    "current_count": 5,
+    "needed_count": 45,
+    "expected_count": 50
+  },
+  {
+    "exam": "情報処理安全確保支援士試験",
+    "exam_id": "sc",
+    "section": "セキュリティ技術",
+    "section_id": "sc_technology",
+    "file": "data/sc/questions_sc_technology.json",
+    "current_count": 0,
+    "needed_count": 50,
+    "expected_count": 50
+  },
+  {
+    "exam": "情報処理安全確保支援士試験",
+    "exam_id": "sc",
+    "section": "インシデント対応",
+    "section_id": "sc_incident",
+    "file": "data/sc/questions_sc_incident.json",
+    "current_count": 0,
+    "needed_count": 50,
+    "expected_count": 50
+  },
+  {
+    "exam": "情報処理安全確保支援士試験",
+    "exam_id": "sc",
+    "section": "監査・評価・法務",
+    "section_id": "sc_assessment",
+    "file": "data/sc/questions_sc_assessment.json",
+    "current_count": 0,
+    "needed_count": 50,
+    "expected_count": 50
+  },
+  {
+    "exam": "Python",
+    "exam_id": "lang_python",
+    "section": "基礎文法",
+    "section_id": "python_syntax",
+    "file": "data/lang/questions_python_syntax.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "Python",
+    "exam_id": "lang_python",
+    "section": "コレクションとデータ操作",
+    "section_id": "python_data",
+    "file": "data/lang/questions_python_data.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "Python",
+    "exam_id": "lang_python",
+    "section": "クラスとオブジェクト指向",
+    "section_id": "python_oop",
+    "file": "data/lang/questions_python_oop.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "Python",
+    "exam_id": "lang_python",
+    "section": "標準ライブラリ",
+    "section_id": "python_lib",
+    "file": "data/lang/questions_python_lib.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "Python",
+    "exam_id": "lang_python",
+    "section": "ファイル・例外・テスト",
+    "section_id": "python_io",
+    "file": "data/lang/questions_python_io.json",
+    "current_count": 30,
+    "needed_count": 20,
+    "expected_count": 30
+  },
+  {
+    "exam": "Java",
+    "exam_id": "lang_java",
+    "section": "基礎文法",
+    "section_id": "java_basics",
+    "file": "data/lang/questions_java_basics.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "Java",
+    "exam_id": "lang_java",
+    "section": "制御構文と配列",
+    "section_id": "java_flow",
+    "file": "data/lang/questions_java_flow.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "Java",
+    "exam_id": "lang_java",
+    "section": "オブジェクト指向",
+    "section_id": "java_oop",
+    "file": "data/lang/questions_java_oop.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "Java",
+    "exam_id": "lang_java",
+    "section": "標準APIと文字列操作",
+    "section_id": "java_api",
+    "file": "data/lang/questions_java_api.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "Java",
+    "exam_id": "lang_java",
+    "section": "例外処理と入出力",
+    "section_id": "java_exception",
+    "file": "data/lang/questions_java_exception.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "SQL",
+    "exam_id": "lang_sql",
+    "section": "問合せ基礎",
+    "section_id": "sql_select",
+    "file": "data/lang/questions_sql_select.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "SQL",
+    "exam_id": "lang_sql",
+    "section": "単一行関数",
+    "section_id": "sql_functions",
+    "file": "data/lang/questions_sql_functions.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "SQL",
+    "exam_id": "lang_sql",
+    "section": "グループ関数と集約",
+    "section_id": "sql_group",
+    "file": "data/lang/questions_sql_group.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "SQL",
+    "exam_id": "lang_sql",
+    "section": "結合問合せ",
+    "section_id": "sql_join",
+    "file": "data/lang/questions_sql_join.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "SQL",
+    "exam_id": "lang_sql",
+    "section": "副問合せ",
+    "section_id": "sql_subquery",
+    "file": "data/lang/questions_sql_subquery.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  },
+  {
+    "exam": "SQL",
+    "exam_id": "lang_sql",
+    "section": "DML/DDL/TCL",
+    "section_id": "sql_dml_ddl",
+    "file": "data/lang/questions_sql_dml_ddl.json",
+    "current_count": 10,
+    "needed_count": 40,
+    "expected_count": 10
+  }
+]

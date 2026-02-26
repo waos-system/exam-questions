@@ -1,0 +1,756 @@
+{
+  "genre": "Linux プロセスとシステム管理",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_process_001",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスとは何か、最も適切な説明はどれか？",
+      "options": {
+        "A": "実行中のプログラムのインスタンス",
+        "B": "ディスク上に保存されたプログラムファイル",
+        "C": "プロセッサで実行される機械命令",
+        "D": "メモリ内のスタック領域"
+      },
+      "correct": "A",
+      "explanation": "プロセスは実行中のプログラムであり、メモリ、ファイルディスクリプタ、プロセスID等のリソースを持つ独立した実行単位です。"
+    },
+    {
+      "id": "linux_process_002",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスのステータスを確認するコマンドはどれか？",
+      "options": {
+        "A": "pstat",
+        "B": "ps",
+        "C": "process",
+        "D": "pinfo"
+      },
+      "correct": "B",
+      "explanation": "ps コマンドで実行中のプロセスを一覧表示できます。ps aux で詳細情報、ps ef でツリー表示が可能です。"
+    },
+    {
+      "id": "linux_process_003",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "すべてのプロセスをツリー形式で表示するコマンドはどれか？",
+      "options": {
+        "A": "ps aux",
+        "B": "ps -ef",
+        "C": "ps -ejH",
+        "D": "pstree"
+      },
+      "correct": "D",
+      "explanation": "pstree はプロセスの親子関係をツリー形式で表示します。ps -ef でも階層表示が可能です。"
+    },
+    {
+      "id": "linux_process_004",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスID（PID）とは何か？",
+      "options": {
+        "A": "プロセスを一意に識別する番号",
+        "B": "プロセスの優先度レベル",
+        "C": "プロセスが使用するメモリサイズ",
+        "D": "プロセスが実行された時刻"
+      },
+      "correct": "A",
+      "explanation": "PID（Process ID）は各プロセスを一意に識別する番号です。ps コマンドで確認あるいは、$$ でシェル自身のPIDを取得できます。"
+    },
+    {
+      "id": "linux_process_005",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "親プロセスID（PPID）は何か？",
+      "options": {
+        "A": "複数のプロセスを識別する複合ID",
+        "B": "親となるプロセスのID",
+        "C": "プロセスの優先度を示すID",
+        "D": "プロセスグループのID"
+      },
+      "correct": "B",
+      "explanation": "PPID（Parent Process ID）は、そのプロセスを起動した親プロセスのIDです。ps コマンドで PPID カラムで確認できます。"
+    },
+    {
+      "id": "linux_process_006",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスにシグナルを送信するコマンドはどれか？",
+      "options": {
+        "A": "send",
+        "B": "signal",
+        "C": "kill",
+        "D": "terminate"
+      },
+      "correct": "C",
+      "explanation": "kill コマンドでプロセスにシグナルを送信できます。kill -9 は強制終了です。"
+    },
+    {
+      "id": "linux_process_007",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスを正常に終了させるシグナルはどれか？",
+      "options": {
+        "A": "SIGKILL（シグナル9）",
+        "B": "SIGSTOP（シグナル19）",
+        "C": "SIGTERM（シグナル15）",
+        "D": "SIGHUP（シグナル1）"
+      },
+      "correct": "C",
+      "explanation": "SIGTERM（シグナル15）は正常終了要求です。SIGKILL は強制終了、SIGSTOP は一時停止、SIGHUP はターミナル切断を示します。"
+    },
+    {
+      "id": "linux_process_008",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスを強制終了するシグナルはどれか？",
+      "options": {
+        "A": "SIGTERM",
+        "B": "SIGKILL",
+        "C": "SIGSTOP",
+        "D": "SIGINT"
+      },
+      "correct": "B",
+      "explanation": "SIGKILL（シグナル9）は強制終了で、プロセスは処理できません。kill -9 <PID> で実行します。"
+    },
+    {
+      "id": "linux_process_009",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "システムプロセス監視に使用される対話的コマンドはどれか？",
+      "options": {
+        "A": "monitor",
+        "B": "top",
+        "C": "watch",
+        "D": "sysmon"
+      },
+      "correct": "B",
+      "explanation": "top コマンドはリアルタイムでプロセスを監視し、CPU使用率やメモリ使用量を表示します。htop はより高機能なバージョンです。"
+    },
+    {
+      "id": "linux_process_010",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスの優先度を表すナイス値の範囲はどれか？",
+      "options": {
+        "A": "-20 ～ 20",
+        "B": "0 ～ 100",
+        "C": "-100 ～ 100",
+        "D": "1 ～ 127"
+      },
+      "correct": "A",
+      "explanation": "ナイス値は -20（最高優先度）～ 20（最低優先度）の範囲です。低い値ほど高優先度です。"
+    },
+    {
+      "id": "linux_process_011",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "プロセスのナイス値を設定するコマンドはどれか？",
+      "options": {
+        "A": "nice",
+        "B": "rank",
+        "C": "priority",
+        "D": "setprio"
+      },
+      "correct": "A",
+      "explanation": "nice コマンドで新規プロセスのナイス値を指定して実行します。nice -n 5 ./program のように使用します。"
+    },
+    {
+      "id": "linux_process_012",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "実行中のプロセスのナイス値を変更するコマンドはどれか？",
+      "options": {
+        "A": "nice",
+        "B": "renice",
+        "C": "priority",
+        "D": "adjust"
+      },
+      "correct": "B",
+      "explanation": "renice で実行中のプロセスのナイス値を変更できます。renice -n -5 -p <PID> のように使用します。"
+    },
+    {
+      "id": "linux_process_013",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "バックグラウンドでプログラムを実行する方法はどれか？",
+      "options": {
+        "A": "program &",
+        "B": "program &amp;",
+        "C": "program -bg",
+        "D": "bg program"
+      },
+      "correct": "A",
+      "explanation": "program & でプログラムをバックグラウンドで実行します。& は標準シェル構文です。"
+    },
+    {
+      "id": "linux_process_014",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "バックグラウンドプロセスをフォアグラウンドに戻すコマンドはどれか？",
+      "options": {
+        "A": "fg",
+        "B": "foreground",
+        "C": "bring",
+        "D": "restoring"
+      },
+      "correct": "A",
+      "explanation": "fg（foreground）でバックグラウンドプロセスをフォアグラウンドに戻します。fg %1 で指定ジョブを指定できます。"
+    },
+    {
+      "id": "linux_process_015",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ジョブ一覧を表示するコマンドはどれか？",
+      "options": {
+        "A": "list",
+        "B": "jobs",
+        "C": "process -l",
+        "D": "listjob"
+      },
+      "correct": "B",
+      "explanation": "jobs コマンドで現在のシェルセッション内のジョブを表示します。jobs -l で PID も表示されます。"
+    },
+    {
+      "id": "linux_process_016",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "実行中のプロセスを一時停止するキーボード操作はどれか？",
+      "options": {
+        "A": "Ctrl+A",
+        "B": "Ctrl+C",
+        "C": "Ctrl+Z",
+        "D": "Ctrl+S"
+      },
+      "correct": "C",
+      "explanation": "Ctrl+Z でフォアグラウンドプロセスを SIGSTOP で一時停止します。Ctrl+C は SIGINT です。"
+    },
+    {
+      "id": "linux_process_017",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "一時停止されたプロセスを再開するコマンドはどれか？",
+      "options": {
+        "A": "continue",
+        "B": "resume",
+        "C": "bg",
+        "D": "go"
+      },
+      "correct": "C",
+      "explanation": "bg でバックグラウンドで再開、fg でフォアグラウンドで再開します。"
+    },
+    {
+      "id": "linux_process_018",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemd の主な役割はどれか？",
+      "options": {
+        "A": "ブートプロセスを制御し、サービスを管理するシステムおよびサービスマネージャー",
+        "B": "ファイルシステムを管理する",
+        "C": "ネットワークを設定する",
+        "D": "ユーザー認証を管理する"
+      },
+      "correct": "A",
+      "explanation": "systemd は init システムを替わり、サービス（ユニット）を管理します。systemctl で制御できます。"
+    },
+    {
+      "id": "linux_process_019",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemd ユニットファイルが配置されるディレクトリはどれか？",
+      "options": {
+        "A": "/etc/init.d/",
+        "B": "/etc/systemd/system/",
+        "C": "/lib/systemd/system/",
+        "D": "BとCの両方"
+      },
+      "correct": "D",
+      "explanation": "/lib/systemd/system/ はシステムユニット、/etc/systemd/system/ はローカルカスタマイズのディレクトリです。"
+    },
+    {
+      "id": "linux_process_020",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "サービスを開始するコマンドはどれか？",
+      "options": {
+        "A": "systemctl start service",
+        "B": "service start service",
+        "C": "systemctl run service",
+        "D": "start service"
+      },
+      "correct": "A",
+      "explanation": "systemctl start <service> でサービスを開始します。systemctl stop で停止、systemctl restart で再起動です。"
+    },
+    {
+      "id": "linux_process_021",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "サービスの自動起動を設定するコマンドはどれか？",
+      "options": {
+        "A": "systemctl enable service",
+        "B": "systemctl activate service",
+        "C": "systemctl autostart service",
+        "D": "systemctl on service"
+      },
+      "correct": "A",
+      "explanation": "systemctl enable <service> でブート時に自動起動を有効にします。disable で自動起動を無効にします。"
+    },
+    {
+      "id": "linux_process_022",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "サービスのステータスを確認するコマンドはどれか？",
+      "options": {
+        "A": "systemctl status service",
+        "B": "systemctl check service",
+        "C": "systemctl info service",
+        "D": "systemctl test service"
+      },
+      "correct": "A",
+      "explanation": "systemctl status <service> でサービスの状態を表示します。active か inactive か、自動起動設定なども表示されます。"
+    },
+    {
+      "id": "linux_process_023",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "すべてのサービスを一覧表示するコマンドはどれか？",
+      "options": {
+        "A": "systemctl list-units --type=service",
+        "B": "systemctl list-services",
+        "C": "systemctl list --type=service",
+        "D": "systemctl show-all"
+      },
+      "correct": "A",
+      "explanation": "systemctl list-units --type=service でサービスを一覧表示します。--all で無効なサービスも表示されます。"
+    },
+    {
+      "id": "linux_process_024",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "runlevel を確認するコマンドはどれか？",
+      "options": {
+        "A": "runlevel",
+        "B": "systemctl get-default",
+        "C": "level",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "runlevel は従来のコマンド、systemctl get-default は systemd での設定確認コマンドです。"
+    },
+    {
+      "id": "linux_process_025",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "デフォルト target を変更するコマンドはどれか？",
+      "options": {
+        "A": "systemctl set-default target.target",
+        "B": "systemctl default target.target",
+        "C": "systemctl config target.target",
+        "D": "systemctl change-target target.target"
+      },
+      "correct": "A",
+      "explanation": "systemctl set-default <target> でブート時のデフォルト target を設定します。"
+    },
+    {
+      "id": "linux_process_026",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "システムログを確認するコマンドはどれか？",
+      "options": {
+        "A": "journalctl",
+        "B": "syslog",
+        "C": "logread",
+        "D": "tail /var/log"
+      },
+      "correct": "A",
+      "explanation": "journalctl で systemd のジャーナルログを表示できます。journalctl -u <service> でサービス別に確認可能です。"
+    },
+    {
+      "id": "linux_process_027",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "journalctl で昨日のログを表示する場合、オプションはどれか？",
+      "options": {
+        "A": "journalctl --since yesterday",
+        "B": "journalctl -S 24h",
+        "C": "journalctl --date=yesterday",
+        "D": "journalctl -X yesterday"
+      },
+      "correct": "A",
+      "explanation": "journalctl --since yesterday でのは昨日のログを表示します。--since '2023-01-01' での絶対時刻指定も可能です。"
+    },
+    {
+      "id": "linux_process_028",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "cron スケジューラーの設定ファイルを編集するコマンドはどれか？",
+      "options": {
+        "A": "crontab -e",
+        "B": "echo 'schedule' >> crontab",
+        "C": "cron -e",
+        "D": "schedule -e"
+      },
+      "correct": "A",
+      "explanation": "crontab -e で現在ユーザーの cron 設定を編集できます。crontab -l で確認、crontab -r で削除です。"
+    },
+    {
+      "id": "linux_process_029",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "毎日 15:30 にコマンドを実行する cron エントリはどれか？",
+      "options": {
+        "A": "30 15 * * * command",
+        "B": "15 30 * * * command",
+        "C": "* * 15:30 * * command",
+        "D": "30 15 command"
+      },
+      "correct": "A",
+      "explanation": "cron フォーマットは『分 時間 日 月 曜日 コマンド』です。30 15 は 15:30、* * は毎日です。"
+    },
+    {
+      "id": "linux_process_030",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "毎用曜日 9:00 にコマンドを実行する cron エントリはどれか？",
+      "options": {
+        "A": "0 9 * * 1-5 command",
+        "B": "0 9 * * MON-FRI command",
+        "C": "0 9 1-5 * * command",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "cron では曜日を数値（0=日,1=月,...)またはテキスト形式で指定できます。"
+    },
+    {
+      "id": "linux_process_031",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "各ユーザーの crontab ファイルが配置されるディレクトリはどれか？",
+      "options": {
+        "A": "/etc/cron.d/",
+        "B": "/var/spool/cron/",
+        "C": "/var/spool/cron/crontabs/",
+        "D": "/home/user/.cron/"
+      },
+      "correct": "C",
+      "explanation": "/var/spool/cron/crontabs/ にはユーザー個別の crontab があります。/etc/cron.d/ はシステムワイド cron です。"
+    },
+    {
+      "id": "linux_process_032",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "システムワイド crontab の主なディレクトリはどれか？",
+      "options": {
+        "A": "/etc/cron.hourly/",
+        "B": "/etc/cron.daily/",
+        "C": "/etc/cron.weekly/",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "/etc/cron.hourly, daily, weekly, monthly/ は，定期的に実行されるスクリプトを格納するディレクトリです。"
+    },
+    {
+      "id": "linux_process_033",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "at コマンドの主な役割はどれか？",
+      "options": {
+        "A": "定期的にタスクをスケジュール",
+        "B": "指定時刻に一度だけタスクを実行",
+        "C": "リアルタイムではタスク監視",
+        "D": "プロセスの実用性を測定"
+      },
+      "correct": "B",
+      "explanation": "at は指定時刻に一度だけ実行するスケジューラーです。cron と異なり，繰り返しは行いません。"
+    },
+    {
+      "id": "linux_process_034",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "明日の 14:30 にコマンドを実行するコマンドはどれか？",
+      "options": {
+        "A": "at tomorrow 14:30 'command'",
+        "B": "at 14:30 tomorrow 'command'",
+        "C": "at 2:30 PM tomorrow 'command'",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "at は多くの時刻形式に対応しており，全て同じ意味として解釈されます。"
+    },
+    {
+      "id": "linux_process_035",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "スケジュール済み at ジョブを確認するコマンドはどれか？",
+      "options": {
+        "A": "at -l",
+        "B": "at -q",
+        "C": "atq",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "at -l または atq でスケジュール済みジョブを確認できます。atrm でジョブを削除します。"
+    },
+    {
+      "id": "linux_process_036",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "プロセスの文字列スタックコンテンツを表示するコマンドはどれか？",
+      "options": {
+        "A": "strace",
+        "B": "strings",
+        "C": "gdb",
+        "D": "objdump"
+      },
+      "correct": "A",
+      "explanation": "strace でプロセスのシステムコール（文字列や動作）を追跡できます。gdb はデバッガー、strings はバイナリ内の文字列を抽出です。"
+    },
+    {
+      "id": "linux_process_037",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "プロセスのメモリマップを表示するコマンドはどれか？",
+      "options": {
+        "A": "pmap",
+        "B": "memmap",
+        "C": "mmap",
+        "D": "procmap"
+      },
+      "correct": "A",
+      "explanation": "pmap でプロセスが使用しているメモリマップを表示できます。pmap <PID> で使用します。"
+    },
+    {
+      "id": "linux_process_038",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "全メモリ使用量をページ単位で確認するコマンドはどれか？",
+      "options": {
+        "A": "free",
+        "B": "vmstat",
+        "C": "ps -aux",
+        "D": "top"
+      },
+      "correct": "A",
+      "explanation": "free -h（人間が読みやすい形式）でメモリ使用量を表示します。vmstat でもメモリ統計が得られます。"
+    },
+    {
+      "id": "linux_process_039",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "I/O 統計をリアルタイム表示するコマンドはどれか？",
+      "options": {
+        "A": "iostat",
+        "B": "iostat",
+        "C": "diskstat",
+        "D": "vmstat"
+      },
+      "correct": "A",
+      "explanation": "iostat（sysstat パッケージ）でディスク I/O 統計をリアルタイム表示できます。-x オプションで詳細情報が表示されます。"
+    },
+    {
+      "id": "linux_process_040",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "プロセスのリソース制限を確認するコマンドはどれか？",
+      "options": {
+        "A": "ulimit -a",
+        "B": "ulimit -l",
+        "C": "limits",
+        "D": "rlimit"
+      },
+      "correct": "A",
+      "explanation": "ulimit -a でシェルプロセスのリソース制限を表示します。ulimit -c で core file size など個別に確認できます。"
+    },
+    {
+      "id": "linux_process_041",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ゾンビプロセスとは何か？",
+      "options": {
+        "A": "終了した子プロセスで，親が待ち受けていないもの",
+        "B": "バックグラウンドで実行されているプロセス",
+        "C": "メモリに常駐するプロセス",
+        "D": "ウイルスに感染したプロセス"
+      },
+      "correct": "A",
+      "explanation": "ゾンビプロセスは終了したが，親が wait() システムコールを呼ばず，プロセステーブルに残るプロセスです。ps aux で状態は何か Z（defunt）と表示されます。"
+    },
+    {
+      "id": "linux_process_042",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ゾンビプロセスが発生する主な原因は何か？",
+      "options": {
+        "A": "メモリリーク",
+        "B": "親プロセスが子プロセスの終了を wait() で受け取らない",
+        "C": "ディスク容量不足",
+        "D": "CPU 使用率が高い"
+      },
+      "correct": "B",
+      "explanation": "親プロセスが wait() で子プロセスの終了ステータスを受け取らない場合，ゾンビプロセスが発生します。"
+    },
+    {
+      "id": "linux_process_043",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ps コマンドで出力フォーマットをカスタマイズするオプションはどれか？",
+      "options": {
+        "A": "ps -o format",
+        "B": "ps --format=columns",
+        "C": "ps -f custom",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "ps -o pid,cmd または ps --format=pid,cmd でカスタム形式で出力できます。"
+    },
+    {
+      "id": "linux_process_044",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "CPU コア数を確認するコマンドはどれか？",
+      "options": {
+        "A": "lscpu",
+        "B": "nproc",
+        "C": "cpuinfo",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "lscpu または nproc でシステムの CPU 数を確認できます。cat /proc/cpuinfo でも詳細が確認できます。"
+    },
+    {
+      "id": "linux_process_045",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "システムの稼働時間を確認するコマンドはどれか？",
+      "options": {
+        "A": "uptime",
+        "B": "runtime",
+        "C": "sysuptime",
+        "D": "who -b"
+      },
+      "correct": "A",
+      "explanation": "uptime でシステムの稼働時間，ロードアベレージなどが表示されます。who -b でも最後のブート時刻が確認できます。"
+    },
+    {
+      "id": "linux_process_046",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ロードアベレージが 4.0 の場合，どのような状態を示すか？",
+      "options": {
+        "A": "平均して 4 スレッドが CPU 使用を待機している",
+        "B": "CPU が 4 倍に過負荷",
+        "C": "メモリ使用率が 40%",
+        "D": "4 個の致命的なプロセスが実行中"
+      },
+      "correct": "A",
+      "explanation": "ロードアベレージは，実行待ちのプロセス数の平均です。4コア CPU の場合，4.0 で フルロードです。"
+    },
+    {
+      "id": "linux_process_047",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemd でサービスの依存関係を確認するコマンドはどれか？",
+      "options": {
+        "A": "systemctl depends",
+        "B": "systemctl list-dependencies",
+        "C": "systemctl show -p Requires",
+        "D": "Bと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "systemctl list-dependencies <service> で依存関係を表示，systemctl show -p Requires <service> で詳細を表示できます。"
+    },
+    {
+      "id": "linux_process_048",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemd でサービスユニットをリロードするコマンドはどれか？",
+      "options": {
+        "A": "systemctl reload service",
+        "B": "systemctl restart service",
+        "C": "systemctl reload-daemon",
+        "D": "Aと C の順序が重要"
+      },
+      "correct": "D",
+      "explanation": "systemctl daemon-reload でシステムマネージャーを リロード，systemctl reload <service> でサービス自身を リロードします。"
+    },
+    {
+      "id": "linux_process_049",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "dmesg コマンドの主な役割はどれか？",
+      "options": {
+        "A": "カーネルログバッファを表示",
+        "B": "デバイススキャンメッセージを表示",
+        "C": "ディスク使用メッセージを表示",
+        "D": "アプリケーションエラーメッセージを表示"
+      },
+      "correct": "A",
+      "explanation": "dmesg（display message）でカーネルリングバッファの出力を表示します。ハードウェアエラーやブートメッセージが含まれます。"
+    },
+    {
+      "id": "linux_process_050",
+      "genre": "Linux プロセスとシステム管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "systemd-analyze でシステム起動の遅延を調査するコマンドはどれか？",
+      "options": {
+        "A": "systemd-analyze time",
+        "B": "systemd-analyze blame",
+        "C": "systemd-analyze critical-chain",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "systemd-analyze time で総起動時間，blame で遅いサービス，critical-chain で依存チェーンを表示します。"
+    }
+  ]
+}

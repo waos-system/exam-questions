@@ -39,7 +39,7 @@
               "icon": "🖥",
               "description": "基礎理論・コンピュータ・ネットワーク・データベース・クラウド",
               "file": "data/ip/questions_ip_technology.json",
-              "count": 12,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -48,7 +48,7 @@
               "icon": "🔒",
               "description": "基本的な暗号化・認証・脅威・対策",
               "file": "data/ip/questions_ip_security.json",
-              "count": 8,
+              "count": 30,
               "coming_soon": false
             }
           ]
@@ -68,7 +68,7 @@
               "icon": "🧠",
               "description": "リスクと脅威の基礎知識",
               "file": "data/sg/questions_sg_overview.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -77,7 +77,7 @@
               "icon": "🛡",
               "description": "ISMSと管理策の基礎",
               "file": "data/sg/questions_sg_management.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -86,7 +86,7 @@
               "icon": "🔐",
               "description": "認証とアクセス制御",
               "file": "data/sg/questions_sg_measures.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -95,7 +95,7 @@
               "icon": "⚖️",
               "description": "関連法規とコンプライアンス",
               "file": "data/sg/questions_sg_law.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -104,7 +104,7 @@
               "icon": "🔑",
               "description": "共通鍵暗号・公開鍵暗号・ハッシュ・デジタル署名",
               "file": "data/sg/questions_sg_encryption.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -113,7 +113,7 @@
               "icon": "⚠️",
               "description": "検知・初動対応・復旧・再発防止・BCP・DRP",
               "file": "data/sg/questions_sg_incident.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             },
             {
@@ -122,7 +122,7 @@
               "icon": "👤",
               "description": "従業員教育・トレーニング・職業倫理・内部脅威",
               "file": "data/sg/questions_sg_awareness.json",
-              "count": 10,
+              "count": 30,
               "coming_soon": false
             }
           ]
@@ -142,7 +142,7 @@
               "icon": "🖥️",
               "description": "CPU・メモリ・入出力装置・ストレージ",
               "file": "data/fe/questions_fe_computer.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_system",
@@ -150,7 +150,7 @@
               "icon": "🔧",
               "description": "性能・信頼性・稼働率",
               "file": "data/fe/questions_fe_system.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_software",
@@ -158,7 +158,7 @@
               "icon": "📦",
               "description": "OS・プロセス・ミドルウェア",
               "file": "data/fe/questions_fe_software.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_hardware",
@@ -166,7 +166,7 @@
               "icon": "⚙️",
               "description": "論理回路・半導体・入出力",
               "file": "data/fe/questions_fe_hardware.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_network",
@@ -174,7 +174,7 @@
               "icon": "🌐",
               "description": "TCP/IP・プロトコル・設計",
               "file": "data/fe/questions_fe_network.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_db",
@@ -182,7 +182,7 @@
               "icon": "🗄️",
               "description": "SQL・正規化・トランザクション",
               "file": "data/fe/questions_fe_db.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_security",
@@ -190,7 +190,7 @@
               "icon": "🔒",
               "description": "暗号・認証・脆弱性・攻撃手法",
               "file": "data/fe/questions_fe_security.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_algorithm",
@@ -198,7 +198,7 @@
               "icon": "⌨️",
               "description": "アルゴリズム・データ構造・擬似言語",
               "file": "data/fe/questions_fe_algorithm.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_management",
@@ -206,7 +206,7 @@
               "icon": "📋",
               "description": "開発手法・プロジェクト管理・品質管理",
               "file": "data/fe/questions_fe_management.json",
-              "count": 10
+              "count": 30
             },
             {
               "id": "fe_strategy",
@@ -214,7 +214,7 @@
               "icon": "📊",
               "description": "経営戦略・法務・会計",
               "file": "data/fe/questions_fe_strategy.json",
-              "count": 10
+              "count": 30
             }
           ]
         },
@@ -300,8 +300,8 @@
               "icon": "📊",
               "description": "事業戦略と整合したIT戦略立案",
               "file": "data/st/questions_st_strategy.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "st_enterprise",
@@ -309,8 +309,8 @@
               "icon": "📈",
               "description": "業務プロセス改善・IT投資評価",
               "file": "data/st/questions_st_enterprise.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "st_governance",
@@ -318,8 +318,8 @@
               "icon": "🛡",
               "description": "ITガバナンス・リスクマネジメント",
               "file": "data/st/questions_st_governance.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "st_architecture",
@@ -327,8 +327,8 @@
               "icon": "🏗",
               "description": "情報システム化計画と全体構想",
               "file": "data/st/questions_st_architecture.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -347,8 +347,8 @@
               "icon": "📝",
               "description": "業務要件・機能要件・非機能要件",
               "file": "data/sa/questions_sa_requirements.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sa_design",
@@ -356,8 +356,8 @@
               "icon": "🏗",
               "description": "論理設計・物理設計・方式設計",
               "file": "data/sa/questions_sa_design.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sa_security",
@@ -365,7 +365,7 @@
               "icon": "🔒",
               "description": "セキュリティアーキテクチャ・暗号化・認証・災害復旧設計・可用性",
               "file": "data/sa/questions_sa_security.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -374,8 +374,8 @@
               "icon": "✅",
               "description": "テスト設計・品質確保・レビュー",
               "file": "data/sa/questions_sa_quality.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sa_maintenance",
@@ -383,8 +383,8 @@
               "icon": "🔧",
               "description": "移行計画・運用設計・保守性",
               "file": "data/sa/questions_sa_maintenance.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -462,8 +462,8 @@
               "icon": "🌐",
               "description": "要求定義・論理設計・物理設計",
               "file": "data/nw/questions_nw_design.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "nw_protocol",
@@ -471,8 +471,8 @@
               "icon": "📡",
               "description": "TCP/IP・ルーティング・スイッチング",
               "file": "data/nw/questions_nw_protocol.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "nw_security",
@@ -480,8 +480,8 @@
               "icon": "🔒",
               "description": "認証・暗号・凗長化・耐障害設計",
               "file": "data/nw/questions_nw_security.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "nw_operation",
@@ -489,8 +489,8 @@
               "icon": "🔧",
               "description": "運用管理・トラブルシューティング",
               "file": "data/nw/questions_nw_operation.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -509,8 +509,8 @@
               "icon": "🗄",
               "description": "ER図・正規化・論理データ設計",
               "file": "data/db/questions_db_modeling.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "db_sql",
@@ -518,8 +518,8 @@
               "icon": "💻",
               "description": "SQL・ビュー・トリガ・ストアドプロシージャ",
               "file": "data/db/questions_db_sql.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "db_operation",
@@ -527,8 +527,8 @@
               "icon": "🔧",
               "description": "バックアップ・リカバリ・可用性管理",
               "file": "data/db/questions_db_operation.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "db_performance",
@@ -536,8 +536,8 @@
               "icon": "📈",
               "description": "チューニング・インデックス・クエリ最適化",
               "file": "data/db/questions_db_performance.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "db_security",
@@ -545,8 +545,8 @@
               "icon": "🔒",
               "description": "権限管理・監査ログ・コンプライアンス",
               "file": "data/db/questions_db_security.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -565,8 +565,8 @@
               "icon": "📝",
               "description": "制約条件・非機能要件・システム構想",
               "file": "data/es/questions_es_requirements.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "es_hardware",
@@ -574,8 +574,8 @@
               "icon": "⚙️",
               "description": "マイコン・センサ・制御回路設計",
               "file": "data/es/questions_es_hardware.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "es_software",
@@ -583,8 +583,8 @@
               "icon": "💻",
               "description": "リアルタイムOS・タスク制御・ドライバ",
               "file": "data/es/questions_es_software.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "es_verification",
@@ -592,8 +592,8 @@
               "icon": "✅",
               "description": "試験設計・品質保証・保守運用",
               "file": "data/es/questions_es_verification.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -612,8 +612,8 @@
               "icon": "📊",
               "description": "サービスポートフォリオ・SLA設計",
               "file": "data/sm/questions_sm_strategy.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sm_transition",
@@ -621,8 +621,8 @@
               "icon": "🚚",
               "description": "変更管理・リリース管理・構成管理",
               "file": "data/sm/questions_sm_transition.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sm_operation",
@@ -630,8 +630,8 @@
               "icon": "🔧",
               "description": "インシデント管理・問題管理・運用監視",
               "file": "data/sm/questions_sm_operation.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sm_improvement",
@@ -639,8 +639,8 @@
               "icon": "📈",
               "description": "サービス評価・KPI・継続的改善",
               "file": "data/sm/questions_sm_improvement.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -659,8 +659,8 @@
               "icon": "📋",
               "description": "監査方針・監査体制・監査手続",
               "file": "data/au/questions_au_planning.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "au_execution",
@@ -668,8 +668,8 @@
               "icon": "🔍",
               "description": "証拠収集・評価・監査調書作成",
               "file": "data/au/questions_au_execution.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "au_itgovernance",
@@ -677,8 +677,8 @@
               "icon": "🛡",
               "description": "統制環境・リスク管理・内部統制",
               "file": "data/au/questions_au_itgovernance.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "au_compliance",
@@ -686,8 +686,8 @@
               "icon": "⚖️",
               "description": "関連基準と順守状況の監査",
               "file": "data/au/questions_au_compliance.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         },
@@ -706,8 +706,8 @@
               "icon": "🛡",
               "description": "ポリシー策定・組織体制・リスク管理",
               "file": "data/sc/questions_sc_governance.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sc_technology",
@@ -715,8 +715,8 @@
               "icon": "🔒",
               "description": "暗号・認証・ネットワークセキュリティ",
               "file": "data/sc/questions_sc_technology.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sc_incident",
@@ -724,8 +724,8 @@
               "icon": "⚠️",
               "description": "検知・初動対応・復旧・再発防止",
               "file": "data/sc/questions_sc_incident.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sc_assessment",
@@ -733,8 +733,8 @@
               "icon": "⚖️",
               "description": "脆弱性評価・ペネトレーションテスト・関連法規",
               "file": "data/sc/questions_sc_assessment.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             }
           ]
         }
@@ -806,7 +806,7 @@
               "icon": "⚡",
               "description": "asyncio・async/await・コルーチン・イベントループ・並行プログラミング",
               "file": "data/lang/questions_python_async.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -815,7 +815,7 @@
               "icon": "📊",
               "description": "NumPy・Pandas・データ分析・統計処理・Matplotlib可視化",
               "file": "data/lang/questions_python_data_science.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -824,7 +824,7 @@
               "icon": "🌐",
               "description": "Flask・Django基礎・ルーティング・テンプレート・データベース連携",
               "file": "data/lang/questions_python_web.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]
@@ -844,8 +844,8 @@
               "icon": "📘",
               "description": "クラス構造・変数・型・演算子",
               "file": "data/lang/questions_java_basics.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "java_flow",
@@ -853,8 +853,8 @@
               "icon": "📝",
               "description": "if/switch・for/while・配列の操作",
               "file": "data/lang/questions_java_flow.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "java_oop",
@@ -862,8 +862,8 @@
               "icon": "☕",
               "description": "クラス・継承・カプセル化・多態性",
               "file": "data/lang/questions_java_oop.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "java_api",
@@ -871,8 +871,8 @@
               "icon": "🛠",
               "description": "String・Math・Collections・Date/Timeの基礎",
               "file": "data/lang/questions_java_api.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "java_exception",
@@ -880,8 +880,8 @@
               "icon": "🧪",
               "description": "try-catch・throws・ファイルI/O・ストリーム",
               "file": "data/lang/questions_java_exception.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "java_generics_lambda",
@@ -889,7 +889,7 @@
               "icon": "⚡",
               "description": "ジェネリクス・型パラメータ・ラムダ式・関数型インターフェース",
               "file": "data/lang/questions_java_generics_lambda.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -898,7 +898,7 @@
               "icon": "🔄",
               "description": "スレッド・同期化・並行ユーティリティ・Executor",
               "file": "data/lang/questions_java_concurrency.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -907,7 +907,7 @@
               "icon": "🏷️",
               "description": "アノテーション・リフレクションAPI・メタプログラミング",
               "file": "data/lang/questions_java_annotations.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]
@@ -927,8 +927,8 @@
               "icon": "🔍",
               "description": "SELECT・WHERE・ORDER BY・NULLハンドリング",
               "file": "data/lang/questions_sql_select.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sql_functions",
@@ -936,8 +936,8 @@
               "icon": "🧮",
               "description": "文字・数値・日付・変換関数",
               "file": "data/lang/questions_sql_functions.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sql_group",
@@ -945,8 +945,8 @@
               "icon": "📊",
               "description": "GROUP BY・HAVING・集計関数",
               "file": "data/lang/questions_sql_group.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sql_join",
@@ -954,8 +954,8 @@
               "icon": "🔗",
               "description": "INNER/OUTER JOIN・自己結合・外部結合",
               "file": "data/lang/questions_sql_join.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sql_subquery",
@@ -963,8 +963,8 @@
               "icon": "🧠",
               "description": "単一行・複数行・相関副問合せ",
               "file": "data/lang/questions_sql_subquery.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sql_dml_ddl",
@@ -972,8 +972,8 @@
               "icon": "🧱",
               "description": "INSERT/UPDATE/DELETE・CREATE/ALTER・COMMIT/ROLLBACK",
               "file": "data/lang/questions_sql_dml_ddl.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 10,
+              "coming_soon": false
             },
             {
               "id": "sql_constraints",
@@ -981,8 +981,8 @@
               "icon": "🔒",
               "description": "PK/FK/UNIQUE/CHECK・データ辞書ビュー",
               "file": "data/lang/questions_sql_constraints.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "sql_window_functions",
@@ -1019,8 +1019,8 @@
               "icon": "🐧",
               "description": "ファイル操作・テキスト処理・パイプ・リダイレクト",
               "file": "data/lang/questions_linux_commands.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "linux_filesystem",
@@ -1028,8 +1028,8 @@
               "icon": "🔒",
               "description": "ディレクトリ構造・パーミッション・所有者管理",
               "file": "data/lang/questions_linux_filesystem.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "linux_process",
@@ -1037,8 +1037,8 @@
               "icon": "🔧",
               "description": "プロセス監視・systemd・ログ管理",
               "file": "data/lang/questions_linux_process.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "linux_network",
@@ -1046,8 +1046,8 @@
               "icon": "🌐",
               "description": "TCP/IP基礎・SSH・ファイアウォール",
               "file": "data/lang/questions_linux_network.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "linux_packages",
@@ -1055,8 +1055,8 @@
               "icon": "📦",
               "description": "apt/yum・ジョブ自動化・bash基礎",
               "file": "data/lang/questions_linux_packages.json",
-              "count": 0,
-              "coming_soon": true
+              "count": 50,
+              "coming_soon": false
             },
             {
               "id": "linux_users_groups",
@@ -1137,7 +1137,7 @@
               "icon": "📐",
               "description": "時制・接続詞・比較・関係詞・受動態など",
               "file": "data/english/questions_en_grammar.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1146,7 +1146,7 @@
               "icon": "💬",
               "description": "句動詞・イディオム・決まり文句",
               "file": "data/english/questions_en_idioms.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1155,7 +1155,7 @@
               "icon": "📖",
               "description": "TOEIC頻出単語・長文頻出語彙",
               "file": "data/english/questions_en_vocabulary.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1164,7 +1164,7 @@
               "icon": "📄",
               "description": "パッセージを読んで設問に答える形式",
               "file": "data/english/questions_en_reading.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1173,7 +1173,7 @@
               "icon": "🎧",
               "description": "日常会話・応答選択・会話パターン",
               "file": "data/english/questions_en_conversation.json",
-              "count": 20,
+              "count": 100,
               "questionCount": 500
             },
             {
@@ -1182,7 +1182,7 @@
               "icon": "✍️",
               "description": "エッセイ執筆・手紙・メール・文章構成・文法的正確性",
               "file": "data/english/questions_en_writing.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]
@@ -1202,7 +1202,7 @@
               "icon": "🎧",
               "description": "短期・長期リスニング・会話・説明文理解",
               "file": "data/english/questions_en_toeic_listening.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1211,7 +1211,7 @@
               "icon": "📖",
               "description": "文法・語彙・読解・不完全文への補充・長文理解",
               "file": "data/english/questions_en_toeic_reading.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1220,7 +1220,7 @@
               "icon": "📚",
               "description": "TOEIC頻出単語・ビジネス用語・表現",
               "file": "data/english/questions_en_toeic_vocab.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]
@@ -1240,7 +1240,7 @@
               "icon": "📄",
               "description": "アカデミック長文・理解・分析・推論",
               "file": "data/english/questions_en_toefl_reading.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1249,7 +1249,7 @@
               "icon": "🎧",
               "description": "講義・会話音声理解・ノートテイキング・要点把握",
               "file": "data/english/questions_en_toefl_listening.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1258,7 +1258,7 @@
               "icon": "🗣️",
               "description": "独立講座・統合講座・流暢さ・明瞭性・精度",
               "file": "data/english/questions_en_toefl_speaking.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1267,7 +1267,7 @@
               "icon": "✍️",
               "description": "統合ライティング・独立ライティング・エッセイ作成",
               "file": "data/english/questions_en_toefl_writing.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]
@@ -1287,7 +1287,7 @@
               "icon": "🟢",
               "description": "初級単語・基礎文法・簡単な日常会話・初歩的読み書き",
               "file": "data/english/questions_en_eiken_beginner.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1296,7 +1296,7 @@
               "icon": "🟡",
               "description": "日常的な表現・実用的な語彙・中程度の会話・読解",
               "file": "data/english/questions_en_eiken_intermediate.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1305,7 +1305,7 @@
               "icon": "🟠",
               "description": "社会的な話題・幅広い文法・ビジネス表現・詳細読解",
               "file": "data/english/questions_en_eiken_upper_intermediate.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1314,7 +1314,7 @@
               "icon": "🔴",
               "description": "国際的話題・高度な表現・ネイティブレベル発音・複雑長文",
               "file": "data/english/questions_en_eiken_advanced.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]
@@ -1334,7 +1334,7 @@
               "icon": "📧",
               "description": "ビジネスメール・タイトル・署名・敬語・ビジネス定型表現",
               "file": "data/english/questions_en_business_mail.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1343,7 +1343,7 @@
               "icon": "🎤",
               "description": "プレゼン表現・会議用語・意見表明・質疑応答",
               "file": "data/english/questions_en_business_presentation.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1352,7 +1352,7 @@
               "icon": "☎️",
               "description": "電話会話・ビジネス交渉・顧客対応・問題解決表現",
               "file": "data/english/questions_en_business_telephony.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             },
             {
@@ -1361,7 +1361,7 @@
               "icon": "💻",
               "description": "IT用語・System構築・データベース・セキュリティ・クラウド技術用語",
               "file": "data/english/questions_en_business_it.json",
-              "count": 50,
+              "count": 100,
               "coming_soon": false
             }
           ]

@@ -1,0 +1,756 @@
+{
+  "genre": "SQL 制約・データ定義",
+  "exam": "SQL",
+  "questions": [
+    {
+      "id": "sql_constraints_001",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "PRIMARY KEY 制約の主な役割はどれか？",
+      "options": {
+        "A": "テーブル内の各行を一意に識別する",
+        "B": "NULL 値または重複を許さない",
+        "C": "別のテーブルへの参照を指定",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "PRIMARY KEY は一意性と非 NULL制約を組み合わせた制約で、テーブルの主キーを定義します。"
+    },
+    {
+      "id": "sql_constraints_002",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "PRIMARY KEY を作成するための SQL シンタックスはどれか？",
+      "options": {
+        "A": "CREATE TABLE table (id INT PRIMARY KEY)",
+        "B": "CREATE TABLE table (id INT, PRIMARY KEY (id))",
+        "C": "ALTER TABLE table ADD PRIMARY KEY (id)",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法で PRIMARY KEY を定義できます。カラム レベルまたはテーブル レベル、またはスキーマ作成後に追加できます。"
+    },
+    {
+      "id": "sql_constraints_003",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "FOREIGN KEY 制約の目的はどれか？",
+      "options": {
+        "A": "テーブル内の データ整合性を確保",
+        "B": "別のテーブルのレコードへの参照を定義",
+        "C": "テーブル間の関係を強制",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "FOREIGN KEY は参照整合性を確保し、別のテーブル（通常は PRIMARY KEY）への参照を定義します。"
+    },
+    {
+      "id": "sql_constraints_004",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "FOREIGN KEY を作成するための SQL シンタックスはどれか？",
+      "options": {
+        "A": "FOREIGN KEY (col) REFERENCES parent_table(parent_col)",
+        "B": "REFERENCES parent_table(parent_col)",
+        "C": "ALTER TABLE child ADD FOREIGN KEY (col) REFERENCES parent(col)",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法で FOREIGN KEY を定義できます。CREATE TABLE 内またはスキーマ変更で追加できます。"
+    },
+    {
+      "id": "sql_constraints_005",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "UNIQUE 制約の役割はどれか？",
+      "options": {
+        "A": "カラム内のすべての値が一意であることを確保",
+        "B": "NULL 値を許さない",
+        "C": "複数のカラムでの一意性を定義",
+        "D": "AとCの両方"
+      },
+      "correct": "D",
+      "explanation": "UNIQUE は NULL を複数持つことができる以外、PRIMARY KEY に似ています。複数のカラムでの一意性(composite unique)も定義できます。"
+    },
+    {
+      "id": "sql_constraints_006",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "UNIQUE と PRIMARY KEY の主な違いは何か？",
+      "options": {
+        "A": "PRIMARY KEY は NULL を許さないが、UNIQUE は複数の NULL を許す",
+        "B": "PRIMARY KEY は1 つだけ定義可能だが、UNIQUE は複数可能",
+        "C": "PRIMARY KEY はインデックスを自動作成するが、UNIQUE は手動",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "PRIMARY KEY と UNIQUE の主な違いはテーブルあたりの個数と NULL の扱いです。"
+    },
+    {
+      "id": "sql_constraints_007",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "CHECK 制約の主な役割はどれか？",
+      "options": {
+        "A": "カラムの値の範囲を制限",
+        "B": "論理式に基づいた値の検証",
+        "C": "複数カラムに対する条件を定義",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "CHECK 制約は論理式で定義した値の制限を適用します。例：年齢 >= 0、price > 0 など。"
+    },
+    {
+      "id": "sql_constraints_008",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "CHECK 制約の例として正しいシンタックスはどれか？",
+      "options": {
+        "A": "CHECK (age >= 18)",
+        "B": "CHECK (salary > 0 AND salary < 1000000)",
+        "C": "ALTER TABLE emp ADD CHECK (dept_id IN (1,2,3))",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての例は有効な CHECK 制約の定義方法です。複雑な論理式も可能です。"
+    },
+    {
+      "id": "sql_constraints_009",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "DEFAULT 制約の目的はどれか？",
+      "options": {
+        "A": "明示的に値が指定されない場合の デフォルト値を設定",
+        "B": "カラム値の初期化",
+        "C": "NULL 値の代わりとなる値を指定",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "DEFAULT は INSERT 時に値が指定されない場合に自動的に適用される値を定義します。"
+    },
+    {
+      "id": "sql_constraints_010",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "DEFAULT 制約の例として正しいシンタックスはどれか？",
+      "options": {
+        "A": "CREATE TABLE emp (name VARCHAR(100), status VARCHAR(20) DEFAULT 'active')",
+        "B": "CREATE TABLE emp (created_date DATETIME DEFAULT CURRENT_TIMESTAMP)",
+        "C": "CREATE TABLE emp (salary DECIMAL DEFAULT 50000)",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての例は有効な DEFAULT 指定方法です。文字列、関数、数値など様々な形式に対応しています。"
+    },
+    {
+      "id": "sql_constraints_011",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "NOT NULL 制約の目的は何か？",
+      "options": {
+        "A": "カラムが常に値を持つことを強制",
+        "B": "NULL 値の挿入を禁止",
+        "C": "必須フィールドを定義",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "NOT NULL はカラムへの NULL 値の挿入を禁止し、データモデリングで重要な制約です。"
+    },
+    {
+      "id": "sql_constraints_012",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "NOT NULL 制約を定義するシンタックスはどれか？",
+      "options": {
+        "A": "CREATE TABLE emp (id INT NOT NULL)",
+        "B": "CREATE TABLE emp (id INT NOT NULL, name VARCHAR(100) NOT NULL)",
+        "C": "ALTER TABLE emp MODIFY id INT NOT NULL",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法で NOT NULL を定義できます。カラム定義時またはスキーマ変更で追加可能です。"
+    },
+    {
+      "id": "sql_constraints_013",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "SELECT * FROM table WHERE col IS NULL; が返すのは何か？",
+      "options": {
+        "A": "col カラムが NULL のすべての行",
+        "B": "col = NULL の行",
+        "C": "col が空文字列（''）の行",
+        "D": "何も返さない（常に FALSE）"
+      },
+      "correct": "A",
+      "explanation": "IS NULL は NULL 値をテストします。= NULL ではテストできません。"
+    },
+    {
+      "id": "sql_constraints_014",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "ON DELETE CASCADE の役割は何か？",
+      "options": {
+        "A": "親行が削除された場合、子行も自動削除",
+        "B": "削除操作をキャンセル",
+        "C": "子行が存在する場合、親の削除を許さない",
+        "D": "削除イベントをログに記録"
+      },
+      "correct": "A",
+      "explanation": "ON DELETE CASCADE は親テーブルのレコード削除時に、参照する子テーブルのレコードも自動削除します。"
+    },
+    {
+      "id": "sql_constraints_015",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "ON DELETE RESTRICT の役割は何か？",
+      "options": {
+        "A": "親行が削除された場合、子行も自動削除",
+        "B": "子行が存在する場合、親の削除を許さない",
+        "C": "削除操作をロール歩く",
+        "D": "削除を指定フィールドに制限"
+      },
+      "correct": "B",
+      "explanation": "ON DELETE RESTRICT は参照している子行が存在する場合、親行の削除を禁止します。"
+    },
+    {
+      "id": "sql_constraints_016",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "ON DELETE SET NULL の役割は何か？",
+      "options": {
+        "A": "親行が削除された場合、子行の外部キーを NULL に設定",
+        "B": "NULL 値の削除",
+        "C": "親行削除時にトランザクション中止",
+        "D": "子行削除時に親も削除"
+      },
+      "correct": "A",
+      "explanation": "ON DELETE SET NULL は親行削除時に、参照する子行の外部キーカラムを NULL に更新します。"
+    },
+    {
+      "id": "sql_constraints_017",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "ON UPDATE CASCADE の役割は何か？",
+      "options": {
+        "A": "親の主キー更新時、子行の外部キーも自動更新",
+        "B": "子行更新時に親も更新される",
+        "C": "更新操作をカスケード状に処理",
+        "D": "AとCの両方"
+      },
+      "correct": "D",
+      "explanation": "ON UPDATE CASCADE は親の主キー更新時に、参照する子行の外部キーもカスケード状に更新します。"
+    },
+    {
+      "id": "sql_constraints_018",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "データ型 INT の範囲はどれか？",
+      "options": {
+        "A": "0 ～ 2^31-1",
+        "B": "-2^31 ～ 2^31-1",
+        "C": "-2^63 ～ 2^63-1",
+        "D": "0 ～ 255"
+      },
+      "correct": "B",
+      "explanation": "INT は通常 32 ビット符号付き整数で、-2,147,483,648 ～ 2,147,483,647 の範囲です。"
+    },
+    {
+      "id": "sql_constraints_019",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "データ型 BIGINT の範囲はどれか？",
+      "options": {
+        "A": "0 ～ 2^31-1",
+        "B": "-2^31 ～ 2^31-1",
+        "C": "-2^63 ～ 2^63-1",
+        "D": "-2^127 ～ 2^127-1"
+      },
+      "correct": "C",
+      "explanation": "BIGINT は 64 ビット符号付き整数で、-9,223,372,036,854,775,808 ～ 9,223,372,036,854,775,807 の範囲です。"
+    },
+    {
+      "id": "sql_constraints_020",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "VARCHAR と CHAR の主な違いは何か？",
+      "options": {
+        "A": "VARCHAR は可変長、CHAR は固定長",
+        "B": "CHAR は常に最大サイズの領域を使用、VARCHAR はデータ長に応じて調整",
+        "C": "VARCHAR はインデックス化できないが、CHAR はできる",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "CHAR(10) で 'abc' を保存すると 'abc       ' になり、VARCHAR(10) では 'abc' のみが保存されます。"
+    },
+    {
+      "id": "sql_constraints_021",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "DECIMAL と FLOAT の主な違いは何か？",
+      "options": {
+        "A": "DECIMAL は正確な固定小数点、FLOAT は浮動小数点",
+        "B": "DECIMAL は金融計算向け、FLOAT は科学計算向け",
+        "C": "FLOAT の方が精度が高い",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "DECIMAL は正確な演算を保証し、金額計算に適しています。FLOAT は近似値を扱い、科学計算に向いています。"
+    },
+    {
+      "id": "sql_constraints_022",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "TEXT と VARCHAR の主な違いはどれか？",
+      "options": {
+        "A": "TEXT は長いテキスト向け、VARCHAR は短い文字列向け",
+        "B": "VARCHAR には最大長を指定、TEXT は指定不要",
+        "C": "TEXT はインデックス化に制限がある場合がある",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "TEXT は大量のテキスト格納に適し、VARCHAR は小～中量向けです。インデックス化の制限はDBMS by 異なることがあります。"
+    },
+    {
+      "id": "sql_constraints_023",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "DATETIME と TIMESTAMP の主な違いは何か？",
+      "options": {
+        "A": "DATETIME は年号形式、TIMESTAMP はUnixタイムスタンプ",
+        "B": "TIMESTAMP は自動的に現在の日時を記録する場合がある",
+        "C": "DATETIME は任意の日時を指定、TIMESTAMP は時間帯を考慮",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "両者の使い分けは DBMS や要件によって異なりますが、記録時刻の自動設定や時間帯処理に違いがあります。"
+    },
+    {
+      "id": "sql_constraints_024",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "BOOLEAN 型の値として正しいものはどれか？",
+      "options": {
+        "A": "TRUE または FALSE",
+        "B": "1 または 0",
+        "C": "ON または OFF",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "BOOLEAN は通常 TRUE/FALSE で表現されますが、内部的には 1/0 で保存されます。"
+    },
+    {
+      "id": "sql_constraints_025",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "SERIAL データ型の主な特徴は何か？",
+      "options": {
+        "A": "自動インクリメント値を生成",
+        "B": "PRIMARY KEY として使用されることが多い",
+        "C": "挿入時に値を指定する必要がない",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "SERIAL は AUTO_INCREMENT（MySQL）相当で、テーブルの各行に一意なIDを自動生成します。"
+    },
+    {
+      "id": "sql_constraints_026",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "複合主キー（Composite Primary Key）の定義方法は？",
+      "options": {
+        "A": "PRIMARY KEY (col1, col2)",
+        "B": "PRIMARY KEY (col1), PRIMARY KEY (col2)",
+        "C": "ALTER TABLE table ADD PRIMARY KEY (col1, col2)",
+        "D": "AとC"
+      },
+      "correct": "D",
+      "explanation": "複合主キーは複数カラムの組み合わせで一意性を定義し、(col1, col2) で指定します。"
+    },
+    {
+      "id": "sql_constraints_027",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "複合 UNIQUE 制約の定義方法は？",
+      "options": {
+        "A": "UNIQUE (col1, col2)",
+        "B": "UNIQUE (col1), UNIQUE (col2)",
+        "C": "ALTER TABLE table ADD UNIQUE (col1, col2)",
+        "D": "AとC"
+      },
+      "correct": "D",
+      "explanation": "複合 UNIQUE は複数カラムの組み合わせで一意性を定義し、(col1, col2) で指定します。"
+    },
+    {
+      "id": "sql_constraints_028",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "FOREIGN KEY の参照先が変更された場合の対応は？",
+      "options": {
+        "A": "ON UPDATE CASCADE",
+        "B": "ON UPDATE RESTRICT",
+        "C": "ON UPDATE SET NULL",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "ON UPDATE オプションで参照先更新時の動作を指定できます。"
+    },
+    {
+      "id": "sql_constraints_029",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "テーブルの制約を確認するコマンドは？",
+      "options": {
+        "A": "DESCRIBE table",
+        "B": "SHOW CREATE TABLE table",
+        "C": "SHOW CONSTRAINTS FROM table",
+        "D": "AとB"
+      },
+      "correct": "D",
+      "explanation": "DESCRIBE と SHOW CREATE TABLE でテーブル定義と制約を確認できます。"
+    },
+    {
+      "id": "sql_constraints_030",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "UNSIGNED 修飾子の目的は？",
+      "options": {
+        "A": "符号なし整数を定義（負の値を許さない）",
+        "B": "値の範囲を拡張",
+        "C": "メモリ効率を改善",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "UNSIGNED INT は 0 ～ 4,294,967,295 の範囲で、符号付きより大きい値を保持できます。"
+    },
+    {
+      "id": "sql_constraints_031",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "ZEROFILL 修飾子の目的は何か？",
+      "options": {
+        "A": "数値をゼロで左詰めにして表示",
+        "B": "ゼロ値を削除",
+        "C": "数値の最大幅を定義",
+        "D": "AとC"
+      },
+      "correct": "D",
+      "explanation": "ZEROFILL で整数をゼロパディングして表示します。例：INT(5) ZEROFILL で 00123 と表示される場合があります。"
+    },
+    {
+      "id": "sql_constraints_032",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "ENUM データ型の特徴は何か？",
+      "options": {
+        "A": "定義済みのリストから値を選択",
+        "B": "メモリ効率が良い",
+        "C": "列挙値を超える値は拒否される",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "ENUM は定義済みの値リストから選択する型で、ストレージ効率が良く、データ整合性を確保します。"
+    },
+    {
+      "id": "sql_constraints_033",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "ENUM の定義方法は？",
+      "options": {
+        "A": "ENUM('value1', 'value2', 'value3')",
+        "B": "ENUM (value1, value2, value3)",
+        "C": "ENUM [value1, value2, value3]",
+        "D": "ENUM {value1, value2, value3}"
+      },
+      "correct": "A",
+      "explanation": "ENUM は単引用符でくくった値をカンマ区切りで指定します。"
+    },
+    {
+      "id": "sql_constraints_034",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "SET データ型の特徴は何か？",
+      "options": {
+        "A": "複数の定義済み値を同時に選択可能",
+        "B": "ENUM の拡張版",
+        "C": "ビット演算で複数値を格納",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "SET は複数の列挙値を同時に保有でき、'value1,value3' のように格納できます。"
+    },
+    {
+      "id": "sql_constraints_035",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "JSON データ型をサポートする DBMS は？",
+      "options": {
+        "A": "MySQL 5.7 以上",
+        "B": "PostgreSQL 9.2 以上",
+        "C": "MongoDB",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "複数の DBMS が JSON データ型をサポートしており、DBMS によって機能は異なります。"
+    },
+    {
+      "id": "sql_constraints_036",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "制約名（CONSTRAINT name）を定義する目的は？",
+      "options": {
+        "A": "制約を識別しやすくする",
+        "B": "エラーメッセージで制約名を表示",
+        "C": "制約を選択的に削除するため",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "明示的に制約名を付与することで、管理と保守が容易になります。"
+    },
+    {
+      "id": "sql_constraints_037",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "制約を削除するシンタックスは？",
+      "options": {
+        "A": "ALTER TABLE table DROP CONSTRAINT constraint_name",
+        "B": "ALTER TABLE table DROP PRIMARY KEY",
+        "C": "ALTER TABLE table DROP FOREIGN KEY constraint_name",
+        "D": "全て正しい（DBMS により異なる）"
+      },
+      "correct": "D",
+      "explanation": "制約削除のシンタックスは DBMS によって異なります。"
+    },
+    {
+      "id": "sql_constraints_038",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "部分インデックス（Partial Index）の特徴は？",
+      "options": {
+        "A": "WHERE 句で条件を指定したインデックス",
+        "B": "特定の行のみをインデックス化",
+        "C": "ストレージ効率とクエリ性能の向上",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "部分インデックスは WHERE 条件で絞られた行のみを索引化し、効率を改善します。"
+    },
+    {
+      "id": "sql_constraints_039",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "複合インデックス（Composite Index）の効果的な順序は？",
+      "options": {
+        "A": "実行頻度が高いクエリの WHERE 句の順序",
+        "B": "データベース統計に基づいた選択性順",
+        "C": "ランダムな順序でも問題ない",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "複合インデックスの列順は、実行頻度と選択性（カーディナリティ）に基づいて決定すべきです。"
+    },
+    {
+      "id": "sql_constraints_040",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "DEFAULT CURRENT_TIMESTAMP の効果は？",
+      "options": {
+        "A": "行が挿入された時点の現在の日時を記録",
+        "B": "レコード作成時のみに日時を設定",
+        "C": "自動的にレコード更新時刻を更新",
+        "D": "AとBの両方"
+      },
+      "correct": "D",
+      "explanation": "DEFAULT CURRENT_TIMESTAMP は INSERT 時のみに現在の日時を設定します。UPDATE は別途指定が必要な場合があります。"
+    },
+    {
+      "id": "sql_constraints_041",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "テーブルの全制約を無効化するオプションは？",
+      "options": {
+        "A": "DISABLE TRIGGER ALL",
+        "B": "ストレージエンジンの制約チェック機能をオフ",
+        "C": "PRAGMA foreign_keys = OFF（SQLite）",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "制約無効化の方法は DBMS によって異なします。通常は開発・テスト環境でのみ使用します。"
+    },
+    {
+      "id": "sql_constraints_042",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "Identity カラムの特徴は何か？",
+      "options": {
+        "A": "自動的に一意の值を生成",
+        "B": "AUTO_INCREMENT（MySQL） または SERIAL（PostgreSQL）相当",
+        "C": "PRIMARY KEY として使用者される",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "Identity は DBMS によって異なる名称ですが、自動採番の仕組みは共通しています。"
+    },
+    {
+      "id": "sql_constraints_043",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "FOREIGN KEY で自己参照（Self-referencing）を定義することは？",
+      "options": {
+        "A": "可能（階層構造を表現する場合など）",
+        "B": "不可能",
+        "C": "特別な権限が必要",
+        "D": "DBMS に依存"
+      },
+      "correct": "A",
+      "explanation": "自己参照 FOREIGN KEY で親子関係を同一テーブル内で表現できます。例：従業員テーブルの上司フィールド。"
+    },
+    {
+      "id": "sql_constraints_044",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "制約違反を無視して処理を続行するオプションは？",
+      "options": {
+        "A": "INSERT IGNORE（MySQL）",
+        "B": "ON CONFLICT（SQLite）",
+        "C": "INSERT... ON DUPLICATE KEY UPDATE（MySQL）",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "制約違反時の対応方法は DBMS や文脈によって異なります。"
+    },
+    {
+      "id": "sql_constraints_045",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "COLLATE（照合順序）の主な目的は何か？",
+      "options": {
+        "A": "文字列比較の ソート規則を定義",
+        "B": "大文字小文字の扱いを指定",
+        "C": "言語別の文字順序を適用",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "COLLATE は言語別の文字列比較と ソート方式を指定し、データモデリングに影響します。"
+    },
+    {
+      "id": "sql_constraints_046",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "COLLATION の例として正しいものはどれか？",
+      "options": {
+        "A": "utf8_general_ci（大文字小文字を区別しない）",
+        "B": "utf8_bin（バイナリ比較）",
+        "C": "utf8_unicode_ci（Unicode対応）",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "複数の COLLATION 方式があり、用途に応じて選択できます。"
+    },
+    {
+      "id": "sql_constraints_047",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "CREATE TABLE AS SELECT でデータ型を継承しないようにするには？",
+      "options": {
+        "A": "全ての制約を明示的に再定義",
+        "B": "新規テーブルで制約を指定しない",
+        "C": "DBMS で自動継承の設定をオフ",
+        "D": "AとB"
+      },
+      "correct": "A",
+      "explanation": "CREATE TABLE AS SELECT では一部の制約（特に UNIQUE、FOREIGN KEY）が継承されないことがあります。"
+    },
+    {
+      "id": "sql_constraints_048",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "基礎",
+      "question": "テーブルをコピーしながら新しい制約を追加するコマンドは？",
+      "options": {
+        "A": "CREATE TABLE new AS SELECT * FROM old",
+        "B": "CREATE TABLE new AS SELECT * FROM old; (その後制約を追加)",
+        "C": "オリジナルテーブルを修正後にコピー",
+        "D": "全て正しい"
+      },
+      "correct": "B",
+      "explanation": "CREATE TABLE AS SELECT でテーブルをコピーし、その後 ALTER TABLE で制約を追加するのが一般的です。"
+    },
+    {
+      "id": "sql_constraints_049",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "トリガー（Trigger）と制約の違いは何か？",
+      "options": {
+        "A": "トリガーはより複雑な論理を処理可能",
+        "B": "制約はシンプルで高速、トリガーは柔軟",
+        "C": "トリガーでカスタムエラーメッセージを生成可能",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "制約は単純な検証、トリガーはより複雑フォない ビジネスロジックに適しています。"
+    },
+    {
+      "id": "sql_constraints_050",
+      "genre": "SQL 制約・データ定義",
+      "exam": "SQL",
+      "level": "中級",
+      "question": "データベース設計における制約の最良実践は何か？",
+      "options": {
+        "A": "すべてのデータ整合性チェックを制約で実装する",
+        "B": "ビジネスロジックはアプリケーション層で実装、制約は基本的なもののみ",
+        "C": "パフォーマンスを優先して制約を最小限にする",
+        "D": "BとCのバランスを取る"
+      },
+      "correct": "D",
+      "explanation": "制約はデータベース層でのみ確保できる整合性を定義し、複雑なロジックはアプリケーション層で実装するバランスが重要です。"
+    }
+  ]
+}

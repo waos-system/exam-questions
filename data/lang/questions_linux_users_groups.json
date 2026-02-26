@@ -1,752 +1,756 @@
-[
-  {
-    "id": "linux_users_groups_001",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "useradduserコマンドでユーザーを作成する場合、デフォルトで割り当てられるUID（ユーザーID）の最小値は通常いくらか？",
-    "options": {
-      "A": "0",
-      "B": "1",
-      "C": "500",
-      "D": "1000"
+{
+  "genre": "ユーザー・グループ管理",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_users_groups_001",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "useradduserコマンドでユーザーを作成する場合、デフォルトで割り当てられるUID（ユーザーID）の最小値は通常いくらか？",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "500",
+        "D": "1000"
+      },
+      "correct": "D",
+      "explanation": "Linux（特にCentOS/RHEL 8以降やUbuntu）では、一般ユーザーのデフォルトUIDは1000から始まります。UID 0はrootユーザー、1-999はシステムユーザー用です。"
     },
-    "correct": "D",
-    "explanation": "Linux（特にCentOS/RHEL 8以降やUbuntu）では、一般ユーザーのデフォルトUIDは1000から始まります。UID 0はrootユーザー、1-999はシステムユーザー用です。"
-  },
-  {
-    "id": "linux_users_groups_002",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "ユーザーのパスワードハッシュが保存されるファイルはどれか？",
-    "options": {
-      "A": "/etc/passwd",
-      "B": "/etc/shadow",
-      "C": "/etc/group",
-      "D": "/etc/gshadow"
+    {
+      "id": "linux_users_groups_002",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ユーザーのパスワードハッシュが保存されるファイルはどれか？",
+      "options": {
+        "A": "/etc/passwd",
+        "B": "/etc/shadow",
+        "C": "/etc/group",
+        "D": "/etc/gshadow"
+      },
+      "correct": "B",
+      "explanation": "/etc/shadowファイルはシャドウパスワード機能により、ユーザーのパスワードハッシュを保存します。このファイルはrootユーザーのみが読取可能で、セキュリティが強化されています。"
     },
-    "correct": "B",
-    "explanation": "/etc/shadowファイルはシャドウパスワード機能により、ユーザーのパスワードハッシュを保存します。このファイルはrootユーザーのみが読取可能で、セキュリティが強化されています。"
-  },
-  {
-    "id": "linux_users_groups_003",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "/etc/passwdファイルの形式で、各フィールドは「：」で区切られている。5番目のフィールドは何を示すか？",
-    "options": {
-      "A": "ユーザーID（UID）",
-      "B": "グループID（GID）",
-      "C": "コメント（フルネームなど）",
-      "D": "ホームディレクトリ"
+    {
+      "id": "linux_users_groups_003",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "/etc/passwdファイルの形式で、各フィールドは「：」で区切られている。5番目のフィールドは何を示すか？",
+      "options": {
+        "A": "ユーザーID（UID）",
+        "B": "グループID（GID）",
+        "C": "コメント（フルネームなど）",
+        "D": "ホームディレクトリ"
+      },
+      "correct": "C",
+      "explanation": "/etc/passwdの形式は「ユーザー名:x:UID:GID:コメント:ホームディレクトリ:シェル」です。5番目のフィールド（コメント）にはユーザーのフルネームなどが記載されます。"
     },
-    "correct": "C",
-    "explanation": "/etc/passwdの形式は「ユーザー名:x:UID:GID:コメント:ホームディレクトリ:シェル」です。5番目のフィールド（コメント）にはユーザーのフルネームなどが記載されます。"
-  },
-  {
-    "id": "linux_users_groups_004",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "指定したGID（グループID）を持つグループを作成するコマンドは？",
-    "options": {
-      "A": "groupadd -g 1050 developers",
-      "B": "groupmod -g 1050 developers",
-      "C": "usermod -G 1050 developers",
-      "D": "chgroup -g 1050 developers"
+    {
+      "id": "linux_users_groups_004",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "指定したGID（グループID）を持つグループを作成するコマンドは？",
+      "options": {
+        "A": "groupadd -g 1050 developers",
+        "B": "groupmod -g 1050 developers",
+        "C": "usermod -G 1050 developers",
+        "D": "chgroup -g 1050 developers"
+      },
+      "correct": "A",
+      "explanation": "groupaddコマンドに-gオプションを指定することで、特定のGIDでグループを作成できます。groupmodは既存グループの変更、usermapはユーザーの変更用です。"
     },
-    "correct": "A",
-    "explanation": "groupaddコマンドに-gオプションを指定することで、特定のGIDでグループを作成できます。groupmodは既存グループの変更、usermapはユーザーの変更用です。"
-  },
-  {
-    "id": "linux_users_groups_005",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "useradduserコマンドで新規ユーザーを作成する際、ホームディレクトリを指定するオプションは？",
-    "options": {
-      "A": "-d",
-      "B": "-h",
-      "C": "-e",
-      "D": "-s"
+    {
+      "id": "linux_users_groups_005",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "useradduserコマンドで新規ユーザーを作成する際、ホームディレクトリを指定するオプションは？",
+      "options": {
+        "A": "-d",
+        "B": "-h",
+        "C": "-e",
+        "D": "-s"
+      },
+      "correct": "A",
+      "explanation": "useradduserのオプション：-d（ホームディレクトリ指定）、-h（ヘルプ）、-e（アカウント有効期限）、-s（ログインシェル）です。"
     },
-    "correct": "A",
-    "explanation": "useradduserのオプション：-d（ホームディレクトリ指定）、-h（ヘルプ）、-e（アカウント有効期限）、-s（ログインシェル）です。"
-  },
-  {
-    "id": "linux_users_groups_006",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "ユーザーのログインシェルを指定するuseradduserのオプションは？",
-    "options": {
-      "A": "-c",
-      "B": "-s",
-      "C": "-e",
-      "D": "-D"
+    {
+      "id": "linux_users_groups_006",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ユーザーのログインシェルを指定するuseradduserのオプションは？",
+      "options": {
+        "A": "-c",
+        "B": "-s",
+        "C": "-e",
+        "D": "-D"
+      },
+      "correct": "B",
+      "explanation": "-sオプションはログインシェルを指定します。例：useradd -s /bin/bash user1。-cはコメント、-eは有効期限、-Dはデフォルト値の変更です。"
     },
-    "correct": "B",
-    "explanation": "-sオプションはログインシェルを指定します。例：useradd -s /bin/bash user1。-cはコメント、-eは有効期限、-Dはデフォルト値の変更です。"
-  },
-  {
-    "id": "linux_users_groups_007",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "usermodコマンドで既存ユーザーのプライマリグループを変更するオプションは？",
-    "options": {
-      "A": "-G",
-      "B": "-g",
-      "C": "-a",
-      "D": "-c"
+    {
+      "id": "linux_users_groups_007",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "usermodコマンドで既存ユーザーのプライマリグループを変更するオプションは？",
+      "options": {
+        "A": "-G",
+        "B": "-g",
+        "C": "-a",
+        "D": "-c"
+      },
+      "correct": "B",
+      "explanation": "usermodの-gオプションはプライマリグループ（GID）を変更します。-Gはセカンダリグループの置き換え、-aは既存グループに追加する場合に-Gと組み合わせます。"
     },
-    "correct": "B",
-    "explanation": "usermodの-gオプションはプライマリグループ（GID）を変更します。-Gはセカンダリグループの置き換え、-aは既存グループに追加する場合に-Gと組み合わせます。"
-  },
-  {
-    "id": "linux_users_groups_008",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "複数のセカンダリグループをユーザーに追加する場合、usermodcコマンドの正しい使用方法は？",
-    "options": {
-      "A": "usermod -G group1,group2 user1",
-      "B": "usermod -g group1,group2 user1",
-      "C": "usermod -a -G group1,group2 user1",
-      "D": "usermod -ag group1,group2 user1"
+    {
+      "id": "linux_users_groups_008",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "複数のセカンダリグループをユーザーに追加する場合、usermodcコマンドの正しい使用方法は？",
+      "options": {
+        "A": "usermod -G group1,group2 user1",
+        "B": "usermod -g group1,group2 user1",
+        "C": "usermod -a -G group1,group2 user1",
+        "D": "usermod -ag group1,group2 user1"
+      },
+      "correct": "C",
+      "explanation": "-a（append）と-Gを組み合わせることで、既存のセカンダリグループを保つまま新しいグループを追加できます。-Gだけでは既存グループが置き換わります。"
     },
-    "correct": "C",
-    "explanation": "-a（append）と-Gを組み合わせることで、既存のセカンダリグループを保つまま新しいグループを追加できます。-Gだけでは既存グループが置き換わります。"
-  },
-  {
-    "id": "linux_users_groups_009",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "ユーザーを削除するusurdelコマンドで、ホームディレクトリも一緒に削除するオプションは？",
-    "options": {
-      "A": "-r",
-      "B": "-R",
-      "C": "-d",
-      "D": "-f"
+    {
+      "id": "linux_users_groups_009",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ユーザーを削除するusurdelコマンドで、ホームディレクトリも一緒に削除するオプションは？",
+      "options": {
+        "A": "-r",
+        "B": "-R",
+        "C": "-d",
+        "D": "-f"
+      },
+      "correct": "A",
+      "explanation": "userdel -rオプションは、ユーザーを削除する際にホームディレクトリとメールスプール（/var/mail/ユーザー名）も削除します。"
     },
-    "correct": "A",
-    "explanation": "userdel -rオプションは、ユーザーを削除する際にホームディレクトリとメールスプール（/var/mail/ユーザー名）も削除します。"
-  },
-  {
-    "id": "linux_users_groups_010",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "現在のユーザーが属しているグループを確認するコマンドは？",
-    "options": {
-      "A": "groups",
-      "B": "id",
-      "C": "whoami",
-      "D": "cat /etc/group"
+    {
+      "id": "linux_users_groups_010",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "現在のユーザーが属しているグループを確認するコマンドは？",
+      "options": {
+        "A": "groups",
+        "B": "id",
+        "C": "whoami",
+        "D": "cat /etc/group"
+      },
+      "correct": "A",
+      "explanation": "groupsコマンドは現在のユーザーが属するすべてのグループを表示します。idコマンドはUID/GIDの詳細情報も表示します。"
     },
-    "correct": "A",
-    "explanation": "groupsコマンドは現在のユーザーが属するすべてのグループを表示します。idコマンドはUID/GIDの詳細情報も表示します。"
-  },
-  {
-    "id": "linux_users_groups_011",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/etc/gshadowファイルの主な目的は何か？",
-    "options": {
-      "A": "グループのパスワードと管理者情報を保存する",
-      "B": "グループメンバーを保存する",
-      "C": "ユーザーのパスワードを保存する",
-      "D": "グループのアクセス権限を保存する"
+    {
+      "id": "linux_users_groups_011",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/gshadowファイルの主な目的は何か？",
+      "options": {
+        "A": "グループのパスワードと管理者情報を保存する",
+        "B": "グループメンバーを保存する",
+        "C": "ユーザーのパスワードを保存する",
+        "D": "グループのアクセス権限を保存する"
+      },
+      "correct": "A",
+      "explanation": "/etc/gshadowはシャドウグループパスワード機能で、グループのパスワード、グループ管理者、グループメンバーの情報を安全に保存します。"
     },
-    "correct": "A",
-    "explanation": "/etc/gshadowはシャドウグループパスワード機能で、グループのパスワード、グループ管理者、グループメンバーの情報を安全に保存します。"
-  },
-  {
-    "id": "linux_users_groups_012",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "sudoコマンドを実行するために必要な設定ファイルはどれか？",
-    "options": {
-      "A": "/etc/sudoers",
-      "B": "/etc/sudo.conf",
-      "C": "/etc/sudoers.d/",
-      "D": "Aと C の両方"
+    {
+      "id": "linux_users_groups_012",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "sudoコマンドを実行するために必要な設定ファイルはどれか？",
+      "options": {
+        "A": "/etc/sudoers",
+        "B": "/etc/sudo.conf",
+        "C": "/etc/sudoers.d/",
+        "D": "Aと C の両方"
+      },
+      "correct": "D",
+      "explanation": "/etc/sudoersが主要な設定ファイルで、/etc/sudoers.d/ディレクトリに追加設定ファイルを置くこともできます。どちらも重要です。"
     },
-    "correct": "D",
-    "explanation": "/etc/sudoersが主要な設定ファイルで、/etc/sudoers.d/ディレクトリに追加設定ファイルを置くこともできます。どちらも重要です。"
-  },
-  {
-    "id": "linux_users_groups_013",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/etc/sudoersファイルを安全に編集するコマンドは？",
-    "options": {
-      "A": "vi /etc/sudoers",
-      "B": "nano /etc/sudoers",
-      "C": "visudo",
-      "D": "cat > /etc/sudoers"
+    {
+      "id": "linux_users_groups_013",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/sudoersファイルを安全に編集するコマンドは？",
+      "options": {
+        "A": "vi /etc/sudoers",
+        "B": "nano /etc/sudoers",
+        "C": "visudo",
+        "D": "cat > /etc/sudoers"
+      },
+      "correct": "C",
+      "explanation": "visudoは/etc/sudoersを編集する専用コマンドで、編集後にシンタックスチェックを行い、エラーがあれば保存させず、ロック機能も適用します。"
     },
-    "correct": "C",
-    "explanation": "visudoは/etc/sudoersを編集する専用コマンドで、編集後にシンタックスチェックを行い、エラーがあれば保存させず、ロック機能も適用します。"
-  },
-  {
-    "id": "linux_users_groups_014",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "特定のユーザーに無パスワードsudo実行権限を与える設定は？",
-    "options": {
-      "A": "user1 ALL=(ALL) ALL",
-      "B": "user1 ALL=(ALL) NOPASSWD: ALL",
-      "C": "user1 ALL=ALL NOPASSWD",
-      "D": "user1 NOPASSWD ALL"
+    {
+      "id": "linux_users_groups_014",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特定のユーザーに無パスワードsudo実行権限を与える設定は？",
+      "options": {
+        "A": "user1 ALL=(ALL) ALL",
+        "B": "user1 ALL=(ALL) NOPASSWD: ALL",
+        "C": "user1 ALL=ALL NOPASSWD",
+        "D": "user1 NOPASSWD ALL"
+      },
+      "correct": "B",
+      "explanation": "NOPASSWD: ALLと指定することで、user1ユーザーはパスワード入力なしにすべてのコマンドをsudo実行できます。セキュリティリスクがあるため注意が必要です。"
     },
-    "correct": "B",
-    "explanation": "NOPASSWD: ALLと指定することで、user1ユーザーはパスワード入力なしにすべてのコマンドをsudo実行できます。セキュリティリスクがあるため注意が必要です。"
-  },
-  {
-    "id": "linux_users_groups_015",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "特定のグループ内のすべてのユーザーにsudo権限を与える設定は？",
-    "options": {
-      "A": "%wheel ALL=(ALL) ALL",
-      "B": "+wheel ALL=(ALL) ALL",
-      "C": "group:wheel ALL=(ALL) ALL",
-      "D": "@wheel ALL=(ALL) ALL"
+    {
+      "id": "linux_users_groups_015",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特定のグループ内のすべてのユーザーにsudo権限を与える設定は？",
+      "options": {
+        "A": "%wheel ALL=(ALL) ALL",
+        "B": "+wheel ALL=(ALL) ALL",
+        "C": "group:wheel ALL=(ALL) ALL",
+        "D": "@wheel ALL=(ALL) ALL"
+      },
+      "correct": "A",
+      "explanation": "%記号を使ってグループを指定します。例えば%wheelでwheelグループ内のすべてのユーザーにsudo権限を与えられます。"
     },
-    "correct": "A",
-    "explanation": "%記号を使ってグループを指定します。例えば%wheelでwheelグループ内のすべてのユーザーにsudo権限を与えられます。"
-  },
-  {
-    "id": "linux_users_groups_016",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "passwdコマンドでユーザーのパスワードを設定するには？",
-    "options": {
-      "A": "passwd user1",
-      "B": "update_passwd user1",
-      "C": "setpasswd user1",
-      "D": "user1 -p newpassword"
+    {
+      "id": "linux_users_groups_016",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "passwdコマンドでユーザーのパスワードを設定するには？",
+      "options": {
+        "A": "passwd user1",
+        "B": "update_passwd user1",
+        "C": "setpasswd user1",
+        "D": "user1 -p newpassword"
+      },
+      "correct": "A",
+      "explanation": "passwdコマンドでユーザーのパスワードを変更します。対話的に新しいパスワードを入力します。rootはpasswd user1で他ユーザーのパスワド変更も可能です。"
     },
-    "correct": "A",
-    "explanation": "passwdコマンドでユーザーのパスワードを変更します。対話的に新しいパスワードを入力します。rootはpasswd user1で他ユーザーのパスワド変更も可能です。"
-  },
-  {
-    "id": "linux_users_groups_017",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "chageコマンドの主な機能は何か？",
-    "options": {
-      "A": "ユーザーのホームディレクトリを変更する",
-      "B": "ユーザーのグループを変更する",
-      "C": "ユーザーのパスワード有効期限や来期を管理する",
-      "D": "ユーザーのパーミッションを変更する"
+    {
+      "id": "linux_users_groups_017",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "chageコマンドの主な機能は何か？",
+      "options": {
+        "A": "ユーザーのホームディレクトリを変更する",
+        "B": "ユーザーのグループを変更する",
+        "C": "ユーザーのパスワード有効期限や来期を管理する",
+        "D": "ユーザーのパーミッションを変更する"
+      },
+      "correct": "C",
+      "explanation": "chageコマンドはユーザーアカウントの年齢情報（パスワード有効期限、最終変更日、警告期間など）を管理します。例：chage -E 2025-12-31 user1"
     },
-    "correct": "C",
-    "explanation": "chageコマンドはユーザーアカウントの年齢情報（パスワード有効期限、最終変更日、警告期間など）を管理します。例：chage -E 2025-12-31 user1"
-  },
-  {
-    "id": "linux_users_groups_018",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "chageコマンドでユーザーのパスワードの最小変更間隔を設定するオプションは？",
-    "options": {
-      "A": "-M",
-      "B": "-m",
-      "C": "-W",
-      "D": "-I"
+    {
+      "id": "linux_users_groups_018",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "chageコマンドでユーザーのパスワードの最小変更間隔を設定するオプションは？",
+      "options": {
+        "A": "-M",
+        "B": "-m",
+        "C": "-W",
+        "D": "-I"
+      },
+      "correct": "B",
+      "explanation": "chage -mオプションは最小パスワード年齢（日数）を設定し、変更後の指定日数を経過しないと新しいパスワードに変更できなくなります。"
     },
-    "correct": "B",
-    "explanation": "chage -mオプションは最小パスワード年齢（日数）を設定し、変更後の指定日数を経過しないと新しいパスワードに変更できなくなります。"
-  },
-  {
-    "id": "linux_users_groups_019",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "chageコマンドでユーザーのパスワード有効期限を設定するオプションは？",
-    "options": {
-      "A": "-E",
-      "B": "-M",
-      "C": "-d",
-      "D": "-W"
+    {
+      "id": "linux_users_groups_019",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "chageコマンドでユーザーのパスワード有効期限を設定するオプションは？",
+      "options": {
+        "A": "-E",
+        "B": "-M",
+        "C": "-d",
+        "D": "-W"
+      },
+      "correct": "A",
+      "explanation": "chage -Eオプションでアカウントの有効期限（YYYY-MM-DD形式）を設定します。例：chage -E 2025-12-31 user1。-Mはパスワード最大年齢です。"
     },
-    "correct": "A",
-    "explanation": "chage -Eオプションでアカウントの有効期限（YYYY-MM-DD形式）を設定します。例：chage -E 2025-12-31 user1。-Mはパスワード最大年齢です。"
-  },
-  {
-    "id": "linux_users_groups_020",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "ユーザーのホームディレクトリを変更するコマンドは？",
-    "options": {
-      "A": "usermod -h /home/newdir user1",
-      "B": "usermod -d /home/newdir user1",
-      "C": "chdir -u user1 /home/newdir",
-      "D": "usermod /home/newdir user1"
+    {
+      "id": "linux_users_groups_020",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ユーザーのホームディレクトリを変更するコマンドは？",
+      "options": {
+        "A": "usermod -h /home/newdir user1",
+        "B": "usermod -d /home/newdir user1",
+        "C": "chdir -u user1 /home/newdir",
+        "D": "usermod /home/newdir user1"
+      },
+      "correct": "B",
+      "explanation": "usermod -dオプションでユーザーのホームディレクトリを変更できます。既存ディレクトリ情報を保持する場合は-mオプションを組み合わせます。"
     },
-    "correct": "B",
-    "explanation": "usermod -dオプションでユーザーのホームディレクトリを変更できます。既存ディレクトリ情報を保持する場合は-mオプションを組み合わせます。"
-  },
-  {
-    "id": "linux_users_groups_021",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "usermod -d -m /new/home user1の-mオプションの役割は？",
-    "options": {
-      "A": "ディレクトリを新規作成する",
-      "B": "既存のホームディレクトリの内容を新しいディレクトリに移動する",
-      "C": "ディレクトリのパーミッションを変更する",
-      "D": "ホームディレクトリへのアクセスを制限する"
+    {
+      "id": "linux_users_groups_021",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "usermod -d -m /new/home user1の-mオプションの役割は？",
+      "options": {
+        "A": "ディレクトリを新規作成する",
+        "B": "既存のホームディレクトリの内容を新しいディレクトリに移動する",
+        "C": "ディレクトリのパーミッションを変更する",
+        "D": "ホームディレクトリへのアクセスを制限する"
+      },
+      "correct": "B",
+      "explanation": "usermod -d -mのコンビネーションで、古いホームディレクトリの内容を新しいホームディレクトリに移動します。-mなしでは単にパス情報だけが変更されます。"
     },
-    "correct": "B",
-    "explanation": "usermod -d -mのコンビネーションで、古いホームディレクトリの内容を新しいホームディレクトリに移動します。-mなしでは単にパス情報だけが変更されます。"
-  },
-  {
-    "id": "linux_users_groups_022",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "システムユーザーと一般ユーザーのUID範囲の界線は通常どの値か？",
-    "options": {
-      "A": "100",
-      "B": "500",
-      "C": "999",
-      "D": "1000"
+    {
+      "id": "linux_users_groups_022",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "システムユーザーと一般ユーザーのUID範囲の界線は通常どの値か？",
+      "options": {
+        "A": "100",
+        "B": "500",
+        "C": "999",
+        "D": "1000"
+      },
+      "correct": "D",
+      "explanation": "LPIC-1標準：システムユーザーは0-999、一般ユーザーは1000以上です。ただしUbuntu 20.04以降では0-999の範囲は変わりません。"
     },
-    "correct": "D",
-    "explanation": "LPIC-1標準：システムユーザーは0-999、一般ユーザーは1000以上です。ただしUbuntu 20.04以降では0-999の範囲は変わりません。"
-  },
-  {
-    "id": "linux_users_groups_023",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "useradd -Dコマンドを実行した場合の出力内容は？",
-    "options": {
-      "A": "すべてのユーザーが表示される",
-      "B": "デフォルトのユーザー設定が表示される",
-      "C": "削除可能なユーザーが表示される",
-      "D": "エラーメッセージが表示される"
+    {
+      "id": "linux_users_groups_023",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "useradd -Dコマンドを実行した場合の出力内容は？",
+      "options": {
+        "A": "すべてのユーザーが表示される",
+        "B": "デフォルトのユーザー設定が表示される",
+        "C": "削除可能なユーザーが表示される",
+        "D": "エラーメッセージが表示される"
+      },
+      "correct": "B",
+      "explanation": "useradd -Dはデフォルト設定値を表示します。このデフォルト値を変更するには useradd -D -b /new/home などと指定します。"
     },
-    "correct": "B",
-    "explanation": "useradd -Dはデフォルト設定値を表示します。このデフォルト値を変更するには useradd -D -b /new/home などと指定します。"
-  },
-  {
-    "id": "linux_users_groups_024",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/etc/logincdeffsファイルの役割は何か？",
-    "options": {
-      "A": "ログイン時のデフォルト設定を定義する",
-      "B": "ユーザーのログイン履歴を記録する",
-      "C": "ユーザー作成時のデフォルト値を定義する",
-      "D": "グループのデフォルト設定を定義する"
+    {
+      "id": "linux_users_groups_024",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/logincdeffsファイルの役割は何か？",
+      "options": {
+        "A": "ログイン時のデフォルト設定を定義する",
+        "B": "ユーザーのログイン履歴を記録する",
+        "C": "ユーザー作成時のデフォルト値を定義する",
+        "D": "グループのデフォルト設定を定義する"
+      },
+      "correct": "C",
+      "explanation": "/etc/login.deffsはuseradd/groupaddコマンドで使用されるデフォルト値を定義します。例：デフォルトシェル、パスワードの有効期限など。"
     },
-    "correct": "C",
-    "explanation": "/etc/login.deffsはuseradd/groupaddコマンドで使用されるデフォルト値を定義します。例：デフォルトシェル、パスワードの有効期限など。"
-  },
-  {
-    "id": "linux_users_groups_025",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "特定のユーザーアカウントをロック（ブロック）するコマンドは？",
-    "options": {
-      "A": "usermod -L user1",
-      "B": "passwd -l user1",
-      "C": "lockuser user1",
-      "D": "A と B の両方"
+    {
+      "id": "linux_users_groups_025",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特定のユーザーアカウントをロック（ブロック）するコマンドは？",
+      "options": {
+        "A": "usermod -L user1",
+        "B": "passwd -l user1",
+        "C": "lockuser user1",
+        "D": "A と B の両方"
+      },
+      "correct": "D",
+      "explanation": "usermod -LまたはpassWd -lでユーザーアカウントをロックできます。どちらもパスワードハッシュの先頭に\"!\"を追加してログインを不可にします。"
     },
-    "correct": "D",
-    "explanation": "usermod -LまたはpassWd -lでユーザーアカウントをロックできます。どちらもパスワードハッシュの先頭に\"!\"を追加してログインを不可にします。"
-  },
-  {
-    "id": "linux_users_groups_026",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "ロックされたユーザーアカウントのロックを解除するコマンドは？",
-    "options": {
-      "A": "usermod -U user1",
-      "B": "passwd -u user1",
-      "C": "unlockuser user1",
-      "D": "A と B の両方"
+    {
+      "id": "linux_users_groups_026",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ロックされたユーザーアカウントのロックを解除するコマンドは？",
+      "options": {
+        "A": "usermod -U user1",
+        "B": "passwd -u user1",
+        "C": "unlockuser user1",
+        "D": "A と B の両方"
+      },
+      "correct": "D",
+      "explanation": "usermod -UまたはpassWd -uでアカウントロックを解除できます。パスワードハッシュ先頭の\"!\"を削除してログインを可能にします。"
     },
-    "correct": "D",
-    "explanation": "usermod -UまたはpassWd -uでアカウントロックを解除できます。パスワードハッシュ先頭の\"!\"を削除してログインを可能にします。"
-  },
-  {
-    "id": "linux_users_groups_027",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "groupdelコマンドを実行する際の制限事項は？",
-    "options": {
-      "A": "rootユーザーのみが実行できる",
-      "B": "プライマリグループとして使用されているグループは削除できない",
-      "C": "メンバーがいるグループは削除できない",
-      "D": "1つのグループしか削除できない"
+    {
+      "id": "linux_users_groups_027",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "groupdelコマンドを実行する際の制限事項は？",
+      "options": {
+        "A": "rootユーザーのみが実行できる",
+        "B": "プライマリグループとして使用されているグループは削除できない",
+        "C": "メンバーがいるグループは削除できない",
+        "D": "1つのグループしか削除できない"
+      },
+      "correct": "B",
+      "explanation": "groupdelはプライマリグループとしてユーザーに設定されているグループは削除できません。そのグループをプライマリグループとするユーザーがいる場合、先にそのユーザーを削除する必要があります。"
     },
-    "correct": "B",
-    "explanation": "groupdelはプライマリグループとしてユーザーに設定されているグループは削除できません。そのグループをプライマリグループとするユーザーがいる場合、先にそのユーザーを削除する必要があります。"
-  },
-  {
-    "id": "linux_users_groups_028",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "groupmodコマンドで既存グループの名前を変更するオプションは？",
-    "options": {
-      "A": "-g",
-      "B": "-n",
-      "C": "-N",
-      "D": "-G"
+    {
+      "id": "linux_users_groups_028",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "groupmodコマンドで既存グループの名前を変更するオプションは？",
+      "options": {
+        "A": "-g",
+        "B": "-n",
+        "C": "-N",
+        "D": "-G"
+      },
+      "correct": "B",
+      "explanation": "groupmod -nオプションでグループ名を変更できます。例：groupmod -n newname oldname。-gはGIDの変更です。"
     },
-    "correct": "B",
-    "explanation": "groupmod -nオプションでグループ名を変更できます。例：groupmod -n newname oldname。-gはGIDの変更です。"
-  },
-  {
-    "id": "linux_users_groups_029",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "ユーザーが複数のセカンダリグループに属する場合、idコマンドで確認される情報は？",
-    "options": {
-      "A": "プライマリグループIDのみ表示される",
-      "B": "プライマリグループとすべてのセカンダリグループが表示される",
-      "C": "セカンダリグループのみ表示される",
-      "D": "グループ名は表示されず、GIDだけ表示される"
+    {
+      "id": "linux_users_groups_029",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ユーザーが複数のセカンダリグループに属する場合、idコマンドで確認される情報は？",
+      "options": {
+        "A": "プライマリグループIDのみ表示される",
+        "B": "プライマリグループとすべてのセカンダリグループが表示される",
+        "C": "セカンダリグループのみ表示される",
+        "D": "グループ名は表示されず、GIDだけ表示される"
+      },
+      "correct": "B",
+      "explanation": "idコマンドはプライマリグループ（groups=の最初）とセカンダリグループ（その後のリスト）をすべて表示します。groups コマンドも同様です。"
     },
-    "correct": "B",
-    "explanation": "idコマンドはプライマリグループ（groups=の最初）とセカンダリグループ（その後のリスト）をすべて表示します。groups コマンドも同様です。"
-  },
-  {
-    "id": "linux_users_groups_030",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "sudoersファイルで、特定コマンドのみをユーザーが実行できるようにする設定の例は？",
-    "options": {
-      "A": "user1 ALL=/bin/ls,/bin/cat",
-      "B": "user1 ALL=(ALL) /bin/ls,/bin/cat",
-      "C": "user1 ALL=(ALL) /bin/ls:/bin/cat",
-      "D": "user1 /bin/ls /bin/cat"
+    {
+      "id": "linux_users_groups_030",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "sudoersファイルで、特定コマンドのみをユーザーが実行できるようにする設定の例は？",
+      "options": {
+        "A": "user1 ALL=/bin/ls,/bin/cat",
+        "B": "user1 ALL=(ALL) /bin/ls,/bin/cat",
+        "C": "user1 ALL=(ALL) /bin/ls:/bin/cat",
+        "D": "user1 /bin/ls /bin/cat"
+      },
+      "correct": "B",
+      "explanation": "user1 ALL=(ALL) /bin/ls, /bin/catと指定することで、user1はsudoで/bin/lsと/bin/catのみを実行可能になります。"
     },
-    "correct": "B",
-    "explanation": "user1 ALL=(ALL) /bin/ls, /bin/catと指定することで、user1はsudoで/bin/lsと/bin/catのみを実行可能になります。"
-  },
-  {
-    "id": "linux_users_groups_031",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "sudo権限でコマンド実行時のパスワード要求をスキップしないようにするSudoersの設定は？",
-    "options": {
-      "A": "PASSWD: ALL",
-      "B": "Defaults use_pty = true",
-      "C": "Defaults authenticate",
-      "D": "Defaults require_password"
+    {
+      "id": "linux_users_groups_031",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "sudo権限でコマンド実行時のパスワード要求をスキップしないようにするSudoersの設定は？",
+      "options": {
+        "A": "PASSWD: ALL",
+        "B": "Defaults use_pty = true",
+        "C": "Defaults authenticate",
+        "D": "Defaults require_password"
+      },
+      "correct": "C",
+      "explanation": "Defaults authenticate（デフォルト設定）でパスワード要求を有効化します。Defaults !authenticateでパスワード要求をスキップします。"
     },
-    "correct": "C",
-    "explanation": "Defaults authenticate（デフォルト設定）でパスワード要求を有効化します。Defaults !authenticateでパスワード要求をスキップします。"
-  },
-  {
-    "id": "linux_users_groups_032",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "useradd -mコマンドを実行したときのセッションディレクトリの初期内容は？",
-    "options": {
-      "A": "空のディレクトリが作成される",
-      "B": "/etc/skelディレクトリ内のファイルがコピーされる",
-      "C": "ユーザーの定義によりシェルの設定ファイルが自動作成される",
-      "D": ".bashrc と .profile のみ作成される"
+    {
+      "id": "linux_users_groups_032",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "useradd -mコマンドを実行したときのセッションディレクトリの初期内容は？",
+      "options": {
+        "A": "空のディレクトリが作成される",
+        "B": "/etc/skelディレクトリ内のファイルがコピーされる",
+        "C": "ユーザーの定義によりシェルの設定ファイルが自動作成される",
+        "D": ".bashrc と .profile のみ作成される"
+      },
+      "correct": "B",
+      "explanation": "useradd -mで新規ユーザーのホームディレクトリが作成される際、/etc/skelディレクトリ内のテンプレートファイルが自動的にコピーされます。"
     },
-    "correct": "B",
-    "explanation": "useradd -mで新規ユーザーのホームディレクトリが作成される際、/etc/skelディレクトリ内のテンプレートファイルが自動的にコピーされます。"
-  },
-  {
-    "id": "linux_users_groups_033",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "ユーザーのシェルをnologin(またはfalse)に設定した場合の結果は？",
-    "options": {
-      "A": "ユーザーはSSH接続できるが、シェル内で操作できない",
-      "B": "ユーザーはどの方法でもログインできない",
-      "C": "ユーザーはパスワードを変更できなくなる",
-      "D": "ユーザーのsudo権限が削除される"
+    {
+      "id": "linux_users_groups_033",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ユーザーのシェルをnologin(またはfalse)に設定した場合の結果は？",
+      "options": {
+        "A": "ユーザーはSSH接続できるが、シェル内で操作できない",
+        "B": "ユーザーはどの方法でもログインできない",
+        "C": "ユーザーはパスワードを変更できなくなる",
+        "D": "ユーザーのsudo権限が削除される"
+      },
+      "correct": "B",
+      "explanation": "/usr/sbin/nologinまたは/bin/falseをシェルに設定すると、対話的ログインが完全に禁止されます。SCP/SFTPなどのファイル転送には使用可能な場合もあります。"
     },
-    "correct": "B",
-    "explanation": "/usr/sbin/nologinまたは/bin/falseをシェルに設定すると、対話的ログインが完全に禁止されます。SCP/SFTPなどのファイル転送には使用可能な場合もあります。"
-  },
-  {
-    "id": "linux_users_groups_034",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "passwdコマンドで現在のパスワードの有効期限を確認するには？",
-    "options": {
-      "A": "passwd -l",
-      "B": "passwd -S",
-      "C": "passwd -c",
-      "D": "passwd -e"
+    {
+      "id": "linux_users_groups_034",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "passwdコマンドで現在のパスワードの有効期限を確認するには？",
+      "options": {
+        "A": "passwd -l",
+        "B": "passwd -S",
+        "C": "passwd -c",
+        "D": "passwd -e"
+      },
+      "correct": "B",
+      "explanation": "passwd -Sでユーザーのパスワードステータスを表示します。最後のパスワード変更日、パスワード有効期限などが確認できます。"
     },
-    "correct": "B",
-    "explanation": "passwd -Sでユーザーのパスワードステータスを表示します。最後のパスワード変更日、パスワード有効期限などが確認できます。"
-  },
-  {
-    "id": "linux_users_groups_035",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/etc/passwdで、ユーザーのパスワード欄に「x」が表示される意味は？",
-    "options": {
-      "A": "パスワードが設定されていない",
-      "B": "シャドウパスワード機能が有効で、実際のパスワードハッシュは/etc/shadowに保存されている",
-      "C": "ユーザーアカウントが無効化されている",
-      "D": "パスワード認証が禁止されている"
+    {
+      "id": "linux_users_groups_035",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/passwdで、ユーザーのパスワード欄に「x」が表示される意味は？",
+      "options": {
+        "A": "パスワードが設定されていない",
+        "B": "シャドウパスワード機能が有効で、実際のパスワードハッシュは/etc/shadowに保存されている",
+        "C": "ユーザーアカウントが無効化されている",
+        "D": "パスワード認証が禁止されている"
+      },
+      "correct": "B",
+      "explanation": "\"/etc/passwdで「x」表示はシャドウパスワード機能が有効であることを示します。つまり、実際のパスワードハッシュは/etc/shadowに保存され、/etc/passwdには表示されません。"
     },
-    "correct": "B",
-    "explanation": "\"/etc/passwdで「x」表示はシャドウパスワード機能が有効であることを示します。つまり、実際のパスワードハッシュは/etc/shadowに保存され、/etc/passwdには表示されません。"
-  },
-  {
-    "id": "linux_users_groups_036",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "sudoコマンドの実行ログはどのファイルに記録されるか？",
-    "options": {
-      "A": "/var/log/sudo.log",
-      "B": "/var/log/auth.log（Debian/Ubuntu）または/var/log/secure（CentOS/RHEL）",
-      "C": "/var/log/sudoers",
-      "D": "/etc/sudoers.log"
+    {
+      "id": "linux_users_groups_036",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "sudoコマンドの実行ログはどのファイルに記録されるか？",
+      "options": {
+        "A": "/var/log/sudo.log",
+        "B": "/var/log/auth.log（Debian/Ubuntu）または/var/log/secure（CentOS/RHEL）",
+        "C": "/var/log/sudoers",
+        "D": "/etc/sudoers.log"
+      },
+      "correct": "B",
+      "explanation": "sudoコマンドの実行ログはシステムのロギング機構（syslog）を使用して記録されます。Debian系は/var/log/auth.log、RHEL系は/var/log/secureに記録されます。"
     },
-    "correct": "B",
-    "explanation": "sudoコマンドの実行ログはシステムのロギング機構（syslog）を使用して記録されます。Debian系は/var/log/auth.log、RHEL系は/var/log/secureに記録されます。"
-  },
-  {
-    "id": "linux_users_groups_037",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "特定のグループ内のユーザーだけがsudo権限を持つようにする設定は？",
-    "options": {
-      "A": "user1,user2 ALL=(ALL) ALL",
-      "B": "%sudo ALL=(ALL) ALL",
-      "C": "group:developers ALL=(ALL) ALL",
-      "D": "Defaults group=sudo"
+    {
+      "id": "linux_users_groups_037",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "特定のグループ内のユーザーだけがsudo権限を持つようにする設定は？",
+      "options": {
+        "A": "user1,user2 ALL=(ALL) ALL",
+        "B": "%sudo ALL=(ALL) ALL",
+        "C": "group:developers ALL=(ALL) ALL",
+        "D": "Defaults group=sudo"
+      },
+      "correct": "B",
+      "explanation": "\"%%グループ名\"でグループを指定します。例えば%sudoでsudoグループのすべてのメンバーにsudo権限を与えられます。"
     },
-    "correct": "B",
-    "explanation": "\"%%グループ名\"でグループを指定します。例えば%sudoでsudoグループのすべてのメンバーにsudo権限を与えられます。"
-  },
-  {
-    "id": "linux_users_groups_038",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "usermodコマンドで、ユーザーのコメント情報を変更するオプションは？",
-    "options": {
-      "A": "-c",
-      "B": "-n",
-      "C": "-C",
-      "D": "-m"
+    {
+      "id": "linux_users_groups_038",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "usermodコマンドで、ユーザーのコメント情報を変更するオプションは？",
+      "options": {
+        "A": "-c",
+        "B": "-n",
+        "C": "-C",
+        "D": "-m"
+      },
+      "correct": "A",
+      "explanation": "usermod -cオプションでユーザーのコメント情報（通常、フルネーム）を変更できます。例：usermod -c \"John Doe\" user1"
     },
-    "correct": "A",
-    "explanation": "usermod -cオプションでユーザーのコメント情報（通常、フルネーム）を変更できます。例：usermod -c \"John Doe\" user1"
-  },
-  {
-    "id": "linux_users_groups_039",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "複数のユーザーを同じセカンダリグループに追加する場合の最も効率的な方法は？",
-    "options": {
-      "A": "各ユーザーに対して個別にusermod -a -G groupコマンドを実行する",
-      "B": "/etc/groupファイルを直接編集する",
-      "C": "gpasswdコマンドで各ユーザーを追加する",
-      "D": "Aと C の両方が同様に効率的"
+    {
+      "id": "linux_users_groups_039",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "複数のユーザーを同じセカンダリグループに追加する場合の最も効率的な方法は？",
+      "options": {
+        "A": "各ユーザーに対して個別にusermod -a -G groupコマンドを実行する",
+        "B": "/etc/groupファイルを直接編集する",
+        "C": "gpasswdコマンドで各ユーザーを追加する",
+        "D": "Aと C の両方が同様に効率的"
+      },
+      "correct": "D",
+      "explanation": "gpasswd -a user groupでグループにユーザーを追加できます。usermod -a -G groupでも同じ結果が得られます。/etc/groupを直接編集するのはリスクがあります。"
     },
-    "correct": "D",
-    "explanation": "gpasswd -a user groupでグループにユーザーを追加できます。usermod -a -G groupでも同じ結果が得られます。/etc/groupを直接編集するのはリスクがあります。"
-  },
-  {
-    "id": "linux_users_groups_040",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "gpasswdコマンドで、グループの管理者を設定するオプションは？",
-    "options": {
-      "A": "-A",
-      "B": "-a",
-      "C": "-d",
-      "D": "-M"
+    {
+      "id": "linux_users_groups_040",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "gpasswdコマンドで、グループの管理者を設定するオプションは？",
+      "options": {
+        "A": "-A",
+        "B": "-a",
+        "C": "-d",
+        "D": "-M"
+      },
+      "correct": "A",
+      "explanation": "gpasswd -Aオプションでグループの管理者を設定/変更できます。例：gpasswd -A user1 groupname。-aはグループメンバーを追加、-dは削除します。"
     },
-    "correct": "A",
-    "explanation": "gpasswd -Aオプションでグループの管理者を設定/変更できます。例：gpasswd -A user1 groupname。-aはグループメンバーを追加、-dは削除します。"
-  },
-  {
-    "id": "linux_users_groups_041",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "基礎",
-    "question": "newgrpコマンドの主な機能は？",
-    "options": {
-      "A": "新規グループを作成する",
-      "B": "現在のシェルセッションでプライマリグループを変更する",
-      "C": "グループのパスワードを設定する",
-      "D": "新規ユーザーをグループに追加する"
+    {
+      "id": "linux_users_groups_041",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "newgrpコマンドの主な機能は？",
+      "options": {
+        "A": "新規グループを作成する",
+        "B": "現在のシェルセッションでプライマリグループを変更する",
+        "C": "グループのパスワードを設定する",
+        "D": "新規ユーザーをグループに追加する"
+      },
+      "correct": "B",
+      "explanation": "newgrpコマンドで、現在のシェルセッション内でプライマリグループを別のグループに変更できます。例：newgrup groupname"
     },
-    "correct": "B",
-    "explanation": "newgrpコマンドで、現在のシェルセッション内でプライマリグループを別のグループに変更できます。例：newgrup groupname"
-  },
-  {
-    "id": "linux_users_groups_042",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "useradd -sオプションで指定するシェルが存在しない場合の結果は？",
-    "options": {
-      "A": "エラーが発生してユーザー作成が失敗する",
-      "B": "警告が表示されるがユーザー作成は成功する",
-      "C": "ユーザーは作成されるが、ログインシェルが無効になる可能性がある",
-      "D": "デフォルトシェルに置き換わる"
+    {
+      "id": "linux_users_groups_042",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "useradd -sオプションで指定するシェルが存在しない場合の結果は？",
+      "options": {
+        "A": "エラーが発生してユーザー作成が失敗する",
+        "B": "警告が表示されるがユーザー作成は成功する",
+        "C": "ユーザーは作成されるが、ログインシェルが無効になる可能性がある",
+        "D": "デフォルトシェルに置き換わる"
+      },
+      "correct": "B",
+      "explanation": "useradd -sオプションで指定したシェルが/etc/shllsに存在しなくても、通常は警告なしにユーザー作成が進みます。ただし、そのユーザーのログイン時に問題が生じる可能性があります。"
     },
-    "correct": "B",
-    "explanation": "useradd -sオプションで指定したシェルが/etc/shllsに存在しなくても、通常は警告なしにユーザー作成が進みます。ただし、そのユーザーのログイン時に問題が生じる可能性があります。"
-  },
-  {
-    "id": "linux_users_groups_043",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "/etc/shlls ファイルの役割は？",
-    "options": {
-      "A": "シェルが実行可能なシェルのリストを定義する",
-      "B": "ユーザーがログイン時に使用可能なシェルを定義する",
-      "C": "システムで有効なシェルのリストを定義する",
-      "D": "Bと Cは同じ意味"
+    {
+      "id": "linux_users_groups_043",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/shlls ファイルの役割は？",
+      "options": {
+        "A": "シェルが実行可能なシェルのリストを定義する",
+        "B": "ユーザーがログイン時に使用可能なシェルを定義する",
+        "C": "システムで有効なシェルのリストを定義する",
+        "D": "Bと Cは同じ意味"
+      },
+      "correct": "D",
+      "explanation": "/etc/shellsはシステムで有効なシェル（ログインシェルとして使用可能なシェル）のリストを定義します。useradduserやchshコマンドはこのファイルを参照します。"
     },
-    "correct": "D",
-    "explanation": "/etc/shellsはシステムで有効なシェル（ログインシェルとして使用可能なシェル）のリストを定義します。useradduserやchshコマンドはこのファイルを参照します。"
-  },
-  {
-    "id": "linux_users_groups_044",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "chshコマンドの機能は？",
-    "options": {
-      "A": "グループを変更する",
-      "B": "ユーザーのログインシェルを変更する",
-      "C": "ユーザーのパスワードを変更する",
-      "D": "ユーザーのコメントを変更する"
+    {
+      "id": "linux_users_groups_044",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "chshコマンドの機能は？",
+      "options": {
+        "A": "グループを変更する",
+        "B": "ユーザーのログインシェルを変更する",
+        "C": "ユーザーのパスワードを変更する",
+        "D": "ユーザーのコメントを変更する"
+      },
+      "correct": "B",
+      "explanation": "chshコマンドはユーザー自身がログインシェルを変更できるコマンドです。対話的に新しいシェルを選択します。"
     },
-    "correct": "B",
-    "explanation": "chshコマンドはユーザー自身がログインシェルを変更できるコマンドです。対話的に新しいシェルを選択します。"
-  },
-  {
-    "id": "linux_users_groups_045",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "whoami コマンドと id コマンドの主な違いは？",
-    "options": {
-      "A": "whoamiはユーザー名を表示、idはUID/GID等の詳細情報も表示する",
-      "B": "whoamiはuid、idはユーザー名を表示する",
-      "C": "whoamiはroot権限が必要だが、idは不要",
-      "D": "どの方法でもログイン情報を表示する点は同じ"
+    {
+      "id": "linux_users_groups_045",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "whoami コマンドと id コマンドの主な違いは？",
+      "options": {
+        "A": "whoamiはユーザー名を表示、idはUID/GID等の詳細情報も表示する",
+        "B": "whoamiはuid、idはユーザー名を表示する",
+        "C": "whoamiはroot権限が必要だが、idは不要",
+        "D": "どの方法でもログイン情報を表示する点は同じ"
+      },
+      "correct": "A",
+      "explanation": "whoamiは現在のログインユーザー名のみ表示します。idコマンドはuid、gid、グループなどの詳細情報を表示します。"
     },
-    "correct": "A",
-    "explanation": "whoamiは現在のログインユーザー名のみ表示します。idコマンドはuid、gid、グループなどの詳細情報を表示します。"
-  },
-  {
-    "id": "linux_users_groups_046",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "su (switch user)コマンドでロールを攻撃する場合、パスワードなしで切り替えるオプションは？",
-    "options": {
-      "A": "su -",
-      "B": "su -s",
-      "C": "su -n",
-      "D": "-オプションなしでは常にパスワードが必要"
+    {
+      "id": "linux_users_groups_046",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "su (switch user)コマンドでロールを攻撃する場合、パスワードなしで切り替えるオプションは？",
+      "options": {
+        "A": "su -",
+        "B": "su -s",
+        "C": "su -n",
+        "D": "-オプションなしでは常にパスワードが必要"
+      },
+      "correct": "D",
+      "explanation": "suコマンドはデフォルトで対象ユーザーのパスワート入力が必要です。rootユーザーからのsu実行時のみパスワント不要です。"
     },
-    "correct": "D",
-    "explanation": "suコマンドはデフォルトで対象ユーザーのパスワート入力が必要です。rootユーザーからのsu実行時のみパスワント不要です。"
-  },
-  {
-    "id": "linux_users_groups_047",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "sudoers設定で、このルールが優先されるかどうかを確認する方法は？",
-    "options": {
-      "A": "visudoで確認するだけ",
-      "B": "sudo -l でユーザーが実行可能なコマンドを確認",
-      "C": "sudo -v でシステムのsudoers設定を検証",
-      "D": "Bと C の両方が有効"
+    {
+      "id": "linux_users_groups_047",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "sudoers設定で、このルールが優先されるかどうかを確認する方法は？",
+      "options": {
+        "A": "visudoで確認するだけ",
+        "B": "sudo -l でユーザーが実行可能なコマンドを確認",
+        "C": "sudo -v でシステムのsudoers設定を検証",
+        "D": "Bと C の両方が有効"
+      },
+      "correct": "D",
+      "explanation": "sudo -lはログインユーザーが実行可能なコマンドを確認します。sudo -vは認証情報を更新し、sudoers設定のシンタックスをチェックします。"
     },
-    "correct": "D",
-    "explanation": "sudo -lはログインユーザーが実行可能なコマンドを確認します。sudo -vは認証情報を更新し、sudoers設定のシンタックスをチェックします。"
-  },
-  {
-    "id": "linux_users_groups_048",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "PAM（Pluggable Authentication Modules）の主な目的は？",
-    "options": {
-      "A": "ユーザー作成を自動化する",
-      "B": "認証、認可、アカウント管理などのサービスをモジュール化する",
-      "C": "グループを管理する",
-      "D": "パスワードを暗号化する"
+    {
+      "id": "linux_users_groups_048",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "PAM（Pluggable Authentication Modules）の主な目的は？",
+      "options": {
+        "A": "ユーザー作成を自動化する",
+        "B": "認証、認可、アカウント管理などのサービスをモジュール化する",
+        "C": "グループを管理する",
+        "D": "パスワードを暗号化する"
+      },
+      "correct": "B",
+      "explanation": "PAMはLinuxの認証フレームワークで、より設定ファイル（/etc/pam.d/)を通じて認証、認可、アカウント管理を柔軟に設定できます。"
     },
-    "correct": "B",
-    "explanation": "PAMはLinuxの認証フレームワークで、より設定ファイル（/etc/pam.d/)を通じて認証、認可、アカウント管理を柔軟に設定できます。"
-  },
-  {
-    "id": "linux_users_groups_049",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "last コマンドの主な機能は？",
-    "options": {
-      "A": "現在ログイン中ユーザーを表示する",
-      "B": "ユーザーのログイン履歴を表示する",
-      "C": "最後に作成されたユーザーを表示する",
-      "D": "ユーザーのパスワード変更履歴を表示する"
+    {
+      "id": "linux_users_groups_049",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "last コマンドの主な機能は？",
+      "options": {
+        "A": "現在ログイン中ユーザーを表示する",
+        "B": "ユーザーのログイン履歴を表示する",
+        "C": "最後に作成されたユーザーを表示する",
+        "D": "ユーザーのパスワード変更履歴を表示する"
+      },
+      "correct": "B",
+      "explanation": "lastコマンドは/var/log/wtmpの情報を読み込んで、ユーザーのログイン・ログアウト履歴を表示します。"
     },
-    "correct": "B",
-    "explanation": "lastコマンドは/var/log/wtmpの情報を読み込んで、ユーザーのログイン・ログアウト履歴を表示します。"
-  },
-  {
-    "id": "linux_users_groups_050",
-    "genre": "ユーザー・グループ管理",
-    "exam": "Linux",
-    "level": "中級",
-    "question": "LPIC-1試験におけるユーザー・グループ管理の出題傾向として、最も重要な項目は？",
-    "options": {
-      "A": "useradd/userdel/usermod/groupadd/groupdel コマンドの詳細なオプション",
-      "B": "/etc/passwd、/etc/shadow、/etc/group、/etc/gshadow ファイル内容の理解",
-      "C": "sudoersファイルの設定と sudo コマンドの動作",
-      "D": "ABCすべてが同等の重要度"
-    },
-    "correct": "D",
-    "explanation": "LPIC-1試験ではAB Cすべてが同等に重要です。コマンド操作、ファイル構造、sudo権限設定はユーザー・グループ管理の基本を構成します。"
-  }
-]
+    {
+      "id": "linux_users_groups_050",
+      "genre": "ユーザー・グループ管理",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "LPIC-1試験におけるユーザー・グループ管理の出題傾向として、最も重要な項目は？",
+      "options": {
+        "A": "useradd/userdel/usermod/groupadd/groupdel コマンドの詳細なオプション",
+        "B": "/etc/passwd、/etc/shadow、/etc/group、/etc/gshadow ファイル内容の理解",
+        "C": "sudoersファイルの設定と sudo コマンドの動作",
+        "D": "ABCすべてが同等の重要度"
+      },
+      "correct": "D",
+      "explanation": "LPIC-1試験ではAB Cすべてが同等に重要です。コマンド操作、ファイル構造、sudo権限設定はユーザー・グループ管理の基本を構成します。"
+    }
+  ]
+}

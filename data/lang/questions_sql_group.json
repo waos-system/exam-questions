@@ -1,0 +1,17 @@
+{
+  "genre": "グループ関数と集約",
+  "exam": "SQL",
+  "category": "sql_group",
+  "questions": [
+    {"id": "sql_group_001", "question": "COUNT() 集計関数について、正しい説明はどれか。", "choices": ["COUNT(*) は全行数を返す", "COUNT(col) は NULL を含めないで数える", "COUNT(DISTINCT col) は重複を除いて数える", "すべて正しい"], "answer": 3, "explanation": "COUNT ファミリーはすべて正しいです。"},
+    {"id": "sql_group_002", "question": "SUM() 関数について、正しい説明はどれか。", "choices": ["SUM(col) は列の合計を返す", "SUM は NULL を無視する", "SUM(DISTINCT col) は重複を除いて合計", "すべて正しい"], "answer": 3, "explanation": "SUM は集計対象から NULL を自動的に除外します。"},
+    {"id": "sql_group_003", "question": "AVG() 関数について、正しい説明はどれか。", "choices": ["AVG() は平均値を返す", "AVG は NULL を計算に含める", "AVG(col) で全行の平均が計算される", "1 と 3 が正しい"], "answer": 0, "explanation": "AVG は平均値を返し、NULL は除外されます。"},
+    {"id": "sql_group_004", "question": "GROUP BY について、正しい説明はどれか。", "choices": ["GROUP BY は行をグループ化", "SELECT リストに非集計列が含まれる場合、GROUP BY に含める必要がある", "GROUP BY なしで集計関数は全体に作用", "すべて正しい"], "answer": 3, "explanation": "GROUP BY はグループ化を行い、各グループで集計が実行されます。"},
+    {"id": "sql_group_005", "question": "HAVING について、正しい説明はどれか。", "choices": ["HAVING は GROUP BY の結果をフィルタリング", "HAVING は集計関数を使用可能", "HAVING は WHERE の後に記述", "1 と 2 が正しい"], "answer": 0, "explanation": "HAVING は WHERE とは異なり、グループ単位でのフィルタリングです。"},
+    {"id": "sql_group_006", "question": "MAX() / MIN() 関数について、正しい説明はどれか。", "choices": ["MAX() は最大値、MIN() は最小値", "数値だけでなく文字列にも使用可能", "NULL は無視される", "すべて正しい"], "answer": 3, "explanation": "MAX / MIN は数値、文字列、日付に適用でき、NULL は無視されます。"},
+    {"id": "sql_group_007", "question": "GROUP BY 複数列について、正しい説明はどれか。", "choices": ["GROUP BY col1, col2 で複数列でグループ化", "各グループは col1 と col2 の組み合わせで一意", "複数列グループ化は通常のレポート生成で利用", "すべて正しい"], "answer": 3, "explanation": "複数列 GROUP BY により、複合キーでのグループ化が実現されます。"},
+    {"id": "sql_group_008", "question": "集計関数を SELECT に含める場合の規則として正しいものはどれか。", "choices": ["SELECT に非集計列を含める場合は GROUP BY に含めるか、集計関数で囲む", "SELECT に SELECT リスト全体が集計または GROUP BY に含まれる必要がある", "集計関数単独の SELECT では GROUP BY 不要", "1 と 3 が正しい"], "answer": 0, "explanation": "これは SQL 標準の『GROUP BY 句の完全性』ルールです。"},
+    {"id": "sql_group_009", "question": "ORDER BY と GROUP BY の使用順序について、正しいものはどれか。", "choices": ["GROUP BY → HAVING → ORDER BY", "GROUP BY は WHERE の前に記述", "ORDER BY は最後に記述", "1 と 3 が正しい"], "answer": 0, "explanation": "SELECT 句の執行順序は FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY です。"},
+    {"id": "sql_group_010", "question": "GROUP_CONCAT / STRING_AGG について、正しい説明はどれか。", "choices": ["GROUP_CONCAT (MySQL) はグループ内の文字列を連結", "STRING_AGG (SQL Server / PostgreSQL) も同じ機能", "デフォルトで ',' で区切られることが多い", "すべて正しい"], "answer": 3, "explanation": "文字列集約関数は DB ごとに異なる名前を持ちます。"}
+  ]
+}

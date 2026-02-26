@@ -1,0 +1,756 @@
+{
+  "genre": "Linux ネットワークと基本セキュリティ",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_network_001",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "TCP/IP モデルは何層から構成されているか？",
+      "options": {
+        "A": "2 層",
+        "B": "3 層",
+        "C": "4 層",
+        "D": "7 層"
+      },
+      "correct": "C",
+      "explanation": "TCP/IP モデルはアプリケーション層、トランスポート層、インターネット層、リンク層の 4 層です。OSI モデルは 7 層です。"
+    },
+    {
+      "id": "linux_network_002",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "IP アドレスで使用するプロトコルのバージョンはどれか？",
+      "options": {
+        "A": "IPv2",
+        "B": "IPv4, IPv6",
+        "C": "IPv8",
+        "D": "IPv10"
+      },
+      "correct": "B",
+      "explanation": "IPv4（32ビット）と IPv6（128ビット）が使用されます。IPv4 は廃止予定で IPv6 への移行が進んでいます。"
+    },
+    {
+      "id": "linux_network_003",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "IPv4 アドレスは何ビットで構成されているか？",
+      "options": {
+        "A": "16 ビット",
+        "B": "32 ビット",
+        "C": "64 ビット",
+        "D": "128 ビット"
+      },
+      "correct": "B",
+      "explanation": "IPv4 アドレスは 32 ビット（4 バイト）で構成されます。xxx.xxx.xxx.xxx 形式で表記されます。"
+    },
+    {
+      "id": "linux_network_004",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "IPv6 アドレスは何ビットで構成されているか？",
+      "options": {
+        "A": "16 ビット",
+        "B": "32 ビット",
+        "C": "64 ビット",
+        "D": "128 ビット"
+      },
+      "correct": "D",
+      "explanation": "IPv6 アドレスは 128 ビット（16 バイト）で構成されます。8 つの 16 進数グループで表記されます。"
+    },
+    {
+      "id": "linux_network_005",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ネットワークインターフェースの設定を確認するコマンドはどれか？",
+      "options": {
+        "A": "ifconfig",
+        "B": "ip addr",
+        "C": "netstat",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "ifconfig または ip addr でネットワークインターフェースの設定を確認できます。ip addr がより新しい方法です。"
+    },
+    {
+      "id": "linux_network_006",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パチケット送信をテストするコマンドはどれか？",
+      "options": {
+        "A": "ping",
+        "B": "traceroute",
+        "C": "telnet",
+        "D": "nc（netcat）"
+      },
+      "correct": "A",
+      "explanation": "ping でホスト到達可能性をテストします。traceroute は経路追跡、telnet は接続できるいろいろなサーバーに接続です。"
+    },
+    {
+      "id": "linux_network_007",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ping でパケット送信を 4 回に限定するオプションはどれか？",
+      "options": {
+        "A": "ping -c 4",
+        "B": "ping -n 4",
+        "C": "ping -l 4",
+        "D": "ping -t 4"
+      },
+      "correct": "A",
+      "explanation": "ping -c 4（count）で 4 回のパケット送信に限定します。-n は一部の OS で使用します。"
+    },
+    {
+      "id": "linux_network_008",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ホストまでの経路を追跡するコマンドはどれか？",
+      "options": {
+        "A": "route",
+        "B": "traceroute",
+        "C": "pathfinder",
+        "D": "routeshow"
+      },
+      "correct": "B",
+      "explanation": "traceroute でホストまでの経路（ホップ）を表示します。mtr も同様の機能を持っています。"
+    },
+    {
+      "id": "linux_network_009",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ネットワークラウティングテーブルを表示するコマンドはどれか？",
+      "options": {
+        "A": "route -n",
+        "B": "ip route",
+        "C": "netstat -r",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "route -n、ip route、netstat -r のいずれでもルーティングテーブルを表示できます。"
+    },
+    {
+      "id": "linux_network_010",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ネットワークソケットの接続状態を表示するコマンドはどれか？",
+      "options": {
+        "A": "netstat",
+        "B": "ss",
+        "C": "netstat -tuln",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "netstat、ss（socket statistics）、netstat -tuln（TCP/UDP listening）のいずれでも接続状態を確認できます。"
+    },
+    {
+      "id": "linux_network_011",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "特定のポートをリッピングしているプロセスを確認するコマンドはどれか？",
+      "options": {
+        "A": "netstat -tulnp",
+        "B": "ss -tulnp",
+        "C": "lsof -i :port",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "netstat -tulnp、ss -tulnp、lsof -i :8080（ポート8080の場合）でリッピングプロセスポートを確認できます。"
+    },
+    {
+      "id": "linux_network_012",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "DNS サーバーを設定するファイルはどれか？",
+      "options": {
+        "A": "/etc/resolv.conf",
+        "B": "/etc/hosts",
+        "C": "/etc/hostname",
+        "D": "/etc/dns.conf"
+      },
+      "correct": "A",
+      "explanation": "/etc/resolv.conf に DNS サーバーのアドレスを記載します。/etc/hosts はローカルホスト名解決用です。"
+    },
+    {
+      "id": "linux_network_013",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "DNS ホスト名解決をテストするコマンドはどれか？",
+      "options": {
+        "A": "nslookup",
+        "B": "dig",
+        "C": "host",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "nslookup、dig、host のいずれでも DNS 名解決をテストできます。dig がより詳細な情報を提供します。"
+    },
+    {
+      "id": "linux_network_014",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "DHCP で自動的に IP アドレスを取得するためのコマンドはどれか？",
+      "options": {
+        "A": "dhclient",
+        "B": "dhcpc",
+        "C": "dhcfg",
+        "D": "ipcfg"
+      },
+      "correct": "A",
+      "explanation": "dhclient でネットワークインターフェースに対して DHCP から IP アドレスを取得できます。"
+    },
+    {
+      "id": "linux_network_015",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パケットをキャプチャして分析するコマンドはどれか？",
+      "options": {
+        "A": "tcpdump",
+        "B": "wireshark",
+        "C": "capman",
+        "D": "sniff"
+      },
+      "correct": "A",
+      "explanation": "tcpdump はコマンドラインパケットキャプチャーツール、wireshark はグラフィカル版です。"
+    },
+    {
+      "id": "linux_network_016",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "tcpdump で HTTP トラフィックのみをキャプチャするするためのフィルターはどれか？",
+      "options": {
+        "A": "tcp port 80",
+        "B": "port 80",
+        "C": "http",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "tcpdump 'tcp port 80' で HTTP トラフィックをキャプチャできます。"
+    },
+    {
+      "id": "linux_network_017",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "SSH（Secure Shell）で安全にリモートスタッシュホストにアクセスするコマンドはどれか？",
+      "options": {
+        "A": "ssh",
+        "B": "telnet",
+        "C": "rsh",
+        "D": "ftp"
+      },
+      "correct": "A",
+      "explanation": "ssh は安全な暗号化通信で、telnet は暗号化されていません。ssh hostname または ssh user@hostname で接続します。"
+    },
+    {
+      "id": "linux_network_018",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "SSH の設定ファイルはどれか？",
+      "options": {
+        "A": "/etc/ssh/sshd_config",
+        "B": "/etc/sshd.conf",
+        "C": "/etc/ssh.conf",
+        "D": "/etc/ssh/config"
+      },
+      "correct": "A",
+      "explanation": "/etc/ssh/sshd_config は SSH デーモン（sshd）の設定ファイルです。~/.ssh/config はクライアント設定です。"
+    },
+    {
+      "id": "linux_network_019",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "SSH 鍵を生成するコマンドはどれか？",
+      "options": {
+        "A": "ssh-keygen",
+        "B": "ssh-key",
+        "C": "keygen",
+        "D": "sshkey"
+      },
+      "correct": "A",
+      "explanation": "ssh-keygen で公開鍵と秘密鍵を生成できます。-t rsa でRSA、-t ed25519 で Ed25519 鍵形式を指定できます。"
+    },
+    {
+      "id": "linux_network_020",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "SSH 公開鍵をリモートホストに登録するコマンドはどれか？",
+      "options": {
+        "A": "ssh-copy-id",
+        "B": "ssh-install",
+        "C": "scp ~/.ssh/id_rsa.pub",
+        "D": "ssh-key-install"
+      },
+      "correct": "A",
+      "explanation": "ssh-copy-id -i ~/.ssh/id_rsa user@hostname でリモートホストの ~/.ssh/authorized_keys に公開鍵を登録します。"
+    },
+    {
+      "id": "linux_network_021",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SSH デーモンのリッピングポートのデフォルトはどれか？",
+      "options": {
+        "A": "20",
+        "B": "21",
+        "C": "22",
+        "D": "23"
+      },
+      "correct": "C",
+      "explanation": "SSH のデフォルトポートは 22 です。/etc/ssh/sshd_config で変更可能です。"
+    },
+    {
+      "id": "linux_network_022",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SSH root ユーザーディレクトログインを無効化する設定キーはどれか？",
+      "options": {
+        "A": "PermitRootLogin no",
+        "B": "RootLogin disabled",
+        "C": "DisallowRoot true",
+        "D": "NoRootLogin"
+      },
+      "correct": "A",
+      "explanation": "/etc/ssh/sshd_config に 'PermitRootLogin no' を設定します。変更後は systemctl restart sshd が必要です。"
+    },
+    {
+      "id": "linux_network_023",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイアウォール iptables で受信トラフィックをドロップするコマンドはどれか？",
+      "options": {
+        "A": "iptables -A INPUT -j DROP",
+        "B": "iptables -I INPUT -j DROP",
+        "C": "iptables -P INPUT DROP",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "iptables -A（append）で追加，-I（insert）で最初に挿入，-P（policy）でデフォルトポリシーを設定します。"
+    },
+    {
+      "id": "linux_network_024",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "firewalld ファイアウォール管理ツールでポートを開くコマンドはどれか？",
+      "options": {
+        "A": "firewall-cmd --add-port=8080/tcp",
+        "B": "firewall-cmd --add-service=http",
+        "C": "firewall-cmd --permanent --add-port=8080/tcp",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "firewall-cmd でポートを開くことができます。--permanent で永続化できます。"
+    },
+    {
+      "id": "linux_network_025",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "firewalld サービスの設定をリロードするコマンドはどれか？",
+      "options": {
+        "A": "firewall-cmd --reload",
+        "B": "firewall-cmd --refresh",
+        "C": "systemctl restart firewalld",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "firewall-cmd --reload または systemctl restart firewalld で設定をリロードできます。"
+    },
+    {
+      "id": "linux_network_026",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "セキュアなパスワード蔵管理のベストプラアクティスはどれか？",
+      "options": {
+        "A": "パスワードを平文で ~/.bashrc に保存",
+        "B": "パスワードを /etc/passwd に保存",
+        "C": "パスワードハッシュを /etc/shadow に保存し、root のみがアクセス可能",
+        "D": "環境変数に認証情報を設定"
+      },
+      "correct": "C",
+      "explanation": "/etc/shadow はパスワードハッシュを格納し、root のみアクセス可能です。これがセキュアな方法です。"
+    },
+    {
+      "id": "linux_network_027",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "sudo による権限昇格の設定ファイルはどれか？",
+      "options": {
+        "A": "/etc/sudoers",
+        "B": "/etc/sudo",
+        "C": "/etc/sudo.conf",
+        "D": "/etc/sudoers.d"
+      },
+      "correct": "A",
+      "explanation": "/etc/sudoers が主な設定ファイルです。visudo エディターで編集し、sudo による権限昇格を設定します。"
+    },
+    {
+      "id": "linux_network_028",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "/etc/sudoers ファイルを安全に編集するコマンドは何か？",
+      "options": {
+        "A": "vim /etc/sudoers",
+        "B": "nano /etc/sudoers",
+        "C": "visudo",
+        "D": "edit /etc/sudoers"
+      },
+      "correct": "C",
+      "explanation": "visudo はテンポラリーファイルでロック機構を提供し、エラーをチェックして安全に編集できます。直接編集は危険です。"
+    },
+    {
+      "id": "linux_network_029",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "HTTPS のデフォルトポートはどれか？",
+      "options": {
+        "A": "80",
+        "B": "443",
+        "C": "8080",
+        "D": "3443"
+      },
+      "correct": "B",
+      "explanation": "HTTPS（HTTP Secure）のデフォルトポートは 443 です。HTTP は 80 です。"
+    },
+    {
+      "id": "linux_network_030",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SSL/TLS 証書をテストするコマンドはどれか？",
+      "options": {
+        "A": "openssl s_client -connect host:port",
+        "B": "ssl-test host:port",
+        "C": "tls-verify host",
+        "D": "cert-check host:port"
+      },
+      "correct": "A",
+      "explanation": "openssl s_client -connect host:443 で SSL/TLS 接続をテストし、証書情報を表示できます。"
+    },
+    {
+      "id": "linux_network_031",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "自己署名 SSL 証書を生成するコマンドはどれか？",
+      "options": {
+        "A": "openssl req -x509 -new -keyout key.pem -out cert.pem",
+        "B": "openssl genkey",
+        "C": "ssl-create-cert",
+        "D": "cert-gen"
+      },
+      "correct": "A",
+      "explanation": "openssl req -x509 -new -keyout key.pem -out cert.pem -days 365 で自己署名証書を生成します。"
+    },
+    {
+      "id": "linux_network_032",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "MAC アドレスとは何か？",
+      "options": {
+        "A": "インターネット層の識別子",
+        "B": "リンク層のネットワークインターフェース識別子",
+        "C": "TCP/UDP のポート番号",
+        "D": "ホスト名の別称"
+      },
+      "correct": "B",
+      "explanation": "MAC（Media Access Control）アドレスはリンク層（レイヤ 2）でホストを識別します。48ビット（xx:xx:xx:xx:xx:xx形式）です。"
+    },
+    {
+      "id": "linux_network_033",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ARP（Address Resolution Protocol）の役割は何か？",
+      "options": {
+        "A": "IP アドレスから MAC アドレスを解決",
+        "B": "ホスト名から IP アドレスを解決",
+        "C": "ドメイン名から IP アドレスを解決",
+        "D": "ポート番号から サービス名を解決"
+      },
+      "correct": "A",
+      "explanation": "ARP は同じローカルネットワーク上で IP アドレスに対応する MAC アドレスを見つけます。"
+    },
+    {
+      "id": "linux_network_034",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ARP キャッシュを表示するコマンドはどれか？",
+      "options": {
+        "A": "arp -a",
+        "B": "arp -n",
+        "C": "ip neigh",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "arp -a、arp -n、ip neigh のいずれでも ARP キャッシュを表示できます。"
+    },
+    {
+      "id": "linux_network_035",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ドメイン名システムの DNS ルートサーバーの分散方式は何か？",
+      "options": {
+        "A": "単一の中央ルートサーバー",
+        "B": "複数の分散したルートサーバー",
+        "C": "ローカルキャッシュサーバーのみ",
+        "D": "P2P ネットワーク"
+      },
+      "correct": "B",
+      "explanation": "DNS は 13 のルートサーバーセット（複雑な ID）を使用して、名前解決要求に対応する分散方式です。"
+    },
+    {
+      "id": "linux_network_036",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "DHCP サーバーの主な役割はどれか？",
+      "options": {
+        "A": "IP アドレスを自動的にクライアントに割り当てる",
+        "B": "ホスト名から IP アドレスを解決",
+        "C": "ネットワークパケットをルーティング",
+        "D": "セキュアなリモートアクセスを提供"
+      },
+      "correct": "A",
+      "explanation": "DHCP（Dynamic Host Configuration Protocol）はクライアントに IP アドレス、ゲートウェイ、DNS サーバーなどを dynamically 配布します。"
+    },
+    {
+      "id": "linux_network_037",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "DHCP リース期間とは何か？",
+      "options": {
+        "A": "クライアントが IP アドレスを使用できる時間",
+        "B": "DHCP サーバーのアップタイム",
+        "C": "IP アドレスの有効期限",
+        "D": "AとCの両方"
+      },
+      "correct": "D",
+      "explanation": "DHCP リース期間はクライアントが IP アドレスを使用可能な時間です。期限切れ前にリニューアルが必要です。"
+    },
+    {
+      "id": "linux_network_038",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "RFC 1918 プライベート IP アドレス範囲はどれか？",
+      "options": {
+        "A": "10.0.0.0/8、172.16.0.0/12、192.168.0.0/16",
+        "B": "127.0.0.1/32 のみ",
+        "C": "0.0.0.0/0",
+        "D": "224.0.0.0/4"
+      },
+      "correct": "A",
+      "explanation": "RFC 1918 で定義されたプライベート IP 範囲は 10.0.0.0/8、172.16.0.0/12、192.168.0.0/16 です。"
+    },
+    {
+      "id": "linux_network_039",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ローカルホストを示す IP アドレスはどれか？",
+      "options": {
+        "A": "0.0.0.0",
+        "B": "127.0.0.1",
+        "C": "localhost",
+        "D": "BとCの両方"
+      },
+      "correct": "D",
+      "explanation": "127.0.0.1 はローカルホストの IP アドレス、localhost がホスト名です。hostname コマンドまたは /etc/hosts で確認できます。"
+    },
+    {
+      "id": "linux_network_040",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "サブネットマスク 255.255.255.0 の CIDR 表記はどれか？",
+      "options": {
+        "A": "/16",
+        "B": "/24",
+        "C": "/30",
+        "D": "/32"
+      },
+      "correct": "B",
+      "explanation": "サブネットマスク 255.255.255.0 は /24 CIDR 表記です。24 ビット がネットワークアドレスを表します。"
+    },
+    {
+      "id": "linux_network_041",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "netstat コマンドで TCP リッピングポートのみを表示するオプションは何か？",
+      "options": {
+        "A": "netstat -tunl",
+        "B": "netstat -tcp",
+        "C": "netstat -t",
+        "D": "netstat --tcp"
+      },
+      "correct": "C",
+      "explanation": "netstat -t は TCP のみ、-u は UDP のみ、-l はリッピング（listening）状態を表示します。"
+    },
+    {
+      "id": "linux_network_042",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ローカルノードの名前（ホスト名）を確認するコマンドは何か？",
+      "options": {
+        "A": "hostname",
+        "B": "nodename",
+        "C": "systemname",
+        "D": "getname"
+      },
+      "correct": "A",
+      "explanation": "hostname でシステムのホスト名を表示します。-f で完全修飾ドメイン名（FQDN）が表示されます。"
+    },
+    {
+      "id": "linux_network_043",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ホスト名を永続的に変更するファイルはどれか？",
+      "options": {
+        "A": "/etc/hostname",
+        "B": "/etc/hosts",
+        "C": "/etc/sysconfig/network",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "/etc/hostname に新しいホスト名を書き込むか、/etc/sysconfig/network（RedHat系）を編集して永続化します。"
+    },
+    {
+      "id": "linux_network_044",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ホスト名を一時的に変更するコマンドはどれか？",
+      "options": {
+        "A": "hostname newname",
+        "B": "sethostname newname",
+        "C": "hostnamectl set-hostname newname",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "hostname newname またはhostnamectl set-hostname newname で一時的に変更できます。"
+    },
+    {
+      "id": "linux_network_045",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ネットワークインターフェースを有効化するコマンドはどれか？",
+      "options": {
+        "A": "ifup eth0",
+        "B": "ip link set eth0 up",
+        "C": "ifconfig eth0 up",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "ifup、ip link set up、ifconfig up のいずれでもインターフェースを有効化できます。"
+    },
+    {
+      "id": "linux_network_046",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "ネットワークインターフェースを無効化するコマンドはどれか？",
+      "options": {
+        "A": "ifdown eth0",
+        "B": "ip link set eth0 down",
+        "C": "ifconfig eth0 down",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "ifdown、ip link set down、ifconfig down のいずれでもインターフェースを無効化できます。"
+    },
+    {
+      "id": "linux_network_047",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "TLS 1.3 セキュア通信プロトコルの特徴はどれか？",
+      "options": {
+        "A": "前方秘匿性（Forward Secrecy）を提供する",
+        "B": "接続确立の高速化",
+        "C": "古い暗号化方式を削除",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "TLS 1.3 は前方秘匿性、接続確立の高速化（1-RTT）、古い弱い暗号の削除など複数の改善があります。"
+    },
+    {
+      "id": "linux_network_048",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SELinux（Security Enhanced Linux）の主な役割は何か？",
+      "options": {
+        "A": "強制アクセス制御（MAC）を提供",
+        "B": "標準的なパーミッションより詳細なアクセス制御",
+        "C": "ポリシー に基づく保護",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "SELinux は MAC（Mandatory Access Control）を提供し、ポリシーに基づいています。従来の DAC（Discretionary Access Control）より厳密です。"
+    },
+    {
+      "id": "linux_network_049",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "SELinux モードを確認するコマンドは何か？",
+      "options": {
+        "A": "getenforce",
+        "B": "selinux status",
+        "C": "sestatus",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "getenforce または sestatus で SELinux モード（enforcing、permissive、disabled）を確認できます。"
+    },
+    {
+      "id": "linux_network_050",
+      "genre": "Linux ネットワークと基本セキュリティ",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "ファイアウォール firewalld のゾーン概念で 'public' ゾーンの目的は何か？",
+      "options": {
+        "A": "完全に信頼できるネットワーク",
+        "B": "イントラネット（内部ネットワーク）",
+        "C": "信頼できないネットワーク（インターネット等））",
+        "D": "テスト用ネットワーク"
+      },
+      "correct": "C",
+      "explanation": "firewalld の 'public' ゾーンはインターネットなど信頼できないネットワークを示し、最も制限的なポリシーが適用されます。"
+    }
+  ]
+}

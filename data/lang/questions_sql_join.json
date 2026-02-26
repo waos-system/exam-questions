@@ -1,0 +1,17 @@
+{
+  "genre": "結合問合せ",
+  "exam": "SQL",
+  "category": "sql_join",
+  "questions": [
+    {"id": "sql_join_001", "question": "INNER JOIN について、正しい説明はどれか。", "choices": ["INNER JOIN は両テーブルで一致する行を返す", "JOIN キーワード単独の場合、デフォルトは INNER JOIN", "INNER JOIN は外部結合である", "1 と 2 が正しい"], "answer": 0, "explanation": "INNER JOIN は交集合のみを返します。"},
+    {"id": "sql_join_002", "question": "LEFT OUTER JOIN について、正しい説明はどれか。", "choices": ["LEFT OUTER JOIN は左テーブルのすべての行と、右テーブルの一致行", "一致しない場合、右テーブルの列は NULL", "LEFT OUTER JOIN は LEFT JOIN と同義", "すべて正しい"], "answer": 3, "explanation": "LEFT OUTER JOIN は左テーブルを基準に保持します。"},
+    {"id": "sql_join_003", "question": "RIGHT OUTER JOIN について、正しい説明はどれか。", "choices": ["RIGHT OUTER JOIN は右テーブルのすべての行を保持", "LEFT JOIN の逆である", "テーブル順序を入れ替えて LEFT JOIN で代用可能", "すべて正しい"], "answer": 3, "explanation": "RIGHT OUTER JOIN は RIGHT JOIN と同義です。"},
+    {"id": "sql_join_004", "question": "FULL OUTER JOIN について、正しい説明はどれか。", "choices": ["FULL OUTER JOIN は両テーブルのすべての行を返す", "一致しない場合は NULL で埋められる", "MySQL は FULL OUTER JOIN をネイティブサポートしていない", "1 と 2 が正しい"], "answer": 1, "explanation": "MySQL では UNION LEFT JOIN + RIGHT JOIN で FULL OUTER JOIN をシミュレートします。"},
+    {"id": "sql_join_005", "question": "CROSS JOIN について、正しい説明はどれか。", "choices": ["CROSS JOIN はテーブルの直積を返す", "条件なし結合", "テーブルA(3行) と B(4行) で 12 行になる", "すべて正しい"], "answer": 3, "explanation": "CROSS JOIN は条件なしのすべての組み合わせを返します。"},
+    {"id": "sql_join_006", "question": "自己結合について、正しい説明はどれか。", "choices": ["同一テーブルを複数回結合", "テーブルエイリアスの使用が必須", "階層データ（例：従業員-上司）を扱う場合に利用", "すべて正しい"], "answer": 3, "explanation": "自己結合は同じテーブルを複数回参照します。"},
+    {"id": "sql_join_007", "question": "結合条件の記述方法について、正しいものはどれか。", "choices": ["SELECT * FROM t1 INNER JOIN t2 ON t1.id = t2.id", "SELECT * FROM t1, t2 WHERE t1.id = t2.id （古い構文）", "結合条件は ON 句に記述するのが推奨", "すべて正しい"], "answer": 3, "explanation": "ON 句は JOIN の結合条件、WHERE はフィルタリングと分離するのが推奨です。"},
+    {"id": "sql_join_008", "question": "複数テーブル結合について、正しい説明はどれか。", "choices": ["FROM t1 JOIN t2 ON ... JOIN t3 ON ... で 3 テーブル結合可能", "結合の順序はパフォーマンスに影響", "複雑な結合は サブクエリで代用可能", "すべて正しい"], "answer": 3, "explanation": "複数テーブル結合の最適化は DB エンジンに委ねられるが、統計を利用した最適化もあります。"},
+    {"id": "sql_join_009", "question": "結合キーが複数列の場合の記述方法について、正しいものはどれか。", "choices": ["ON t1.col1 = t2.col1 AND t1.col2 = t2.col2", "複合キーでの結合も一般的", "USING 句で同じ列名なら簡潔に記述可能", "すべて正しい"], "answer": 3, "explanation": "複合キー結合は AND で複数条件を指定、または USING で効率化可能です。"},
+    {"id": "sql_join_010", "question": "結合の性能考慮について、正しい説明はどれか。", "choices": ["結合キーにインデックスを張ることが推奨", "結合テーブルの行数が少ない方を先に指定するとよい場合がある", "不要な結合を避け、必要なテーブルのみ結合", "すべて正しい"], "answer": 3, "explanation": "結合のパフォーマンスは多様な要因（インデックス、統計、実行計画）に影響を受けます。"}
+  ]
+}

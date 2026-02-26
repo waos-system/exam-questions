@@ -1,0 +1,127 @@
+{
+  "genre": "問合せ基礎",
+  "exam": "SQL",
+  "category": "sql_select",
+  "questions": [
+    {
+      "id": "sql_select_001",
+      "question": "SELECT ステートメントの基本構文として正しいものはどれか。",
+      "choices": [
+        "SELECT WHERE columns FROM table ORDER BY",
+        "SELECT columns FROM table WHERE condition ORDER BY column",
+        "FROM table SELECT columns WHERE condition",
+        "SELECT * FROM table ORDER BY"
+      ],
+      "answer": 1,
+      "explanation": "SELECT の基本構文は『SELECT columns FROM table WHERE condition ORDER BY column』です。"
+    },
+    {
+      "id": "sql_select_002",
+      "question": "SELECT DISTINCT について、正しい説明はどれか。",
+      "choices": [
+        "DISTINCT は重複行をフィルタリング",
+        "DISTINCT は列名を指定する必要がない",
+        "DISTINCT は複数列で指定可能",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "DISTINCT は SELECT DISTINCT col1, col2 のように複数列で使用でき、重複行を除外します。"
+    },
+    {
+      "id": "sql_select_003",
+      "question": "WHERE 句について、正しい説明はどれか。",
+      "choices": [
+        "WHERE は行をフィルタリング",
+        "WHERE は集計関数と共に使用できない",
+        "WHERE は GROUP BY の前に記述",
+        "1 と 3 が正しい"
+      ],
+      "answer": 3,
+      "explanation": "WHERE は行級フィルタで、ORDER BY より前、GROUP BY より前に記述します。"
+    },
+    {
+      "id": "sql_select_004",
+      "question": "AND、OR 演算子の優先順位について、正しい説明はどれか。",
+      "choices": [
+        "AND と OR の優先順位は同じ",
+        "AND は OR より優先度が高い",
+        "OR は AND より優先度が高い",
+        "括弧で明示的に指定する必要がない"
+      ],
+      "answer": 1,
+      "explanation": "AND が OR より優先度が高いため、複雑な条件は括弧で明示するべきです。"
+    },
+    {
+      "id": "sql_select_005",
+      "question": "NULL 値の比較について、正しい説明はどれか。",
+      "choices": [
+        "WHERE column = NULL で NULL を検索",
+        "WHERE column IS NULL で NULL を検索",
+        "NULL と任意の値の比較は常に true",
+        "NULL は数値 0 と同じ"
+      ],
+      "answer": 1,
+      "explanation": "NULL 比較には『IS NULL』『IS NOT NULL』を使用します。『= NULL』では常に NULL をもたらします。"
+    },
+    {
+      "id": "sql_select_006",
+      "question": "LIKE 演算子について、正しい説明はどれか。",
+      "choices": [
+        "LIKE '%A%' は A を含むすべての文字列にマッチ",
+        "LIKE 'A_' は A で始まる 2 文字文字列にマッチ",
+        "LIKE は大文字小文字を区別（DB に依存）",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "LIKE の '%' はワイルドカード（任意の文字列）、'_' は 1 文字マッチです。"
+    },
+    {
+      "id": "sql_select_007",
+      "question": "ORDER BY について、正しい説明はどれか。",
+      "choices": [
+        "ORDER BY は SELECT の最後に記述",
+        "ORDER BY ASC（昇順）、DESC（降順）が指定可能",
+        "ORDER BY は複数列で指定可能",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "ORDER BY col1 ASC, col2 DESC のように複数列、方向を指定できます。"
+    },
+    {
+      "id": "sql_select_008",
+      "question": "LIMIT / OFFSET について、正しい説明はどれか。",
+      "choices": [
+        "LIMIT 10 OFFSET 5 は最初 5 行をスキップして 10 行を返す",
+        "LIMIT は SQL Server 標準",
+        "OFFSET のみの使用は意味がない",
+        "LIMIT / OFFSET は大規模データセットで推奨"
+      ],
+      "answer": 0,
+      "explanation": "LIMIT n OFFSET m でオフセット m から n 行を返します。ページネーション実装に利用されます。"
+    },
+    {
+      "id": "sql_select_009",
+      "question": "AS（エイリアス）について、正しい説明はどれか。",
+      "choices": [
+        "AS は列、テーブルに別名を付与",
+        "SELECT col1 AS 'Column Alias' で列名を変更",
+        "FROM table AS t で テーブル別名を使用",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "AS は表示名やテーブル参照の別名を付与します。"
+    },
+    {
+      "id": "sql_select_010",
+      "question": "SELECT * について、正しい説明はどれか。",
+      "choices": [
+        "SELECT * はすべての列を返す",
+        "SELECT * はパフォーマンス上の懸念がある場合もある",
+        "SELECT * は実際のアプリケーションでは推奨されない場合がある",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "SELECT * は全列を返しますが、不要な列転送や保守性の観点から、必要な列を明示することが推奨されます。"
+    }
+  ]
+}

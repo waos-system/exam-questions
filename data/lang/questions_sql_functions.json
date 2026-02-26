@@ -1,0 +1,17 @@
+{
+  "genre": "単一行関数",
+  "exam": "SQL",
+  "category": "sql_functions",
+  "questions": [
+    {"id": "sql_functions_001", "question": "UPPER() 関数について、正しい説明はどれか。", "choices": ["UPPER('hello') は 'HELLO' を返す", "UPPER() は NULL を返すと NULL を返す", "UPPER() はすべての DB で対応している", "すべて正しい"], "answer": 0, "explanation": "UPPER() は文字列を大文字に変換していますが、NULL 入力時の動作は DB 依存です。"},
+    {"id": "sql_functions_002", "question": "LENGTH() / LEN() 関数について、正しい説明はどれか。", "choices": ["LENGTH('Hello') は 5 を返す", "Oracle は LENGTH、SQL Server は LEN を使用", "NULL 入力時は 0 を返す", "1 と 2 が正しい"], "answer": 3, "explanation": "Oracle の LENGTH と SQL Server の LEN は同じ機能です。"},
+    {"id": "sql_functions_003", "question": "ROUND() 関数について、正しい説明はどれか。", "choices": ["ROUND(123.456, 2) は 123.46 を返す", "ROUND(123.456, 0) は 123 を返す", "ROUND(123.456, -1) は 120 を返す", "すべて正しい"], "answer": 3, "explanation": "ROUND(数値, 桁数) で四捨五入を行います。"},
+    {"id": "sql_functions_004", "question": "SUBSTR() / SUBSTRING() 関数について、正しい説明はどれか。", "choices": ["SUBSTR('Hello', 1, 3) は 'Hel' を返す", "Oracle は SUBSTR、SQL Server は SUBSTRING を使用", "SUBSTR('Hello', 2) は文字列の 2 番目から最後まで", "すべて正しい"], "answer": 3, "explanation": "部分文字列抽出関数は DB ごとに名前が異なりますが、機能は同じです。"},
+    {"id": "sql_functions_005", "question": "COALESCE() 関数について、正しい説明はどれか。", "choices": ["COALESCE(NULL, NULL, 5) は 5 を返す", "COALESCE(a, b, c) は最初のNON-NULLを返す", "複数の列から最初の NULL 以外の値を得たい時に使用される", "すべて正しい"], "answer": 3, "explanation": "COALESCE は複数の値から最初の NULL 以外の値を返します。"},
+    {"id": "sql_functions_006", "question": "CAST() 関数について、正しい説明はどれか。", "choices": ["CAST('123' AS INT) は 123 を返す", "CAST(123.45 AS INT) は 123 を返す", "CAST を使用した型変換は暗黙的変換より安全", "すべて正しい"], "answer": 3, "explanation": "CAST で明示的な型変換を行い、暗黙的変換より安全です。"},
+    {"id": "sql_functions_007", "question": "REPLACE() 関数について、正しい説明はどれか。", "choices": ["REPLACE('Hello', 'l', 'L') は 'HeLLo' を返す", "REPLACE() は最初の一致のみ置換", "NULL を含むと NULL を返す", "1 と 3 が正しい"], "answer": 0, "explanation": "REPLACE() はすべての一致を置換します。"},
+    {"id": "sql_functions_008", "question": "TRIM() 関数について、正しい説明はどれか。", "choices": ["TRIM(' Hello ') は 'Hello' を返す", "LTRIM と RTRIM で左右指定置換可能", "TRIM はデフォルトで空白を削除", "すべて正しい"], "answer": 3, "explanation": "TRIM 関数ファミリーは空白や指定文字を削除します。"},
+    {"id": "sql_functions_009", "question": "数値関数 ABS() について、正しい説明はどれか。", "choices": ["ABS(-10) は 10 を返す", "ABS(10) は 10 を返す", "ABS() は絶対値を返す", "すべて正しい"], "answer": 3, "explanation": "ABS() は絶対値を返します。"},
+    {"id": "sql_functions_010", "question": "NULL 処理関数 ISNULL() / NVL() について、正しい説明はどれか。", "choices": ["SQL Server は ISNULL(col, default) を使用", "Oracle は NVL(col, default) を使用", "ISNULL(NULL, 5) は 5 を返す", "すべて正しい"], "answer": 3, "explanation": "NULL 置換関数は DB ごとに命名が異なりますが、機能は同じです。"}
+  ]
+}

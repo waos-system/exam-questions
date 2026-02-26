@@ -1,0 +1,127 @@
+{
+  "genre": "制御構文と配列",
+  "exam": "Java",
+  "category": "java_flow",
+  "questions": [
+    {
+      "id": "java_flow_001",
+      "question": "以下のコードの出力は何か？\nfor (int i = 0; i < 3; i++) {\n  if (i == 1) continue;\n  System.out.print(i + \" \");\n}\n",
+      "choices": [
+        "0 1 2",
+        "0 2",
+        "1 2 3",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "continue はループの残りをスキップして次の反復に移ります。i=0 で出力、i=1 でスキップ、i=2 で出力するため『0 2』が出力されます。"
+    },
+    {
+      "id": "java_flow_002",
+      "question": "Java の switch 文について、正しい説明はどれか。",
+      "choices": [
+        "case ラベルの後に break を記述しないと次の case に処理が流れる（fall-through）",
+        "switch 式は String、int、enum のみ対応している",
+        "default ラベルは必須である",
+        "複数の case ラベルに同じ処理を指定することはできない"
+      ],
+      "answer": 0,
+      "explanation": "switch の fall-through は Java の標準的な動作です。break を記述しないと次の case に処理が流れます。default は省略可能、String と enum も使用可能です。"
+    },
+    {
+      "id": "java_flow_003",
+      "question": "以下のコードの結果として正しいものはどれか？\nint[] arr = {1, 2, 3, 4, 5};\nint result = 0;\nfor (int x : arr) {\n  result += x;\n}\nSystem.out.println(result);",
+      "choices": [
+        "5",
+        "10",
+        "15",
+        "配列の参照"
+      ],
+      "answer": 2,
+      "explanation": "拡張 for ループで配列の全要素を合計します。1+2+3+4+5=15 です。"
+    },
+    {
+      "id": "java_flow_004",
+      "question": "以下のコードで出力されるのは何か？\nint x = 5;\nwhile (x > 0) {\n  System.out.println(x);\n  x--;\n  if (x == 2) break;\n}\n",
+      "choices": [
+        "5 4 3",
+        "5 4 3 2 1",
+        "5 4 3 2",
+        "5 4"
+      ],
+      "answer": 0,
+      "explanation": "x=5 で出力、x=4 で出力、x=3 で出力、x=2 で break 実行。『5 4 3』が出力されます。"
+    },
+    {
+      "id": "java_flow_005",
+      "question": "Java の do-while ループについて、正しい説明はどれか。",
+      "choices": [
+        "do-while は条件が false でもループ本体が少なくとも 1 回実行される",
+        "do-while は while より高速である",
+        "do-while は配列反復処理に適している",
+        "do-while はコンパイル時に while に変換される"
+      ],
+      "answer": 0,
+      "explanation": "do-while は条件チェック前に本体を実行するため、条件が false でも 1 回は実行されます。"
+    },
+    {
+      "id": "java_flow_006",
+      "question": "多次元配列の宣言として正しいものはどれか。",
+      "choices": [
+        "int[][] arr = new int[3][4];",
+        "int[][][] arr = new int[2][3][4];",
+        "int[] arr = new int[3,4];",
+        "1 と 2 が正しい"
+      ],
+      "answer": 3,
+      "explanation": "Java では int[][] と int[][][] による多次元配列が宣言可能です。int[3,4] のようなカンマ区切り は Java では構文エラーです。"
+    },
+    {
+      "id": "java_flow_007",
+      "question": "配列へのアクセスについて、正しい説明はどれか。",
+      "choices": [
+        "配列インデックスは 1 から始まる",
+        "配列インデックスは 0 から始まる",
+        "配列は要素数+1 までアクセス可能",
+        "配列は言語仕様により負数インデックスも許可される"
+      ],
+      "answer": 1,
+      "explanation": "Java の配列インデックスは 0 から length-1 までです。範囲外アクセスは ArrayIndexOutOfBoundsException が発生します。"
+    },
+    {
+      "id": "java_flow_008",
+      "question": "以下のコードの出力は何か？\nint[] nums = {10, 20, 30};\nfor (int x : nums) {\n  x = x * 2;\n  System.out.println(x);\n}\nSystem.out.println(nums[0]);",
+      "choices": [
+        "20 40 60, 10",
+        "20 40 60, 20",
+        "10 20 30, 10",
+        "10 20 30, 20"
+      ],
+      "answer": 0,
+      "explanation": "拡張 for ループの x は配列要素のコピーです。x を変更しても元の配列は変わりません。出力は『20 40 60』（ループ内）、『10』（元の値）です。"
+    },
+    {
+      "id": "java_flow_009",
+      "question": "if-else if-else 文の最適な使用戦略として正しいものはどれか。",
+      "choices": [
+        "すべての条件分岐は単独の if 文で実装すべき",
+        "複数の相互排他的条件は if-else if-else チェーンで実装する",
+        "switch 文と if 文の選択は常に性能に影響する",
+        "else if は Java では推奨されない"
+      ],
+      "answer": 1,
+      "explanation": "複数の相互排他的条件には if-else if-else チェーンが適切です。読みやすく、最初にマッチした条件のみ実行されます。"
+    },
+    {
+      "id": "java_flow_010",
+      "question": "配列の初期化において、要素数と同時に初期値を指定する正しい方法はどれか。",
+      "choices": [
+        "int[] arr = new int[5] {1,2,3,4,5};",
+        "int[] arr = {1,2,3,4,5};",
+        "int[] arr = new int[]{1,2,3,4,5};",
+        "2 と 3 が正しい"
+      ],
+      "answer": 3,
+      "explanation": "配列初期化には『int[] arr = {1,2,3}』または『int[] arr = new int[]{1,2,3}』の方法が使用できます。要素数指定と初期値同時指定はできません。"
+    }
+  ]
+}

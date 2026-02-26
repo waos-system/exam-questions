@@ -1,0 +1,756 @@
+{
+  "genre": "Linux パッケージとシェルスクリプト",
+  "exam": "Linux",
+  "questions": [
+    {
+      "id": "linux_packages_001",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "Debian系Linuxのパッケージマネージャーはどれか？",
+      "options": {
+        "A": "apt",
+        "B": "yum",
+        "C": "pacman",
+        "D": "zypper"
+      },
+      "correct": "A",
+      "explanation": "apt（Advanced Package Tool）は Debian、Ubuntu などで使用されます。yum は RedHat系（CentOS、Fedora）、pacman は Arch Linux です。"
+    },
+    {
+      "id": "linux_packages_002",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "RedHat系Linuxのパッケージマネージャーはどれか？",
+      "options": {
+        "A": "apt",
+        "B": "yum",
+        "C": "dnf",
+        "D": "BとCの両方"
+      },
+      "correct": "D",
+      "explanation": "yum は従来の RedHat パッケージマネージャー、dnf（Dandified Yum）は最新のものです。dnf は yum を継承しています。"
+    },
+    {
+      "id": "linux_packages_003",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パッケージリストを更新するコマンドはどれか？",
+      "options": {
+        "A": "apt update",
+        "B": "yum update",
+        "C": "apt install",
+        "D": "yum check-update"
+      },
+      "correct": "A",
+      "explanation": "apt update でパッケージリストを更新します。yum update でもパッケージを更新できますが、apt update はメタデータのみを更新します。"
+    },
+    {
+      "id": "linux_packages_004",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パッケージをインストールするコマンドはどれか？",
+      "options": {
+        "A": "apt install package-name",
+        "B": "yum install package-name",
+        "C": "dpkg -i package.deb",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "apt install、yum install はパッケージマネージャー経由、dpkg -i は直接パッケージをインストールできます。"
+    },
+    {
+      "id": "linux_packages_005",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パッケージをアンインストールするコマンドはどれか？",
+      "options": {
+        "A": "apt remove package-name",
+        "B": "yum remove package-name",
+        "C": "apt purge package-name",
+        "D": "Aと Cの両方（apt）、Bは yum"
+      },
+      "correct": "D",
+      "explanation": "apt remove はパッケージを削除、apt purge は設定ファイルも削除します。yum remove も同様です。"
+    },
+    {
+      "id": "linux_packages_006",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "パッケージのバージョンを確認するコマンドはどれか？",
+      "options": {
+        "A": "apt show package-name",
+        "B": "package-name --version",
+        "C": "yum info package-name",
+        "D": "Aと Cの両方"
+      },
+      "correct": "D",
+      "explanation": "apt show、yum info でパッケージ詳細を表示します。package-name --version でコマンド自身のバージョンも確認できます。"
+    },
+    {
+      "id": "linux_packages_007",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "システムのすべてのパッケージをアップグレードするコマンドはどれか？",
+      "options": {
+        "A": "apt upgrade",
+        "B": "apt full-upgrade",
+        "C": "yum update",
+        "D": "Aまたはそれ以上"
+      },
+      "correct": "C",
+      "explanation": "yum update で全パッケージをアップグレード、apt upgrade でも同様です。apt full-upgrade はより激進的です。"
+    },
+    {
+      "id": "linux_packages_008",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "インストール済みパッケージを一覧表示するコマンドはどれか？",
+      "options": {
+        "A": "apt list --installed",
+        "B": "yum list installed",
+        "C": "dpkg -l",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "apt list --installed、yum list installed、dpkg -l のいずれでもインストール済みパッケージを表示できます。"
+    },
+    {
+      "id": "linux_packages_009",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "特定のコマンドがどのパッケージに属しているか調べるコマンドはどれか？",
+      "options": {
+        "A": "apt-file search command",
+        "B": "yum provides command",
+        "C": "dpkg -S command",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "apt-file search、yum provides、dpkg -S のいずれでもコマンドが属するパッケージを調べられます。"
+    },
+    {
+      "id": "linux_packages_010",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "不要になった依存パッケージを削除するコマンドはどれか？",
+      "options": {
+        "A": "apt autoremove",
+        "B": "yum autoremove",
+        "C": "apt clean",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "apt autoremove、yum autoremove で不使用のパッケージを削除します。apt clean ではキャッシュをクリアします。"
+    },
+    {
+      "id": "linux_packages_011",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトの最初の行（shebang）はどれか？",
+      "options": {
+        "A": "#!/bin/sh",
+        "B": "#!/bin/bash",
+        "C": "# shellscript",
+        "D": "#!/bin/sh または #!/bin/bash"
+      },
+      "correct": "D",
+      "explanation": "シェバング（#!）はスクリプトの実行シェルを指定します。#!/bin/bash が一般的です。"
+    },
+    {
+      "id": "linux_packages_012",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトを実行可能にするコマンドはどれか？",
+      "options": {
+        "A": "chmod +x script.sh",
+        "B": "chmod 755 script.sh",
+        "C": "./script.sh",
+        "D": "Aと Bの両方"
+      },
+      "correct": "D",
+      "explanation": "chmod +x または chmod 755 でスクリプトを実行可能にします。その後 ./script.sh で実行できます。"
+    },
+    {
+      "id": "linux_packages_013",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトのコメント行はどれか？",
+      "options": {
+        "A": "# comment",
+        "B": "// comment",
+        "C": "/* comment */",
+        "D": "-- comment"
+      },
+      "correct": "A",
+      "explanation": "シェルスクリプトではハッシュ記号（#）の後がコメントです。C言語形式やダッシュはシェルではコメント形式ではありません。"
+    },
+    {
+      "id": "linux_packages_014",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで変数の値を出力するコマンドはどれか？",
+      "options": {
+        "A": "echo $variable",
+        "B": "print $variable",
+        "C": "printf '%s' $variable",
+        "D": "Aと C"
+      },
+      "correct": "D",
+      "explanation": "echo、printf でシェル変数を表示できます。$variable は変数を参照します。"
+    },
+    {
+      "id": "linux_packages_015",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで条件分岐を行うコマンドはどれか？",
+      "options": {
+        "A": "if [ condition ]",
+        "B": "case $var in",
+        "C": "test condition",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "if、case、test はいずれもシェルスクリプトで条件分岐に使用されます。"
+    },
+    {
+      "id": "linux_packages_016",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトでループを実行するコマンドはどれか？",
+      "options": {
+        "A": "for loop",
+        "B": "while condition",
+        "C": "until condition",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "for、while、until ループはシェルスクリプトでのループ制御構文です。"
+    },
+    {
+      "id": "linux_packages_017",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで関数を定義する方法はどれか？",
+      "options": {
+        "A": "function_name() { command; }",
+        "B": "function function_name { command; }",
+        "C": "def function_name():",
+        "D": "Aと B"
+      },
+      "correct": "D",
+      "explanation": "bash では function_name() または function function_name の両方で関数を定義できます。"
+    },
+    {
+      "id": "linux_packages_018",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで関数に引数を渡し、関数内でアクセスする方法はどれか？",
+      "options": {
+        "A": "function_name arg1 arg2; $1, $2 で参照",
+        "B": "function_name(arg1, arg2); args[0]で参照",
+        "C": "function_name -> arg1 arg2; %1で参照",
+        "D": "N/A"
+      },
+      "correct": "A",
+      "explanation": "関数呼び出し時に引数を渡し、関数内で $1, $2... で参照します。$0 は関数名です。"
+    },
+    {
+      "id": "linux_packages_019",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで配列を定義する方法はどれか？",
+      "options": {
+        "A": "array=(value1 value2 value3)",
+        "B": "array[0]=value1; array[1]=value2",
+        "C": "declare -a array",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "シェルスクリプトで配列は括弧、インデックス、または declare で定義できます。"
+    },
+    {
+      "id": "linux_packages_020",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで配列の全要素にアクセスする方法はどれか？",
+      "options": {
+        "A": "${array[@]}",
+        "B": "${array[*]}",
+        "C": "for i in ${array[@]}",
+        "D": "A, B, C全て有効（用途が異なる）"
+      },
+      "correct": "D",
+      "explanation": "${array[@]}、${array[*]} はいずれも配列全要素を拡張しますが、クォート処理に違いがあります。"
+    },
+    {
+      "id": "linux_packages_021",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで前のコマンドの終了ステータスを得る変数はどれか？",
+      "options": {
+        "A": "$?",
+        "B": "$!",
+        "C": "$@",
+        "D": "$#"
+      },
+      "correct": "A",
+      "explanation": "$? は直前のコマンドの終了ステータス（0=成功、0 以外=失敗）です。"
+    },
+    {
+      "id": "linux_packages_022",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで引数の個数を表す変数はどれか？",
+      "options": {
+        "A": "$#",
+        "B": "$@",
+        "C": "$*",
+        "D": "$$"
+      },
+      "correct": "A",
+      "explanation": "$# は函数またはスクリプトへの引数の個数を表します。"
+    },
+    {
+      "id": "linux_packages_023",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで全引数を個別に拡張する方法はどれか？",
+      "options": {
+        "A": "$*",
+        "B": "$@",
+        "C": "\"$*\" と \"$@\" は同じ",
+        "D": "BとC"
+      },
+      "correct": "B",
+      "explanation": "\"$@\" は各引数を個別の単語として扱い、\"$*\" は一つの文字列として扱います。クォート使用時の動作が異なります。"
+    },
+    {
+      "id": "linux_packages_024",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで現在のプロセスID を得る変数はどれか？",
+      "options": {
+        "A": "$$",
+        "B": "$!",
+        "C": "$?",
+        "D": "$PID"
+      },
+      "correct": "A",
+      "explanation": "$$ はシェルスクリプト自身のプロセスID です。$! は最後のバックグラウンドプロセスのPIDです。"
+    },
+    {
+      "id": "linux_packages_025",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでコマンドの終了ステータスで分岐する方法はどれか？",
+      "options": {
+        "A": "[ $? -eq 0 ] && success || failure",
+        "B": "if [ $? -eq 0 ]; then success; else failure; fi",
+        "C": "command && success || failure",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法でコマンド終了ステータスに基づいた条件分岐ができます。"
+    },
+    {
+      "id": "linux_packages_026",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでファイルの存在を確認する条件はどれか？",
+      "options": {
+        "A": "[ -f file ]",
+        "B": "[ -e file ]",
+        "C": "[ -s file ]",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "[ -f ] は通常ファイル、[ -e ] は存在確認、[ -s ] はサイズ > 0 をテストします。"
+    },
+    {
+      "id": "linux_packages_027",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでディレクトリの存在を確認する条件はどれか？",
+      "options": {
+        "A": "[ -d directory ]",
+        "B": "[ -D directory ]",
+        "C": "[ -isdir directory ]",
+        "D": "[ -type d directory ]"
+      },
+      "correct": "A",
+      "explanation": "[ -d directory ] でディレクトリ存在を確認します。"
+    },
+    {
+      "id": "linux_packages_028",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで文字列が空でないことを確認する条件はどれか？",
+      "options": {
+        "A": "[ -n \"$var\" ]",
+        "B": "[ ! -z \"$var\" ]",
+        "C": "[ \"$var\" ]",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法で非空文字列確認ができます。-n は非空、-z は空をテストします。"
+    },
+    {
+      "id": "linux_packages_029",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで数値を比較する演算子はどれか？",
+      "options": {
+        "A": "-eq（等しい）、-ne（等しくない）",
+        "B": "-lt（より小さい）、-gt（より大きい）",
+        "C": "-le（以下）、-ge（以上）",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "数値比較には -eq、-ne、-lt、-gt、-le、-ge を使用します。"
+    },
+    {
+      "id": "linux_packages_030",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで文字列を比較する方法はどれか？",
+      "options": {
+        "A": "[ \"$var1\" = \"$var2\" ]",
+        "B": "[ \"$var1\" == \"$var2\" ]",
+        "C": "[ \"$var1\" != \"$var2\" ]",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "= または == で等しさを、!= で不等を判定できます。変数は必ずクォートしてください。"
+    },
+    {
+      "id": "linux_packages_031",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで標準出力をリダイレクトするオプションはどれか？",
+      "options": {
+        "A": "> file",
+        "B": ">> file",
+        "C": "1> file",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "> はファイル上書き、>> は追記、1> は stdout を指定（デフォルト）です。"
+    },
+    {
+      "id": "linux_packages_032",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで標準エラーをリダイレクトするオプションはどれか？",
+      "options": {
+        "A": "2> file",
+        "B": "2>> file",
+        "C": "&> file",
+        "D": "AとB"
+      },
+      "correct": "D",
+      "explanation": "2> はエラー上書き、2>> はエラー追記です。&> は stdout と stderr 両方を指定ファイルに送ります。"
+    },
+    {
+      "id": "linux_packages_033",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで標準入力をリダイレクトするオプションはどれか？",
+      "options": {
+        "A": "< file",
+        "B": "<< file",
+        "C": "0< file",
+        "D": "AとC"
+      },
+      "correct": "D",
+      "explanation": "< でファイルを stdin に使用、<< は ヒアドキュメント（複数行入力）です。"
+    },
+    {
+      "id": "linux_packages_034",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで全出力（stdout と stderr）をファイルに送る方法はどれか？",
+      "options": {
+        "A": "&> file",
+        "B": "2>&1 | tee file",
+        "C": "> file 2>&1",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "&> file、2>&1 | grep、> file 2>&1 のいずれでも stdout と stderr を同じファイルに送れます。"
+    },
+    {
+      "id": "linux_packages_035",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで sed を使用して行を置換するコマンドはどれか？",
+      "options": {
+        "A": "sed 's/old/new/' file",
+        "B": "sed 's/old/new/g' file",
+        "C": "sed 's|old|new|g' file",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "sed の区切り文字は / または他の記号を使用できます。g フラグで全置換です。"
+    },
+    {
+      "id": "linux_packages_036",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで複数行をループで処理する方法はどれか？",
+      "options": {
+        "A": "while read line; do command; done < file",
+        "B": "for line in $(cat file); do command; done",
+        "C": "cat file | while read line; do command; done",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法でファイルの行をループに処理できます。パイプ使用時はサブシェル化に注意が必要です。"
+    },
+    {
+      "id": "linux_packages_037",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで trap コマンドの役割は何か？",
+      "options": {
+        "A": "シグナルハンドリングを設定",
+        "B": "エラーをトラップして処理",
+        "C": "プロセス終了時のクリーンアップ",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "trap で SIGTERM、SIGINT などシグナルにハンドラーを設定し、エラー時の処理やクリーンアップを実行できます。"
+    },
+    {
+      "id": "linux_packages_038",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでスクリプトを終了する exit コマンドとステータスコードの関係は？",
+      "options": {
+        "A": "exit 0 は成功、exit 1 は失敗",
+        "B": "exit コードは 0-255 の範囲",
+        "C": "exit コードが呼び出し元でアクセス可能",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "exit コードで終了ステータスを返し、呼び出し元が $? で確認できます。"
+    },
+    {
+      "id": "linux_packages_039",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで source コマンド（またはドット含むコマンド）の役割は何か？",
+      "options": {
+        "A": "別のスクリプトを現在のターミナルで実行",
+        "B": "別のスクリプトをサブシェルで実行",
+        "C": "ライブラリスクリプトを読み込む",
+        "D": "AとC"
+      },
+      "correct": "D",
+      "explanation": "source script.sh または . script.sh でスクリプトを現在のシェルで実行し、設定値やハウス行列を継承できます。"
+    },
+    {
+      "id": "linux_packages_040",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトでパッケージマネージャーがインストールされているか確認するコマンドは？",
+      "options": {
+        "A": "which apt",
+        "B": "command -v apt",
+        "C": "type apt",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "which、command -v、type のいずれでもコマンド存在確認ができます。"
+    },
+    {
+      "id": "linux_packages_041",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでパッケージがインストールされているか確認する最適な方法はどれか？",
+      "options": {
+        "A": "dpkg -l | grep package-name",
+        "B": "rpm -q package-name",
+        "C": "apt list --installed | grep package-name",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "各パッケージマネージャーに対応したコマンドで確認できます。スクリプト内での確認に dp pkg -l が推奨されることもあります。"
+    },
+    {
+      "id": "linux_packages_042",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで root ユーザーで実行されているか確認する方法は？",
+      "options": {
+        "A": "[ $EUID -eq 0 ]",
+        "B": "[ $(id -u) -eq 0 ]",
+        "C": "[ \"$USER\" = \"root\" ]",
+        "D": "AとB"
+      },
+      "correct": "D",
+      "explanation": "EUID（Effective UID）または id -u で root（UID=0）であるか確認できます。"
+    },
+    {
+      "id": "linux_packages_043",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでjson ファイルを解析する最適なコマンドはどれか？",
+      "options": {
+        "A": "grep",
+        "B": "jq",
+        "C": "cut",
+        "D": "awk"
+      },
+      "correct": "B",
+      "explanation": "jq は JSON 専用パーサーで、複雑な JSON 処理に最適です。grep や awk での解析は不正確です。"
+    },
+    {
+      "id": "linux_packages_044",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトでテキストの大文字小文字を変換する方法はどれか？",
+      "options": {
+        "A": "tr '[:lower:]' '[:upper:]' < file",
+        "B": "sed 's/.*/\\U&/' file",
+        "C": "awk '{print toupper($0)}' file",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "tr、sed、awk のいずれでも大文字小文字変換ができます。"
+    },
+    {
+      "id": "linux_packages_045",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトで改行コードを変換する方法は？",
+      "options": {
+        "A": "dos2unix file",
+        "B": "sed 's/\\r$//' file",
+        "C": "tr -d '\\r' < file",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "dos2unix、sed、tr のいずれでも改行コード変換ができます。"
+    },
+    {
+      "id": "linux_packages_046",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "基礎",
+      "question": "シェルスクリプトでファイルの行数をカウントする方法は？",
+      "options": {
+        "A": "wc -l file",
+        "B": "grep -c . file",
+        "C": "awk 'END {print NR}' file",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "wc -l、grep -c、awk END ブロックのいずれでも行数をカウントできます。"
+    },
+    {
+      "id": "linux_packages_047",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトでフロセスの実行を待機する方法は？",
+      "options": {
+        "A": "wait $PID",
+        "B": "wait",
+        "C": "sleep",
+        "D": "Aと B"
+      },
+      "correct": "D",
+      "explanation": "wait $PID で特定プロセス待機、wait で全バックグラウンドプロセス待機します。"
+    },
+    {
+      "id": "linux_packages_048",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで時間を遅延させる方法は？",
+      "options": {
+        "A": "sleep 5",
+        "B": "wait 5 seconds",
+        "C": "delay 5",
+        "D": "pause"
+      },
+      "correct": "A",
+      "explanation": "sleep コマンドで秒数を指定して遅延させます。sleep 5s、sleep 0.5 など形式も使用できます。"
+    },
+    {
+      "id": "linux_packages_049",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトで即時実行か遅延実行かをコマンドラインで選択する方法は？",
+      "options": {
+        "A": "シェル変数でコマンド実行サイトを条件分岐",
+        "B": "at または cron で遅延実行スケジュール",
+        "C": "eval for dynamic execution",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "全ての方法でコマンド実行時刻を制御できます。at は一度限り、cron は定期的です。"
+    },
+    {
+      "id": "linux_packages_050",
+      "genre": "Linux パッケージとシェルスクリプト",
+      "exam": "Linux",
+      "level": "中級",
+      "question": "シェルスクリプトのベストプラクティスはどれか？",
+      "options": {
+        "A": "長いスクリプトは複数ファイルに分割",
+        "B": "エラーハンドリングを実装（set -e など）",
+        "C": "コメント行で処理を説明",
+        "D": "全て正しい"
+      },
+      "correct": "D",
+      "explanation": "モジュール化、エラーハンドリング、ドキュメント化は全てシェルスクリプト作成の重要なベストプラクティスです。"
+    }
+  ]
+}
