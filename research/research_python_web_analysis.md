@@ -207,7 +207,7 @@ form = LoginForm()
 
 # CORRECT - CSRF middleware automatically adds token
 <form method="post">
-    {% csrf_token %}
+    {% raw %}{% csrf_token %}{% endraw %}
     {{ form }}
 </form>
 ```
