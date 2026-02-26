@@ -836,7 +836,7 @@
       <div class="quiz-nav">
         <a onclick="goHome()">ホーム</a>
         <span class="quiz-nav-sep">›</span>
-        <span id="bc-exam">-</span>
+        <a id="bc-exam" onclick="goToExam()" style="cursor:pointer; color:#2563eb; text-decoration:underline;">-</a>
         <span class="quiz-nav-sep">›</span>
         <span id="bc-section">-</span>
       </div>
@@ -929,6 +929,11 @@
 </main>
 
 <script>
+// Global error handler for debugging
+window.onerror = function(msg, url, lineNo, colNo, error) {
+  console.error('Global error:', {msg, url, lineNo, colNo, error});
+};
+
 /* ---------------------
    STATE
 --------------------- */
@@ -939,7 +944,9 @@ let score         = 0;
 let answered      = false;
 let currentFile   = '';
 let currentExam   = '';
+let currentExamId = '';   // exam ID for scrolling
 let currentSection = '';
+let currentSectionId = ''; // section ID for scrolling
 let selectedCount = 10;   // chosen by user
 let lastSessionQuestionIds = [];
 const QUESTION_STATS_KEY = 'quizforge_question_stats_v1';
@@ -991,8 +998,35 @@ function recordQuestionAnswer(file, qid, ok) {
 }
 
 function buildSessionQuestions(file, questions, count) {
+  // Guard: Check if questions is an array
+  if (!Array.isArray(questions)) {
+    console.error('buildSessionQuestions: questions is not an array', {file, questions, count});
+    return [];
+  }
+  
+  if (questions.length === 0) {
+    console.warn('buildSessionQuestions: questions is empty', {file, count});
+    return [];
+  }
+  
   const stats = loadQuestionStats();
   const prioritized = questions.map((q) => {
+    // Guard: Check if q is valid
+    if (!q || typeof q !== 'object') {
+      console.warn('Invalid question object:', q);
+      return null;
+    }
+    
+    if (!q.id) {
+      console.warn('Question missing id:', q);
+      return null;
+    }
+    
+    if (!q.choices || !Array.isArray(q.choices)) {
+      console.warn('Question missing choices (or options):', q);
+      return null;
+    }
+    
     const entry = getQuestionStatsEntry(stats, file, q.id);
     const unanswered = entry.answered === 0 ? 1 : 0;
     const hasWrong = entry.wrong > 0 ? 1 : 0;
@@ -1005,7 +1039,12 @@ function buildSessionQuestions(file, questions, count) {
       shown: entry.shown,
       rnd: Math.random()
     };
-  });
+  }).filter(Boolean); // Remove null entries
+
+  if (prioritized.length === 0) {
+    console.error('No valid questions after filtering');
+    return [];
+  }
 
   prioritized.sort((a, b) => {
     // 1) unanswered first
@@ -1031,7 +1070,21 @@ function showView(id) {
   document.getElementById('view-' + id).classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-function goHome() { showView('home'); }
+function goHome() { showView('home'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+function goToExam() { 
+  showView('home');
+  // スクロール対象要素を探す
+  if (currentExamId) {
+    setTimeout(() => {
+      const examEl = document.getElementById('exam-' + currentExamId);
+      if (examEl) {
+        examEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  } else {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
 
 function looksMojibake(text) {
   return !!text && /[縺繧繝蜈ｦ笊窶ｼ｢�]/.test(text);
@@ -1081,15 +1134,20 @@ function labelOf(obj, kind) {
 --------------------- */
 async function init() {
   try {
-    const res = await fetch('data/genres.json');
+    const res = await fetch('data/genres.json?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
+    if (!data || typeof data !== 'object') {
+      throw new Error('Invalid JSON structure');
+    }
     renderHome(data);
   } catch (e) {
+    console.error('Init error:', e);
     document.getElementById('home-content').innerHTML = `
       <div class="error-box">
         <h2>データ読み込みエラー</h2>
         <p>Webサーバー経由でアクセスしてください。</p>
+        <p style="color:red;font-size:0.9em;">Error: ${e.message}</p>
         <pre>npx serve .\n# または\npython3 -m http.server 8080</pre>
       </div>`;
   }
@@ -1097,6 +1155,13 @@ async function init() {
 
 function renderHome(data) {
   const wrap = document.getElementById('home-content');
+  
+  // Guard: Check if data has subjects
+  if (!data || !Array.isArray(data.subjects)) {
+    wrap.innerHTML = '<div class="error-box"><h2>データ形式エラー</h2><p>genres.json の形式が不正です。</p></div>';
+    return;
+  }
+  
   let html = `
     <div class="hero">
       <h1 class="hero-title">試験で<em>実力</em>をつける</h1>
@@ -1113,7 +1178,9 @@ function renderHome(data) {
         <span class="subject-head-desc">${subjectDesc}</span>
       </div>`;
 
-    for (const exam of subject.exams) {
+    // Guard: Check if subject.exams exists and is an array
+    const exams = subject.exams || [];
+    for (const exam of exams) {
       const examName = labelOf(exam, 'exam');
       const examLevel = looksMojibake(exam.level) ? '' : (exam.level || '');
       html += `
@@ -1130,14 +1197,24 @@ function renderHome(data) {
           <div class="sections-wrap">
             <div class="sections-grid">`;
 
-      for (const sec of exam.sections) {
+      // Guard: Check if exam.sections exists and is an array
+      const sections = exam.sections || [];
+      for (const sec of sections) {
+        // Guard: Check section validity
+        if (!sec || typeof sec !== 'object') continue;
+        
         const cs = !!sec.coming_soon;
         const sectionName = labelOf(sec, 'section');
         const sectionDesc = looksMojibake(sec.description) ? '' : (sec.description || '');
+        const fileAttr = sec.file || '';
+        const examIdAttr = exam.id || '';
+        const secIdAttr = sec.id || '';
+        const countAttr = sec.count || 0;
+        
         html += `
           <div class="sec-card${cs ? ' coming' : ''}"
             style="--c:${exam.color}"
-            ${cs ? '' : `onclick="openModal('${sec.file}','${examName}','${sectionName}',${sec.count})"`}>
+            ${cs ? '' : `onclick="openModal('${fileAttr}','${examName}','${sectionName}','${examIdAttr}','${secIdAttr}',${countAttr})"`}>
             <div class="sec-icon">${sec.icon}</div>
             <div class="sec-name">${sectionName}</div>
             <div class="sec-desc">${sectionDesc}</div>
@@ -1164,10 +1241,19 @@ function toggleExam(id) {
 --------------------- */
 const PRESETS = [10, 20, 50, 100];
 
-function openModal(file, exam, section, totalCount) {
+function openModal(file, exam, section, examId, sectionId, totalCount) {
+  // Validate inputs
+  if (!file || !exam || !section || totalCount === undefined || totalCount <= 0) {
+    console.error('Invalid openModal arguments:', {file, exam, section, examId, sectionId, totalCount});
+    alert('問題データが不正です。');
+    return;
+  }
+  
   currentFile    = file;
   currentExam    = exam;
+  currentExamId  = examId;
   currentSection = section;
+  currentSectionId = sectionId;
 
   document.getElementById('modal-genre-name').textContent = section;
   document.getElementById('max-count-label').textContent  = totalCount;
@@ -1241,16 +1327,59 @@ function confirmStart() {
 --------------------- */
 async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
   try {
+    if (!file || !exam || !section || count <= 0) {
+      throw new Error('Invalid parameters: file=' + file + ', exam=' + exam + ', section=' + section + ', count=' + count);
+    }
+    
     const res = await fetch(file);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
+    if (!res.ok) throw new Error('HTTP ' + res.status + ' - File not found: ' + file);
     const data = await res.json();
-    allQuestions = data.questions;
+    
+    allQuestions = (data.questions || []).map(q => {
+      const answers = ['A', 'B', 'C', 'D', 'E', 'F'];
+      let answerIdx = 0;
+      
+      // getParseAnswer index from string like 'A' -> 0, 'B' -> 1, etc.
+      if (q.correct && typeof q.correct === 'string') {
+        answerIdx = answers.indexOf(q.correct.toUpperCase());
+        if (answerIdx === -1) answerIdx = 0; // Default to first if invalid
+      } else if (typeof q.correct === 'number') {
+        answerIdx = q.correct;
+      }
+      
+      return {
+        ...q,
+        choices: q.choices || (q.options ? Object.values(q.options) : []),  // Map options dict to choices array
+        answer: q.answer !== undefined ? q.answer : answerIdx  // Map correct field to answer (convert A->0, B->1, etc.)
+      };
+    });
+    if (!Array.isArray(allQuestions)) {
+      throw new Error('Questions data is not an array. Got: ' + typeof allQuestions);
+    }
+    
+    if (allQuestions.length === 0) {
+      throw new Error('No questions found in: ' + file);
+    }
+    
     if (Array.isArray(fixedQuestionIds) && fixedQuestionIds.length) {
       const qMap = new Map(allQuestions.map((q) => [q.id, q]));
       sessionQs = fixedQuestionIds.map((id) => qMap.get(id)).filter(Boolean);
     } else {
       sessionQs = buildSessionQuestions(file, allQuestions, count);
     }
+    
+    if (!sessionQs || sessionQs.length === 0) {
+      throw new Error('No questions selected. sessionQs length: ' + (sessionQs ? sessionQs.length : 'undefined'));
+    }
+    
+    // Validate question structure (should have choices, mapped from options)
+    for (let i = 0; i < Math.min(sessionQs.length, 5); i++) {
+      const q = sessionQs[i];
+      if (!q || typeof q !== 'object' || !q.question || !q.choices || !Array.isArray(q.choices)) {
+        throw new Error('Invalid question structure at index ' + i + ': ' + JSON.stringify(q, null, 2));
+      }
+    }
+    
     lastSessionQuestionIds = sessionQs.map((q) => q.id);
 
     currentIdx = 0;
@@ -1265,7 +1394,8 @@ async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
     showView('quiz');
     renderQuestion();
   } catch(e) {
-    alert('問題ファイルを読み込めませんでした。\nWebサーバー経由でアクセスしてください。\n\n' + e);
+    console.error('startQuiz error:', e);
+    alert('問題ファイルを読み込めませんでした。\nWebサーバー経由でアクセスしてください。\n\n' + e.message);
   }
 }
 
@@ -1358,6 +1488,14 @@ function renderQuestion() {
   ensureGeminiButton();
   const q     = sessionQs[currentIdx];
   const total = sessionQs.length;
+  
+  // Guard: Check if q is valid
+  if (!q || !q.question || !q.choices || !Array.isArray(q.choices)) {
+    console.error('Invalid question object (missing question or choices):', q);
+    alert('問題データが不正です。\n' + JSON.stringify(q, null, 2));
+    return;
+  }
+  
   const pct   = Math.round((currentIdx / total) * 100);
   if (q && q.id) recordQuestionShown(currentFile, q.id);
 

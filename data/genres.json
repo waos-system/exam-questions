@@ -927,7 +927,7 @@
               "icon": "🔍",
               "description": "SELECT・WHERE・ORDER BY・NULLハンドリング",
               "file": "data/lang/questions_sql_select.json",
-              "count": 50,
+              "count": 10,
               "coming_soon": false
             },
             {
@@ -936,7 +936,7 @@
               "icon": "🧮",
               "description": "文字・数値・日付・変換関数",
               "file": "data/lang/questions_sql_functions.json",
-              "count": 50,
+              "count": 10,
               "coming_soon": false
             },
             {
@@ -945,7 +945,7 @@
               "icon": "📊",
               "description": "GROUP BY・HAVING・集計関数",
               "file": "data/lang/questions_sql_group.json",
-              "count": 50,
+              "count": 10,
               "coming_soon": false
             },
             {
@@ -954,7 +954,7 @@
               "icon": "🔗",
               "description": "INNER/OUTER JOIN・自己結合・外部結合",
               "file": "data/lang/questions_sql_join.json",
-              "count": 50,
+              "count": 10,
               "coming_soon": false
             },
             {
@@ -963,7 +963,7 @@
               "icon": "🧠",
               "description": "単一行・複数行・相関副問合せ",
               "file": "data/lang/questions_sql_subquery.json",
-              "count": 50,
+              "count": 10,
               "coming_soon": false
             },
             {
@@ -972,7 +972,7 @@
               "icon": "🧱",
               "description": "INSERT/UPDATE/DELETE・CREATE/ALTER・COMMIT/ROLLBACK",
               "file": "data/lang/questions_sql_dml_ddl.json",
-              "count": 50,
+              "count": 10,
               "coming_soon": false
             },
             {
@@ -990,7 +990,7 @@
               "icon": "📈",
               "description": "ウィンドウ関数・ROW_NUMBER・RANK・分析関数",
               "file": "data/lang/questions_sql_window_functions.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             },
             {
@@ -999,7 +999,7 @@
               "icon": "⚙️",
               "description": "トランザクション・インデックス・クエリ最適化・実行計画",
               "file": "data/lang/questions_sql_advanced.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             }
           ]
@@ -1064,7 +1064,7 @@
               "icon": "👤",
               "description": "ユーザー作成・グループ管理・sudo権限設定・パスワード管理",
               "file": "data/lang/questions_linux_users_groups.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             },
             {
@@ -1073,7 +1073,7 @@
               "icon": "⚙️",
               "description": "ブートシーケンス・GRUB・initramfs・カーネル管理・モジュール",
               "file": "data/lang/questions_linux_boot_kernel.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             },
             {
@@ -1082,7 +1082,7 @@
               "icon": "🔥",
               "description": "iptables・netfilter・ufw・ポートフィルタリング・NAT",
               "file": "data/lang/questions_linux_firewall.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             },
             {
@@ -1091,7 +1091,7 @@
               "icon": "📡",
               "description": "DHCP・DNS設定・ネットワークインターフェース・resolv.conf・BIND",
               "file": "data/lang/questions_linux_network_dns.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             },
             {
@@ -1100,7 +1100,7 @@
               "icon": "💾",
               "description": "パーティション・LVM・ファイルシステム・バックアップ・fsck・マウント",
               "file": "data/lang/questions_linux_storage.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             },
             {
@@ -1109,7 +1109,7 @@
               "icon": "🔍",
               "description": "ログ管理・syslog・journalctl・パフォーマンスチューニング・リソース監視",
               "file": "data/lang/questions_linux_sysadmin.json",
-              "count": 100,
+              "count": 50,
               "coming_soon": false
             }
           ]
@@ -1175,7 +1175,7 @@
               "file": "data/english/questions_en_conversation.json",
               "count": 100,
               "questionCount": 500
-            }
+            },
             {
               "id": "en_writing",
               "name": "ライティング",

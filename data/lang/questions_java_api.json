@@ -1,0 +1,127 @@
+{
+  "genre": "標準APIと文字列操作",
+  "exam": "Java",
+  "category": "java_api",
+  "questions": [
+    {
+      "id": "java_api_001",
+      "question": "String クラスについて、正しい説明はどれか。",
+      "choices": [
+        "String は mutable（変更可能）である",
+        "String は immutable（不変）であり、一度作成されると変更できない",
+        "String クラスは値型である",
+        "String 値の比較には == を使用すべき"
+      ],
+      "answer": 1,
+      "explanation": "Java の String は immutable です。'+' 演算子で連結した場合、新しい String オブジェクトが生成されます。比較は equals() メソッドを使用すべきです。"
+    },
+    {
+      "id": "java_api_002",
+      "question": "以下のコードの出力は何か？\nString s1 = \"Hello\";\nString s2 = \"Hello\";\nString s3 = new String(\"Hello\");\nSystem.out.println(s1 == s2);\nSystem.out.println(s1 == s3);\nSystem.out.println(s1.equals(s3));",
+      "choices": [
+        "true, false, false",
+        "true, false, true",
+        "false, false, true",
+        "true, true, true"
+      ],
+      "answer": 1,
+      "explanation": "s1 と s2 はストリングプール上の同じ \"Hello\" を参照（== は true）。s3 は新しいオブジェクト（== は false）。equals() は内容比較で true です。"
+    },
+    {
+      "id": "java_api_003",
+      "question": "String の substring() メソッドについて、正しい説明はどれか。",
+      "choices": [
+        "substring(1, 4) は 1 文字目から 4 文字目までを返す",
+        "substring(1, 4) は 1 文字目から 3 文字目までを返す（4 は含まない）",
+        "substring(4) は 4 番目の文字を返す",
+        "substring メソッドは String を変更する"
+      ],
+      "answer": 1,
+      "explanation": "substring(start, end) は start（含む）から end（含まない）までの部分文字列を返します。"
+    },
+    {
+      "id": "java_api_004",
+      "question": "Math クラスについて、正しい説明はどれか。",
+      "choices": [
+        "Math.random() は 0 から 1 の double 値を返す",
+        "Math.abs() は相対パスを返す",
+        "Math.pow(2, 3) は 3 を返す",
+        "Math.sqrt(-1) は NaN を返さない"
+      ],
+      "answer": 0,
+      "explanation": "Math.random() は [0.0, 1.0) の範囲の double を返します。Math.sqrt(-1) は NaN を返します。"
+    },
+    {
+      "id": "java_api_005",
+      "question": "java.util パッケージの Collections クラスについて、正しい説明はどれか。",
+      "choices": [
+        "Collections は Map インターフェースを操作するクラス",
+        "Collections.sort() で Collection を並べ替え可能",
+        "Collections は List、Set の操作メソッドを提供する",
+        "2 と 3 が正しい"
+      ],
+      "answer": 3,
+      "explanation": "Collections は List、Set などの Collection オブジェクト操作用のユーティリティクラスです。sort()、reverse()、max() など多くの静的メソッドを提供します。"
+    },
+    {
+      "id": "java_api_006",
+      "question": "String の split() メソッドについて、正しい説明はどれか。",
+      "choices": [
+        "split(\" \") は空白で分割する",
+        "split(\".\") は正規表現として解釈される",
+        "split(\",\") は複数の ',' を区切り文字として扱う",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "split() は正規表現を使用します。特殊文字はエスケープが必要です（例：'\\\\\\\\'）。"
+    },
+    {
+      "id": "java_api_007",
+      "question": "Character クラスについて、正しい説明はどれか。",
+      "choices": [
+        "Character.isDigit('5') は true を返す",
+        "Character.isLetter('A') は true を返す",
+        "Character.isUpperCase('a') は false を返す",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "Character クラスは char 値の性質判定メソッドを提供します。すべての説明が正しいです。"
+    },
+    {
+      "id": "java_api_008",
+      "question": "Java 8 以降の Date / Time API について、正しい説明はどれか。",
+      "choices": [
+        "java.time パッケージは LocalDate、LocalTime、ZonedDateTime を提供",
+        "java.util.Date は旧 API であり、避けるべき",
+        "LocalDateTime は タイムゾーン情報を保持しない",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "java.time は immutable で thread-safe な新しい Date / Time API です。LocalDateTime はタイムゾーンなし、ZonedDateTime はタイムゾーン付きです。"
+    },
+    {
+      "id": "java_api_009",
+      "question": "String の replace() と replaceAll() の違いについて、正しいものはどれか。",
+      "choices": [
+        "replace() は最初の一致のみ置換し、replaceAll() はすべて置換",
+        "replaceAll() は正規表現をサポートし、replace() は単純文字列置換",
+        "replaceAll() は必ずパフォーマンスが悪い",
+        "1 と 2 が正しい"
+      ],
+      "answer": 3,
+      "explanation": "replaceAll() は正規表現対応ですべて置換、replace() は単純文字列置換です。"
+    },
+    {
+      "id": "java_api_010",
+      "question": "java.util.Arrays クラスについて、正しい説明はどれか。",
+      "choices": [
+        "Arrays.sort() は配列をソートする",
+        "Arrays.binarySearch() はソート済み配列で二分探索を行う",
+        "Arrays.equals() は配列の内容を比較する",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "Arrays は配列操作用ユーティリティクラスです。すべての説明が正しいです。"
+    }
+  ]
+}

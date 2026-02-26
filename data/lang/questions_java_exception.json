@@ -1,0 +1,127 @@
+{
+  "genre": "例外処理と入出力",
+  "exam": "Java",
+  "category": "java_exception",
+  "questions": [
+    {
+      "id": "java_exception_001",
+      "question": "Java の例外階層について、正しい説明はどれか。",
+      "choices": [
+        "Throwable → Exception → RuntimeException",
+        "Exception → Throwable → RuntimeException",
+        "RuntimeException → Throwable → Exception",
+        "すべて正しい"
+      ],
+      "answer": 0,
+      "explanation": "Java の例外は Throwable を親とし、Exception と Error に分かれ、Exception の子に RuntimeException があります。"
+    },
+    {
+      "id": "java_exception_002",
+      "question": "checked exception と unchecked exception の違いについて、正しいものはどれか。",
+      "choices": [
+        "Checked exception はコンパイル時にチェックされ、try-catch か throws が必須",
+        "Unchecked exception （RuntimeException）はコンパイル時チェック不要",
+        "IOException は checked exception である",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "すべの説明が正しいです。RuntimeException とその子はunchecked、他の Exception は checked です。"
+    },
+    {
+      "id": "java_exception_003",
+      "question": "以下のコードで出力される例外はどれか？\nint[] arr = {1, 2, 3};\ntry {\n  System.out.println(arr[5]);\n} catch (ArrayIndexOutOfBoundsException e) {\n  System.out.println(\"caught\");\n}",
+      "choices": [
+        "caught が出力される",
+        "ArrayIndexOutOfBoundsException が出力される",
+        "コンパイルエラー",
+        "何も出力されない"
+      ],
+      "answer": 0,
+      "explanation": "配列範囲外アクセスは ArrayIndexOutOfBoundsException（unchecked）が発生し、catch される。『caught』が出力されます。"
+    },
+    {
+      "id": "java_exception_004",
+      "question": "try-catch-finally ブロックについて、正しい説明はどれか。",
+      "choices": [
+        "finally ブロックは例外発生の有無に関わらず必ず実行される",
+        "finally ブロックは複数記述可能",
+        "finally ブロックは catch がない場合、記述できない",
+        "finally ブロック内での return は finally 内で終了する"
+      ],
+      "answer": 0,
+      "explanation":  "finally は例外の有無とは無関係に実行されます。try-finally（catch なし）も可能です。finally 内の return は外側の return を上書きします。"
+    },
+    {
+      "id": "java_exception_005",
+      "question": "throws キーワードについて、正しい説明はどれか。",
+      "choices": [
+        "throws はメソッドが例外を『投げる』可能性を宣言",
+        "throws キーワードはチェック例外でのみ使用される",
+        "throws を記述したメソッドはその例外を必ず発生させる",
+        "throws の複数列挙は不可"
+      ],
+      "answer": 0,
+      "explanation": "throws はメソッドが例外を投げる可能性を宣言し、呼び出し側で処理を強要します。複数例外は『throws IOException, SQLException』で列挙可能です。"
+    },
+    {
+      "id": "java_exception_006",
+      "question": "try-with-resources ステートメント（Java 7 以降）について、正しい説明はどれか。",
+      "choices": [
+        "AutoCloseable インターフェースを実装したリソースを自動的にクローズ",
+        "try-with-resources は try-catch-finally の簡潔な代替",
+        "複数のリソースを管理可能",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "try-with-resources([resource]) により、ブロック終了時に自動的にリソースがクローズされます。"
+    },
+    {
+      "id": "java_exception_007",
+      "question": "ファイル入出力（I/O）について、正しい説明はどれか。",
+      "choices": [
+        "FileInputStream はバイト単位ファイル読み込み",
+        "FileReader は文字単位ファイル読み込み",
+        "BufferedReader はバッファリングによる効率的な入出力",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "Java I/O は複数のストリームクラスを提供します。すべての説明が正しいです。"
+    },
+    {
+      "id": "java_exception_008",
+      "question": "NullPointerException について、正しい説明はどれか。",
+      "choices": [
+        "null 参照に対してメソッドやプロパティにアクセスした場合に発生",
+        "NullPointerException は checked exception",
+        "NullPointerException は予防不可の例外である",
+        "null チェックは不要である"
+      ],
+      "answer": 0,
+      "explanation": "NullPointerException は unchecked exception で、null チェックにより予防可能です。Optional クラスの使用も推奨されます。"
+    },
+    {
+      "id": "java_exception_009",
+      "question": "カスタム例外について、正しい説明はどれか。",
+      "choices": [
+        "Exception または RuntimeException を継承",
+        "コンストラクタで詳細メッセージ、原因例外を指定可能",
+        "カスタム例外は checked にも unchecked にもできる",
+        "すべて正しい"
+      ],
+      "answer": 3,
+      "explanation": "カスタム例外は Exception（checked）または RuntimeException（unchecked）を継承します。"
+    },
+    {
+      "id": "java_exception_010",
+      "question": "例外処理のベストプラクティスとして正しいものはどれか。",
+      "choices": [
+        "すべての例外を catch (Exception e) で一括処理",
+        "例外をサイレントに無視",
+        "具体的な例外型で catch し、適切なロギング・リカバリーを実施",
+        "すべてのメソッドで throws Exception を記述"
+      ],
+      "answer": 2,
+      "explanation": "具体的な例外を catch し、ログ記録、リカバリー、または上位層へ伝播するのが良い設計です。"
+    }
+  ]
+}

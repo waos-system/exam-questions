@@ -1,0 +1,17 @@
+{
+  "genre": "DML/DDL/TCL",
+  "exam": "SQL",
+  "category": "sql_dml_ddl",
+  "questions": [
+    {"id": "sql_dml_ddl_001", "question": "DML（Data Manipulation Language）について、正しい説明はどれか。", "choices": ["INSERT、UPDATE、DELETE、SELECT 等のデータ操作言語", "テーブルの行データを操作", "スキーマには影響を与えない", "すべて正しい"], "answer": 3, "explanation": "DML はデータの読み書き・更新を行う言語です。"},
+    {"id": "sql_dml_ddl_002", "question": "DDL（Data Definition Language）について、正しい説明はどれか。", "choices": ["CREATE、ALTER、DROP 等のスキーマ定義言語", "テーブルやインデックスを作成・変更・削除", "自動COMMIT されることが多い", "すべて正しい"], "answer": 3, "explanation": "DDL はスキーマ操作で、通常自動 COMMIT されます。"},
+    {"id": "sql_dml_ddl_003", "question": "TCL（Transaction Control Language）について、正しい説明はどれか。", "choices": ["COMMIT、ROLLBACK、SAVEPOINT 等のトランザクション制御", "データベースの整合性保証", "DML 操作の確定・取り消し", "すべて正しい"], "answer": 3, "explanation": "TCL はトランザクションの原子性を保証します。"},
+    {"id": "sql_dml_ddl_004", "question": "INSERT ステートメントについて、正しい説明はどれか。", "choices": ["新しい行をテーブルに挿入", "INSERT INTO table (col1, col2) VALUES (val1, val2)", "列の指定を省略すればすべての列に値を指定", "すべて正しい"], "answer": 3, "explanation": "INSERT の構文は複数の方法があります。"},
+    {"id": "sql_dml_ddl_005", "question": "UPDATE ステートメントについて、正しい説明はどれか。", "choices": ["既存行のデータを更新", "WHERE 句を使用して対象行を指定", "WHERE がない場合、すべての行が更新される", "すべて正しい"], "answer": 3, "explanation": "UPDATE 操作は意図しない全行更新に注意が必要です。"},
+    {"id": "sql_dml_ddl_006", "question": "DELETE ステートメントについて、正しい説明はどれか。", "choices": ["行をテーブルから削除", "WHERE 句で削除対象を指定", "DELETE と TRUNCATE の違いは通常の DELETE は COMMIT 前にロールバック可能", "1 と 2 が正しい"], "answer": 0, "explanation": "DELETE は行ごとに削除、TRUNCATE はテーブル全体をリセットします。"},
+    {"id": "sql_dml_ddl_007", "question": "TRUNCATE ステートメントについて、正しい説明はどれか。", "choices": ["テーブルのすべての行を削除", "WHERE 句は使用できない", "DELETE より高速", "すべて正しい"], "answer": 3, "explanation": "TRUNCATE は identity のリセットも行う場合が多いです。"},
+    {"id": "sql_dml_ddl_008", "question": "CREATE TABLE について、正しい説明はどれか。", "choices": ["新しいテーブルを作成", "列名、データ型、制約を定義", "PRIMARY KEY、FOREIGN KEY 等の制約を設定", "すべて正しい"], "answer": 3, "explanation": "CREATE TABLE はスキーマ定義の基本です。"},
+    {"id": "sql_dml_ddl_009", "question": "ALTER TABLE について、正しい説明はどれか。", "choices": ["既存テーブルの構造を変更", "列の追加・削除・型変更が可能", "既にデータが存在する場合、変更に制限がある場合がある", "すべて正しい"], "answer": 3, "explanation": "ALTER TABLE の制限は DB と既存データに依存します。"},
+    {"id": "sql_dml_ddl_010", "question": "COMMIT と ROLLBACK について、正しい説明はどれか。", "choices": ["COMMIT はトランザクションを確定", "ROLLBACK はトランザクション開始時点に戻す", "Autocommit モード有効時、DML は自動確定", "すべて正しい"], "answer": 3, "explanation": "トランザクション制御の理解はデータ整合性維持に必須です。"}
+  ]
+}
