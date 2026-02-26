@@ -12,7 +12,9 @@
         "Only body paragraphs without an introduction or conclusion"
       ],
       "answer": 0,
-      "explanation": "A well-organized essay follows a clear structure: introduction with thesis, multiple body paragraphs with supporting evidence, and conclusion that reinforces main ideas. This structure helps readers understand and follow the writer's argument effectively."
+      "explanation": "A well-organized essay follows a clear structure: introduction with thesis, multiple body paragraphs with supporting evidence, and conclusion that reinforces main ideas. This structure helps readers understand and follow the writer's argument effectively.",
+      "ja_question": "[Japanese translation needed: Which of the following is the BEST description of ...]",
+      "ja_explanation": "[Japanese translation needed: A well-organized essay follows a clear structure: ...]"
     },
     {
       "id": "en_writing_002",
@@ -24,7 +26,9 @@
         "To provide interesting facts to engage readers"
       ],
       "answer": 1,
-      "explanation": "A thesis statement clearly presents the main argument or purpose of the essay. It serves as a roadmap for both the writer and reader, indicating what the essay will prove or discuss. Typically placed in the introduction."
+      "explanation": "A thesis statement clearly presents the main argument or purpose of the essay. It serves as a roadmap for both the writer and reader, indicating what the essay will prove or discuss. Typically placed in the introduction.",
+      "ja_question": "[Japanese translation needed: What is the primary function of a thesis statement...]",
+      "ja_explanation": "[Japanese translation needed: A thesis statement clearly presents the main argum...]"
     },
     {
       "id": "en_writing_003",
@@ -36,7 +40,9 @@
         "Randomly arranging arguments without logical progression"
       ],
       "answer": 2,
-      "explanation": "Organizing arguments from strongest to weakest creates a compelling essay that anchors readers with your strongest evidence early, making the argument more persuasive and memorable. This is known as climactic order."
+      "explanation": "Organizing arguments from strongest to weakest creates a compelling essay that anchors readers with your strongest evidence early, making the argument more persuasive and memorable. This is known as climactic order.",
+      "ja_question": "[Japanese translation needed: Which strategy is MOST effective for organizing an...]",
+      "ja_explanation": "[Japanese translation needed: Organizing arguments from strongest to weakest cre...]"
     },
     {
       "id": "en_writing_004",
@@ -48,7 +54,9 @@
         "Provide a list of all citations"
       ],
       "answer": 1,
-      "explanation": "An effective conclusion synthesizes the essay's main points, restates the thesis with fresh language, and often addresses broader implications or future considerations. It provides closure while reinforcing the essay's central message."
+      "explanation": "An effective conclusion synthesizes the essay's main points, restates the thesis with fresh language, and often addresses broader implications or future considerations. It provides closure while reinforcing the essay's central message.",
+      "ja_question": "[Japanese translation needed: What should the conclusion of an essay accomplish?...]",
+      "ja_explanation": "[Japanese translation needed: An effective conclusion synthesizes the essay's ma...]"
     },
     {
       "id": "en_writing_005",
@@ -60,7 +68,9 @@
         "Avoiding any mention of previous paragraphs"
       ],
       "answer": 1,
-      "explanation": "Effective transitions using words like 'Furthermore,' 'However,' 'In addition,' and 'Consequently' guide readers through the essay's logic, creating coherence and showing relationships between ideas across paragraphs."
+      "explanation": "Effective transitions using words like 'Furthermore,' 'However,' 'In addition,' and 'Consequently' guide readers through the essay's logic, creating coherence and showing relationships between ideas across paragraphs.",
+      "ja_question": "[Japanese translation needed: Which transition technique BEST helps organize ide...]",
+      "ja_explanation": "[Japanese translation needed: Effective transitions using words like 'Furthermor...]"
     },
     {
       "id": "en_writing_006",
@@ -72,7 +82,9 @@
         "The final sentence that summarizes the next paragraph"
       ],
       "answer": 1,
-      "explanation": "A topic sentence presents the main idea of a paragraph, typically placed at the beginning. It guides the reader and helps the writer stay focused. Supporting sentences that follow develop this main idea with evidence and examples."
+      "explanation": "A topic sentence presents the main idea of a paragraph, typically placed at the beginning. It guides the reader and helps the writer stay focused. Supporting sentences that follow develop this main idea with evidence and examples.",
+      "ja_question": "[Japanese translation needed: What is a topic sentence in paragraph development?...]",
+      "ja_explanation": "[Japanese translation needed: A topic sentence presents the main idea of a parag...]"
     },
     {
       "id": "en_writing_007",
@@ -84,7 +96,9 @@
         "They should shift focus to a different topic"
       ],
       "answer": 1,
-      "explanation": "Supporting sentences provide relevant evidence, examples, explanations, or analysis that directly develops the topic sentence. This creates a coherent paragraph where all sentences work together to support the main idea."
+      "explanation": "Supporting sentences provide relevant evidence, examples, explanations, or analysis that directly develops the topic sentence. This creates a coherent paragraph where all sentences work together to support the main idea.",
+      "ja_question": "[Japanese translation needed: How should supporting sentences in a paragraph rel...]",
+      "ja_explanation": "[Japanese translation needed: Supporting sentences provide relevant evidence, ex...]"
     },
     {
       "id": "en_writing_008",
@@ -96,7 +110,9 @@
         "A paragraph with random sentences without connection"
       ],
       "answer": 1,
-      "explanation": "Paragraph unity means all sentences in a paragraph relate to and develop the same main idea. When all sentences connect to the topic sentence, the paragraph is focused and coherent, making it easier for readers to understand."
+      "explanation": "Paragraph unity means all sentences in a paragraph relate to and develop the same main idea. When all sentences connect to the topic sentence, the paragraph is focused and coherent, making it easier for readers to understand.",
+      "ja_question": "[Japanese translation needed: Which of the following demonstrates effective para...]",
+      "ja_explanation": "[Japanese translation needed: Paragraph unity means all sentences in a paragraph...]"
     },
     {
       "id": "en_writing_009",
@@ -108,7 +124,9 @@
         "Ask a question that confuses readers"
       ],
       "answer": 2,
-      "explanation": "A concluding sentence (also called a clincher sentence) wraps up the paragraph by synthesizing the supporting evidence or restating the main idea in a new way. It provides a smooth transition to the next paragraph."
+      "explanation": "A concluding sentence (also called a clincher sentence) wraps up the paragraph by synthesizing the supporting evidence or restating the main idea in a new way. It provides a smooth transition to the next paragraph.",
+      "ja_question": "[Japanese translation needed: What should a concluding sentence in a paragraph d...]",
+      "ja_explanation": "[Japanese translation needed: A concluding sentence (also called a clincher sent...]"
     },
     {
       "id": "en_writing_010",
@@ -120,7 +138,9 @@
         "Using overly complex vocabulary without clarity"
       ],
       "answer": 1,
-      "explanation": "Effective paragraph development uses concrete examples, research findings, statistics, and logical explanations to support the main idea. This makes the argument credible and helps readers understand and accept the writer's claim."
+      "explanation": "Effective paragraph development uses concrete examples, research findings, statistics, and logical explanations to support the main idea. This makes the argument credible and helps readers understand and accept the writer's claim.",
+      "ja_question": "[Japanese translation needed: Which writing technique would BEST develop a parag...]",
+      "ja_explanation": "[Japanese translation needed: Effective paragraph development uses concrete exam...]"
     },
     {
       "id": "en_writing_011",
@@ -132,7 +152,9 @@
         "Although it was raining, she went for a run."
       ],
       "answer": 1,
-      "explanation": "A simple sentence contains one independent clause (subject + verb). 'She walked to the store and bought groceries' has one subject performing two actions, making it simple. Other options have multiple clauses, making them complex or compound."
+      "explanation": "A simple sentence contains one independent clause (subject + verb). 'She walked to the store and bought groceries' has one subject performing two actions, making it simple. Other options have multiple clauses, making them complex or compound.",
+      "ja_question": "[Japanese translation needed: Which of the following is an example of a simple s...]",
+      "ja_explanation": "[Japanese translation needed: A simple sentence contains one independent clause ...]"
     },
     {
       "id": "en_writing_012",
@@ -144,7 +166,9 @@
         "Using only complex sentences regardless of content"
       ],
       "answer": 1,
-      "explanation": "Varying sentence length and structure maintains reader interest and clarifies relationships between ideas. Combining related ideas into a well-constructed sentence is more readable than repeating the same structure monotonously."
+      "explanation": "Varying sentence length and structure maintains reader interest and clarifies relationships between ideas. Combining related ideas into a well-constructed sentence is more readable than repeating the same structure monotonously.",
+      "ja_question": "[Japanese translation needed: Which option demonstrates effective sentence varie...]",
+      "ja_explanation": "[Japanese translation needed: Varying sentence length and structure maintains re...]"
     },
     {
       "id": "en_writing_013",
@@ -156,7 +180,9 @@
         "A sentence with difficult vocabulary"
       ],
       "answer": 1,
-      "explanation": "A run-on sentence incorrectly combines independent clauses. Example: 'The meeting lasted three hours it was very productive.' This should be corrected with a period, semicolon, or conjunction to create two separate sentences or a properly coordinated sentence."
+      "explanation": "A run-on sentence incorrectly combines independent clauses. Example: 'The meeting lasted three hours it was very productive.' This should be corrected with a period, semicolon, or conjunction to create two separate sentences or a properly coordinated sentence.",
+      "ja_question": "[Japanese translation needed: What is a run-on sentence?...]",
+      "ja_explanation": "[Japanese translation needed: A run-on sentence incorrectly combines independent...]"
     },
     {
       "id": "en_writing_014",
@@ -168,7 +194,9 @@
         "She wanted to attend the concert, she had no money, she bought a ticket anyway."
       ],
       "answer": 0,
-      "explanation": "Coordination connects related independent clauses with appropriate conjunctions and punctuation. 'But' correctly shows the contrasting relationship between wanting to attend and lacking money. Option B's 'and' doesn't show the contrast, and D is a run-on sentence."
+      "explanation": "Coordination connects related independent clauses with appropriate conjunctions and punctuation. 'But' correctly shows the contrasting relationship between wanting to attend and lacking money. Option B's 'and' doesn't show the contrast, and D is a run-on sentence.",
+      "ja_question": "[Japanese translation needed: Which sentence demonstrates correct use of coordin...]",
+      "ja_explanation": "[Japanese translation needed: Coordination connects related independent clauses ...]"
     },
     {
       "id": "en_writing_015",
@@ -180,7 +208,9 @@
         "A clause describing physical location"
       ],
       "answer": 1,
-      "explanation": "A dependent clause has a subject and verb but cannot stand alone as a sentence. It needs an independent clause to form a complete thought. Example: 'Because it was raining' (dependent) requires an independent clause to complete it."
+      "explanation": "A dependent clause has a subject and verb but cannot stand alone as a sentence. It needs an independent clause to form a complete thought. Example: 'Because it was raining' (dependent) requires an independent clause to complete it.",
+      "ja_question": "[Japanese translation needed: What is a dependent clause?...]",
+      "ja_explanation": "[Japanese translation needed: A dependent clause has a subject and verb but cann...]"
     },
     {
       "id": "en_writing_016",
@@ -192,7 +222,9 @@
         "She failed the exam because studying hard was not enough."
       ],
       "answer": 0,
-      "explanation": "Subordination using 'Although' shows that despite studying hard (expectation), she failed (unexpected result). This clearly demonstrates the relationship between the two ideas. Options B and C lack clear logical connections; option D is awkwardly worded."
+      "explanation": "Subordination using 'Although' shows that despite studying hard (expectation), she failed (unexpected result). This clearly demonstrates the relationship between the two ideas. Options B and C lack clear logical connections; option D is awkwardly worded.",
+      "ja_question": "[Japanese translation needed: Which sentence correctly uses subordination to sho...]",
+      "ja_explanation": "[Japanese translation needed: Subordination using 'Although' shows that despite ...]"
     },
     {
       "id": "en_writing_017",
@@ -204,7 +236,9 @@
         "Using present tense for past events and past tense for current facts"
       ],
       "answer": 1,
-      "explanation": "Consistency in verb tense maintains clarity and prevents reader confusion. Past events should remain in past tense, present facts in present tense. Changes in tense should reflect actual time shifts in the narrative or argument."
+      "explanation": "Consistency in verb tense maintains clarity and prevents reader confusion. Past events should remain in past tense, present facts in present tense. Changes in tense should reflect actual time shifts in the narrative or argument.",
+      "ja_question": "[Japanese translation needed: Which aspect of verb tense is MOST important when ...]",
+      "ja_explanation": "[Japanese translation needed: Consistency in verb tense maintains clarity and pr...]"
     },
     {
       "id": "en_writing_018",
@@ -216,7 +250,9 @@
         "Each of the boys have been studying."
       ],
       "answer": 1,
-      "explanation": "'Team' is a collective noun (singular), so it requires a singular verb 'is.' While 'data' is plural (plural verb 'suggest'), 'results' must also be plural ('were'). 'Each' is singular, requiring 'has,' not 'have.'"
+      "explanation": "'Team' is a collective noun (singular), so it requires a singular verb 'is.' While 'data' is plural (plural verb 'suggest'), 'results' must also be plural ('were'). 'Each' is singular, requiring 'has,' not 'have.'",
+      "ja_question": "[Japanese translation needed: Which sentence demonstrates correct subject-verb a...]",
+      "ja_explanation": "[Japanese translation needed: 'Team' is a collective noun (singular), so it requ...]"
     },
     {
       "id": "en_writing_019",
@@ -228,7 +264,9 @@
         "have"
       ],
       "answer": 1,
-      "explanation": "This is a past conditional (contrary to fact) requiring 'had' in the if-clause and 'would have' in the main clause. 'If he had known' is the correct structure for expressing an unrealized condition in the past."
+      "explanation": "This is a past conditional (contrary to fact) requiring 'had' in the if-clause and 'would have' in the main clause. 'If he had known' is the correct structure for expressing an unrealized condition in the past.",
+      "ja_question": "[Japanese translation needed: What is the correct verb form in this sentence: 'I...]",
+      "ja_explanation": "[Japanese translation needed: This is a past conditional (contrary to fact) requ...]"
     },
     {
       "id": "en_writing_020",
@@ -240,7 +278,9 @@
         "The research are showing that climate change is be affecting."
       ],
       "answer": 1,
-      "explanation": "In academic writing, simple present tense ('shows,' 'affects') is preferred for stating facts and findings. Progressive aspect ('is showing') is acceptable but less formal. Options C and D contain grammatical errors."
+      "explanation": "In academic writing, simple present tense ('shows,' 'affects') is preferred for stating facts and findings. Progressive aspect ('is showing') is acceptable but less formal. Options C and D contain grammatical errors.",
+      "ja_question": "[Japanese translation needed: Which sentence uses progressive aspect correctly i...]",
+      "ja_explanation": "[Japanese translation needed: In academic writing, simple present tense ('shows,...]"
     },
     {
       "id": "en_writing_021",
@@ -252,7 +292,9 @@
         "An adjective that modifies verbs"
       ],
       "answer": 1,
-      "explanation": "Transition words and phrases like 'furthermore,' 'however,' 'in contrast,' 'as a result,' and 'in conclusion' connect ideas logically. They guide readers through the writer's argument and clarify relationships between sentences and paragraphs."
+      "explanation": "Transition words and phrases like 'furthermore,' 'however,' 'in contrast,' 'as a result,' and 'in conclusion' connect ideas logically. They guide readers through the writer's argument and clarify relationships between sentences and paragraphs.",
+      "ja_question": "[Japanese translation needed: What is a transition word/phrase?...]",
+      "ja_explanation": "[Japanese translation needed: Transition words and phrases like 'furthermore,' '...]"
     },
     {
       "id": "en_writing_022",
@@ -264,7 +306,9 @@
         "Despite this,"
       ],
       "answer": 1,
-      "explanation": "'Furthermore' shows addition, indicating that the second sentence provides another benefit. 'In contrast,' 'However,' and 'Despite this' present opposing ideas, which doesn't fit the additive relationship between improved physical health and reduced stress."
+      "explanation": "'Furthermore' shows addition, indicating that the second sentence provides another benefit. 'In contrast,' 'However,' and 'Despite this' present opposing ideas, which doesn't fit the additive relationship between improved physical health and reduced stress.",
+      "ja_question": "[Japanese translation needed: Which transition BEST connects these sentences: 'R...]",
+      "ja_explanation": "[Japanese translation needed: 'Furthermore' shows addition, indicating that the ...]"
     },
     {
       "id": "en_writing_023",
@@ -276,7 +320,9 @@
         "Rather,"
       ],
       "answer": 1,
-      "explanation": "'As a result' clearly shows a causal relationship. 'In addition' shows addition, 'Similarly' shows comparison, and 'Rather' shows contrast. 'As a result' directly indicates that one action or situation causes another."
+      "explanation": "'As a result' clearly shows a causal relationship. 'In addition' shows addition, 'Similarly' shows comparison, and 'Rather' shows contrast. 'As a result' directly indicates that one action or situation causes another.",
+      "ja_question": "[Japanese translation needed: Which transition would appropriately connect cause...]",
+      "ja_explanation": "[Japanese translation needed: 'As a result' clearly shows a causal relationship....]"
     },
     {
       "id": "en_writing_024",
@@ -288,7 +334,9 @@
         "They should appear in every sentence"
       ],
       "answer": 1,
-      "explanation": "Effective transitions between paragraphs connect the concluding idea of one paragraph with the opening idea of the next. This creates flow and helps readers understand how each paragraph advances the essay's overall argument."
+      "explanation": "Effective transitions between paragraphs connect the concluding idea of one paragraph with the opening idea of the next. This creates flow and helps readers understand how each paragraph advances the essay's overall argument.",
+      "ja_question": "[Japanese translation needed: How should connective phrases be used between para...]",
+      "ja_explanation": "[Japanese translation needed: Effective transitions between paragraphs connect t...]"
     },
     {
       "id": "en_writing_025",
@@ -300,7 +348,9 @@
         "Computers are kinda important for learning these days, ya know?"
       ],
       "answer": 1,
-      "explanation": "Formal academic writing uses precise vocabulary ('implementation,' 'demonstrably'), avoids contractions and colloquialisms, and employs sophisticated sentence structure. Informal options use slang, conversational tone, and vague language inappropriate for academic contexts."
+      "explanation": "Formal academic writing uses precise vocabulary ('implementation,' 'demonstrably'), avoids contractions and colloquialisms, and employs sophisticated sentence structure. Informal options use slang, conversational tone, and vague language inappropriate for academic contexts.",
+      "ja_question": "[Japanese translation needed: Which of the following demonstrates formal academi...]",
+      "ja_explanation": "[Japanese translation needed: Formal academic writing uses precise vocabulary ('...]"
     },
     {
       "id": "en_writing_026",
@@ -312,7 +362,9 @@
         "Abstaining from personal opinions"
       ],
       "answer": 2,
-      "explanation": "Informal writing uses conversational language, contractions ('don't,' 'can't'), first-person pronouns, and colloquialisms. It's appropriate for personal essays, blogs, and casual communication but inappropriate for formal academic papers."
+      "explanation": "Informal writing uses conversational language, contractions ('don't,' 'can't'), first-person pronouns, and colloquialisms. It's appropriate for personal essays, blogs, and casual communication but inappropriate for formal academic papers.",
+      "ja_question": "[Japanese translation needed: Which characteristic is typical of informal writin...]",
+      "ja_explanation": "[Japanese translation needed: Informal writing uses conversational language, con...]"
     },
     {
       "id": "en_writing_027",
@@ -324,7 +376,9 @@
         "Yo, [name]!"
       ],
       "answer": 1,
-      "explanation": "'Dear Mr./Ms. [Surname]' is the standard formal greeting for business communication. Informal greetings like 'Hey,' 'Hi there,' and 'Yo' are inappropriate for professional contexts and could damage business relationships."
+      "explanation": "'Dear Mr./Ms. [Surname]' is the standard formal greeting for business communication. Informal greetings like 'Hey,' 'Hi there,' and 'Yo' are inappropriate for professional contexts and could damage business relationships.",
+      "ja_question": "[Japanese translation needed: When writing a formal business email, which greeti...]",
+      "ja_explanation": "[Japanese translation needed: 'Dear Mr./Ms. [Surname]' is the standard formal gr...]"
     },
     {
       "id": "en_writing_028",
@@ -336,7 +390,9 @@
         "The committee has made its final decision."
       ],
       "answer": 2,
-      "explanation": "'Neither' is a singular indefinite pronoun requiring singular verb 'was' (not 'were'). Correct: 'Neither of the proposals was acceptable.' Option A treats 'group' as plural (British usage), B correctly uses singular 'was,' and D uses correct singular possessive."
+      "explanation": "'Neither' is a singular indefinite pronoun requiring singular verb 'was' (not 'were'). Correct: 'Neither of the proposals was acceptable.' Option A treats 'group' as plural (British usage), B correctly uses singular 'was,' and D uses correct singular possessive.",
+      "ja_question": "[Japanese translation needed: Which sentence contains a common agreement error?...]",
+      "ja_explanation": "[Japanese translation needed: 'Neither' is a singular indefinite pronoun requiri...]"
     },
     {
       "id": "en_writing_029",
@@ -348,7 +404,9 @@
         "Students studying diligently often improve their grades."
       ],
       "answer": 1,
-      "explanation": "'Having completed the research' (participial phrase) appears to modify 'essay,' but essays don't complete research—students do. Correct: 'Having completed the research, the student wrote the essay quickly.' This is a dangling modifier."
+      "explanation": "'Having completed the research' (participial phrase) appears to modify 'essay,' but essays don't complete research—students do. Correct: 'Having completed the research, the student wrote the essay quickly.' This is a dangling modifier.",
+      "ja_question": "[Japanese translation needed: Which sentence demonstrates a misplaced modifier e...]",
+      "ja_explanation": "[Japanese translation needed: 'Having completed the research' (participial phras...]"
     },
     {
       "id": "en_writing_030",
@@ -360,7 +418,9 @@
         "Between you and me, it was your fault."
       ],
       "answer": 1,
-      "explanation": "Unclear pronoun shift occurs in B: 'the software' is singular, but 'you' is used, creating vague reference. It's unclear whether the writer means anyone or a specific person. Options A, C, and D have clear, consistent pronoun references."
+      "explanation": "Unclear pronoun shift occurs in B: 'the software' is singular, but 'you' is used, creating vague reference. It's unclear whether the writer means anyone or a specific person. Options A, C, and D have clear, consistent pronoun references.",
+      "ja_question": "[Japanese translation needed: Which sentence contains a pronoun reference error?...]",
+      "ja_explanation": "[Japanese translation needed: Unclear pronoun shift occurs in B: 'the software' ...]"
     },
     {
       "id": "en_writing_031",
@@ -372,7 +432,9 @@
         "To make sentences longer"
       ],
       "answer": 1,
-      "explanation": "Punctuation marks clarify meaning, organize ideas, indicate pauses and emphasis, and guide readers through the writer's intended meaning. Proper punctuation is essential for clarity and preventing misunderstanding."
+      "explanation": "Punctuation marks clarify meaning, organize ideas, indicate pauses and emphasis, and guide readers through the writer's intended meaning. Proper punctuation is essential for clarity and preventing misunderstanding.",
+      "ja_question": "[Japanese translation needed: What is the primary purpose of punctuation in writ...]",
+      "ja_explanation": "[Japanese translation needed: Punctuation marks clarify meaning, organize ideas,...]"
     },
     {
       "id": "en_writing_032",
@@ -384,7 +446,9 @@
         "The school offers many sports including, basketball soccer, and tennis."
       ],
       "answer": 0,
-      "explanation": "Option A uses the Oxford comma correctly in a series: 'basketball, soccer, and tennis.' This is the standard format in American English. Option B omits the final comma (acceptable in British English but less common), C lacks commas entirely, and D has misplaced commas."
+      "explanation": "Option A uses the Oxford comma correctly in a series: 'basketball, soccer, and tennis.' This is the standard format in American English. Option B omits the final comma (acceptable in British English but less common), C lacks commas entirely, and D has misplaced commas.",
+      "ja_question": "[Japanese translation needed: Which sentence uses commas correctly?...]",
+      "ja_explanation": "[Japanese translation needed: Option A uses the Oxford comma correctly in a seri...]"
     },
     {
       "id": "en_writing_033",
@@ -396,7 +460,9 @@
         "The experiment was successful. however the results were unexpected."
       ],
       "answer": 1,
-      "explanation": "A semicolon connects two independent clauses. When followed by a conjunctive adverb like 'however,' a comma must follow the adverb. Option A lacks the comma after 'however'; C uses a comma instead of semicolon; D has a period and lowercase letter."
+      "explanation": "A semicolon connects two independent clauses. When followed by a conjunctive adverb like 'however,' a comma must follow the adverb. Option A lacks the comma after 'however'; C uses a comma instead of semicolon; D has a period and lowercase letter.",
+      "ja_question": "[Japanese translation needed: Which sentence demonstrates correct semicolon usag...]",
+      "ja_explanation": "[Japanese translation needed: A semicolon connects two independent clauses. When...]"
     },
     {
       "id": "en_writing_034",
@@ -408,7 +474,9 @@
         "Between every sentence for emphasis"
       ],
       "answer": 2,
-      "explanation": "Colons introduce explanatory material, such as lists ('The ingredients are: flour, sugar, eggs'), quotations, or a second clause that explains or elaborates on the first. Proper colon use enhances clarity and organization."
+      "explanation": "Colons introduce explanatory material, such as lists ('The ingredients are: flour, sugar, eggs'), quotations, or a second clause that explains or elaborates on the first. Proper colon use enhances clarity and organization.",
+      "ja_question": "[Japanese translation needed: When should a colon be used in writing?...]",
+      "ja_explanation": "[Japanese translation needed: Colons introduce explanatory material, such as lis...]"
     },
     {
       "id": "en_writing_035",
@@ -420,7 +488,9 @@
         "The conference will be held in Chicago next month (."
       ],
       "answer": 1,
-      "explanation": "Parentheses enclose supplementary information that isn't essential to the sentence. In Option A, placement is awkward; C uses excessive/incorrect parentheses; D places punctuation incorrectly. B shows proper use: relevant but non-essential information."
+      "explanation": "Parentheses enclose supplementary information that isn't essential to the sentence. In Option A, placement is awkward; C uses excessive/incorrect parentheses; D places punctuation incorrectly. B shows proper use: relevant but non-essential information.",
+      "ja_question": "[Japanese translation needed: Which sentence correctly uses parentheses?...]",
+      "ja_explanation": "[Japanese translation needed: Parentheses enclose supplementary information that...]"
     },
     {
       "id": "en_writing_036",
@@ -432,7 +502,9 @@
         "She attended Lincoln high school in the fall."
       ],
       "answer": 0,
-      "explanation": "Capitalize proper nouns (specific names) and the first word of sentences. 'She' (sentence start), 'Lincoln High School' (institution name), and 'fall' (season, not capitalized) follow standard rules. Option B incorrectly capitalizes 'Fall'; C and D mishandle proper noun capitalization."
+      "explanation": "Capitalize proper nouns (specific names) and the first word of sentences. 'She' (sentence start), 'Lincoln High School' (institution name), and 'fall' (season, not capitalized) follow standard rules. Option B incorrectly capitalizes 'Fall'; C and D mishandle proper noun capitalization.",
+      "ja_question": "[Japanese translation needed: Which sentence demonstrates correct capitalization...]",
+      "ja_explanation": "[Japanese translation needed: Capitalize proper nouns (specific names) and the f...]"
     },
     {
       "id": "en_writing_037",
@@ -444,7 +516,9 @@
         "Academic writing should avoid synonyms entirely"
       ],
       "answer": 1,
-      "explanation": "Synonyms provide word variety while maintaining meaning. Using synonyms prevents monotonous repetition, adds sophistication, and can emphasize subtle differences. For example: 'investigate,' 'examine,' 'analyze' are synonyms with slightly different connotations."
+      "explanation": "Synonyms provide word variety while maintaining meaning. Using synonyms prevents monotonous repetition, adds sophistication, and can emphasize subtle differences. For example: 'investigate,' 'examine,' 'analyze' are synonyms with slightly different connotations.",
+      "ja_question": "[Japanese translation needed: What distinguishes a synonym from a simple word re...]",
+      "ja_explanation": "[Japanese translation needed: Synonyms provide word variety while maintaining me...]"
     },
     {
       "id": "en_writing_038",
@@ -456,7 +530,9 @@
         "The thing about students is that when they exercise, their grades get better in a bunch of ways."
       ],
       "answer": 1,
-      "explanation": "Option B uses precise academic vocabulary ('research,' 'indicates,' 'engaging,' 'demonstrate'), appropriate structure, and formal tone. A is casual; C uses colloquialism; D is vague and wordy. Precise word choice strengthens academic credibility."
+      "explanation": "Option B uses precise academic vocabulary ('research,' 'indicates,' 'engaging,' 'demonstrate'), appropriate structure, and formal tone. A is casual; C uses colloquialism; D is vague and wordy. Precise word choice strengthens academic credibility.",
+      "ja_question": "[Japanese translation needed: Which sentence demonstrates effective word choice ...]",
+      "ja_explanation": "[Japanese translation needed: Option B uses precise academic vocabulary ('resear...]"
     },
     {
       "id": "en_writing_039",
@@ -468,7 +544,9 @@
         "The number of syllables in a word"
       ],
       "answer": 1,
-      "explanation": "Connotation refers to implied or emotional meanings. For example, 'frugal' (positive) and 'stingy' (negative) have similar denotations but different connotations. Understanding connotation helps writers choose words that convey intended meaning and tone."
+      "explanation": "Connotation refers to implied or emotional meanings. For example, 'frugal' (positive) and 'stingy' (negative) have similar denotations but different connotations. Understanding connotation helps writers choose words that convey intended meaning and tone.",
+      "ja_question": "[Japanese translation needed: In the context of writing, what does 'connotation'...]",
+      "ja_explanation": "[Japanese translation needed: Connotation refers to implied or emotional meaning...]"
     },
     {
       "id": "en_writing_040",
@@ -480,7 +558,9 @@
         "The statistics demonstrate that pollution is kinda bad for ecosystems."
       ],
       "answer": 1,
-      "explanation": "'Indicates' and 'environmental degradation' and 'ecological threats' are formal, precise academic terms. Option A is too casual; C uses strong slang; D mixes informal language with partial formality. Consistent, sophisticated vocabulary is essential in academic writing."
+      "explanation": "'Indicates' and 'environmental degradation' and 'ecological threats' are formal, precise academic terms. Option A is too casual; C uses strong slang; D mixes informal language with partial formality. Consistent, sophisticated vocabulary is essential in academic writing.",
+      "ja_question": "[Japanese translation needed: Which word choice is MOST appropriate in a formal ...]",
+      "ja_explanation": "[Japanese translation needed: 'Indicates' and 'environmental degradation' and 'e...]"
     },
     {
       "id": "en_writing_041",
@@ -492,7 +572,9 @@
         "A response that changes the topic to something more interesting"
       ],
       "answer": 1,
-      "explanation": "A well-developed response directly addresses the prompt, provides relevant evidence and examples, maintains clear focus, and uses appropriate organization and style. It demonstrates understanding of both the prompt and the topic."
+      "explanation": "A well-developed response directly addresses the prompt, provides relevant evidence and examples, maintains clear focus, and uses appropriate organization and style. It demonstrates understanding of both the prompt and the topic.",
+      "ja_question": "[Japanese translation needed: What is a well-developed response to a writing pro...]",
+      "ja_explanation": "[Japanese translation needed: A well-developed response directly addresses the p...]"
     },
     {
       "id": "en_writing_042",
@@ -504,7 +586,9 @@
         "Discuss only causes without mentioning effects"
       ],
       "answer": 1,
-      "explanation": "In cause-and-effect responses, presenting causes first, then their effects, creates logical flow and clarity. This structure helps readers understand how one element directly influences another, making the argument coherent and persuasive."
+      "explanation": "In cause-and-effect responses, presenting causes first, then their effects, creates logical flow and clarity. This structure helps readers understand how one element directly influences another, making the argument coherent and persuasive.",
+      "ja_question": "[Japanese translation needed: When responding to a writing prompt about causes a...]",
+      "ja_explanation": "[Japanese translation needed: In cause-and-effect responses, presenting causes f...]"
     },
     {
       "id": "en_writing_043",
@@ -516,7 +600,9 @@
         "Identify only differences and ignore similarities"
       ],
       "answer": 1,
-      "explanation": "Effective comparison/contrast can use block method (all of subject A, then all of subject B) or alternating method (comparing point by point). Both approaches work if they're organized logically with clear transitions showing relationships."
+      "explanation": "Effective comparison/contrast can use block method (all of subject A, then all of subject B) or alternating method (comparing point by point). Both approaches work if they're organized logically with clear transitions showing relationships.",
+      "ja_question": "[Japanese translation needed: How should a response to a comparison/contrast pro...]",
+      "ja_explanation": "[Japanese translation needed: Effective comparison/contrast can use block method...]"
     },
     {
       "id": "en_writing_044",
@@ -528,7 +614,9 @@
         "Omit important steps to save time"
       ],
       "answer": 1,
-      "explanation": "Process explanations require chronological organization with clear transitions ('First,' 'Next,' 'Then,' 'Finally'). Each step should be explained clearly so readers can understand and potentially follow the process themselves."
+      "explanation": "Process explanations require chronological organization with clear transitions ('First,' 'Next,' 'Then,' 'Finally'). Each step should be explained clearly so readers can understand and potentially follow the process themselves.",
+      "ja_question": "[Japanese translation needed: What approach would BEST address a prompt asking y...]",
+      "ja_explanation": "[Japanese translation needed: Process explanations require chronological organiz...]"
     },
     {
       "id": "en_writing_045",
@@ -540,7 +628,9 @@
         "Agree with all counterarguments without defending your position"
       ],
       "answer": 1,
-      "explanation": "Strong argumentative writing acknowledges opposing viewpoints, demonstrates understanding, and refutes them with evidence. This approach strengthens credibility and shows the writer has considered multiple perspectives before reaching their conclusion."
+      "explanation": "Strong argumentative writing acknowledges opposing viewpoints, demonstrates understanding, and refutes them with evidence. This approach strengthens credibility and shows the writer has considered multiple perspectives before reaching their conclusion.",
+      "ja_question": "[Japanese translation needed: When writing an argumentative response, how should...]",
+      "ja_explanation": "[Japanese translation needed: Strong argumentative writing acknowledges opposing...]"
     },
     {
       "id": "en_writing_046",
@@ -552,7 +642,9 @@
         "Focus only on correcting spelling errors"
       ],
       "answer": 2,
-      "explanation": "Effective revision involves multiple passes with different focuses. Addressing content and organization first prevents wasted effort editing sentences that may be removed. Subsequent passes address clarity, grammar, and mechanical errors."
+      "explanation": "Effective revision involves multiple passes with different focuses. Addressing content and organization first prevents wasted effort editing sentences that may be removed. Subsequent passes address clarity, grammar, and mechanical errors.",
+      "ja_question": "[Japanese translation needed: Which is the BEST approach when revising an essay ...]",
+      "ja_explanation": "[Japanese translation needed: Effective revision involves multiple passes with d...]"
     },
     {
       "id": "en_writing_047",
@@ -564,7 +656,9 @@
         "The novelist wrote carefully. She edits her work thoroughly. The publisher reviewed the manuscript."
       ],
       "answer": 3,
-      "explanation": "Option D shifts from past ('wrote,' 'edits'—irregular), then suddenly to past ('reviewed'). This inconsistency confuses readers about timing. Options A, B (simple present throughout), and C maintain consistent tense in past."
+      "explanation": "Option D shifts from past ('wrote,' 'edits'—irregular), then suddenly to past ('reviewed'). This inconsistency confuses readers about timing. Options A, B (simple present throughout), and C maintain consistent tense in past.",
+      "ja_question": "[Japanese translation needed: Which sentence pair demonstrates inconsistent verb...]",
+      "ja_explanation": "[Japanese translation needed: Option D shifts from past ('wrote,' 'edits'—irregu...]"
     },
     {
       "id": "en_writing_048",
@@ -576,7 +670,9 @@
         "Simplify language to elementary-school level"
       ],
       "answer": 1,
-      "explanation": "Replace vague terms ('good,' 'bad,' 'thing,' 'stuff') with specific language. Instead of 'The policy had bad effects,' write 'The policy increased unemployment by 12% and reduced services for vulnerable populations.' Specificity strengthens arguments."
+      "explanation": "Replace vague terms ('good,' 'bad,' 'thing,' 'stuff') with specific language. Instead of 'The policy had bad effects,' write 'The policy increased unemployment by 12% and reduced services for vulnerable populations.' Specificity strengthens arguments.",
+      "ja_question": "[Japanese translation needed: What is the most effective way to avoid vague lang...]",
+      "ja_explanation": "[Japanese translation needed: Replace vague terms ('good,' 'bad,' 'thing,' 'stuf...]"
     },
     {
       "id": "en_writing_049",
@@ -588,7 +684,9 @@
         "The data clearly indicates a trend."
       ],
       "answer": 1,
-      "explanation": "'In the event that' is wordy; 'if' conveys the same meaning more concisely. Revised: 'If it rains, the outdoor activity will be postponed.' Concise writing respects reader time and improves clarity while maintaining formal tone."
+      "explanation": "'In the event that' is wordy; 'if' conveys the same meaning more concisely. Revised: 'If it rains, the outdoor activity will be postponed.' Concise writing respects reader time and improves clarity while maintaining formal tone.",
+      "ja_question": "[Japanese translation needed: Which sentence contains a wordiness error that sho...]",
+      "ja_explanation": "[Japanese translation needed: 'In the event that' is wordy; 'if' conveys the sam...]"
     },
     {
       "id": "en_writing_050",
@@ -600,7 +698,9 @@
         "Following all archaic rules without considering modern usage"
       ],
       "answer": 2,
-      "explanation": "Current academic writing standards prioritize clarity, evidence-based arguments, logical organization, and appropriate formality. These elements enable effective communication of ideas to academic audiences. Complexity should serve clarity, not hinder it."
+      "explanation": "Current academic writing standards prioritize clarity, evidence-based arguments, logical organization, and appropriate formality. These elements enable effective communication of ideas to academic audiences. Complexity should serve clarity, not hinder it.",
+      "ja_question": "[Japanese translation needed: What is the most important quality of effective ac...]",
+      "ja_explanation": "[Japanese translation needed: Current academic writing standards prioritize clar...]"
     }
   ]
 }

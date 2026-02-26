@@ -12,7 +12,9 @@
         "verified"
       ],
       "answer": 1,
-      "explanation": "The subjunctive mood is required after 'requires that'. The correct form is 'be verified' (present subjunctive)."
+      "explanation": "The subjunctive mood is required after 'requires that'. The correct form is 'be verified' (present subjunctive).",
+      "ja_question": "[Japanese translation needed: The report requires that all data _____ before sub...]",
+      "ja_explanation": "[Japanese translation needed: The subjunctive mood is required after 'requires t...]"
     },
     {
       "id": "en_toeic_reading_002",
@@ -24,7 +26,9 @@
         "the declining"
       ],
       "answer": 0,
-      "explanation": "After the preposition 'Despite', a noun phrase is needed. 'A decline' is the correct noun form."
+      "explanation": "After the preposition 'Despite', a noun phrase is needed. 'A decline' is the correct noun form.",
+      "ja_question": "[Japanese translation needed: Despite _____ in sales last quarter, the company r...]",
+      "ja_explanation": "[Japanese translation needed: After the preposition 'Despite', a noun phrase is ...]"
     },
     {
       "id": "en_toeic_reading_003",
@@ -36,7 +40,9 @@
         "had to"
       ],
       "answer": 1,
-      "explanation": "The phrase 'strongly oppose' suggests disapproval of a past action. 'Should have' expresses criticism of a past choice."
+      "explanation": "The phrase 'strongly oppose' suggests disapproval of a past action. 'Should have' expresses criticism of a past choice.",
+      "ja_question": "[Japanese translation needed: The manager _____ strongly oppose the proposal dur...]",
+      "ja_explanation": "[Japanese translation needed: The phrase 'strongly oppose' suggests disapproval ...]"
     },
     {
       "id": "en_toeic_reading_004",
@@ -48,7 +54,9 @@
         "require"
       ],
       "answer": 0,
-      "explanation": "The passive voice 'are required' (to be required) is the correct completion. 'Required' is the past participle used in passive construction."
+      "explanation": "The passive voice 'are required' (to be required) is the correct completion. 'Required' is the past participle used in passive construction.",
+      "ja_question": "[Japanese translation needed: New employees are _____ to complete orientation tr...]",
+      "ja_explanation": "[Japanese translation needed: The passive voice 'are required' (to be required) ...]"
     },
     {
       "id": "en_toeic_reading_005",
@@ -60,7 +68,9 @@
         "has completing"
       ],
       "answer": 2,
-      "explanation": "The past tense 'completed' is needed because the action has already occurred. The adverb 'ahead of schedule' signals a completed action."
+      "explanation": "The past tense 'completed' is needed because the action has already occurred. The adverb 'ahead of schedule' signals a completed action.",
+      "ja_question": "[Japanese translation needed: The team _____ the project ahead of schedule becau...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'completed' is needed because the a...]"
     },
     {
       "id": "en_toeic_reading_006",
@@ -72,7 +82,9 @@
         "questionable"
       ],
       "answer": 0,
-      "explanation": "The plural noun 'questions' is appropriate after 'any' in this context. The possessive adjective indicates multiple inquiries."
+      "explanation": "The plural noun 'questions' is appropriate after 'any' in this context. The possessive adjective indicates multiple inquiries.",
+      "ja_question": "[Japanese translation needed: The executive secretary will answer any _____ abou...]",
+      "ja_explanation": "[Japanese translation needed: The plural noun 'questions' is appropriate after '...]"
     },
     {
       "id": "en_toeic_reading_007",
@@ -84,7 +96,9 @@
         "had arrived"
       ],
       "answer": 0,
-      "explanation": "In conditional sentences, the if-clause uses the present tense. 'Arrives' is the correct present tense form."
+      "explanation": "In conditional sentences, the if-clause uses the present tense. 'Arrives' is the correct present tense form.",
+      "ja_question": "[Japanese translation needed: If the shipment _____ on time, we will be able to ...]",
+      "ja_explanation": "[Japanese translation needed: In conditional sentences, the if-clause uses the p...]"
     },
     {
       "id": "en_toeic_reading_008",
@@ -96,7 +110,9 @@
         "so that"
       ],
       "answer": 1,
-      "explanation": "The infinitive 'to improve' is the correct form to show purpose after passive verbs like 'was hired'."
+      "explanation": "The infinitive 'to improve' is the correct form to show purpose after passive verbs like 'was hired'.",
+      "ja_question": "[Japanese translation needed: The consultant was hired _____ improve the company...]",
+      "ja_explanation": "[Japanese translation needed: The infinitive 'to improve' is the correct form to...]"
     },
     {
       "id": "en_toeic_reading_009",
@@ -108,7 +124,9 @@
         "signify"
       ],
       "answer": 1,
-      "explanation": "An adverb is needed to modify the adjective 'secure'. 'Significantly' is the adverbial form of significant."
+      "explanation": "An adverb is needed to modify the adjective 'secure'. 'Significantly' is the adverbial form of significant.",
+      "ja_question": "[Japanese translation needed: The software update is _____ more secure and user-...]",
+      "ja_explanation": "[Japanese translation needed: An adverb is needed to modify the adjective 'secur...]"
     },
     {
       "id": "en_toeic_reading_010",
@@ -120,7 +138,9 @@
         "are having"
       ],
       "answer": 1,
-      "explanation": "The past tense 'had' is correct because the action occurred at a specific past time ('last week's meeting')."
+      "explanation": "The past tense 'had' is correct because the action occurred at a specific past time ('last week's meeting').",
+      "ja_question": "[Japanese translation needed: Employees _____ approve the new performance evalua...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'had' is correct because the action...]"
     },
     {
       "id": "en_toeic_reading_011",
@@ -132,7 +152,9 @@
         "Option D"
       ],
       "answer": 1,
-      "explanation": "Option B contains an error. 'Employees' is plural, so the verb should be 'need', not 'needs'. Options A, C, and D are correct."
+      "explanation": "Option B contains an error. 'Employees' is plural, so the verb should be 'need', not 'needs'. Options A, C, and D are correct.",
+      "ja_question": "[Japanese translation needed: Which of the following sentences contains an error...]",
+      "ja_explanation": "[Japanese translation needed: Option B contains an error. 'Employees' is plural,...]"
     },
     {
       "id": "en_toeic_reading_012",
@@ -144,7 +166,9 @@
         "Option D"
       ],
       "answer": 1,
-      "explanation": "Option B is incorrect. 'Memo' is singular, so the verb should be 'was', not 'were'. The other options use correct singular/plural agreement."
+      "explanation": "Option B is incorrect. 'Memo' is singular, so the verb should be 'was', not 'were'. The other options use correct singular/plural agreement.",
+      "ja_question": "[Japanese translation needed: Which sentence is grammatically incorrect?\n(A) Nei...]",
+      "ja_explanation": "[Japanese translation needed: Option B is incorrect. 'Memo' is singular, so the ...]"
     },
     {
       "id": "en_toeic_reading_013",
@@ -156,7 +180,9 @@
         "A management structure"
       ],
       "answer": 1,
-      "explanation": "The passage directly states that 'a new customer service protocol' was implemented, making option B the correct answer."
+      "explanation": "The passage directly states that 'a new customer service protocol' was implemented, making option B the correct answer.",
+      "ja_question": "[Japanese translation needed: Passage: 'The company implemented a new customer s...]",
+      "ja_explanation": "[Japanese translation needed: The passage directly states that 'a new customer s...]"
     },
     {
       "id": "en_toeic_reading_014",
@@ -168,7 +194,9 @@
         "To introduce new company benefits"
       ],
       "answer": 0,
-      "explanation": "Based on the context of typical TOEIC passages, announcements generally inform about schedule or policy changes."
+      "explanation": "Based on the context of typical TOEIC passages, announcements generally inform about schedule or policy changes.",
+      "ja_question": "[Japanese translation needed: What is the primary purpose of the announcement?...]",
+      "ja_explanation": "[Japanese translation needed: Based on the context of typical TOEIC passages, an...]"
     },
     {
       "id": "en_toeic_reading_015",
@@ -180,7 +208,9 @@
         "Funding has been withdrawn"
       ],
       "answer": 1,
-      "explanation": "Reading comprehension items require careful attention to explicit information in the passage."
+      "explanation": "Reading comprehension items require careful attention to explicit information in the passage.",
+      "ja_question": "[Japanese translation needed: According to the memo, which statement is true?\n(A...]",
+      "ja_explanation": "[Japanese translation needed: Reading comprehension items require careful attent...]"
     },
     {
       "id": "en_toeic_reading_016",
@@ -192,7 +222,9 @@
         "allocates"
       ],
       "answer": 0,
-      "explanation": "The future tense construction 'will allocate' requires the base form of the verb. 'Allocate' is correct."
+      "explanation": "The future tense construction 'will allocate' requires the base form of the verb. 'Allocate' is correct.",
+      "ja_question": "[Japanese translation needed: The company will _____ additional resources to ens...]",
+      "ja_explanation": "[Japanese translation needed: The future tense construction 'will allocate' requ...]"
     },
     {
       "id": "en_toeic_reading_017",
@@ -204,7 +236,9 @@
         "the agenda remained unchanged"
       ],
       "answer": 0,
-      "explanation": "The cause (bad weather) logically leads to postponement of the event. Option A presents the most logical consequence."
+      "explanation": "The cause (bad weather) logically leads to postponement of the event. Option A presents the most logical consequence.",
+      "ja_question": "[Japanese translation needed: Because of the bad weather, _____....]",
+      "ja_explanation": "[Japanese translation needed: The cause (bad weather) logically leads to postpon...]"
     },
     {
       "id": "en_toeic_reading_018",
@@ -216,7 +250,9 @@
         "subsequent"
       ],
       "answer": 1,
-      "explanation": "'Prior' means before, which makes sense in the context of requesting payment before completion. 'Prior to' is an idiomatic expression."
+      "explanation": "'Prior' means before, which makes sense in the context of requesting payment before completion. 'Prior to' is an idiomatic expression.",
+      "ja_question": "[Japanese translation needed: The contractor requested payment _____ to the comp...]",
+      "ja_explanation": "[Japanese translation needed: 'Prior' means before, which makes sense in the con...]"
     },
     {
       "id": "en_toeic_reading_019",
@@ -228,7 +264,9 @@
         "Consideration"
       ],
       "answer": 0,
-      "explanation": "The participle 'Considering' at the start of a sentence introduces a reason or thought. It's the correct choice here."
+      "explanation": "The participle 'Considering' at the start of a sentence introduces a reason or thought. It's the correct choice here.",
+      "ja_question": "[Japanese translation needed: _____ the importance of the meeting, all team memb...]",
+      "ja_explanation": "[Japanese translation needed: The participle 'Considering' at the start of a sen...]"
     },
     {
       "id": "en_toeic_reading_020",
@@ -240,7 +278,9 @@
         "benefit"
       ],
       "answer": 2,
-      "explanation": "The past tense 'benefited' is needed to agree with the past-tense verb 'negotiated'."
+      "explanation": "The past tense 'benefited' is needed to agree with the past-tense verb 'negotiated'.",
+      "ja_question": "[Japanese translation needed: The sales representative successfully negotiated a...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'benefited' is needed to agree with...]"
     },
     {
       "id": "en_toeic_reading_021",
@@ -252,7 +292,9 @@
         "After the conference"
       ],
       "answer": 1,
-      "explanation": "The email explicitly states 'All department heads must submit revised budget proposals by Friday'."
+      "explanation": "The email explicitly states 'All department heads must submit revised budget proposals by Friday'.",
+      "ja_question": "[Japanese translation needed: READING COMPREHENSION: E-mail from Marketing Direc...]",
+      "ja_explanation": "[Japanese translation needed: The email explicitly states 'All department heads ...]"
     },
     {
       "id": "en_toeic_reading_022",
@@ -264,7 +306,9 @@
         "At an unspecified venue"
       ],
       "answer": 1,
-      "explanation": "The email states 'the annual marketing conference will take place from November 15-17 at the Grand Hotel'."
+      "explanation": "The email states 'the annual marketing conference will take place from November 15-17 at the Grand Hotel'.",
+      "ja_question": "[Japanese translation needed: Based on the e-mail, what is the location of the m...]",
+      "ja_explanation": "[Japanese translation needed: The email states 'the annual marketing conference ...]"
     },
     {
       "id": "en_toeic_reading_023",
@@ -276,7 +320,9 @@
         "Staff training is the main concern"
       ],
       "answer": 2,
-      "explanation": "The email states 'The focus will remain on digital transformation and customer engagement', indicating digital transformation is a priority."
+      "explanation": "The email states 'The focus will remain on digital transformation and customer engagement', indicating digital transformation is a priority.",
+      "ja_question": "[Japanese translation needed: What can be inferred about the company's prioritie...]",
+      "ja_explanation": "[Japanese translation needed: The email states 'The focus will remain on digital...]"
     },
     {
       "id": "en_toeic_reading_024",
@@ -288,7 +334,9 @@
         "approvingly"
       ],
       "answer": 1,
-      "explanation": "The past tense 'approved' is required because the report was distributed (past action) after approval occurred."
+      "explanation": "The past tense 'approved' is required because the report was distributed (past action) after approval occurred.",
+      "ja_question": "[Japanese translation needed: The board of directors _____ the annual report bef...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'approved' is required because the ...]"
     },
     {
       "id": "en_toeic_reading_025",
@@ -300,7 +348,9 @@
         "All of the above are errors"
       ],
       "answer": 3,
-      "explanation": "All three statements contain agreement errors. 'Team' is singular (has), 'methodology' is singular (is), and 'They' plural requires 'recommend'."
+      "explanation": "All three statements contain agreement errors. 'Team' is singular (has), 'methodology' is singular (is), and 'They' plural requires 'recommend'.",
+      "ja_question": "[Japanese translation needed: INSTRUCTION: An error is identified in the text be...]",
+      "ja_explanation": "[Japanese translation needed: All three statements contain agreement errors. 'Te...]"
     },
     {
       "id": "en_toeic_reading_026",
@@ -312,7 +362,9 @@
         "have been"
       ],
       "answer": 1,
-      "explanation": "'Financing' is a singular noun, so the past passive verb should be 'was secured', not 'were secured'."
+      "explanation": "'Financing' is a singular noun, so the past passive verb should be 'was secured', not 'were secured'.",
+      "ja_question": "[Japanese translation needed: The financing for the expansion project _____ secu...]",
+      "ja_explanation": "[Japanese translation needed: 'Financing' is a singular noun, so the past passiv...]"
     },
     {
       "id": "en_toeic_reading_027",
@@ -324,7 +376,9 @@
         "Whether you are"
       ],
       "answer": 0,
-      "explanation": "'If you are' introduces a conditional statement that logically connects to the registration requirement."
+      "explanation": "'If you are' introduces a conditional statement that logically connects to the registration requirement.",
+      "ja_question": "[Japanese translation needed: _____ attending the seminar next week, please subm...]",
+      "ja_explanation": "[Japanese translation needed: 'If you are' introduces a conditional statement th...]"
     },
     {
       "id": "en_toeic_reading_028",
@@ -336,7 +390,9 @@
         "has provided"
       ],
       "answer": 1,
-      "explanation": "The present tense 'provides' is appropriate here since the warranty is a current feature of the product."
+      "explanation": "The present tense 'provides' is appropriate here since the warranty is a current feature of the product.",
+      "ja_question": "[Japanese translation needed: The product warranty _____ extensive coverage for ...]",
+      "ja_explanation": "[Japanese translation needed: The present tense 'provides' is appropriate here s...]"
     },
     {
       "id": "en_toeic_reading_029",
@@ -348,7 +404,9 @@
         "The device requires professional servicing"
       ],
       "answer": 2,
-      "explanation": "The manual explicitly states 'The device must be cleaned monthly', which corresponds to option C."
+      "explanation": "The manual explicitly states 'The device must be cleaned monthly', which corresponds to option C.",
+      "ja_question": "[Japanese translation needed: Which of these is stated in the manual?\n'The devic...]",
+      "ja_explanation": "[Japanese translation needed: The manual explicitly states 'The device must be c...]"
     },
     {
       "id": "en_toeic_reading_030",
@@ -360,7 +418,9 @@
         "had"
       ],
       "answer": 1,
-      "explanation": "'Policy' is singular, so the present perfect requires 'has been', not 'have been'."
+      "explanation": "'Policy' is singular, so the present perfect requires 'has been', not 'have been'.",
+      "ja_question": "[Japanese translation needed: The policy _____ been in effect since January and ...]",
+      "ja_explanation": "[Japanese translation needed: 'Policy' is singular, so the present perfect requi...]"
     },
     {
       "id": "en_toeic_reading_031",
@@ -372,7 +432,9 @@
         "to replace"
       ],
       "answer": 1,
-      "explanation": "After 'rather than', a gerund (-ing form) is used. 'Replacing' is the correct gerund."
+      "explanation": "After 'rather than', a gerund (-ing form) is used. 'Replacing' is the correct gerund.",
+      "ja_question": "[Japanese translation needed: Rather than _____ the entire system, we decided to...]",
+      "ja_explanation": "[Japanese translation needed: After 'rather than', a gerund (-ing form) is used....]"
     },
     {
       "id": "en_toeic_reading_032",
@@ -384,7 +446,9 @@
         "To comply with safety regulations"
       ],
       "answer": 2,
-      "explanation": "The memo states 'The renovation will modernize our workspace and improve employee productivity'."
+      "explanation": "The memo states 'The renovation will modernize our workspace and improve employee productivity'.",
+      "ja_question": "[Japanese translation needed: PASSAGE FOR QUESTIONS 32-34:\n\nINTERNAL MEMO: OFFIC...]",
+      "ja_explanation": "[Japanese translation needed: The memo states 'The renovation will modernize our...]"
     },
     {
       "id": "en_toeic_reading_033",
@@ -396,7 +460,9 @@
         "May 1st"
       ],
       "answer": 3,
-      "explanation": "The memo clearly states 'Phase 2...will commence on May 1st'."
+      "explanation": "The memo clearly states 'Phase 2...will commence on May 1st'.",
+      "ja_question": "[Japanese translation needed: According to the memo, when will Phase 2 of the re...]",
+      "ja_explanation": "[Japanese translation needed: The memo clearly states 'Phase 2...will commence o...]"
     },
     {
       "id": "en_toeic_reading_034",
@@ -408,7 +474,9 @@
         "Submit them to management"
       ],
       "answer": 1,
-      "explanation": "The memo states 'All employees are asked to retain documents and personal items in secure, lockable storage'."
+      "explanation": "The memo states 'All employees are asked to retain documents and personal items in secure, lockable storage'.",
+      "ja_question": "[Japanese translation needed: What are employees asked to do with their personal...]",
+      "ja_explanation": "[Japanese translation needed: The memo states 'All employees are asked to retain...]"
     },
     {
       "id": "en_toeic_reading_035",
@@ -420,7 +488,9 @@
         "identifying"
       ],
       "answer": 1,
-      "explanation": "The past tense 'identified' is needed because the analysis has already been completed."
+      "explanation": "The past tense 'identified' is needed because the analysis has already been completed.",
+      "ja_question": "[Japanese translation needed: The consultant's analysis _____ substantial cost s...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'identified' is needed because the ...]"
     },
     {
       "id": "en_toeic_reading_036",
@@ -432,7 +502,9 @@
         "replaces"
       ],
       "answer": 3,
-      "explanation": "In conditional statements with 'unless', the present tense is used in the if-clause. 'Replaces' is correct."
+      "explanation": "In conditional statements with 'unless', the present tense is used in the if-clause. 'Replaces' is correct.",
+      "ja_question": "[Japanese translation needed: Unless the vendor _____ the defective parts, we wi...]",
+      "ja_explanation": "[Japanese translation needed: In conditional statements with 'unless', the prese...]"
     },
     {
       "id": "en_toeic_reading_037",
@@ -444,7 +516,9 @@
         "has learned"
       ],
       "answer": 1,
-      "explanation": "The past tense 'learned' aligns with the past time reference 'During the training session'."
+      "explanation": "The past tense 'learned' aligns with the past time reference 'During the training session'.",
+      "ja_question": "[Japanese translation needed: During the training session, participants _____ ho...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'learned' aligns with the past time...]"
     },
     {
       "id": "en_toeic_reading_038",
@@ -456,7 +530,9 @@
         "the shipper will be"
       ],
       "answer": 0,
-      "explanation": "'The shipper should' is the clear, grammatically correct form to complete this sentence in formal writing."
+      "explanation": "'The shipper should' is the clear, grammatically correct form to complete this sentence in formal writing.",
+      "ja_question": "[Japanese translation needed: The contract specifies that _____ remain responsib...]",
+      "ja_explanation": "[Japanese translation needed: 'The shipper should' is the clear, grammatically c...]"
     },
     {
       "id": "en_toeic_reading_039",
@@ -468,7 +544,9 @@
         "Option D"
       ],
       "answer": 0,
-      "explanation": "Option A is incorrect. It should be 'principal' (main/primary), not 'principle' (rule/fundamental truth)."
+      "explanation": "Option A is incorrect. It should be 'principal' (main/primary), not 'principle' (rule/fundamental truth).",
+      "ja_question": "[Japanese translation needed: Which of these contains a spelling or word choice ...]",
+      "ja_explanation": "[Japanese translation needed: Option A is incorrect. It should be 'principal' (m...]"
     },
     {
       "id": "en_toeic_reading_040",
@@ -480,7 +558,9 @@
         "has presented"
       ],
       "answer": 0,
-      "explanation": "The future tense 'will present' is indicated by 'at the next board meeting', referring to a future event."
+      "explanation": "The future tense 'will present' is indicated by 'at the next board meeting', referring to a future event.",
+      "ja_question": "[Japanese translation needed: The marketing manager _____ the revised campaign s...]",
+      "ja_explanation": "[Japanese translation needed: The future tense 'will present' is indicated by 'a...]"
     },
     {
       "id": "en_toeic_reading_041",
@@ -492,7 +572,9 @@
         "When"
       ],
       "answer": 0,
-      "explanation": "'If' is the logical connector, suggesting a conditional relationship between outdated infrastructure and overspending."
+      "explanation": "'If' is the logical connector, suggesting a conditional relationship between outdated infrastructure and overspending.",
+      "ja_question": "[Japanese translation needed: ADVERTISEMENT: Your company might have discovered ...]",
+      "ja_explanation": "[Japanese translation needed: 'If' is the logical connector, suggesting a condit...]"
     },
     {
       "id": "en_toeic_reading_042",
@@ -504,7 +586,9 @@
         "is being"
       ],
       "answer": 1,
-      "explanation": "'Is updated' (present passive) is the most appropriate as it describes a regular procedure."
+      "explanation": "'Is updated' (present passive) is the most appropriate as it describes a regular procedure.",
+      "ja_question": "[Japanese translation needed: The employee handbook _____ updated annually to re...]",
+      "ja_explanation": "[Japanese translation needed: 'Is updated' (present passive) is the most appropr...]"
     },
     {
       "id": "en_toeic_reading_043",
@@ -516,7 +600,9 @@
         "Customer satisfaction scores have improved this quarter."
       ],
       "answer": 1,
-      "explanation": "Option B flows logically from 'To achieve this goal...' with 'Several strategies have been identified for implementation' connecting paragraphs logically."
+      "explanation": "Option B flows logically from 'To achieve this goal...' with 'Several strategies have been identified for implementation' connecting paragraphs logically.",
+      "ja_question": "[Japanese translation needed: What is the placement of a paragraph in the follow...]",
+      "ja_explanation": "[Japanese translation needed: Option B flows logically from 'To achieve this goa...]"
     },
     {
       "id": "en_toeic_reading_044",
@@ -528,7 +614,9 @@
         "have integrated"
       ],
       "answer": 1,
-      "explanation": "The past tense 'integrated' matches the past reference 'Following the merger' (completed action)."
+      "explanation": "The past tense 'integrated' matches the past reference 'Following the merger' (completed action).",
+      "ja_question": "[Japanese translation needed: Following the merger, the two organizations _____ ...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'integrated' matches the past refer...]"
     },
     {
       "id": "en_toeic_reading_045",
@@ -540,7 +628,9 @@
         "to be obtaining"
       ],
       "answer": 0,
-      "explanation": "The infinitive 'to obtain' is correct after 'in order for [noun]'."
+      "explanation": "The infinitive 'to obtain' is correct after 'in order for [noun]'.",
+      "ja_question": "[Japanese translation needed: In order for employees _____ work-from-home privil...]",
+      "ja_explanation": "[Japanese translation needed: The infinitive 'to obtain' is correct after 'in or...]"
     },
     {
       "id": "en_toeic_reading_046",
@@ -552,7 +642,9 @@
         "demonstrates"
       ],
       "answer": 1,
-      "explanation": "The present perfect requires the past participle 'demonstrated' with 'has'."
+      "explanation": "The present perfect requires the past participle 'demonstrated' with 'has'.",
+      "ja_question": "[Japanese translation needed: The company has _____ its commitment to environmen...]",
+      "ja_explanation": "[Japanese translation needed: The present perfect requires the past participle '...]"
     },
     {
       "id": "en_toeic_reading_047",
@@ -564,7 +656,9 @@
         "because it did not meet specifications"
       ],
       "answer": 0,
-      "explanation": "Option A provides a logical sequence of cause and effect, creating a coherent narrative."
+      "explanation": "Option A provides a logical sequence of cause and effect, creating a coherent narrative.",
+      "ja_question": "[Japanese translation needed: Which sentence best completes the text?\n'The custo...]",
+      "ja_explanation": "[Japanese translation needed: Option A provides a logical sequence of cause and ...]"
     },
     {
       "id": "en_toeic_reading_048",
@@ -576,7 +670,9 @@
         "will express"
       ],
       "answer": 0,
-      "explanation": "The past tense 'expressed' corresponds with the implied past action of requesting updated forecasts."
+      "explanation": "The past tense 'expressed' corresponds with the implied past action of requesting updated forecasts.",
+      "ja_question": "[Japanese translation needed: The financial director _____ concern about the qua...]",
+      "ja_explanation": "[Japanese translation needed: The past tense 'expressed' corresponds with the im...]"
     },
     {
       "id": "en_toeic_reading_049",
@@ -588,7 +684,9 @@
         "hosted/developing"
       ],
       "answer": 2,
-      "explanation": "'Has hosted' (present perfect) indicates a recent completed action, and 'develop' (infinitive form) is parallel after the verb 'help'."
+      "explanation": "'Has hosted' (present perfect) indicates a recent completed action, and 'develop' (infinitive form) is parallel after the verb 'help'.",
+      "ja_question": "[Japanese translation needed: CLOZE TEST: Supply the missing words.\n'The company...]",
+      "ja_explanation": "[Japanese translation needed: 'Has hosted' (present perfect) indicates a recent ...]"
     },
     {
       "id": "en_toeic_reading_050",
@@ -600,7 +698,9 @@
         "Despite"
       ],
       "answer": 3,
-      "explanation": "'Despite' is the correct form here. 'Despite of' is not standard; 'in spite' must be followed by 'of'; 'though' can work but 'despite' is more precise."
+      "explanation": "'Despite' is the correct form here. 'Despite of' is not standard; 'in spite' must be followed by 'of'; 'though' can work but 'despite' is more precise.",
+      "ja_question": "[Japanese translation needed: _____ the challenges faced during implementation, ...]",
+      "ja_explanation": "[Japanese translation needed: 'Despite' is the correct form here. 'Despite of' i...]"
     }
   ]
 }

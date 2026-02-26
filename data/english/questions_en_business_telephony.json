@@ -13,7 +13,9 @@
         "Can I help you?"
       ],
       "answer": 1,
-      "explanation": "ビジネス電話応答は会社名、部門、名前を含む。プロフェッショナルと認識。"
+      "explanation": "ビジネス電話応答は会社名、部門、名前を含む。プロフェッショナルと認識。",
+      "ja_question": "[Japanese translation needed: What is the correct way to answer a business phone...]",
+      "ja_explanation": "[Japanese translation needed: ビジネス電話応答は会社名、部門、名前を含む。プロフェッショナルと認識。...]"
     },
     {
       "id": "en_business_telephony_002",
@@ -25,7 +27,9 @@
         "Be rude about it"
       ],
       "answer": 1,
-      "explanation": "不在時は利用可能時間確認、メッセージ取得またはコールバック提供。サービス志向。"
+      "explanation": "不在時は利用可能時間確認、メッセージ取得またはコールバック提供。サービス志向。",
+      "ja_question": "[Japanese translation needed: How should you request to speak with someone if th...]",
+      "ja_explanation": "[Japanese translation needed: 不在時は利用可能時間確認、メッセージ取得またはコールバック提供。サービス志向。...]"
     },
     {
       "id": "en_business_telephony_003",
@@ -37,7 +41,9 @@
         "Hang on."
       ],
       "answer": 1,
-      "explanation": "保留中は礼儀, 確認内容, 復帰時間見通し提供。顧客ケア示唆。"
+      "explanation": "保留中は礼儀, 確認内容, 復帰時間見通し提供。顧客ケア示唆。",
+      "ja_question": "[Japanese translation needed: What phrase is appropriate for putting someone on ...]",
+      "ja_explanation": "[Japanese translation needed: 保留中は礼儀, 確認内容, 復帰時間見通し提供。顧客ケア示唆。...]"
     },
     {
       "id": "en_business_telephony_004",
@@ -49,7 +55,9 @@
         "Argue with them"
       ],
       "answer": 1,
-      "explanation": "怒った顧客対応は傾聴、不満認識、お詫び、解決策。関係修復。"
+      "explanation": "怒った顧客対応は傾聴、不満認識、お詫び、解決策。関係修復。",
+      "ja_question": "[Japanese translation needed: How should you handle a call from an angry custome...]",
+      "ja_explanation": "[Japanese translation needed: 怒った顧客対応は傾聴、不満認識、お詫び、解決策。関係修復。...]"
     },
     {
       "id": "en_business_telephony_005",
@@ -61,7 +69,9 @@
         "Get frustrated"
       ],
       "answer": 1,
-      "explanation": "不明確時も敬重に説明または確認要求。理解確保。誤解防止。"
+      "explanation": "不明確時も敬重に説明または確認要求。理解確保。誤解防止。",
+      "ja_question": "[Japanese translation needed: What should you do if you don't understand what th...]",
+      "ja_explanation": "[Japanese translation needed: 不明確時も敬重に説明または確認要求。理解確保。誤解防止。...]"
     },
     {
       "id": "en_business_telephony_006",
@@ -73,7 +83,9 @@
         "Leave awkwardly"
       ],
       "answer": 1,
-      "explanation": "電話終了は要点まとめ、次ステップ確認、感謝、別れの言葉。専門性。"
+      "explanation": "電話終了は要点まとめ、次ステップ確認、感謝、別れの言葉。専門性。",
+      "ja_question": "[Japanese translation needed: How should you end a business phone call professio...]",
+      "ja_explanation": "[Japanese translation needed: 電話終了は要点まとめ、次ステップ確認、感謝、別れの言葉。専門性。...]"
     },
     {
       "id": "en_business_telephony_007",
@@ -85,7 +97,9 @@
         "Listening isn't important"
       ],
       "answer": 1,
-      "explanation": "積極的傾聴は完全理解、エンゲージメント、重要詳細把握。効果的コミュニケーション。"
+      "explanation": "積極的傾聴は完全理解、エンゲージメント、重要詳細把握。効果的コミュニケーション。",
+      "ja_question": "[Japanese translation needed: What is the purpose of active listening in busines...]",
+      "ja_explanation": "[Japanese translation needed: 積極的傾聴は完全理解、エンゲージメント、重要詳細把握。効果的コミュニケーション。...]"
     },
     {
       "id": "en_business_telephony_008",
@@ -97,7 +111,9 @@
         "Assume they have authority"
       ],
       "answer": 1,
-      "explanation": "機密情報要求時は身元確認と権限承認が必須。セキュリティ確保。"
+      "explanation": "機密情報要求時は身元確認と権限承認が必須。セキュリティ確保。",
+      "ja_question": "[Japanese translation needed: How should you handle a caller asking for confiden...]",
+      "ja_explanation": "[Japanese translation needed: 機密情報要求時は身元確認と権限承認が必須。セキュリティ確保。...]"
     },
     {
       "id": "en_business_telephony_009",
@@ -109,7 +125,9 @@
         "Tolerate inappropriate behavior"
       ],
       "answer": 1,
-      "explanation": "虐待的発言者は冷静に警告、転送提供、継続なら切断。安全と境界。"
+      "explanation": "虐待的発言者は冷静に警告、転送提供、継続なら切断。安全と境界。",
+      "ja_question": "[Japanese translation needed: What should you do if a caller is being abusive or...]",
+      "ja_explanation": "[Japanese translation needed: 虐待的発言者は冷静に警告、転送提供、継続なら切断。安全と境界。...]"
     },
     {
       "id": "en_business_telephony_010",
@@ -121,7 +139,9 @@
         "Take notes you can't read"
       ],
       "answer": 1,
-      "explanation": "メッセージ正確性は、発信者名、電話番号、内容、日時、確認。誤解防止。"
+      "explanation": "メッセージ正確性は、発信者名、電話番号、内容、日時、確認。誤解防止。",
+      "ja_question": "[Japanese translation needed: How should you take a message accurately?...]",
+      "ja_explanation": "[Japanese translation needed: メッセージ正確性は、発信者名、電話番号、内容、日時、確認。誤解防止。...]"
     },
     {
       "id": "en_business_telephony_011",
@@ -133,7 +153,9 @@
         "It happens."
       ],
       "answer": 1,
-      "explanation": "企業ミス謝罪は真摯で、改善コミットメント。信頼と関係修復。"
+      "explanation": "企業ミス謝罪は真摯で、改善コミットメント。信頼と関係修復。",
+      "ja_question": "[Japanese translation needed: What phrase should you use to apologize for a comp...]",
+      "ja_explanation": "[Japanese translation needed: 企業ミス謝罪は真摯で、改善コミットメント。信頼と関係修復。...]"
     },
     {
       "id": "en_business_telephony_012",
@@ -145,7 +167,9 @@
         "Have no strategy"
       ],
       "answer": 1,
-      "explanation": "交渉電話準備は調査、目標定義、異議予測、限界設定。成功確率向上。"
+      "explanation": "交渉電話準備は調査、目標定義、異議予測、限界設定。成功確率向上。",
+      "ja_question": "[Japanese translation needed: How should you approach a negotiation phone call p...]",
+      "ja_explanation": "[Japanese translation needed: 交渉電話準備は調査、目標定義、異議予測、限界設定。成功確率向上。...]"
     },
     {
       "id": "en_business_telephony_013",
@@ -157,7 +181,9 @@
         "Hope they didn't notice"
       ],
       "answer": 1,
-      "explanation": "電話ミス発生時も即座に認識、訂正、確認。信頼と専門性維持。"
+      "explanation": "電話ミス発生時も即座に認識、訂正、確認。信頼と専門性維持。",
+      "ja_question": "[Japanese translation needed: What should you do if you make a mistake during a ...]",
+      "ja_explanation": "[Japanese translation needed: 電話ミス発生時も即座に認識、訂正、確認。信頼と専門性維持。...]"
     },
     {
       "id": "en_business_telephony_014",
@@ -169,7 +195,9 @@
         "Keep them on the line"
       ],
       "answer": 1,
-      "explanation": "迷惑電話対応も礼儀正しくクイック。再接触禁止。時間効率。"
+      "explanation": "迷惑電話対応も礼儀正しくクイック。再接触禁止。時間効率。",
+      "ja_question": "[Japanese translation needed: How should you handle a telemarketing or spam call...]",
+      "ja_explanation": "[Japanese translation needed: 迷惑電話対応も礼儀正しくクイック。再接触禁止。時間効率。...]"
     },
     {
       "id": "en_business_telephony_015",
@@ -181,7 +209,9 @@
         "Confirmation is unnecessary"
       ],
       "answer": 1,
-      "explanation": "交渉で詳細確認は相互理解、紛争防止、合意文書化。透明性。"
+      "explanation": "交渉で詳細確認は相互理解、紛争防止、合意文書化。透明性。",
+      "ja_question": "[Japanese translation needed: What is the purpose of confirming details verbally...]",
+      "ja_explanation": "[Japanese translation needed: 交渉で詳細確認は相互理解、紛争防止、合意文書化。透明性。...]"
     },
     {
       "id": "en_business_telephony_016",
@@ -193,7 +223,9 @@
         "Don't explain anything"
       ],
       "answer": 1,
-      "explanation": "3者通話は全当事者紹介、目的説明、対話進行。明確性と整理。"
+      "explanation": "3者通話は全当事者紹介、目的説明、対話進行。明確性と整理。",
+      "ja_question": "[Japanese translation needed: How should you handle a three-way phone call profe...]",
+      "ja_explanation": "[Japanese translation needed: 3者通話は全当事者紹介、目的説明、対話進行。明確性と整理。...]"
     },
     {
       "id": "en_business_telephony_017",
@@ -205,7 +237,9 @@
         "Make unreasonable demands"
       ],
       "answer": 1,
-      "explanation": "交渉行き詰まり時は休止、共通点探索、創造的解決、フォローアップ。建設的。"
+      "explanation": "交渉行き詰まり時は休止、共通点探索、創造的解決、フォローアップ。建設的。",
+      "ja_question": "[Japanese translation needed: What should you do if a negotiation reaches an imp...]",
+      "ja_explanation": "[Japanese translation needed: 交渉行き詰まり時は休止、共通点探索、創造的解決、フォローアップ。建設的。...]"
     },
     {
       "id": "en_business_telephony_018",
@@ -217,7 +251,9 @@
         "Rely only on memory"
       ],
       "answer": 1,
-      "explanation": "電話記録は日付、時間、参加者、主要ポイント、合意、行動項目。参考性。"
+      "explanation": "電話記録は日付、時間、参加者、主要ポイント、合意、行動項目。参考性。",
+      "ja_question": "[Japanese translation needed: How should you document a phone conversation for b...]",
+      "ja_explanation": "[Japanese translation needed: 電話記録は日付、時間、参加者、主要ポイント、合意、行動項目。参考性。...]"
     },
     {
       "id": "en_business_telephony_019",
@@ -229,7 +265,9 @@
         "Let's just end this."
       ],
       "answer": 1,
-      "explanation": "交渉結論は提案条件提示。正式で明確。合意導き出し。"
+      "explanation": "交渉結論は提案条件提示。正式で明確。合意導き出し。",
+      "ja_question": "[Japanese translation needed: What phrase indicates you're ready to conclude neg...]",
+      "ja_explanation": "[Japanese translation needed: 交渉結論は提案条件提示。正式で明確。合意導き出し。...]"
     },
     {
       "id": "en_business_telephony_020",
@@ -241,7 +279,9 @@
         "Assume you understood when you didn't"
       ],
       "answer": 1,
-      "explanation": "アクセント対応は丁寧傾聴、必要時に敬重に繰り返し要求。専門的理解。"
+      "explanation": "アクセント対応は丁寧傾聴、必要時に敬重に繰り返し要求。専門的理解。",
+      "ja_question": "[Japanese translation needed: How should you handle a caller with a strong accen...]",
+      "ja_explanation": "[Japanese translation needed: アクセント対応は丁寧傾聴、必要時に敬重に繰り返し要求。専門的理解。...]"
     },
     {
       "id": "en_business_telephony_021",
@@ -253,7 +293,9 @@
         "Make up answers"
       ],
       "answer": 1,
-      "explanation": "複数源から情報収集が必要なら、保留許可要求、収集、復帰。正確性。"
+      "explanation": "複数源から情報収集が必要なら、保留許可要求、収集、復帰。正確性。",
+      "ja_question": "[Japanese translation needed: What should you do if you need to gather informati...]",
+      "ja_explanation": "[Japanese translation needed: 複数源から情報収集が必要なら、保留許可要求、収集、復帰。正確性。...]"
     },
     {
       "id": "en_business_telephony_022",
@@ -265,7 +307,9 @@
         "Be dismissive"
       ],
       "answer": 1,
-      "explanation": "電話関係の境界は専門的で明確。利用可能性状態。相互尊重。期待設定。"
+      "explanation": "電話関係の境界は専門的で明確。利用可能性状態。相互尊重。期待設定。",
+      "ja_question": "[Japanese translation needed: How should you approach boundary-setting in a busi...]",
+      "ja_explanation": "[Japanese translation needed: 電話関係の境界は専門的で明確。利用可能性状態。相互尊重。期待設定。...]"
     },
     {
       "id": "en_business_telephony_023",
@@ -277,7 +321,9 @@
         "Ignore concerns"
       ],
       "answer": 1,
-      "explanation": "営業電話異議対応は認識、質問、証拠提示、代替え。説得力。"
+      "explanation": "営業電話異議対応は認識、質問、証拠提示、代替え。説得力。",
+      "ja_question": "[Japanese translation needed: What is the best way to overcome objections in a s...]",
+      "ja_explanation": "[Japanese translation needed: 営業電話異議対応は認識、質問、証拠提示、代替え。説得力。...]"
     },
     {
       "id": "en_business_telephony_024",
@@ -289,7 +335,9 @@
         "Get frustrated"
       ],
       "answer": 1,
-      "explanation": "感情的発信者対応は共感、判断なく傾聴、サポート、冷静性。人道的。"
+      "explanation": "感情的発信者対応は共感、判断なく傾聴、サポート、冷静性。人道的。",
+      "ja_question": "[Japanese translation needed: How should you handle a call where the person is c...]",
+      "ja_explanation": "[Japanese translation needed: 感情的発信者対応は共感、判断なく傾聴、サポート、冷静性。人道的。...]"
     },
     {
       "id": "en_business_telephony_025",
@@ -301,7 +349,9 @@
         "Transfer without explanation"
       ],
       "answer": 1,
-      "explanation": "転送前は理由説明、部門確認、温かい転送、直通番号提供。顧客体験。"
+      "explanation": "転送前は理由説明、部門確認、温かい転送、直通番号提供。顧客体験。",
+      "ja_question": "[Japanese translation needed: What should you do before transferring a caller to...]",
+      "ja_explanation": "[Japanese translation needed: 転送前は理由説明、部門確認、温かい転送、直通番号提供。顧客体験。...]"
     },
     {
       "id": "en_business_telephony_026",
@@ -313,7 +363,9 @@
         "Offer unnecessary discounts"
       ],
       "answer": 1,
-      "explanation": "価格交渉は価値理解、オプション討論、価格正当化、ウィンウィン。持続性。"
+      "explanation": "価格交渉は価値理解、オプション討論、価格正当化、ウィンウィン。持続性。",
+      "ja_question": "[Japanese translation needed: How should you handle price negotiations in a phon...]",
+      "ja_explanation": "[Japanese translation needed: 価格交渉は価値理解、オプション討論、価格正当化、ウィンウィン。持続性。...]"
     },
     {
       "id": "en_business_telephony_027",
@@ -325,7 +377,9 @@
         "I don't care."
       ],
       "answer": 1,
-      "explanation": "エスカレーション時は重要性認識、適切者へ接続。顧客満足。解決指向。"
+      "explanation": "エスカレーション時は重要性認識、適切者へ接続。顧客満足。解決指向。",
+      "ja_question": "[Japanese translation needed: What phrase should you use if you need to escalate...]",
+      "ja_explanation": "[Japanese translation needed: エスカレーション時は重要性認識、適切者へ接続。顧客満足。解決指向。...]"
     },
     {
       "id": "en_business_telephony_028",
@@ -337,7 +391,9 @@
         "Trust them immediately"
       ],
       "answer": 1,
-      "explanation": "身元確認は文脈質問。過去情報参照。セキュリティと流暢性。"
+      "explanation": "身元確認は文脈質問。過去情報参照。セキュリティと流暢性。",
+      "ja_question": "[Japanese translation needed: How should you verify a caller's identity without ...]",
+      "ja_explanation": "[Japanese translation needed: 身元確認は文脈質問。過去情報参照。セキュリティと流暢性。...]"
     },
     {
       "id": "en_business_telephony_029",
@@ -349,7 +405,9 @@
         "Deny saying it"
       ],
       "answer": 1,
-      "explanation": "機密情報誤開示時も即座に認識、お詫び、偶然性説明、影響評価。信頼性。"
+      "explanation": "機密情報誤開示時も即座に認識、お詫び、偶然性説明、影響評価。信頼性。",
+      "ja_question": "[Japanese translation needed: What should you do if you accidentally say somethi...]",
+      "ja_explanation": "[Japanese translation needed: 機密情報誤開示時も即座に認識、お詫び、偶然性説明、影響評価。信頼性。...]"
     },
     {
       "id": "en_business_telephony_030",
@@ -361,7 +419,9 @@
         "Escalate tensions"
       ],
       "answer": 1,
-      "explanation": "感情高い交渉は冷静さ維持。立場でなく利益焦点。'I'文使用。理解追求。"
+      "explanation": "感情高い交渉は冷静さ維持。立場でなく利益焦点。'I'文使用。理解追求。",
+      "ja_question": "[Japanese translation needed: How should you approach a difficult negotiation wh...]",
+      "ja_explanation": "[Japanese translation needed: 感情高い交渉は冷静さ維持。立場でなく利益焦点。'I'文使用。理解追求。...]"
     },
     {
       "id": "en_business_telephony_031",
@@ -373,7 +433,9 @@
         "Hang up without being helpful"
       ],
       "answer": 1,
-      "explanation": "忙しい発信者も敬重。便利時間確認、コールバック提供、簡潔背景。相互尊重。"
+      "explanation": "忙しい発信者も敬重。便利時間確認、コールバック提供、簡潔背景。相互尊重。",
+      "ja_question": "[Japanese translation needed: What is the best response to a caller saying 'I'm ...]",
+      "ja_explanation": "[Japanese translation needed: 忙しい発信者も敬重。便利時間確認、コールバック提供、簡潔背景。相互尊重。...]"
     },
     {
       "id": "en_business_telephony_032",
@@ -385,7 +447,9 @@
         "Be rude"
       ],
       "answer": 1,
-      "explanation": "競合電話も専門的。機密非共有。礼儀正しく。適切に終了。秘密保護。"
+      "explanation": "競合電話も専門的。機密非共有。礼儀正しく。適切に終了。秘密保護。",
+      "ja_question": "[Japanese translation needed: How should you handle a competitor calling your bu...]",
+      "ja_explanation": "[Japanese translation needed: 競合電話も専門的。機密非共有。礼儀正しく。適切に終了。秘密保護。...]"
     },
     {
       "id": "en_business_telephony_033",
@@ -397,7 +461,9 @@
         "Get angry"
       ],
       "answer": 1,
-      "explanation": "値引き要求時は理由確認、価値説明、代替え、適切なら交渉。判断的。"
+      "explanation": "値引き要求時は理由確認、価値説明、代替え、適切なら交渉。判断的。",
+      "ja_question": "[Japanese translation needed: What should you do if a caller requests a price re...]",
+      "ja_explanation": "[Japanese translation needed: 値引き要求時は理由確認、価値説明、代替え、適切なら交渉。判断的。...]"
     },
     {
       "id": "en_business_telephony_034",
@@ -409,7 +475,9 @@
         "Assume they remember everything"
       ],
       "answer": 1,
-      "explanation": "電話後フォローアップは要点、合意、次ステップメール。記録と確認。"
+      "explanation": "電話後フォローアップは要点、合意、次ステップメール。記録と確認。",
+      "ja_question": "[Japanese translation needed: How should you follow up after an important busine...]",
+      "ja_explanation": "[Japanese translation needed: 電話後フォローアップは要点、合意、次ステップメール。記録と確認。...]"
     },
     {
       "id": "en_business_telephony_035",
@@ -421,7 +489,9 @@
         "Just say yes."
       ],
       "answer": 1,
-      "explanation": "交渉でのコミットメント要求は確認的で敬重。ウィンウィン枠組み。"
+      "explanation": "交渉でのコミットメント要求は確認的で敬重。ウィンウィン枠組み。",
+      "ja_question": "[Japanese translation needed: What phrase is appropriate when asking for a commi...]",
+      "ja_explanation": "[Japanese translation needed: 交渉でのコミットメント要求は確認的で敬重。ウィンウィン枠組み。...]"
     },
     {
       "id": "en_business_telephony_036",
@@ -433,7 +503,9 @@
         "Argue with them"
       ],
       "answer": 1,
-      "explanation": "規制機関電話は協力的。権限確認。目的理解。必要時にマネジメント/法的相談。"
+      "explanation": "規制機関電話は協力的。権限確認。目的理解。必要時にマネジメント/法的相談。",
+      "ja_question": "[Japanese translation needed: How should you handle a call from a regulator or g...]",
+      "ja_explanation": "[Japanese translation needed: 規制機関電話は協力的。権限確認。目的理解。必要時にマネジメント/法的相談。...]"
     },
     {
       "id": "en_business_telephony_037",
@@ -445,7 +517,9 @@
         "Keep giving wrong information"
       ],
       "answer": 1,
-      "explanation": "間違った部門時はお詫び、正部門確認、敬重に転送。顧客体験改善。"
+      "explanation": "間違った部門時はお詫び、正部門確認、敬重に転送。顧客体験改善。",
+      "ja_question": "[Japanese translation needed: What should you do if you realize you're speaking ...]",
+      "ja_explanation": "[Japanese translation needed: 間違った部門時はお詫び、正部門確認、敬重に転送。顧客体験改善。...]"
     },
     {
       "id": "en_business_telephony_038",
@@ -457,7 +531,9 @@
         "Avoid personal connection"
       ],
       "answer": 1,
-      "explanation": "困難な交渉相手とのラポール構築は共通点探索、相互利益、真正な関心。信頼。"
+      "explanation": "困難な交渉相手とのラポール構築は共通点探索、相互利益、真正な関心。信頼。",
+      "ja_question": "[Japanese translation needed: How should you establish rapport with a difficult ...]",
+      "ja_explanation": "[Japanese translation needed: 困難な交渉相手とのラポール構築は共通点探索、相互利益、真正な関心。信頼。...]"
     },
     {
       "id": "en_business_telephony_039",
@@ -469,7 +545,9 @@
         "Give false hope"
       ],
       "answer": 1,
-      "explanation": "配信不可時も正直に。限界説明。現実的代替え。関係維持。信頼重要。"
+      "explanation": "配信不可時も正直に。限界説明。現実的代替え。関係維持。信頼重要。",
+      "ja_question": "[Japanese translation needed: What should you do if you know you cannot deliver ...]",
+      "ja_explanation": "[Japanese translation needed: 配信不可時も正直に。限界説明。現実的代替え。関係維持。信頼重要。...]"
     },
     {
       "id": "en_business_telephony_040",
@@ -481,7 +559,9 @@
         "Blame them"
       ],
       "answer": 1,
-      "explanation": "不満なベンダー対応は傾聴、懸念理解、適切なお詫び、解決探索。供給鎖維持。"
+      "explanation": "不満なベンダー対応は傾聴、懸念理解、適切なお詫び、解決探索。供給鎖維持。",
+      "ja_question": "[Japanese translation needed: How should you handle a call from an unhappy vendo...]",
+      "ja_explanation": "[Japanese translation needed: 不満なベンダー対応は傾聴、懸念理解、適切なお詫び、解決探索。供給鎖維持。...]"
     },
     {
       "id": "en_business_telephony_041",
@@ -493,7 +573,9 @@
         "Sound uncertain"
       ],
       "answer": 1,
-      "explanation": "電話トーンは信頼度、敬意、開放性を伝える。交渉成功に重要。"
+      "explanation": "電話トーンは信頼度、敬意、開放性を伝える。交渉成功に重要。",
+      "ja_question": "[Japanese translation needed: What is the importance of tone of voice in busines...]",
+      "ja_explanation": "[Japanese translation needed: 電話トーンは信頼度、敬意、開放性を伝える。交渉成功に重要。...]"
     },
     {
       "id": "en_business_telephony_042",
@@ -505,7 +587,9 @@
         "Assume they understand everything"
       ],
       "answer": 1,
-      "explanation": "非ネイティブ発信者に対応は明確に話す、簡潔言語、理解確認、忍耐尊重。包括的。"
+      "explanation": "非ネイティブ発信者に対応は明確に話す、簡潔言語、理解確認、忍耐尊重。包括的。",
+      "ja_question": "[Japanese translation needed: How should you handle a call where the person does...]",
+      "ja_explanation": "[Japanese translation needed: 非ネイティブ発信者に対応は明確に話す、簡潔言語、理解確認、忍耐尊重。包括的。...]"
     },
     {
       "id": "en_business_telephony_043",
@@ -517,7 +601,9 @@
         "Skip security measures"
       ],
       "answer": 1,
-      "explanation": "機密情報電話はセキュア確認、身元確認、機密性状態。保護義務。"
+      "explanation": "機密情報電話はセキュア確認、身元確認、機密性状態。保護義務。",
+      "ja_question": "[Japanese translation needed: What should you do if you need to discuss confiden...]",
+      "ja_explanation": "[Japanese translation needed: 機密情報電話はセキュア確認、身元確認、機密性状態。保護義務。...]"
     },
     {
       "id": "en_business_telephony_044",
@@ -529,7 +615,9 @@
         "Feel threatened and give in"
       ],
       "answer": 1,
-      "explanation": "最後通牒対応は柔軟性確認、影響検討、代替え提案、圧力甘受なし。冷静性。"
+      "explanation": "最後通牒対応は柔軟性確認、影響検討、代替え提案、圧力甘受なし。冷静性。",
+      "ja_question": "[Japanese translation needed: How should you approach a 'take it or leave it' ul...]",
+      "ja_explanation": "[Japanese translation needed: 最後通牒対応は柔軟性確認、影響検討、代替え提案、圧力甘受なし。冷静性。...]"
     },
     {
       "id": "en_business_telephony_045",
@@ -541,7 +629,9 @@
         "That's stupid."
       ],
       "answer": 1,
-      "explanation": "不合理要求拒否も敬重。代替え討論提案。関係維持。建設的トーン。"
+      "explanation": "不合理要求拒否も敬重。代替え討論提案。関係維持。建設的トーン。",
+      "ja_question": "[Japanese translation needed: What phrase should you use to decline an unreasona...]",
+      "ja_explanation": "[Japanese translation needed: 不合理要求拒否も敬重。代替え討論提案。関係維持。建設的トーン。...]"
     },
     {
       "id": "en_business_telephony_046",
@@ -553,7 +643,9 @@
         "Leave without closure"
       ],
       "answer": 1,
-      "explanation": "合意達成時も条件確認、次ステップ、感謝、書面確認。文書化。"
+      "explanation": "合意達成時も条件確認、次ステップ、感謝、書面確認。文書化。",
+      "ja_question": "[Japanese translation needed: How should you handle a call where both parties ha...]",
+      "ja_explanation": "[Japanese translation needed: 合意達成時も条件確認、次ステップ、感謝、書面確認。文書化。...]"
     },
     {
       "id": "en_business_telephony_047",
@@ -565,7 +657,9 @@
         "Continue the conversation"
       ],
       "answer": 1,
-      "explanation": "脅迫的発信者は冷静、エスカレーション避け、終了、報告。安全第一。"
+      "explanation": "脅迫的発信者は冷静、エスカレーション避け、終了、報告。安全第一。",
+      "ja_question": "[Japanese translation needed: What should you do if a caller becomes physically ...]",
+      "ja_explanation": "[Japanese translation needed: 脅迫的発信者は冷静、エスカレーション避け、終了、報告。安全第一。...]"
     },
     {
       "id": "en_business_telephony_048",
@@ -577,7 +671,9 @@
         "Avoid mentioning them"
       ],
       "answer": 1,
-      "explanation": "合意の不一致は即座に明確化、記録、書面で確認。問題防止。"
+      "explanation": "合意の不一致は即座に明確化、記録、書面で確認。問題防止。",
+      "ja_question": "[Japanese translation needed: How should you address discrepancies in agreements...]",
+      "ja_explanation": "[Japanese translation needed: 合意の不一致は即座に明確化、記録、書面で確認。問題防止。...]"
     },
     {
       "id": "en_business_telephony_049",
@@ -589,7 +685,9 @@
         "Avoid maintaining relationships"
       ],
       "answer": 1,
-      "explanation": "長期パートナーシップ構築は約束実行、真正な関心、定期接触、信頼性。持続。"
+      "explanation": "長期パートナーシップ構築は約束実行、真正な関心、定期接触、信頼性。持続。",
+      "ja_question": "[Japanese translation needed: What is the best way to build long-term partnershi...]",
+      "ja_explanation": "[Japanese translation needed: 長期パートナーシップ構築は約束実行、真正な関心、定期接触、信頼性。持続。...]"
     },
     {
       "id": "en_business_telephony_050",
@@ -601,7 +699,9 @@
         "Leave details unclear"
       ],
       "answer": 1,
-      "explanation": "成功交渉終了は合意祝い、条件確認、次ステップ、コミットメント、フォローアップ予約。完結。"
+      "explanation": "成功交渉終了は合意祝い、条件確認、次ステップ、コミットメント、フォローアップ予約。完結。",
+      "ja_question": "[Japanese translation needed: How should you conclude a successful negotiation c...]",
+      "ja_explanation": "[Japanese translation needed: 成功交渉終了は合意祝い、条件確認、次ステップ、コミットメント、フォローアップ予約。完結。...]"
     }
   ]
 }

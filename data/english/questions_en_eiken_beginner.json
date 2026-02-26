@@ -13,7 +13,9 @@
         "It is a clock."
       ],
       "answer": 0,
-      "explanation": "時刻を「It is + 時間」で答える。5級・4級では基本的な時刻表現が重要。"
+      "explanation": "時刻を「It is + 時間」で答える。5級・4級では基本的な時刻表現が重要。",
+      "ja_question": "[Japanese translation needed: What time is it?...]",
+      "ja_explanation": "[Japanese translation needed: 時刻を「It is + 時間」で答える。5級・4級では基本的な時刻表現が重要。...]"
     },
     {
       "id": "en_eiken_beginner_002",
@@ -25,7 +27,9 @@
         "an apple"
       ],
       "answer": 1,
-      "explanation": "How many + 複数名詞が正い形。\"apples\"のように複数形を使う。"
+      "explanation": "How many + 複数名詞が正い形。\"apples\"のように複数形を使う。",
+      "ja_question": "[Japanese translation needed: How many _____ are there on the table?...]",
+      "ja_explanation": "[Japanese translation needed: How many + 複数名詞が正い形。\"apples\"のように複数形を使う。...]"
     },
     {
       "id": "en_eiken_beginner_003",
@@ -37,7 +41,9 @@
         "is go"
       ],
       "answer": 1,
-      "explanation": "3人称単数現在形にはsをつける。\"My sister goes...\"が正い。"
+      "explanation": "3人称単数現在形にはsをつける。\"My sister goes...\"が正い。",
+      "ja_question": "[Japanese translation needed: My sister ___ to school every day....]",
+      "ja_explanation": "[Japanese translation needed: 3人称単数現在形にはsをつける。\"My sister goes...\"が正い。...]"
     },
     {
       "id": "en_eiken_beginner_004",
@@ -49,7 +55,9 @@
         "plays tennis"
       ],
       "answer": 1,
-      "explanation": "like + V-ingが基本形。\"Do you like playing tennis?\"が正しい。"
+      "explanation": "like + V-ingが基本形。\"Do you like playing tennis?\"が正しい。",
+      "ja_question": "[Japanese translation needed: Do you like ___?...]",
+      "ja_explanation": "[Japanese translation needed: like + V-ingが基本形。\"Do you like playing tennis?\"が正しい...]"
     },
     {
       "id": "en_eiken_beginner_005",
@@ -61,7 +69,9 @@
         "isn't"
       ],
       "answer": 0,
-      "explanation": "過去の否定は\"didn't + 動詞の原形\"。\"I didn't eat breakfast...\"が正い。"
+      "explanation": "過去の否定は\"didn't + 動詞の原形\"。\"I didn't eat breakfast...\"が正い。",
+      "ja_question": "[Japanese translation needed: I ___ eat breakfast this morning....]",
+      "ja_explanation": "[Japanese translation needed: 過去の否定は\"didn't + 動詞の原形\"。\"I didn't eat breakfast...\"...]"
     },
     {
       "id": "en_eiken_beginner_006",
@@ -73,7 +83,9 @@
         "I like to sport."
       ],
       "answer": 2,
-      "explanation": "\"What is your favorite + 名詞?\"という質問に対して、\"My favorite + 名詞 + is ~\"で答える。"
+      "explanation": "\"What is your favorite + 名詞?\"という質問に対して、\"My favorite + 名詞 + is ~\"で答える。",
+      "ja_question": "[Japanese translation needed: What is your favorite sport?...]",
+      "ja_explanation": "[Japanese translation needed: \"What is your favorite + 名詞?\"という質問に対して、\"My favorit...]"
     },
     {
       "id": "en_eiken_beginner_007",
@@ -85,7 +97,9 @@
         "was"
       ],
       "answer": 0,
-      "explanation": "現在完了形は\"have/has + 過去分詞\"。3人称単数は\"has\"を使う。"
+      "explanation": "現在完了形は\"have/has + 過去分詞\"。3人称単数は\"has\"を使う。",
+      "ja_question": "[Japanese translation needed: She ___ been to Tokyo before....]",
+      "ja_explanation": "[Japanese translation needed: 現在完了形は\"have/has + 過去分詞\"。3人称単数は\"has\"を使う。...]"
     },
     {
       "id": "en_eiken_beginner_008",
@@ -97,7 +111,9 @@
         "to ask"
       ],
       "answer": 0,
-      "explanation": "Can + 原形。\"Can I ask you a question?\"が正しい聞き方。"
+      "explanation": "Can + 原形。\"Can I ask you a question?\"が正しい聞き方。",
+      "ja_question": "[Japanese translation needed: Can I ___ you a question?...]",
+      "ja_explanation": "[Japanese translation needed: Can + 原形。\"Can I ask you a question?\"が正しい聞き方。...]"
     },
     {
       "id": "en_eiken_beginner_009",
@@ -109,7 +125,9 @@
         "of"
       ],
       "answer": 1,
-      "explanation": "目的を表すtoを使う。\"to buy bread\"で\"パンを買うために\"という意味。"
+      "explanation": "目的を表すtoを使う。\"to buy bread\"で\"パンを買うために\"という意味。",
+      "ja_question": "[Japanese translation needed: I went to the supermarket ___ buy bread....]",
+      "ja_explanation": "[Japanese translation needed: 目的を表すtoを使う。\"to buy bread\"で\"パンを買うために\"という意味。...]"
     },
     {
       "id": "en_eiken_beginner_010",
@@ -121,7 +139,9 @@
         "interesting"
       ],
       "answer": 0,
-      "explanation": "比較級は\"more + 形容詞\"。\"This book is more interesting than that one.\"が正い。"
+      "explanation": "比較級は\"more + 形容詞\"。\"This book is more interesting than that one.\"が正い。",
+      "ja_question": "[Japanese translation needed: This book is ___ than that one....]",
+      "ja_explanation": "[Japanese translation needed: 比較級は\"more + 形容詞\"。\"This book is more interesting th...]"
     },
     {
       "id": "en_eiken_beginner_011",
@@ -133,7 +153,9 @@
         "posts office"
       ],
       "answer": 0,
-      "explanation": "修飾関係は\"post office\"。名詞+名詞の組み合わせで複合名詞を作る。"
+      "explanation": "修飾関係は\"post office\"。名詞+名詞の組み合わせで複合名詞を作る。",
+      "ja_question": "[Japanese translation needed: Where is the nearest ___?...]",
+      "ja_explanation": "[Japanese translation needed: 修飾関係は\"post office\"。名詞+名詞の組み合わせで複合名詞を作る。...]"
     },
     {
       "id": "en_eiken_beginner_012",
@@ -145,7 +167,9 @@
         "the reading"
       ],
       "answer": 1,
-      "explanation": "don't like + V-ing。\"reading\"がgetする形。"
+      "explanation": "don't like + V-ing。\"reading\"がgetする形。",
+      "ja_question": "[Japanese translation needed: I don't like ___ very much....]",
+      "ja_explanation": "[Japanese translation needed: don't like + V-ing。\"reading\"がgetする形。...]"
     },
     {
       "id": "en_eiken_beginner_013",
@@ -157,7 +181,9 @@
         "Can you"
       ],
       "answer": 0,
-      "explanation": "普通の習慣を聞くなら\"Do you...?\"を使う現在形。"
+      "explanation": "普通の習慣を聞くなら\"Do you...?\"を使う現在形。",
+      "ja_question": "[Japanese translation needed: _____ usually have lunch at 12 o'clock?...]",
+      "ja_explanation": "[Japanese translation needed: 普通の習慣を聞くなら\"Do you...?\"を使う現在形。...]"
     },
     {
       "id": "en_eiken_beginner_014",
@@ -169,7 +195,9 @@
         "won't"
       ],
       "answer": 0,
-      "explanation": "能力がない場合は\"can't\"を使う。怪我のため遊べない理由。"
+      "explanation": "能力がない場合は\"can't\"を使う。怪我のため遊べない理由。",
+      "ja_question": "[Japanese translation needed: He ___ play soccer because he injured his leg....]",
+      "ja_explanation": "[Japanese translation needed: 能力がない場合は\"can't\"を使う。怪我のため遊べない理由。...]"
     },
     {
       "id": "en_eiken_beginner_015",
@@ -181,7 +209,9 @@
         "in"
       ],
       "answer": 0,
-      "explanation": "have to + 原形で\"しなければならない\"。\"I have to do...\"が正い表現。"
+      "explanation": "have to + 原形で\"しなければならない\"。\"I have to do...\"が正い表現。",
+      "ja_question": "[Japanese translation needed: I have ____ do my homework....]",
+      "ja_explanation": "[Japanese translation needed: have to + 原形で\"しなければならない\"。\"I have to do...\"が正い表現。...]"
     },
     {
       "id": "en_eiken_beginner_016",
@@ -193,7 +223,9 @@
         "It means windy."
       ],
       "answer": 1,
-      "explanation": "\"sunny\"は晴れた、明るいという意味。天気の表現を理解する必要がある。"
+      "explanation": "\"sunny\"は晴れた、明るいという意味。天気の表現を理解する必要がある。",
+      "ja_question": "[Japanese translation needed: What does \"sunny\" mean?...]",
+      "ja_explanation": "[Japanese translation needed: \"sunny\"は晴れた、明るいという意味。天気の表現を理解する必要がある。...]"
     },
     {
       "id": "en_eiken_beginner_017",
@@ -205,7 +237,9 @@
         "interests"
       ],
       "answer": 1,
-      "explanation": "\"be interested in ~\"で\"~に興味がある\"という意味。過去分詞を使う。"
+      "explanation": "\"be interested in ~\"で\"~に興味がある\"という意味。過去分詞を使う。",
+      "ja_question": "[Japanese translation needed: Are you ___ in sports?...]",
+      "ja_explanation": "[Japanese translation needed: \"be interested in ~\"で\"~に興味がある\"という意味。過去分詞を使う。...]"
     },
     {
       "id": "en_eiken_beginner_018",
@@ -217,7 +251,9 @@
         "and"
       ],
       "answer": 1,
-      "explanation": "\"prefer A to B\"で\"AはBより好き\"という比較表現を使う。"
+      "explanation": "\"prefer A to B\"で\"AはBより好き\"という比較表現を使う。",
+      "ja_question": "[Japanese translation needed: I prefer coffee ___ tea....]",
+      "ja_explanation": "[Japanese translation needed: \"prefer A to B\"で\"AはBより好き\"という比較表現を使う。...]"
     },
     {
       "id": "en_eiken_beginner_019",
@@ -229,7 +265,9 @@
         "been"
       ],
       "answer": 1,
-      "explanation": "\"parents\"は複数形なので\"are\"を使う。\"My parents are cooking...\"が正い。"
+      "explanation": "\"parents\"は複数形なので\"are\"を使う。\"My parents are cooking...\"が正い。",
+      "ja_question": "[Japanese translation needed: My parents ___ cooking dinner at 6 PM....]",
+      "ja_explanation": "[Japanese translation needed: \"parents\"は複数形なので\"are\"を使う。\"My parents are cooking.....]"
     },
     {
       "id": "en_eiken_beginner_020",
@@ -241,7 +279,9 @@
         "any"
       ],
       "answer": 2,
-      "explanation": "最高級は定冠詞\"the\"を伴う。\"the most beautiful\"が正い形。"
+      "explanation": "最高級は定冠詞\"the\"を伴う。\"the most beautiful\"が正い形。",
+      "ja_question": "[Japanese translation needed: This is ___ most beautiful place I have ever seen....]",
+      "ja_explanation": "[Japanese translation needed: 最高級は定冠詞\"the\"を伴う。\"the most beautiful\"が正い形。...]"
     },
     {
       "id": "en_eiken_beginner_021",
@@ -253,7 +293,9 @@
         "been"
       ],
       "answer": 2,
-      "explanation": "仮定法過去は\"If I were...\"という非現実的な仮定を表す。"
+      "explanation": "仮定法過去は\"If I were...\"という非現実的な仮定を表す。",
+      "ja_question": "[Japanese translation needed: If I ___ you, I would study abroad....]",
+      "ja_explanation": "[Japanese translation needed: 仮定法過去は\"If I were...\"という非現実的な仮定を表す。...]"
     },
     {
       "id": "en_eiken_beginner_022",
@@ -265,7 +307,9 @@
         "could"
       ],
       "answer": 1,
-      "explanation": "間接話法で過去の話を述べるときは\"would\"を使う。"
+      "explanation": "間接話法で過去の話を述べるときは\"would\"を使う。",
+      "ja_question": "[Japanese translation needed: She said that she ___ come to the party....]",
+      "ja_explanation": "[Japanese translation needed: 間接話法で過去の話を述べるときは\"would\"を使う。...]"
     },
     {
       "id": "en_eiken_beginner_023",
@@ -277,7 +321,9 @@
         "have lost"
       ],
       "answer": 3,
-      "explanation": "最近失くして、今見つからない状態は現在完了形\"have lost\"を使う。"
+      "explanation": "最近失くして、今見つからない状態は現在完了形\"have lost\"を使う。",
+      "ja_question": "[Japanese translation needed: I ___ my keys. Do you see them?...]",
+      "ja_explanation": "[Japanese translation needed: 最近失くして、今見つからない状態は現在完了形\"have lost\"を使う。...]"
     },
     {
       "id": "en_eiken_beginner_024",
@@ -289,7 +335,9 @@
         "at, at"
       ],
       "answer": 0,
-      "explanation": "\"from A to B\"で時間幅を表す。\"from 9 AM to 5 PM\"が正い。"
+      "explanation": "\"from A to B\"で時間幅を表す。\"from 9 AM to 5 PM\"が正い。",
+      "ja_question": "[Japanese translation needed: The museum is open ___ 9 AM ___ 5 PM....]",
+      "ja_explanation": "[Japanese translation needed: \"from A to B\"で時間幅を表す。\"from 9 AM to 5 PM\"が正い。...]"
     },
     {
       "id": "en_eiken_beginner_025",
@@ -301,7 +349,9 @@
         "to inviting"
       ],
       "answer": 0,
-      "explanation": "\"would like + to不定詞\"で\"したい''という誘いの表現。"
+      "explanation": "\"would like + to不定詞\"で\"したい''という誘いの表現。",
+      "ja_question": "[Japanese translation needed: I would like ___ you to my birthday party....]",
+      "ja_explanation": "[Japanese translation needed: \"would like + to不定詞\"で\"したい''という誘いの表現。...]"
     },
     {
       "id": "en_eiken_beginner_026",
@@ -313,7 +363,9 @@
         "have drove"
       ],
       "answer": 1,
-      "explanation": "昨日という過去の時点の話なので過去形\"drove\"を使う。"
+      "explanation": "昨日という過去の時点の話なので過去形\"drove\"を使う。",
+      "ja_question": "[Japanese translation needed: My friend bought a new car. We _____ it yesterday....]",
+      "ja_explanation": "[Japanese translation needed: 昨日という過去の時点の話なので過去形\"drove\"を使う。...]"
     },
     {
       "id": "en_eiken_beginner_027",
@@ -325,7 +377,9 @@
         "aren't"
       ],
       "answer": 1,
-      "explanation": "\"Unless\"は\"if not\"の意味で、否定の主張。\"won't pass\"が正い。"
+      "explanation": "\"Unless\"は\"if not\"の意味で、否定の主張。\"won't pass\"が正い。",
+      "ja_question": "[Japanese translation needed: Unless you study hard, you ___ pass the exam....]",
+      "ja_explanation": "[Japanese translation needed: \"Unless\"は\"if not\"の意味で、否定の主張。\"won't pass\"が正い。...]"
     },
     {
       "id": "en_eiken_beginner_028",
@@ -337,7 +391,9 @@
         "of"
       ],
       "answer": 1,
-      "explanation": "\"be known for ~\"で\"~で知られている''という意味。"
+      "explanation": "\"be known for ~\"で\"~で知られている''という意味。",
+      "ja_question": "[Japanese translation needed: She is known ___ her excellent music skills....]",
+      "ja_explanation": "[Japanese translation needed: \"be known for ~\"で\"~で知られている''という意味。...]"
     },
     {
       "id": "en_eiken_beginner_029",
@@ -349,7 +405,9 @@
         "would be"
       ],
       "answer": 0,
-      "explanation": "未来のことの受動態は\"will be + 過去分詞''。"
+      "explanation": "未来のことの受動態は\"will be + 過去分詞''。",
+      "ja_question": "[Japanese translation needed: The package ___ delivered tomorrow morning....]",
+      "ja_explanation": "[Japanese translation needed: 未来のことの受動態は\"will be + 過去分詞''。...]"
     },
     {
       "id": "en_eiken_beginner_030",
@@ -361,7 +419,9 @@
         "while"
       ],
       "answer": 0,
-      "explanation": "\"since + 時点''で\"その時からずっと''という完了形の時間表現。"
+      "explanation": "\"since + 時点''で\"その時からずっと''という完了形の時間表現。",
+      "ja_question": "[Japanese translation needed: I haven't seen her ___ last month....]",
+      "ja_explanation": "[Japanese translation needed: \"since + 時点''で\"その時からずっと''という完了形の時間表現。...]"
     },
     {
       "id": "en_eiken_beginner_031",
@@ -373,7 +433,9 @@
         "until"
       ],
       "answer": 0,
-      "explanation": "\"when''は\"~した時に''と瞬間を表す接続詞として使われる。"
+      "explanation": "\"when''は\"~した時に''と瞬間を表す接続詞として使われる。",
+      "ja_question": "[Japanese translation needed: The children were playing in the park ___ it start...]",
+      "ja_explanation": "[Japanese translation needed: \"when''は\"~した時に''と瞬間を表す接続詞として使われる。...]"
     },
     {
       "id": "en_eiken_beginner_032",
@@ -385,7 +447,9 @@
         "phone of number"
       ],
       "answer": 1,
-      "explanation": "電話番号は''phone number''という複合名詞の正しい順序。"
+      "explanation": "電話番号は''phone number''という複合名詞の正しい順序。",
+      "ja_question": "[Japanese translation needed: I would have called you, but I didn't have your __...]",
+      "ja_explanation": "[Japanese translation needed: 電話番号は''phone number''という複合名詞の正しい順序。...]"
     },
     {
       "id": "en_eiken_beginner_033",
@@ -397,7 +461,9 @@
         "for"
       ],
       "answer": 0,
-      "explanation": "\"so that + 文''で\"~するために''と目的を表す。"
+      "explanation": "\"so that + 文''で\"~するために''と目的を表す。",
+      "ja_question": "[Japanese translation needed: The teacher explained the lesson ___ the students ...]",
+      "ja_explanation": "[Japanese translation needed: \"so that + 文''で\"~するために''と目的を表す。...]"
     },
     {
       "id": "en_eiken_beginner_034",
@@ -409,7 +475,9 @@
         "at"
       ],
       "answer": 1,
-      "explanation": "\"graduate from ~''で\"~を卒業する''という意味。"
+      "explanation": "\"graduate from ~''で\"~を卒業する''という意味。",
+      "ja_question": "[Japanese translation needed: She graduated ___ high school last year....]",
+      "ja_explanation": "[Japanese translation needed: \"graduate from ~''で\"~を卒業する''という意味。...]"
     },
     {
       "id": "en_eiken_beginner_035",
@@ -421,7 +489,9 @@
         "have won"
       ],
       "answer": 0,
-      "explanation": "If節の仮定法過去は過去形\"won''を使う。"
+      "explanation": "If節の仮定法過去は過去形\"won''を使う。",
+      "ja_question": "[Japanese translation needed: What would you do if you ___ a million dollars?...]",
+      "ja_explanation": "[Japanese translation needed: If節の仮定法過去は過去形\"won''を使う。...]"
     },
     {
       "id": "en_eiken_beginner_036",
@@ -433,7 +503,9 @@
         "for"
       ],
       "answer": 1,
-      "explanation": "時刻を指定するときは''at''を使う。''at 3 o'clock''が正い。"
+      "explanation": "時刻を指定するときは''at''を使う。''at 3 o'clock''が正い。",
+      "ja_question": "[Japanese translation needed: I'll be there ___ 3 o'clock....]",
+      "ja_explanation": "[Japanese translation needed: 時刻を指定するときは''at''を使う。''at 3 o'clock''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_037",
@@ -445,7 +517,9 @@
         "have"
       ],
       "answer": 0,
-      "explanation": "\"Neither of + 複数名詞''は単数扱いで\"is''を使う。"
+      "explanation": "\"Neither of + 複数名詞''は単数扱いで\"is''を使う。",
+      "ja_question": "[Japanese translation needed: Neither of my friends ___ able to attend the meeti...]",
+      "ja_explanation": "[Japanese translation needed: \"Neither of + 複数名詞''は単数扱いで\"is''を使う。...]"
     },
     {
       "id": "en_eiken_beginner_038",
@@ -457,7 +531,9 @@
         "why"
       ],
       "answer": 0,
-      "explanation": "\"if''は間接疑問で\"かどうか''と肯否を聞く。"
+      "explanation": "\"if''は間接疑問で\"かどうか''と肯否を聞く。",
+      "ja_question": "[Japanese translation needed: She asked me ___ I had finished my work....]",
+      "ja_explanation": "[Japanese translation needed: \"if''は間接疑問で\"かどうか''と肯否を聞く。...]"
     },
     {
       "id": "en_eiken_beginner_039",
@@ -469,7 +545,9 @@
         "more better"
       ],
       "answer": 1,
-      "explanation": "\"The more ... the ...''で相関比較を表す。\"the better''が正い。"
+      "explanation": "\"The more ... the ...''で相関比較を表す。\"the better''が正い。",
+      "ja_question": "[Japanese translation needed: The more you practice, ___ you become....]",
+      "ja_explanation": "[Japanese translation needed: \"The more ... the ...''で相関比較を表す。\"the better''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_040",
@@ -481,7 +559,9 @@
         "strongly"
       ],
       "answer": 0,
-      "explanation": "形容詞が必要で、''strong accent''で\"強なまり''という意味。"
+      "explanation": "形容詞が必要で、''strong accent''で\"強なまり''という意味。",
+      "ja_question": "[Japanese translation needed: I couldn't understand what he said because of his ...]",
+      "ja_explanation": "[Japanese translation needed: 形容詞が必要で、''strong accent''で\"強なまり''という意味。...]"
     },
     {
       "id": "en_eiken_beginner_041",
@@ -493,7 +573,9 @@
         "expanding"
       ],
       "answer": 2,
-      "explanation": "\"has + 過去分詞''の現在完了形。\"has expanded''が正い。"
+      "explanation": "\"has + 過去分詞''の現在完了形。\"has expanded''が正い。",
+      "ja_question": "[Japanese translation needed: The company has ___ its business to three countrie...]",
+      "ja_explanation": "[Japanese translation needed: \"has + 過去分詞''の現在完了形。\"has expanded''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_042",
@@ -505,7 +587,9 @@
         "to confirm"
       ],
       "answer": 1,
-      "explanation": "\"suggest that''の後は原形を使う。\"he confirm''が正い。"
+      "explanation": "\"suggest that''の後は原形を使う。\"he confirm''が正い。",
+      "ja_question": "[Japanese translation needed: I suggest that he ___ his appointment....]",
+      "ja_explanation": "[Japanese translation needed: \"suggest that''の後は原形を使う。\"he confirm''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_043",
@@ -517,7 +601,9 @@
         "gone"
       ],
       "answer": 2,
-      "explanation": "分詞構文で\"to school''に向かっているは現在分詞\"going''を使う。"
+      "explanation": "分詞構文で\"to school''に向かっているは現在分詞\"going''を使う。",
+      "ja_question": "[Japanese translation needed: The boy ___ to school is my brother....]",
+      "ja_explanation": "[Japanese translation needed: 分詞構文で\"to school''に向かっているは現在分詞\"going''を使う。...]"
     },
     {
       "id": "en_eiken_beginner_044",
@@ -529,7 +615,9 @@
         "could"
       ],
       "answer": 2,
-      "explanation": "近い未来の記述として''will''が基本だが、は''is going to''も使える。"
+      "explanation": "近い未来の記述として''will''が基本だが、は''is going to''も使える。",
+      "ja_question": "[Japanese translation needed: It's getting cold. I think it ___ rain soon....]",
+      "ja_explanation": "[Japanese translation needed: 近い未来の記述として''will''が基本だが、は''is going to''も使える。...]"
     },
     {
       "id": "en_eiken_beginner_045",
@@ -541,7 +629,9 @@
         "to have"
       ],
       "answer": 0,
-      "explanation": "\"After + V-ing''で\"~の後で''と時間関係を表す。"
+      "explanation": "\"After + V-ing''で\"~の後で''と時間関係を表す。",
+      "ja_question": "[Japanese translation needed: After _____ dinner, we went for a walk....]",
+      "ja_explanation": "[Japanese translation needed: \"After + V-ing''で\"~の後で''と時間関係を表す。...]"
     },
     {
       "id": "en_eiken_beginner_046",
@@ -553,7 +643,9 @@
         "while"
       ],
       "answer": 0,
-      "explanation": "期間を表すは\"for + 期間''。\"for five years''が正い。"
+      "explanation": "期間を表すは\"for + 期間''。\"for five years''が正い。",
+      "ja_question": "[Japanese translation needed: I've been working here ___ five years....]",
+      "ja_explanation": "[Japanese translation needed: 期間を表すは\"for + 期間''。\"for five years''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_047",
@@ -565,7 +657,9 @@
         "because"
       ],
       "answer": 2,
-      "explanation": "原因と結果の関係なら\"so''で\"だから''という接続詞。"
+      "explanation": "原因と結果の関係なら\"so''で\"だから''という接続詞。",
+      "ja_question": "[Japanese translation needed: He was sick, ___ he didn't go to school....]",
+      "ja_explanation": "[Japanese translation needed: 原因と結果の関係なら\"so''で\"だから''という接続詞。...]"
     },
     {
       "id": "en_eiken_beginner_048",
@@ -577,7 +671,9 @@
         "increasing"
       ],
       "answer": 2,
-      "explanation": "\"has + 過去分詞''で現在完了形。\"has increased''が正い。"
+      "explanation": "\"has + 過去分詞''で現在完了形。\"has increased''が正い。",
+      "ja_question": "[Japanese translation needed: The price of houses has _____ recently....]",
+      "ja_explanation": "[Japanese translation needed: \"has + 過去分詞''で現在完了形。\"has increased''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_049",
@@ -589,7 +685,9 @@
         "with"
       ],
       "answer": 1,
-      "explanation": "選択肢を示すは''or''を使う。\"tea or coffee''が正い。"
+      "explanation": "選択肢を示すは''or''を使う。\"tea or coffee''が正い。",
+      "ja_question": "[Japanese translation needed: Which do you prefer, tea ___ coffee?...]",
+      "ja_explanation": "[Japanese translation needed: 選択肢を示すは''or''を使う。\"tea or coffee''が正い。...]"
     },
     {
       "id": "en_eiken_beginner_050",
@@ -601,7 +699,9 @@
         "for"
       ],
       "answer": 2,
-      "explanation": "\"look forward to + V-ing''で''楽しみにしている''という意味が正い。"
+      "explanation": "\"look forward to + V-ing''で''楽しみにしている''という意味が正い。",
+      "ja_question": "[Japanese translation needed: I'm looking forward ___ seeing you this weekend....]",
+      "ja_explanation": "[Japanese translation needed: \"look forward to + V-ing''で''楽しみにしている''という意味が正い。...]"
     }
   ]
 }

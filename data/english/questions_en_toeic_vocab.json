@@ -12,7 +12,9 @@
         "utilized"
       ],
       "answer": 0,
-      "explanation": "'Allocated' means to set aside or distribute resources for a specific purpose. It's the most appropriate term for investment budgeting in business contexts."
+      "explanation": "'Allocated' means to set aside or distribute resources for a specific purpose. It's the most appropriate term for investment budgeting in business contexts.",
+      "ja_question": "[Japanese translation needed: The company _____ a significant investment in rese...]",
+      "ja_explanation": "[Japanese translation needed: 'Allocated' means to set aside or distribute resou...]"
     },
     {
       "id": "en_toeic_vocab_002",
@@ -24,7 +26,9 @@
         "faculty"
       ],
       "answer": 0,
-      "explanation": "'Feasibility' refers to the practicality or viability of a project. The other words are unrelated to merger analysis."
+      "explanation": "'Feasibility' refers to the practicality or viability of a project. The other words are unrelated to merger analysis.",
+      "ja_question": "[Japanese translation needed: The _____ of the merger will be analyzed by the co...]",
+      "ja_explanation": "[Japanese translation needed: 'Feasibility' refers to the practicality or viabil...]"
     },
     {
       "id": "en_toeic_vocab_003",
@@ -36,7 +40,9 @@
         "propose"
       ],
       "answer": 0,
-      "explanation": "'Postpone' means to delay. Budget constraints would require delaying, not promoting or progressing with a project."
+      "explanation": "'Postpone' means to delay. Budget constraints would require delaying, not promoting or progressing with a project.",
+      "ja_question": "[Japanese translation needed: The manager decided to _____ the project due to bu...]",
+      "ja_explanation": "[Japanese translation needed: 'Postpone' means to delay. Budget constraints woul...]"
     },
     {
       "id": "en_toeic_vocab_004",
@@ -48,7 +54,9 @@
         "submissive"
       ],
       "answer": 0,
-      "explanation": "'Substantial' means significant or considerable. It best describes major improvements in a business metric."
+      "explanation": "'Substantial' means significant or considerable. It best describes major improvements in a business metric.",
+      "ja_question": "[Japanese translation needed: Our sales team has shown _____ improvement in cust...]",
+      "ja_explanation": "[Japanese translation needed: 'Substantial' means significant or considerable. I...]"
     },
     {
       "id": "en_toeic_vocab_005",
@@ -60,7 +68,9 @@
         "concept"
       ],
       "answer": 0,
-      "explanation": "'Concern' means worry or anxiety. Given poor performance, concern is the logical choice over confidence or consent."
+      "explanation": "'Concern' means worry or anxiety. Given poor performance, concern is the logical choice over confidence or consent.",
+      "ja_question": "[Japanese translation needed: The board members expressed _____ over the company...]",
+      "ja_explanation": "[Japanese translation needed: 'Concern' means worry or anxiety. Given poor perfo...]"
     },
     {
       "id": "en_toeic_vocab_006",
@@ -72,7 +82,9 @@
         "circuit"
       ],
       "answer": 0,
-      "explanation": "'Curriculum' refers to the subjects and courses offered. It's the proper term for describing workshop content."
+      "explanation": "'Curriculum' refers to the subjects and courses offered. It's the proper term for describing workshop content.",
+      "ja_question": "[Japanese translation needed: The _____ of the workshop includes hands-on traini...]",
+      "ja_explanation": "[Japanese translation needed: 'Curriculum' refers to the subjects and courses of...]"
     },
     {
       "id": "en_toeic_vocab_007",
@@ -84,7 +96,9 @@
         "assign"
       ],
       "answer": 0,
-      "explanation": "'Assess' means to evaluate or analyze. It's the appropriate term for examining a financial situation professionally."
+      "explanation": "'Assess' means to evaluate or analyze. It's the appropriate term for examining a financial situation professionally.",
+      "ja_question": "[Japanese translation needed: The consultant will _____ the financial situation ...]",
+      "ja_explanation": "[Japanese translation needed: 'Assess' means to evaluate or analyze. It's the ap...]"
     },
     {
       "id": "en_toeic_vocab_008",
@@ -96,7 +110,9 @@
         "Liability"
       ],
       "answer": 1,
-      "explanation": "'Revenue' refers to income or money earned, making 'Income' the correct synonym. Expense and Liability are opposites."
+      "explanation": "'Revenue' refers to income or money earned, making 'Income' the correct synonym. Expense and Liability are opposites.",
+      "ja_question": "[Japanese translation needed: What is a synonym for 'revenue'?\n(A) Expense\n(B) I...]",
+      "ja_explanation": "[Japanese translation needed: 'Revenue' refers to income or money earned, making...]"
     },
     {
       "id": "en_toeic_vocab_009",
@@ -108,7 +124,9 @@
         "export"
       ],
       "answer": 0,
-      "explanation": "'Expand' means to grow or extend. It's the correct term for increasing business operations into new markets."
+      "explanation": "'Expand' means to grow or extend. It's the correct term for increasing business operations into new markets.",
+      "ja_question": "[Japanese translation needed: The organization decided to _____ its operations i...]",
+      "ja_explanation": "[Japanese translation needed: 'Expand' means to grow or extend. It's the correct...]"
     },
     {
       "id": "en_toeic_vocab_010",
@@ -120,7 +138,9 @@
         "immobile"
       ],
       "answer": 0,
-      "explanation": "'Imbalance' means a lack of balance or disparity. It correctly describes the unequal relationship between supply and demand."
+      "explanation": "'Imbalance' means a lack of balance or disparity. It correctly describes the unequal relationship between supply and demand.",
+      "ja_question": "[Japanese translation needed: The _____ between supply and demand is affecting t...]",
+      "ja_explanation": "[Japanese translation needed: 'Imbalance' means a lack of balance or disparity. ...]"
     },
     {
       "id": "en_toeic_vocab_011",
@@ -132,7 +152,9 @@
         "To comply without question"
       ],
       "answer": 1,
-      "explanation": "'Negotiate' means to discuss terms and attempt to reach a mutually acceptable agreement between parties."
+      "explanation": "'Negotiate' means to discuss terms and attempt to reach a mutually acceptable agreement between parties.",
+      "ja_question": "[Japanese translation needed: What does 'negotiate' most likely mean?\n(A) To ign...]",
+      "ja_explanation": "[Japanese translation needed: 'Negotiate' means to discuss terms and attempt to ...]"
     },
     {
       "id": "en_toeic_vocab_012",
@@ -144,7 +166,9 @@
         "region"
       ],
       "answer": 0,
-      "explanation": "'Revenue' is income, which is what would grow by a percentage. The others are unrelated to business growth metrics."
+      "explanation": "'Revenue' is income, which is what would grow by a percentage. The others are unrelated to business growth metrics.",
+      "ja_question": "[Japanese translation needed: The company's _____ has grown by 40% over the past...]",
+      "ja_explanation": "[Japanese translation needed: 'Revenue' is income, which is what would grow by a...]"
     },
     {
       "id": "en_toeic_vocab_013",
@@ -156,7 +180,9 @@
         "prevent"
       ],
       "answer": 0,
-      "explanation": "'Preliminary' means initial or first. A preliminary (initial) report precedes a final analysis."
+      "explanation": "'Preliminary' means initial or first. A preliminary (initial) report precedes a final analysis.",
+      "ja_question": "[Japanese translation needed: The _____ report confirmed that the process is cos...]",
+      "ja_explanation": "[Japanese translation needed: 'Preliminary' means initial or first. A preliminar...]"
     },
     {
       "id": "en_toeic_vocab_014",
@@ -168,7 +194,9 @@
         "extreme"
       ],
       "answer": 0,
-      "explanation": "'Extend' means to make longer or prolong. It's the correct term for moving or changing a deadline."
+      "explanation": "'Extend' means to make longer or prolong. It's the correct term for moving or changing a deadline.",
+      "ja_question": "[Japanese translation needed: The team decided to _____ the deadline by two week...]",
+      "ja_explanation": "[Japanese translation needed: 'Extend' means to make longer or prolong. It's the...]"
     },
     {
       "id": "en_toeic_vocab_015",
@@ -180,7 +208,9 @@
         "Allocate"
       ],
       "answer": 1,
-      "explanation": "'Terminate' means to end or stop something. The other words refer to compliance, helping, or distributing."
+      "explanation": "'Terminate' means to end or stop something. The other words refer to compliance, helping, or distributing.",
+      "ja_question": "[Japanese translation needed: Which word means 'to cancel or stop'?\n(A) Comply\n(...]",
+      "ja_explanation": "[Japanese translation needed: 'Terminate' means to end or stop something. The ot...]"
     },
     {
       "id": "en_toeic_vocab_016",
@@ -192,7 +222,9 @@
         "scandal"
       ],
       "answer": 0,
-      "explanation": "'Satisfaction' means pleasure or acceptance. It correctly pairs with positive commentary about quality."
+      "explanation": "'Satisfaction' means pleasure or acceptance. It correctly pairs with positive commentary about quality.",
+      "ja_question": "[Japanese translation needed: The manager expressed _____ with the quality of th...]",
+      "ja_explanation": "[Japanese translation needed: 'Satisfaction' means pleasure or acceptance. It co...]"
     },
     {
       "id": "en_toeic_vocab_017",
@@ -204,7 +236,9 @@
         "import"
       ],
       "answer": 0,
-      "explanation": "'Implementation' means putting a policy into practice. The others are unrelated to policy initiation."
+      "explanation": "'Implementation' means putting a policy into practice. The others are unrelated to policy initiation.",
+      "ja_question": "[Japanese translation needed: The _____ of the new policy will take effect at th...]",
+      "ja_explanation": "[Japanese translation needed: 'Implementation' means putting a policy into pract...]"
     },
     {
       "id": "en_toeic_vocab_018",
@@ -216,7 +250,9 @@
         "Productive"
       ],
       "answer": 2,
-      "explanation": "'Wasteful' is the opposite of efficient. Capable, competent, and productive are synonyms or related to efficiency."
+      "explanation": "'Wasteful' is the opposite of efficient. Capable, competent, and productive are synonyms or related to efficiency.",
+      "ja_question": "[Japanese translation needed: What is an antonym for 'efficient'?\n(A) Capable\n(B...]",
+      "ja_explanation": "[Japanese translation needed: 'Wasteful' is the opposite of efficient. Capable, ...]"
     },
     {
       "id": "en_toeic_vocab_019",
@@ -228,7 +264,9 @@
         "deteriorate"
       ],
       "answer": 0,
-      "explanation": "'Deliver' means to provide or supply. It's the correct term for providing ordered parts."
+      "explanation": "'Deliver' means to provide or supply. It's the correct term for providing ordered parts.",
+      "ja_question": "[Japanese translation needed: The vendor failed to _____ the parts ordered by th...]",
+      "ja_explanation": "[Japanese translation needed: 'Deliver' means to provide or supply. It's the cor...]"
     },
     {
       "id": "en_toeic_vocab_020",
@@ -240,7 +278,9 @@
         "predicted"
       ],
       "answer": 0,
-      "explanation": "'Praised' means to commend or express approval. It fits perfectly with recognizing outstanding performance."
+      "explanation": "'Praised' means to commend or express approval. It fits perfectly with recognizing outstanding performance.",
+      "ja_question": "[Japanese translation needed: The director _____ the team for their outstanding ...]",
+      "ja_explanation": "[Japanese translation needed: 'Praised' means to commend or express approval. It...]"
     },
     {
       "id": "en_toeic_vocab_021",
@@ -252,7 +292,9 @@
         "spectrum"
       ],
       "answer": 0,
-      "explanation": "'Specifies' means to state clearly and explicitly. Contracts specify the conditions that must be followed."
+      "explanation": "'Specifies' means to state clearly and explicitly. Contracts specify the conditions that must be followed.",
+      "ja_question": "[Japanese translation needed: The agreement _____ several important conditions t...]",
+      "ja_explanation": "[Japanese translation needed: 'Specifies' means to state clearly and explicitly....]"
     },
     {
       "id": "en_toeic_vocab_022",
@@ -264,7 +306,9 @@
         "To compensate"
       ],
       "answer": 1,
-      "explanation": "'Comply' means to act in accordance with a rule or requirement. It means to obey."
+      "explanation": "'Comply' means to act in accordance with a rule or requirement. It means to obey.",
+      "ja_question": "[Japanese translation needed: What does 'comply' most closely mean?\n(A) To compl...]",
+      "ja_explanation": "[Japanese translation needed: 'Comply' means to act in accordance with a rule or...]"
     },
     {
       "id": "en_toeic_vocab_023",
@@ -276,7 +320,9 @@
         "selection"
       ],
       "answer": 0,
-      "explanation": "'Success' refers to the achievement of goals. It correctly relates to project outcomes."
+      "explanation": "'Success' refers to the achievement of goals. It correctly relates to project outcomes.",
+      "ja_question": "[Japanese translation needed: The _____ of the project depends on several extern...]",
+      "ja_explanation": "[Japanese translation needed: 'Success' refers to the achievement of goals. It c...]"
     },
     {
       "id": "en_toeic_vocab_024",
@@ -288,7 +334,9 @@
         "compute"
       ],
       "answer": 0,
-      "explanation": "'Comply' means to adhere to regulations. 'Compile' means to gather, which doesn't fit this context."
+      "explanation": "'Comply' means to adhere to regulations. 'Compile' means to gather, which doesn't fit this context.",
+      "ja_question": "[Japanese translation needed: The company must _____ with all regulatory require...]",
+      "ja_explanation": "[Japanese translation needed: 'Comply' means to adhere to regulations. 'Compile'...]"
     },
     {
       "id": "en_toeic_vocab_025",
@@ -300,7 +348,9 @@
         "Do a decision"
       ],
       "answer": 0,
-      "explanation": "'Make a decision' is a common English collocation. 'Take a decision' is also acceptable but less common in American English."
+      "explanation": "'Make a decision' is a common English collocation. 'Take a decision' is also acceptable but less common in American English.",
+      "ja_question": "[Japanese translation needed: What is a collocation with 'make'?\n(A) Make a deci...]",
+      "ja_explanation": "[Japanese translation needed: 'Make a decision' is a common English collocation....]"
     },
     {
       "id": "en_toeic_vocab_026",
@@ -312,7 +362,9 @@
         "records"
       ],
       "answer": 0,
-      "explanation": "'Results' are the findings or outcomes of research. The other words don't relate to survey findings."
+      "explanation": "'Results' are the findings or outcomes of research. The other words don't relate to survey findings.",
+      "ja_question": "[Japanese translation needed: The _____ of the survey revealed important insight...]",
+      "ja_explanation": "[Japanese translation needed: 'Results' are the findings or outcomes of research...]"
     },
     {
       "id": "en_toeic_vocab_027",
@@ -324,7 +376,9 @@
         "Operation"
       ],
       "answer": 1,
-      "explanation": "'Challenge' can serve as a synonym for 'obstacle', referring to something difficult to overcome."
+      "explanation": "'Challenge' can serve as a synonym for 'obstacle', referring to something difficult to overcome.",
+      "ja_question": "[Japanese translation needed: What is a synonym for 'obstacle'?\n(A) Opportunity\n...]",
+      "ja_explanation": "[Japanese translation needed: 'Challenge' can serve as a synonym for 'obstacle',...]"
     },
     {
       "id": "en_toeic_vocab_028",
@@ -336,7 +390,9 @@
         "outliers"
       ],
       "answer": 0,
-      "explanation": "'Outlines' means to describe or summarize the main points. That fits perfectly with explaining proposal contents."
+      "explanation": "'Outlines' means to describe or summarize the main points. That fits perfectly with explaining proposal contents.",
+      "ja_question": "[Japanese translation needed: The proposal _____ several innovative ideas for im...]",
+      "ja_explanation": "[Japanese translation needed: 'Outlines' means to describe or summarize the main...]"
     },
     {
       "id": "en_toeic_vocab_029",
@@ -348,7 +404,9 @@
         "partition"
       ],
       "answer": 0,
-      "explanation": "'Partnership' refers to a business alliance. It's the correct term for describing collaboration between companies."
+      "explanation": "'Partnership' refers to a business alliance. It's the correct term for describing collaboration between companies.",
+      "ja_question": "[Japanese translation needed: The _____ between the two companies resulted in si...]",
+      "ja_explanation": "[Japanese translation needed: 'Partnership' refers to a business alliance. It's ...]"
     },
     {
       "id": "en_toeic_vocab_030",
@@ -360,7 +418,9 @@
         "Employment"
       ],
       "answer": 2,
-      "explanation": "'Employee' refers to the person hired to work. Employer is the person hiring, and employment is the state of being employed."
+      "explanation": "'Employee' refers to the person hired to work. Employer is the person hiring, and employment is the state of being employed.",
+      "ja_question": "[Japanese translation needed: What word family member means 'a person who works'...]",
+      "ja_explanation": "[Japanese translation needed: 'Employee' refers to the person hired to work. Emp...]"
     },
     {
       "id": "en_toeic_vocab_031",
@@ -372,7 +432,9 @@
         "recycle"
       ],
       "answer": 0,
-      "explanation": "'Reduce' means to decrease or make smaller. It's the appropriate term for cutting down processing time."
+      "explanation": "'Reduce' means to decrease or make smaller. It's the appropriate term for cutting down processing time.",
+      "ja_question": "[Japanese translation needed: The new software will _____ the data processing ti...]",
+      "ja_explanation": "[Japanese translation needed: 'Reduce' means to decrease or make smaller. It's t...]"
     },
     {
       "id": "en_toeic_vocab_032",
@@ -384,7 +446,9 @@
         "employee"
       ],
       "answer": 1,
-      "explanation": "HR (Human Resources) is the established abbreviation and title for the department managing personnel matters."
+      "explanation": "HR (Human Resources) is the established abbreviation and title for the department managing personnel matters.",
+      "ja_question": "[Japanese translation needed: The _____ manager oversees all human resources fun...]",
+      "ja_explanation": "[Japanese translation needed: HR (Human Resources) is the established abbreviati...]"
     },
     {
       "id": "en_toeic_vocab_033",
@@ -396,7 +460,9 @@
         "Borrowed money"
       ],
       "answer": 1,
-      "explanation": "'Profit' is the financial gain calculated as revenue minus expenses."
+      "explanation": "'Profit' is the financial gain calculated as revenue minus expenses.",
+      "ja_question": "[Japanese translation needed: What does 'profit' mean?\n(A) Money spent\n(B) Money...]",
+      "ja_explanation": "[Japanese translation needed: 'Profit' is the financial gain calculated as reven...]"
     },
     {
       "id": "en_toeic_vocab_034",
@@ -408,7 +474,9 @@
         "commit"
       ],
       "answer": 0,
-      "explanation": "'Commence' means to begin or start. It's the formal term used in project announcements and official communications."
+      "explanation": "'Commence' means to begin or start. It's the formal term used in project announcements and official communications.",
+      "ja_question": "[Japanese translation needed: The team will _____ on the project starting next M...]",
+      "ja_explanation": "[Japanese translation needed: 'Commence' means to begin or start. It's the forma...]"
     },
     {
       "id": "en_toeic_vocab_035",
@@ -420,7 +488,9 @@
         "Carry across a task"
       ],
       "answer": 0,
-      "explanation": "'Carry out' is the correct collocation meaning to execute or complete a task."
+      "explanation": "'Carry out' is the correct collocation meaning to execute or complete a task.",
+      "ja_question": "[Japanese translation needed: What collocation means 'to complete a task'?\n(A) C...]",
+      "ja_explanation": "[Japanese translation needed: 'Carry out' is the correct collocation meaning to ...]"
     },
     {
       "id": "en_toeic_vocab_036",
@@ -432,7 +502,9 @@
         "terminus"
       ],
       "answer": 0,
-      "explanation": "'Terms' refer to the conditions and provisions of an agreement. It's the standard business vocabulary."
+      "explanation": "'Terms' refer to the conditions and provisions of an agreement. It's the standard business vocabulary.",
+      "ja_question": "[Japanese translation needed: The _____ of the contract includes warranties and ...]",
+      "ja_explanation": "[Japanese translation needed: 'Terms' refer to the conditions and provisions of ...]"
     },
     {
       "id": "en_toeic_vocab_037",
@@ -444,7 +516,9 @@
         "Develop"
       ],
       "answer": 2,
-      "explanation": "'Decline' means to decrease, which is the opposite of 'increase'. The others are synonyms or related to growth."
+      "explanation": "'Decline' means to decrease, which is the opposite of 'increase'. The others are synonyms or related to growth.",
+      "ja_question": "[Japanese translation needed: What is an antonym for 'increase'?\n(A) Expand\n(B) ...]",
+      "ja_explanation": "[Japanese translation needed: 'Decline' means to decrease, which is the opposite...]"
     },
     {
       "id": "en_toeic_vocab_038",
@@ -456,7 +530,9 @@
         "candid"
       ],
       "answer": 0,
-      "explanation": "'Campaign' refers to a coordinated series of advertising activities. It's standard marketing vocabulary."
+      "explanation": "'Campaign' refers to a coordinated series of advertising activities. It's standard marketing vocabulary.",
+      "ja_question": "[Japanese translation needed: The marketing _____ includes television, radio, an...]",
+      "ja_explanation": "[Japanese translation needed: 'Campaign' refers to a coordinated series of adver...]"
     },
     {
       "id": "en_toeic_vocab_039",
@@ -468,7 +544,9 @@
         "Manageable"
       ],
       "answer": 2,
-      "explanation": "'Management' is the noun form describing the practice and process of managing. Manager is the person, and manage is the verb."
+      "explanation": "'Management' is the noun form describing the practice and process of managing. Manager is the person, and manage is the verb.",
+      "ja_question": "[Japanese translation needed: What word family member means 'the act of managing...]",
+      "ja_explanation": "[Japanese translation needed: 'Management' is the noun form describing the pract...]"
     },
     {
       "id": "en_toeic_vocab_040",
@@ -480,7 +558,9 @@
         "substitute"
       ],
       "answer": 0,
-      "explanation": "'Submit' means to present or hand over. It's the correct verb for providing an invoice to a client."
+      "explanation": "'Submit' means to present or hand over. It's the correct verb for providing an invoice to a client.",
+      "ja_question": "[Japanese translation needed: The vendor agreed to _____ the invoice for the com...]",
+      "ja_explanation": "[Japanese translation needed: 'Submit' means to present or hand over. It's the c...]"
     },
     {
       "id": "en_toeic_vocab_041",
@@ -492,7 +572,9 @@
         "adobe"
       ],
       "answer": 0,
-      "explanation": "'Adoption' means the acceptance and implementation of something new. It's appropriate for describing organizational change."
+      "explanation": "'Adoption' means the acceptance and implementation of something new. It's appropriate for describing organizational change.",
+      "ja_question": "[Japanese translation needed: The _____ of the new initiative will require signi...]",
+      "ja_explanation": "[Japanese translation needed: 'Adoption' means the acceptance and implementation...]"
     },
     {
       "id": "en_toeic_vocab_042",
@@ -504,7 +586,9 @@
         "Business extend"
       ],
       "answer": 0,
-      "explanation": "'Business growth' is a standard and natural collocation. The others are not common in business English."
+      "explanation": "'Business growth' is a standard and natural collocation. The others are not common in business English.",
+      "ja_question": "[Japanese translation needed: What is a common collocation with 'business'?\n(A) ...]",
+      "ja_explanation": "[Japanese translation needed: 'Business growth' is a standard and natural colloc...]"
     },
     {
       "id": "en_toeic_vocab_043",
@@ -516,7 +600,9 @@
         "divert"
       ],
       "answer": 0,
-      "explanation": "'Directive' is an official instruction or command. It's the appropriate term for management orders."
+      "explanation": "'Directive' is an official instruction or command. It's the appropriate term for management orders.",
+      "ja_question": "[Japanese translation needed: The _____ stated that all employees must complete ...]",
+      "ja_explanation": "[Japanese translation needed: 'Directive' is an official instruction or command....]"
     },
     {
       "id": "en_toeic_vocab_044",
@@ -528,7 +614,9 @@
         "Break"
       ],
       "answer": 0,
-      "explanation": "'Short' is a synonym for 'brief', both meaning of limited duration or length."
+      "explanation": "'Short' is a synonym for 'brief', both meaning of limited duration or length.",
+      "ja_question": "[Japanese translation needed: What is a synonym for 'brief'?\n(A) Short\n(B) Brigh...]",
+      "ja_explanation": "[Japanese translation needed: 'Short' is a synonym for 'brief', both meaning of ...]"
     },
     {
       "id": "en_toeic_vocab_045",
@@ -540,7 +628,9 @@
         "surrounds"
       ],
       "answer": 0,
-      "explanation": "'Serves' means to provide assistance or support. It correctly describes organizational community involvement."
+      "explanation": "'Serves' means to provide assistance or support. It correctly describes organizational community involvement.",
+      "ja_question": "[Japanese translation needed: The organization _____ the community through sever...]",
+      "ja_explanation": "[Japanese translation needed: 'Serves' means to provide assistance or support. I...]"
     },
     {
       "id": "en_toeic_vocab_046",
@@ -552,7 +642,9 @@
         "Financier"
       ],
       "answer": 1,
-      "explanation": "'Financial' is the adjective form used to describe finance-related matters and reports."
+      "explanation": "'Financial' is the adjective form used to describe finance-related matters and reports.",
+      "ja_question": "[Japanese translation needed: What word family member means 'relating to finance...]",
+      "ja_explanation": "[Japanese translation needed: 'Financial' is the adjective form used to describe...]"
     },
     {
       "id": "en_toeic_vocab_047",
@@ -564,7 +656,9 @@
         "navigate"
       ],
       "answer": 0,
-      "explanation": "'Notify' means to inform or give notice. It's the appropriate verb for communicating schedule changes."
+      "explanation": "'Notify' means to inform or give notice. It's the appropriate verb for communicating schedule changes.",
+      "ja_question": "[Japanese translation needed: The project manager will _____ the team members ab...]",
+      "ja_explanation": "[Japanese translation needed: 'Notify' means to inform or give notice. It's the ...]"
     },
     {
       "id": "en_toeic_vocab_048",
@@ -576,7 +670,9 @@
         "Beginning"
       ],
       "answer": 2,
-      "explanation": "'Ongoing' means continuing or in progress. It describes something that is still happening."
+      "explanation": "'Ongoing' means continuing or in progress. It describes something that is still happening.",
+      "ja_question": "[Japanese translation needed: What does 'ongoing' most likely mean?\n(A) Stopping...]",
+      "ja_explanation": "[Japanese translation needed: 'Ongoing' means continuing or in progress. It desc...]"
     },
     {
       "id": "en_toeic_vocab_049",
@@ -588,7 +684,9 @@
         "climb"
       ],
       "answer": 0,
-      "explanation": "'Client' refers to a customer or business partner. It's the standard term for someone requesting services or information."
+      "explanation": "'Client' refers to a customer or business partner. It's the standard term for someone requesting services or information.",
+      "ja_question": "[Japanese translation needed: The _____ requested a detailed breakdown of all pr...]",
+      "ja_explanation": "[Japanese translation needed: 'Client' refers to a customer or business partner....]"
     },
     {
       "id": "en_toeic_vocab_050",
@@ -600,7 +698,9 @@
         "Meet at deadline"
       ],
       "answer": 1,
-      "explanation": "'Meet the deadline' is the correct and standard collocation. The article 'the' is necessary before the noun."
+      "explanation": "'Meet the deadline' is the correct and standard collocation. The article 'the' is necessary before the noun.",
+      "ja_question": "[Japanese translation needed: What is a common business collocation?\n(A) Meet de...]",
+      "ja_explanation": "[Japanese translation needed: 'Meet the deadline' is the correct and standard co...]"
     }
   ]
 }

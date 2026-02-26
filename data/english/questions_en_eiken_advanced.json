@@ -13,7 +13,9 @@
         "yawning"
       ],
       "answer": 3,
-      "explanation": "'yawning divergence'で『広大な乖離』。妥協不可能な程。上級語彙。"
+      "explanation": "'yawning divergence'で『広大な乖離』。妥協不可能な程。上級語彙。",
+      "ja_question": "[Japanese translation needed: The divergence between the two political parties i...]",
+      "ja_explanation": "[Japanese translation needed: 'yawning divergence'で『広大な乖離』。妥協不可能な程。上級語彙。...]"
     },
     {
       "id": "en_eiken_advanced_002",
@@ -25,7 +27,9 @@
         "unbridled"
       ],
       "answer": 0,
-      "explanation": "'unflinching exploration'で『ひるまない探索』。存在的恐怖。予期しない陽気さ。"
+      "explanation": "'unflinching exploration'で『ひるまない探索』。存在的恐怖。予期しない陽気さ。",
+      "ja_question": "[Japanese translation needed: The author's _____ exploration of existential drea...]",
+      "ja_explanation": "[Japanese translation needed: 'unflinching exploration'で『ひるまない探索』。存在的恐怖。予期しない陽気さ...]"
     },
     {
       "id": "en_eiken_advanced_003",
@@ -37,7 +41,9 @@
         "circumscription"
       ],
       "answer": 2,
-      "explanation": "'abrogation of rights'で『権利の廃止』。国際的非難とサンクション要求。"
+      "explanation": "'abrogation of rights'で『権利の廃止』。国際的非難とサンクション要求。",
+      "ja_question": "[Japanese translation needed: The government's _____ of minority rights has spar...]",
+      "ja_explanation": "[Japanese translation needed: 'abrogation of rights'で『権利の廃止』。国際的非難とサンクション要求。...]"
     },
     {
       "id": "en_eiken_advanced_004",
@@ -49,7 +55,9 @@
         "acerbic"
       ],
       "answer": 0,
-      "explanation": "'trenchant wit'で『鋭利なウィット』。社会評論家として引き合い。"
+      "explanation": "'trenchant wit'で『鋭利なウィット』。社会評論家として引き合い。",
+      "ja_question": "[Japanese translation needed: Her _____ wit and sardonic observations have made ...]",
+      "ja_explanation": "[Japanese translation needed: 'trenchant wit'で『鋭利なウィット』。社会評論家として引き合い。...]"
     },
     {
       "id": "en_eiken_advanced_005",
@@ -61,7 +69,9 @@
         "byzantine"
       ],
       "answer": 2,
-      "explanation": "'labyrinthine relationships'で『迷路のような関係』。作者の心理理解。"
+      "explanation": "'labyrinthine relationships'で『迷路のような関係』。作者の心理理解。",
+      "ja_question": "[Japanese translation needed: The novel's exploration of _____ human relationshi...]",
+      "ja_explanation": "[Japanese translation needed: 'labyrinthine relationships'で『迷路のような関係』。作者の心理理解。...]"
     },
     {
       "id": "en_eiken_advanced_006",
@@ -73,7 +83,9 @@
         "cavalier"
       ],
       "answer": 0,
-      "explanation": "'offhand comments'で『当てずっぽうなコメント』。無意識的に聴衆を激怒。"
+      "explanation": "'offhand comments'で『当てずっぽうなコメント』。無意識的に聴衆を激怒。",
+      "ja_question": "[Japanese translation needed: The speaker's _____ comments inadvertently offende...]",
+      "ja_explanation": "[Japanese translation needed: 'offhand comments'で『当てずっぽうなコメント』。無意識的に聴衆を激怒。...]"
     },
     {
       "id": "en_eiken_advanced_007",
@@ -85,7 +97,9 @@
         "occasioned"
       ],
       "answer": 1,
-      "explanation": "'engendered unforeseen consequences'で『予期しない結果を生んだ』。"
+      "explanation": "'engendered unforeseen consequences'で『予期しない結果を生んだ』。",
+      "ja_question": "[Japanese translation needed: The policy's implementation has _____ unforeseen c...]",
+      "ja_explanation": "[Japanese translation needed: 'engendered unforeseen consequences'で『予期しない結果を生んだ』...]"
     },
     {
       "id": "en_eiken_advanced_008",
@@ -97,7 +111,9 @@
         "categorical"
       ],
       "answer": 0,
-      "explanation": "'wholesale rejection'で『完全な拒否』。伝統美学。解放的で分裂的。"
+      "explanation": "'wholesale rejection'で『完全な拒否』。伝統美学。解放的で分裂的。",
+      "ja_question": "[Japanese translation needed: The artistic movement's _____ rejection of traditi...]",
+      "ja_explanation": "[Japanese translation needed: 'wholesale rejection'で『完全な拒否』。伝統美学。解放的で分裂的。...]"
     },
     {
       "id": "en_eiken_advanced_009",
@@ -109,7 +125,9 @@
         "sober"
       ],
       "answer": 0,
-      "explanation": "'austere elegance'で『厳粛な優雅さ』。定理の証明の高度な数学。"
+      "explanation": "'austere elegance'で『厳粛な優雅さ』。定理の証明の高度な数学。",
+      "ja_question": "[Japanese translation needed: The theorem's _____ elegance belies the profound m...]",
+      "ja_explanation": "[Japanese translation needed: 'austere elegance'で『厳粛な優雅さ』。定理の証明の高度な数学。...]"
     },
     {
       "id": "en_eiken_advanced_010",
@@ -121,7 +139,9 @@
         "scrupulous"
       ],
       "answer": 0,
-      "explanation": "'meticulous account'で『細心の報告』。検察に不可欠な証拠。"
+      "explanation": "'meticulous account'で『細心の報告』。検察に不可欠な証拠。",
+      "ja_question": "[Japanese translation needed: The witness's _____ account of the events provided...]",
+      "ja_explanation": "[Japanese translation needed: 'meticulous account'で『細心の報告』。検察に不可欠な証拠。...]"
     },
     {
       "id": "en_eiken_advanced_011",
@@ -133,7 +153,9 @@
         "razor-sharp"
       ],
       "answer": 2,
-      "explanation": "'trenchant critique'で『辛辣な批評』。学者の支配的パラダイム。"
+      "explanation": "'trenchant critique'で『辛辣な批評』。学者の支配的パラダイム。",
+      "ja_question": "[Japanese translation needed: The scholar's _____ critique of the prevalent para...]",
+      "ja_explanation": "[Japanese translation needed: 'trenchant critique'で『辛辣な批評』。学者の支配的パラダイム。...]"
     },
     {
       "id": "en_eiken_advanced_012",
@@ -145,7 +167,9 @@
         "obtuse"
       ],
       "answer": 0,
-      "explanation": "'esoteric language'で『難解な言語』。様々な司法区域での適用。"
+      "explanation": "'esoteric language'で『難解な言語』。様々な司法区域での適用。",
+      "ja_question": "[Japanese translation needed: The legislation's _____ language has created ambig...]",
+      "ja_explanation": "[Japanese translation needed: 'esoteric language'で『難解な言語』。様々な司法区域での適用。...]"
     },
     {
       "id": "en_eiken_advanced_013",
@@ -157,7 +181,9 @@
         "impasse"
       ],
       "answer": 1,
-      "explanation": "'paradox of AI'で『AI倫理パラドックス』。慎重な哲学的検討必要。"
+      "explanation": "'paradox of AI'で『AI倫理パラドックス』。慎重な哲学的検討必要。",
+      "ja_question": "[Japanese translation needed: The ethical _____ presented by artificial intellig...]",
+      "ja_explanation": "[Japanese translation needed: 'paradox of AI'で『AI倫理パラドックス』。慎重な哲学的検討必要。...]"
     },
     {
       "id": "en_eiken_advanced_014",
@@ -169,7 +195,9 @@
         "perspicacious"
       ],
       "answer": 0,
-      "explanation": "'incisive observations'で『鋭い観察』。社会的衰退。皮肉的に。"
+      "explanation": "'incisive observations'で『鋭い観察』。社会的衰退。皮肉的に。",
+      "ja_question": "[Japanese translation needed: The author's _____ observations about societal dec...]",
+      "ja_explanation": "[Japanese translation needed: 'incisive observations'で『鋭い観察』。社会的衰退。皮肉的に。...]"
     },
     {
       "id": "en_eiken_advanced_015",
@@ -181,7 +209,9 @@
         "standoff"
       ],
       "answer": 2,
-      "explanation": "'diplomatic imbroglio'で『外交的混乱』。国際的危機。"
+      "explanation": "'diplomatic imbroglio'で『外交的混乱』。国際的危機。",
+      "ja_question": "[Japanese translation needed: The diplomatic _____ resulting from the misunderst...]",
+      "ja_explanation": "[Japanese translation needed: 'diplomatic imbroglio'で『外交的混乱』。国際的危機。...]"
     },
     {
       "id": "en_eiken_advanced_016",
@@ -193,7 +223,9 @@
         "tenuous"
       ],
       "answer": 0,
-      "explanation": "'delicate balance'で『微妙なバランス』。生態系相互依存。"
+      "explanation": "'delicate balance'で『微妙なバランス』。生態系相互依存。",
+      "ja_question": "[Japanese translation needed: The ecosystem's _____ balance is maintained throug...]",
+      "ja_explanation": "[Japanese translation needed: 'delicate balance'で『微妙なバランス』。生態系相互依存。...]"
     },
     {
       "id": "en_eiken_advanced_017",
@@ -205,7 +237,9 @@
         "recessive"
       ],
       "answer": 0,
-      "explanation": "'latent significance'で『潜在的重要性』。数十年後に認識。"
+      "explanation": "'latent significance'で『潜在的重要性』。数十年後に認識。",
+      "ja_question": "[Japanese translation needed: The document's _____ significance was only recogni...]",
+      "ja_explanation": "[Japanese translation needed: 'latent significance'で『潜在的重要性』。数十年後に認識。...]"
     },
     {
       "id": "en_eiken_advanced_018",
@@ -217,7 +251,9 @@
         "inexorable"
       ],
       "answer": 0,
-      "explanation": "'inexorable descent'で『避けられない下降』。道徳的相対主義。"
+      "explanation": "'inexorable descent'で『避けられない下降』。道徳的相対主義。",
+      "ja_question": "[Japanese translation needed: The protagonist's _____ descent into moral relativ...]",
+      "ja_explanation": "[Japanese translation needed: 'inexorable descent'で『避けられない下降』。道徳的相対主義。...]"
     },
     {
       "id": "en_eiken_advanced_019",
@@ -229,7 +265,9 @@
         "taut"
       ],
       "answer": 0,
-      "explanation": "'trenchant arguments'で『辛辣な議論』。意識と現実の仮定。"
+      "explanation": "'trenchant arguments'で『辛辣な議論』。意識と現実の仮定。",
+      "ja_question": "[Japanese translation needed: The philosopher's _____ arguments challenge fundam...]",
+      "ja_explanation": "[Japanese translation needed: 'trenchant arguments'で『辛辣な議論』。意識と現実の仮定。...]"
     },
     {
       "id": "en_eiken_advanced_020",
@@ -241,7 +279,9 @@
         "vicissitudes"
       ],
       "answer": 0,
-      "explanation": "'ramifications of climate change'で『気候変動の効果』。"
+      "explanation": "'ramifications of climate change'で『気候変動の効果』。",
+      "ja_question": "[Japanese translation needed: The economic _____ of climate change requires a fu...]",
+      "ja_explanation": "[Japanese translation needed: 'ramifications of climate change'で『気候変動の効果』。...]"
     },
     {
       "id": "en_eiken_advanced_021",
@@ -253,7 +293,9 @@
         "herculean"
       ],
       "answer": 2,
-      "explanation": "'Sisyphean struggle'で『シジフォスの闘い』。無益な努力。社会的制約。"
+      "explanation": "'Sisyphean struggle'で『シジフォスの闘い』。無益な努力。社会的制約。",
+      "ja_question": "[Japanese translation needed: The protagonist's _____ struggle against societal ...]",
+      "ja_explanation": "[Japanese translation needed: 'Sisyphean struggle'で『シジフォスの闘い』。無益な努力。社会的制約。...]"
     },
     {
       "id": "en_eiken_advanced_022",
@@ -265,7 +307,9 @@
         "fastidious"
       ],
       "answer": 2,
-      "explanation": "'punctilious methodology'で『厳密な方法論』。同僚精査。"
+      "explanation": "'punctilious methodology'で『厳密な方法論』。同僚精査。",
+      "ja_question": "[Japanese translation needed: The researcher's _____ methodology ensured that th...]",
+      "ja_explanation": "[Japanese translation needed: 'punctilious methodology'で『厳密な方法論』。同僚精査。...]"
     },
     {
       "id": "en_eiken_advanced_023",
@@ -277,7 +321,9 @@
         "lethargic"
       ],
       "answer": 0,
-      "explanation": "'callous response'で『冷酷な対応』。人道危機。"
+      "explanation": "'callous response'で『冷酷な対応』。人道危機。",
+      "ja_question": "[Japanese translation needed: The government's _____ response to the humanitaria...]",
+      "ja_explanation": "[Japanese translation needed: 'callous response'で『冷酷な対応』。人道危機。...]"
     },
     {
       "id": "en_eiken_advanced_024",
@@ -289,7 +335,9 @@
         "atavistic"
       ],
       "answer": 1,
-      "explanation": "'archetypal themes'で『原型的テーマ』。時間・文化超越。"
+      "explanation": "'archetypal themes'で『原型的テーマ』。時間・文化超越。",
+      "ja_question": "[Japanese translation needed: The literary work's exploration of _____ themes re...]",
+      "ja_explanation": "[Japanese translation needed: 'archetypal themes'で『原型的テーマ』。時間・文化超越。...]"
     },
     {
       "id": "en_eiken_advanced_025",
@@ -301,7 +349,9 @@
         "composed"
       ],
       "answer": 1,
-      "explanation": "'equanimous delivery'で『冷静な配信』。根底の不安・不確実性。"
+      "explanation": "'equanimous delivery'で『冷静な配信』。根底の不安・不確実性。",
+      "ja_question": "[Japanese translation needed: The speaker's _____ delivery barely concealed the ...]",
+      "ja_explanation": "[Japanese translation needed: 'equanimous delivery'で『冷静な配信』。根底の不安・不確実性。...]"
     },
     {
       "id": "en_eiken_advanced_026",
@@ -313,7 +363,9 @@
         "iconoclastic"
       ],
       "answer": 3,
-      "explanation": "'iconoclastic interpretation'で『偶像破壊的解釈』。正統史学。"
+      "explanation": "'iconoclastic interpretation'で『偶像破壊的解釈』。正統史学。",
+      "ja_question": "[Japanese translation needed: The historical narrative's _____ interpretation of...]",
+      "ja_explanation": "[Japanese translation needed: 'iconoclastic interpretation'で『偶像破壊的解釈』。正統史学。...]"
     },
     {
       "id": "en_eiken_advanced_027",
@@ -325,7 +377,9 @@
         "paradigmatic"
       ],
       "answer": 3,
-      "explanation": "'paradigmatic departure'で『パラダイムシフト的出発』。美的指針。"
+      "explanation": "'paradigmatic departure'で『パラダイムシフト的出発』。美的指針。",
+      "ja_question": "[Japanese translation needed: The artist's latest work represents a _____ depart...]",
+      "ja_explanation": "[Japanese translation needed: 'paradigmatic departure'で『パラダイムシフト的出発』。美的指針。...]"
     },
     {
       "id": "en_eiken_advanced_028",
@@ -337,7 +391,9 @@
         "stultified"
       ],
       "answer": 0,
-      "explanation": "'ossified practices'で『化石化した慣行』。構造的不平等複製。"
+      "explanation": "'ossified practices'で『化石化した慣行』。構造的不平等複製。",
+      "ja_question": "[Japanese translation needed: The institution's _____ management practices perpe...]",
+      "ja_explanation": "[Japanese translation needed: 'ossified practices'で『化石化した慣行』。構造的不平等複製。...]"
     },
     {
       "id": "en_eiken_advanced_029",
@@ -349,7 +405,9 @@
         "tortuous"
       ],
       "answer": 1,
-      "explanation": "'labyrinthine argumentation'で『迷路のような議論』。複数読所要。"
+      "explanation": "'labyrinthine argumentation'で『迷路のような議論』。複数読所要。",
+      "ja_question": "[Japanese translation needed: The philosophical treatise's _____ argumentation r...]",
+      "ja_explanation": "[Japanese translation needed: 'labyrinthine argumentation'で『迷路のような議論』。複数読所要。...]"
     },
     {
       "id": "en_eiken_advanced_030",
@@ -361,7 +419,9 @@
         "dulcet"
       ],
       "answer": 1,
-      "explanation": "'mellifluous rhetoric'で『甘い雄弁』。基本的無能性隠蔽。"
+      "explanation": "'mellifluous rhetoric'で『甘い雄弁』。基本的無能性隠蔽。",
+      "ja_question": "[Japanese translation needed: The politician's _____ rhetoric skillfully obscure...]",
+      "ja_explanation": "[Japanese translation needed: 'mellifluous rhetoric'で『甘い雄弁』。基本的無能性隠蔽。...]"
     },
     {
       "id": "en_eiken_advanced_031",
@@ -373,7 +433,9 @@
         "incandescent"
       ],
       "answer": 3,
-      "explanation": "'incandescent compassion'で『燃えているような同情』。人間脆弱性。"
+      "explanation": "'incandescent compassion'で『燃えているような同情』。人間脆弱性。",
+      "ja_question": "[Japanese translation needed: The novelist's portrayal of human frailty demonstr...]",
+      "ja_explanation": "[Japanese translation needed: 'incandescent compassion'で『燃えているような同情』。人間脆弱性。...]"
     },
     {
       "id": "en_eiken_advanced_032",
@@ -385,7 +447,9 @@
         "inveterate"
       ],
       "answer": 0,
-      "explanation": "'entrenched commitment'で『確立されたコミットメント』。現状維持。改革不可。"
+      "explanation": "'entrenched commitment'で『確立されたコミットメント』。現状維持。改革不可。",
+      "ja_question": "[Japanese translation needed: The institution's _____ commitment to the status q...]",
+      "ja_explanation": "[Japanese translation needed: 'entrenched commitment'で『確立されたコミットメント』。現状維持。改革不可。...]"
     },
     {
       "id": "en_eiken_advanced_033",
@@ -397,7 +461,9 @@
         "implicit"
       ],
       "answer": 2,
-      "explanation": "'tacit assumptions'で『暗黙の仮定』。人間行動理論的枠組み。"
+      "explanation": "'tacit assumptions'で『暗黙の仮定』。人間行動理論的枠組み。",
+      "ja_question": "[Japanese translation needed: The theoretical framework's _____ assumptions abou...]",
+      "ja_explanation": "[Japanese translation needed: 'tacit assumptions'で『暗黙の仮定』。人間行動理論的枠組み。...]"
     },
     {
       "id": "en_eiken_advanced_034",
@@ -409,7 +475,9 @@
         "turbulence"
       ],
       "answer": 0,
-      "explanation": "'intellectual ferment'で『知的躍動』。美術・科学未曽有の花盛り。"
+      "explanation": "'intellectual ferment'で『知的躍動』。美術・科学未曽有の花盛り。",
+      "ja_question": "[Japanese translation needed: The era's intellectual _____ produced an unprecede...]",
+      "ja_explanation": "[Japanese translation needed: 'intellectual ferment'で『知的躍動』。美術・科学未曽有の花盛り。...]"
     },
     {
       "id": "en_eiken_advanced_035",
@@ -421,7 +489,9 @@
         "negated"
       ],
       "answer": 0,
-      "explanation": "'vitiated the intentions'で『意図を損なった』。予期しない結果。"
+      "explanation": "'vitiated the intentions'で『意図を損なった』。予期しない結果。",
+      "ja_question": "[Japanese translation needed: The policy's unintended consequences _____ the ref...]",
+      "ja_explanation": "[Japanese translation needed: 'vitiated the intentions'で『意図を損なった』。予期しない結果。...]"
     },
     {
       "id": "en_eiken_advanced_036",
@@ -433,7 +503,9 @@
         "apoplectic"
       ],
       "answer": 0,
-      "explanation": "'scathing critique'で『痛烈な批評』。消費主義。社会的失望。"
+      "explanation": "'scathing critique'で『痛烈な批評』。消費主義。社会的失望。",
+      "ja_question": "[Japanese translation needed: The author's _____ critique of consumerism reflect...]",
+      "ja_explanation": "[Japanese translation needed: 'scathing critique'で『痛烈な批評』。消費主義。社会的失望。...]"
     },
     {
       "id": "en_eiken_advanced_037",
@@ -445,7 +517,9 @@
         "sumptuous"
       ],
       "answer": 0,
-      "explanation": "'profligate policies'で『浪費的政策』。国民蜂起。政府腐敗抗議。"
+      "explanation": "'profligate policies'で『浪費的政策』。国民蜂起。政府腐敗抗議。",
+      "ja_question": "[Japanese translation needed: The nation's _____ economic policies finally promp...]",
+      "ja_explanation": "[Japanese translation needed: 'profligate policies'で『浪費的政策』。国民蜂起。政府腐敗抗議。...]"
     },
     {
       "id": "en_eiken_advanced_038",
@@ -457,7 +531,9 @@
         "obscure"
       ],
       "answer": 2,
-      "explanation": "'nebulous provenance'で『不明確な出所』。原稿。学術認証。"
+      "explanation": "'nebulous provenance'で『不明確な出所』。原稿。学術認証。",
+      "ja_question": "[Japanese translation needed: The manuscript's _____ provenance has made scholar...]",
+      "ja_explanation": "[Japanese translation needed: 'nebulous provenance'で『不明確な出所』。原稿。学術認証。...]"
     },
     {
       "id": "en_eiken_advanced_039",
@@ -469,7 +545,9 @@
         "unfathomable"
       ],
       "answer": 0,
-      "explanation": "'enigmatic nature'で『謎めいた性質』。現象。科学的説明。"
+      "explanation": "'enigmatic nature'で『謎めいた性質』。現象。科学的説明。",
+      "ja_question": "[Japanese translation needed: The phenomenon's _____ nature defies conventional ...]",
+      "ja_explanation": "[Japanese translation needed: 'enigmatic nature'で『謎めいた性質』。現象。科学的説明。...]"
     },
     {
       "id": "en_eiken_advanced_040",
@@ -481,7 +559,9 @@
         "tortuous"
       ],
       "answer": 0,
-      "explanation": "'labyrinthine structure'で『迷路のような構造』。機関。"
+      "explanation": "'labyrinthine structure'で『迷路のような構造』。機関。",
+      "ja_question": "[Japanese translation needed: The institution's _____ structure made organizatio...]",
+      "ja_explanation": "[Japanese translation needed: 'labyrinthine structure'で『迷路のような構造』。機関。...]"
     },
     {
       "id": "en_eiken_advanced_041",
@@ -493,7 +573,9 @@
         "fecund"
       ],
       "answer": 0,
-      "explanation": "'seminal interpretation'で『種子的解釈』。学問領域。新分野開拓。"
+      "explanation": "'seminal interpretation'で『種子的解釈』。学問領域。新分野開拓。",
+      "ja_question": "[Japanese translation needed: The scholar's _____ interpretation opened entirely...]",
+      "ja_explanation": "[Japanese translation needed: 'seminal interpretation'で『種子的解釈』。学問領域。新分野開拓。...]"
     },
     {
       "id": "en_eiken_advanced_042",
@@ -505,7 +587,9 @@
         "passionate"
       ],
       "answer": 0,
-      "explanation": "'incandescent idealism'で『燃えるような理想主義』。運動。"
+      "explanation": "'incandescent idealism'で『燃えるような理想主義』。運動。",
+      "ja_question": "[Japanese translation needed: The movement's _____ idealism eventually succumbed...]",
+      "ja_explanation": "[Japanese translation needed: 'incandescent idealism'で『燃えるような理想主義』。運動。...]"
     },
     {
       "id": "en_eiken_advanced_043",
@@ -517,7 +601,9 @@
         "unsparing"
       ],
       "answer": 0,
-      "explanation": "'unflinching exploration'で『ひるまない探索』。死亡。読者複世代。"
+      "explanation": "'unflinching exploration'で『ひるまない探索』。死亡。読者複世代。",
+      "ja_question": "[Japanese translation needed: The literary work's _____ exploration of mortality...]",
+      "ja_explanation": "[Japanese translation needed: 'unflinching exploration'で『ひるまない探索』。死亡。読者複世代。...]"
     },
     {
       "id": "en_eiken_advanced_044",
@@ -529,7 +615,9 @@
         "felicitous"
       ],
       "answer": 3,
-      "explanation": "'felicitous approach'で『適切なアプローチ』。調停幅通せない差。"
+      "explanation": "'felicitous approach'で『適切なアプローチ』。調停幅通せない差。",
+      "ja_question": "[Japanese translation needed: The diplomat's _____ approach to negotiation succe...]",
+      "ja_explanation": "[Japanese translation needed: 'felicitous approach'で『適切なアプローチ』。調停幅通せない差。...]"
     },
     {
       "id": "en_eiken_advanced_045",
@@ -541,7 +629,9 @@
         "astounding"
       ],
       "answer": 2,
-      "explanation": "'arresting revelations'で『引き止める啓示』。歴史的仮定。"
+      "explanation": "'arresting revelations'で『引き止める啓示』。歴史的仮定。",
+      "ja_question": "[Japanese translation needed: The manuscript's _____ revelations challenged cher...]",
+      "ja_explanation": "[Japanese translation needed: 'arresting revelations'で『引き止める啓示』。歴史的仮定。...]"
     },
     {
       "id": "en_eiken_advanced_046",
@@ -553,7 +643,9 @@
         "unconventional"
       ],
       "answer": 1,
-      "explanation": "'iconoclastic vision'で『偶像破壊的ビジョン』。美的境界超越。"
+      "explanation": "'iconoclastic vision'で『偶像破壊的ビジョン』。美的境界超越。",
+      "ja_question": "[Japanese translation needed: The artist's _____ vision transcended conventional...]",
+      "ja_explanation": "[Japanese translation needed: 'iconoclastic vision'で『偶像破壊的ビジョン』。美的境界超越。...]"
     },
     {
       "id": "en_eiken_advanced_047",
@@ -565,7 +657,9 @@
         "cardinal"
       ],
       "answer": 1,
-      "explanation": "'axiomatic assumptions'で『公理的仮定』。理論モデル。"
+      "explanation": "'axiomatic assumptions'で『公理的仮定』。理論モデル。",
+      "ja_question": "[Japanese translation needed: The theoretical model's _____ assumptions ultimate...]",
+      "ja_explanation": "[Japanese translation needed: 'axiomatic assumptions'で『公理的仮定』。理論モデル。...]"
     },
     {
       "id": "en_eiken_advanced_048",
@@ -577,7 +671,9 @@
         "luxuriant"
       ],
       "answer": 0,
-      "explanation": "'prodigious production'で『莫大な生産』。歴史的時期。社会的大変化。"
+      "explanation": "'prodigious production'で『莫大な生産』。歴史的時期。社会的大変化。",
+      "ja_question": "[Japanese translation needed: The historical epoch's _____ cultural production r...]",
+      "ja_explanation": "[Japanese translation needed: 'prodigious production'で『莫大な生産』。歴史的時期。社会的大変化。...]"
     },
     {
       "id": "en_eiken_advanced_049",
@@ -589,7 +685,9 @@
         "recalcitrant"
       ],
       "answer": 2,
-      "explanation": "'intransigent resistance'で『妥協しない抵抗』。機関。衰退・解散。"
+      "explanation": "'intransigent resistance'で『妥協しない抵抗』。機関。衰退・解散。",
+      "ja_question": "[Japanese translation needed: The institution's _____ resistance to change ultim...]",
+      "ja_explanation": "[Japanese translation needed: 'intransigent resistance'で『妥協しない抵抗』。機関。衰退・解散。...]"
     },
     {
       "id": "en_eiken_advanced_050",
@@ -601,7 +699,9 @@
         "luminous"
       ],
       "answer": 0,
-      "explanation": "'ingenious thought experiments'で『独創的な思考実験』。論理矛盾。"
+      "explanation": "'ingenious thought experiments'で『独創的な思考実験』。論理矛盾。",
+      "ja_question": "[Japanese translation needed: The philosopher's _____ thought experiments illumi...]",
+      "ja_explanation": "[Japanese translation needed: 'ingenious thought experiments'で『独創的な思考実験』。論理矛盾。...]"
     }
   ]
 }

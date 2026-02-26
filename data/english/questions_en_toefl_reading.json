@@ -13,7 +13,9 @@
         "It produces oxygen that is only used by ocean mammals"
       ],
       "answer": 0,
-      "explanation": "Photosynthesis is fundamental to marine food webs as it converts solar energy into chemical energy (glucose) that feeds all trophic levels. While it does produce oxygen and remove CO2, the primary advantage emphasized in academic texts is its role in energy conversion for the entire ecosystem."
+      "explanation": "Photosynthesis is fundamental to marine food webs as it converts solar energy into chemical energy (glucose) that feeds all trophic levels. While it does produce oxygen and remove CO2, the primary advantage emphasized in academic texts is its role in energy conversion for the entire ecosystem.",
+      "ja_question": "[Japanese translation needed: According to the passage, which of the following b...]",
+      "ja_explanation": "[Japanese translation needed: Photosynthesis is fundamental to marine food webs ...]"
     },
     {
       "id": "en_toefl_reading_002",
@@ -25,7 +27,9 @@
         "provides nutrients for growth"
       ],
       "answer": 1,
-      "explanation": "'Sustains' means to maintain something continuously over time. In context, it refers to keeping the food web alive and functioning. 'Maintains or keeps alive' captures this meaning most accurately."
+      "explanation": "'Sustains' means to maintain something continuously over time. In context, it refers to keeping the food web alive and functioning. 'Maintains or keeps alive' captures this meaning most accurately.",
+      "ja_question": "[Japanese translation needed: The word 'sustains' in the passage is closest in m...]",
+      "ja_explanation": "[Japanese translation needed: 'Sustains' means to maintain something continuousl...]"
     },
     {
       "id": "en_toefl_reading_003",
@@ -37,7 +41,9 @@
         "Phytoplankton can survive in complete darkness by consuming organic matter"
       ],
       "answer": 2,
-      "explanation": "TOEFL reading questions often ask about inferences. The passage likely discusses phytoplankton as primary producers, which means educators and scientists recognize them as foundational to marine food chains and significant oxygen producers, even if not explicitly stated."
+      "explanation": "TOEFL reading questions often ask about inferences. The passage likely discusses phytoplankton as primary producers, which means educators and scientists recognize them as foundational to marine food chains and significant oxygen producers, even if not explicitly stated.",
+      "ja_question": "[Japanese translation needed: Which of the following statements about the role o...]",
+      "ja_explanation": "[Japanese translation needed: TOEFL reading questions often ask about inferences...]"
     },
     {
       "id": "en_toefl_reading_004",
@@ -49,7 +55,9 @@
         "demonstrate that marine photosynthesis occurs in multiple environments with varying depths"
       ],
       "answer": 3,
-      "explanation": "When authors mention specific examples like coral reefs in academic passages, it's usually to illustrate broader principles. Here, coral reefs exemplify how marine photosynthesis functions across different marine habitats."
+      "explanation": "When authors mention specific examples like coral reefs in academic passages, it's usually to illustrate broader principles. Here, coral reefs exemplify how marine photosynthesis functions across different marine habitats.",
+      "ja_question": "[Japanese translation needed: The author mentions coral reef ecosystems primaril...]",
+      "ja_explanation": "[Japanese translation needed: When authors mention specific examples like coral ...]"
     },
     {
       "id": "en_toefl_reading_005",
@@ -61,7 +69,9 @@
         "Temperature fluctuations at greater depths enhance photosynthetic efficiency"
       ],
       "answer": 1,
-      "explanation": "This is a typical TOEFL inference question. The scientific principle that light necessary for photosynthesis decreases with depth is implied in discussions of underwater photosynthesis."
+      "explanation": "This is a typical TOEFL inference question. The scientific principle that light necessary for photosynthesis decreases with depth is implied in discussions of underwater photosynthesis.",
+      "ja_question": "[Japanese translation needed: The passage implies that the depth of water affect...]",
+      "ja_explanation": "[Japanese translation needed: This is a typical TOEFL inference question. The sc...]"
     },
     {
       "id": "en_toefl_reading_006",
@@ -73,7 +83,9 @@
         "Expansion of ocean currents carrying warm water"
       ],
       "answer": 1,
-      "explanation": "Since photosynthesis requires light, anything reducing light availability (like prolonged cloud cover) would decrease photosynthetic activity. This type of question asks students to apply cause-and-effect reasoning."
+      "explanation": "Since photosynthesis requires light, anything reducing light availability (like prolonged cloud cover) would decrease photosynthetic activity. This type of question asks students to apply cause-and-effect reasoning.",
+      "ja_question": "[Japanese translation needed: Based on the passage, which of the following would...]",
+      "ja_explanation": "[Japanese translation needed: Since photosynthesis requires light, anything redu...]"
     },
     {
       "id": "en_toefl_reading_007",
@@ -85,7 +97,9 @@
         "Marine organisms cannot synthesize proteins without consuming nitrogen directly from water"
       ],
       "answer": 1,
-      "explanation": "Main idea questions require identifying the central concept. The main idea of passages on nutrient cycling is that specific elements (in this case nitrogen) cycle through various forms via biological and chemical processes."
+      "explanation": "Main idea questions require identifying the central concept. The main idea of passages on nutrient cycling is that specific elements (in this case nitrogen) cycle through various forms via biological and chemical processes.",
+      "ja_question": "[Japanese translation needed: What is the main idea of the paragraph discussing ...]",
+      "ja_explanation": "[Japanese translation needed: Main idea questions require identifying the centra...]"
     },
     {
       "id": "en_toefl_reading_008",
@@ -97,7 +111,9 @@
         "The introduction of acidic fertilizers used in coastal agriculture"
       ],
       "answer": 1,
-      "explanation": "This question tests factual understanding of a cause-and-effect relationship. CO2 dissolves in seawater forming carbonic acid, thus increasing ocean acidity. This is the primary mechanism of human-induced ocean acidification."
+      "explanation": "This question tests factual understanding of a cause-and-effect relationship. CO2 dissolves in seawater forming carbonic acid, thus increasing ocean acidity. This is the primary mechanism of human-induced ocean acidification.",
+      "ja_question": "[Japanese translation needed: According to the passage, human activities have co...]",
+      "ja_explanation": "[Japanese translation needed: This question tests factual understanding of a cau...]"
     },
     {
       "id": "en_toefl_reading_009",
@@ -109,7 +125,9 @@
         "Species diversity directly correlates with the size of ecosystems"
       ],
       "answer": 1,
-      "explanation": "A standard theme in ecology passages is that biodiversity increases ecosystem resilience. Multiple species performing similar ecological roles provides redundancy and stability."
+      "explanation": "A standard theme in ecology passages is that biodiversity increases ecosystem resilience. Multiple species performing similar ecological roles provides redundancy and stability.",
+      "ja_question": "[Japanese translation needed: The passage suggests that biodiversity in ecosyste...]",
+      "ja_explanation": "[Japanese translation needed: A standard theme in ecology passages is that biodi...]"
     },
     {
       "id": "en_toefl_reading_010",
@@ -121,7 +139,9 @@
         "Animals in tropical regions have faster reproductive cycles than in temperate regions"
       ],
       "answer": 1,
-      "explanation": "TOEFL passages on biodiversity typically explain that stable environmental conditions over long periods allow for greater speciation and ecological complexity."
+      "explanation": "TOEFL passages on biodiversity typically explain that stable environmental conditions over long periods allow for greater speciation and ecological complexity.",
+      "ja_question": "[Japanese translation needed: Which of the following best explains why tropical ...]",
+      "ja_explanation": "[Japanese translation needed: TOEFL passages on biodiversity typically explain t...]"
     },
     {
       "id": "en_toefl_reading_011",
@@ -133,7 +153,9 @@
         "skeptical of scientific consensus"
       ],
       "answer": 1,
-      "explanation": "Academic TOEFL passages on climate often use cautionary language while maintaining objectivity. The tone emphasizes the importance and urgency of the issue based on scientific evidence."
+      "explanation": "Academic TOEFL passages on climate often use cautionary language while maintaining objectivity. The tone emphasizes the importance and urgency of the issue based on scientific evidence.",
+      "ja_question": "[Japanese translation needed: The author's tone regarding climate change in the ...]",
+      "ja_explanation": "[Japanese translation needed: Academic TOEFL passages on climate often use cauti...]"
     },
     {
       "id": "en_toefl_reading_012",
@@ -145,7 +167,9 @@
         "Bacteria consciously adapt their genetic structure to resist antibiotics"
       ],
       "answer": 2,
-      "explanation": "This microbiology passage inferential question tests understanding of natural selection. Antibiotic use creates selective pressure that favors resistant bacteria, allowing them to proliferate."
+      "explanation": "This microbiology passage inferential question tests understanding of natural selection. Antibiotic use creates selective pressure that favors resistant bacteria, allowing them to proliferate.",
+      "ja_question": "[Japanese translation needed: It can be inferred that the evolution of antibioti...]",
+      "ja_explanation": "[Japanese translation needed: This microbiology passage inferential question tes...]"
     },
     {
       "id": "en_toefl_reading_013",
@@ -157,7 +181,9 @@
         "understanding extraterrestrial atmospheric conditions"
       ],
       "answer": 1,
-      "explanation": "Historical TOEFL passages often discuss how scientific knowledge developed in response to practical human needs. Meteorology advances were crucial for agriculture and seafaring."
+      "explanation": "Historical TOEFL passages often discuss how scientific knowledge developed in response to practical human needs. Meteorology advances were crucial for agriculture and seafaring.",
+      "ja_question": "[Japanese translation needed: The passage indicates that the study of meteorolog...]",
+      "ja_explanation": "[Japanese translation needed: Historical TOEFL passages often discuss how scient...]"
     },
     {
       "id": "en_toefl_reading_014",
@@ -169,7 +195,9 @@
         "It alters ocean currents exclusively"
       ],
       "answer": 1,
-      "explanation": "Plate tectonics passages explain that continental separation isolates populations, allowing independent evolutionary development and divergence into separate species (allopatric speciation)."
+      "explanation": "Plate tectonics passages explain that continental separation isolates populations, allowing independent evolutionary development and divergence into separate species (allopatric speciation).",
+      "ja_question": "[Japanese translation needed: According to the passage, what is the primary mech...]",
+      "ja_explanation": "[Japanese translation needed: Plate tectonics passages explain that continental ...]"
     },
     {
       "id": "en_toefl_reading_015",
@@ -181,7 +209,9 @@
         "superficially and minimally"
       ],
       "answer": 1,
-      "explanation": "'Profoundly' means deeply and significantly. In technology passages, it refers to substantial, transformative effects rather than minor or superficial changes."
+      "explanation": "'Profoundly' means deeply and significantly. In technology passages, it refers to substantial, transformative effects rather than minor or superficial changes.",
+      "ja_question": "[Japanese translation needed: The word 'profoundly' in the context of technologi...]",
+      "ja_explanation": "[Japanese translation needed: 'Profoundly' means deeply and significantly. In te...]"
     },
     {
       "id": "en_toefl_reading_016",
@@ -193,7 +223,9 @@
         "Political debates about energy regulation in different countries"
       ],
       "answer": 1,
-      "explanation": "TOEFL passages follow logical progression. A passage on renewable energy would naturally continue with technological developments and implementations, not historical background or political debates."
+      "explanation": "TOEFL passages follow logical progression. A passage on renewable energy would naturally continue with technological developments and implementations, not historical background or political debates.",
+      "ja_question": "[Japanese translation needed: Which of the following would most likely be discus...]",
+      "ja_explanation": "[Japanese translation needed: TOEFL passages follow logical progression. A passa...]"
     },
     {
       "id": "en_toefl_reading_017",
@@ -205,7 +237,9 @@
         "increasing funding for research institutions"
       ],
       "answer": 1,
-      "explanation": "Conservation passages typically identify the fundamental tension between human development and environmental protection as the core challenge."
+      "explanation": "Conservation passages typically identify the fundamental tension between human development and environmental protection as the core challenge.",
+      "ja_question": "[Japanese translation needed: The passage suggests that the primary challenge in...]",
+      "ja_explanation": "[Japanese translation needed: Conservation passages typically identify the funda...]"
     },
     {
       "id": "en_toefl_reading_018",
@@ -217,7 +251,9 @@
         "Increased solar radiation during urban development"
       ],
       "answer": 1,
-      "explanation": "Urban ecology passages explain that dark building materials and pavement absorb solar energy, and reduced vegetation and wind circulation prevent heat dissipation."
+      "explanation": "Urban ecology passages explain that dark building materials and pavement absorb solar energy, and reduced vegetation and wind circulation prevent heat dissipation.",
+      "ja_question": "[Japanese translation needed: According to the passage, urban heat islands devel...]",
+      "ja_explanation": "[Japanese translation needed: Urban ecology passages explain that dark building ...]"
     },
     {
       "id": "en_toefl_reading_019",
@@ -229,7 +265,9 @@
         "the age at which animals develop self-awareness"
       ],
       "answer": 1,
-      "explanation": "In neuroscience passages, 'threshold' refers to minimum requirements or critical levels. This phrase indicates the baseline neural activity necessary for consciousness."
+      "explanation": "In neuroscience passages, 'threshold' refers to minimum requirements or critical levels. This phrase indicates the baseline neural activity necessary for consciousness.",
+      "ja_question": "[Japanese translation needed: The phrase 'threshold of consciousness' as used in...]",
+      "ja_explanation": "[Japanese translation needed: In neuroscience passages, 'threshold' refers to mi...]"
     },
     {
       "id": "en_toefl_reading_020",
@@ -241,7 +279,9 @@
         "Air movement in a small laboratory chamber"
       ],
       "answer": 3,
-      "explanation": "The Coriolis effect requires large-scale motion and sufficient spatial distances to manifest. Small-scale laboratory air movements wouldn't be significantly affected."
+      "explanation": "The Coriolis effect requires large-scale motion and sufficient spatial distances to manifest. Small-scale laboratory air movements wouldn't be significantly affected.",
+      "ja_question": "[Japanese translation needed: It can be inferred from the passage that the Corio...]",
+      "ja_explanation": "[Japanese translation needed: The Coriolis effect requires large-scale motion an...]"
     },
     {
       "id": "en_toefl_reading_021",
@@ -253,7 +293,9 @@
         "Weathered rock particles are transported and deposited in new locations"
       ],
       "answer": 1,
-      "explanation": "Geology passages define metamorphic rock formation as the process where existing rocks (protoliths) are transformed by heat and pressure in the Earth's crust."
+      "explanation": "Geology passages define metamorphic rock formation as the process where existing rocks (protoliths) are transformed by heat and pressure in the Earth's crust.",
+      "ja_question": "[Japanese translation needed: The passage implies that metamorphic rocks are for...]",
+      "ja_explanation": "[Japanese translation needed: Geology passages define metamorphic rock formation...]"
     },
     {
       "id": "en_toefl_reading_022",
@@ -265,7 +307,9 @@
         "Early humans possessed scientific knowledge of genetics"
       ],
       "answer": 1,
-      "explanation": "Agricultural history passages explain that domestication occurred through artificial selection—humans chose plants with desirable characteristics and planted their seeds, accumulating beneficial traits."
+      "explanation": "Agricultural history passages explain that domestication occurred through artificial selection—humans chose plants with desirable characteristics and planted their seeds, accumulating beneficial traits.",
+      "ja_question": "[Japanese translation needed: Based on the passage, the domestication of plants ...]",
+      "ja_explanation": "[Japanese translation needed: Agricultural history passages explain that domesti...]"
     },
     {
       "id": "en_toefl_reading_023",
@@ -277,7 +321,9 @@
         "create standardized languages across continents"
       ],
       "answer": 1,
-      "explanation": "History passages on trade routes describe how material goods, artistic styles, technological innovations, and ideas flowed between connected regions."
+      "explanation": "History passages on trade routes describe how material goods, artistic styles, technological innovations, and ideas flowed between connected regions.",
+      "ja_question": "[Japanese translation needed: The passage indicates that cultural diffusion in a...]",
+      "ja_explanation": "[Japanese translation needed: History passages on trade routes describe how mate...]"
     },
     {
       "id": "en_toefl_reading_024",
@@ -289,7 +335,9 @@
         "Rising property values making housing unaffordable"
       ],
       "answer": 1,
-      "explanation": "Supply and demand economics: shortages fundamentally occur when demand exceeds supply. This is the most direct cause of housing shortages."
+      "explanation": "Supply and demand economics: shortages fundamentally occur when demand exceeds supply. This is the most direct cause of housing shortages.",
+      "ja_question": "[Japanese translation needed: Which of the following most directly explains the ...]",
+      "ja_explanation": "[Japanese translation needed: Supply and demand economics: shortages fundamental...]"
     },
     {
       "id": "en_toefl_reading_025",
@@ -301,7 +349,9 @@
         "show that technological advancement prevents future economic problems"
       ],
       "answer": 1,
-      "explanation": "Academic writing uses historical examples to establish patterns and provide context. References to past cycles support the claim that similar patterns appear throughout history."
+      "explanation": "Academic writing uses historical examples to establish patterns and provide context. References to past cycles support the claim that similar patterns appear throughout history.",
+      "ja_question": "[Japanese translation needed: The author's reference to historical economic cycl...]",
+      "ja_explanation": "[Japanese translation needed: Academic writing uses historical examples to estab...]"
     },
     {
       "id": "en_toefl_reading_026",
@@ -313,7 +363,9 @@
         "military force deployed from a central government"
       ],
       "answer": 1,
-      "explanation": "Anthropology and history passages typically explain that pre-modern societies used religious authority and class systems to maintain social order, as these appear in multiple TOEFL passages."
+      "explanation": "Anthropology and history passages typically explain that pre-modern societies used religious authority and class systems to maintain social order, as these appear in multiple TOEFL passages.",
+      "ja_question": "[Japanese translation needed: It can be inferred that the social structure descr...]",
+      "ja_explanation": "[Japanese translation needed: Anthropology and history passages typically explai...]"
     },
     {
       "id": "en_toefl_reading_027",
@@ -325,7 +377,9 @@
         "Technological stagnation compared to neighboring civilizations"
       ],
       "answer": 1,
-      "explanation": "Complex historical events like empire decline are presented in TOEFL passages as resulting from multiple interconnected causes rather than single events."
+      "explanation": "Complex historical events like empire decline are presented in TOEFL passages as resulting from multiple interconnected causes rather than single events.",
+      "ja_question": "[Japanese translation needed: The passage suggests that the decline of the Roman...]",
+      "ja_explanation": "[Japanese translation needed: Complex historical events like empire decline are ...]"
     },
     {
       "id": "en_toefl_reading_028",
@@ -337,7 +391,9 @@
         "establish universally applicable laws of biological behavior"
       ],
       "answer": 1,
-      "explanation": "Most TOEFL sciences passages center on research examining relationships or testing hypotheses within defined populations."
+      "explanation": "Most TOEFL sciences passages center on research examining relationships or testing hypotheses within defined populations.",
+      "ja_question": "[Japanese translation needed: Based on the passage, the primary purpose of the s...]",
+      "ja_explanation": "[Japanese translation needed: Most TOEFL sciences passages center on research ex...]"
     },
     {
       "id": "en_toefl_reading_029",
@@ -349,7 +405,9 @@
         "Compare-contrast structure showing similarities and differences"
       ],
       "answer": 2,
-      "explanation": "TOEFL reading tests knowledge of text organization patterns. Questions like this require identifying how information is structured and sequenced."
+      "explanation": "TOEFL reading tests knowledge of text organization patterns. Questions like this require identifying how information is structured and sequenced.",
+      "ja_question": "[Japanese translation needed: Which of the following best describes the organiza...]",
+      "ja_explanation": "[Japanese translation needed: TOEFL reading tests knowledge of text organization...]"
     },
     {
       "id": "en_toefl_reading_030",
@@ -361,7 +419,9 @@
         "They are equally important to all living organisms"
       ],
       "answer": 1,
-      "explanation": "Meteorology passages explain that atmospheric variables interact to determine weather patterns and make forecasting possible."
+      "explanation": "Meteorology passages explain that atmospheric variables interact to determine weather patterns and make forecasting possible.",
+      "ja_question": "[Japanese translation needed: The passage implies that factors such as humidity,...]",
+      "ja_explanation": "[Japanese translation needed: Meteorology passages explain that atmospheric vari...]"
     },
     {
       "id": "en_toefl_reading_031",
@@ -373,7 +433,9 @@
         "They follow established flight corridors marked by previous generations"
       ],
       "answer": 1,
-      "explanation": "Animal behavior passages emphasize that migratory navigation involves multiple redundant systems—magnetic sensing, celestial navigation, and landmark recognition."
+      "explanation": "Animal behavior passages emphasize that migratory navigation involves multiple redundant systems—magnetic sensing, celestial navigation, and landmark recognition.",
+      "ja_question": "[Japanese translation needed: According to the passage, which of the following b...]",
+      "ja_explanation": "[Japanese translation needed: Animal behavior passages emphasize that migratory ...]"
     },
     {
       "id": "en_toefl_reading_032",
@@ -385,7 +447,9 @@
         "producing high winds that last for extended periods"
       ],
       "answer": 1,
-      "explanation": "'Turbulent' refers to chaotic, unpredictable movement. In meteorology, it describes irregular air motion and atmospheric instability."
+      "explanation": "'Turbulent' refers to chaotic, unpredictable movement. In meteorology, it describes irregular air motion and atmospheric instability.",
+      "ja_question": "[Japanese translation needed: The word 'turbulent' in the context of weather pat...]",
+      "ja_explanation": "[Japanese translation needed: 'Turbulent' refers to chaotic, unpredictable movem...]"
     },
     {
       "id": "en_toefl_reading_033",
@@ -397,7 +461,9 @@
         "reducing the need for soil nutrients and fertilizers"
       ],
       "answer": 1,
-      "explanation": "Agricultural science passages discuss the ecological consequences of pesticide use: selection for resistant pest populations and negative environmental impacts."
+      "explanation": "Agricultural science passages discuss the ecological consequences of pesticide use: selection for resistant pest populations and negative environmental impacts.",
+      "ja_question": "[Japanese translation needed: Based on the passage, the use of pesticides in agr...]",
+      "ja_explanation": "[Japanese translation needed: Agricultural science passages discuss the ecologic...]"
     },
     {
       "id": "en_toefl_reading_034",
@@ -409,7 +475,9 @@
         "reduced the cost of paper production"
       ],
       "answer": 1,
-      "explanation": "History passages emphasize that the printing press's significance lay in its ability to replicate texts at scale, democratizing knowledge access."
+      "explanation": "History passages emphasize that the printing press's significance lay in its ability to replicate texts at scale, democratizing knowledge access.",
+      "ja_question": "[Japanese translation needed: It can be inferred that the invention of the print...]",
+      "ja_explanation": "[Japanese translation needed: History passages emphasize that the printing press...]"
     },
     {
       "id": "en_toefl_reading_035",
@@ -421,7 +489,9 @@
         "religious beliefs and spiritual orientations"
       ],
       "answer": 1,
-      "explanation": "Sociology passages define the industrial revolution through transformed energy systems (fossil fuels) and labor organization (factories, specialization)."
+      "explanation": "Sociology passages define the industrial revolution through transformed energy systems (fossil fuels) and labor organization (factories, specialization).",
+      "ja_question": "[Japanese translation needed: The passage suggests that industrial societies dif...]",
+      "ja_explanation": "[Japanese translation needed: Sociology passages define the industrial revolutio...]"
     },
     {
       "id": "en_toefl_reading_036",
@@ -433,7 +503,9 @@
         "They originate from ancient philosophical traditions"
       ],
       "answer": 1,
-      "explanation": "Philosophy of science passages explain that science's defining characteristics are empirical foundations, falsifiability, and openness to revision based on evidence."
+      "explanation": "Philosophy of science passages explain that science's defining characteristics are empirical foundations, falsifiability, and openness to revision based on evidence.",
+      "ja_question": "[Japanese translation needed: According to the passage, what distinguishes scien...]",
+      "ja_explanation": "[Japanese translation needed: Philosophy of science passages explain that scienc...]"
     },
     {
       "id": "en_toefl_reading_037",
@@ -445,7 +517,9 @@
         "Animals in tropical regions reproduce more slowly than in other climates"
       ],
       "answer": 1,
-      "explanation": "Environmental science passages emphasize the dual importance of tropical rainforests: extraordinary biodiversity and critical carbon sequestration roles."
+      "explanation": "Environmental science passages emphasize the dual importance of tropical rainforests: extraordinary biodiversity and critical carbon sequestration roles.",
+      "ja_question": "[Japanese translation needed: The passage indicates that ecosystems in tropical ...]",
+      "ja_explanation": "[Japanese translation needed: Environmental science passages emphasize the dual ...]"
     },
     {
       "id": "en_toefl_reading_038",
@@ -457,7 +531,9 @@
         "It ceases once individuals reach adulthood"
       ],
       "answer": 1,
-      "explanation": "Developmental psychology passages present cognitive development as progressing through distinct stages (Piaget's theory), each with new capabilities."
+      "explanation": "Developmental psychology passages present cognitive development as progressing through distinct stages (Piaget's theory), each with new capabilities.",
+      "ja_question": "[Japanese translation needed: Which of the following can be best inferred about ...]",
+      "ja_explanation": "[Japanese translation needed: Developmental psychology passages present cognitiv...]"
     },
     {
       "id": "en_toefl_reading_039",
@@ -469,7 +545,9 @@
         "Adherence to strict rules of perspective and proportion"
       ],
       "answer": 1,
-      "explanation": "Art history passages on movements (Renaissance, Impressionism, Modernism) emphasize their revolutionary break from preceding traditions."
+      "explanation": "Art history passages on movements (Renaissance, Impressionism, Modernism) emphasize their revolutionary break from preceding traditions.",
+      "ja_question": "[Japanese translation needed: The passage implies that the artistic movements de...]",
+      "ja_explanation": "[Japanese translation needed: Art history passages on movements (Renaissance, Im...]"
     },
     {
       "id": "en_toefl_reading_040",
@@ -481,7 +559,9 @@
         "provide structural support to internal organs"
       ],
       "answer": 1,
-      "explanation": "Immunology passages define the immune system's core function as defense through recognition and elimination of foreign agents and abnormal cells."
+      "explanation": "Immunology passages define the immune system's core function as defense through recognition and elimination of foreign agents and abnormal cells.",
+      "ja_question": "[Japanese translation needed: According to the passage, the primary function of ...]",
+      "ja_explanation": "[Japanese translation needed: Immunology passages define the immune system's cor...]"
     },
     {
       "id": "en_toefl_reading_041",
@@ -493,7 +573,9 @@
         "prove the absolute truthfulness of scientific theories"
       ],
       "answer": 1,
-      "explanation": "Philosophy of science passages explain that mathematical modeling enables simplification of complexity while maintaining predictive power."
+      "explanation": "Philosophy of science passages explain that mathematical modeling enables simplification of complexity while maintaining predictive power.",
+      "ja_question": "[Japanese translation needed: It can be inferred from the passage that mathemati...]",
+      "ja_explanation": "[Japanese translation needed: Philosophy of science passages explain that mathem...]"
     },
     {
       "id": "en_toefl_reading_042",
@@ -505,7 +587,9 @@
         "The environmental temperature where the protein is synthesized"
       ],
       "answer": 1,
-      "explanation": "Molecular biology passages establish the central dogma: DNA sequences directly determine amino acid sequences, which determine protein structure and function."
+      "explanation": "Molecular biology passages establish the central dogma: DNA sequences directly determine amino acid sequences, which determine protein structure and function.",
+      "ja_question": "[Japanese translation needed: Based on the passage, the structure and function o...]",
+      "ja_explanation": "[Japanese translation needed: Molecular biology passages establish the central d...]"
     },
     {
       "id": "en_toefl_reading_043",
@@ -517,7 +601,9 @@
         "Industrial technology is fundamentally incapable of being environmentally sustainable"
       ],
       "answer": 1,
-      "explanation": "Environmental economics passages discuss the historical disconnect between economic incentives (short-term profit) and environmental concerns (long-term sustainability)."
+      "explanation": "Environmental economics passages discuss the historical disconnect between economic incentives (short-term profit) and environmental concerns (long-term sustainability).",
+      "ja_question": "[Japanese translation needed: The passage suggests that environmental degradatio...]",
+      "ja_explanation": "[Japanese translation needed: Environmental economics passages discuss the histo...]"
     },
     {
       "id": "en_toefl_reading_044",
@@ -529,7 +615,9 @@
         "Demand is always significantly greater than supply in natural markets"
       ],
       "answer": 2,
-      "explanation": "Economics passages explain that market equilibrium occurs where quantity supplied equals quantity demanded at a particular price."
+      "explanation": "Economics passages explain that market equilibrium occurs where quantity supplied equals quantity demanded at a particular price.",
+      "ja_question": "[Japanese translation needed: Which of the following best describes the relation...]",
+      "ja_explanation": "[Japanese translation needed: Economics passages explain that market equilibrium...]"
     },
     {
       "id": "en_toefl_reading_045",
@@ -541,7 +629,9 @@
         "Artificial practice with standardized language textbooks"
       ],
       "answer": 1,
-      "explanation": "Psycholinguistics passages discuss Chomsky's theory that children acquire language through innate grammatical mechanisms, not pure mimicry."
+      "explanation": "Psycholinguistics passages discuss Chomsky's theory that children acquire language through innate grammatical mechanisms, not pure mimicry.",
+      "ja_question": "[Japanese translation needed: The passage indicates that the study of linguistic...]",
+      "ja_explanation": "[Japanese translation needed: Psycholinguistics passages discuss Chomsky's theor...]"
     },
     {
       "id": "en_toefl_reading_046",
@@ -553,7 +643,9 @@
         "Resistance to change and maintenance of traditional practices"
       ],
       "answer": 1,
-      "explanation": "Business and organizational psychology passages identify vision, communication, and adaptability as common features of successful organizations."
+      "explanation": "Business and organizational psychology passages identify vision, communication, and adaptability as common features of successful organizations.",
+      "ja_question": "[Japanese translation needed: Based on the passage, successful organizations typ...]",
+      "ja_explanation": "[Japanese translation needed: Business and organizational psychology passages id...]"
     },
     {
       "id": "en_toefl_reading_047",
@@ -565,7 +657,9 @@
         "reduction of the necessity for major lifestyle changes"
       ],
       "answer": 1,
-      "explanation": "Public health passages discuss how medical technology extended lifespan through disease prevention and treatment advances, not reversal of aging itself."
+      "explanation": "Public health passages discuss how medical technology extended lifespan through disease prevention and treatment advances, not reversal of aging itself.",
+      "ja_question": "[Japanese translation needed: The passage implies that advances in medical techn...]",
+      "ja_explanation": "[Japanese translation needed: Public health passages discuss how medical technol...]"
     },
     {
       "id": "en_toefl_reading_048",
@@ -577,7 +671,9 @@
         "the specific textbook used regardless of other variables"
       ],
       "answer": 1,
-      "explanation": "Educational research passages emphasize that teaching effectiveness results from interactions between student factors, content, methods, and contexts."
+      "explanation": "Educational research passages emphasize that teaching effectiveness results from interactions between student factors, content, methods, and contexts.",
+      "ja_question": "[Japanese translation needed: It can be inferred that the effectiveness of a par...]",
+      "ja_explanation": "[Japanese translation needed: Educational research passages emphasize that teach...]"
     },
     {
       "id": "en_toefl_reading_049",
@@ -589,7 +685,9 @@
         "it only occurs in modern industrial societies"
       ],
       "answer": 1,
-      "explanation": "Anthropology passages explain that cultural evolution can incorporate acquired characteristics and intentional design, unlike biological evolution."
+      "explanation": "Anthropology passages explain that cultural evolution can incorporate acquired characteristics and intentional design, unlike biological evolution.",
+      "ja_question": "[Japanese translation needed: The passage suggests that cultural evolution diffe...]",
+      "ja_explanation": "[Japanese translation needed: Anthropology passages explain that cultural evolut...]"
     },
     {
       "id": "en_toefl_reading_050",
@@ -601,7 +699,9 @@
         "To advocate for government funding of particular research programs"
       ],
       "answer": 1,
-      "explanation": "The primary purpose of academic TOEFL passages is typically to explain concepts and present supporting evidence, establishing the reader's understanding of the topic."
+      "explanation": "The primary purpose of academic TOEFL passages is typically to explain concepts and present supporting evidence, establishing the reader's understanding of the topic.",
+      "ja_question": "[Japanese translation needed: Which of the following best describes the main pur...]",
+      "ja_explanation": "[Japanese translation needed: The primary purpose of academic TOEFL passages is ...]"
     }
   ]
 }
