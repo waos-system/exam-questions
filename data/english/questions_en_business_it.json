@@ -13,7 +13,9 @@
         "Application Product Information"
       ],
       "answer": 0,
-      "explanation": "API（Application Programming Interface）はソフトウェア間の通信標準。技術英語の基本格語。"
+      "explanation": "API（Application Programming Interface）はソフトウェア間の通信標準。技術英語の基本格語。",
+      "ja_question": "[Japanese translation needed: What does 'API' stand for in software development?...]",
+      "ja_explanation": "[Japanese translation needed: API（Application Programming Interface）はソフトウェア間の通信標...]"
     },
     {
       "id": "en_business_it_002",
@@ -25,7 +27,9 @@
         "Make technical excuses"
       ],
       "answer": 1,
-      "explanation": "技術トラブル報告は経営層向けに影響、原因（簡潔）、期間、対策、通知を示す。"
+      "explanation": "技術トラブル報告は経営層向けに影響、原因（簡潔）、期間、対策、通知を示す。",
+      "ja_question": "[Japanese translation needed: How should you explain a system outage to a non-te...]",
+      "ja_explanation": "[Japanese translation needed: 技術トラブル報告は経営層向けに影響、原因（簡潔）、期間、対策、通知を示す。...]"
     },
     {
       "id": "en_business_it_003",
@@ -37,7 +41,9 @@
         "Just for filing"
       ],
       "answer": 1,
-      "explanation": "技術文書は指示明確化、知識維持、保守容易化、エラー削減。必須。"
+      "explanation": "技術文書は指示明確化、知識維持、保守容易化、エラー削減。必須。",
+      "ja_question": "[Japanese translation needed: What is the purpose of 'documentation' in IT proje...]",
+      "ja_explanation": "[Japanese translation needed: 技術文書は指示明確化、知識維持、保守容易化、エラー削減。必須。...]"
     },
     {
       "id": "en_business_it_004",
@@ -49,7 +55,9 @@
         "Refuse to explain"
       ],
       "answer": 1,
-      "explanation": "技術説明は類推、専門用語回避、段階的、理解確認。アクセス性。"
+      "explanation": "技術説明は類推、専門用語回避、段階的、理解確認。アクセス性。",
+      "ja_question": "[Japanese translation needed: How should you respond to 'I don't understand tech...]",
+      "ja_explanation": "[Japanese translation needed: 技術説明は類推、専門用語回避、段階的、理解確認。アクセス性。...]"
     },
     {
       "id": "en_business_it_005",
@@ -61,7 +69,9 @@
         "The size of storage devices"
       ],
       "answer": 1,
-      "explanation": "バンド幅は数据転送容量またはワークロード処理能力。技術組織言語。"
+      "explanation": "バンド幅は数据転送容量またはワークロード処理能力。技術組織言語。",
+      "ja_question": "[Japanese translation needed: What does 'bandwidth' typically refer to in IT dis...]",
+      "ja_explanation": "[Japanese translation needed: バンド幅は数据転送容量またはワークロード処理能力。技術組織言語。...]"
     },
     {
       "id": "en_business_it_006",
@@ -73,7 +83,9 @@
         "Blame external factors"
       ],
       "answer": 1,
-      "explanation": "セキュリティ漏洩は重大性認識、説明、対応、予防、サポート。透明性と信頼。"
+      "explanation": "セキュリティ漏洩は重大性認識、説明、対応、予防、サポート。透明性と信頼。",
+      "ja_question": "[Japanese translation needed: How should you describe a cybersecurity breach in ...]",
+      "ja_explanation": "[Japanese translation needed: セキュリティ漏洩は重大性認識、説明、対応、予防、サポート。透明性と信頼。...]"
     },
     {
       "id": "en_business_it_007",
@@ -85,7 +97,9 @@
         "A type of server"
       ],
       "answer": 1,
-      "explanation": "クラウド計算はリモートアクセスのインターネットベースサービス。技術用語。"
+      "explanation": "クラウド計算はリモートアクセスのインターネットベースサービス。技術用語。",
+      "ja_question": "[Japanese translation needed: What is 'cloud computing' in simple business terms...]",
+      "ja_explanation": "[Japanese translation needed: クラウド計算はリモートアクセスのインターネットベースサービス。技術用語。...]"
     },
     {
       "id": "en_business_it_008",
@@ -97,7 +111,9 @@
         "Provide technical jargon"
       ],
       "answer": 1,
-      "explanation": "複雑技術要求は要件理解、可行性評価、コスト・期間見積、代替え検討。専門的。"
+      "explanation": "複雑技術要求は要件理解、可行性評価、コスト・期間見積、代替え検討。専門的。",
+      "ja_question": "[Japanese translation needed: How should you handle a user's request for a compl...]",
+      "ja_explanation": "[Japanese translation needed: 複雑技術要求は要件理解、可行性評価、コスト・期間見積、代替え検討。専門的。...]"
     },
     {
       "id": "en_business_it_009",
@@ -109,7 +125,9 @@
         "Server specifications"
       ],
       "answer": 1,
-      "explanation": "ユーザーエクスペリエンス（UX）は製品がユーザーにとって直感的で満足度が基本。"
+      "explanation": "ユーザーエクスペリエンス（UX）は製品がユーザーにとって直感的で満足度が基本。",
+      "ja_question": "[Japanese translation needed: What does 'user experience' (UX) primarily concern...]",
+      "ja_explanation": "[Japanese translation needed: ユーザーエクスペリエンス（UX）は製品がユーザーにとって直感的で満足度が基本。...]"
     },
     {
       "id": "en_business_it_010",
@@ -121,7 +139,9 @@
         "Provide only technical details"
       ],
       "answer": 1,
-      "explanation": "IT費用報告は経営層向けにROI、ビジネス価値、リスク緩和、比較。正当化。"
+      "explanation": "IT費用報告は経営層向けにROI、ビジネス価値、リスク緩和、比較。正当化。",
+      "ja_question": "[Japanese translation needed: How should you present IT costs to senior manageme...]",
+      "ja_explanation": "[Japanese translation needed: IT費用報告は経営層向けにROI、ビジネス価値、リスク緩和、比較。正当化。...]"
     },
     {
       "id": "en_business_it_011",
@@ -133,7 +153,9 @@
         "The weight of equipment"
       ],
       "answer": 1,
-      "explanation": "スケーラビリティは負荷増加に性能低下せず対応能力。技術要件。"
+      "explanation": "スケーラビリティは負荷増加に性能低下せず対応能力。技術要件。",
+      "ja_question": "[Japanese translation needed: What does 'scalability' mean in the context of IT ...]",
+      "ja_explanation": "[Japanese translation needed: スケーラビリティは負荷増加に性能低下せず対応能力。技術要件。...]"
     },
     {
       "id": "en_business_it_012",
@@ -145,7 +167,9 @@
         "Ignore business impact"
       ],
       "answer": 1,
-      "explanation": "ダウンタイム影響は生産性損失、収益、顧客、運営費定量化。ビジネス視点。"
+      "explanation": "ダウンタイム影響は生産性損失、収益、顧客、運営費定量化。ビジネス視点。",
+      "ja_question": "[Japanese translation needed: How should you explain 'downtime' impact on the bu...]",
+      "ja_explanation": "[Japanese translation needed: ダウンタイム影響は生産性損失、収益、顧客、運営費定量化。ビジネス視点。...]"
     },
     {
       "id": "en_business_it_013",
@@ -157,7 +181,9 @@
         "Creating backups"
       ],
       "answer": 1,
-      "explanation": "データマイグレーションは完全性保持しながら新システムへデータ移行。重要プロセス。"
+      "explanation": "データマイグレーションは完全性保持しながら新システムへデータ移行。重要プロセス。",
+      "ja_question": "[Japanese translation needed: What is 'data migration' in IT projects?...]",
+      "ja_explanation": "[Japanese translation needed: データマイグレーションは完全性保持しながら新システムへデータ移行。重要プロセス。...]"
     },
     {
       "id": "en_business_it_014",
@@ -169,7 +195,9 @@
         "Hide them from stakeholders"
       ],
       "answer": 1,
-      "explanation": "バグ説明は重大度レベル、機能影響、修復タイムライン、代替え。透明性。"
+      "explanation": "バグ説明は重大度レベル、機能影響、修復タイムライン、代替え。透明性。",
+      "ja_question": "[Japanese translation needed: How should you describe software 'bugs' to busines...]",
+      "ja_explanation": "[Japanese translation needed: バグ説明は重大度レベル、機能影響、修復タイムライン、代替え。透明性。...]"
     },
     {
       "id": "en_business_it_015",
@@ -181,7 +209,9 @@
         "Stores backup data"
       ],
       "answer": 1,
-      "explanation": "ファイアウォールはネットワークトラフィック監視・制御で不正アクセス防止。セキュリティ。"
+      "explanation": "ファイアウォールはネットワークトラフィック監視・制御で不正アクセス防止。セキュリティ。",
+      "ja_question": "[Japanese translation needed: What does 'firewall' do in network security?...]",
+      "ja_explanation": "[Japanese translation needed: ファイアウォールはネットワークトラフィック監視・制御で不正アクセス防止。セキュリティ。...]"
     },
     {
       "id": "en_business_it_016",
@@ -193,7 +223,9 @@
         "Make emotional appeals"
       ],
       "answer": 1,
-      "explanation": "IT海外投資正当化は戦略目標、ROI、競争優位、リスク。経営層言語。"
+      "explanation": "IT海外投資正当化は戦略目標、ROI、競争優位、リスク。経営層言語。",
+      "ja_question": "[Japanese translation needed: How should you justify IT infrastructure investmen...]",
+      "ja_explanation": "[Japanese translation needed: IT海外投資正当化は戦略目標、ROI、競争優位、リスク。経営層言語。...]"
     },
     {
       "id": "en_business_it_017",
@@ -205,7 +237,9 @@
         "A company logo"
       ],
       "answer": 1,
-      "explanation": "パッチ・更新はバグ修正、セキュリティ向上、機能追加のコード変更。保守的。"
+      "explanation": "パッチ・更新はバグ修正、セキュリティ向上、機能追加のコード変更。保守的。",
+      "ja_question": "[Japanese translation needed: What is a 'patch' or 'update' in software?...]",
+      "ja_explanation": "[Japanese translation needed: パッチ・更新はバグ修正、セキュリティ向上、機能追加のコード変更。保守的。...]"
     },
     {
       "id": "en_business_it_018",
@@ -217,7 +251,9 @@
         "Hope users adapt on their own"
       ],
       "answer": 1,
-      "explanation": "変更管理は計画、コミュニケ、ユーザー教育、過渡期監視。設定採用。"
+      "explanation": "変更管理は計画、コミュニケ、ユーザー教育、過渡期監視。設定採用。",
+      "ja_question": "[Japanese translation needed: How should you approach 'change management' in IT ...]",
+      "ja_explanation": "[Japanese translation needed: 変更管理は計画、コミュニケ、ユーザー教育、過渡期監視。設定採用。...]"
     },
     {
       "id": "en_business_it_019",
@@ -229,7 +265,9 @@
         "Following user instructions"
       ],
       "answer": 1,
-      "explanation": "コンプライアンスは規制、標準、ポリシー見直し。データセキュリティ、運用。"
+      "explanation": "コンプライアンスは規制、標準、ポリシー見直し。データセキュリティ、運用。",
+      "ja_question": "[Japanese translation needed: What does 'compliance' mean in the context of IT s...]",
+      "ja_explanation": "[Japanese translation needed: コンプライアンスは規制、標準、ポリシー見直し。データセキュリティ、運用。...]"
     },
     {
       "id": "en_business_it_020",
@@ -241,7 +279,9 @@
         "A policy"
       ],
       "answer": 1,
-      "explanation": "レイテンシは行動と反応の遅延。システム速度と応答性。ユーザー体験。"
+      "explanation": "レイテンシは行動と反応の遅延。システム速度と応答性。ユーザー体験。",
+      "ja_question": "[Japanese translation needed: How should you explain 'latency' to non-technical ...]",
+      "ja_explanation": "[Japanese translation needed: レイテンシは行動と反応の遅延。システム速度と応答性。ユーザー体験。...]"
     },
     {
       "id": "en_business_it_021",
@@ -253,7 +293,9 @@
         "Unnecessary if code is well-written"
       ],
       "answer": 1,
-      "explanation": "テストはバグ早期発見、品質確保、本番エラー削減、費用最小化。必須。"
+      "explanation": "テストはバグ早期発見、品質確保、本番エラー削減、費用最小化。必須。",
+      "ja_question": "[Japanese translation needed: What is the importance of 'testing' in software de...]",
+      "ja_explanation": "[Japanese translation needed: テストはバグ早期発見、品質確保、本番エラー削減、費用最小化。必須。...]"
     },
     {
       "id": "en_business_it_022",
@@ -265,7 +307,9 @@
         "Don't document anything"
       ],
       "answer": 1,
-      "explanation": "開発者への技術要件は明確仕様、例示、文書化、理解確認。実装。"
+      "explanation": "開発者への技術要件は明確仕様、例示、文書化、理解確認。実装。",
+      "ja_question": "[Japanese translation needed: How should you communicate technical requirements ...]",
+      "ja_explanation": "[Japanese translation needed: 開発者への技術要件は明確仕様、例示、文書化、理解確認。実装。...]"
     },
     {
       "id": "en_business_it_023",
@@ -277,7 +321,9 @@
         "Storing data equally"
       ],
       "answer": 1,
-      "explanation": "ロードバランシングは複数サーバーで作業分散。性能最適化とオーバーロード防止。"
+      "explanation": "ロードバランシングは複数サーバーで作業分散。性能最適化とオーバーロード防止。",
+      "ja_question": "[Japanese translation needed: What is 'load balancing' in system architecture?...]",
+      "ja_explanation": "[Japanese translation needed: ロードバランシングは複数サーバーで作業分散。性能最適化とオーバーロード防止。...]"
     },
     {
       "id": "en_business_it_024",
@@ -289,7 +335,9 @@
         "Promise to support it"
       ],
       "answer": 1,
-      "explanation": "サポート対象外技術への要求はビジネスニーズ理解、リスク評価、代替え、判断的決定。"
+      "explanation": "サポート対象外技術への要求はビジネスニーズ理解、リスク評価、代替え、判断的決定。",
+      "ja_question": "[Japanese translation needed: How should you handle a request for an unsupported...]",
+      "ja_explanation": "[Japanese translation needed: サポート対象外技術への要求はビジネスニーズ理解、リスク評価、代替え、判断的決定。...]"
     },
     {
       "id": "en_business_it_025",
@@ -301,7 +349,9 @@
         "A calendar"
       ],
       "answer": 1,
-      "explanation": "データベースは構造化ビジネスデータ保存、整理、検索。核心インフラ。"
+      "explanation": "データベースは構造化ビジネスデータ保存、整理、検索。核心インフラ。",
+      "ja_question": "[Japanese translation needed: What does 'database' do in business applications?...]",
+      "ja_explanation": "[Japanese translation needed: データベースは構造化ビジネスデータ保存、整理、検索。核心インフラ。...]"
     },
     {
       "id": "en_business_it_026",
@@ -313,7 +363,9 @@
         "Minimize the importance"
       ],
       "answer": 1,
-      "explanation": "セキュリティリスク提示は脅威信用度、ビジネス影響、確率、緩和策。経営層言語。"
+      "explanation": "セキュリティリスク提示は脅威信用度、ビジネス影響、確率、緩和策。経営層言語。",
+      "ja_question": "[Japanese translation needed: How should you present IT security risks to execut...]",
+      "ja_explanation": "[Japanese translation needed: セキュリティリスク提示は脅威信用度、ビジネス影響、確率、緩和策。経営層言語。...]"
     },
     {
       "id": "en_business_it_027",
@@ -325,7 +377,9 @@
         "Storing data in secret locations"
       ],
       "answer": 1,
-      "explanation": "暗号化はデータをコード変換。不正アクセスと盗聴防止。セキュリティ主要。"
+      "explanation": "暗号化はデータをコード変換。不正アクセスと盗聴防止。セキュリティ主要。",
+      "ja_question": "[Japanese translation needed: What is 'encryption' in data security?...]",
+      "ja_explanation": "[Japanese translation needed: 暗号化はデータをコード変換。不正アクセスと盗聴防止。セキュリティ主要。...]"
     },
     {
       "id": "en_business_it_028",
@@ -337,7 +391,9 @@
         "Use informal notes"
       ],
       "answer": 1,
-      "explanation": "システム設計文書はダイアグラム、部品説明、相互作用、最新版保持。参考性。"
+      "explanation": "システム設計文書はダイアグラム、部品説明、相互作用、最新版保持。参考性。",
+      "ja_question": "[Japanese translation needed: How should you document a system's technical archi...]",
+      "ja_explanation": "[Japanese translation needed: システム設計文書はダイアグラム、部品説明、相互作用、最新版保持。参考性。...]"
     },
     {
       "id": "en_business_it_029",
@@ -349,7 +405,9 @@
         "A type of storage drive"
       ],
       "answer": 1,
-      "explanation": "仮想マシンはコンピュータソフトウェアシミュレーション。別コンピュータで実行。"
+      "explanation": "仮想マシンはコンピュータソフトウェアシミュレーション。別コンピュータで実行。",
+      "ja_question": "[Japanese translation needed: What does 'virtual machine' (VM) mean in IT?...]",
+      "ja_explanation": "[Japanese translation needed: 仮想マシンはコンピュータソフトウェアシミュレーション。別コンピュータで実行。...]"
     },
     {
       "id": "en_business_it_030",
@@ -361,7 +419,9 @@
         "Ignore it completely"
       ],
       "answer": 1,
-      "explanation": "技術債務は遅延作業・近道による将来費用。速度と品質のバランス。経営層化。"
+      "explanation": "技術債務は遅延作業・近道による将来費用。速度と品質のバランス。経営層化。",
+      "ja_question": "[Japanese translation needed: How should you explain 'technical debt' to busines...]",
+      "ja_explanation": "[Japanese translation needed: 技術債務は遅延作業・近道による将来費用。速度と品質のバランス。経営層化。...]"
     },
     {
       "id": "en_business_it_031",
@@ -373,7 +433,9 @@
         "A type of file storage"
       ],
       "answer": 1,
-      "explanation": "バージョン管理は変更追跡、協択促進、履歴維持、必要時ロールバック。本質的。"
+      "explanation": "バージョン管理は変更追跡、協択促進、履歴維持、必要時ロールバック。本質的。",
+      "ja_question": "[Japanese translation needed: What is the purpose of 'version control' in softwa...]",
+      "ja_explanation": "[Japanese translation needed: バージョン管理は変更追跡、協択促進、履歴維持、必要時ロールバック。本質的。...]"
     },
     {
       "id": "en_business_it_032",
@@ -385,7 +447,9 @@
         "Let developers choose"
       ],
       "answer": 1,
-      "explanation": "IT優先順位付けは事業目標、リスク評価、資源評価、緊急度と影響。戦略的。"
+      "explanation": "IT優先順位付けは事業目標、リスク評価、資源評価、緊急度と影響。戦略的。",
+      "ja_question": "[Japanese translation needed: How should you approach prioritizing IT projects?...]",
+      "ja_explanation": "[Japanese translation needed: IT優先順位付けは事業目標、リスク評価、資源評価、緊急度と影響。戦略的。...]"
     },
     {
       "id": "en_business_it_033",
@@ -397,7 +461,9 @@
         "Extra employees"
       ],
       "answer": 1,
-      "explanation": "冗長性は一次システム障害時の継続性確保。デュプリケートシステム。信頼性。"
+      "explanation": "冗長性は一次システム障害時の継続性確保。デュプリケートシステム。信頼性。",
+      "ja_question": "[Japanese translation needed: What does 'redundancy' mean in IT infrastructure?...]",
+      "ja_explanation": "[Japanese translation needed: 冗長性は一次システム障害時の継続性確保。デュプリケートシステム。信頼性。...]"
     },
     {
       "id": "en_business_it_034",
@@ -409,7 +475,9 @@
         "Surprise them with changes"
       ],
       "answer": 1,
-      "explanation": "ソフトウェア発表は新機能、改善、リスク、配置タイミング、サポート。透明性。"
+      "explanation": "ソフトウェア発表は新機能、改善、リスク、配置タイミング、サポート。透明性。",
+      "ja_question": "[Japanese translation needed: How should you communicate a software release to s...]",
+      "ja_explanation": "[Japanese translation needed: ソフトウェア発表は新機能、改善、リスク、配置タイミング、サポート。透明性。...]"
     },
     {
       "id": "en_business_it_035",
@@ -421,7 +489,9 @@
         "Just a backup plan"
       ],
       "answer": 1,
-      "explanation": "ディザスタリカバリはシステムとデータ復元計画・プロセス。重大障害後。不可欠。"
+      "explanation": "ディザスタリカバリはシステムとデータ復元計画・プロセス。重大障害後。不可欠。",
+      "ja_question": "[Japanese translation needed: What is 'disaster recovery' in IT operations?...]",
+      "ja_explanation": "[Japanese translation needed: ディザスタリカバリはシステムとデータ復元計画・プロセス。重大障害後。不可欠。...]"
     },
     {
       "id": "en_business_it_036",
@@ -433,7 +503,9 @@
         "Make promises you can't keep"
       ],
       "answer": 1,
-      "explanation": "データプライバシー説明は収集データ、保護、ユーザー権、コンプライアンス。透明。"
+      "explanation": "データプライバシー説明は収集データ、保護、ユーザー権、コンプライアンス。透明。",
+      "ja_question": "[Japanese translation needed: How should you explain 'data privacy' to users and...]",
+      "ja_explanation": "[Japanese translation needed: データプライバシー説明は収集データ、保護、ユーザー権、コンプライアンス。透明。...]"
     },
     {
       "id": "en_business_it_037",
@@ -445,7 +517,9 @@
         "A storage device"
       ],
       "answer": 1,
-      "explanation": "ミドルウェアはアプリケーション・システム間コミュニケーション促進。統合層。"
+      "explanation": "ミドルウェアはアプリケーション・システム間コミュニケーション促進。統合層。",
+      "ja_question": "[Japanese translation needed: What does 'middleware' do in software systems?...]",
+      "ja_explanation": "[Japanese translation needed: ミドルウェアはアプリケーション・システム間コミュニケーション促進。統合層。...]"
     },
     {
       "id": "en_business_it_038",
@@ -457,7 +531,9 @@
         "Keep old systems forever"
       ],
       "answer": 1,
-      "explanation": "レガシーシステム近代化は機能評価、段階的移行、リスク管理、運用維持。戦略的。"
+      "explanation": "レガシーシステム近代化は機能評価、段階的移行、リスク管理、運用維持。戦略的。",
+      "ja_question": "[Japanese translation needed: How should you handle legacy system modernization ...]",
+      "ja_explanation": "[Japanese translation needed: レガシーシステム近代化は機能評価、段階的移行、リスク管理、運用維持。戦略的。...]"
     },
     {
       "id": "en_business_it_039",
@@ -469,7 +545,9 @@
         "A type of software"
       ],
       "answer": 1,
-      "explanation": "統合は異なるシステム接続。データ共有とシームレス通信。運用効率。"
+      "explanation": "統合は異なるシステム接続。データ共有とシームレス通信。運用効率。",
+      "ja_question": "[Japanese translation needed: What is 'integration' in the context of business s...]",
+      "ja_explanation": "[Japanese translation needed: 統合は異なるシステム接続。データ共有とシームレス通信。運用効率。...]"
     },
     {
       "id": "en_business_it_040",
@@ -481,7 +559,9 @@
         "Assume leaders know all trends"
       ],
       "answer": 1,
-      "explanation": "IT技術トレンド提示は事業関連性、競争優位、実装時間、費用。戦略化。"
+      "explanation": "IT技術トレンド提示は事業関連性、競争優位、実装時間、費用。戦略化。",
+      "ja_question": "[Japanese translation needed: How should you present IT industry trends to decis...]",
+      "ja_explanation": "[Japanese translation needed: IT技術トレンド提示は事業関連性、競争優位、実装時間、費用。戦略化。...]"
     },
     {
       "id": "en_business_it_041",
@@ -493,7 +573,9 @@
         "The cost of operations"
       ],
       "answer": 1,
-      "explanation": "スループットは単位時間当たりのデータ・トランザクション処理量。性能指標。"
+      "explanation": "スループットは単位時間当たりのデータ・トランザクション処理量。性能指標。",
+      "ja_question": "[Japanese translation needed: What does 'throughput' measure in system performan...]",
+      "ja_explanation": "[Japanese translation needed: スループットは単位時間当たりのデータ・トランザクション処理量。性能指標。...]"
     },
     {
       "id": "en_business_it_042",
@@ -505,7 +587,9 @@
         "Provide no updates"
       ],
       "answer": 1,
-      "explanation": "プロジェクト遅延報告は原因、修正タイムライン、対策、影響。早期透明性。"
+      "explanation": "プロジェクト遅延報告は原因、修正タイムライン、対策、影響。早期透明性。",
+      "ja_question": "[Japanese translation needed: How should you communicate IT project delays to st...]",
+      "ja_explanation": "[Japanese translation needed: プロジェクト遅延報告は原因、修正タイムライン、対策、影響。早期透明性。...]"
     },
     {
       "id": "en_business_it_043",
@@ -517,7 +601,9 @@
         "A shipping method"
       ],
       "answer": 1,
-      "explanation": "コンテナ化は依存性以外のアプリケーション配置。環境一貫性。近代配置。"
+      "explanation": "コンテナ化は依存性以外のアプリケーション配置。環境一貫性。近代配置。",
+      "ja_question": "[Japanese translation needed: What is 'containerization' in modern application d...]",
+      "ja_explanation": "[Japanese translation needed: コンテナ化は依存性以外のアプリケーション配置。環境一貫性。近代配置。...]"
     },
     {
       "id": "en_business_it_044",
@@ -529,7 +615,9 @@
         "Accept lower quality"
       ],
       "answer": 1,
-      "explanation": "スキルギャップは評価、教育、採用、承継計画、知識転移。チーム開発。"
+      "explanation": "スキルギャップは評価、教育、採用、承継計画、知識転移。チーム開発。",
+      "ja_question": "[Japanese translation needed: How should you address skills gaps in your IT team...]",
+      "ja_explanation": "[Japanese translation needed: スキルギャップは評価、教育、採用、承継計画、知識転移。チーム開発。...]"
     },
     {
       "id": "en_business_it_045",
@@ -541,7 +629,9 @@
         "Using older methods"
       ],
       "answer": 1,
-      "explanation": "DevOpsは開発と運用の協働。高速、信赖できるデプロイメント。現代手法。"
+      "explanation": "DevOpsは開発と運用の協働。高速、信赖できるデプロイメント。現代手法。",
+      "ja_question": "[Japanese translation needed: What does 'DevOps' approach emphasize in software ...]",
+      "ja_explanation": "[Japanese translation needed: DevOpsは開発と運用の協働。高速、信赖できるデプロイメント。現代手法。...]"
     },
     {
       "id": "en_business_it_046",
@@ -553,7 +643,9 @@
         "Avoid discussing AI"
       ],
       "answer": 1,
-      "explanation": "AI応用説明は具体的用途、期待利益、リスク、実装時間、投資。経営層化。"
+      "explanation": "AI応用説明は具体的用途、期待利益、リスク、実装時間、投資。経営層化。",
+      "ja_question": "[Japanese translation needed: How should you explain 'artificial intelligence' (...]",
+      "ja_explanation": "[Japanese translation needed: AI応用説明は具体的用途、期待利益、リスク、実装時間、投資。経営層化。...]"
     },
     {
       "id": "en_business_it_047",
@@ -565,7 +657,9 @@
         "Wait for problems to happen"
       ],
       "answer": 1,
-      "explanation": "システム監視は早期問題検出、アップタイム確保、性能最適化、予防保守。必須。"
+      "explanation": "システム監視は早期問題検出、アップタイム確保、性能最適化、予防保守。必須。",
+      "ja_question": "[Japanese translation needed: What is the importance of 'monitoring' IT systems?...]",
+      "ja_explanation": "[Japanese translation needed: システム監視は早期問題検出、アップタイム確保、性能最適化、予防保守。必須。...]"
     },
     {
       "id": "en_business_it_048",
@@ -577,7 +671,9 @@
         "Ignore vendor reputation"
       ],
       "answer": 1,
-      "explanation": "ベンダー選定は機能、総所有費、サポート、柔軟性、戦略適合。多角評価。"
+      "explanation": "ベンダー選定は機能、総所有費、サポート、柔軟性、戦略適合。多角評価。",
+      "ja_question": "[Japanese translation needed: How should you handle vendor selection for IT solu...]",
+      "ja_explanation": "[Japanese translation needed: ベンダー選定は機能、総所有費、サポート、柔軟性、戦略適合。多角評価。...]"
     },
     {
       "id": "en_business_it_049",
@@ -589,7 +685,9 @@
         "Only for tech companies"
       ],
       "answer": 1,
-      "explanation": "機械学習はデータから学習、性能改善、プログラミング不要の決定。革新的。"
+      "explanation": "機械学習はデータから学習、性能改善、プログラミング不要の決定。革新的。",
+      "ja_question": "[Japanese translation needed: What does 'machine learning' enable in business ap...]",
+      "ja_explanation": "[Japanese translation needed: 機械学習はデータから学習、性能改善、プログラミング不要の決定。革新的。...]"
     },
     {
       "id": "en_business_it_050",
@@ -601,7 +699,9 @@
         "Leave without clear conclusions"
       ],
       "answer": 1,
-      "explanation": "IT戦略プレゼン結論は目標まとめ、事業ビジョン、コミットメント、次ステップ、質問。完結。"
+      "explanation": "IT戦略プレゼン結論は目標まとめ、事業ビジョン、コミットメント、次ステップ、質問。完結。",
+      "ja_question": "[Japanese translation needed: How should you conclude an IT strategy presentatio...]",
+      "ja_explanation": "[Japanese translation needed: IT戦略プレゼン結論は目標まとめ、事業ビジョン、コミットメント、次ステップ、質問。完結。...]"
     }
   ]
 }

@@ -13,7 +13,9 @@
         "is losing"
       ],
       "answer": 1,
-      "explanation": "最近失くした状態が続いているため、現在完了形'has lost'が正しい。"
+      "explanation": "最近失くした状態が続いているため、現在完了形'has lost'が正しい。",
+      "ja_question": "[Japanese translation needed: My friend is worried because she ___ her keys....]",
+      "ja_explanation": "[Japanese translation needed: 最近失くした状態が続いているため、現在完了形'has lost'が正しい。...]"
     },
     {
       "id": "en_eiken_intermediate_002",
@@ -25,7 +27,9 @@
         "are passing"
       ],
       "answer": 1,
-      "explanation": "If節内は現在形、主節未来形。'will pass'が正しい。"
+      "explanation": "If節内は現在形、主節未来形。'will pass'が正しい。",
+      "ja_question": "[Japanese translation needed: If you study hard, you ___ the exam....]",
+      "ja_explanation": "[Japanese translation needed: If節内は現在形、主節未来形。'will pass'が正しい。...]"
     },
     {
       "id": "en_eiken_intermediate_003",
@@ -37,7 +41,9 @@
         "coming"
       ],
       "answer": 0,
-      "explanation": "'suggest that'の後は原形。'come'が正い。"
+      "explanation": "'suggest that'の後は原形。'come'が正い。",
+      "ja_question": "[Japanese translation needed: She suggested that I ___ earlier to the meeting....]",
+      "ja_explanation": "[Japanese translation needed: 'suggest that'の後は原形。'come'が正い。...]"
     },
     {
       "id": "en_eiken_intermediate_004",
@@ -49,7 +55,9 @@
         "by"
       ],
       "answer": 1,
-      "explanation": "年号は'in'で示す。'in 1990'が標準。"
+      "explanation": "年号は'in'で示す。'in 1990'が標準。",
+      "ja_question": "[Japanese translation needed: The company was founded ___ 1990....]",
+      "ja_explanation": "[Japanese translation needed: 年号は'in'で示す。'in 1990'が標準。...]"
     },
     {
       "id": "en_eiken_intermediate_005",
@@ -61,7 +69,9 @@
         "having"
       ],
       "answer": 1,
-      "explanation": "wish節内は仮定法過去。'had'が正しい。"
+      "explanation": "wish節内は仮定法過去。'had'が正しい。",
+      "ja_question": "[Japanese translation needed: I wish I _____ more money to travel....]",
+      "ja_explanation": "[Japanese translation needed: wish節内は仮定法過去。'had'が正しい。...]"
     },
     {
       "id": "en_eiken_intermediate_006",
@@ -73,7 +83,9 @@
         "from"
       ],
       "answer": 0,
-      "explanation": "期間は'for'で示す。'for five years'が正しい。"
+      "explanation": "期間は'for'で示す。'for five years'が正しい。",
+      "ja_question": "[Japanese translation needed: She has been working here ___ five years....]",
+      "ja_explanation": "[Japanese translation needed: 期間は'for'で示す。'for five years'が正しい。...]"
     },
     {
       "id": "en_eiken_intermediate_007",
@@ -85,7 +97,9 @@
         "sleeping"
       ],
       "answer": 1,
-      "explanation": "'fell asleep'で'眠りに落ちた'。'asleep'は形容詞。"
+      "explanation": "'fell asleep'で'眠りに落ちた'。'asleep'は形容詞。",
+      "ja_question": "[Japanese translation needed: The movie was so boring that I almost fell _____....]",
+      "ja_explanation": "[Japanese translation needed: 'fell asleep'で'眠りに落ちた'。'asleep'は形容詞。...]"
     },
     {
       "id": "en_eiken_intermediate_008",
@@ -97,7 +111,9 @@
         "works"
       ],
       "answer": 2,
-      "explanation": "'don't mind + V-ing'で'~するのは構わない'。"
+      "explanation": "'don't mind + V-ing'で'~するのは構わない'。",
+      "ja_question": "[Japanese translation needed: She doesn't mind _____ late....]",
+      "ja_explanation": "[Japanese translation needed: 'don't mind + V-ing'で'~するのは構わない'。...]"
     },
     {
       "id": "en_eiken_intermediate_009",
@@ -109,7 +125,9 @@
         "know"
       ],
       "answer": 1,
-      "explanation": "仮定法過去完了。'would have gone'に対応して'had known'。"
+      "explanation": "仮定法過去完了。'would have gone'に対応して'had known'。",
+      "ja_question": "[Japanese translation needed: I would have gone if I _____ about the party....]",
+      "ja_explanation": "[Japanese translation needed: 仮定法過去完了。'would have gone'に対応して'had known'。...]"
     },
     {
       "id": "en_eiken_intermediate_010",
@@ -121,7 +139,9 @@
         "by"
       ],
       "answer": 1,
-      "explanation": "'be known for'で'~で知られている'。"
+      "explanation": "'be known for'で'~で知られている'。",
+      "ja_question": "[Japanese translation needed: He is known _____ his excellent teaching skills....]",
+      "ja_explanation": "[Japanese translation needed: 'be known for'で'~で知られている'。...]"
     },
     {
       "id": "en_eiken_intermediate_011",
@@ -133,7 +153,9 @@
         "the same"
       ],
       "answer": 0,
-      "explanation": "'similar'は述語形容詞。'alike'と同義。"
+      "explanation": "'similar'は述語形容詞。'alike'と同義。",
+      "ja_question": "[Japanese translation needed: The two cars are almost _____, but this one is big...]",
+      "ja_explanation": "[Japanese translation needed: 'similar'は述語形容詞。'alike'と同義。...]"
     },
     {
       "id": "en_eiken_intermediate_012",
@@ -145,7 +167,9 @@
         "becomes"
       ],
       "answer": 1,
-      "explanation": "'succeed in + V-ing'で'~するのに成功する'。"
+      "explanation": "'succeed in + V-ing'で'~するのに成功する'。",
+      "ja_question": "[Japanese translation needed: He succeeded in _____ a doctor without much diffic...]",
+      "ja_explanation": "[Japanese translation needed: 'succeed in + V-ing'で'~するのに成功する'。...]"
     },
     {
       "id": "en_eiken_intermediate_013",
@@ -157,7 +181,9 @@
         "didn't know"
       ],
       "answer": 1,
-      "explanation": "'Unless'は'if not'の意味。未来形'won't know'。"
+      "explanation": "'Unless'は'if not'の意味。未来形'won't know'。",
+      "ja_question": "[Japanese translation needed: Unless you call me, I _____ that you are coming....]",
+      "ja_explanation": "[Japanese translation needed: 'Unless'は'if not'の意味。未来形'won't know'。...]"
     },
     {
       "id": "en_eiken_intermediate_014",
@@ -169,7 +195,9 @@
         "however"
       ],
       "answer": 0,
-      "explanation": "名詞が続くなら'because of'。'bad weather'の前。"
+      "explanation": "名詞が続くなら'because of'。'bad weather'の前。",
+      "ja_question": "[Japanese translation needed: The game was cancelled _____ the bad weather....]",
+      "ja_explanation": "[Japanese translation needed: 名詞が続くなら'because of'。'bad weather'の前。...]"
     },
     {
       "id": "en_eiken_intermediate_015",
@@ -181,7 +209,9 @@
         "solved"
       ],
       "answer": 0,
-      "explanation": "'help + 原形'で'~するのを手伝う'。"
+      "explanation": "'help + 原形'で'~するのを手伝う'。",
+      "ja_question": "[Japanese translation needed: Can you help me _____ this problem?...]",
+      "ja_explanation": "[Japanese translation needed: 'help + 原形'で'~するのを手伝う'。...]"
     },
     {
       "id": "en_eiken_intermediate_016",
@@ -193,7 +223,9 @@
         "at"
       ],
       "answer": 1,
-      "explanation": "'be interested in'で'~に興味がある'。"
+      "explanation": "'be interested in'で'~に興味がある'。",
+      "ja_question": "[Japanese translation needed: I'm interested _____ learning new languages....]",
+      "ja_explanation": "[Japanese translation needed: 'be interested in'で'~に興味がある'。...]"
     },
     {
       "id": "en_eiken_intermediate_017",
@@ -205,7 +237,9 @@
         "studies"
       ],
       "answer": 1,
-      "explanation": "'be busy + V-ing'で'~するのに忙しい'。"
+      "explanation": "'be busy + V-ing'で'~するのに忙しい'。",
+      "ja_question": "[Japanese translation needed: The students are busy _____ for the exam....]",
+      "ja_explanation": "[Japanese translation needed: 'be busy + V-ing'で'~するのに忙しい'。...]"
     },
     {
       "id": "en_eiken_intermediate_018",
@@ -217,7 +251,9 @@
         "care"
       ],
       "answer": 0,
-      "explanation": "'mistake'の前は形容詞'careless'。"
+      "explanation": "'mistake'の前は形容詞'careless'。",
+      "ja_question": "[Japanese translation needed: She made a _____ mistake in the exam....]",
+      "ja_explanation": "[Japanese translation needed: 'mistake'の前は形容詞'careless'。...]"
     },
     {
       "id": "en_eiken_intermediate_019",
@@ -229,7 +265,9 @@
         "too"
       ],
       "answer": 1,
-      "explanation": "'so + 形容詞 + that'で'とても~なので'。"
+      "explanation": "'so + 形容詞 + that'で'とても~なので'。",
+      "ja_question": "[Japanese translation needed: The book was ___ interesting that I finished it in...]",
+      "ja_explanation": "[Japanese translation needed: 'so + 形容詞 + that'で'とても~なので'。...]"
     },
     {
       "id": "en_eiken_intermediate_020",
@@ -241,7 +279,9 @@
         "unless"
       ],
       "answer": 2,
-      "explanation": "'since'で時の起点。'~して以来ずっと'という完了形。"
+      "explanation": "'since'で時の起点。'~して以来ずっと'という完了形。",
+      "ja_question": "[Japanese translation needed: I haven't seen Tom ___ he left for America....]",
+      "ja_explanation": "[Japanese translation needed: 'since'で時の起点。'~して以来ずっと'という完了形。...]"
     },
     {
       "id": "en_eiken_intermediate_021",
@@ -253,7 +293,9 @@
         "best"
       ],
       "answer": 0,
-      "explanation": "'feel'の後の形容詞で'better'は比較級。'much better'で'ずっと良い'。"
+      "explanation": "'feel'の後の形容詞で'better'は比較級。'much better'で'ずっと良い'。",
+      "ja_question": "[Japanese translation needed: The patient felt much ___ after taking the medicin...]",
+      "ja_explanation": "[Japanese translation needed: 'feel'の後の形容詞で'better'は比較級。'much better'で'ずっと良い'。...]"
     },
     {
       "id": "en_eiken_intermediate_022",
@@ -265,7 +307,9 @@
         "studies"
       ],
       "answer": 0,
-      "explanation": "'Despite + V-ing'で'~にもかかわらず'。"
+      "explanation": "'Despite + V-ing'で'~にもかかわらず'。",
+      "ja_question": "[Japanese translation needed: Despite ___ hard, he failed the exam....]",
+      "ja_explanation": "[Japanese translation needed: 'Despite + V-ing'で'~にもかかわらず'。...]"
     },
     {
       "id": "en_eiken_intermediate_023",
@@ -277,7 +321,9 @@
         "suggested"
       ],
       "answer": 0,
-      "explanation": "'encourage + 目的語 + to不定詞'で'~するよう勇気づける'。"
+      "explanation": "'encourage + 目的語 + to不定詞'で'~するよう勇気づける'。",
+      "ja_question": "[Japanese translation needed: The manager encouraged his staff ___ new ideas....]",
+      "ja_explanation": "[Japanese translation needed: 'encourage + 目的語 + to不定詞'で'~するよう勇気づける'。...]"
     },
     {
       "id": "en_eiken_intermediate_024",
@@ -289,7 +335,9 @@
         "accident"
       ],
       "answer": 0,
-      "explanation": "'decide to postpone'は'延期する'。'event'（行事）がふさわしい。"
+      "explanation": "'decide to postpone'は'延期する'。'event'（行事）がふさわしい。",
+      "ja_question": "[Japanese translation needed: The weather was so bad that we decided to postpone...]",
+      "ja_explanation": "[Japanese translation needed: 'decide to postpone'は'延期する'。'event'（行事）がふさわしい。...]"
     },
     {
       "id": "en_eiken_intermediate_025",
@@ -301,7 +349,9 @@
         "most"
       ],
       "answer": 2,
-      "explanation": "最高級。'the most popular'で'最も有名な'。"
+      "explanation": "最高級。'the most popular'で'最も有名な'。",
+      "ja_question": "[Japanese translation needed: She is ___ popular singer in our country....]",
+      "ja_explanation": "[Japanese translation needed: 最高級。'the most popular'で'最も有名な'。...]"
     },
     {
       "id": "en_eiken_intermediate_026",
@@ -313,7 +363,9 @@
         "saw"
       ],
       "answer": 1,
-      "explanation": "'look forward to + V-ing'で'~をいまから楽しみにしている'。"
+      "explanation": "'look forward to + V-ing'で'~をいまから楽しみにしている'。",
+      "ja_question": "[Japanese translation needed: I'm looking forward to _____ you soon....]",
+      "ja_explanation": "[Japanese translation needed: 'look forward to + V-ing'で'~をいまから楽しみにしている'。...]"
     },
     {
       "id": "en_eiken_intermediate_027",
@@ -325,7 +377,9 @@
         "repaired"
       ],
       "answer": 2,
-      "explanation": "'need + V-ing'で受動的な意味。'needs repairing'で'修理が必要'。"
+      "explanation": "'need + V-ing'で受動的な意味。'needs repairing'で'修理が必要'。",
+      "ja_question": "[Japanese translation needed: The house needs _____....]",
+      "ja_explanation": "[Japanese translation needed: 'need + V-ing'で受動的な意味。'needs repairing'で'修理が必要'。...]"
     },
     {
       "id": "en_eiken_intermediate_028",
@@ -337,7 +391,9 @@
         "have won"
       ],
       "answer": 1,
-      "explanation": "仮定法過去。If節に過去形'won'。"
+      "explanation": "仮定法過去。If節に過去形'won'。",
+      "ja_question": "[Japanese translation needed: What would you do if you _____ a million dollars?...]",
+      "ja_explanation": "[Japanese translation needed: 仮定法過去。If節に過去形'won'。...]"
     },
     {
       "id": "en_eiken_intermediate_029",
@@ -349,7 +405,9 @@
         "heard"
       ],
       "answer": 2,
-      "explanation": "'by now'（今までに）で現在完了形'has heard'。"
+      "explanation": "'by now'（今までに）で現在完了形'has heard'。",
+      "ja_question": "[Japanese translation needed: It's possible that she _____ the news by now....]",
+      "ja_explanation": "[Japanese translation needed: 'by now'（今までに）で現在完了形'has heard'。...]"
     },
     {
       "id": "en_eiken_intermediate_030",
@@ -361,7 +419,9 @@
         "tired"
       ],
       "answer": 1,
-      "explanation": "映画が退屈'boring'。'bored'は人の感情。"
+      "explanation": "映画が退屈'boring'。'bored'は人の感情。",
+      "ja_question": "[Japanese translation needed: The film was so _____ that most people fell asleep...]",
+      "ja_explanation": "[Japanese translation needed: 映画が退屈'boring'。'bored'は人の感情。...]"
     },
     {
       "id": "en_eiken_intermediate_031",
@@ -373,7 +433,9 @@
         "harmed"
       ],
       "answer": 1,
-      "explanation": "'ruin one's health'で'健康を損なう'は慣用句。"
+      "explanation": "'ruin one's health'で'健康を損なう'は慣用句。",
+      "ja_question": "[Japanese translation needed: She worked so hard that she _____ her health....]",
+      "ja_explanation": "[Japanese translation needed: 'ruin one's health'で'健康を損なう'は慣用句。...]"
     },
     {
       "id": "en_eiken_intermediate_032",
@@ -385,7 +447,9 @@
         "before"
       ],
       "answer": 0,
-      "explanation": "'when'は瞬間。'while'は継続。街を渡り始めた瞬間なので'when'。"
+      "explanation": "'when'は瞬間。'while'は継続。街を渡り始めた瞬間なので'when'。",
+      "ja_question": "[Japanese translation needed: The accident happened _____ I was crossing the str...]",
+      "ja_explanation": "[Japanese translation needed: 'when'は瞬間。'while'は継続。街を渡り始めた瞬間なので'when'。...]"
     },
     {
       "id": "en_eiken_intermediate_033",
@@ -397,7 +461,9 @@
         "with"
       ],
       "answer": 0,
-      "explanation": "受動態で行為者は'by'で示す。'written by'。"
+      "explanation": "受動態で行為者は'by'で示す。'written by'。",
+      "ja_question": "[Japanese translation needed: The article is written _____ a famous journalist....]",
+      "ja_explanation": "[Japanese translation needed: 受動態で行為者は'by'で示す。'written by'。...]"
     },
     {
       "id": "en_eiken_intermediate_034",
@@ -409,7 +475,9 @@
         "resigned"
       ],
       "answer": 1,
-      "explanation": "過去の報告で、仮定またはその直後の計画は'would'で表示。"
+      "explanation": "過去の報告で、仮定またはその直後の計画は'would'で表示。",
+      "ja_question": "[Japanese translation needed: She told me that she _____ her job....]",
+      "ja_explanation": "[Japanese translation needed: 過去の報告で、仮定またはその直後の計画は'would'で表示。...]"
     },
     {
       "id": "en_eiken_intermediate_035",
@@ -421,7 +489,9 @@
         "in"
       ],
       "answer": 0,
-      "explanation": "'apologize for'で'~についてお詫びする'。'make an apology for'。"
+      "explanation": "'apologize for'で'~についてお詫びする'。'make an apology for'。",
+      "ja_question": "[Japanese translation needed: He made an apology _____ breaking the vase....]",
+      "ja_explanation": "[Japanese translation needed: 'apologize for'で'~についてお詫びする'。'make an apology for'...]"
     },
     {
       "id": "en_eiken_intermediate_036",
@@ -433,7 +503,9 @@
         "However"
       ],
       "answer": 0,
-      "explanation": "'Although'で譲歩。'tired'にもかかわらず諦めなかった。"
+      "explanation": "'Although'で譲歩。'tired'にもかかわらず諦めなかった。",
+      "ja_question": "[Japanese translation needed: _____ he was tired, he didn't give up....]",
+      "ja_explanation": "[Japanese translation needed: 'Although'で譲歩。'tired'にもかかわらず諦めなかった。...]"
     },
     {
       "id": "en_eiken_intermediate_037",
@@ -445,7 +517,9 @@
         "too"
       ],
       "answer": 1,
-      "explanation": "'so that'で目的を表す『~するために』。"
+      "explanation": "'so that'で目的を表す『~するために』。",
+      "ja_question": "[Japanese translation needed: The teacher explained the lesson _____ all student...]",
+      "ja_explanation": "[Japanese translation needed: 'so that'で目的を表す『~するために』。...]"
     },
     {
       "id": "en_eiken_intermediate_038",
@@ -457,7 +531,9 @@
         "by"
       ],
       "answer": 2,
-      "explanation": "曜日は'on'。'on Saturday'。"
+      "explanation": "曜日は'on'。'on Saturday'。",
+      "ja_question": "[Japanese translation needed: The concert will be held _____ next Saturday....]",
+      "ja_explanation": "[Japanese translation needed: 曜日は'on'。'on Saturday'。...]"
     },
     {
       "id": "en_eiken_intermediate_039",
@@ -469,7 +545,9 @@
         "when"
       ],
       "answer": 1,
-      "explanation": "目的語の関係代名詞'that'。省略可能。"
+      "explanation": "目的語の関係代名詞'that'。省略可能。",
+      "ja_question": "[Japanese translation needed: I can't remember the name of the person _____ I me...]",
+      "ja_explanation": "[Japanese translation needed: 目的語の関係代名詞'that'。省略可能。...]"
     },
     {
       "id": "en_eiken_intermediate_040",
@@ -481,7 +559,9 @@
         "have taken"
       ],
       "answer": 1,
-      "explanation": "仮定法過去完了。'would have failed'ならIf節は'had taken'。"
+      "explanation": "仮定法過去完了。'would have failed'ならIf節は'had taken'。",
+      "ja_question": "[Japanese translation needed: If I _____ your advice, I wouldn't have failed....]",
+      "ja_explanation": "[Japanese translation needed: 仮定法過去完了。'would have failed'ならIf節は'had taken'。...]"
     },
     {
       "id": "en_eiken_intermediate_041",
@@ -493,7 +573,9 @@
         "for"
       ],
       "answer": 0,
-      "explanation": "'argue about'で『~について議論する』。"
+      "explanation": "'argue about'で『~について議論する』。",
+      "ja_question": "[Japanese translation needed: They are arguing _____ where to go for vacation....]",
+      "ja_explanation": "[Japanese translation needed: 'argue about'で『~について議論する』。...]"
     },
     {
       "id": "en_eiken_intermediate_042",
@@ -505,7 +587,9 @@
         "on"
       ],
       "answer": 1,
-      "explanation": "'at a rapid pace'で『急速なペースで』。'at'が速度・比率。"
+      "explanation": "'at a rapid pace'で『急速なペースで』。'at'が速度・比率。",
+      "ja_question": "[Japanese translation needed: The city has been developing _____ a rapid pace....]",
+      "ja_explanation": "[Japanese translation needed: 'at a rapid pace'で『急速なペースで』。'at'が速度・比率。...]"
     },
     {
       "id": "en_eiken_intermediate_043",
@@ -517,7 +601,9 @@
         "more fluent"
       ],
       "answer": 1,
-      "explanation": "'as fluently as'で『英語と同じくらい流暢に』。副詞。"
+      "explanation": "'as fluently as'で『英語と同じくらい流暢に』。副詞。",
+      "ja_question": "[Japanese translation needed: She speaks French as _____ as English....]",
+      "ja_explanation": "[Japanese translation needed: 'as fluently as'で『英語と同じくらい流暢に』。副詞。...]"
     },
     {
       "id": "en_eiken_intermediate_044",
@@ -529,7 +615,9 @@
         "damaged"
       ],
       "answer": 1,
-      "explanation": "'cause damage'で『被害をもたらす』。'damage'は不可算。"
+      "explanation": "'cause damage'で『被害をもたらす』。'damage'は不可算。",
+      "ja_question": "[Japanese translation needed: The storm caused terrible _____ to the coastal are...]",
+      "ja_explanation": "[Japanese translation needed: 'cause damage'で『被害をもたらす』。'damage'は不可算。...]"
     },
     {
       "id": "en_eiken_intermediate_045",
@@ -541,7 +629,9 @@
         "searched"
       ],
       "answer": 1,
-      "explanation": "'spend time + V-ing'で『~するのに時間をかける』。"
+      "explanation": "'spend time + V-ing'で『~するのに時間をかける』。",
+      "ja_question": "[Japanese translation needed: He spent hours _____ for his lost dog....]",
+      "ja_explanation": "[Japanese translation needed: 'spend time + V-ing'で『~するのに時間をかける』。...]"
     },
     {
       "id": "en_eiken_intermediate_046",
@@ -553,7 +643,9 @@
         "after"
       ],
       "answer": 0,
-      "explanation": "現在完了形'haven't seen'で期間は'for'。'for ten years'。"
+      "explanation": "現在完了形'haven't seen'で期間は'for'。'for ten years'。",
+      "ja_question": "[Japanese translation needed: The two friends hadn't seen each other _____ ten y...]",
+      "ja_explanation": "[Japanese translation needed: 現在完了形'haven't seen'で期間は'for'。'for ten years'。...]"
     },
     {
       "id": "en_eiken_intermediate_047",
@@ -565,7 +657,9 @@
         "of"
       ],
       "answer": 1,
-      "explanation": "'wearing + 衣類'の受け身的な別衣類は'with'。'with a red hat'。"
+      "explanation": "'wearing + 衣類'の受け身的な別衣類は'with'。'with a red hat'。",
+      "ja_question": "[Japanese translation needed: She was wearing a blue dress _____ a red hat....]",
+      "ja_explanation": "[Japanese translation needed: 'wearing + 衣類'の受け身的な別衣類は'with'。'with a red hat'。...]"
     },
     {
       "id": "en_eiken_intermediate_048",
@@ -577,7 +671,9 @@
         "in"
       ],
       "answer": 0,
-      "explanation": "増加量は'by'。'increased by 50%'。"
+      "explanation": "増加量は'by'。'increased by 50%'。",
+      "ja_question": "[Japanese translation needed: The price of the product has increased _____ 50%....]",
+      "ja_explanation": "[Japanese translation needed: 増加量は'by'。'increased by 50%'。...]"
     },
     {
       "id": "en_eiken_intermediate_049",
@@ -589,7 +685,9 @@
         "going"
       ],
       "answer": 1,
-      "explanation": "'It's about time + 過去形'で『もう~すべき頃だ』という仮定法。"
+      "explanation": "'It's about time + 過去形'で『もう~すべき頃だ』という仮定法。",
+      "ja_question": "[Japanese translation needed: It's about time you _____ home....]",
+      "ja_explanation": "[Japanese translation needed: 'It's about time + 過去形'で『もう~すべき頃だ』という仮定法。...]"
     },
     {
       "id": "en_eiken_intermediate_050",
@@ -601,7 +699,9 @@
         "probable"
       ],
       "answer": 1,
-      "explanation": "'be likely to'で『~である可能性が高い』。"
+      "explanation": "'be likely to'で『~である可能性が高い』。",
+      "ja_question": "[Japanese translation needed: The factory is _____ to be closed next month....]",
+      "ja_explanation": "[Japanese translation needed: 'be likely to'で『~である可能性が高い』。...]"
     }
   ]
 }

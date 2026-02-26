@@ -1335,10 +1335,31 @@ async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
     if (!res.ok) throw new Error('HTTP ' + res.status + ' - File not found: ' + file);
     const data = await res.json();
     
+    function shuffleArray(a) {
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+    }
+
+    function randomizeQuestion(q) {
+      // copy to avoid mutating original
+      const qq = {...q};
+      if (!Array.isArray(qq.choices)) return qq;
+      const orig = qq.choices.slice();
+      const idxs = orig.map((_, i) => i);
+      shuffleArray(idxs);
+      const newChoices = idxs.map(i => orig[i]);
+      const newAnswer = idxs.indexOf(qq.answer);
+      qq.choices = newChoices;
+      qq.answer = newAnswer;
+      return qq;
+    }
+
     allQuestions = (data.questions || []).map(q => {
       const answers = ['A', 'B', 'C', 'D', 'E', 'F'];
       let answerIdx = 0;
-      
+
       // getParseAnswer index from string like 'A' -> 0, 'B' -> 1, etc.
       if (q.correct && typeof q.correct === 'string') {
         answerIdx = answers.indexOf(q.correct.toUpperCase());
@@ -1346,12 +1367,13 @@ async function startQuiz(file, exam, section, count, fixedQuestionIds = null) {
       } else if (typeof q.correct === 'number') {
         answerIdx = q.correct;
       }
-      
-      return {
+
+      const mapped = {
         ...q,
         choices: q.choices || (q.options ? Object.values(q.options) : []),  // Map options dict to choices array
         answer: q.answer !== undefined ? q.answer : answerIdx  // Map correct field to answer (convert A->0, B->1, etc.)
       };
+      return randomizeQuestion(mapped);
     });
     if (!Array.isArray(allQuestions)) {
       throw new Error('Questions data is not an array. Got: ' + typeof allQuestions);

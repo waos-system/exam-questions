@@ -13,7 +13,9 @@
         "persuasively"
       ],
       "answer": 0,
-      "explanation": "スピーチを修飾する形容詞は'persuasive'。説得的な演説。"
+      "explanation": "スピーチを修飾する形容詞は'persuasive'。説得的な演説。",
+      "ja_question": "[Japanese translation needed: The politician's speech was so _____ that it swaye...]",
+      "ja_explanation": "[Japanese translation needed: スピーチを修飾する形容詞は'persuasive'。説得的な演説。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_002",
@@ -25,7 +27,9 @@
         "To give"
       ],
       "answer": 0,
-      "explanation": "'Given'は前置詞として『~を考えると』。背景を考慮して。"
+      "explanation": "'Given'は前置詞として『~を考えると』。背景を考慮して。",
+      "ja_question": "[Japanese translation needed: _____ her background in finance, she was the ideal...]",
+      "ja_explanation": "[Japanese translation needed: 'Given'は前置詞として『~を考えると』。背景を考慮して。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_003",
@@ -37,7 +41,9 @@
         "triggers"
       ],
       "answer": 0,
-      "explanation": "完了した事実。'triggered'で政策導入と論争は完了。"
+      "explanation": "完了した事実。'triggered'で政策導入と論争は完了。",
+      "ja_question": "[Japanese translation needed: The new policy _____ considerable debate among sta...]",
+      "ja_explanation": "[Japanese translation needed: 完了した事実。'triggered'で政策導入と論争は完了。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_004",
@@ -49,7 +55,9 @@
         "subside"
       ],
       "answer": 0,
-      "explanation": "'succumb to pressure'で『圧力に屈する』。上級語彙。"
+      "explanation": "'succumb to pressure'で『圧力に屈する』。上級語彙。",
+      "ja_question": "[Japanese translation needed: She has made it clear that she will not _____ to p...]",
+      "ja_explanation": "[Japanese translation needed: 'succumb to pressure'で『圧力に屈する』。上級語彙。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_005",
@@ -61,7 +69,9 @@
         "astute"
       ],
       "answer": 2,
-      "explanation": "'astute observations'で『鋭い観察』。社会評論家として高く評価された。"
+      "explanation": "'astute observations'で『鋭い観察』。社会評論家として高く評価された。",
+      "ja_question": "[Japanese translation needed: His _____ observations about society earned him re...]",
+      "ja_explanation": "[Japanese translation needed: 'astute observations'で『鋭い観察』。社会評論家として高く評価された。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_006",
@@ -73,7 +83,9 @@
         "matchless"
       ],
       "answer": 1,
-      "explanation": "'unparalleled collection'で『比類のないコレクション』。美術愛好家を引き付けた。"
+      "explanation": "'unparalleled collection'で『比類のないコレクション』。美術愛好家を引き付けた。",
+      "ja_question": "[Japanese translation needed: The museum's _____ collection of Renaissance art a...]",
+      "ja_explanation": "[Japanese translation needed: 'unparalleled collection'で『比類のないコレクション』。美術愛好家を引き付け...]"
     },
     {
       "id": "en_eiken_upper_intermediate_007",
@@ -85,7 +97,9 @@
         "extinguish"
       ],
       "answer": 0,
-      "explanation": "'shelve a proposal'で『提案を棚上げにする』。規制懸念が理由。"
+      "explanation": "'shelve a proposal'で『提案を棚上げにする』。規制懸念が理由。",
+      "ja_question": "[Japanese translation needed: The board decided to _____ the proposed merger due...]",
+      "ja_explanation": "[Japanese translation needed: 'shelve a proposal'で『提案を棚上げにする』。規制懸念が理由。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_008",
@@ -97,7 +111,9 @@
         "refutes"
       ],
       "answer": 2,
-      "explanation": "'corroborates an alibi'で『不在証明を裏付ける』。証拠が有利に。"
+      "explanation": "'corroborates an alibi'で『不在証明を裏付ける』。証拠が有利に。",
+      "ja_question": "[Japanese translation needed: This new evidence _____ the defendant's alibi, whi...]",
+      "ja_explanation": "[Japanese translation needed: 'corroborates an alibi'で『不在証明を裏付ける』。証拠が有利に。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_009",
@@ -109,7 +125,9 @@
         "limpid"
       ],
       "answer": 0,
-      "explanation": "'lucid style'で『明確な文体』。複雑なテーマを一般読者に理解させる。"
+      "explanation": "'lucid style'で『明確な文体』。複雑なテーマを一般読者に理解させる。",
+      "ja_question": "[Japanese translation needed: The author's _____ style makes the complex subject...]",
+      "ja_explanation": "[Japanese translation needed: 'lucid style'で『明確な文体』。複雑なテーマを一般読者に理解させる。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_010",
@@ -121,7 +139,9 @@
         "default"
       ],
       "answer": 2,
-      "explanation": "'inaction on inflation'で『インフレ対策の不作為』。経済学者と市民を同様に失望させた。"
+      "explanation": "'inaction on inflation'で『インフレ対策の不作為』。経済学者と市民を同様に失望させた。",
+      "ja_question": "[Japanese translation needed: The government's _____ to address inflation has fr...]",
+      "ja_explanation": "[Japanese translation needed: 'inaction on inflation'で『インフレ対策の不作為』。経済学者と市民を同様に失望...]"
     },
     {
       "id": "en_eiken_upper_intermediate_011",
@@ -133,7 +153,9 @@
         "substantiates"
       ],
       "answer": 0,
-      "explanation": "'validates the theory'で『理論を検証する』。シングルタスキング効率性。"
+      "explanation": "'validates the theory'で『理論を検証する』。シングルタスキング効率性。",
+      "ja_question": "[Japanese translation needed: The research _____ the widely accepted theory that...]",
+      "ja_explanation": "[Japanese translation needed: 'validates the theory'で『理論を検証する』。シングルタスキング効率性。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_012",
@@ -145,7 +167,9 @@
         "uncertain"
       ],
       "answer": 0,
-      "explanation": "'precarious financial situation'で『危機的財務状況』。経営陣は楽観的。"
+      "explanation": "'precarious financial situation'で『危機的財務状況』。経営陣は楽観的。",
+      "ja_question": "[Japanese translation needed: Despite the company's _____ financial situation, m...]",
+      "ja_explanation": "[Japanese translation needed: 'precarious financial situation'で『危機的財務状況』。経営陣は楽観的...]"
     },
     {
       "id": "en_eiken_upper_intermediate_013",
@@ -157,7 +181,9 @@
         "diligent"
       ],
       "answer": 2,
-      "explanation": "'rigorous reporting'で『厳密な報道』。組織内構造的腐敗を暴露。"
+      "explanation": "'rigorous reporting'で『厳密な報道』。組織内構造的腐敗を暴露。",
+      "ja_question": "[Japanese translation needed: The journalist's _____ reporting revealed systemic...]",
+      "ja_explanation": "[Japanese translation needed: 'rigorous reporting'で『厳密な報道』。組織内構造的腐敗を暴露。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_014",
@@ -169,7 +195,9 @@
         "token"
       ],
       "answer": 1,
-      "explanation": "'halfhearted attempt'で『中途半端な試み』。先進国による気候変動協定。"
+      "explanation": "'halfhearted attempt'で『中途半端な試み』。先進国による気候変動協定。",
+      "ja_question": "[Japanese translation needed: The climate change agreement was widely viewed as ...]",
+      "ja_explanation": "[Japanese translation needed: 'halfhearted attempt'で『中途半端な試み』。先進国による気候変動協定。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_015",
@@ -181,7 +209,9 @@
         "repercussions"
       ],
       "answer": 1,
-      "explanation": "'implications of entering'で『参入の含意』。新市場進出の経済的検討。"
+      "explanation": "'implications of entering'で『参入の含意』。新市場進出の経済的検討。",
+      "ja_question": "[Japanese translation needed: The economic _____ of entering the new market requ...]",
+      "ja_explanation": "[Japanese translation needed: 'implications of entering'で『参入の含意』。新市場進出の経済的検討。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_016",
@@ -193,7 +223,9 @@
         "cryptic"
       ],
       "answer": 1,
-      "explanation": "'abstruse explanation'で『難解な説明』。量子物理学の多くの学生が早期脱落。"
+      "explanation": "'abstruse explanation'で『難解な説明』。量子物理学の多くの学生が早期脱落。",
+      "ja_question": "[Japanese translation needed: The professor's _____ explanation of quantum physi...]",
+      "ja_explanation": "[Japanese translation needed: 'abstruse explanation'で『難解な説明』。量子物理学の多くの学生が早期脱落。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_017",
@@ -205,7 +237,9 @@
         "abrogate"
       ],
       "answer": 0,
-      "explanation": "いずれも不人気規制を廃止・撤回する、だが'repeal'は法律廃止の一般的表現。"
+      "explanation": "いずれも不人気規制を廃止・撤回する、だが'repeal'は法律廃止の一般的表現。",
+      "ja_question": "[Japanese translation needed: The committee's decision to _____ the unpopular re...]",
+      "ja_explanation": "[Japanese translation needed: いずれも不人気規制を廃止・撤回する、だが'repeal'は法律廃止の一般的表現。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_018",
@@ -217,7 +251,9 @@
         "quest"
       ],
       "answer": 0,
-      "explanation": "'pursuit of excellence'で『卓越性追求』。競争相手より努力。"
+      "explanation": "'pursuit of excellence'で『卓越性追求』。競争相手より努力。",
+      "ja_question": "[Japanese translation needed: The athlete's _____ for excellence drove her to tr...]",
+      "ja_explanation": "[Japanese translation needed: 'pursuit of excellence'で『卓越性追求』。競争相手より努力。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_019",
@@ -229,7 +265,9 @@
         "caustic"
       ],
       "answer": 0,
-      "explanation": "'acerbic criticism'で『激辛な批評』。同僚が懸念を述べるのに躊躇。"
+      "explanation": "'acerbic criticism'で『激辛な批評』。同僚が懸念を述べるのに躊躇。",
+      "ja_question": "[Japanese translation needed: Her _____ criticism of the proposal made colleague...]",
+      "ja_explanation": "[Japanese translation needed: 'acerbic criticism'で『激辛な批評』。同僚が懸念を述べるのに躊躇。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_020",
@@ -241,7 +279,9 @@
         "rigorous"
       ],
       "answer": 3,
-      "explanation": "'rigorous approach'で『厳密なアプローチ』。数多くのブレークスルー発見。"
+      "explanation": "'rigorous approach'で『厳密なアプローチ』。数多くのブレークスルー発見。",
+      "ja_question": "[Japanese translation needed: The scientist's _____ approach to research has res...]",
+      "ja_explanation": "[Japanese translation needed: 'rigorous approach'で『厳密なアプローチ』。数多くのブレークスルー発見。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_021",
@@ -253,7 +293,9 @@
         "mitigation"
       ],
       "answer": 0,
-      "explanation": "'relaxation of regulations'で『規制の緩和』。環境保全グループを失望させた。"
+      "explanation": "'relaxation of regulations'で『規制の緩和』。環境保全グループを失望させた。",
+      "ja_question": "[Japanese translation needed: The government's _____ of the environmental regula...]",
+      "ja_explanation": "[Japanese translation needed: 'relaxation of regulations'で『規制の緩和』。環境保全グループを失望させた...]"
     },
     {
       "id": "en_eiken_upper_intermediate_022",
@@ -265,7 +307,9 @@
         "persuasive"
       ],
       "answer": 1,
-      "explanation": "'credible testimony'で『信頼できる証言』。被告人の側の叙述を裏付け。"
+      "explanation": "'credible testimony'で『信頼できる証言』。被告人の側の叙述を裏付け。",
+      "ja_question": "[Japanese translation needed: The witness provided _____ testimony that corrobor...]",
+      "ja_explanation": "[Japanese translation needed: 'credible testimony'で『信頼できる証言』。被告人の側の叙述を裏付け。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_023",
@@ -277,7 +321,9 @@
         "Byzantine"
       ],
       "answer": 0,
-      "explanation": "'convoluted narrative'で『複雑な物語構造』。読者が話を組み立てる必要。"
+      "explanation": "'convoluted narrative'で『複雑な物語構造』。読者が話を組み立てる必要。",
+      "ja_question": "[Japanese translation needed: The novel's _____ narrative structure challenges r...]",
+      "ja_explanation": "[Japanese translation needed: 'convoluted narrative'で『複雑な物語構造』。読者が話を組み立てる必要。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_024",
@@ -289,7 +335,9 @@
         "impassioned"
       ],
       "answer": 0,
-      "explanation": "'fiery speech'で『激烈な演説』。支持者エネルギー化し世論喚起。"
+      "explanation": "'fiery speech'で『激烈な演説』。支持者エネルギー化し世論喚起。",
+      "ja_question": "[Japanese translation needed: The activist's _____ speech at the rally energized...]",
+      "ja_explanation": "[Japanese translation needed: 'fiery speech'で『激烈な演説』。支持者エネルギー化し世論喚起。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_025",
@@ -301,7 +349,9 @@
         "intensified"
       ],
       "answer": 0,
-      "explanation": "'exacerbated fears'で『懸念を悪化させた』。経済低迷が複数業界。"
+      "explanation": "'exacerbated fears'で『懸念を悪化させた』。経済低迷が複数業界。",
+      "ja_question": "[Japanese translation needed: The economic downturn _____ fears of widespread jo...]",
+      "ja_explanation": "[Japanese translation needed: 'exacerbated fears'で『懸念を悪化させた』。経済低迷が複数業界。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_026",
@@ -313,7 +363,9 @@
         "forthright"
       ],
       "answer": 0,
-      "explanation": "'frank remarks'で『率直な発言』。学生成績について動機付け意図。"
+      "explanation": "'frank remarks'で『率直な発言』。学生成績について動機付け意図。",
+      "ja_question": "[Japanese translation needed: The professor's _____ remarks about student perfor...]",
+      "ja_explanation": "[Japanese translation needed: 'frank remarks'で『率直な発言』。学生成績について動機付け意図。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_027",
@@ -325,7 +377,9 @@
         "optimize"
       ],
       "answer": 0,
-      "explanation": "'streamline operations'で『業務を合理化』。中核事業領域に焦点。"
+      "explanation": "'streamline operations'で『業務を合理化』。中核事業領域に焦点。",
+      "ja_question": "[Japanese translation needed: The organization decided to _____ its operations t...]",
+      "ja_explanation": "[Japanese translation needed: 'streamline operations'で『業務を合理化』。中核事業領域に焦点。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_028",
@@ -337,7 +391,9 @@
         "wise"
       ],
       "answer": 0,
-      "explanation": "'judicious use of metaphor'で『判断的なメタファー使用』。読者を感情的に引き込む。"
+      "explanation": "'judicious use of metaphor'で『判断的なメタファー使用』。読者を感情的に引き込む。",
+      "ja_question": "[Japanese translation needed: The author's _____ use of metaphor enriches the te...]",
+      "ja_explanation": "[Japanese translation needed: 'judicious use of metaphor'で『判断的なメタファー使用』。読者を感情的に引...]"
     },
     {
       "id": "en_eiken_upper_intermediate_029",
@@ -349,7 +405,9 @@
         "wreaked havoc on"
       ],
       "answer": 0,
-      "explanation": "'ravaged millions'で『何百万人を荒廃させた』。パンデミック危機。"
+      "explanation": "'ravaged millions'で『何百万人を荒廃させた』。パンデミック危機。",
+      "ja_question": "[Japanese translation needed: The pandemic _____ millions of people worldwide, c...]",
+      "ja_explanation": "[Japanese translation needed: 'ravaged millions'で『何百万人を荒廃させた』。パンデミック危機。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_030",
@@ -361,7 +419,9 @@
         "measured"
       ],
       "answer": 2,
-      "explanation": "'circumspect approach'で『慎重なアプローチ』。懸念対応方法。"
+      "explanation": "'circumspect approach'で『慎重なアプローチ』。懸念対応方法。",
+      "ja_question": "[Japanese translation needed: The board member's _____ approach to addressing co...]",
+      "ja_explanation": "[Japanese translation needed: 'circumspect approach'で『慎重なアプローチ』。懸念対応方法。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_031",
@@ -373,7 +433,9 @@
         "convoluted"
       ],
       "answer": 0,
-      "explanation": "'intricate terms'で『複雑な条件』。数ヶ月の激しい外交交渉。"
+      "explanation": "'intricate terms'で『複雑な条件』。数ヶ月の激しい外交交渉。",
+      "ja_question": "[Japanese translation needed: The treaty's _____ terms were negotiated over mont...]",
+      "ja_explanation": "[Japanese translation needed: 'intricate terms'で『複雑な条件』。数ヶ月の激しい外交交渉。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_032",
@@ -385,7 +447,9 @@
         "castigated"
       ],
       "answer": 2,
-      "explanation": "'excoriated for enabling spread'で『厳しく非難された』。偽情報拡散。"
+      "explanation": "'excoriated for enabling spread'で『厳しく非難された』。偽情報拡散。",
+      "ja_question": "[Japanese translation needed: The social media platform was _____ for enabling t...]",
+      "ja_explanation": "[Japanese translation needed: 'excoriated for enabling spread'で『厳しく非難された』。偽情報拡散。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_033",
@@ -397,7 +461,9 @@
         "meaningful"
       ],
       "answer": 0,
-      "explanation": "'profound meaning'で『深い意味』。小説が実在的テーマ探索。"
+      "explanation": "'profound meaning'で『深い意味』。小説が実在的テーマ探索。",
+      "ja_question": "[Japanese translation needed: The novel's exploration of existential themes reso...]",
+      "ja_explanation": "[Japanese translation needed: 'profound meaning'で『深い意味』。小説が実在的テーマ探索。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_034",
@@ -409,7 +475,9 @@
         "allegiance"
       ],
       "answer": 0,
-      "explanation": "'commitment to sustainability'で『持続可能性へのコミットメント』。排出削減。"
+      "explanation": "'commitment to sustainability'で『持続可能性へのコミットメント』。排出削減。",
+      "ja_question": "[Japanese translation needed: The company's _____ for sustainability has led to ...]",
+      "ja_explanation": "[Japanese translation needed: 'commitment to sustainability'で『持続可能性へのコミットメント』。排出...]"
     },
     {
       "id": "en_eiken_upper_intermediate_035",
@@ -421,7 +489,9 @@
         "jeopardized"
       ],
       "answer": 0,
-      "explanation": "'undermined the case'で『事件を弱体化』。矛盾する証言。"
+      "explanation": "'undermined the case'で『事件を弱体化』。矛盾する証言。",
+      "ja_question": "[Japanese translation needed: The witness's conflicting accounts _____ the prose...]",
+      "ja_explanation": "[Japanese translation needed: 'undermined the case'で『事件を弱体化』。矛盾する証言。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_036",
@@ -433,7 +503,9 @@
         "creative"
       ],
       "answer": 0,
-      "explanation": "'visionary designs'で『先見的設計』。近代建築美学機能革命。"
+      "explanation": "'visionary designs'で『先見的設計』。近代建築美学機能革命。",
+      "ja_question": "[Japanese translation needed: The architect's _____ designs revolutionized moder...]",
+      "ja_explanation": "[Japanese translation needed: 'visionary designs'で『先見的設計』。近代建築美学機能革命。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_037",
@@ -445,7 +517,9 @@
         "inverted"
       ],
       "answer": 0,
-      "explanation": "'overturned decades of assumptions'で『数十年の仮定を転覆した』。病気起源。"
+      "explanation": "'overturned decades of assumptions'で『数十年の仮定を転覆した』。病気起源。",
+      "ja_question": "[Japanese translation needed: The scientist's research _____ decades of assumpti...]",
+      "ja_explanation": "[Japanese translation needed: 'overturned decades of assumptions'で『数十年の仮定を転覆した』。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_038",
@@ -457,7 +531,9 @@
         "judicious"
       ],
       "answer": 0,
-      "explanation": "'prudent counsel'で『慎重な助言』。クライアント高額ミス回避。"
+      "explanation": "'prudent counsel'で『慎重な助言』。クライアント高額ミス回避。",
+      "ja_question": "[Japanese translation needed: The financial advisor provided _____ counsel that ...]",
+      "ja_explanation": "[Japanese translation needed: 'prudent counsel'で『慎重な助言』。クライアント高額ミス回避。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_039",
@@ -469,7 +545,9 @@
         "uncovered"
       ],
       "answer": 2,
-      "explanation": "'laid bare the realities'で『厳しい現実を露わにした』。発展途上国貧困。"
+      "explanation": "'laid bare the realities'で『厳しい現実を露わにした』。発展途上国貧困。",
+      "ja_question": "[Japanese translation needed: The documentary _____ the harsh realities of pover...]",
+      "ja_explanation": "[Japanese translation needed: 'laid bare the realities'で『厳しい現実を露わにした』。発展途上国貧困。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_040",
@@ -481,7 +559,9 @@
         "evasiveness"
       ],
       "answer": 0,
-      "explanation": "'evasive behavior'で『回避的な振る舞い』。スキャンダル中信用度損傷。"
+      "explanation": "'evasive behavior'で『回避的な振る舞い』。スキャンダル中信用度損傷。",
+      "ja_question": "[Japanese translation needed: The politician's _____ behavior during the scandal...]",
+      "ja_explanation": "[Japanese translation needed: 'evasive behavior'で『回避的な振る舞い』。スキャンダル中信用度損傷。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_041",
@@ -493,7 +573,9 @@
         "renunciation of"
       ],
       "answer": 0,
-      "explanation": "'departure from tradition'で『伝統からの出発』。文化的シフト引き起こし。"
+      "explanation": "'departure from tradition'で『伝統からの出発』。文化的シフト引き起こし。",
+      "ja_question": "[Japanese translation needed: The organization's _____ to traditional hierarchy ...]",
+      "ja_explanation": "[Japanese translation needed: 'departure from tradition'で『伝統からの出発』。文化的シフト引き起こし。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_042",
@@ -505,7 +587,9 @@
         "unquenchable"
       ],
       "answer": 0,
-      "explanation": "'indomitable determination'で『屈しない決意』。多くの障害克服し夢達成。"
+      "explanation": "'indomitable determination'で『屈しない決意』。多くの障害克服し夢達成。",
+      "ja_question": "[Japanese translation needed: The athlete's _____ determination enabled her to o...]",
+      "ja_explanation": "[Japanese translation needed: 'indomitable determination'で『屈しない決意』。多くの障害克服し夢達成。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_043",
@@ -517,7 +601,9 @@
         "booming"
       ],
       "answer": 0,
-      "explanation": "'burgeoning development'で『急速に成長する発展』。機会創出、外国投資。"
+      "explanation": "'burgeoning development'で『急速に成長する発展』。機会創出、外国投資。",
+      "ja_question": "[Japanese translation needed: The region's _____ economic development has create...]",
+      "ja_explanation": "[Japanese translation needed: 'burgeoning development'で『急速に成長する発展』。機会創出、外国投資。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_044",
@@ -529,7 +615,9 @@
         "crystal-clear"
       ],
       "answer": 2,
-      "explanation": "'lucid style'で『明確な文体』。哲学概念を学問背景なし読者に理解させる。"
+      "explanation": "'lucid style'で『明確な文体』。哲学概念を学問背景なし読者に理解させる。",
+      "ja_question": "[Japanese translation needed: The author's _____ style of writing makes the phil...]",
+      "ja_explanation": "[Japanese translation needed: 'lucid style'で『明確な文体』。哲学概念を学問背景なし読者に理解させる。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_045",
@@ -541,7 +629,9 @@
         "stained"
       ],
       "answer": 0,
-      "explanation": "'besmirched the reputation'で『評判を傷つけた』。信用復活に長年必要。"
+      "explanation": "'besmirched the reputation'で『評判を傷つけた』。信用復活に長年必要。",
+      "ja_question": "[Japanese translation needed: The scandal _____ the company's reputation, requir...]",
+      "ja_explanation": "[Japanese translation needed: 'besmirched the reputation'で『評判を傷つけた』。信用復活に長年必要。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_046",
@@ -553,7 +643,9 @@
         "absorbs"
       ],
       "answer": 0,
-      "explanation": "'immerses readers'で『読者を没頭させる』。中世社会複雑性。"
+      "explanation": "'immerses readers'で『読者を没頭させる』。中世社会複雑性。",
+      "ja_question": "[Japanese translation needed: The historical novel _____ readers in the complexi...]",
+      "ja_explanation": "[Japanese translation needed: 'immerses readers'で『読者を没頭させる』。中世社会複雑性。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_047",
@@ -565,7 +657,9 @@
         "indefinite"
       ],
       "answer": 0,
-      "explanation": "'ambivalent policies'で『曖昧な政策』。気候変動に対する環境課題。"
+      "explanation": "'ambivalent policies'で『曖昧な政策』。気候変動に対する環境課題。",
+      "ja_question": "[Japanese translation needed: The government's _____ policies regarding climate ...]",
+      "ja_explanation": "[Japanese translation needed: 'ambivalent policies'で『曖昧な政策』。気候変動に対する環境課題。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_048",
@@ -577,7 +671,9 @@
         "sizable"
       ],
       "answer": 0,
-      "explanation": "'substantial investment'で『相当な投資』。研究開発。業界リーダー地位。"
+      "explanation": "'substantial investment'で『相当な投資』。研究開発。業界リーダー地位。",
+      "ja_question": "[Japanese translation needed: The company's _____ investment in research and dev...]",
+      "ja_explanation": "[Japanese translation needed: 'substantial investment'で『相当な投資』。研究開発。業界リーダー地位。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_049",
@@ -589,7 +685,9 @@
         "correct"
       ],
       "answer": 0,
-      "explanation": "'redress the grievances'で『不満を是正する』。条約失敗が紛争再発。"
+      "explanation": "'redress the grievances'で『不満を是正する』。条約失敗が紛争再発。",
+      "ja_question": "[Japanese translation needed: The treaty's failure to _____ the underlying griev...]",
+      "ja_explanation": "[Japanese translation needed: 'redress the grievances'で『不満を是正する』。条約失敗が紛争再発。...]"
     },
     {
       "id": "en_eiken_upper_intermediate_050",
@@ -601,7 +699,9 @@
         "dire"
       ],
       "answer": 0,
-      "explanation": "'sobering findings'で『冷静にさせる調査結果』。気候報告書。気候行動計画加速。"
+      "explanation": "'sobering findings'で『冷静にさせる調査結果』。気候報告書。気候行動計画加速。",
+      "ja_question": "[Japanese translation needed: The climate report's _____ findings have prompted ...]",
+      "ja_explanation": "[Japanese translation needed: 'sobering findings'で『冷静にさせる調査結果』。気候報告書。気候行動計画加速。...]"
     }
   ]
 }

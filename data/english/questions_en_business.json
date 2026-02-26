@@ -12,14 +12,23 @@
         "The report is very long."
       ],
       "answer": 1,
-      "explanation": "「金曜日までにレポートを送ってもらえますか？」への返答として、「はい、その日までに用意しておきます（Certainly, I'll have it ready for you by then.）」が最も適切なビジネス表現です。"
+      "explanation": "「金曜日までにレポートを送ってもらえますか？」への返答として、「はい、その日までに用意しておきます（Certainly, I'll have it ready for you by then.）」が最も適切なビジネス表現です。",
+      "ja_question": "[Japanese translation needed: Choose the best response to:\n\"Could you send me th...]",
+      "ja_explanation": "[Japanese translation needed: 「金曜日までにレポートを送ってもらえますか？」への返答として、「はい、その日までに用意しておきます（...]"
     },
     {
       "id": "en_biz_002",
       "question": "Fill in the blank:\n\"The meeting has been ___ until next Monday due to the manager's business trip.\"",
-      "choices": ["canceled", "postponed", "finished", "started"],
+      "choices": [
+        "canceled",
+        "postponed",
+        "finished",
+        "started"
+      ],
       "answer": 1,
-      "explanation": "postponed は「延期された」という意味です。「next Monday（来週月曜日）まで延期」という文脈から postponed が正解です。canceled は「中止・取り消し」で意味が異なります。"
+      "explanation": "postponed は「延期された」という意味です。「next Monday（来週月曜日）まで延期」という文脈から postponed が正解です。canceled は「中止・取り消し」で意味が異なります。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"The meeting has been ___ until...]",
+      "ja_explanation": "[Japanese translation needed: postponed は「延期された」という意味です。「next Monday（来週月曜日）まで延期」...]"
     },
     {
       "id": "en_biz_003",
@@ -31,21 +40,37 @@
         "Hello my friend,"
       ],
       "answer": 1,
-      "explanation": "フォーマルなビジネスメールは「Dear + 敬称 + 姓,」で始めます。「Dear Mr. Johnson,」が最も適切です。「Hey」「Yo」はカジュアルすぎ、「Hello my friend」も不適切です。"
+      "explanation": "フォーマルなビジネスメールは「Dear + 敬称 + 姓,」で始めます。「Dear Mr. Johnson,」が最も適切です。「Hey」「Yo」はカジュアルすぎ、「Hello my friend」も不適切です。",
+      "ja_question": "[Japanese translation needed: Which phrase is most appropriate for starting a fo...]",
+      "ja_explanation": "[Japanese translation needed: フォーマルなビジネスメールは「Dear + 敬称 + 姓,」で始めます。「Dear Mr. John...]"
     },
     {
       "id": "en_biz_004",
       "question": "Fill in the blank:\n\"Please find ___ the document you requested.\"",
-      "choices": ["attached", "attaching", "attachment", "attach"],
+      "choices": [
+        "attached",
+        "attaching",
+        "attachment",
+        "attach"
+      ],
       "answer": 0,
-      "explanation": "「Please find attached〜（〜を添付いたしましたのでご確認ください）」はビジネスメールの定型表現です。attached（形容詞・過去分詞）が正解です。"
+      "explanation": "「Please find attached〜（〜を添付いたしましたのでご確認ください）」はビジネスメールの定型表現です。attached（形容詞・過去分詞）が正解です。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"Please find ___ the document y...]",
+      "ja_explanation": "[Japanese translation needed: 「Please find attached〜（〜を添付いたしましたのでご確認ください）」はビジネスメ...]"
     },
     {
       "id": "en_biz_005",
       "question": "What does \"ASAP\" mean in business communication?",
-      "choices": ["As Simple As Possible", "As Soon As Possible", "At Some Accurate Point", "After Standard Approval Process"],
+      "choices": [
+        "As Simple As Possible",
+        "As Soon As Possible",
+        "At Some Accurate Point",
+        "After Standard Approval Process"
+      ],
       "answer": 1,
-      "explanation": "ASAP は「As Soon As Possible（できるだけ早く）」の略語です。ビジネスメールやメッセージで頻繁に使われます。"
+      "explanation": "ASAP は「As Soon As Possible（できるだけ早く）」の略語です。ビジネスメールやメッセージで頻繁に使われます。",
+      "ja_question": "[Japanese translation needed: What does \"ASAP\" mean in business communication?...]",
+      "ja_explanation": "[Japanese translation needed: ASAP は「As Soon As Possible（できるだけ早く）」の略語です。ビジネスメールや...]"
     },
     {
       "id": "en_biz_006",
@@ -57,28 +82,51 @@
         "Maybe next time."
       ],
       "answer": 1,
-      "explanation": "丁寧に会議の招待を断る表現として「I'm afraid I won't be able to attend due to a prior commitment.（先約があり、参加できなさそうです）」が最もプロフェッショナルです。"
+      "explanation": "丁寧に会議の招待を断る表現として「I'm afraid I won't be able to attend due to a prior commitment.（先約があり、参加できなさそうです）」が最もプロフェッショナルです。",
+      "ja_question": "[Japanese translation needed: Choose the most appropriate phrase for declining a...]",
+      "ja_explanation": "[Japanese translation needed: 丁寧に会議の招待を断る表現として「I'm afraid I won't be able to att...]"
     },
     {
       "id": "en_biz_007",
       "question": "Fill in the blank:\n\"The quarterly ___ shows a 15% increase in sales compared to last year.\"",
-      "choices": ["report", "recipe", "reaction", "result"],
+      "choices": [
+        "report",
+        "recipe",
+        "reaction",
+        "result"
+      ],
       "answer": 0,
-      "explanation": "「quarterly report（四半期報告書）」はビジネスで頻出の表現です。売上比較のデータを示す文書として report が最も適切です。"
+      "explanation": "「quarterly report（四半期報告書）」はビジネスで頻出の表現です。売上比較のデータを示す文書として report が最も適切です。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"The quarterly ___ shows a 15% ...]",
+      "ja_explanation": "[Japanese translation needed: 「quarterly report（四半期報告書）」はビジネスで頻出の表現です。売上比較のデータを示...]"
     },
     {
       "id": "en_biz_008",
       "question": "What does \"ROI\" stand for in business?",
-      "choices": ["Rate of Inflation", "Return on Investment", "Revenue of Industry", "Record of Income"],
+      "choices": [
+        "Rate of Inflation",
+        "Return on Investment",
+        "Revenue of Industry",
+        "Record of Income"
+      ],
       "answer": 1,
-      "explanation": "ROI は「Return on Investment（投資利益率・投資対効果）」の略です。投資した費用に対してどれだけの利益が得られたかを示す指標です。"
+      "explanation": "ROI は「Return on Investment（投資利益率・投資対効果）」の略です。投資した費用に対してどれだけの利益が得られたかを示す指標です。",
+      "ja_question": "[Japanese translation needed: What does \"ROI\" stand for in business?...]",
+      "ja_explanation": "[Japanese translation needed: ROI は「Return on Investment（投資利益率・投資対効果）」の略です。投資した費...]"
     },
     {
       "id": "en_biz_009",
       "question": "Fill in the blank:\n\"We need to ___ a solution to this problem before the deadline.\"",
-      "choices": ["come up with", "come down with", "come across with", "come away with"],
+      "choices": [
+        "come up with",
+        "come down with",
+        "come across with",
+        "come away with"
+      ],
       "answer": 0,
-      "explanation": "come up with は「（解決策・アイデアを）思いつく・見つけ出す」という意味です。「come up with a solution（解決策を見つける）」は頻出表現です。"
+      "explanation": "come up with は「（解決策・アイデアを）思いつく・見つけ出す」という意味です。「come up with a solution（解決策を見つける）」は頻出表現です。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"We need to ___ a solution to t...]",
+      "ja_explanation": "[Japanese translation needed: come up with は「（解決策・アイデアを）思いつく・見つけ出す」という意味です。「come...]"
     },
     {
       "id": "en_biz_010",
@@ -90,14 +138,23 @@
         "I have no idea what you mean."
       ],
       "answer": 1,
-      "explanation": "「Could you elaborate on that point, please?（その点についてもう少し詳しく説明していただけますか？）」は丁寧な確認の表現です。ビジネス場面では礼儀正しい表現を使うことが重要です。"
+      "explanation": "「Could you elaborate on that point, please?（その点についてもう少し詳しく説明していただけますか？）」は丁寧な確認の表現です。ビジネス場面では礼儀正しい表現を使うことが重要です。",
+      "ja_question": "[Japanese translation needed: Which phrase is most appropriate for asking for cl...]",
+      "ja_explanation": "[Japanese translation needed: 「Could you elaborate on that point, please?（その点につい...]"
     },
     {
       "id": "en_biz_011",
       "question": "Fill in the blank:\n\"The project was completed ___ budget and ahead of schedule.\"",
-      "choices": ["under", "over", "above", "beyond"],
+      "choices": [
+        "under",
+        "over",
+        "above",
+        "beyond"
+      ],
       "answer": 0,
-      "explanation": "「under budget（予算内で）」はビジネスの頻出表現です。「over budget（予算超過）」が反対語です。「ahead of schedule（予定より早く）」と対になる表現として覚えましょう。"
+      "explanation": "「under budget（予算内で）」はビジネスの頻出表現です。「over budget（予算超過）」が反対語です。「ahead of schedule（予定より早く）」と対になる表現として覚えましょう。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"The project was completed ___ ...]",
+      "ja_explanation": "[Japanese translation needed: 「under budget（予算内で）」はビジネスの頻出表現です。「over budget（予算超過...]"
     },
     {
       "id": "en_biz_012",
@@ -109,21 +166,37 @@
         "To write the proposal on a table"
       ],
       "answer": 1,
-      "explanation": "アメリカ英語で「table a proposal」は「議案を後回しにする・延期する」という意味です（イギリス英語では逆に「議題に載せる」という意味になります）。"
+      "explanation": "アメリカ英語で「table a proposal」は「議案を後回しにする・延期する」という意味です（イギリス英語では逆に「議題に載せる」という意味になります）。",
+      "ja_question": "[Japanese translation needed: What does it mean to \"table a proposal\" in America...]",
+      "ja_explanation": "[Japanese translation needed: アメリカ英語で「table a proposal」は「議案を後回しにする・延期する」という意味です（...]"
     },
     {
       "id": "en_biz_013",
       "question": "Choose the correct phrase:\n\"I'd like to ___ our discussion from last week's meeting.\"",
-      "choices": ["follow up on", "follow down", "follow through", "follow along"],
+      "choices": [
+        "follow up on",
+        "follow down",
+        "follow through",
+        "follow along"
+      ],
       "answer": 0,
-      "explanation": "follow up on は「〜について続けて確認する・フォローアップする」という意味です。「follow up on a discussion（議論をフォローアップする）」は会議後のメールなどでよく使われます。"
+      "explanation": "follow up on は「〜について続けて確認する・フォローアップする」という意味です。「follow up on a discussion（議論をフォローアップする）」は会議後のメールなどでよく使われます。",
+      "ja_question": "[Japanese translation needed: Choose the correct phrase:\n\"I'd like to ___ our di...]",
+      "ja_explanation": "[Japanese translation needed: follow up on は「〜について続けて確認する・フォローアップする」という意味です。「fol...]"
     },
     {
       "id": "en_biz_014",
       "question": "Fill in the blank:\n\"All employees are required to ___ the mandatory safety training.\"",
-      "choices": ["join", "attend", "participate", "visit"],
+      "choices": [
+        "join",
+        "attend",
+        "participate",
+        "visit"
+      ],
       "answer": 1,
-      "explanation": "attend は「（会議・研修に）出席する・参加する」という意味です。「attend training（研修に出席する）」はビジネスでよく使われます。participate（in）も使えますが、attend がより直接的です。"
+      "explanation": "attend は「（会議・研修に）出席する・参加する」という意味です。「attend training（研修に出席する）」はビジネスでよく使われます。participate（in）も使えますが、attend がより直接的です。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"All employees are required to ...]",
+      "ja_explanation": "[Japanese translation needed: attend は「（会議・研修に）出席する・参加する」という意味です。「attend trainin...]"
     },
     {
       "id": "en_biz_015",
@@ -135,35 +208,65 @@
         "A financial advisor"
       ],
       "answer": 1,
-      "explanation": "stakeholder（ステークホルダー）は「事業の活動に利害関係を持つ個人またはグループ」です。株主・従業員・顧客・地域社会などが含まれます。"
+      "explanation": "stakeholder（ステークホルダー）は「事業の活動に利害関係を持つ個人またはグループ」です。株主・従業員・顧客・地域社会などが含まれます。",
+      "ja_question": "[Japanese translation needed: What is a \"stakeholder\" in business?...]",
+      "ja_explanation": "[Japanese translation needed: stakeholder（ステークホルダー）は「事業の活動に利害関係を持つ個人またはグループ」です。株...]"
     },
     {
       "id": "en_biz_016",
       "question": "Fill in the blank:\n\"The new product launch was a great ___ — sales exceeded our expectations.\"",
-      "choices": ["disaster", "success", "surprise", "challenge"],
+      "choices": [
+        "disaster",
+        "success",
+        "surprise",
+        "challenge"
+      ],
       "answer": 1,
-      "explanation": "「sales exceeded our expectations（売上が期待を上回った）」という文脈から、製品発売が「success（成功）」だったという内容が適切です。"
+      "explanation": "「sales exceeded our expectations（売上が期待を上回った）」という文脈から、製品発売が「success（成功）」だったという内容が適切です。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"The new product launch was a g...]",
+      "ja_explanation": "[Japanese translation needed: 「sales exceeded our expectations（売上が期待を上回った）」という文脈...]"
     },
     {
       "id": "en_biz_017",
       "question": "Which expression means \"to reach an agreement\" in business?",
-      "choices": ["break a deal", "close a deal", "open a deal", "lose a deal"],
+      "choices": [
+        "break a deal",
+        "close a deal",
+        "open a deal",
+        "lose a deal"
+      ],
       "answer": 1,
-      "explanation": "close a deal（= seal a deal）は「契約・取引を成立させる・合意に達する」という意味のビジネス表現です。break a deal「契約を破る」、lose a deal「商談を失う」とは異なります。"
+      "explanation": "close a deal（= seal a deal）は「契約・取引を成立させる・合意に達する」という意味のビジネス表現です。break a deal「契約を破る」、lose a deal「商談を失う」とは異なります。",
+      "ja_question": "[Japanese translation needed: Which expression means \"to reach an agreement\" in ...]",
+      "ja_explanation": "[Japanese translation needed: close a deal（= seal a deal）は「契約・取引を成立させる・合意に達する」とい...]"
     },
     {
       "id": "en_biz_018",
       "question": "Fill in the blank:\n\"Please ___ me know if you have any questions or concerns.\"",
-      "choices": ["make", "have", "let", "give"],
+      "choices": [
+        "make",
+        "have",
+        "let",
+        "give"
+      ],
       "answer": 2,
-      "explanation": "「let me know（お知らせください）」はビジネスメールの定型表現です。「Please let me know if you have any questions.（ご質問があればお知らせください）」の形でよく使われます。"
+      "explanation": "「let me know（お知らせください）」はビジネスメールの定型表現です。「Please let me know if you have any questions.（ご質問があればお知らせください）」の形でよく使われます。",
+      "ja_question": "[Japanese translation needed: Fill in the blank:\n\"Please ___ me know if you have...]",
+      "ja_explanation": "[Japanese translation needed: 「let me know（お知らせください）」はビジネスメールの定型表現です。「Please let...]"
     },
     {
       "id": "en_biz_019",
       "question": "What does \"B2B\" mean?",
-      "choices": ["Back to Business", "Business to Business", "Buyers to Business", "Business to Buyers"],
+      "choices": [
+        "Back to Business",
+        "Business to Business",
+        "Buyers to Business",
+        "Business to Buyers"
+      ],
       "answer": 1,
-      "explanation": "B2B は「Business to Business（企業間取引）」の略です。企業が他の企業を顧客とするビジネスモデルです。B2C（Business to Consumer）は企業と一般消費者間の取引です。"
+      "explanation": "B2B は「Business to Business（企業間取引）」の略です。企業が他の企業を顧客とするビジネスモデルです。B2C（Business to Consumer）は企業と一般消費者間の取引です。",
+      "ja_question": "[Japanese translation needed: What does \"B2B\" mean?...]",
+      "ja_explanation": "[Japanese translation needed: B2B は「Business to Business（企業間取引）」の略です。企業が他の企業を顧客と...]"
     },
     {
       "id": "en_biz_020",
@@ -175,7 +278,9 @@
         "Cheers mate,"
       ],
       "answer": 2,
-      "explanation": "フォーマルなビジネスメールの結びには「Yours sincerely,（敬具）」や「Best regards,」「Sincerely,」などが適切です。「See ya」「Bye bye」「Cheers mate」はカジュアルすぎます。"
+      "explanation": "フォーマルなビジネスメールの結びには「Yours sincerely,（敬具）」や「Best regards,」「Sincerely,」などが適切です。「See ya」「Bye bye」「Cheers mate」はカジュアルすぎます。",
+      "ja_question": "[Japanese translation needed: Choose the most appropriate closing for a formal b...]",
+      "ja_explanation": "[Japanese translation needed: フォーマルなビジネスメールの結びには「Yours sincerely,（敬具）」や「Best reg...]"
     }
   ]
 }

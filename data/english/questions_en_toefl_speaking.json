@@ -15,7 +15,9 @@
         "A classroom discussion that challenged your perspectives"
       ],
       "answer": -1,
-      "explanation": "Independent speaking task requires personal experience narrative. Evaluate responses on clarity, organization, vocabulary range, and fluency. Strong responses include specific details and explain the impact on learning."
+      "explanation": "Independent speaking task requires personal experience narrative. Evaluate responses on clarity, organization, vocabulary range, and fluency. Strong responses include specific details and explain the impact on learning.",
+      "ja_question": "[Japanese translation needed: Describe a memorable academic experience. How did ...]",
+      "ja_explanation": "[Japanese translation needed: Independent speaking task requires personal experi...]"
     },
     {
       "id": "en_toefl_speaking_002",
@@ -29,7 +31,9 @@
         "Neither is effective for learning"
       ],
       "answer": -1,
-      "explanation": "This preference question assesses ability to state position, provide reasons, and support with examples. Evaluate organization, supporting details, and coherence."
+      "explanation": "This preference question assesses ability to state position, provide reasons, and support with examples. Evaluate organization, supporting details, and coherence.",
+      "ja_question": "[Japanese translation needed: Some students prefer studying in groups; others pr...]",
+      "ja_explanation": "[Japanese translation needed: This preference question assesses ability to state...]"
     },
     {
       "id": "en_toefl_speaking_003",
@@ -44,7 +48,9 @@
         "The proposal is too expensive to implement"
       ],
       "answer": 0,
-      "explanation": "Integrated tasks require synthesis of reading and lecture information. Evaluate ability to summarize key points, make connections, and organize information clearly."
+      "explanation": "Integrated tasks require synthesis of reading and lecture information. Evaluate ability to summarize key points, make connections, and organize information clearly.",
+      "ja_question": "[Japanese translation needed: Explain how this proposal addresses the problem di...]",
+      "ja_explanation": "[Japanese translation needed: Integrated tasks require synthesis of reading and ...]"
     },
     {
       "id": "en_toefl_speaking_004",
@@ -59,7 +65,9 @@
         "Neither solution addresses the problem"
       ],
       "answer": 0,
-      "explanation": "Listening-based integrated task requires identifying and summarizing information, plus evaluating options. Assess comprehension, summary accuracy, and reasoning."
+      "explanation": "Listening-based integrated task requires identifying and summarizing information, plus evaluating options. Assess comprehension, summary accuracy, and reasoning.",
+      "ja_question": "[Japanese translation needed: The student offers two solutions to the scheduling...]",
+      "ja_explanation": "[Japanese translation needed: Listening-based integrated task requires identifyi...]"
     },
     {
       "id": "en_toefl_speaking_005",
@@ -73,7 +81,9 @@
         "Community service and mutual support practices"
       ],
       "answer": -1,
-      "explanation": "Cultural description task. Evaluate clarity of description, accuracy of cultural detail, and ability to explain cultural significance and values."
+      "explanation": "Cultural description task. Evaluate clarity of description, accuracy of cultural detail, and ability to explain cultural significance and values.",
+      "ja_question": "[Japanese translation needed: Describe a cultural practice from your country tha...]",
+      "ja_explanation": "[Japanese translation needed: Cultural description task. Evaluate clarity of des...]"
     },
     {
       "id": "en_toefl_speaking_006",
@@ -88,7 +98,9 @@
         "The professor presented no comparison"
       ],
       "answer": 0,
-      "explanation": "Comparison task requires identifying and contrasting methods, then evaluating effectiveness. Strong responses support preference with reasoning."
+      "explanation": "Comparison task requires identifying and contrasting methods, then evaluating effectiveness. Strong responses support preference with reasoning.",
+      "ja_question": "[Japanese translation needed: The professor explains two methods for teaching en...]",
+      "ja_explanation": "[Japanese translation needed: Comparison task requires identifying and contrasti...]"
     },
     {
       "id": "en_toefl_speaking_007",
@@ -103,7 +115,9 @@
         "No concerns or advice are mentioned"
       ],
       "answer": 0,
-      "explanation": "Conversation comprehension and summary task. Evaluate ability to identify key information and report it clearly."
+      "explanation": "Conversation comprehension and summary task. Evaluate ability to identify key information and report it clearly.",
+      "ja_question": "[Japanese translation needed: The student contacts her advisor about changing ma...]",
+      "ja_explanation": "[Japanese translation needed: Conversation comprehension and summary task. Evalu...]"
     },
     {
       "id": "en_toefl_speaking_008",
@@ -117,7 +131,9 @@
         "Campus facilities and resources"
       ],
       "answer": -1,
-      "explanation": "Independent preference/opinion task. Assess articulation of position, reasoning quality, examples provided, and overall coherence."
+      "explanation": "Independent preference/opinion task. Assess articulation of position, reasoning quality, examples provided, and overall coherence.",
+      "ja_question": "[Japanese translation needed: Imagine you could change one aspect of your educat...]",
+      "ja_explanation": "[Japanese translation needed: Independent preference/opinion task. Assess articu...]"
     },
     {
       "id": "en_toefl_speaking_009",
@@ -132,7 +148,9 @@
         "Language learning doesn't affect cognitive development"
       ],
       "answer": 0,
-      "explanation": "Content synthesis task. Evaluate integration of information from multiple sources, accuracy, and clear communication of main points."
+      "explanation": "Content synthesis task. Evaluate integration of information from multiple sources, accuracy, and clear communication of main points.",
+      "ja_question": "[Japanese translation needed: According to the reading and lecture, what does th...]",
+      "ja_explanation": "[Japanese translation needed: Content synthesis task. Evaluate integration of in...]"
     },
     {
       "id": "en_toefl_speaking_010",
@@ -146,7 +164,9 @@
         "Any meaningful personal goal"
       ],
       "answer": -1,
-      "explanation": "Personal goal-setting task. Evaluate clarity of goal, appropriateness of strategies, and articulate explanation of connection between actions and outcomes."
+      "explanation": "Personal goal-setting task. Evaluate clarity of goal, appropriateness of strategies, and articulate explanation of connection between actions and outcomes.",
+      "ja_question": "[Japanese translation needed: Discuss a personal goal you have set for yourself....]",
+      "ja_explanation": "[Japanese translation needed: Personal goal-setting task. Evaluate clarity of go...]"
     },
     {
       "id": "en_toefl_speaking_011",
@@ -161,7 +181,9 @@
         "Professor has no solutions"
       ],
       "answer": 0,
-      "explanation": "Problem-solution conversation task. Assess comprehension, summary accuracy, and ability to relay specific suggestions clearly."
+      "explanation": "Problem-solution conversation task. Assess comprehension, summary accuracy, and ability to relay specific suggestions clearly.",
+      "ja_question": "[Japanese translation needed: What problem is the student experiencing, and what...]",
+      "ja_explanation": "[Japanese translation needed: Problem-solution conversation task. Assess compreh...]"
     },
     {
       "id": "en_toefl_speaking_012",
@@ -175,7 +197,9 @@
         "Claim success requires neither"
       ],
       "answer": 0,
-      "explanation": "Balanced perspective task. Evaluate ability to present multiple viewpoints fairly and explain reasoning for each approach."
+      "explanation": "Balanced perspective task. Evaluate ability to present multiple viewpoints fairly and explain reasoning for each approach.",
+      "ja_question": "[Japanese translation needed: Some people believe that formal education is the m...]",
+      "ja_explanation": "[Japanese translation needed: Balanced perspective task. Evaluate ability to pre...]"
     },
     {
       "id": "en_toefl_speaking_013",
@@ -190,7 +214,9 @@
         "No challenges exist for renewable implementation"
       ],
       "answer": 0,
-      "explanation": "Lecture summary with analysis task. Assess accuracy of information capture, balanced discussion of advantages and limitations, and clarity."
+      "explanation": "Lecture summary with analysis task. Assess accuracy of information capture, balanced discussion of advantages and limitations, and clarity.",
+      "ja_question": "[Japanese translation needed: Summarize the main points of the lecture on renewa...]",
+      "ja_explanation": "[Japanese translation needed: Lecture summary with analysis task. Assess accurac...]"
     },
     {
       "id": "en_toefl_speaking_014",
@@ -205,7 +231,9 @@
         "The policy details are not mentioned"
       ],
       "answer": 0,
-      "explanation": "Announcement comprehension and reaction reporting task. Evaluate accurate summary of new information and clear presentation of multiple perspectives."
+      "explanation": "Announcement comprehension and reaction reporting task. Evaluate accurate summary of new information and clear presentation of multiple perspectives.",
+      "ja_question": "[Japanese translation needed: The vice president of student affairs announces a ...]",
+      "ja_explanation": "[Japanese translation needed: Announcement comprehension and reaction reporting ...]"
     },
     {
       "id": "en_toefl_speaking_015",
@@ -219,7 +247,9 @@
         "Any meaningful personal challenge"
       ],
       "answer": -1,
-      "explanation": "Challenge-and-solution narrative. Assess storytelling coherence, problem-solving approach, and reflection on lessons learned."
+      "explanation": "Challenge-and-solution narrative. Assess storytelling coherence, problem-solving approach, and reflection on lessons learned.",
+      "ja_question": "[Japanese translation needed: Describe a challenge you have faced and explain ho...]",
+      "ja_explanation": "[Japanese translation needed: Challenge-and-solution narrative. Assess storytell...]"
     },
     {
       "id": "en_toefl_speaking_016",
@@ -234,7 +264,9 @@
         "No lecture context is provided"
       ],
       "answer": 0,
-      "explanation": "Enhancement-of-understanding task. Evaluate ability to identify complementary information and explain how it deepens comprehension."
+      "explanation": "Enhancement-of-understanding task. Evaluate ability to identify complementary information and explain how it deepens comprehension.",
+      "ja_question": "[Japanese translation needed: The reading describes a community initiative, and ...]",
+      "ja_explanation": "[Japanese translation needed: Enhancement-of-understanding task. Evaluate abilit...]"
     },
     {
       "id": "en_toefl_speaking_017",
@@ -248,7 +280,9 @@
         "No preference between locations"
       ],
       "answer": -1,
-      "explanation": "Environment preference task. Evaluate clarity of preference, specific supporting examples, and acknowledgment of trade-offs."
+      "explanation": "Environment preference task. Evaluate clarity of preference, specific supporting examples, and acknowledgment of trade-offs.",
+      "ja_question": "[Japanese translation needed: Do you prefer city living or living in a rural are...]",
+      "ja_explanation": "[Japanese translation needed: Environment preference task. Evaluate clarity of p...]"
     },
     {
       "id": "en_toefl_speaking_018",
@@ -263,7 +297,9 @@
         "No comparison is requested"
       ],
       "answer": 0,
-      "explanation": "Theory comparison and application task. Assess understanding of distinct approaches and ability to discuss practical implications."
+      "explanation": "Theory comparison and application task. Assess understanding of distinct approaches and ability to discuss practical implications.",
+      "ja_question": "[Japanese translation needed: The professor discusses two theories explaining be...]",
+      "ja_explanation": "[Japanese translation needed: Theory comparison and application task. Assess und...]"
     },
     {
       "id": "en_toefl_speaking_019",
@@ -278,7 +314,9 @@
         "The conversation details are unclear"
       ],
       "answer": 0,
-      "explanation": "Service interaction comprehension. Evaluate identification of student's purpose and accurate relay of service representative's information."
+      "explanation": "Service interaction comprehension. Evaluate identification of student's purpose and accurate relay of service representative's information.",
+      "ja_question": "[Japanese translation needed: The student calls the financial aid office. Why is...]",
+      "ja_explanation": "[Japanese translation needed: Service interaction comprehension. Evaluate identi...]"
     },
     {
       "id": "en_toefl_speaking_020",
@@ -292,7 +330,9 @@
         "All major decisions are equally important"
       ],
       "answer": -1,
-      "explanation": "Decision-making framework task. Evaluate comprehensiveness of considerations offered and relevance of examples provided."
+      "explanation": "Decision-making framework task. Evaluate comprehensiveness of considerations offered and relevance of examples provided.",
+      "ja_question": "[Japanese translation needed: What should people consider before making a major ...]",
+      "ja_explanation": "[Japanese translation needed: Decision-making framework task. Evaluate comprehen...]"
     },
     {
       "id": "en_toefl_speaking_021",
@@ -307,7 +347,9 @@
         "Individual effort alone determines regional prosperity"
       ],
       "answer": 0,
-      "explanation": "Multifactorial analysis task. Assess ability to synthesize information about complex causes and present them coherently."
+      "explanation": "Multifactorial analysis task. Assess ability to synthesize information about complex causes and present them coherently.",
+      "ja_question": "[Japanese translation needed: According to the reading and lecture, what factors...]",
+      "ja_explanation": "[Japanese translation needed: Multifactorial analysis task. Assess ability to sy...]"
     },
     {
       "id": "en_toefl_speaking_022",
@@ -322,7 +364,9 @@
         "The discussion topic is completely different"
       ],
       "answer": 0,
-      "explanation": "Academic support interaction task. Evaluate comprehension of student's question and professor's guidance."
+      "explanation": "Academic support interaction task. Evaluate comprehension of student's question and professor's guidance.",
+      "ja_question": "[Japanese translation needed: The student approaches a professor during office h...]",
+      "ja_explanation": "[Japanese translation needed: Academic support interaction task. Evaluate compre...]"
     },
     {
       "id": "en_toefl_speaking_023",
@@ -336,7 +380,9 @@
         "Significance is irrelevant"
       ],
       "answer": -1,
-      "explanation": "Biographical significance task. Assess clarity of description, explanation of significance, and supporting examples."
+      "explanation": "Biographical significance task. Assess clarity of description, explanation of significance, and supporting examples.",
+      "ja_question": "[Japanese translation needed: Describe an important historical or contemporary f...]",
+      "ja_explanation": "[Japanese translation needed: Biographical significance task. Assess clarity of ...]"
     },
     {
       "id": "en_toefl_speaking_024",
@@ -351,7 +397,9 @@
         "The process is not significant"
       ],
       "answer": 0,
-      "explanation": "Historical process analysis task. Assess sequential understanding and ability to explain interconnections between stages."
+      "explanation": "Historical process analysis task. Assess sequential understanding and ability to explain interconnections between stages.",
+      "ja_question": "[Japanese translation needed: The lecture outlines a historical process with mul...]",
+      "ja_explanation": "[Japanese translation needed: Historical process analysis task. Assess sequentia...]"
     },
     {
       "id": "en_toefl_speaking_025",
@@ -365,7 +413,9 @@
         "All leaders share identical traits"
       ],
       "answer": -1,
-      "explanation": "Leadership qualities task. Evaluate thoughtfulness of qualities identified and relevance of personal examples."
+      "explanation": "Leadership qualities task. Evaluate thoughtfulness of qualities identified and relevance of personal examples.",
+      "ja_question": "[Japanese translation needed: What qualities make an effective leader? Provide e...]",
+      "ja_explanation": "[Japanese translation needed: Leadership qualities task. Evaluate thoughtfulness...]"
     },
     {
       "id": "en_toefl_speaking_026",
@@ -380,7 +430,9 @@
         "Sustainability is irrelevant to campuses"
       ],
       "answer": 0,
-      "explanation": "Institutional information comprehension. Assess identification of programs and communication expectations."
+      "explanation": "Institutional information comprehension. Assess identification of programs and communication expectations.",
+      "ja_question": "[Japanese translation needed: The campus sustainability office presents informat...]",
+      "ja_explanation": "[Japanese translation needed: Institutional information comprehension. Assess id...]"
     },
     {
       "id": "en_toefl_speaking_027",
@@ -394,7 +446,9 @@
         "Only negative effects exist"
       ],
       "answer": -1,
-      "explanation": "Technology impact analysis task. Assess balanced discussion of effects and supporting reasoning."
+      "explanation": "Technology impact analysis task. Assess balanced discussion of effects and supporting reasoning.",
+      "ja_question": "[Japanese translation needed: How does modern technology impact human relationsh...]",
+      "ja_explanation": "[Japanese translation needed: Technology impact analysis task. Assess balanced d...]"
     },
     {
       "id": "en_toefl_speaking_028",
@@ -409,7 +463,9 @@
         "Challenges don't exist for any solutions"
       ],
       "answer": 0,
-      "explanation": "Solutions and barriers analysis task. Assess understanding of approaches and realistic assessment of implementation difficulties."
+      "explanation": "Solutions and barriers analysis task. Assess understanding of approaches and realistic assessment of implementation difficulties.",
+      "ja_question": "[Japanese translation needed: Based on the reading and lecture, what are the pri...]",
+      "ja_explanation": "[Japanese translation needed: Solutions and barriers analysis task. Assess under...]"
     },
     {
       "id": "en_toefl_speaking_029",
@@ -424,7 +480,9 @@
         "No advice is given"
       ],
       "answer": 0,
-      "explanation": "Career guidance comprehension. Assess identification of student's decision context and communication of mentorship guidance."
+      "explanation": "Career guidance comprehension. Assess identification of student's decision context and communication of mentorship guidance.",
+      "ja_question": "[Japanese translation needed: A student discusses an internship opportunity with...]",
+      "ja_explanation": "[Japanese translation needed: Career guidance comprehension. Assess identificati...]"
     },
     {
       "id": "en_toefl_speaking_030",
@@ -438,7 +496,9 @@
         "Any meaningful skill"
       ],
       "answer": -1,
-      "explanation": "Skill development narrative. Assess clarity of skill description and relevance of examples showing how it has been applied."
+      "explanation": "Skill development narrative. Assess clarity of skill description and relevance of examples showing how it has been applied.",
+      "ja_question": "[Japanese translation needed: Describe a skill you have developed and explain ho...]",
+      "ja_explanation": "[Japanese translation needed: Skill development narrative. Assess clarity of ski...]"
     },
     {
       "id": "en_toefl_speaking_031",
@@ -453,7 +513,9 @@
         "No research is presented"
       ],
       "answer": 0,
-      "explanation": "Research summary task. Assess understanding of research structure and ability to communicate main points clearly."
+      "explanation": "Research summary task. Assess understanding of research structure and ability to communicate main points clearly.",
+      "ja_question": "[Japanese translation needed: The professor presents research on a social phenom...]",
+      "ja_explanation": "[Japanese translation needed: Research summary task. Assess understanding of res...]"
     },
     {
       "id": "en_toefl_speaking_032",
@@ -467,7 +529,9 @@
         "The approach is irrelevant"
       ],
       "answer": -1,
-      "explanation": "Decision-making approach task. Evaluate selfawareness, method description, and soundness of approach demonstrated."
+      "explanation": "Decision-making approach task. Evaluate selfawareness, method description, and soundness of approach demonstrated.",
+      "ja_question": "[Japanese translation needed: When you are faced with difficult decisions, how d...]",
+      "ja_explanation": "[Japanese translation needed: Decision-making approach task. Evaluate selfawaren...]"
     },
     {
       "id": "en_toefl_speaking_033",
@@ -482,7 +546,9 @@
         "Community input is not relevant"
       ],
       "answer": 0,
-      "explanation": "Policy and stakeholder perspective task. Assess integration of multiple viewpoints and balanced representation."
+      "explanation": "Policy and stakeholder perspective task. Assess integration of multiple viewpoints and balanced representation.",
+      "ja_question": "[Japanese translation needed: The reading discusses a policy proposal, and the l...]",
+      "ja_explanation": "[Japanese translation needed: Policy and stakeholder perspective task. Assess in...]"
     },
     {
       "id": "en_toefl_speaking_034",
@@ -497,7 +563,9 @@
         "The session topic is different"
       ],
       "answer": 0,
-      "explanation": "Tutoring interaction comprehension. Assess identification of problems and clear communication of suggested strategies."
+      "explanation": "Tutoring interaction comprehension. Assess identification of problems and clear communication of suggested strategies.",
+      "ja_question": "[Japanese translation needed: A student discusses changing study habits with a t...]",
+      "ja_explanation": "[Japanese translation needed: Tutoring interaction comprehension. Assess identif...]"
     },
     {
       "id": "en_toefl_speaking_035",
@@ -511,7 +579,9 @@
         "No examples are needed"
       ],
       "answer": -1,
-      "explanation": "Field-specific creativity task. Assess understanding of creative applications in chosen domain and quality of examples."
+      "explanation": "Field-specific creativity task. Assess understanding of creative applications in chosen domain and quality of examples.",
+      "ja_question": "[Japanese translation needed: What role does creativity play in your field of st...]",
+      "ja_explanation": "[Japanese translation needed: Field-specific creativity task. Assess understandi...]"
     },
     {
       "id": "en_toefl_speaking_036",
@@ -526,7 +596,9 @@
         "Causes are unimportant"
       ],
       "answer": 0,
-      "explanation": "Causal analysis and problem-solving task. Assess understanding of system complexity and practical solution feasibility."
+      "explanation": "Causal analysis and problem-solving task. Assess understanding of system complexity and practical solution feasibility.",
+      "ja_question": "[Japanese translation needed: Based on the lecture, what are the main causes of ...]",
+      "ja_explanation": "[Japanese translation needed: Causal analysis and problem-solving task. Assess u...]"
     },
     {
       "id": "en_toefl_speaking_037",
@@ -541,7 +613,9 @@
         "Resources are not discussed"
       ],
       "answer": 0,
-      "explanation": "Health services interaction comprehension. Assess identification of student's need and communication of available support."
+      "explanation": "Health services interaction comprehension. Assess identification of student's need and communication of available support.",
+      "ja_question": "[Japanese translation needed: The student visits the student health center with ...]",
+      "ja_explanation": "[Japanese translation needed: Health services interaction comprehension. Assess ...]"
     },
     {
       "id": "en_toefl_speaking_038",
@@ -555,7 +629,9 @@
         "Examples are unnecessary"
       ],
       "answer": -1,
-      "explanation": "Education-development relationship task. Assess thoughtfulness of connections made and quality of supporting examples."
+      "explanation": "Education-development relationship task. Assess thoughtfulness of connections made and quality of supporting examples.",
+      "ja_question": "[Japanese translation needed: What is the relationship between education and per...]",
+      "ja_explanation": "[Japanese translation needed: Education-development relationship task. Assess th...]"
     },
     {
       "id": "en_toefl_speaking_039",
@@ -570,7 +646,9 @@
         "Only positive effects matter"
       ],
       "answer": 0,
-      "explanation": "Technology impact analysis task. Assess technical comprehension and nuanced discussion of consequences."
+      "explanation": "Technology impact analysis task. Assess technical comprehension and nuanced discussion of consequences.",
+      "ja_question": "[Japanese translation needed: The lecture presents a technological innovation an...]",
+      "ja_explanation": "[Japanese translation needed: Technology impact analysis task. Assess technical ...]"
     },
     {
       "id": "en_toefl_speaking_040",
@@ -585,7 +663,9 @@
         "The meeting is about coursework"
       ],
       "answer": 0,
-      "explanation": "Academic research consultation comprehension. Assess accurate portrayal of research direction and constructive feedback."
+      "explanation": "Academic research consultation comprehension. Assess accurate portrayal of research direction and constructive feedback.",
+      "ja_question": "[Japanese translation needed: The student meets with a professor to discuss a re...]",
+      "ja_explanation": "[Japanese translation needed: Academic research consultation comprehension. Asse...]"
     },
     {
       "id": "en_toefl_speaking_041",
@@ -599,7 +679,9 @@
         "Significance explanations are unnecessary"
       ],
       "answer": -1,
-      "explanation": "Place significance narrative. Assess descriptive clarity and emotional connection to location."
+      "explanation": "Place significance narrative. Assess descriptive clarity and emotional connection to location.",
+      "ja_question": "[Japanese translation needed: Describe a place that is important to you and expl...]",
+      "ja_explanation": "[Japanese translation needed: Place significance narrative. Assess descriptive c...]"
     },
     {
       "id": "en_toefl_speaking_042",
@@ -614,7 +696,9 @@
         "All languages are selected equally"
       ],
       "answer": 0,
-      "explanation": "Sociolinguistic factors synthesis task. Assess understanding of complex social influences on language use."
+      "explanation": "Sociolinguistic factors synthesis task. Assess understanding of complex social influences on language use.",
+      "ja_question": "[Japanese translation needed: According to the reading and lecture, what factors...]",
+      "ja_explanation": "[Japanese translation needed: Sociolinguistic factors synthesis task. Assess und...]"
     },
     {
       "id": "en_toefl_speaking_043",
@@ -629,7 +713,9 @@
         "The conversation is about different topics"
       ],
       "answer": 0,
-      "explanation": "Wellness consultation comprehension. Assess identification of concerns and clear communication of coping strategies."
+      "explanation": "Wellness consultation comprehension. Assess identification of concerns and clear communication of coping strategies.",
+      "ja_question": "[Japanese translation needed: The student seeks advice about managing stress and...]",
+      "ja_explanation": "[Japanese translation needed: Wellness consultation comprehension. Assess identi...]"
     },
     {
       "id": "en_toefl_speaking_044",
@@ -643,7 +729,9 @@
         "Evolution is unimportant"
       ],
       "answer": -1,
-      "explanation": "Personal growth narrative. Assess self-reflection, clear articulation of change, and understanding of influences."
+      "explanation": "Personal growth narrative. Assess self-reflection, clear articulation of change, and understanding of influences.",
+      "ja_question": "[Japanese translation needed: How have your interests and goals evolved over tim...]",
+      "ja_explanation": "[Japanese translation needed: Personal growth narrative. Assess self-reflection,...]"
     },
     {
       "id": "en_toefl_speaking_045",
@@ -658,7 +746,9 @@
         "No applications are discussed"
       ],
       "answer": 0,
-      "explanation": "Economic concept application task. Assess conceptual understanding and ability to identify cross-context relevance."
+      "explanation": "Economic concept application task. Assess conceptual understanding and ability to identify cross-context relevance.",
+      "ja_question": "[Japanese translation needed: The professor explains an economic concept with ex...]",
+      "ja_explanation": "[Japanese translation needed: Economic concept application task. Assess conceptu...]"
     },
     {
       "id": "en_toefl_speaking_046",
@@ -673,7 +763,9 @@
         "The meeting is unrelated to registration"
       ],
       "answer": 0,
-      "explanation": "Academic advising comprehension. Assess identification of student questions and communication of institutional guidance."
+      "explanation": "Academic advising comprehension. Assess identification of student questions and communication of institutional guidance.",
+      "ja_question": "[Japanese translation needed: A student meets with a financial advisor during re...]",
+      "ja_explanation": "[Japanese translation needed: Academic advising comprehension. Assess identifica...]"
     },
     {
       "id": "en_toefl_speaking_047",
@@ -687,7 +779,9 @@
         "No lessons are learned"
       ],
       "answer": -1,
-      "explanation": "Academic reflection task. Assess thoughtfulness of lesson identified and ability to articulate its significance."
+      "explanation": "Academic reflection task. Assess thoughtfulness of lesson identified and ability to articulate its significance.",
+      "ja_question": "[Japanese translation needed: Describe the most important lesson you have learne...]",
+      "ja_explanation": "[Japanese translation needed: Academic reflection task. Assess thoughtfulness of...]"
     },
     {
       "id": "en_toefl_speaking_048",
@@ -702,7 +796,9 @@
         "No significance is discussed"
       ],
       "answer": 0,
-      "explanation": "Literary context analysis task. Assess historical comprehension and ability to explain cultural importance."
+      "explanation": "Literary context analysis task. Assess historical comprehension and ability to explain cultural importance.",
+      "ja_question": "[Japanese translation needed: The lecture discusses a literary work and its cult...]",
+      "ja_explanation": "[Japanese translation needed: Literary context analysis task. Assess historical ...]"
     },
     {
       "id": "en_toefl_speaking_049",
@@ -717,7 +813,9 @@
         "The conversation is about different topics"
       ],
       "answer": 0,
-      "explanation": "Decision-making factor identification task. Assess understanding of how students evaluate major choices."
+      "explanation": "Decision-making factor identification task. Assess understanding of how students evaluate major choices.",
+      "ja_question": "[Japanese translation needed: The student discusses a potential major choice wit...]",
+      "ja_explanation": "[Japanese translation needed: Decision-making factor identification task. Assess...]"
     },
     {
       "id": "en_toefl_speaking_050",
@@ -731,7 +829,9 @@
         "Experience is irrelevant"
       ],
       "answer": -1,
-      "explanation": "Reflective advice task. Assess thoughtfulness of recommendations, grounding in experience, and ability to explain reasoning."
+      "explanation": "Reflective advice task. Assess thoughtfulness of recommendations, grounding in experience, and ability to explain reasoning.",
+      "ja_question": "[Japanese translation needed: What advice would you give to someone just beginni...]",
+      "ja_explanation": "[Japanese translation needed: Reflective advice task. Assess thoughtfulness of r...]"
     }
   ]
 }

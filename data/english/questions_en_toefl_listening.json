@@ -14,7 +14,9 @@
         "Photosynthesis requires equal amounts of light and water"
       ],
       "answer": 1,
-      "explanation": "Main idea questions ask students to identify the central concept of a lecture. The lecture presents variation in photosynthetic adaptations across plant types."
+      "explanation": "Main idea questions ask students to identify the central concept of a lecture. The lecture presents variation in photosynthetic adaptations across plant types.",
+      "ja_question": "[Japanese translation needed: What is the main idea of the lecture?...]",
+      "ja_explanation": "[Japanese translation needed: Main idea questions ask students to identify the c...]"
     },
     {
       "id": "en_toefl_listening_002",
@@ -27,7 +29,9 @@
         "They only photosynthesize at night"
       ],
       "answer": 1,
-      "explanation": "Detail questions ask for specific information. C4 plants concentrate CO2 through stomata more efficiently, allowing them to close stomata sooner and conserve water."
+      "explanation": "Detail questions ask for specific information. C4 plants concentrate CO2 through stomata more efficiently, allowing them to close stomata sooner and conserve water.",
+      "ja_question": "[Japanese translation needed: According to the professor, why do C4 plants have ...]",
+      "ja_explanation": "[Japanese translation needed: Detail questions ask for specific information. C4 ...]"
     },
     {
       "id": "en_toefl_listening_003",
@@ -40,7 +44,9 @@
         "The two types are equally distributed globally"
       ],
       "answer": 2,
-      "explanation": "Inferential questions require combining information from the lecture. Temperature and precipitation patterns determine where these plants evolved and naturally occur."
+      "explanation": "Inferential questions require combining information from the lecture. Temperature and precipitation patterns determine where these plants evolved and naturally occur.",
+      "ja_question": "[Japanese translation needed: What can be inferred about the distribution of C3 ...]",
+      "ja_explanation": "[Japanese translation needed: Inferential questions require combining informatio...]"
     },
     {
       "id": "en_toefl_listening_004",
@@ -53,7 +59,9 @@
         "The professor expresses no opinion on the subject"
       ],
       "answer": 1,
-      "explanation": "Speaker attitude questions assess tone. Academic lectures use phrases like 'remarkable adaptation' or 'remarkable innovation' to indicate positive evaluation."
+      "explanation": "Speaker attitude questions assess tone. Academic lectures use phrases like 'remarkable adaptation' or 'remarkable innovation' to indicate positive evaluation.",
+      "ja_question": "[Japanese translation needed: What is the professor's attitude toward C4 photosy...]",
+      "ja_explanation": "[Japanese translation needed: Speaker attitude questions assess tone. Academic l...]"
     },
     {
       "id": "en_toefl_listening_005",
@@ -66,7 +74,9 @@
         "The structure of plant cell walls"
       ],
       "answer": 1,
-      "explanation": "Prediction questions assess understanding of lecture flow. A logical continuation would apply the knowledge to contemporary challenges like climate adaptation."
+      "explanation": "Prediction questions assess understanding of lecture flow. A logical continuation would apply the knowledge to contemporary challenges like climate adaptation.",
+      "ja_question": "[Japanese translation needed: Which of the following would the professor most li...]",
+      "ja_explanation": "[Japanese translation needed: Prediction questions assess understanding of lectu...]"
     },
     {
       "id": "en_toefl_listening_006",
@@ -79,7 +89,9 @@
         "Advising the student to change majors"
       ],
       "answer": 1,
-      "explanation": "Conversation main ideas typically involve the purpose and focus of the dialogue between speakers."
+      "explanation": "Conversation main ideas typically involve the purpose and focus of the dialogue between speakers.",
+      "ja_question": "[Japanese translation needed: What is the main topic of the conversation?...]",
+      "ja_explanation": "[Japanese translation needed: Conversation main ideas typically involve the purp...]"
     },
     {
       "id": "en_toefl_listening_007",
@@ -92,7 +104,9 @@
         "The student believes all projects are equally difficult"
       ],
       "answer": 2,
-      "explanation": "This detail-and-inference question requires listening for the student's expressed concerns about matching interests and workload capacity."
+      "explanation": "This detail-and-inference question requires listening for the student's expressed concerns about matching interests and workload capacity.",
+      "ja_question": "[Japanese translation needed: Why does the student seem uncertain about project ...]",
+      "ja_explanation": "[Japanese translation needed: This detail-and-inference question requires listen...]"
     },
     {
       "id": "en_toefl_listening_008",
@@ -105,7 +119,9 @@
         "Make a quick decision to avoid overthinking the choice"
       ],
       "answer": 2,
-      "explanation": "Professor advice questions capture recommendations explicitly stated. The professor suggests informed decision-making through research and consultation."
+      "explanation": "Professor advice questions capture recommendations explicitly stated. The professor suggests informed decision-making through research and consultation.",
+      "ja_question": "[Japanese translation needed: What advice does the professor give?...]",
+      "ja_explanation": "[Japanese translation needed: Professor advice questions capture recommendations...]"
     },
     {
       "id": "en_toefl_listening_009",
@@ -118,7 +134,9 @@
         "They view research experience as unimportant"
       ],
       "answer": 1,
-      "explanation": "Implied meaning questions require inferring from context. The student's expressed interest in exploring different approaches suggests some prior experience."
+      "explanation": "Implied meaning questions require inferring from context. The student's expressed interest in exploring different approaches suggests some prior experience.",
+      "ja_question": "[Japanese translation needed: What does the student imply about their previous r...]",
+      "ja_explanation": "[Japanese translation needed: Implied meaning questions require inferring from c...]"
     },
     {
       "id": "en_toefl_listening_010",
@@ -131,7 +149,9 @@
         "To describe how to build artificial mitochondria"
       ],
       "answer": 1,
-      "explanation": "Main purpose requires identifying the lecture's core objective: understanding the consequences of mitochondrial problems."
+      "explanation": "Main purpose requires identifying the lecture's core objective: understanding the consequences of mitochondrial problems.",
+      "ja_question": "[Japanese translation needed: What is the main purpose of the lecture on mitocho...]",
+      "ja_explanation": "[Japanese translation needed: Main purpose requires identifying the lecture's co...]"
     },
     {
       "id": "en_toefl_listening_011",
@@ -144,7 +164,9 @@
         "Increased genetic mutation rates"
       ],
       "answer": 1,
-      "explanation": "Detail questions identify specific consequences explicitly explained in the lecture."
+      "explanation": "Detail questions identify specific consequences explicitly explained in the lecture.",
+      "ja_question": "[Japanese translation needed: According to the lecture, what are the consequence...]",
+      "ja_explanation": "[Japanese translation needed: Detail questions identify specific consequences ex...]"
     },
     {
       "id": "en_toefl_listening_012",
@@ -157,7 +179,9 @@
         "explain how to diagnose genetic diseases"
       ],
       "answer": 1,
-      "explanation": "Example purpose questions identify why a specific case is mentioned. Leigh syndrome exemplifies real-world consequences of mitochondrial problems."
+      "explanation": "Example purpose questions identify why a specific case is mentioned. Leigh syndrome exemplifies real-world consequences of mitochondrial problems.",
+      "ja_question": "[Japanese translation needed: The professor mentions Leigh syndrome primarily to...]",
+      "ja_explanation": "[Japanese translation needed: Example purpose questions identify why a specific ...]"
     },
     {
       "id": "en_toefl_listening_013",
@@ -170,7 +194,9 @@
         "They are becoming less common with modern medicine"
       ],
       "answer": 1,
-      "explanation": "Implied information questions require inference. The mention of underdiagnosis implies these diseases occur but aren't always recognized."
+      "explanation": "Implied information questions require inference. The mention of underdiagnosis implies these diseases occur but aren't always recognized.",
+      "ja_question": "[Japanese translation needed: What is implied about the prevalence of mitochondr...]",
+      "ja_explanation": "[Japanese translation needed: Implied information questions require inference. T...]"
     },
     {
       "id": "en_toefl_listening_014",
@@ -183,7 +209,9 @@
         "They are confused about fundamental genetics"
       ],
       "answer": 1,
-      "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked."
+      "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked.",
+      "ja_question": "[Japanese translation needed: What does the student's question reveal about thei...]",
+      "ja_explanation": "[Japanese translation needed: Student comprehension questions assess understandi...]"
     },
     {
       "id": "en_toefl_listening_015",
@@ -196,7 +224,9 @@
         "The discovery of DNA"
       ],
       "answer": 2,
-      "explanation": "Prediction questions extend the lecture's logical progression. Genetic inheritance of mitochondrial mutations is a natural continuation."
+      "explanation": "Prediction questions extend the lecture's logical progression. Genetic inheritance of mitochondrial mutations is a natural continuation.",
+      "ja_question": "[Japanese translation needed: Which of the following would the professor most li...]",
+      "ja_explanation": "[Japanese translation needed: Prediction questions extend the lecture's logical ...]"
     },
     {
       "id": "en_toefl_listening_016",
@@ -209,7 +239,9 @@
         "Discussing the history of the university library"
       ],
       "answer": 1,
-      "explanation": "Conversation main ideas reflect the purpose and focus of speaker interaction."
+      "explanation": "Conversation main ideas reflect the purpose and focus of speaker interaction.",
+      "ja_question": "[Japanese translation needed: What is the main idea of the conversation?...]",
+      "ja_explanation": "[Japanese translation needed: Conversation main ideas reflect the purpose and fo...]"
     },
     {
       "id": "en_toefl_listening_017",
@@ -222,7 +254,9 @@
         "They provide entertainment content"
       ],
       "answer": 1,
-      "explanation": "Detail questions identify specific information about tool capabilities and advantages."
+      "explanation": "Detail questions identify specific information about tool capabilities and advantages.",
+      "ja_question": "[Japanese translation needed: According to the librarian, what advantage do prop...]",
+      "ja_explanation": "[Japanese translation needed: Detail questions identify specific information abo...]"
     },
     {
       "id": "en_toefl_listening_018",
@@ -235,7 +269,9 @@
         "They have never written a paper"
       ],
       "answer": 1,
-      "explanation": "Inference questions assess understanding of context clues suggesting the student is beginning academic research."
+      "explanation": "Inference questions assess understanding of context clues suggesting the student is beginning academic research.",
+      "ja_question": "[Japanese translation needed: What can be inferred about the student's previous ...]",
+      "ja_explanation": "[Japanese translation needed: Inference questions assess understanding of contex...]"
     },
     {
       "id": "en_toefl_listening_019",
@@ -248,7 +284,9 @@
         "Because it is trendy to cite sources"
       ],
       "answer": 2,
-      "explanation": "Reason questions ask for explanation of motivations or justifications provided in the conversation."
+      "explanation": "Reason questions ask for explanation of motivations or justifications provided in the conversation.",
+      "ja_question": "[Japanese translation needed: Why does the librarian stress the importance of ci...]",
+      "ja_explanation": "[Japanese translation needed: Reason questions ask for explanation of motivation...]"
     },
     {
       "id": "en_toefl_listening_020",
@@ -261,7 +299,9 @@
         "Frustrated with student questions"
       ],
       "answer": 1,
-      "explanation": "Attitude questions assess speaker tone. Phrases like 'I'm happy to help' indicate enthusiasm and support."
+      "explanation": "Attitude questions assess speaker tone. Phrases like 'I'm happy to help' indicate enthusiasm and support.",
+      "ja_question": "[Japanese translation needed: What is the librarian's attitude toward helping st...]",
+      "ja_explanation": "[Japanese translation needed: Attitude questions assess speaker tone. Phrases li...]"
     },
     {
       "id": "en_toefl_listening_021",
@@ -274,7 +314,9 @@
         "Chemical crystallization from pure solutions"
       ],
       "answer": 2,
-      "explanation": "Factual detail questions ask for explicit information from the lecture content."
+      "explanation": "Factual detail questions ask for explicit information from the lecture content.",
+      "ja_question": "[Japanese translation needed: According to the geology lecture, what process is ...]",
+      "ja_explanation": "[Japanese translation needed: Factual detail questions ask for explicit informat...]"
     },
     {
       "id": "en_toefl_listening_022",
@@ -287,7 +329,9 @@
         "To explain how rocks are mined"
       ],
       "answer": 1,
-      "explanation": "Example purpose questions identify why specific illustrations are used in lectures."
+      "explanation": "Example purpose questions identify why specific illustrations are used in lectures.",
+      "ja_question": "[Japanese translation needed: Why does the professor mention the Grand Canyon in...]",
+      "ja_explanation": "[Japanese translation needed: Example purpose questions identify why specific il...]"
     },
     {
       "id": "en_toefl_listening_023",
@@ -300,7 +344,9 @@
         "Earth's age is unimportant to geology"
       ],
       "answer": 1,
-      "explanation": "Inference questions require combining information about layering, fossilization, and radiometric dating discussed in the lecture."
+      "explanation": "Inference questions require combining information about layering, fossilization, and radiometric dating discussed in the lecture.",
+      "ja_question": "[Japanese translation needed: What is implied about the age of Earth based on th...]",
+      "ja_explanation": "[Japanese translation needed: Inference questions require combining information ...]"
     },
     {
       "id": "en_toefl_listening_024",
@@ -313,7 +359,9 @@
         "A question criticizing the professor"
       ],
       "answer": 1,
-      "explanation": "This question type asks what student questions suggest about understanding or misunderstanding of concepts."
+      "explanation": "This question type asks what student questions suggest about understanding or misunderstanding of concepts.",
+      "ja_question": "[Japanese translation needed: What question does a student ask that reveals thei...]",
+      "ja_explanation": "[Japanese translation needed: This question type asks what student questions sug...]"
     },
     {
       "id": "en_toefl_listening_025",
@@ -326,7 +374,9 @@
         "the student's question was incorrect"
       ],
       "answer": 2,
-      "explanation": "Response analysis questions assess what the professor's answer reveals about the topic."
+      "explanation": "Response analysis questions assess what the professor's answer reveals about the topic.",
+      "ja_question": "[Japanese translation needed: The professor's response to the student's question...]",
+      "ja_explanation": "[Japanese translation needed: Response analysis questions assess what the profes...]"
     },
     {
       "id": "en_toefl_listening_026",
@@ -339,7 +389,9 @@
         "To blame specific nations for climate change"
       ],
       "answer": 1,
-      "explanation": "Main purpose questions identify the core educational objective of the lecture segment."
+      "explanation": "Main purpose questions identify the core educational objective of the lecture segment.",
+      "ja_question": "[Japanese translation needed: What is the main purpose of the discussion about c...]",
+      "ja_explanation": "[Japanese translation needed: Main purpose questions identify the core education...]"
     },
     {
       "id": "en_toefl_listening_027",
@@ -352,7 +404,9 @@
         "Pollution from fishing vessels"
       ],
       "answer": 2,
-      "explanation": "Causal mechanism questions ask for explicitly stated reasons for biological phenomena."
+      "explanation": "Causal mechanism questions ask for explicitly stated reasons for biological phenomena.",
+      "ja_question": "[Japanese translation needed: According to the professor, what causes coral blea...]",
+      "ja_explanation": "[Japanese translation needed: Causal mechanism questions ask for explicitly stat...]"
     },
     {
       "id": "en_toefl_listening_028",
@@ -365,7 +419,9 @@
         "Recovery potential is unrelated to environmental conditions"
       ],
       "answer": 1,
-      "explanation": "Inference questions connect explicit information about recovery conditions to implications about recovery potential."
+      "explanation": "Inference questions connect explicit information about recovery conditions to implications about recovery potential.",
+      "ja_question": "[Japanese translation needed: What can be inferred about the recovery potential ...]",
+      "ja_explanation": "[Japanese translation needed: Inference questions connect explicit information a...]"
     },
     {
       "id": "en_toefl_listening_029",
@@ -378,7 +434,9 @@
         "The chemistry of seawater"
       ],
       "answer": 1,
-      "explanation": "Prediction questions extend the logical flow from one ecosystem discussion to related systems affected by climate change."
+      "explanation": "Prediction questions extend the logical flow from one ecosystem discussion to related systems affected by climate change.",
+      "ja_question": "[Japanese translation needed: Which of the following would the professor most li...]",
+      "ja_explanation": "[Japanese translation needed: Prediction questions extend the logical flow from ...]"
     },
     {
       "id": "en_toefl_listening_030",
@@ -391,7 +449,9 @@
         "Analysis of historical economic data unrelated to policy"
       ],
       "answer": 1,
-      "explanation": "Discussion main ideas focus on the central question or topic being analyzed by the group."
+      "explanation": "Discussion main ideas focus on the central question or topic being analyzed by the group.",
+      "ja_question": "[Japanese translation needed: What is the main topic of the academic discussion ...]",
+      "ja_explanation": "[Japanese translation needed: Discussion main ideas focus on the central questio...]"
     },
     {
       "id": "en_toefl_listening_031",
@@ -404,7 +464,9 @@
         "Increased international trade"
       ],
       "answer": 1,
-      "explanation": "Detail questions identify specific predictions or concerns raised by discussion participants."
+      "explanation": "Detail questions identify specific predictions or concerns raised by discussion participants.",
+      "ja_question": "[Japanese translation needed: According to one student's contribution, what unin...]",
+      "ja_explanation": "[Japanese translation needed: Detail questions identify specific predictions or ...]"
     },
     {
       "id": "en_toefl_listening_032",
@@ -417,7 +479,9 @@
         "To share personal anecdotes"
       ],
       "answer": 1,
-      "explanation": "Role questions identify the function a participant serves in the interaction."
+      "explanation": "Role questions identify the function a participant serves in the interaction.",
+      "ja_question": "[Japanese translation needed: What is the teaching assistant's role in the discu...]",
+      "ja_explanation": "[Japanese translation needed: Role questions identify the function a participant...]"
     },
     {
       "id": "en_toefl_listening_033",
@@ -430,7 +494,9 @@
         "Economic perspective is irrelevant to policy analysis"
       ],
       "answer": 1,
-      "explanation": "Inference questions note how different viewpoints in discussion reflect different underlying perspectives or values."
+      "explanation": "Inference questions note how different viewpoints in discussion reflect different underlying perspectives or values.",
+      "ja_question": "[Japanese translation needed: What can be inferred about different students' eco...]",
+      "ja_explanation": "[Japanese translation needed: Inference questions note how different viewpoints ...]"
     },
     {
       "id": "en_toefl_listening_034",
@@ -443,7 +509,9 @@
         "By changing the subject"
       ],
       "answer": 1,
-      "explanation": "Facilitation style questions assess how discussion leaders handle disagreement and diverse viewpoints."
+      "explanation": "Facilitation style questions assess how discussion leaders handle disagreement and diverse viewpoints.",
+      "ja_question": "[Japanese translation needed: How does the teaching assistant respond when stude...]",
+      "ja_explanation": "[Japanese translation needed: Facilitation style questions assess how discussion...]"
     },
     {
       "id": "en_toefl_listening_035",
@@ -456,7 +524,9 @@
         "Personal anecdotes are more reliable than analysis"
       ],
       "answer": 1,
-      "explanation": "Learning objective questions identify what the instructor aims to teach through the discussion."
+      "explanation": "Learning objective questions identify what the instructor aims to teach through the discussion.",
+      "ja_question": "[Japanese translation needed: What would the teaching assistant likely want stud...]",
+      "ja_explanation": "[Japanese translation needed: Learning objective questions identify what the ins...]"
     },
     {
       "id": "en_toefl_listening_036",
@@ -469,7 +539,9 @@
         "Technological stagnation exclusively"
       ],
       "answer": 1,
-      "explanation": "Complex causation questions require students to recognize that major historical events result from multiple interconnected factors."
+      "explanation": "Complex causation questions require students to recognize that major historical events result from multiple interconnected factors.",
+      "ja_question": "[Japanese translation needed: According to the lecture on Roman history, what co...]",
+      "ja_explanation": "[Japanese translation needed: Complex causation questions require students to re...]"
     },
     {
       "id": "en_toefl_listening_037",
@@ -482,7 +554,9 @@
         "To fill time in the lecture"
       ],
       "answer": 1,
-      "explanation": "Example purpose questions identify why specific historical details are included as illustrations of broader concepts."
+      "explanation": "Example purpose questions identify why specific historical details are included as illustrations of broader concepts.",
+      "ja_question": "[Japanese translation needed: Why does the professor mention the reign of specif...]",
+      "ja_explanation": "[Japanese translation needed: Example purpose questions identify why specific hi...]"
     },
     {
       "id": "en_toefl_listening_038",
@@ -495,7 +569,9 @@
         "Inflation benefited the empire"
       ],
       "answer": 1,
-      "explanation": "Inference questions combine information about monetary policy and economic indicators to assess the state of the economy."
+      "explanation": "Inference questions combine information about monetary policy and economic indicators to assess the state of the economy.",
+      "ja_question": "[Japanese translation needed: What is implied about the economic conditions in t...]",
+      "ja_explanation": "[Japanese translation needed: Inference questions combine information about mone...]"
     },
     {
       "id": "en_toefl_listening_039",
@@ -508,7 +584,9 @@
         "The student is challenging the professor"
       ],
       "answer": 1,
-      "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked about relationships between concepts."
+      "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked about relationships between concepts.",
+      "ja_question": "[Japanese translation needed: What does a student's question reveal about their ...]",
+      "ja_explanation": "[Japanese translation needed: Student comprehension questions assess understandi...]"
     },
     {
       "id": "en_toefl_listening_040",
@@ -521,7 +599,9 @@
         "Ancient Chinese dynasties"
       ],
       "answer": 1,
-      "explanation": "Prediction questions anticipate logical progression from one historical period to a related one."
+      "explanation": "Prediction questions anticipate logical progression from one historical period to a related one.",
+      "ja_question": "[Japanese translation needed: Which topic would the professor most likely discus...]",
+      "ja_explanation": "[Japanese translation needed: Prediction questions anticipate logical progressio...]"
     },
     {
       "id": "en_toefl_listening_041",
@@ -534,7 +614,9 @@
         "Aquatic ecosystems don't require protection"
       ],
       "answer": 1,
-      "explanation": "Main idea questions identify the central concept organizing the lecture."
+      "explanation": "Main idea questions identify the central concept organizing the lecture.",
+      "ja_question": "[Japanese translation needed: What is the main idea of the environmental science...]",
+      "ja_explanation": "[Japanese translation needed: Main idea questions identify the central concept o...]"
     },
     {
       "id": "en_toefl_listening_042",
@@ -547,7 +629,9 @@
         "Changes in water pH"
       ],
       "answer": 1,
-      "explanation": "Causal sequence questions track the chain of events explained in the lecture."
+      "explanation": "Causal sequence questions track the chain of events explained in the lecture.",
+      "ja_question": "[Japanese translation needed: According to the professor, what triggers the casc...]",
+      "ja_explanation": "[Japanese translation needed: Causal sequence questions track the chain of event...]"
     },
     {
       "id": "en_toefl_listening_043",
@@ -560,7 +644,9 @@
         "Humans have no responsibility for environmental protection"
       ],
       "answer": 1,
-      "explanation": "Inference questions connect information about nutrient sources to human responsibility and impact."
+      "explanation": "Inference questions connect information about nutrient sources to human responsibility and impact.",
+      "ja_question": "[Japanese translation needed: What is implied about human activities and aquatic...]",
+      "ja_explanation": "[Japanese translation needed: Inference questions connect information about nutr...]"
     },
     {
       "id": "en_toefl_listening_044",
@@ -573,7 +659,9 @@
         "Prevention is not worth attempting"
       ],
       "answer": 1,
-      "explanation": "Solution question asking for specific strategies or interventions discussed in the lecture."
+      "explanation": "Solution question asking for specific strategies or interventions discussed in the lecture.",
+      "ja_question": "[Japanese translation needed: What prevention strategies does the professor disc...]",
+      "ja_explanation": "[Japanese translation needed: Solution question asking for specific strategies o...]"
     },
     {
       "id": "en_toefl_listening_045",
@@ -586,7 +674,9 @@
         "Dismissive of all solutions"
       ],
       "answer": 1,
-      "explanation": "Tone questions assess the speaker's attitude, typically shown through word choice and emphasis."
+      "explanation": "Tone questions assess the speaker's attitude, typically shown through word choice and emphasis.",
+      "ja_question": "[Japanese translation needed: What is the professor's tone regarding environment...]",
+      "ja_explanation": "[Japanese translation needed: Tone questions assess the speaker's attitude, typi...]"
     },
     {
       "id": "en_toefl_listening_046",
@@ -599,7 +689,9 @@
         "Nature is invulnerable to human impact"
       ],
       "answer": 1,
-      "explanation": "Learning objective questions identify what students should take away from the lecture."
+      "explanation": "Learning objective questions identify what students should take away from the lecture.",
+      "ja_question": "[Japanese translation needed: Which of the following best represents what the pr...]",
+      "ja_explanation": "[Japanese translation needed: Learning objective questions identify what student...]"
     },
     {
       "id": "en_toefl_listening_047",
@@ -612,7 +704,9 @@
         "Comparing written and spoken language exclusively"
       ],
       "answer": 1,
-      "explanation": "Discussion main topics focus on the central research question or phenomenon under examination."
+      "explanation": "Discussion main topics focus on the central research question or phenomenon under examination.",
+      "ja_question": "[Japanese translation needed: What is the main topic of the discussion about chi...]",
+      "ja_explanation": "[Japanese translation needed: Discussion main topics focus on the central resear...]"
     },
     {
       "id": "en_toefl_listening_048",
@@ -625,7 +719,9 @@
         "Languages are taught through formal instruction only"
       ],
       "answer": 1,
-      "explanation": "Evidence questions identify what specific research findings or observations support particular conclusions."
+      "explanation": "Evidence questions identify what specific research findings or observations support particular conclusions.",
+      "ja_question": "[Japanese translation needed: What evidence do discussants cite for the role of ...]",
+      "ja_explanation": "[Japanese translation needed: Evidence questions identify what specific research...]"
     },
     {
       "id": "en_toefl_listening_049",
@@ -638,7 +734,9 @@
         "They provide no discussion of variation"
       ],
       "answer": 1,
-      "explanation": "Nuance questions assess understanding of how discussants balance universal principles with individual variation."
+      "explanation": "Nuance questions assess understanding of how discussants balance universal principles with individual variation.",
+      "ja_question": "[Japanese translation needed: How do the discussants address the question of ind...]",
+      "ja_explanation": "[Japanese translation needed: Nuance questions assess understanding of how discu...]"
     },
     {
       "id": "en_toefl_listening_050",
@@ -651,7 +749,9 @@
         "The question is irrelevant to language learning"
       ],
       "answer": 2,
-      "explanation": "Synthesis questions require integrating multiple perspectives discussed to reach a comprehensive understanding."
+      "explanation": "Synthesis questions require integrating multiple perspectives discussed to reach a comprehensive understanding.",
+      "ja_question": "[Japanese translation needed: What does the discussion reveal about the relation...]",
+      "ja_explanation": "[Japanese translation needed: Synthesis questions require integrating multiple p...]"
     }
   ]
 }

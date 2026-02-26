@@ -13,7 +13,9 @@
         "Hi there, quick question..."
       ],
       "answer": 1,
-      "explanation": "ビジネス初回接触では、形式的な敬語表現が必須。'Dear Sir or Madam'は標準的なビジネス英語の開き方。"
+      "explanation": "ビジネス初回接触では、形式的な敬語表現が必須。'Dear Sir or Madam'は標準的なビジネス英語の開き方。",
+      "ja_question": "[Japanese translation needed: Which email opening is most appropriate for a firs...]",
+      "ja_explanation": "[Japanese translation needed: ビジネス初回接触では、形式的な敬語表現が必須。'Dear Sir or Madam'は標準的なビジネ...]"
     },
     {
       "id": "en_business_mail_002",
@@ -25,7 +27,9 @@
         "Cheers, mate!"
       ],
       "answer": 1,
-      "explanation": "'Yours sincerely'はフォーマルなビジネスメールの標準的な結びで、専門性を示す。"
+      "explanation": "'Yours sincerely'はフォーマルなビジネスメールの標準的な結びで、専門性を示す。",
+      "ja_question": "[Japanese translation needed: How should you end a formal business email?...]",
+      "ja_explanation": "[Japanese translation needed: 'Yours sincerely'はフォーマルなビジネスメールの標準的な結びで、専門性を示す。...]"
     },
     {
       "id": "en_business_mail_003",
@@ -37,7 +41,9 @@
         "To avoid responsibility for mistakes"
       ],
       "answer": 1,
-      "explanation": "能動態はより直接的で明確。'We completed the project'（能動態）は'The project was completed'（受動態）より責任と行動が明確。"
+      "explanation": "能動態はより直接的で明確。'We completed the project'（能動態）は'The project was completed'（受動態）より責任と行動が明確。",
+      "ja_question": "[Japanese translation needed: What is the purpose of using active voice in busin...]",
+      "ja_explanation": "[Japanese translation needed: 能動態はより直接的で明確。'We completed the project'（能動態）は'The ...]"
     },
     {
       "id": "en_business_mail_004",
@@ -49,7 +55,9 @@
         "Stuff"
       ],
       "answer": 2,
-      "explanation": "効果的な件名は、内容を明確かつ簡潔に示す。'Request for Information Regarding Q3 Sales Report'は読み手が優先順位をつけやすい。"
+      "explanation": "効果的な件名は、内容を明確かつ簡潔に示す。'Request for Information Regarding Q3 Sales Report'は読み手が優先順位をつけやすい。",
+      "ja_question": "[Japanese translation needed: Which subject line is most effective for a busines...]",
+      "ja_explanation": "[Japanese translation needed: 効果的な件名は、内容を明確かつ簡潔に示す。'Request for Information Rega...]"
     },
     {
       "id": "en_business_mail_005",
@@ -61,7 +69,9 @@
         "You'll have to find someone else."
       ],
       "answer": 1,
-      "explanation": "ビジネスでは丁寧に理由を説明し、代替案を提示する。関係維持が重要。"
+      "explanation": "ビジネスでは丁寧に理由を説明し、代替案を提示する。関係維持が重要。",
+      "ja_question": "[Japanese translation needed: How would you politely decline a meeting request i...]",
+      "ja_explanation": "[Japanese translation needed: ビジネスでは丁寧に理由を説明し、代替案を提示する。関係維持が重要。...]"
     },
     {
       "id": "en_business_mail_006",
@@ -73,7 +83,9 @@
         "Overly technical"
       ],
       "answer": 1,
-      "explanation": "職務経歴書はフォーマルかつプロフェッショナルなレジスターが必須。正式なビジネス文書。"
+      "explanation": "職務経歴書はフォーマルかつプロフェッショナルなレジスターが必須。正式なビジネス文書。",
+      "ja_question": "[Japanese translation needed: What register should be used in a cover letter for...]",
+      "ja_explanation": "[Japanese translation needed: 職務経歴書はフォーマルかつプロフェッショナルなレジスターが必須。正式なビジネス文書。...]"
     },
     {
       "id": "en_business_mail_007",
@@ -85,7 +97,9 @@
         "This is the worst service ever!"
       ],
       "answer": 1,
-      "explanation": "クレームメールでも感情的にならず、正式かつ事実ベースの言語が重要。"
+      "explanation": "クレームメールでも感情的にならず、正式かつ事実ベースの言語が重要。",
+      "ja_question": "[Japanese translation needed: Which phrase is appropriate in a complaint email?...]",
+      "ja_explanation": "[Japanese translation needed: クレームメールでも感情的にならず、正式かつ事実ベースの言語が重要。...]"
     },
     {
       "id": "en_business_mail_008",
@@ -97,7 +111,9 @@
         "Just hi there"
       ],
       "answer": 2,
-      "explanation": "'Dear Sir or Madam'または'To Whom It May Concern'は名前不明時の標準的で丁寧な開き方。"
+      "explanation": "'Dear Sir or Madam'または'To Whom It May Concern'は名前不明時の標準的で丁寧な開き方。",
+      "ja_question": "[Japanese translation needed: How should you address someone whose name you don'...]",
+      "ja_explanation": "[Japanese translation needed: 'Dear Sir or Madam'または'To Whom It May Concern'は名前不...]"
     },
     {
       "id": "en_business_mail_009",
@@ -109,7 +125,9 @@
         "Make it as long as possible"
       ],
       "answer": 1,
-      "explanation": "提案メールは論理的で明確な構造が必須。読み手が簡単に理解・判断できるように。"
+      "explanation": "提案メールは論理的で明確な構造が必須。読み手が簡単に理解・判断できるように。",
+      "ja_question": "[Japanese translation needed: What is the recommended structure for a business p...]",
+      "ja_explanation": "[Japanese translation needed: 提案メールは論理的で明確な構造が必須。読み手が簡単に理解・判断できるように。...]"
     },
     {
       "id": "en_business_mail_010",
@@ -121,7 +139,9 @@
         "Bad news—we quit."
       ],
       "answer": 1,
-      "explanation": "悪い知らせは直接的ですが、敬意を持って、丁寧に伝える必要がある。"
+      "explanation": "悪い知らせは直接的ですが、敬意を持って、丁寧に伝える必要がある。",
+      "ja_question": "[Japanese translation needed: Which sentence best introduces a bad news message?...]",
+      "ja_explanation": "[Japanese translation needed: 悪い知らせは直接的ですが、敬意を持って、丁寧に伝える必要がある。...]"
     },
     {
       "id": "en_business_mail_011",
@@ -133,7 +153,9 @@
         "To fill space"
       ],
       "answer": 2,
-      "explanation": "箇条書きは重要な情報を強調し、読みやすさを向上させる。ビジネス文書の標準形式。"
+      "explanation": "箇条書きは重要な情報を強調し、読みやすさを向上させる。ビジネス文書の標準形式。",
+      "ja_question": "[Japanese translation needed: What is the purpose of using bullet points in busi...]",
+      "ja_explanation": "[Japanese translation needed: 箇条書きは重要な情報を強調し、読みやすさを向上させる。ビジネス文書の標準形式。...]"
     },
     {
       "id": "en_business_mail_012",
@@ -145,7 +167,9 @@
         "Use autocorrect without checking"
       ],
       "answer": 1,
-      "explanation": "フォーマルなビジネス文書は送信前に校正が必須。エラーはプロフェッショナルイメージを損なう。"
+      "explanation": "フォーマルなビジネス文書は送信前に校正が必須。エラーはプロフェッショナルイメージを損なう。",
+      "ja_question": "[Japanese translation needed: How should you handle grammatical errors in formal...]",
+      "ja_explanation": "[Japanese translation needed: フォーマルなビジネス文書は送信前に校正が必須。エラーはプロフェッショナルイメージを損なう。...]"
     },
     {
       "id": "en_business_mail_013",
@@ -157,7 +181,9 @@
         "K."
       ],
       "answer": 1,
-      "explanation": "受け取り確認は形式的に。特に重要な文書では'acknowledge receipt'が適切。"
+      "explanation": "受け取り確認は形式的に。特に重要な文書では'acknowledge receipt'が適切。",
+      "ja_question": "[Japanese translation needed: Which expression is suitable for acknowledging rec...]",
+      "ja_explanation": "[Japanese translation needed: 受け取り確認は形式的に。特に重要な文書では'acknowledge receipt'が適切。...]"
     },
     {
       "id": "en_business_mail_014",
@@ -169,7 +195,9 @@
         "A joke to break the ice"
       ],
       "answer": 1,
-      "explanation": "ミーティング確認メールは詳細情報を含む。日時、場所、議題、参加者が必須。"
+      "explanation": "ミーティング確認メールは詳細情報を含む。日時、場所、議題、参加者が必須。",
+      "ja_question": "[Japanese translation needed: What should a meeting confirmation email include?...]",
+      "ja_explanation": "[Japanese translation needed: ミーティング確認メールは詳細情報を含む。日時、場所、議題、参加者が必須。...]"
     },
     {
       "id": "en_business_mail_015",
@@ -181,7 +209,9 @@
         "Spread rumors"
       ],
       "answer": 2,
-      "explanation": "競合他社について言及する場合は、専門的で客観的に。誹謗中傷は避け、事実ベースで。"
+      "explanation": "競合他社について言及する場合は、専門的で客観的に。誹謗中傷は避け、事実ベースで。",
+      "ja_question": "[Japanese translation needed: How should you write about a competitor in a busin...]",
+      "ja_explanation": "[Japanese translation needed: 競合他社について言及する場合は、専門的で客観的に。誹謗中傷は避け、事実ベースで。...]"
     },
     {
       "id": "en_business_mail_016",
@@ -193,7 +223,9 @@
         "Call and yell at them"
       ],
       "answer": 1,
-      "explanation": "フォローアップメールは適度な期間（1-2週間）後に、丁寧に元のメールを参照して送信。"
+      "explanation": "フォローアップメールは適度な期間（1-2週間）後に、丁寧に元のメールを参照して送信。",
+      "ja_question": "[Japanese translation needed: What is the best way to follow up on an unanswered...]",
+      "ja_explanation": "[Japanese translation needed: フォローアップメールは適度な期間（1-2週間）後に、丁寧に元のメールを参照して送信。...]"
     },
     {
       "id": "en_business_mail_017",
@@ -205,7 +237,9 @@
         "Hurry up!"
       ],
       "answer": 1,
-      "explanation": "'prompt attention'は迅速な対応を丁寧に要求。感情的でなく、プロフェッショナル。"
+      "explanation": "'prompt attention'は迅速な対応を丁寧に要求。感情的でなく、プロフェッショナル。",
+      "ja_question": "[Japanese translation needed: Which phrase best requests urgent action in a prof...]",
+      "ja_explanation": "[Japanese translation needed: 'prompt attention'は迅速な対応を丁寧に要求。感情的でなく、プロフェッショナル。...]"
     },
     {
       "id": "en_business_mail_018",
@@ -217,7 +251,9 @@
         "Use sarcasm and criticism"
       ],
       "answer": 1,
-      "explanation": "フィードバックは具体的で建設的。批判と改善案のバランスが重要。"
+      "explanation": "フィードバックは具体的で建設的。批判と改善案のバランスが重要。",
+      "ja_question": "[Japanese translation needed: How should you provide feedback in a professional ...]",
+      "ja_explanation": "[Japanese translation needed: フィードバックは具体的で建設的。批判と改善案のバランスが重要。...]"
     },
     {
       "id": "en_business_mail_019",
@@ -229,7 +265,9 @@
         "Confidential Communication"
       ],
       "answer": 1,
-      "explanation": "'CC'は情報共有が必要な人に同じメールのコピーを送ること。透明性と情報流通の標準。"
+      "explanation": "'CC'は情報共有が必要な人に同じメールのコピーを送ること。透明性と情報流通の標準。",
+      "ja_question": "[Japanese translation needed: What does 'CC' mean in business email communicatio...]",
+      "ja_explanation": "[Japanese translation needed: 'CC'は情報共有が必要な人に同じメールのコピーを送ること。透明性と情報流通の標準。...]"
     },
     {
       "id": "en_business_mail_020",
@@ -241,7 +279,9 @@
         "I'm trying to use you for business."
       ],
       "answer": 1,
-      "explanation": "ネットワーキング後のフォローアップは、お礼と面識を確認す丁寧な開き方。"
+      "explanation": "ネットワーキング後のフォローアップは、お礼と面識を確認す丁寧な開き方。",
+      "ja_question": "[Japanese translation needed: Which opening is appropriate for a follow-up email...]",
+      "ja_explanation": "[Japanese translation needed: ネットワーキング後のフォローアップは、お礼と面識を確認す丁寧な開き方。...]"
     },
     {
       "id": "en_business_mail_021",
@@ -253,7 +293,9 @@
         "Don't care about security"
       ],
       "answer": 1,
-      "explanation": "機密情報はマークしさらに保護。必要に応じてメール暗号化を使用。"
+      "explanation": "機密情報はマークしさらに保護。必要に応じてメール暗号化を使用。",
+      "ja_question": "[Japanese translation needed: How should you handle confidential information in ...]",
+      "ja_explanation": "[Japanese translation needed: 機密情報はマークしさらに保護。必要に応じてメール暗号化を使用。...]"
     },
     {
       "id": "en_business_mail_022",
@@ -265,7 +307,9 @@
         "That's just how we do things."
       ],
       "answer": 1,
-      "explanation": "クレーム対応はお詫びと具体的な対応を示す。顧客信頼の維持が重要。"
+      "explanation": "クレーム対応はお詫びと具体的な対応を示す。顧客信頼の維持が重要。",
+      "ja_question": "[Japanese translation needed: Which response acknowledges a complaint profession...]",
+      "ja_explanation": "[Japanese translation needed: クレーム対応はお詫びと具体的な対応を示す。顧客信頼の維持が重要。...]"
     },
     {
       "id": "en_business_mail_023",
@@ -277,7 +321,9 @@
         "Use unclear abbreviations"
       ],
       "answer": 1,
-      "explanation": "添付ファイルは明確に列記。受取人がすべてのファイルを確認できるように。"
+      "explanation": "添付ファイルは明確に列記。受取人がすべてのファイルを確認できるように。",
+      "ja_question": "[Japanese translation needed: What is the correct format for listing attachments...]",
+      "ja_explanation": "[Japanese translation needed: 添付ファイルは明確に列記。受取人がすべてのファイルを確認できるように。...]"
     },
     {
       "id": "en_business_mail_024",
@@ -289,7 +335,9 @@
         "No way!"
       ],
       "answer": 1,
-      "explanation": "異議は敬意を持ちながら、理由や代替案を示して表現。建設的なトーン。"
+      "explanation": "異議は敬意を持ちながら、理由や代替案を示して表現。建設的なトーン。",
+      "ja_question": "[Japanese translation needed: How should you express disagreement in a professio...]",
+      "ja_explanation": "[Japanese translation needed: 異議は敬意を持ちながら、理由や代替案を示して表現。建設的なトーン。...]"
     },
     {
       "id": "en_business_mail_025",
@@ -301,7 +349,9 @@
         "Do this or else!"
       ],
       "answer": 1,
-      "explanation": "緊急性は具体的な期限と理由で示す。感情的でなく、情報ベースで。"
+      "explanation": "緊急性は具体的な期限と理由で示す。感情的でなく、情報ベースで。",
+      "ja_question": "[Japanese translation needed: Which phrase best conveys urgency without being ru...]",
+      "ja_explanation": "[Japanese translation needed: 緊急性は具体的な期限と理由で示す。感情的でなく、情報ベースで。...]"
     },
     {
       "id": "en_business_mail_026",
@@ -313,7 +363,9 @@
         "Blame someone else"
       ],
       "answer": 1,
-      "explanation": "エラーはすぐに簡潔な修正メールで対応。プロフェッショナルで信頼性を示す。"
+      "explanation": "エラーはすぐに簡潔な修正メールで対応。プロフェッショナルで信頼性を示す。",
+      "ja_question": "[Japanese translation needed: What should you do if you realize you made an erro...]",
+      "ja_explanation": "[Japanese translation needed: エラーはすぐに簡潔な修正メールで対応。プロフェッショナルで信頼性を示す。...]"
     },
     {
       "id": "en_business_mail_027",
@@ -325,7 +377,9 @@
         "To whom?"
       ],
       "answer": 1,
-      "explanation": "複数受信者は'Dear All,'または個別名前を記載。全員に価値あるメッセージであることを示す。"
+      "explanation": "複数受信者は'Dear All,'または個別名前を記載。全員に価値あるメッセージであることを示す。",
+      "ja_question": "[Japanese translation needed: How should you address multiple recipients in a pr...]",
+      "ja_explanation": "[Japanese translation needed: 複数受信者は'Dear All,'または個別名前を記載。全員に価値あるメッセージであることを示す。...]"
     },
     {
       "id": "en_business_mail_028",
@@ -337,7 +391,9 @@
         "Just brainstorming stuff."
       ],
       "answer": 1,
-      "explanation": "提案の導入は目的を明確に。具体的で専門的な表現が必須。"
+      "explanation": "提案の導入は目的を明確に。具体的で専門的な表現が必須。",
+      "ja_question": "[Japanese translation needed: Which sentence best introduces a new business prop...]",
+      "ja_explanation": "[Japanese translation needed: 提案の導入は目的を明確に。具体的で専門的な表現が必須。...]"
     },
     {
       "id": "en_business_mail_029",
@@ -349,7 +405,9 @@
         "Rely only on memory"
       ],
       "answer": 1,
-      "explanation": "ビジネスメールは記録。決定や合意事項は文書化して保存することが重要。"
+      "explanation": "ビジネスメールは記録。決定や合意事項は文書化して保存することが重要。",
+      "ja_question": "[Japanese translation needed: How should you document important decisions in bus...]",
+      "ja_explanation": "[Japanese translation needed: ビジネスメールは記録。決定や合意事項は文書化して保存することが重要。...]"
     },
     {
       "id": "en_business_mail_030",
@@ -361,7 +419,9 @@
         "Use vague language"
       ],
       "answer": 1,
-      "explanation": "成功は具体的なデータと数字で示す。信頼性と説得力が向上。"
+      "explanation": "成功は具体的なデータと数字で示す。信頼性と説得力が向上。",
+      "ja_question": "[Japanese translation needed: What is the best approach to writing about success...]",
+      "ja_explanation": "[Japanese translation needed: 成功は具体的なデータと数字で示す。信頼性と説得力が向上。...]"
     },
     {
       "id": "en_business_mail_031",
@@ -373,7 +433,9 @@
         "Feedback appreciated I guess?"
       ],
       "answer": 1,
-      "explanation": "フィードバック要求は期限を明記しお礼を述べる。前向きで敬意あるクローズ。"
+      "explanation": "フィードバック要求は期限を明記しお礼を述べる。前向きで敬意あるクローズ。",
+      "ja_question": "[Japanese translation needed: How should you close an email requesting feedback?...]",
+      "ja_explanation": "[Japanese translation needed: フィードバック要求は期限を明記しお礼を述べる。前向きで敬意あるクローズ。...]"
     },
     {
       "id": "en_business_mail_032",
@@ -385,7 +447,9 @@
         "None - skip it"
       ],
       "answer": 1,
-      "explanation": "敬礼はプロフェッショナルなトーン設定と敬意を表す。ビジネスメールの重要な要素。"
+      "explanation": "敬礼はプロフェッショナルなトーン設定と敬意を表す。ビジネスメールの重要な要素。",
+      "ja_question": "[Japanese translation needed: What is the purpose of the salutation in formal bu...]",
+      "ja_explanation": "[Japanese translation needed: 敬礼はプロフェッショナルなトーン設定と敬意を表す。ビジネスメールの重要な要素。...]"
     },
     {
       "id": "en_business_mail_033",
@@ -397,7 +461,9 @@
         "Just hit me up."
       ],
       "answer": 1,
-      "explanation": "'hesitate to contact me'は正式で、さらなるサポート提供を専門的に示す。"
+      "explanation": "'hesitate to contact me'は正式で、さらなるサポート提供を専門的に示す。",
+      "ja_question": "[Japanese translation needed: Which phrase is appropriate for offering additiona...]",
+      "ja_explanation": "[Japanese translation needed: 'hesitate to contact me'は正式で、さらなるサポート提供を専門的に示す。...]"
     },
     {
       "id": "en_business_mail_034",
@@ -409,7 +475,9 @@
         "Blame others"
       ],
       "answer": 1,
-      "explanation": "失敗は学習ポイントとして。改善策を示すことで成長と信頼を示す。"
+      "explanation": "失敗は学習ポイントとして。改善策を示すことで成長と信頼を示す。",
+      "ja_question": "[Japanese translation needed: How should you write about past failures in a busi...]",
+      "ja_explanation": "[Japanese translation needed: 失敗は学習ポイントとして。改善策を示すことで成長と信頼を示す。...]"
     },
     {
       "id": "en_business_mail_035",
@@ -421,7 +489,9 @@
         "Deal with it."
       ],
       "answer": 1,
-      "explanation": "遅延対応はお詫び、新タイムライン、対策を提示。顧客信頼の回復が重要。"
+      "explanation": "遅延対応はお詫び、新タイムライン、対策を提示。顧客信頼の回復が重要。",
+      "ja_question": "[Japanese translation needed: Which response is appropriate to a delayed project...]",
+      "ja_explanation": "[Japanese translation needed: 遅延対応はお詫び、新タイムライン、対策を提示。顧客信頼の回復が重要。...]"
     },
     {
       "id": "en_business_mail_036",
@@ -433,7 +503,9 @@
         "Offering solutions"
       ],
       "answer": 2,
-      "explanation": "ビジネス謝罪では責任を認め、言い訳や転嫁を避ける。解決策を提示。"
+      "explanation": "ビジネス謝罪では責任を認め、言い訳や転嫁を避ける。解決策を提示。",
+      "ja_question": "[Japanese translation needed: What should you avoid when writing a formal apolog...]",
+      "ja_explanation": "[Japanese translation needed: ビジネス謝罪では責任を認め、言い訳や転嫁を避ける。解決策を提示。...]"
     },
     {
       "id": "en_business_mail_037",
@@ -445,7 +517,9 @@
         "Don't organize at all"
       ],
       "answer": 1,
-      "explanation": "To:とCC:の適切な使用はメール目的の明確化。不要な受信者への混乱を避ける。"
+      "explanation": "To:とCC:の適切な使用はメール目的の明確化。不要な受信者への混乱を避ける。",
+      "ja_question": "[Japanese translation needed: How should you format a business email address lis...]",
+      "ja_explanation": "[Japanese translation needed: To:とCC:の適切な使用はメール目的の明確化。不要な受信者への混乱を避ける。...]"
     },
     {
       "id": "en_business_mail_038",
@@ -457,7 +531,9 @@
         "Demand more money"
       ],
       "answer": 1,
-      "explanation": "予算課題はデータベースで、代替案を示す。建設的で分析的なアプローチ。"
+      "explanation": "予算課題はデータベースで、代替案を示す。建設的で分析的なアプローチ。",
+      "ja_question": "[Japanese translation needed: Which approach is best for writing about budget co...]",
+      "ja_explanation": "[Japanese translation needed: 予算課題はデータベースで、代替案を示す。建設的で分析的なアプローチ。...]"
     },
     {
       "id": "en_business_mail_039",
@@ -469,7 +545,9 @@
         "Make false promises"
       ],
       "answer": 1,
-      "explanation": "要求不可時は理由を説明し、代替案を提示。関係維持と信頼が重要。"
+      "explanation": "要求不可時は理由を説明し、代替案を提示。関係維持と信頼が重要。",
+      "ja_question": "[Japanese translation needed: How should you handle a request you cannot fulfill...]",
+      "ja_explanation": "[Japanese translation needed: 要求不可時は理由を説明し、代替案を提示。関係維持と信頼が重要。...]"
     },
     {
       "id": "en_business_mail_040",
@@ -481,7 +559,9 @@
         "Mix topics randomly"
       ],
       "answer": 1,
-      "explanation": "各段落は1つのアイデアに焦点。主題文、詳細、結論で構成。読みやすさと明確性。"
+      "explanation": "各段落は1つのアイデアに焦点。主題文、詳細、結論で構成。読みやすさと明確性。",
+      "ja_question": "[Japanese translation needed: What is the recommended paragraph structure in bus...]",
+      "ja_explanation": "[Japanese translation needed: 各段落は1つのアイデアに焦点。主題文、詳細、結論で構成。読みやすさと明確性。...]"
     },
     {
       "id": "en_business_mail_041",
@@ -493,7 +573,9 @@
         "Ignore anything that doesn't fit"
       ],
       "answer": 1,
-      "explanation": "すべてのデータを客観的に示す。矛盾を分析し背景を説明。信頼性が重要。"
+      "explanation": "すべてのデータを客観的に示す。矛盾を分析し背景を説明。信頼性が重要。",
+      "ja_question": "[Japanese translation needed: How should you present conflicting data in a busin...]",
+      "ja_explanation": "[Japanese translation needed: すべてのデータを客観的に示す。矛盾を分析し背景を説明。信頼性が重要。...]"
     },
     {
       "id": "en_business_mail_042",
@@ -505,7 +587,9 @@
         "OK bye."
       ],
       "answer": 1,
-      "explanation": "'look forward to'は期待と感謝を示す。パートナーシップ交渉に適切。"
+      "explanation": "'look forward to'は期待と感謝を示す。パートナーシップ交渉に適切。",
+      "ja_question": "[Japanese translation needed: Which closure is most appropriate for a business l...]",
+      "ja_explanation": "[Japanese translation needed: 'look forward to'は期待と感謝を示す。パートナーシップ交渉に適切。...]"
     },
     {
       "id": "en_business_mail_043",
@@ -517,7 +601,9 @@
         "Ramble and hope they understand"
       ],
       "answer": 1,
-      "explanation": "複数の質問は番号付きで。明確性と回答しやすさが向上。"
+      "explanation": "複数の質問は番号付きで。明確性と回答しやすさが向上。",
+      "ja_question": "[Japanese translation needed: How should you handle multiple questions in a busi...]",
+      "ja_explanation": "[Japanese translation needed: 複数の質問は番号付きで。明確性と回答しやすさが向上。...]"
     },
     {
       "id": "en_business_mail_044",
@@ -529,7 +615,9 @@
         "Have someone else check it; avoid personal responsibility"
       ],
       "answer": 1,
-      "explanation": "重要なメールは複数回チェック。内容、トーン、文法、事実を確認。プロフェッショナルイメージ保護。"
+      "explanation": "重要なメールは複数回チェック。内容、トーン、文法、事実を確認。プロフェッショナルイメージ保護。",
+      "ja_question": "[Japanese translation needed: What should you do before sending a high-stakes bu...]",
+      "ja_explanation": "[Japanese translation needed: 重要なメールは複数回チェック。内容、トーン、文法、事実を確認。プロフェッショナルイメージ保護。...]"
     },
     {
       "id": "en_business_mail_045",
@@ -541,7 +629,9 @@
         "K thankz."
       ],
       "answer": 1,
-      "explanation": "感謝は具体的で正式に。相手の貢献を認識。ビジネス関係構築。"
+      "explanation": "感謝は具体的で正式に。相手の貢献を認識。ビジネス関係構築。",
+      "ja_question": "[Japanese translation needed: Which phrase best expresses appreciation in busine...]",
+      "ja_explanation": "[Japanese translation needed: 感謝は具体的で正式に。相手の貢献を認識。ビジネス関係構築。...]"
     },
     {
       "id": "en_business_mail_046",
@@ -553,7 +643,9 @@
         "Make up your own rules"
       ],
       "answer": 1,
-      "explanation": "ポリシー参照は公式文書。目的を説明。一貫性と正当性を示す。"
+      "explanation": "ポリシー参照は公式文書。目的を説明。一貫性と正当性を示す。",
+      "ja_question": "[Japanese translation needed: How should you write about company policies in bus...]",
+      "ja_explanation": "[Japanese translation needed: ポリシー参照は公式文書。目的を説明。一貫性と正当性を示す。...]"
     },
     {
       "id": "en_business_mail_047",
@@ -565,7 +657,9 @@
         "Assume they know who you are"
       ],
       "answer": 1,
-      "explanation": "冷たいメール対応は背景情報を簡潔に。目的を明確に。相手の関心引き出す。"
+      "explanation": "冷たいメール対応は背景情報を簡潔に。目的を明確に。相手の関心引き出す。",
+      "ja_question": "[Japanese translation needed: What is the best way to introduce yourself in a co...]",
+      "ja_explanation": "[Japanese translation needed: 冷たいメール対応は背景情報を簡潔に。目的を明確に。相手の関心引き出す。...]"
     },
     {
       "id": "en_business_mail_048",
@@ -577,7 +671,9 @@
         "Do it grudgingly"
       ],
       "answer": 1,
-      "explanation": "上司からの要求は確認と適切なタイムラインで対応。プロフェッショナルな実行。"
+      "explanation": "上司からの要求は確認と適切なタイムラインで対応。プロフェッショナルな実行。",
+      "ja_question": "[Japanese translation needed: How should you handle a request from a senior mana...]",
+      "ja_explanation": "[Japanese translation needed: 上司からの要求は確認と適切なタイムラインで対応。プロフェッショナルな実行。...]"
     },
     {
       "id": "en_business_mail_049",
@@ -589,7 +685,9 @@
         "Focus only on weaknesses"
       ],
       "answer": 1,
-      "explanation": "推薦メールは具体的な強みと例を示す。明確に推薦。説得力が重要。"
+      "explanation": "推薦メールは具体的な強みと例を示す。明確に推薦。説得力が重要。",
+      "ja_question": "[Japanese translation needed: Which approach is best for writing a recommendatio...]",
+      "ja_explanation": "[Japanese translation needed: 推薦メールは具体的な強みと例を示す。明確に推薦。説得力が重要。...]"
     },
     {
       "id": "en_business_mail_050",
@@ -601,7 +699,9 @@
         "Random closing thoughts"
       ],
       "answer": 1,
-      "explanation": "レポート結論は要点まとめ、次のステップ、質問対応可能性を示す。未来志向的。"
+      "explanation": "レポート結論は要点まとめ、次のステップ、質問対応可能性を示す。未来志向的。",
+      "ja_question": "[Japanese translation needed: How should you conclude a quarterly business repor...]",
+      "ja_explanation": "[Japanese translation needed: レポート結論は要点まとめ、次のステップ、質問対応可能性を示す。未来志向的。...]"
     }
   ]
 }
