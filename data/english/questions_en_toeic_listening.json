@@ -4,7 +4,7 @@
   "questions": [
     {
       "id": "en_toeic_listening_001",
-      "question": "Look at the photo. What is the man doing?\n(A) He is reading a document\n(B) He is having a meeting\n(C) He is making a phone call\n(D) He is writing in his planner",
+      "question": "Look at the photo. In the photograph, the man is holding a phone to his ear. What is the man doing?\n(A) He is reading a document\n(B) He is having a meeting\n(C) He is making a phone call\n(D) He is writing in his planner",
       "choices": [
         "He is reading a document",
         "He is having a meeting",
@@ -13,8 +13,8 @@
       ],
       "answer": 2,
       "explanation": "In the photograph, the man is holding a phone to his ear, which indicates he is making a phone call.",
-      "ja_question": "[Japanese translation needed: Look at the photo. What is the man doing?\n(A) He i...]",
-      "ja_explanation": "[Japanese translation needed: In the photograph, the man is holding a phone to h...]"
+      "ja_question": "写真を見てください。写真では、男性は電話を耳に当てています。男は何をしているのですか？\n(A) 彼は書類を読んでいます\n(B) 彼は会議中です\n(C) 彼は電話をかけています\n(D) 彼はプランナーに書いています",
+      "ja_explanation": "写真では、男性は電話を耳に当てており、電話をしていることを示しています。"
     },
     {
       "id": "en_toeic_listening_002",
@@ -27,8 +27,8 @@
       ],
       "answer": 1,
       "explanation": "The speaker announces that due to increased demand, delivery schedules will be modified to ensure timely shipments.",
-      "ja_question": "[Japanese translation needed: Listen to the short talk. What is the speaker main...]",
-      "ja_explanation": "[Japanese translation needed: The speaker announces that due to increased demand...]"
+      "ja_question": "短い話を聞いてください。講演者は主に何を話していますか?\n(A) 製品の品質向上\n(B) 配送スケジュールの変更\n(C) 新しい倉庫の場所\n(D) スタッフのトレーニング要件",
+      "ja_explanation": "スピーカーは、需要の増加により、タイムリーな出荷を確保するために配送スケジュールが変更されることを発表しています。"
     },
     {
       "id": "en_toeic_listening_003",
@@ -41,8 +41,8 @@
       ],
       "answer": 3,
       "explanation": "The man asks for details about when the project will be completed, requesting information about the timeline.",
-      "ja_question": "[Japanese translation needed: What does the man request?\n(A) A copy of the repor...]",
-      "ja_explanation": "[Japanese translation needed: The man asks for details about when the project wi...]"
+      "ja_question": "男は何を要求しますか？\n(A) 報告書のコピー\n(B) ディレクターとのミーティング\n(C) 彼のコンピュータのテクニカル サポート\n(D) プロジェクトのタイムラインに関する情報",
+      "ja_explanation": "男性はプロジェクトが完了するときについての詳細を求め、タイムラインに関する情報をリクエストしています。"
     },
     {
       "id": "en_toeic_listening_004",
@@ -55,8 +55,8 @@
       ],
       "answer": 1,
       "explanation": "The woman mentions that she needs to return a damaged product and also wants to buy replacement items.",
-      "ja_question": "[Japanese translation needed: Why does the woman go to the store?\n(A) To exchang...]",
-      "ja_explanation": "[Japanese translation needed: The woman mentions that she needs to return a dama...]"
+      "ja_question": "なぜ女性はその店に行くのですか？\n(A) 商品を交換する場合\n(B) 返品および新しい商品の購入\n(C) 割引に関するお問い合わせ\n(D) 顧客ポイントカードのお申し込みのため",
+      "ja_explanation": "女性は破損した製品を返す必要があることと、交換アイテムを購入したいことを述べています。"
     },
     {
       "id": "en_toeic_listening_005",
@@ -69,8 +69,8 @@
       ],
       "answer": 0,
       "explanation": "The caller states that his account has been charged twice for the same order and requests a refund.",
-      "ja_question": "[Japanese translation needed: What is the caller's problem?\n(A) His account was ...]",
-      "ja_explanation": "[Japanese translation needed: The caller states that his account has been charge...]"
+      "ja_question": "電話をかけてきた人の問題は何ですか?\n(A) 彼のアカウントに二重請求された\n(B) 彼は自分のアカウントにアクセスできません\n(C) 彼のクレジットカードの有効期限が切れています\n(D) 請求先住所が間違っている",
+      "ja_explanation": "発信者は、彼のアカウントが同じ注文に対して2回請求されたことを述べており、払い戻しをリクエストしています。"
     },
     {
       "id": "en_toeic_listening_006",
@@ -83,8 +83,8 @@
       ],
       "answer": 1,
       "explanation": "The technician indicates that the maintenance is scheduled to finish by tomorrow morning.",
-      "ja_question": "[Japanese translation needed: When will the maintenance work be completed?\n(A) T...]",
-      "ja_explanation": "[Japanese translation needed: The technician indicates that the maintenance is s...]"
+      "ja_question": "メンテナンス作業はいつ完了しますか?\n(A) 今晩\n(B) 明日の朝\n(C) 2日後\n(D) 来週",
+      "ja_explanation": "技術者は、メンテナンスが明朝までに完了するようにスケジュールされていることを示しています。"
     },
     {
       "id": "en_toeic_listening_007",
@@ -97,8 +97,8 @@
       ],
       "answer": 2,
       "explanation": "The announcement focuses on informing employees about the move to a new office building and the effective date.",
-      "ja_question": "[Japanese translation needed: What is the main topic of the announcement?\n(A) A ...]",
-      "ja_explanation": "[Japanese translation needed: The announcement focuses on informing employees ab...]"
+      "ja_question": "発表の主なトピックは何ですか?\n(A) 新製品の発売\n(B) 四半期決算\n(C) オフィス移転の内容\n(D) 従業員福利厚生の変更",
+      "ja_explanation": "アナウンスメントは、従業員に新しいオフィスビルへの移動と有効日について知らせることに焦点を当てています。"
     },
     {
       "id": "en_toeic_listening_008",
@@ -111,8 +111,8 @@
       ],
       "answer": 1,
       "explanation": "The speaker mentions that several key attendees are traveling and cannot make the scheduled meeting time.",
-      "ja_question": "[Japanese translation needed: Why is the meeting being postponed?\n(A) The manage...]",
-      "ja_explanation": "[Japanese translation needed: The speaker mentions that several key attendees ar...]"
+      "ja_question": "なぜ会議は延期されるのですか?\n(A) マネージャーは病気です\n(B) 参加できない参加者もいます\n(C) プレゼンテーション資料が準備されていない\n(D) 会議室が利用できない",
+      "ja_explanation": "スピーカーは、複数の主要参加者が旅行中であり、予定された会議時間に参加できないことを述べています。"
     },
     {
       "id": "en_toeic_listening_009",
@@ -125,8 +125,8 @@
       ],
       "answer": 0,
       "explanation": "The man indicates he would like to increase his coverage and asks about the available premium options.",
-      "ja_question": "[Japanese translation needed: What does the man want to do?\n(A) Upgrade his insu...]",
-      "ja_explanation": "[Japanese translation needed: The man indicates he would like to increase his co...]"
+      "ja_question": "男は何がしたいのでしょうか？\n(A) 保険プランをアップグレードする\n(B) サブスクリプションをキャンセルする\n(C) 請求に対する異議申し立て\n(D) 不足書類の報告",
+      "ja_explanation": "男性は補償範囲を拡大したいと述べ、利用可能な保険料オプションについて尋ねました。"
     },
     {
       "id": "en_toeic_listening_010",
@@ -139,8 +139,8 @@
       ],
       "answer": 1,
       "explanation": "The background announcements and discussion about flight boarding indicate the speakers are at an airport.",
-      "ja_question": "[Japanese translation needed: Where are the speakers?\n(A) In a restaurant\n(B) At...]",
-      "ja_explanation": "[Japanese translation needed: The background announcements and discussion about ...]"
+      "ja_question": "スピーカーはどこにありますか?\n(A) レストランで\n(B) 空港で\n(C) オフィスの休憩室にて\n(D) 小売店の場合",
+      "ja_explanation": "背景のアナウンスと飛行機の搭乗に関するディスカッションは、講演者が空港にいることを示しています。"
     },
     {
       "id": "en_toeic_listening_011",
@@ -153,8 +153,8 @@
       ],
       "answer": 1,
       "explanation": "The woman questions how much shipping will cost and when the package will arrive at her location.",
-      "ja_question": "[Japanese translation needed: What is the woman asking about?\n(A) The refund pol...]",
-      "ja_explanation": "[Japanese translation needed: The woman questions how much shipping will cost an...]"
+      "ja_question": "女性は何を尋ねていますか?\n(A) 返金ポリシー\n(B) 送料と納期\n(C) 製品仕様\n(D) 保証情報",
+      "ja_explanation": "女性は、送料がいくらかかるのか、荷物がいつ自分の場所に届くのかを尋ねています。"
     },
     {
       "id": "en_toeic_listening_012",
@@ -167,8 +167,8 @@
       ],
       "answer": 0,
       "explanation": "The caller expresses that this is his third call about the unresolved problem with his order.",
-      "ja_question": "[Japanese translation needed: Why does the caller sound frustrated?\n(A) He has c...]",
-      "ja_explanation": "[Japanese translation needed: The caller expresses that this is his third call a...]"
+      "ja_question": "電話をかけてきた相手がイライラしているように聞こえるのはなぜですか?\n(A) 彼は同じ問題について何度も電話をかけてきました。\n(B) スタッフは失礼です\n(C) サービスが予想より高価である\n(D) 彼はあまりにも長い間保留されている",
+      "ja_explanation": "電話をかけてきた人は、注文に関する未解決の問題について、これが 3 回目の電話であると述べています。"
     },
     {
       "id": "en_toeic_listening_013",
@@ -181,8 +181,8 @@
       ],
       "answer": 2,
       "explanation": "The trainer emphasizes the importance of following evacuation procedures and understanding emergency protocols.",
-      "ja_question": "[Japanese translation needed: What is the purpose of the training session?\n(A) T...]",
-      "ja_explanation": "[Japanese translation needed: The trainer emphasizes the importance of following...]"
+      "ja_question": "トレーニングセッションの目的は何ですか?\n(A) 新しい設備を導入するため\n(B) 接客スキルの向上のため\n(C) 安全手順を見直すこと\n(D) 年間予算について協議するため",
+      "ja_explanation": "トレーナーは、避難手順に従い、緊急時の手順を理解することの重要性を強調します。"
     },
     {
       "id": "en_toeic_listening_014",
@@ -195,8 +195,8 @@
       ],
       "answer": 3,
       "explanation": "The candidate mentions she has been working in this field for seven years with multiple companies.",
-      "ja_question": "[Japanese translation needed: How much experience does the candidate have?\n(A) L...]",
-      "ja_explanation": "[Japanese translation needed: The candidate mentions she has been working in thi...]"
+      "ja_question": "候補者はどれくらいの経験を持っていますか?\n(A) 1年未満\n(B) 1～3年\n(C) 3 ～ 5 年\n(D) 5年以上",
+      "ja_explanation": "候補者は、複数の企業でこの分野で 7 年間働いてきたと述べています。"
     },
     {
       "id": "en_toeic_listening_015",
@@ -209,8 +209,8 @@
       ],
       "answer": 0,
       "explanation": "The employee agrees to make the requested revisions and will send the updated proposal by Thursday.",
-      "ja_question": "[Japanese translation needed: What action will the employee take next?\n(A) Submi...]",
-      "ja_explanation": "[Japanese translation needed: The employee agrees to make the requested revision...]"
+      "ja_question": "従業員は次にどのような行動を取るでしょうか?\n(A) 修正案の提出\n(B) 別の会議をスケジュールする\n(C) 予算の再検討\n(D) クライアントに連絡して承認を得る",
+      "ja_explanation": "従業員は要求された修正を行うことに同意し、更新された提案を木曜日までに送信する予定です。"
     },
     {
       "id": "en_toeic_listening_016",
@@ -223,8 +223,8 @@
       ],
       "answer": 2,
       "explanation": "The receptionist recommends checking out the shopping area located just two blocks from the hotel.",
-      "ja_question": "[Japanese translation needed: What does the hotel receptionist suggest?\n(A) Book...]",
-      "ja_explanation": "[Japanese translation needed: The receptionist recommends checking out the shopp...]"
+      "ja_question": "ホテルの受付係は何を勧めますか?\n(A) コンシェルジュにツアーを予約する\n(B) ホテルレストランでのお食事\n(C) 近くの商店街に行く\n(D) レンタカーを利用して宿泊する場合",
+      "ja_explanation": "フロント係は、ホテルからわずか 2 ブロックにあるショッピング エリアをチェックすることを勧めています。"
     },
     {
       "id": "en_toeic_listening_017",
@@ -237,8 +237,8 @@
       ],
       "answer": 3,
       "explanation": "The voice message states all approvals must be submitted no later than Friday morning at 9 AM.",
-      "ja_question": "[Japanese translation needed: According to the message, what time is the deadlin...]",
-      "ja_explanation": "[Japanese translation needed: The voice message states all approvals must be sub...]"
+      "ja_question": "メッセージによると、締め切りは何時ですか?\n(A) 今日の正午までに\n(B) 本日の業務終了までに\n(C) 明日の午後までに\n(D) 金曜日の朝までに",
+      "ja_explanation": "音声メッセージには、すべての承認は金曜日の朝 9 時までに提出する必要があると記載されています。"
     },
     {
       "id": "en_toeic_listening_018",
@@ -251,8 +251,8 @@
       ],
       "answer": 3,
       "explanation": "The woman points out that the proposal fails to include solutions for several of the client's main concerns.",
-      "ja_question": "[Japanese translation needed: What is the woman's concern about the proposal?\n(A...]",
-      "ja_explanation": "[Japanese translation needed: The woman points out that the proposal fails to in...]"
+      "ja_question": "プロポーズについて女性は何を懸念しているのでしょうか？\n(A) 割り当てられた予算を超過している\n(B) タイムラインが短すぎる\n(C) 詳細な仕様が記載されていない\n(D) すべての要件に対応しているわけではありません",
+      "ja_explanation": "この女性は、この提案には顧客の主な懸念事項のいくつかに対する解決策が含まれていないと指摘している。"
     },
     {
       "id": "en_toeic_listening_019",
@@ -265,8 +265,8 @@
       ],
       "answer": 1,
       "explanation": "The man explains that he must leave by 4 PM to pick up his children from school.",
-      "ja_question": "[Japanese translation needed: Why does the man need to leave early?\n(A) He has a...]",
-      "ja_explanation": "[Japanese translation needed: The man explains that he must leave by 4 PM to pic...]"
+      "ja_question": "なぜ男性は早く帰る必要があるのでしょうか？\n(A) 彼は医者の診察を受けています\n(B) 彼には家族との約束がある\n(C) 彼は荷物を受け取る必要があります\n(D) 彼は別の会議を予定している",
+      "ja_explanation": "男性は、子供たちを学校に迎えに行くために午後 4 時までに出発しなければならないと説明しています。"
     },
     {
       "id": "en_toeic_listening_020",
@@ -279,8 +279,8 @@
       ],
       "answer": 0,
       "explanation": "The speaker argues that modernizing their systems will improve efficiency and ultimately save money in the long run.",
-      "ja_question": "[Japanese translation needed: What is the speaker's recommendation?\n(A) Invest i...]",
-      "ja_explanation": "[Japanese translation needed: The speaker argues that modernizing their systems ...]"
+      "ja_question": "講演者の推薦は何ですか?\n(A) 新しいテクノロジーへの投資\n(B) 追加スタッフを雇用する\n(C) 新たな市場への拡大\n(D) 運営費の削減",
+      "ja_explanation": "講演者は、システムを最新化することで効率が向上し、最終的には長期的にはコストを節約できると主張しています。"
     },
     {
       "id": "en_toeic_listening_021",
@@ -293,8 +293,8 @@
       ],
       "answer": 0,
       "explanation": "The organizer announces that detailed agendas will be sent to all participants via email two days before the conference.",
-      "ja_question": "[Japanese translation needed: How will the participants receive the agenda?\n(A) ...]",
-      "ja_explanation": "[Japanese translation needed: The organizer announces that detailed agendas will...]"
+      "ja_question": "参加者は議題をどのように受け取るのでしょうか?\n(A) 会議前にメールで\n(B) 会場到着時\n(C) 開会の挨拶中\n(D) イベントの 1 週間前",
+      "ja_explanation": "主催者は、会議の 2 日前に詳細な議題が電子メールですべての参加者に送信されると発表しました。"
     },
     {
       "id": "en_toeic_listening_022",
@@ -307,8 +307,8 @@
       ],
       "answer": 0,
       "explanation": "The speaker mentions that due to technical difficulties with the microphone, the presentation had to be paused briefly.",
-      "ja_question": "[Japanese translation needed: What problem occurred during the event?\n(A) The so...]",
-      "ja_explanation": "[Japanese translation needed: The speaker mentions that due to technical difficu...]"
+      "ja_question": "イベント中にどのような問題が発生しましたか?\n(A) サウンドシステムが故障した\n(B) 出席者が病気になった\n(C) 会場が狭すぎた\n(D) ケータリングサービスが遅れた",
+      "ja_explanation": "講演者は、マイクの技術的な問題のため、プレゼンテーションを一時停止しなければならなかったと述べています。"
     },
     {
       "id": "en_toeic_listening_023",
@@ -321,8 +321,8 @@
       ],
       "answer": 1,
       "explanation": "The HR representative reminds employees that they must verify and update their contact details in the employee database by month's end.",
-      "ja_question": "[Japanese translation needed: What action is required from the employee?\n(A) Com...]",
-      "ja_explanation": "[Japanese translation needed: The HR representative reminds employees that they ...]"
+      "ja_question": "従業員にはどのような対応が求められますか?\n(A) トレーニング モジュールを完了する\n(B) システム内の個人情報の更新\n(C) 新しい雇用契約に署名する\n(D) パフォーマンスレビューに出席する",
+      "ja_explanation": "人事担当者は、月末までに従業員データベース内の連絡先の詳細を確認して更新する必要があることを従業員に通知します。"
     },
     {
       "id": "en_toeic_listening_024",
@@ -335,8 +335,8 @@
       ],
       "answer": 1,
       "explanation": "The announcement states that due to staffing changes, the 24/7 customer support line will be closed effective next month.",
-      "ja_question": "[Japanese translation needed: According to the announcement, what is being disco...]",
-      "ja_explanation": "[Japanese translation needed: The announcement states that due to staffing chang...]"
+      "ja_question": "発表によると、何が廃止されるのでしょうか？\n(A) 朝勤\n(B) カスタマーサービスライン\n(C) ロイヤリティ特典プログラム\n(D) 製品ライン",
+      "ja_explanation": "発表によると、人員変更のため、24時間年中無休のカスタマーサポートラインは来月から閉鎖されるとのこと。"
     },
     {
       "id": "en_toeic_listening_025",
@@ -349,8 +349,8 @@
       ],
       "answer": 2,
       "explanation": "The sales representative emphasizes that the new supplier can deliver orders within 48 hours, compared to the current 5-7 day timeframe.",
-      "ja_question": "[Japanese translation needed: What is the main advantage mentioned?\n(A) Lower co...]",
-      "ja_explanation": "[Japanese translation needed: The sales representative emphasizes that the new s...]"
+      "ja_question": "主な利点は何ですか?\n(A) コストの削減\n(B) 品質の向上\n(C) より迅速な配送\n(D) 顧客サービスの向上",
+      "ja_explanation": "営業担当者は、新しいサプライヤーは現在の納期が 5 ～ 7 日であるのに対し、48 時間以内に注文を届けることができると強調しました。"
     },
     {
       "id": "en_toeic_listening_026",
@@ -363,8 +363,8 @@
       ],
       "answer": 1,
       "explanation": "The caller states she wants to send back the broken unit and receive a replacement as soon as possible.",
-      "ja_question": "[Japanese translation needed: What does the caller plan to do?\n(A) File a compla...]",
-      "ja_explanation": "[Japanese translation needed: The caller states she wants to send back the broke...]"
+      "ja_question": "電話をかけてきた人は何をするつもりですか?\n(A) 経営陣に苦情を申し立てる\n(B) 不良品の返品\n(C) 価格調整のリクエスト\n(D) 注文全体をキャンセルする",
+      "ja_explanation": "電話の発信者は、壊れたユニットを返送し、できるだけ早く交換品を受け取りたいと述べています。"
     },
     {
       "id": "en_toeic_listening_027",
@@ -377,8 +377,8 @@
       ],
       "answer": 1,
       "explanation": "The manager asks for quarterly sales figures from the past two years to prepare the market analysis report.",
-      "ja_question": "[Japanese translation needed: What information is being requested?\n(A) Budget al...]",
-      "ja_explanation": "[Japanese translation needed: The manager asks for quarterly sales figures from ...]"
+      "ja_question": "どのような情報が求められていますか?\n(A) 予算配分\n(B) 過去の売上データ\n(C) 従業員の業績評価\n(D) 競争力のある価格分析",
+      "ja_explanation": "マネージャーは、市場分析レポートを作成するために、過去 2 年間の四半期ごとの売上高を求めます。"
     },
     {
       "id": "en_toeic_listening_028",
@@ -391,8 +391,8 @@
       ],
       "answer": 3,
       "explanation": "The project manager expresses worry that falling behind schedule will impact the client's business operations.",
-      "ja_question": "[Japanese translation needed: What is the speaker most concerned about?\n(A) Clie...]",
-      "ja_explanation": "[Japanese translation needed: The project manager expresses worry that falling b...]"
+      "ja_question": "講演者が最も懸念していることは何ですか?\n(A) 顧客の不満\n(B) 事業費の増加\n(C) 人員不足\n(D) スケジュールの遅延",
+      "ja_explanation": "プロジェクトマネージャーは、予定より遅れればクライアントの業務運営に影響が出るのではないかと懸念を表明している。"
     },
     {
       "id": "en_toeic_listening_029",
@@ -405,8 +405,8 @@
       ],
       "answer": 0,
       "explanation": "The compliance officer states that recent changes in industry standards mandate that all procedures be revised immediately.",
-      "ja_question": "[Japanese translation needed: Why must the procedures be updated?\n(A) New regula...]",
-      "ja_explanation": "[Japanese translation needed: The compliance officer states that recent changes ...]"
+      "ja_question": "なぜ手順を更新する必要があるのですか?\n(A) 新しい規制ではそれが必要です\n(B) 従業員が変更を要求した\n(C) 効率を向上させるため\n(D) 現在のシステムは時代遅れである",
+      "ja_explanation": "コンプライアンス責任者は、最近の業界基準の変更により、すべての手順を直ちに改訂することが義務付けられていると述べています。"
     },
     {
       "id": "en_toeic_listening_030",
@@ -419,8 +419,8 @@
       ],
       "answer": 1,
       "explanation": "The IT coordinator announces that the network servers will undergo scheduled maintenance on Tuesday and Wednesday of next week.",
-      "ja_question": "[Japanese translation needed: What will happen next week?\n(A) A department meeti...]",
-      "ja_explanation": "[Japanese translation needed: The IT coordinator announces that the network serv...]"
+      "ja_question": "来週は何が起こるでしょうか？\n(A) 部門会議\n(B) システムメンテナンス\n(C) 事務所休日休業\n(D) スタッフのトレーニング",
+      "ja_explanation": "IT コーディネーターは、来週の火曜日と水曜日にネットワーク サーバーの定期メンテナンスが行われると発表しました。"
     },
     {
       "id": "en_toeic_listening_031",
@@ -433,8 +433,8 @@
       ],
       "answer": 1,
       "explanation": "The customer reads back his address to confirm it's correct before completing the order.",
-      "ja_question": "[Japanese translation needed: What does the customer want to verify?\n(A) The ord...]",
-      "ja_explanation": "[Japanese translation needed: The customer reads back his address to confirm it'...]"
+      "ja_question": "顧客は何を確認したいのでしょうか？\n(A) 注文合計\n(B) 配送先住所\n(C) 納期\n(D) 商品詳細",
+      "ja_explanation": "顧客は注文を完了する前に、自分の住所を読み返して正しいことを確認します。"
     },
     {
       "id": "en_toeic_listening_032",
@@ -447,8 +447,8 @@
       ],
       "answer": 2,
       "explanation": "The director specifies that the final report must be completed and submitted by Friday for the Monday board meeting.",
-      "ja_question": "[Japanese translation needed: According to the speaker, when should the report b...]",
-      "ja_explanation": "[Japanese translation needed: The director specifies that the final report must ...]"
+      "ja_question": "講演者によると、報告書はいつ完成させるべきですか?\n(A) 今日の午後 5 時までに\n(B) 明日の朝\n(C) 週末までに\n(D) 2週間後",
+      "ja_explanation": "取締役は、最終報告書を金曜日までに完成させ、月曜日の取締役会に提出する必要があると指定しました。"
     },
     {
       "id": "en_toeic_listening_033",
@@ -461,8 +461,8 @@
       ],
       "answer": 0,
       "explanation": "The utility company representative explains that rising fuel and maintenance costs necessitate the rate adjustment.",
-      "ja_question": "[Japanese translation needed: What is the primary reason for the rate increase?\n...]",
-      "ja_explanation": "[Japanese translation needed: The utility company representative explains that r...]"
+      "ja_question": "金利上昇の主な理由は何ですか?\n(A) 運用コストの増加\n(B) 需要の増加\n(C) 競合他社の価格設定\n(D) サービスの拡充",
+      "ja_explanation": "電力会社の代表者は、燃料費とメンテナンス費の高騰により料金調整が必要になったと説明している。"
     },
     {
       "id": "en_toeic_listening_034",
@@ -475,8 +475,8 @@
       ],
       "answer": 1,
       "explanation": "The interviewer notes that while the candidate has strong technical skills, they have not managed a team before.",
-      "ja_question": "[Japanese translation needed: What type of work experience does the applicant la...]",
-      "ja_explanation": "[Japanese translation needed: The interviewer notes that while the candidate has...]"
+      "ja_question": "応募者に不足している職歴は何ですか?\n(A) 顧客との対話\n(B) チームマネジメント\n(C) ソフトウェア開発\n(D) 財務分析",
+      "ja_explanation": "面接官は、候補者は優れた技術スキルを持っているが、これまでチームを管理したことがないと指摘しました。"
     },
     {
       "id": "en_toeic_listening_035",
@@ -489,8 +489,8 @@
       ],
       "answer": 3,
       "explanation": "The executive announces that the new policy will be implemented company-wide across all branch locations simultaneously.",
-      "ja_question": "[Japanese translation needed: How many locations will be affected by the changes...]",
-      "ja_explanation": "[Japanese translation needed: The executive announces that the new policy will b...]"
+      "ja_question": "この変更により影響を受けるのは何カ所ですか?\n(A) 1つのオフィス\n(B) 3つのオフィス\n(C) 5つのオフィス\n(D) すべての地方事務所",
+      "ja_explanation": "幹部は、新しいポリシーが全社規模のすべての支店に同時に導入されると発表しました。"
     },
     {
       "id": "en_toeic_listening_036",
@@ -503,8 +503,8 @@
       ],
       "answer": 2,
       "explanation": "The participants agree to reconvene next week to clarify outstanding issues before moving forward with the project.",
-      "ja_question": "[Japanese translation needed: What is the purpose of the follow-up meeting?\n(A) ...]",
-      "ja_explanation": "[Japanese translation needed: The participants agree to reconvene next week to c...]"
+      "ja_question": "フォローアップミーティングの目的は何ですか?\n(A) 四半期業績を確認するため\n(B) 実施計画を協議するため\n(C) 残された懸念事項に対処するため\n(D) 契約を完了するため",
+      "ja_explanation": "参加者は、プロジェクトを進める前に未解決の問題を明確にするために来週再び集まることに同意します。"
     },
     {
       "id": "en_toeic_listening_037",
@@ -517,8 +517,8 @@
       ],
       "answer": 1,
       "explanation": "The manager commends the employee for exceeding expectations and achieving a 15 percent increase in quarterly sales.",
-      "ja_question": "[Japanese translation needed: What did the employee accomplish?\n(A) Completed th...]",
-      "ja_explanation": "[Japanese translation needed: The manager commends the employee for exceeding ex...]"
+      "ja_question": "その従業員は何を達成しましたか?\n(A) プロジェクトを早期に完了した\n(B) 売上が 15% 増加\n(C) クライアントの重大な問題を解決した\n(D) 新しいチームメンバーを採用",
+      "ja_explanation": "マネージャーは、その従業員が期待を上回り、四半期売上高の 15% 増加を達成したことを賞賛しました。"
     },
     {
       "id": "en_toeic_listening_038",
@@ -531,8 +531,8 @@
       ],
       "answer": 0,
       "explanation": "The representative suggests that the extended warranty would provide better protection and peace of mind for the customer.",
-      "ja_question": "[Japanese translation needed: What does the service representative recommend?\n(A...]",
-      "ja_explanation": "[Japanese translation needed: The representative suggests that the extended warr...]"
+      "ja_question": "サービス担当者は何を推奨しますか?\n(A) 延長保証の購入\n(B) プレミアムプランへのアップグレード\n(C) メンテナンス予約のスケジュール設定\n(D) オンラインで製品を登録する",
+      "ja_explanation": "担当者は、延長保証が顧客により良い保護と安心を提供するだろうと示唆しています。"
     },
     {
       "id": "en_toeic_listening_039",
@@ -545,8 +545,8 @@
       ],
       "answer": 1,
       "explanation": "The registration confirmation mentions that all participants will receive comprehensive training resources and completion certificates.",
-      "ja_question": "[Japanese translation needed: What will be provided at the conference?\n(A) Free ...]",
-      "ja_explanation": "[Japanese translation needed: The registration confirmation mentions that all pa...]"
+      "ja_question": "カンファレンスでは何が提供されますか?\n(A) 無料の食事と宿泊施設\n(B) トレーニング資料と証明書\n(C) 就職支援\n(D) 旅費の払い戻し",
+      "ja_explanation": "登録確認書には、すべての参加者が包括的なトレーニング リソースと修了証明書を受け取ることが記載されています。"
     },
     {
       "id": "en_toeic_listening_040",
@@ -559,8 +559,8 @@
       ],
       "answer": 2,
       "explanation": "The department head reports that budget cuts have limited their ability to hire additional support staff and purchase necessary materials.",
-      "ja_question": "[Japanese translation needed: What issue did the department face?\n(A) Low employ...]",
-      "ja_explanation": "[Japanese translation needed: The department head reports that budget cuts have ...]"
+      "ja_question": "部門はどのような問題に直面していましたか?\n(A) 従業員の士気の低下\n(B) 機器の故障\n(C) 資金不足\n(D) 離職率が高い",
+      "ja_explanation": "部門長は、予算削減により追加のサポートスタッフを雇用したり、必要な資材を購入したりする能力が制限されていると報告しています。"
     },
     {
       "id": "en_toeic_listening_041",
@@ -573,8 +573,8 @@
       ],
       "answer": 3,
       "explanation": "The technician reminds everyone that the sound system will be checked and adjusted before the beginning of the presentation.",
-      "ja_question": "[Japanese translation needed: According to the instructions, what must be done b...]",
-      "ja_explanation": "[Japanese translation needed: The technician reminds everyone that the sound sys...]"
+      "ja_question": "指示によると、プレゼンテーションの前に何をしなければなりませんか?\n(A) スライドはレビューする必要があります\n(B) 質問は事前に提出する必要があります\n(C) 配布資料は印刷する必要があります\n(D) オーディオ機器はテストする必要があります",
+      "ja_explanation": "技術者は、プレゼンテーションの開始前にサウンド システムがチェックされ、調整されることを全員に通知します。"
     },
     {
       "id": "en_toeic_listening_042",
@@ -587,8 +587,8 @@
       ],
       "answer": 3,
       "explanation": "The hotel concierge describes various options including standard rooms, deluxe rooms, and suites to accommodate different needs and budgets.",
-      "ja_question": "[Japanese translation needed: What type of accommodation does the hotel offer?\n(...]",
-      "ja_explanation": "[Japanese translation needed: The hotel concierge describes various options incl...]"
+      "ja_question": "ホテルではどのようなタイプの宿泊施設を提供していますか?\n(A) スタンダードルームのみ\n(B) 無料朝食付き客室\n(C) キッチン設備付きスイート\n(D) 複数の部屋カテゴリー",
+      "ja_explanation": "ホテルのコンシェルジュは、さまざまなニーズや予算に合わせて、スタンダード ルーム、デラックス ルーム、スイートなどのさまざまなオプションを説明します。"
     },
     {
       "id": "en_toeic_listening_043",
@@ -601,8 +601,8 @@
       ],
       "answer": 0,
       "explanation": "The project lead indicates that finding experienced professionals with the required skill set has been the primary challenge.",
-      "ja_question": "[Japanese translation needed: What is the main obstacle to the project?\n(A) Lack...]",
-      "ja_explanation": "[Japanese translation needed: The project lead indicates that finding experience...]"
+      "ja_question": "プロジェクトに対する主な障害は何ですか?\n(A) 有能な人材の不足\n(B) 不十分なリソース\n(C) 技術的な制限\n(D) 競合する優先事項",
+      "ja_explanation": "プロジェクトリーダーは、必要なスキルセットを備えた経験豊富な専門家を見つけることが主な課題であると述べています。"
     },
     {
       "id": "en_toeic_listening_044",
@@ -615,8 +615,8 @@
       ],
       "answer": 2,
       "explanation": "The warehouse manager states that all inventory counts must be finished and reconciled by the end of the business week.",
-      "ja_question": "[Japanese translation needed: By when must the inventory be completed?\n(A) By en...]",
-      "ja_explanation": "[Japanese translation needed: The warehouse manager states that all inventory co...]"
+      "ja_question": "在庫はいつまでに完了しなければなりませんか?\n(A) 今日の終わりまでに\n(B) 明日の正午までに\n(C) By Friday\n(D) 来週の月曜日までに",
+      "ja_explanation": "倉庫管理者は、営業週の終わりまでにすべての在庫数の計算を完了し、調整する必要があると述べています。"
     },
     {
       "id": "en_toeic_listening_045",
@@ -629,8 +629,8 @@
       ],
       "answer": 2,
       "explanation": "The designer reports that the client expressed satisfaction with the final design and approved it without requiring changes.",
-      "ja_question": "[Japanese translation needed: What feedback did the client provide?\n(A) The prop...]",
-      "ja_explanation": "[Japanese translation needed: The designer reports that the client expressed sat...]"
+      "ja_question": "クライアントはどのようなフィードバックを提供しましたか?\n(A) その提案は高すぎた\n(B) タイムラインが強引すぎた\n(C) デザインは彼らの期待に応えました\n(D) 追加機能の追加を望んでいる",
+      "ja_explanation": "デザイナーは、クライアントが最終デザインに満足し、変更を要求することなく承認したと報告しています。"
     },
     {
       "id": "en_toeic_listening_046",
@@ -643,8 +643,8 @@
       ],
       "answer": 2,
       "explanation": "The customer calls because he cannot remember his login credentials and needs to reset his password.",
-      "ja_question": "[Japanese translation needed: What does the caller need assistance with?\n(A) Ins...]",
-      "ja_explanation": "[Japanese translation needed: The customer calls because he cannot remember his ...]"
+      "ja_question": "発信者は何についてサポートを必要としていますか?\n(A) ソフトウェアのインストール\n(B) 失われたデータの回復\n(C) パスワードの再設定\n(D) オペレーティング システムのアップグレード",
+      "ja_explanation": "顧客は自分のログイン資格情報を思い出せず、パスワードをリセットする必要があるため電話をかけてきました。"
     },
     {
       "id": "en_toeic_listening_047",
@@ -657,8 +657,8 @@
       ],
       "answer": 3,
       "explanation": "The executive explains that to improve efficiency, three smaller units will merge into one streamlined department.",
-      "ja_question": "[Japanese translation needed: What change is being made to the team structure?\n(...]",
-      "ja_explanation": "[Japanese translation needed: The executive explains that to improve efficiency,...]"
+      "ja_question": "チーム構造にどのような変化が生じていますか?\n(A) 2 つのポジションが除外されます\n(B) 新しい部門が創設されます\n(C) レポートラインを再編します\n(D) 複数の役割が統合される",
+      "ja_explanation": "同幹部は、効率を向上させるために、3 つの小規模な部門が 1 つの合理化された部門に統合されると説明しています。"
     },
     {
       "id": "en_toeic_listening_048",
@@ -671,8 +671,8 @@
       ],
       "answer": 2,
       "explanation": "The representative recommends placing a pre-order to ensure the customer receives the item when it becomes available next month.",
-      "ja_question": "[Japanese translation needed: What is the customer service representative's sugg...]",
-      "ja_explanation": "[Japanese translation needed: The representative recommends placing a pre-order ...]"
+      "ja_question": "カスタマーサービス担当者の提案は何ですか?\n(A) セールを待ってアイテムを購入する\n(B) 倉庫の在庫状況を確認する\n(C) 今すぐ製品を予約注文する\n(D) 代わりに小売店に行く",
+      "ja_explanation": "担当者は、来月の発売時に顧客が商品を確実に受け取るために、事前注文することを推奨しています。"
     },
     {
       "id": "en_toeic_listening_049",
@@ -685,8 +685,8 @@
       ],
       "answer": 1,
       "explanation": "The HR manager describes the position as an account executive role responsible for managing key client relationships and ensuring customer satisfaction.",
-      "ja_question": "[Japanese translation needed: What responsibility will the new hire have?\n(A) Ma...]",
-      "ja_explanation": "[Japanese translation needed: The HR manager describes the position as an accoun...]"
+      "ja_question": "新入社員はどのような責任を負うことになりますか？\n(A) 営業チームの管理\n(B) クライアントアカウントの処理\n(C) 財務報告書の作成\n(D) マーケティング キャンペーンの調整",
+      "ja_explanation": "人事マネージャーは、主要な顧客との関係を管理し、顧客満足度を確保する責任を負うアカウント エグゼクティブの役割としてのポジションについて説明しています。"
     },
     {
       "id": "en_toeic_listening_050",
@@ -699,8 +699,8 @@
       ],
       "answer": 1,
       "explanation": "The compliance officer warns that vendors failing to meet service level agreements will face financial penalties as outlined in the contract terms.",
-      "ja_question": "[Japanese translation needed: What action will be taken if the standards are not...]",
-      "ja_explanation": "[Japanese translation needed: The compliance officer warns that vendors failing ...]"
+      "ja_question": "基準を満たしていない場合、どのような措置が取られるのでしょうか?\n(A) 契約は終了します\n(B) 罰則が課せられます\n(C) 価格は引き下げられます\n(D) 通知が発行されます",
+      "ja_explanation": "コンプライアンス責任者は、サービスレベル契約を満たさないベンダーは契約条件に記載されているように金銭的罰金を科されると警告している。"
     }
   ]
 }

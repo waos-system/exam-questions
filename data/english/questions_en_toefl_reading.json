@@ -14,8 +14,8 @@
       ],
       "answer": 0,
       "explanation": "Photosynthesis is fundamental to marine food webs as it converts solar energy into chemical energy (glucose) that feeds all trophic levels. While it does produce oxygen and remove CO2, the primary advantage emphasized in academic texts is its role in energy conversion for the entire ecosystem.",
-      "ja_question": "[Japanese translation needed: According to the passage, which of the following b...]",
-      "ja_explanation": "[Japanese translation needed: Photosynthesis is fundamental to marine food webs ...]"
+      "ja_question": "この一節によると、海洋生態系における光合成の主な利点を最もよく説明しているのは次のうちどれですか?",
+      "ja_explanation": "光合成は、太陽エネルギーを化学エネルギー（グルコース）に変換し、すべての栄養段階に供給するため、海洋食物網の基礎となっています。酸素を生成し、二酸化炭素を除去しますが、学術書で強調される主な利点は、生態系全体のエネルギー変換におけるその役割です。"
     },
     {
       "id": "en_toefl_reading_002",
@@ -28,8 +28,8 @@
       ],
       "answer": 1,
       "explanation": "'Sustains' means to maintain something continuously over time. In context, it refers to keeping the food web alive and functioning. 'Maintains or keeps alive' captures this meaning most accurately.",
-      "ja_question": "[Japanese translation needed: The word 'sustains' in the passage is closest in m...]",
-      "ja_explanation": "[Japanese translation needed: 'Sustains' means to maintain something continuousl...]"
+      "ja_question": "文中の「sustains」という言葉の意味が次のどれに最も近いですか?",
+      "ja_explanation": "「持続」とは、長期間にわたって何かを継続的に維持することを意味します。文脈的には、食物網を生きて機能させ続けることを指します。「維持する、または生かし続ける」がこの意味を最も正確に捉えています。"
     },
     {
       "id": "en_toefl_reading_003",
@@ -42,8 +42,8 @@
       ],
       "answer": 2,
       "explanation": "TOEFL reading questions often ask about inferences. The passage likely discusses phytoplankton as primary producers, which means educators and scientists recognize them as foundational to marine food chains and significant oxygen producers, even if not explicitly stated.",
-      "ja_question": "[Japanese translation needed: Which of the following statements about the role o...]",
-      "ja_explanation": "[Japanese translation needed: TOEFL reading questions often ask about inferences...]"
+      "ja_question": "植物プランクトンの役割に関する次の記述のうち、この文章から推測できるものはどれですか?",
+      "ja_explanation": "TOEFL のリーディング問題では、推論に関する質問がよく出ます。この文章では、植物プランクトンが一次生産者として議論されている可能性が高く、これは、明示的に述べられていないとしても、教育者や科学者が植物プランクトンを海洋食物連鎖の基礎であり、重要な酸素生産者であると認識していることを意味します。"
     },
     {
       "id": "en_toefl_reading_004",
@@ -56,8 +56,8 @@
       ],
       "answer": 3,
       "explanation": "When authors mention specific examples like coral reefs in academic passages, it's usually to illustrate broader principles. Here, coral reefs exemplify how marine photosynthesis functions across different marine habitats.",
-      "ja_question": "[Japanese translation needed: The author mentions coral reef ecosystems primaril...]",
-      "ja_explanation": "[Japanese translation needed: When authors mention specific examples like coral ...]"
+      "ja_question": "著者は主にサンゴ礁の生態系について言及しています。",
+      "ja_explanation": "著者が学術論文の中でサンゴ礁のような特定の例に言及するとき、それは通常、より広範な原則を説明するためです。ここでは、サンゴ礁が、さまざまな海洋生息地で海洋光合成がどのように機能するかを例示しています。"
     },
     {
       "id": "en_toefl_reading_005",
@@ -70,8 +70,8 @@
       ],
       "answer": 1,
       "explanation": "This is a typical TOEFL inference question. The scientific principle that light necessary for photosynthesis decreases with depth is implied in discussions of underwater photosynthesis.",
-      "ja_question": "[Japanese translation needed: The passage implies that the depth of water affect...]",
-      "ja_explanation": "[Japanese translation needed: This is a typical TOEFL inference question. The sc...]"
+      "ja_question": "この一節は、水深が光合成速度に影響を与えることを示唆しています。",
+      "ja_explanation": "これは典型的な TOEFL 推論問題です。光合成に必要な光は深さとともに減少するという科学的原理は、水中光合成の議論に暗示されています。"
     },
     {
       "id": "en_toefl_reading_006",
@@ -84,8 +84,8 @@
       ],
       "answer": 1,
       "explanation": "Since photosynthesis requires light, anything reducing light availability (like prolonged cloud cover) would decrease photosynthetic activity. This type of question asks students to apply cause-and-effect reasoning.",
-      "ja_question": "[Japanese translation needed: Based on the passage, which of the following would...]",
-      "ja_explanation": "[Japanese translation needed: Since photosynthesis requires light, anything redu...]"
+      "ja_question": "この文章に基づいて、海洋の光合成活動の低下を引き起こす可能性が最も高いのは次のうちどれですか?",
+      "ja_explanation": "光合成には光が必要であるため、光の利用可能性を低下させるもの（雲が長くかかるなど）は、光合成活動を低下させます。このタイプの質問では、生徒に因果関係の推論を適用するよう求めます。"
     },
     {
       "id": "en_toefl_reading_007",
@@ -98,8 +98,8 @@
       ],
       "answer": 1,
       "explanation": "Main idea questions require identifying the central concept. The main idea of passages on nutrient cycling is that specific elements (in this case nitrogen) cycle through various forms via biological and chemical processes.",
-      "ja_question": "[Japanese translation needed: What is the main idea of the paragraph discussing ...]",
-      "ja_explanation": "[Japanese translation needed: Main idea questions require identifying the centra...]"
+      "ja_question": "水生システムにおける窒素循環について議論している段落の主なアイデアは何ですか?",
+      "ja_explanation": "主要なアイデアに関する質問では、中心となるコンセプトを特定する必要があります。栄養素の循環に関する文章の主な考え方は、特定の元素 (この場合は窒素) が生物学的および化学的プロセスを介してさまざまな形を経て循環するというものです。"
     },
     {
       "id": "en_toefl_reading_008",
@@ -112,8 +112,8 @@
       ],
       "answer": 1,
       "explanation": "This question tests factual understanding of a cause-and-effect relationship. CO2 dissolves in seawater forming carbonic acid, thus increasing ocean acidity. This is the primary mechanism of human-induced ocean acidification.",
-      "ja_question": "[Japanese translation needed: According to the passage, human activities have co...]",
-      "ja_explanation": "[Japanese translation needed: This question tests factual understanding of a cau...]"
+      "ja_question": "この一節によると、人間の活動は主に次のような理由で海洋酸性化に寄与してきました。",
+      "ja_explanation": "この質問では、因果関係についての事実の理解をテストします。CO2は海水に溶けて炭酸を形成し、海洋の酸性度を高めます。これが人為的な海洋酸性化の主なメカニズムです。"
     },
     {
       "id": "en_toefl_reading_009",
@@ -126,8 +126,8 @@
       ],
       "answer": 1,
       "explanation": "A standard theme in ecology passages is that biodiversity increases ecosystem resilience. Multiple species performing similar ecological roles provides redundancy and stability.",
-      "ja_question": "[Japanese translation needed: The passage suggests that biodiversity in ecosyste...]",
-      "ja_explanation": "[Japanese translation needed: A standard theme in ecology passages is that biodi...]"
+      "ja_question": "この一節は、生態系における生物多様性が重要であることを示唆しています。",
+      "ja_explanation": "生態学の文章の標準的なテーマは、生物多様性が生態系の回復力を高めるというものです。同様の生態学的役割を果たす複数の種は、冗長性と安定性を提供します。"
     },
     {
       "id": "en_toefl_reading_010",
@@ -140,8 +140,8 @@
       ],
       "answer": 1,
       "explanation": "TOEFL passages on biodiversity typically explain that stable environmental conditions over long periods allow for greater speciation and ecological complexity.",
-      "ja_question": "[Japanese translation needed: Which of the following best explains why tropical ...]",
-      "ja_explanation": "[Japanese translation needed: TOEFL passages on biodiversity typically explain t...]"
+      "ja_question": "熱帯雨林が温帯森林よりも多くの生物多様性を含む理由を最もよく説明しているものは次のうちどれですか?",
+      "ja_explanation": "生物多様性に関する TOEFL の文章では、通常、長期にわたって安定した環境条件が種分化と生態学的複雑性の増大を可能にすることを説明しています。"
     },
     {
       "id": "en_toefl_reading_011",
@@ -154,8 +154,8 @@
       ],
       "answer": 1,
       "explanation": "Academic TOEFL passages on climate often use cautionary language while maintaining objectivity. The tone emphasizes the importance and urgency of the issue based on scientific evidence.",
-      "ja_question": "[Japanese translation needed: The author's tone regarding climate change in the ...]",
-      "ja_explanation": "[Japanese translation needed: Academic TOEFL passages on climate often use cauti...]"
+      "ja_question": "この文章における気候変動に関する著者の論調は、次のように最もよく特徴づけられる。",
+      "ja_explanation": "気候に関するアカデミックな TOEFL の文章では、客観性を維持しながら警告的な文言が頻繁に使用されます。科学的証拠に基づいて問題の重要性と緊急性を強調する論調です。"
     },
     {
       "id": "en_toefl_reading_012",
@@ -168,8 +168,8 @@
       ],
       "answer": 2,
       "explanation": "This microbiology passage inferential question tests understanding of natural selection. Antibiotic use creates selective pressure that favors resistant bacteria, allowing them to proliferate.",
-      "ja_question": "[Japanese translation needed: It can be inferred that the evolution of antibioti...]",
-      "ja_explanation": "[Japanese translation needed: This microbiology passage inferential question tes...]"
+      "ja_question": "細菌の抗生物質耐性の進化は次のような理由で起こると推測できます。",
+      "ja_explanation": "この微生物学の文章の推論的な質問は、自然選択についての理解をテストします。抗生物質の使用により、耐性菌に有利な選択圧が生じ、耐性菌の増殖が可能になります。"
     },
     {
       "id": "en_toefl_reading_013",
@@ -182,8 +182,8 @@
       ],
       "answer": 1,
       "explanation": "Historical TOEFL passages often discuss how scientific knowledge developed in response to practical human needs. Meteorology advances were crucial for agriculture and seafaring.",
-      "ja_question": "[Japanese translation needed: The passage indicates that the study of meteorolog...]",
-      "ja_explanation": "[Japanese translation needed: Historical TOEFL passages often discuss how scient...]"
+      "ja_question": "この一節は、気象学の研究が歴史的に重要であることを示しています。",
+      "ja_explanation": "TOEFL の歴史的な文章では、実際の人間のニーズに応じて科学的知識がどのように発展したかについて議論することがよくあります。気象学の進歩は農業と海洋産業にとって極めて重要でした。"
     },
     {
       "id": "en_toefl_reading_014",
@@ -196,8 +196,8 @@
       ],
       "answer": 1,
       "explanation": "Plate tectonics passages explain that continental separation isolates populations, allowing independent evolutionary development and divergence into separate species (allopatric speciation).",
-      "ja_question": "[Japanese translation needed: According to the passage, what is the primary mech...]",
-      "ja_explanation": "[Japanese translation needed: Plate tectonics passages explain that continental ...]"
+      "ja_question": "この一節によると、大陸移動が生物多様性に影響を与える主なメカニズムは何ですか?",
+      "ja_explanation": "プレートテクトニクスの一節では、大陸の分離によって個体群が隔離され、独立した進化的発達と別個の種への分岐（異所性種分化）が可能になることが説明されています。"
     },
     {
       "id": "en_toefl_reading_015",
@@ -210,8 +210,8 @@
       ],
       "answer": 1,
       "explanation": "'Profoundly' means deeply and significantly. In technology passages, it refers to substantial, transformative effects rather than minor or superficial changes.",
-      "ja_question": "[Japanese translation needed: The word 'profoundly' in the context of technologi...]",
-      "ja_explanation": "[Japanese translation needed: 'Profoundly' means deeply and significantly. In te...]"
+      "ja_question": "技術的影響の文脈における「深く」という言葉は、ほぼ次のことを意味します。",
+      "ja_explanation": "「深く」とは、深く、重大という意味です。テクノロジーの文章では、小さな変化や表面的な変化ではなく、実質的な変革効果を指します。"
     },
     {
       "id": "en_toefl_reading_016",
@@ -224,8 +224,8 @@
       ],
       "answer": 1,
       "explanation": "TOEFL passages follow logical progression. A passage on renewable energy would naturally continue with technological developments and implementations, not historical background or political debates.",
-      "ja_question": "[Japanese translation needed: Which of the following would most likely be discus...]",
-      "ja_explanation": "[Japanese translation needed: TOEFL passages follow logical progression. A passa...]"
+      "ja_question": "再生可能エネルギーに関するこの文章の続きで議論される可能性が最も高いのは次のうちどれですか?",
+      "ja_explanation": "TOEFL の合格は論理的な進行に従います。再生可能エネルギーに関する文章は、当然のことながら、歴史的背景や政治的議論ではなく、技術開発と実装に続きます。"
     },
     {
       "id": "en_toefl_reading_017",
@@ -238,8 +238,8 @@
       ],
       "answer": 1,
       "explanation": "Conservation passages typically identify the fundamental tension between human development and environmental protection as the core challenge.",
-      "ja_question": "[Japanese translation needed: The passage suggests that the primary challenge in...]",
-      "ja_explanation": "[Japanese translation needed: Conservation passages typically identify the funda...]"
+      "ja_question": "この一節は、野生動物の保護における主な課題は次のようなものであることを示唆しています。",
+      "ja_explanation": "保全に関する文章は通常、人類の発展と環境保護の間の基本的な緊張を中心的な課題として特定します。"
     },
     {
       "id": "en_toefl_reading_018",
@@ -252,8 +252,8 @@
       ],
       "answer": 1,
       "explanation": "Urban ecology passages explain that dark building materials and pavement absorb solar energy, and reduced vegetation and wind circulation prevent heat dissipation.",
-      "ja_question": "[Japanese translation needed: According to the passage, urban heat islands devel...]",
-      "ja_explanation": "[Japanese translation needed: Urban ecology passages explain that dark building ...]"
+      "ja_question": "この文章によると、都市部のヒートアイランドが主に発生する原因は、",
+      "ja_explanation": "都市生態学の文章では、暗い建材や舗装が太陽エネルギーを吸収し、植生の減少と風の循環が熱放散を妨げると説明しています。"
     },
     {
       "id": "en_toefl_reading_019",
@@ -266,8 +266,8 @@
       ],
       "answer": 1,
       "explanation": "In neuroscience passages, 'threshold' refers to minimum requirements or critical levels. This phrase indicates the baseline neural activity necessary for consciousness.",
-      "ja_question": "[Japanese translation needed: The phrase 'threshold of consciousness' as used in...]",
-      "ja_explanation": "[Japanese translation needed: In neuroscience passages, 'threshold' refers to mi...]"
+      "ja_question": "この一節で使用されている「意識の閾値」というフレーズは、おそらく次のことを指します。",
+      "ja_explanation": "神経科学の文章では、「閾値」は最小要件または臨界レベルを指します。このフレーズは、意識に必要な基本的な神経活動を示しています。"
     },
     {
       "id": "en_toefl_reading_020",
@@ -280,8 +280,8 @@
       ],
       "answer": 3,
       "explanation": "The Coriolis effect requires large-scale motion and sufficient spatial distances to manifest. Small-scale laboratory air movements wouldn't be significantly affected.",
-      "ja_question": "[Japanese translation needed: It can be inferred from the passage that the Corio...]",
-      "ja_explanation": "[Japanese translation needed: The Coriolis effect requires large-scale motion an...]"
+      "ja_question": "この文章から、コリオリ効果は大きな影響を与えないと推測できます。",
+      "ja_explanation": "コリオリ効果が現れるには、大規模な運動と十分な空間距離が必要です。小規模な実験室の空気の動きは大きな影響を受けません。"
     },
     {
       "id": "en_toefl_reading_021",
@@ -294,8 +294,8 @@
       ],
       "answer": 1,
       "explanation": "Geology passages define metamorphic rock formation as the process where existing rocks (protoliths) are transformed by heat and pressure in the Earth's crust.",
-      "ja_question": "[Japanese translation needed: The passage implies that metamorphic rocks are for...]",
-      "ja_explanation": "[Japanese translation needed: Geology passages define metamorphic rock formation...]"
+      "ja_question": "この一節は、変成岩が形成されるのは次の場合であることを示唆しています。",
+      "ja_explanation": "地質学の文章では、変成岩の形成を、既存の岩石 (原石) が地殻内の熱と圧力によって変形するプロセスとして定義しています。"
     },
     {
       "id": "en_toefl_reading_022",
@@ -308,8 +308,8 @@
       ],
       "answer": 1,
       "explanation": "Agricultural history passages explain that domestication occurred through artificial selection—humans chose plants with desirable characteristics and planted their seeds, accumulating beneficial traits.",
-      "ja_question": "[Japanese translation needed: Based on the passage, the domestication of plants ...]",
-      "ja_explanation": "[Japanese translation needed: Agricultural history passages explain that domesti...]"
+      "ja_question": "この一節に基づいて、初期文明による植物の栽培化が可能だった理由は次のとおりです。",
+      "ja_explanation": "農業史の一節では、家畜化が人為的選択によって起こったと説明しています。人間は望ましい特性を持つ植物を選択し、種子を植え、有益な特性を蓄積しました。"
     },
     {
       "id": "en_toefl_reading_023",
@@ -322,8 +322,8 @@
       ],
       "answer": 1,
       "explanation": "History passages on trade routes describe how material goods, artistic styles, technological innovations, and ideas flowed between connected regions.",
-      "ja_question": "[Japanese translation needed: The passage indicates that cultural diffusion in a...]",
-      "ja_explanation": "[Japanese translation needed: History passages on trade routes describe how mate...]"
+      "ja_question": "この一節は、古代の貿易ネットワークにおける文化の拡散が主に次のような役割を果たしたことを示しています。",
+      "ja_explanation": "交易路に関する歴史の文章には、物質的な商品、芸術的スタイル、技術革新、アイデアが接続された地域間をどのように流れたかが説明されています。"
     },
     {
       "id": "en_toefl_reading_024",
@@ -336,8 +336,8 @@
       ],
       "answer": 1,
       "explanation": "Supply and demand economics: shortages fundamentally occur when demand exceeds supply. This is the most direct cause of housing shortages.",
-      "ja_question": "[Japanese translation needed: Which of the following most directly explains the ...]",
-      "ja_explanation": "[Japanese translation needed: Supply and demand economics: shortages fundamental...]"
+      "ja_question": "この文章で説明されている住宅不足を最も直接的に説明しているのは次のうちどれですか?",
+      "ja_explanation": "需要と供給の経済学: 不足は基本的に需要が供給を上回るときに発生します。これが住宅不足の最も直接的な原因です。"
     },
     {
       "id": "en_toefl_reading_025",
@@ -350,8 +350,8 @@
       ],
       "answer": 1,
       "explanation": "Academic writing uses historical examples to establish patterns and provide context. References to past cycles support the claim that similar patterns appear throughout history.",
-      "ja_question": "[Japanese translation needed: The author's reference to historical economic cycl...]",
-      "ja_explanation": "[Japanese translation needed: Academic writing uses historical examples to estab...]"
+      "ja_question": "著者が歴史的な経済循環に言及することは、",
+      "ja_explanation": "アカデミックライティングでは、歴史的な例を使用してパターンを確立し、コンテキストを提供します。過去のサイクルへの言及は、同様のパターンが歴史を通じて現れるという主張を裏付けています。"
     },
     {
       "id": "en_toefl_reading_026",
@@ -364,8 +364,8 @@
       ],
       "answer": 1,
       "explanation": "Anthropology and history passages typically explain that pre-modern societies used religious authority and class systems to maintain social order, as these appear in multiple TOEFL passages.",
-      "ja_question": "[Japanese translation needed: It can be inferred that the social structure descr...]",
-      "ja_explanation": "[Japanese translation needed: Anthropology and history passages typically explai...]"
+      "ja_question": "この一節で説明されている社会構造は、主に",
+      "ja_explanation": "人類学や歴史の文章では、TOEFL の複数の文章に登場するように、前近代社会では社会秩序を維持するために宗教的権威と階級制度が使用されていたことが通常説明されています。"
     },
     {
       "id": "en_toefl_reading_027",
@@ -378,8 +378,8 @@
       ],
       "answer": 1,
       "explanation": "Complex historical events like empire decline are presented in TOEFL passages as resulting from multiple interconnected causes rather than single events.",
-      "ja_question": "[Japanese translation needed: The passage suggests that the decline of the Roman...]",
-      "ja_explanation": "[Japanese translation needed: Complex historical events like empire decline are ...]"
+      "ja_question": "この一節は、ローマ帝国の衰退が主に次のような原因によるものであることを示唆しています。",
+      "ja_explanation": "帝国の衰退などの複雑な歴史的出来事は、TOEFL の文章では、単一の出来事ではなく、相互に関連した複数の原因から生じるものとして表現されています。"
     },
     {
       "id": "en_toefl_reading_028",
@@ -392,8 +392,8 @@
       ],
       "answer": 1,
       "explanation": "Most TOEFL sciences passages center on research examining relationships or testing hypotheses within defined populations.",
-      "ja_question": "[Japanese translation needed: Based on the passage, the primary purpose of the s...]",
-      "ja_explanation": "[Japanese translation needed: Most TOEFL sciences passages center on research ex...]"
+      "ja_question": "この一節に基づくと、研究の主な目的は次のとおりでした。",
+      "ja_explanation": "TOEFL の科学関連の文章のほとんどは、定義された母集団内の関係を調査したり仮説を検証したりする研究を中心としています。"
     },
     {
       "id": "en_toefl_reading_029",
@@ -406,8 +406,8 @@
       ],
       "answer": 2,
       "explanation": "TOEFL reading tests knowledge of text organization patterns. Questions like this require identifying how information is structured and sequenced.",
-      "ja_question": "[Japanese translation needed: Which of the following best describes the organiza...]",
-      "ja_explanation": "[Japanese translation needed: TOEFL reading tests knowledge of text organization...]"
+      "ja_question": "この文章の構成パターンを最もよく説明しているものは次のうちどれですか?",
+      "ja_explanation": "TOEFL の読解では、テキストの構成パターンに関する知識がテストされます。このような質問では、情報がどのように構造化され順序付けされているかを特定する必要があります。"
     },
     {
       "id": "en_toefl_reading_030",
@@ -420,8 +420,8 @@
       ],
       "answer": 1,
       "explanation": "Meteorology passages explain that atmospheric variables interact to determine weather patterns and make forecasting possible.",
-      "ja_question": "[Japanese translation needed: The passage implies that factors such as humidity,...]",
-      "ja_explanation": "[Japanese translation needed: Meteorology passages explain that atmospheric vari...]"
+      "ja_question": "この一節は、湿度、温度、気圧などの要素が気象学にとって総合的に重要であることを示唆しています。",
+      "ja_explanation": "気象学の文章では、大気の変数が相互作用して天気のパターンを決定し、予測を可能にすることが説明されています。"
     },
     {
       "id": "en_toefl_reading_031",
@@ -434,8 +434,8 @@
       ],
       "answer": 1,
       "explanation": "Animal behavior passages emphasize that migratory navigation involves multiple redundant systems—magnetic sensing, celestial navigation, and landmark recognition.",
-      "ja_question": "[Japanese translation needed: According to the passage, which of the following b...]",
-      "ja_explanation": "[Japanese translation needed: Animal behavior passages emphasize that migratory ...]"
+      "ja_question": "この一節によると、渡り鳥が大陸をうまく横断できる理由を最もよく説明しているのは次のうちどれですか?",
+      "ja_explanation": "動物の行動に関する文章では、渡りのナビゲーションには磁気感知、天体ナビゲーション、ランドマーク認識などの複数の冗長システムが関与していることが強調されています。"
     },
     {
       "id": "en_toefl_reading_032",
@@ -448,8 +448,8 @@
       ],
       "answer": 1,
       "explanation": "'Turbulent' refers to chaotic, unpredictable movement. In meteorology, it describes irregular air motion and atmospheric instability.",
-      "ja_question": "[Japanese translation needed: The word 'turbulent' in the context of weather pat...]",
-      "ja_explanation": "[Japanese translation needed: 'Turbulent' refers to chaotic, unpredictable movem...]"
+      "ja_question": "気象パターンの文脈における「乱流」という言葉は、次のような意味に最も近いです。",
+      "ja_explanation": "「乱流」とは、混沌とした予測不可能な動きを指します。気象学では、不規則な大気の動きと大気の不安定性を指します。"
     },
     {
       "id": "en_toefl_reading_033",
@@ -462,8 +462,8 @@
       ],
       "answer": 1,
       "explanation": "Agricultural science passages discuss the ecological consequences of pesticide use: selection for resistant pest populations and negative environmental impacts.",
-      "ja_question": "[Japanese translation needed: Based on the passage, the use of pesticides in agr...]",
-      "ja_explanation": "[Japanese translation needed: Agricultural science passages discuss the ecologic...]"
+      "ja_question": "この一節によると、農業における農薬の使用は次のような予期せぬ結果をもたらしています。",
+      "ja_explanation": "農業科学の一節では、農薬使用の生態学的影響、つまり耐性害虫個体群の選択と環境への悪影響について議論しています。"
     },
     {
       "id": "en_toefl_reading_034",
@@ -476,8 +476,8 @@
       ],
       "answer": 1,
       "explanation": "History passages emphasize that the printing press's significance lay in its ability to replicate texts at scale, democratizing knowledge access.",
-      "ja_question": "[Japanese translation needed: It can be inferred that the invention of the print...]",
-      "ja_explanation": "[Japanese translation needed: History passages emphasize that the printing press...]"
+      "ja_question": "印刷機の発明が重要だったのは、主に次のような理由からであると推測できます。",
+      "ja_explanation": "歴史の一節は、印刷機の重要性はテキストを大規模に複製し、知識へのアクセスを民主化する能力にあることを強調しています。"
     },
     {
       "id": "en_toefl_reading_035",
@@ -490,8 +490,8 @@
       ],
       "answer": 1,
       "explanation": "Sociology passages define the industrial revolution through transformed energy systems (fossil fuels) and labor organization (factories, specialization).",
-      "ja_question": "[Japanese translation needed: The passage suggests that industrial societies dif...]",
-      "ja_explanation": "[Japanese translation needed: Sociology passages define the industrial revolutio...]"
+      "ja_question": "この一節は、工業化社会が産業化以前の社会と主に異なる点で異なることを示唆しています。",
+      "ja_explanation": "社会学の文章では、転換されたエネルギー システム (化石燃料) と労働組織 (工場、専門分野) を通じて産業革命を定義します。"
     },
     {
       "id": "en_toefl_reading_036",
@@ -504,8 +504,8 @@
       ],
       "answer": 1,
       "explanation": "Philosophy of science passages explain that science's defining characteristics are empirical foundations, falsifiability, and openness to revision based on evidence.",
-      "ja_question": "[Japanese translation needed: According to the passage, what distinguishes scien...]",
-      "ja_explanation": "[Japanese translation needed: Philosophy of science passages explain that scienc...]"
+      "ja_question": "この一節によると、科学理論と他の説明システムとの違いは何でしょうか?",
+      "ja_explanation": "科学哲学の文章では、科学の特徴は経験的基礎、反証可能性、証拠に基づく改訂の寛容さであると説明されています。"
     },
     {
       "id": "en_toefl_reading_037",
@@ -518,8 +518,8 @@
       ],
       "answer": 1,
       "explanation": "Environmental science passages emphasize the dual importance of tropical rainforests: extraordinary biodiversity and critical carbon sequestration roles.",
-      "ja_question": "[Japanese translation needed: The passage indicates that ecosystems in tropical ...]",
-      "ja_explanation": "[Japanese translation needed: Environmental science passages emphasize the dual ...]"
+      "ja_question": "この一節は、熱帯地域の生態系が特に森林破壊の影響を受けやすいことを示しています。",
+      "ja_explanation": "環境科学の文章では、熱帯雨林の並外れた生物多様性と重要な炭素隔離の役割という二重の重要性が強調されています。"
     },
     {
       "id": "en_toefl_reading_038",
@@ -532,8 +532,8 @@
       ],
       "answer": 1,
       "explanation": "Developmental psychology passages present cognitive development as progressing through distinct stages (Piaget's theory), each with new capabilities.",
-      "ja_question": "[Japanese translation needed: Which of the following can be best inferred about ...]",
-      "ja_explanation": "[Japanese translation needed: Developmental psychology passages present cognitiv...]"
+      "ja_question": "この一節から人間の認知発達について最もよく推測できるのは次のうちどれですか?",
+      "ja_explanation": "発達心理学の文章では、認知発達が、それぞれに新しい能力を備えた異なる段階を経て進行するものとして示されています (ピアジェの理論)。"
     },
     {
       "id": "en_toefl_reading_039",
@@ -546,8 +546,8 @@
       ],
       "answer": 1,
       "explanation": "Art history passages on movements (Renaissance, Impressionism, Modernism) emphasize their revolutionary break from preceding traditions.",
-      "ja_question": "[Japanese translation needed: The passage implies that the artistic movements de...]",
-      "ja_explanation": "[Japanese translation needed: Art history passages on movements (Renaissance, Im...]"
+      "ja_question": "この一節は、説明されている芸術運動が次のどの特徴を共有していることを暗示していますか?",
+      "ja_explanation": "運動（ルネサンス、印象派、モダニズム）に関する美術史の文章では、先行する伝統からの革命的な脱却が強調されています。"
     },
     {
       "id": "en_toefl_reading_040",
@@ -560,8 +560,8 @@
       ],
       "answer": 1,
       "explanation": "Immunology passages define the immune system's core function as defense through recognition and elimination of foreign agents and abnormal cells.",
-      "ja_question": "[Japanese translation needed: According to the passage, the primary function of ...]",
-      "ja_explanation": "[Japanese translation needed: Immunology passages define the immune system's cor...]"
+      "ja_question": "この一節によると、人間の免疫システムの主な機能は次のとおりです。",
+      "ja_explanation": "免疫学では、免疫系の中核機能を、外来因子や異常細胞の認識と排除による防御として定義します。"
     },
     {
       "id": "en_toefl_reading_041",
@@ -574,8 +574,8 @@
       ],
       "answer": 1,
       "explanation": "Philosophy of science passages explain that mathematical modeling enables simplification of complexity while maintaining predictive power.",
-      "ja_question": "[Japanese translation needed: It can be inferred from the passage that mathemati...]",
-      "ja_explanation": "[Japanese translation needed: Philosophy of science passages explain that mathem...]"
+      "ja_question": "この文章から、自然現象の数学的モデルには価値があることが推測できます。",
+      "ja_explanation": "科学哲学の一節では、数学的モデリングにより、予測力を維持しながら複雑さを単純化できることが説明されています。"
     },
     {
       "id": "en_toefl_reading_042",
@@ -588,8 +588,8 @@
       ],
       "answer": 1,
       "explanation": "Molecular biology passages establish the central dogma: DNA sequences directly determine amino acid sequences, which determine protein structure and function.",
-      "ja_question": "[Japanese translation needed: Based on the passage, the structure and function o...]",
-      "ja_explanation": "[Japanese translation needed: Molecular biology passages establish the central d...]"
+      "ja_question": "この経過に基づいて、タンパク質の構造と機能は次のように最も直接的に決定されます。",
+      "ja_explanation": "分子生物学の論文では、DNA 配列がアミノ酸配列を直接決定し、タンパク質の構造と機能が決定されるというセントラル ドグマが確立されています。"
     },
     {
       "id": "en_toefl_reading_043",
@@ -602,8 +602,8 @@
       ],
       "answer": 1,
       "explanation": "Environmental economics passages discuss the historical disconnect between economic incentives (short-term profit) and environmental concerns (long-term sustainability).",
-      "ja_question": "[Japanese translation needed: The passage suggests that environmental degradatio...]",
-      "ja_explanation": "[Japanese translation needed: Environmental economics passages discuss the histo...]"
+      "ja_question": "この一節は、歴史的に環境破壊と経済発展のバランスをとることが困難であったことを示唆しています。",
+      "ja_explanation": "環境経済学の文章では、経済的インセンティブ (短期的な利益) と環境への懸念 (長期的な持続可能性) の間の歴史的な断絶について議論しています。"
     },
     {
       "id": "en_toefl_reading_044",
@@ -616,8 +616,8 @@
       ],
       "answer": 2,
       "explanation": "Economics passages explain that market equilibrium occurs where quantity supplied equals quantity demanded at a particular price.",
-      "ja_question": "[Japanese translation needed: Which of the following best describes the relation...]",
-      "ja_explanation": "[Japanese translation needed: Economics passages explain that market equilibrium...]"
+      "ja_question": "この文章で示されている市場経済学における需要と供給の関係を最もよく表しているものは次のうちどれですか?",
+      "ja_explanation": "経済学の文章では、供給量が特定の価格での需要量に等しい場合に市場の均衡が生じると説明されています。"
     },
     {
       "id": "en_toefl_reading_045",
@@ -630,8 +630,8 @@
       ],
       "answer": 1,
       "explanation": "Psycholinguistics passages discuss Chomsky's theory that children acquire language through innate grammatical mechanisms, not pure mimicry.",
-      "ja_question": "[Japanese translation needed: The passage indicates that the study of linguistic...]",
-      "ja_explanation": "[Japanese translation needed: Psycholinguistics passages discuss Chomsky's theor...]"
+      "ja_question": "この一節は、言語学の研究により、子供の言語習得には",
+      "ja_explanation": "心理言語学の文章では、子どもは純粋な模倣ではなく、生得的な文法メカニズムを通じて言語を獲得するというチョムスキーの理論について議論されています。"
     },
     {
       "id": "en_toefl_reading_046",
@@ -644,8 +644,8 @@
       ],
       "answer": 1,
       "explanation": "Business and organizational psychology passages identify vision, communication, and adaptability as common features of successful organizations.",
-      "ja_question": "[Japanese translation needed: Based on the passage, successful organizations typ...]",
-      "ja_explanation": "[Japanese translation needed: Business and organizational psychology passages id...]"
+      "ja_question": "この一節によると、成功している組織は通常、次のどの特徴を共有していますか?",
+      "ja_explanation": "ビジネスおよび組織心理学の文章では、成功する組織の共通の特徴としてビジョン、コミュニケーション、適応性が特定されています。"
     },
     {
       "id": "en_toefl_reading_047",
@@ -658,8 +658,8 @@
       ],
       "answer": 1,
       "explanation": "Public health passages discuss how medical technology extended lifespan through disease prevention and treatment advances, not reversal of aging itself.",
-      "ja_question": "[Japanese translation needed: The passage implies that advances in medical techn...]",
-      "ja_explanation": "[Japanese translation needed: Public health passages discuss how medical technol...]"
+      "ja_question": "この一節は、医療技術の進歩が主に人間の寿命の延長に貢献してきたことを示唆しています。",
+      "ja_explanation": "公衆衛生に関する文章では、老化そのものを逆転させるのではなく、医療技術が病気の予防と治療の進歩を通じてどのように寿命を延ばしたかについて説明しています。"
     },
     {
       "id": "en_toefl_reading_048",
@@ -672,8 +672,8 @@
       ],
       "answer": 1,
       "explanation": "Educational research passages emphasize that teaching effectiveness results from interactions between student factors, content, methods, and contexts.",
-      "ja_question": "[Japanese translation needed: It can be inferred that the effectiveness of a par...]",
-      "ja_explanation": "[Japanese translation needed: Educational research passages emphasize that teach...]"
+      "ja_question": "特定の教育方法の有効性は、以下に依存すると推測できます。",
+      "ja_explanation": "教育研究の文章では、教育の効果は生徒の要素、内容、方法、および状況間の相互作用によってもたらされることが強調されています。"
     },
     {
       "id": "en_toefl_reading_049",
@@ -686,8 +686,8 @@
       ],
       "answer": 1,
       "explanation": "Anthropology passages explain that cultural evolution can incorporate acquired characteristics and intentional design, unlike biological evolution.",
-      "ja_question": "[Japanese translation needed: The passage suggests that cultural evolution diffe...]",
-      "ja_explanation": "[Japanese translation needed: Anthropology passages explain that cultural evolut...]"
+      "ja_question": "この一節は、文化進化が生物学的進化と主に次の点で異なることを示唆しています。",
+      "ja_explanation": "人類学の文章では、文化進化は生物学的進化とは異なり、後天的な特徴と意図的な設計を組み込むことができると説明しています。"
     },
     {
       "id": "en_toefl_reading_050",
@@ -700,8 +700,8 @@
       ],
       "answer": 1,
       "explanation": "The primary purpose of academic TOEFL passages is typically to explain concepts and present supporting evidence, establishing the reader's understanding of the topic.",
-      "ja_question": "[Japanese translation needed: Which of the following best describes the main pur...]",
-      "ja_explanation": "[Japanese translation needed: The primary purpose of academic TOEFL passages is ...]"
+      "ja_question": "この文章の主な目的を最もよく表しているのは次のうちどれですか?",
+      "ja_explanation": "アカデミックな TOEFL 文章の主な目的は、通常、概念を説明し、裏付けとなる証拠を提示して、トピックに対する読者の理解を確立することです。"
     }
   ]
 }

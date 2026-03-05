@@ -15,8 +15,8 @@
       ],
       "answer": 1,
       "explanation": "Main idea questions ask students to identify the central concept of a lecture. The lecture presents variation in photosynthetic adaptations across plant types.",
-      "ja_question": "[Japanese translation needed: What is the main idea of the lecture?...]",
-      "ja_explanation": "[Japanese translation needed: Main idea questions ask students to identify the c...]"
+      "ja_question": "この講座の主な考え方は何ですか？",
+      "ja_explanation": "主要な考え方の質問は、学生に講座の中心的な概念を特定するよう求めています。この講座は、植物の種全体における光合成適応の変動を提示しています。"
     },
     {
       "id": "en_toefl_listening_002",
@@ -30,8 +30,8 @@
       ],
       "answer": 1,
       "explanation": "Detail questions ask for specific information. C4 plants concentrate CO2 through stomata more efficiently, allowing them to close stomata sooner and conserve water.",
-      "ja_question": "[Japanese translation needed: According to the professor, why do C4 plants have ...]",
-      "ja_explanation": "[Japanese translation needed: Detail questions ask for specific information. C4 ...]"
+      "ja_question": "教授によると、C4植物が暑く乾燥した気候で有利である理由は何ですか？",
+      "ja_explanation": "詳細な質問は特定の情報を求めています。C4植物は気孔を通してCO2をより効率的に濃縮し、気孔をより早く閉じて水を節約することができます。"
     },
     {
       "id": "en_toefl_listening_003",
@@ -45,8 +45,8 @@
       ],
       "answer": 2,
       "explanation": "Inferential questions require combining information from the lecture. Temperature and precipitation patterns determine where these plants evolved and naturally occur.",
-      "ja_question": "[Japanese translation needed: What can be inferred about the distribution of C3 ...]",
-      "ja_explanation": "[Japanese translation needed: Inferential questions require combining informatio...]"
+      "ja_question": "C3植物対C4植物の分布について何が推測できますか？",
+      "ja_explanation": "推論的な質問は講座の情報を組み合わせる必要があります。温度と降水量のパターンは、これらの植物がどこで進化し、自然に発生したかを決定します。"
     },
     {
       "id": "en_toefl_listening_004",
@@ -60,8 +60,8 @@
       ],
       "answer": 1,
       "explanation": "Speaker attitude questions assess tone. Academic lectures use phrases like 'remarkable adaptation' or 'remarkable innovation' to indicate positive evaluation.",
-      "ja_question": "[Japanese translation needed: What is the professor's attitude toward C4 photosy...]",
-      "ja_explanation": "[Japanese translation needed: Speaker attitude questions assess tone. Academic l...]"
+      "ja_question": "C4光合成に対する教授の態度は何ですか？",
+      "ja_explanation": "スピーカーの態度の質問はトーンを評価します。学術的な講座では、「注目すべき適応」または「注目すべき革新」というフレーズを使用して、肯定的な評価を示します。"
     },
     {
       "id": "en_toefl_listening_005",
@@ -75,8 +75,8 @@
       ],
       "answer": 1,
       "explanation": "Prediction questions assess understanding of lecture flow. A logical continuation would apply the knowledge to contemporary challenges like climate adaptation.",
-      "ja_question": "[Japanese translation needed: Which of the following would the professor most li...]",
-      "ja_explanation": "[Japanese translation needed: Prediction questions assess understanding of lectu...]"
+      "ja_question": "次に教授が最も可能性が高く議論するのは次のどちらですか？",
+      "ja_explanation": "予測の質問は講座のフローの理解を評価します。論理的な継続は、気候適応などの現代的な課題に知識を適用します。"
     },
     {
       "id": "en_toefl_listening_006",
@@ -90,8 +90,8 @@
       ],
       "answer": 1,
       "explanation": "Conversation main ideas typically involve the purpose and focus of the dialogue between speakers.",
-      "ja_question": "[Japanese translation needed: What is the main topic of the conversation?...]",
-      "ja_explanation": "[Japanese translation needed: Conversation main ideas typically involve the purp...]"
+      "ja_question": "この会話の主なトピックは何ですか？",
+      "ja_explanation": "会話の主要なアイデアは通常、スピーカー間の対話の目的と焦点を含みます。"
     },
     {
       "id": "en_toefl_listening_007",
@@ -105,8 +105,8 @@
       ],
       "answer": 2,
       "explanation": "This detail-and-inference question requires listening for the student's expressed concerns about matching interests and workload capacity.",
-      "ja_question": "[Japanese translation needed: Why does the student seem uncertain about project ...]",
-      "ja_explanation": "[Japanese translation needed: This detail-and-inference question requires listen...]"
+      "ja_question": "学生がプロジェクト選択について不確実に見える理由は何ですか？",
+      "ja_explanation": "この詳細と推論の質問は、学生が関心とワークロード容量のマッチングについて表明した懸念を聞く必要があります。"
     },
     {
       "id": "en_toefl_listening_008",
@@ -120,8 +120,8 @@
       ],
       "answer": 2,
       "explanation": "Professor advice questions capture recommendations explicitly stated. The professor suggests informed decision-making through research and consultation.",
-      "ja_question": "[Japanese translation needed: What advice does the professor give?...]",
-      "ja_explanation": "[Japanese translation needed: Professor advice questions capture recommendations...]"
+      "ja_question": "教授はどのアドバイスをしていますか？",
+      "ja_explanation": "教授のアドバイスの質問は、明示的に述べられた推奨事項を捉えています。教授は研究と相談を通して情報に基づいた意思決定を提案しています。"
     },
     {
       "id": "en_toefl_listening_009",
@@ -135,8 +135,8 @@
       ],
       "answer": 1,
       "explanation": "Implied meaning questions require inferring from context. The student's expressed interest in exploring different approaches suggests some prior experience.",
-      "ja_question": "[Japanese translation needed: What does the student imply about their previous r...]",
-      "ja_explanation": "[Japanese translation needed: Implied meaning questions require inferring from c...]"
+      "ja_question": "学生は彼らの以前の研究経験について何を暗に示していますか？",
+      "ja_explanation": "暗に示された意味の質問は、文脈から推論する必要があります。学生が異なるアプローチを探索することへの関心を表明することは、いくつかの以前の経験を示唆しています。"
     },
     {
       "id": "en_toefl_listening_010",
@@ -150,8 +150,8 @@
       ],
       "answer": 1,
       "explanation": "Main purpose requires identifying the lecture's core objective: understanding the consequences of mitochondrial problems.",
-      "ja_question": "[Japanese translation needed: What is the main purpose of the lecture on mitocho...]",
-      "ja_explanation": "[Japanese translation needed: Main purpose requires identifying the lecture's co...]"
+      "ja_question": "ミトコンドリア機能障害に関する講座の主な目的は何ですか？",
+      "ja_explanation": "主な目的は、講座の中心的な目的を特定することが必要です。これはミトコンドリア問題の結果を理解することです。"
     },
     {
       "id": "en_toefl_listening_011",
@@ -165,8 +165,8 @@
       ],
       "answer": 1,
       "explanation": "Detail questions identify specific consequences explicitly explained in the lecture.",
-      "ja_question": "[Japanese translation needed: According to the lecture, what are the consequence...]",
-      "ja_explanation": "[Japanese translation needed: Detail questions identify specific consequences ex...]"
+      "ja_question": "講座によると、細胞のATP枯渇の結果は何ですか？",
+      "ja_explanation": "詳細な質問は講座で明示的に説明されている特定の結果を特定します。"
     },
     {
       "id": "en_toefl_listening_012",
@@ -180,8 +180,8 @@
       ],
       "answer": 1,
       "explanation": "Example purpose questions identify why a specific case is mentioned. Leigh syndrome exemplifies real-world consequences of mitochondrial problems.",
-      "ja_question": "[Japanese translation needed: The professor mentions Leigh syndrome primarily to...]",
-      "ja_explanation": "[Japanese translation needed: Example purpose questions identify why a specific ...]"
+      "ja_question": "教授がライ症候群に言及する主な理由は",
+      "ja_explanation": "例の目的の質問は、特定の事例が言及される理由を特定します。ライ症候群はミトコンドリア問題の実際の結果を例示しています。"
     },
     {
       "id": "en_toefl_listening_013",
@@ -195,8 +195,8 @@
       ],
       "answer": 1,
       "explanation": "Implied information questions require inference. The mention of underdiagnosis implies these diseases occur but aren't always recognized.",
-      "ja_question": "[Japanese translation needed: What is implied about the prevalence of mitochondr...]",
-      "ja_explanation": "[Japanese translation needed: Implied information questions require inference. T...]"
+      "ja_question": "ミトコンドリア病の有病率について何が暗に示されていますか？",
+      "ja_explanation": "暗に示された情報の質問は推論を必要とします。過小診断の言及は、これらの疾患が発生するが常に認識されていないことを暗に示しています。"
     },
     {
       "id": "en_toefl_listening_014",
@@ -210,8 +210,8 @@
       ],
       "answer": 1,
       "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked.",
-      "ja_question": "[Japanese translation needed: What does the student's question reveal about thei...]",
-      "ja_explanation": "[Japanese translation needed: Student comprehension questions assess understandi...]"
+      "ja_question": "学生の質問は彼らの理解について何を明らかにしていますか？",
+      "ja_explanation": "学生の理解の質問は、尋ねられた質問の洗練に基づいて理解を評価します。"
     },
     {
       "id": "en_toefl_listening_015",
@@ -225,8 +225,8 @@
       ],
       "answer": 2,
       "explanation": "Prediction questions extend the lecture's logical progression. Genetic inheritance of mitochondrial mutations is a natural continuation.",
-      "ja_question": "[Japanese translation needed: Which of the following would the professor most li...]",
-      "ja_explanation": "[Japanese translation needed: Prediction questions extend the lecture's logical ...]"
+      "ja_question": "教授が関連トピックとして議論する可能性が最も高いのは次のうちどれですか?",
+      "ja_explanation": "予測質問は講義の論理的な展開を拡張します。ミトコンドリア変異の遺伝的継承は自然に継続します。"
     },
     {
       "id": "en_toefl_listening_016",
@@ -240,8 +240,8 @@
       ],
       "answer": 1,
       "explanation": "Conversation main ideas reflect the purpose and focus of speaker interaction.",
-      "ja_question": "[Japanese translation needed: What is the main idea of the conversation?...]",
-      "ja_explanation": "[Japanese translation needed: Conversation main ideas reflect the purpose and fo...]"
+      "ja_question": "会話の主なアイデアは何ですか?",
+      "ja_explanation": "会話の主なアイデアは、話者の対話の目的と焦点を反映しています。"
     },
     {
       "id": "en_toefl_listening_017",
@@ -255,8 +255,8 @@
       ],
       "answer": 1,
       "explanation": "Detail questions identify specific information about tool capabilities and advantages.",
-      "ja_question": "[Japanese translation needed: According to the librarian, what advantage do prop...]",
-      "ja_explanation": "[Japanese translation needed: Detail questions identify specific information abo...]"
+      "ja_question": "図書館員によると、独自のデータベースには一般的な検索エンジンに比べてどのような利点があるのでしょうか?",
+      "ja_explanation": "詳細な質問により、ツールの機能と利点に関する具体的な情報が特定されます。"
     },
     {
       "id": "en_toefl_listening_018",
@@ -270,8 +270,8 @@
       ],
       "answer": 1,
       "explanation": "Inference questions assess understanding of context clues suggesting the student is beginning academic research.",
-      "ja_question": "[Japanese translation needed: What can be inferred about the student's previous ...]",
-      "ja_explanation": "[Japanese translation needed: Inference questions assess understanding of contex...]"
+      "ja_question": "学生のこれまでの研究経験から何が推測できますか?",
+      "ja_explanation": "推論質問は、学生が学術研究を始めていることを示唆する文脈の手がかりの理解を評価します。"
     },
     {
       "id": "en_toefl_listening_019",
@@ -285,8 +285,8 @@
       ],
       "answer": 2,
       "explanation": "Reason questions ask for explanation of motivations or justifications provided in the conversation.",
-      "ja_question": "[Japanese translation needed: Why does the librarian stress the importance of ci...]",
-      "ja_explanation": "[Japanese translation needed: Reason questions ask for explanation of motivation...]"
+      "ja_question": "なぜ図書館司書は出典を引用することの重要性を強調するのでしょうか?",
+      "ja_explanation": "理由の質問では、会話の中で提供された動機や正当化の説明が求められます。"
     },
     {
       "id": "en_toefl_listening_020",
@@ -300,8 +300,8 @@
       ],
       "answer": 1,
       "explanation": "Attitude questions assess speaker tone. Phrases like 'I'm happy to help' indicate enthusiasm and support.",
-      "ja_question": "[Japanese translation needed: What is the librarian's attitude toward helping st...]",
-      "ja_explanation": "[Japanese translation needed: Attitude questions assess speaker tone. Phrases li...]"
+      "ja_question": "図書館司書は学生の調べ物を手伝う姿勢はどのようなものですか？",
+      "ja_explanation": "態度質問は話者の口調を評価します。「喜んでお手伝いします」のようなフレーズは、熱意とサポートを示します。"
     },
     {
       "id": "en_toefl_listening_021",
@@ -315,8 +315,8 @@
       ],
       "answer": 2,
       "explanation": "Factual detail questions ask for explicit information from the lecture content.",
-      "ja_question": "[Japanese translation needed: According to the geology lecture, what process is ...]",
-      "ja_explanation": "[Japanese translation needed: Factual detail questions ask for explicit informat...]"
+      "ja_question": "地質学の講義によると、堆積岩の形成には主にどのような過程が関与しているのでしょうか?",
+      "ja_explanation": "事実に関する詳細な質問では、講義内容からの明確な情報が求められます。"
     },
     {
       "id": "en_toefl_listening_022",
@@ -330,8 +330,8 @@
       ],
       "answer": 1,
       "explanation": "Example purpose questions identify why specific illustrations are used in lectures.",
-      "ja_question": "[Japanese translation needed: Why does the professor mention the Grand Canyon in...]",
-      "ja_explanation": "[Japanese translation needed: Example purpose questions identify why specific il...]"
+      "ja_question": "なぜ教授は講義の中でグランドキャニオンについて言及するのですか?",
+      "ja_explanation": "目的の質問例では、講義で特定のイラストが使用される理由を特定します。"
     },
     {
       "id": "en_toefl_listening_023",
@@ -345,8 +345,8 @@
       ],
       "answer": 1,
       "explanation": "Inference questions require combining information about layering, fossilization, and radiometric dating discussed in the lecture.",
-      "ja_question": "[Japanese translation needed: What is implied about the age of Earth based on th...]",
-      "ja_explanation": "[Japanese translation needed: Inference questions require combining information ...]"
+      "ja_question": "講義の議論に基づいて地球の年齢について何が暗示されていますか?",
+      "ja_explanation": "推論の質問では、講義で説明した層形成、化石化、放射年代測定に関する情報を組み合わせる必要があります。"
     },
     {
       "id": "en_toefl_listening_024",
@@ -360,8 +360,8 @@
       ],
       "answer": 1,
       "explanation": "This question type asks what student questions suggest about understanding or misunderstanding of concepts.",
-      "ja_question": "[Japanese translation needed: What question does a student ask that reveals thei...]",
-      "ja_explanation": "[Japanese translation needed: This question type asks what student questions sug...]"
+      "ja_question": "生徒の混乱を明らかにする質問は何ですか?",
+      "ja_explanation": "この質問タイプでは、学生の質問が概念の理解または誤解について何を示唆しているかを尋ねます。"
     },
     {
       "id": "en_toefl_listening_025",
@@ -375,8 +375,8 @@
       ],
       "answer": 2,
       "explanation": "Response analysis questions assess what the professor's answer reveals about the topic.",
-      "ja_question": "[Japanese translation needed: The professor's response to the student's question...]",
-      "ja_explanation": "[Japanese translation needed: Response analysis questions assess what the profes...]"
+      "ja_question": "学生の質問に対する教授の答えは次のことを示しています",
+      "ja_explanation": "応答分析の質問では、教授の回答がトピックに関して何を明らかにしているかを評価します。"
     },
     {
       "id": "en_toefl_listening_026",
@@ -390,8 +390,8 @@
       ],
       "answer": 1,
       "explanation": "Main purpose questions identify the core educational objective of the lecture segment.",
-      "ja_question": "[Japanese translation needed: What is the main purpose of the discussion about c...]",
-      "ja_explanation": "[Japanese translation needed: Main purpose questions identify the core education...]"
+      "ja_question": "サンゴ礁に対する気候の影響に関する議論の主な目的は何ですか?",
+      "ja_explanation": "主な目的の質問は、講義セグメントの中核となる教育目的を特定します。"
     },
     {
       "id": "en_toefl_listening_027",
@@ -405,8 +405,8 @@
       ],
       "answer": 2,
       "explanation": "Causal mechanism questions ask for explicitly stated reasons for biological phenomena.",
-      "ja_question": "[Japanese translation needed: According to the professor, what causes coral blea...]",
-      "ja_explanation": "[Japanese translation needed: Causal mechanism questions ask for explicitly stat...]"
+      "ja_question": "教授によると、サンゴの白化の原因は何でしょうか？",
+      "ja_explanation": "因果メカニズムの質問では、生物学的現象の明確に述べられた理由が求められます。"
     },
     {
       "id": "en_toefl_listening_028",
@@ -420,8 +420,8 @@
       ],
       "answer": 1,
       "explanation": "Inference questions connect explicit information about recovery conditions to implications about recovery potential.",
-      "ja_question": "[Japanese translation needed: What can be inferred about the recovery potential ...]",
-      "ja_explanation": "[Japanese translation needed: Inference questions connect explicit information a...]"
+      "ja_question": "白化したサンゴ礁の回復の可能性について何が推測できますか?",
+      "ja_explanation": "推論質問は、回復条件に関する明示的な情報と回復の可能性に関する示唆を結びつけます。"
     },
     {
       "id": "en_toefl_listening_029",
@@ -435,8 +435,8 @@
       ],
       "answer": 1,
       "explanation": "Prediction questions extend the logical flow from one ecosystem discussion to related systems affected by climate change.",
-      "ja_question": "[Japanese translation needed: Which of the following would the professor most li...]",
-      "ja_explanation": "[Japanese translation needed: Prediction questions extend the logical flow from ...]"
+      "ja_question": "次に教授が最も可能性が高く議論するのは次のどちらですか？",
+      "ja_explanation": "予測の質問は、論理的な流れを 1 つの生態系の議論から、気候変動の影響を受ける関連システムに拡張します。"
     },
     {
       "id": "en_toefl_listening_030",
@@ -450,8 +450,8 @@
       ],
       "answer": 1,
       "explanation": "Discussion main ideas focus on the central question or topic being analyzed by the group.",
-      "ja_question": "[Japanese translation needed: What is the main topic of the academic discussion ...]",
-      "ja_explanation": "[Japanese translation needed: Discussion main ideas focus on the central questio...]"
+      "ja_question": "ティーチングアシスタントと学生の間の学術的な議論の主なトピックは何ですか?",
+      "ja_explanation": "ディスカッションの主なアイデアは、グループによって分析されている中心的な質問またはトピックに焦点を当てます。"
     },
     {
       "id": "en_toefl_listening_031",
@@ -465,8 +465,8 @@
       ],
       "answer": 1,
       "explanation": "Detail questions identify specific predictions or concerns raised by discussion participants.",
-      "ja_question": "[Japanese translation needed: According to one student's contribution, what unin...]",
-      "ja_explanation": "[Japanese translation needed: Detail questions identify specific predictions or ...]"
+      "ja_question": "ある学生の寄稿によると、提案されている最低賃金引き上げにより、どのような予期せぬ結果が生じる可能性がありますか?",
+      "ja_explanation": "詳細な質問は、ディスカッション参加者によって提起された特定の予測や懸念を特定します。"
     },
     {
       "id": "en_toefl_listening_032",
@@ -480,8 +480,8 @@
       ],
       "answer": 1,
       "explanation": "Role questions identify the function a participant serves in the interaction.",
-      "ja_question": "[Japanese translation needed: What is the teaching assistant's role in the discu...]",
-      "ja_explanation": "[Japanese translation needed: Role questions identify the function a participant...]"
+      "ja_question": "ディスカッションにおけるティーチングアシスタントの役割は何ですか?",
+      "ja_explanation": "役割の質問は、対話の中で参加者が果たす役割を特定します。"
     },
     {
       "id": "en_toefl_listening_033",
@@ -495,8 +495,8 @@
       ],
       "answer": 1,
       "explanation": "Inference questions note how different viewpoints in discussion reflect different underlying perspectives or values.",
-      "ja_question": "[Japanese translation needed: What can be inferred about different students' eco...]",
-      "ja_explanation": "[Japanese translation needed: Inference questions note how different viewpoints ...]"
+      "ja_question": "さまざまな学生の経済的観点から何が推測できますか?",
+      "ja_explanation": "推論の質問では、議論におけるさまざまな視点が、根底にあるさまざまな視点や価値観をどのように反映しているかに注目します。"
     },
     {
       "id": "en_toefl_listening_034",
@@ -510,8 +510,8 @@
       ],
       "answer": 1,
       "explanation": "Facilitation style questions assess how discussion leaders handle disagreement and diverse viewpoints.",
-      "ja_question": "[Japanese translation needed: How does the teaching assistant respond when stude...]",
-      "ja_explanation": "[Japanese translation needed: Facilitation style questions assess how discussion...]"
+      "ja_question": "生徒が同意しない場合、ティーチングアシスタントはどのように反応しますか?",
+      "ja_explanation": "ファシリテーション形式の質問は、ディスカッションリーダーが意見の相違や多様な視点にどのように対処するかを評価します。"
     },
     {
       "id": "en_toefl_listening_035",
@@ -525,8 +525,8 @@
       ],
       "answer": 1,
       "explanation": "Learning objective questions identify what the instructor aims to teach through the discussion.",
-      "ja_question": "[Japanese translation needed: What would the teaching assistant likely want stud...]",
-      "ja_explanation": "[Japanese translation needed: Learning objective questions identify what the ins...]"
+      "ja_question": "ティーチング・アシスタントは、この議論から生徒に何を理解してもらいたいと考えますか?",
+      "ja_explanation": "学習目的の質問は、ディスカッションを通じてインストラクターが何を教えようとしているのかを特定します。"
     },
     {
       "id": "en_toefl_listening_036",
@@ -540,8 +540,8 @@
       ],
       "answer": 1,
       "explanation": "Complex causation questions require students to recognize that major historical events result from multiple interconnected factors.",
-      "ja_question": "[Japanese translation needed: According to the lecture on Roman history, what co...]",
-      "ja_explanation": "[Japanese translation needed: Complex causation questions require students to re...]"
+      "ja_question": "ローマ史の講義によると、何が西ローマ帝国の滅亡の原因となったのでしょうか？",
+      "ja_explanation": "複雑な因果関係の質問では、主要な歴史的出来事が複数の相互に関連した要因から生じていることを生徒が認識することが求められます。"
     },
     {
       "id": "en_toefl_listening_037",
@@ -555,8 +555,8 @@
       ],
       "answer": 1,
       "explanation": "Example purpose questions identify why specific historical details are included as illustrations of broader concepts.",
-      "ja_question": "[Japanese translation needed: Why does the professor mention the reign of specif...]",
-      "ja_explanation": "[Japanese translation needed: Example purpose questions identify why specific hi...]"
+      "ja_question": "なぜ教授は特定の皇帝の治世に言及するのでしょうか?",
+      "ja_explanation": "目的の質問例では、より広範な概念の説明として特定の歴史的詳細が含まれる理由を特定します。"
     },
     {
       "id": "en_toefl_listening_038",
@@ -570,8 +570,8 @@
       ],
       "answer": 1,
       "explanation": "Inference questions combine information about monetary policy and economic indicators to assess the state of the economy.",
-      "ja_question": "[Japanese translation needed: What is implied about the economic conditions in t...]",
-      "ja_explanation": "[Japanese translation needed: Inference questions combine information about mone...]"
+      "ja_question": "後期ローマ帝国の経済状況について何が暗示されていますか?",
+      "ja_explanation": "推論質問では、金融政策と経済指標に関する情報を組み合わせて経済の状態を評価します。"
     },
     {
       "id": "en_toefl_listening_039",
@@ -585,8 +585,8 @@
       ],
       "answer": 1,
       "explanation": "Student comprehension questions assess understanding based on the sophistication of questions asked about relationships between concepts.",
-      "ja_question": "[Japanese translation needed: What does a student's question reveal about their ...]",
-      "ja_explanation": "[Japanese translation needed: Student comprehension questions assess understandi...]"
+      "ja_question": "学生の質問によって、学生の理解度はどのようなことがわかりますか?",
+      "ja_explanation": "生徒の理解度に関する質問は、概念間の関係について尋ねられる質問の高度さに基づいて理解を評価します。"
     },
     {
       "id": "en_toefl_listening_040",
@@ -600,8 +600,8 @@
       ],
       "answer": 1,
       "explanation": "Prediction questions anticipate logical progression from one historical period to a related one.",
-      "ja_question": "[Japanese translation needed: Which topic would the professor most likely discus...]",
-      "ja_explanation": "[Japanese translation needed: Prediction questions anticipate logical progressio...]"
+      "ja_question": "教授が次に話し合う可能性が最も高いトピックはどれですか?",
+      "ja_explanation": "予測質問は、ある歴史的期間から関連する歴史的期間への論理的な進行を予測します。"
     },
     {
       "id": "en_toefl_listening_041",
@@ -615,8 +615,8 @@
       ],
       "answer": 1,
       "explanation": "Main idea questions identify the central concept organizing the lecture.",
-      "ja_question": "[Japanese translation needed: What is the main idea of the environmental science...]",
-      "ja_explanation": "[Japanese translation needed: Main idea questions identify the central concept o...]"
+      "ja_question": "環境科学の講義の主旨は何ですか?",
+      "ja_explanation": "主要なアイデアの質問は、講義を構成する中心的な概念を特定します。"
     },
     {
       "id": "en_toefl_listening_042",
@@ -630,8 +630,8 @@
       ],
       "answer": 1,
       "explanation": "Causal sequence questions track the chain of events explained in the lecture.",
-      "ja_question": "[Japanese translation needed: According to the professor, what triggers the casc...]",
-      "ja_explanation": "[Japanese translation needed: Causal sequence questions track the chain of event...]"
+      "ja_question": "教授によれば、何が富栄養化水域における一連の問題の引き金となるのでしょうか?",
+      "ja_explanation": "因果関係の質問は、講義で説明された一連の出来事を追跡します。"
     },
     {
       "id": "en_toefl_listening_043",
@@ -645,8 +645,8 @@
       ],
       "answer": 1,
       "explanation": "Inference questions connect information about nutrient sources to human responsibility and impact.",
-      "ja_question": "[Japanese translation needed: What is implied about human activities and aquatic...]",
-      "ja_explanation": "[Japanese translation needed: Inference questions connect information about nutr...]"
+      "ja_question": "人間の活動と水生生態系の健全性について何が暗示されていますか?",
+      "ja_explanation": "推論質問は、栄養源に関する情報を人間の責任と影響に結びつけます。"
     },
     {
       "id": "en_toefl_listening_044",
@@ -660,8 +660,8 @@
       ],
       "answer": 1,
       "explanation": "Solution question asking for specific strategies or interventions discussed in the lecture.",
-      "ja_question": "[Japanese translation needed: What prevention strategies does the professor disc...]",
-      "ja_explanation": "[Japanese translation needed: Solution question asking for specific strategies o...]"
+      "ja_question": "教授はどのような予防策について議論していますか?",
+      "ja_explanation": "講義で議論された特定の戦略や介入を求める解決策の質問。"
     },
     {
       "id": "en_toefl_listening_045",
@@ -675,8 +675,8 @@
       ],
       "answer": 1,
       "explanation": "Tone questions assess the speaker's attitude, typically shown through word choice and emphasis.",
-      "ja_question": "[Japanese translation needed: What is the professor's tone regarding environment...]",
-      "ja_explanation": "[Japanese translation needed: Tone questions assess the speaker's attitude, typi...]"
+      "ja_question": "環境問題に対する教授の口調はどうですか?",
+      "ja_explanation": "口調の質問は、通常、言葉の選択と強調によって示される話者の態度を評価します。"
     },
     {
       "id": "en_toefl_listening_046",
@@ -690,8 +690,8 @@
       ],
       "answer": 1,
       "explanation": "Learning objective questions identify what students should take away from the lecture.",
-      "ja_question": "[Japanese translation needed: Which of the following best represents what the pr...]",
-      "ja_explanation": "[Japanese translation needed: Learning objective questions identify what student...]"
+      "ja_question": "教授がこの講義から学生に理解してほしいと期待していることを最もよく表しているものは次のうちどれですか?",
+      "ja_explanation": "学習目的の質問により、学生が講義から何を学ばなければならないかが特定されます。"
     },
     {
       "id": "en_toefl_listening_047",
@@ -705,8 +705,8 @@
       ],
       "answer": 1,
       "explanation": "Discussion main topics focus on the central research question or phenomenon under examination.",
-      "ja_question": "[Japanese translation needed: What is the main topic of the discussion about chi...]",
-      "ja_explanation": "[Japanese translation needed: Discussion main topics focus on the central resear...]"
+      "ja_question": "子供の言語発達に関する議論の主なトピックは何ですか?",
+      "ja_explanation": "ディスカッションの主なトピックは、中心的な研究課題や調査対象の現象に焦点を当てます。"
     },
     {
       "id": "en_toefl_listening_048",
@@ -720,8 +720,8 @@
       ],
       "answer": 1,
       "explanation": "Evidence questions identify what specific research findings or observations support particular conclusions.",
-      "ja_question": "[Japanese translation needed: What evidence do discussants cite for the role of ...]",
-      "ja_explanation": "[Japanese translation needed: Evidence questions identify what specific research...]"
+      "ja_question": "討論者は、生得的な言語メカニズムの役割についてどのような証拠を挙げていますか?",
+      "ja_explanation": "証拠に関する質問は、特定の結論を裏付ける特定の研究結果または観察を特定します。"
     },
     {
       "id": "en_toefl_listening_049",
@@ -735,8 +735,8 @@
       ],
       "answer": 1,
       "explanation": "Nuance questions assess understanding of how discussants balance universal principles with individual variation.",
-      "ja_question": "[Japanese translation needed: How do the discussants address the question of ind...]",
-      "ja_explanation": "[Japanese translation needed: Nuance questions assess understanding of how discu...]"
+      "ja_question": "討論者は言語学習における個人差の問題にどのように対処しますか?",
+      "ja_explanation": "ニュアンスの質問は、討論者が普遍的な原則と個人の違いとのバランスをどのようにとるかについての理解を評価します。"
     },
     {
       "id": "en_toefl_listening_050",
@@ -750,8 +750,8 @@
       ],
       "answer": 2,
       "explanation": "Synthesis questions require integrating multiple perspectives discussed to reach a comprehensive understanding.",
-      "ja_question": "[Japanese translation needed: What does the discussion reveal about the relation...]",
-      "ja_explanation": "[Japanese translation needed: Synthesis questions require integrating multiple p...]"
+      "ja_question": "この議論から、言語発達における自然と育成の関係について何が明らかになるでしょうか?",
+      "ja_explanation": "総合的な質問では、包括的な理解を得るために議論された複数の視点を統合する必要があります。"
     }
   ]
 }
