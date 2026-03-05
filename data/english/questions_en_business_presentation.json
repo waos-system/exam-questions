@@ -14,8 +14,8 @@
       ],
       "answer": 1,
       "explanation": "プレゼン開始は、挨拶、自己紹介、テーマ、アウトラインで聴衆を準備させる。",
-      "ja_question": "[Japanese translation needed: How should you begin a formal business presentatio...]",
-      "ja_explanation": "[Japanese translation needed: プレゼン開始は、挨拶、自己紹介、テーマ、アウトラインで聴衆を準備させる。...]"
+      "ja_question": "正式なビジネスプレゼンテーションはどのように始めるべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_002",
@@ -28,8 +28,8 @@
       ],
       "answer": 1,
       "explanation": "アジェンダスライドは聴衆に期待値を示す。プレゼン構造を明確化。焦点と流れ。",
-      "ja_question": "[Japanese translation needed: What is the purpose of an agenda slide in a presen...]",
-      "ja_explanation": "[Japanese translation needed: アジェンダスライドは聴衆に期待値を示す。プレゼン構造を明確化。焦点と流れ。...]"
+      "ja_question": "プレゼンテーション内のアジェンダ スライドの目的は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_003",
@@ -42,8 +42,8 @@
       ],
       "answer": 1,
       "explanation": "トランジションは前セクションを参照し、論理的流れを示す。聴衆の理解助成。",
-      "ja_question": "[Japanese translation needed: Which phrase is appropriate for transitioning betw...]",
-      "ja_explanation": "[Japanese translation needed: トランジションは前セクションを参照し、論理的流れを示す。聴衆の理解助成。...]"
+      "ja_question": "プレゼンテーションセクション間の移行に適切なフレーズはどれですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_004",
@@ -56,8 +56,8 @@
       ],
       "answer": 1,
       "explanation": "質問対応は聴衆を尊重。明確に答える。必要なら詳細は後で。信頼と専門性を構築。",
-      "ja_question": "[Japanese translation needed: How should you handle audience questions during a ...]",
-      "ja_explanation": "[Japanese translation needed: 質問対応は聴衆を尊重。明確に答える。必要なら詳細は後で。信頼と専門性を構築。...]"
+      "ja_question": "プレゼンテーション中に聴衆の質問にどのように対処すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_005",
@@ -70,8 +70,8 @@
       ],
       "answer": 2,
       "explanation": "ビジュアルは簡潔で、サポート的。テキスト多用、混乱、派手なアニメーション避ける。",
-      "ja_question": "[Japanese translation needed: What should visual aids in a business presentation...]",
-      "ja_explanation": "[Japanese translation needed: ビジュアルは簡潔で、サポート的。テキスト多用、混乱、派手なアニメーション避ける。...]"
+      "ja_question": "ビジネスプレゼンテーションの視覚補助で避けるべきものは何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_006",
@@ -84,8 +84,8 @@
       ],
       "answer": 1,
       "explanation": "データはグラフやチャートで。背景と主要インサイトを提供。理解容易に。",
-      "ja_question": "[Japanese translation needed: How should you present numerical data in a present...]",
-      "ja_explanation": "[Japanese translation needed: データはグラフやチャートで。背景と主要インサイトを提供。理解容易に。...]"
+      "ja_question": "プレゼンテーションで数値データをどのように提示すればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_007",
@@ -98,8 +98,8 @@
       ],
       "answer": 1,
       "explanation": "スピーキング速度は聴衆理解を助ける。強調と消化時間のポーズ。クリア表現。",
-      "ja_question": "[Japanese translation needed: What is the recommended speaking pace for a busine...]",
-      "ja_explanation": "[Japanese translation needed: スピーキング速度は聴衆理解を助ける。強調と消化時間のポーズ。クリア表現。...]"
+      "ja_question": "ビジネスプレゼンテーションで推奨される話すペースはどれくらいですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_008",
@@ -112,8 +112,8 @@
       ],
       "answer": 1,
       "explanation": "技術的問題は冷静に対応。代替え案実行。プロフェッショナルさ維持。",
-      "ja_question": "[Japanese translation needed: How should you handle a technical failure during a...]",
-      "ja_explanation": "[Japanese translation needed: 技術的問題は冷静に対応。代替え案実行。プロフェッショナルさ維持。...]"
+      "ja_question": "プレゼンテーション中に技術的な障害が発生した場合、どのように対処すればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_009",
@@ -126,8 +126,8 @@
       ],
       "answer": 1,
       "explanation": "開始は関連する質問や統計で注意引く。聴衆をトピックに引き込む。",
-      "ja_question": "[Japanese translation needed: Which opening statement captures audience attentio...]",
-      "ja_explanation": "[Japanese translation needed: 開始は関連する質問や統計で注意引く。聴衆をトピックに引き込む。...]"
+      "ja_question": "聴衆の注目を効果的に集める冒頭の言葉はどれですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_010",
@@ -140,8 +140,8 @@
       ],
       "answer": 1,
       "explanation": "結論は要点まとめ、行動項目、感謝。質問受け付けを示す。影響強化。",
-      "ja_question": "[Japanese translation needed: How should you conclude a business presentation?...]",
-      "ja_explanation": "[Japanese translation needed: 結論は要点まとめ、行動項目、感謝。質問受け付けを示す。影響強化。...]"
+      "ja_question": "ビジネスプレゼンテーションをどのように締めくくればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_011",
@@ -154,8 +154,8 @@
       ],
       "answer": 1,
       "explanation": "ボディランゲージは自然なジェスチャー、視線接触、エンゲージメント。信頼と信用性。",
-      "ja_question": "[Japanese translation needed: What role should body language play in a presentat...]",
-      "ja_explanation": "[Japanese translation needed: ボディランゲージは自然なジェスチャー、視線接触、エンゲージメント。信頼と信用性。...]"
+      "ja_question": "ボディランゲージはプレゼンテーションにおいてどのような役割を果たすべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_012",
@@ -168,8 +168,8 @@
       ],
       "answer": 1,
       "explanation": "'evidenced by'は主張を裏付ける。信頼性と信用性。データドリブン表現。",
-      "ja_question": "[Japanese translation needed: Which phrase effectively introduces supporting evi...]",
-      "ja_explanation": "[Japanese translation needed: 'evidenced by'は主張を裏付ける。信頼性と信用性。データドリブン表現。...]"
+      "ja_question": "裏付けとなる証拠を効果的に紹介するフレーズはどれですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_013",
@@ -182,8 +182,8 @@
       ],
       "answer": 1,
       "explanation": "スピーカー・ノートは詳細であるが、スライドから逐語的に読まない。自然に流暢に。",
-      "ja_question": "[Japanese translation needed: How should you prepare speaker notes for a present...]",
-      "ja_explanation": "[Japanese translation needed: スピーカー・ノートは詳細であるが、スライドから逐語的に読まない。自然に流暢に。...]"
+      "ja_question": "プレゼンテーション用に講演者ノートをどのように準備すればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_014",
@@ -196,8 +196,8 @@
       ],
       "answer": 1,
       "explanation": "不明回答時は正直に。調査して後日フォローアップ約束。専門性と信頼維持。",
-      "ja_question": "[Japanese translation needed: What should you do if you don't know the answer to...]",
-      "ja_explanation": "[Japanese translation needed: 不明回答時は正直に。調査して後日フォローアップ約束。専門性と信頼維持。...]"
+      "ja_question": "聴衆の質問に対する答えがわからない場合はどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_015",
@@ -210,8 +210,8 @@
       ],
       "answer": 1,
       "explanation": "ストーリーはポイント、短く関連性。聴衆エンゲージメント向上。記憶容易。",
-      "ja_question": "[Japanese translation needed: How should you use stories in a business presentat...]",
-      "ja_explanation": "[Japanese translation needed: ストーリーはポイント、短く関連性。聴衆エンゲージメント向上。記憶容易。...]"
+      "ja_question": "ビジネスプレゼンテーションでストーリーをどのように使用すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_016",
@@ -224,8 +224,8 @@
       ],
       "answer": 1,
       "explanation": "CTA（コール・トゥ・アクション）は聴衆の次ステップを明確化。行動促進。",
-      "ja_question": "[Japanese translation needed: What is the purpose of a call-to-action in a prese...]",
-      "ja_explanation": "[Japanese translation needed: CTA（コール・トゥ・アクション）は聴衆の次ステップを明確化。行動促進。...]"
+      "ja_question": "プレゼンテーションでの行動喚起の目的は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_017",
@@ -238,8 +238,8 @@
       ],
       "answer": 1,
       "explanation": "敵対的質問も冷静に。懸念を認識。プロフェッショナル対応。聴衆の信頼維持。",
-      "ja_question": "[Japanese translation needed: How should you handle an aggressive or hostile aud...]",
-      "ja_explanation": "[Japanese translation needed: 敵対的質問も冷静に。懸念を認識。プロフェッショナル対応。聴衆の信頼維持。...]"
+      "ja_question": "攻撃的または敵対的な聴衆の質問にどのように対処すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_018",
@@ -252,8 +252,8 @@
       ],
       "answer": 1,
       "explanation": "スライド設計は清潔で一貫性。可読性。最小限の視覚的雑音。プロフェッショナル外観。",
-      "ja_question": "[Japanese translation needed: Which slide design approach is most effective for ...]",
-      "ja_explanation": "[Japanese translation needed: スライド設計は清潔で一貫性。可読性。最小限の視覚的雑音。プロフェッショナル外観。...]"
+      "ja_question": "ビジネス プレゼンテーションに最も効果的なスライド デザイン アプローチはどれですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_019",
@@ -266,8 +266,8 @@
       ],
       "answer": 1,
       "explanation": "対立見解は公正に提示。自分の立場が強い理由説明。信頼性と思慮深さ。",
-      "ja_question": "[Japanese translation needed: How should you present conflicting viewpoints in a...]",
-      "ja_explanation": "[Japanese translation needed: 対立見解は公正に提示。自分の立場が強い理由説明。信頼性と思慮深さ。...]"
+      "ja_question": "プレゼンテーションでは相反する視点をどのように表現すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_020",
@@ -280,8 +280,8 @@
       ],
       "answer": 1,
       "explanation": "時間不足時は主要ポイント優先。時間制約を認識。フォローアップ提供。聴衆価値維持。",
-      "ja_question": "[Japanese translation needed: What should you do if you run out of time during a...]",
-      "ja_explanation": "[Japanese translation needed: 時間不足時は主要ポイント優先。時間制約を認識。フォローアップ提供。聴衆価値維持。...]"
+      "ja_question": "プレゼンテーション中に時間がなくなったらどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_021",
@@ -294,8 +294,8 @@
       ],
       "answer": 1,
       "explanation": "会議開始は参加者歓迎、目的状態、アジェンダ、参加促し。準備と焦点。",
-      "ja_question": "[Japanese translation needed: How should you engage participants at the beginnin...]",
-      "ja_explanation": "[Japanese translation needed: 会議開始は参加者歓迎、目的状態、アジェンダ、参加促し。準備と焦点。...]"
+      "ja_question": "会議の開始時に参加者をどのように関与させるべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_022",
@@ -308,8 +308,8 @@
       ],
       "answer": 1,
       "explanation": "会議進行はオープン質問、積極的傾聴、要点まとめ、参加促し。包括的引き出し。",
-      "ja_question": "[Japanese translation needed: What is the best way to facilitate discussion in a...]",
-      "ja_explanation": "[Japanese translation needed: 会議進行はオープン質問、積極的傾聴、要点まとめ、参加促し。包括的引き出し。...]"
+      "ja_question": "ビジネスミーティングでのディスカッションを促進する最善の方法は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_023",
@@ -322,8 +322,8 @@
       ],
       "answer": 1,
       "explanation": "会議記録は決定、行動項目、責任者、期限を含む。透明性と説明責任確保。",
-      "ja_question": "[Japanese translation needed: How should you document decisions made in a meetin...]",
-      "ja_explanation": "[Japanese translation needed: 会議記録は決定、行動項目、責任者、期限を含む。透明性と説明責任確保。...]"
+      "ja_question": "会議での決定事項をどのように文書化する必要がありますか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_024",
@@ -336,8 +336,8 @@
       ],
       "answer": 1,
       "explanation": "支配的参加者は敬意持ちながら、他の意見を引き出す。全員参加とバランス。",
-      "ja_question": "[Japanese translation needed: What should you do if a meeting participant keeps ...]",
-      "ja_explanation": "[Japanese translation needed: 支配的参加者は敬意持ちながら、他の意見を引き出す。全員参加とバランス。...]"
+      "ja_question": "会議の参加者がディスカッションを支配し続けた場合はどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_025",
@@ -350,8 +350,8 @@
       ],
       "answer": 1,
       "explanation": "焦点外れ時も敬意持ちながら、アジェンダ復帰。後の議論提案。効率維持。",
-      "ja_question": "[Japanese translation needed: How should you handle a meeting that is losing foc...]",
-      "ja_explanation": "[Japanese translation needed: 焦点外れ時も敬意持ちながら、アジェンダ復帰。後の議論提案。効率維持。...]"
+      "ja_question": "集中力を失いつつある会議にどう対処すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_026",
@@ -364,8 +364,8 @@
       ],
       "answer": 1,
       "explanation": "会議総括は主要決定、行動項目、所有者、期限を確認。明確性と責任。",
-      "ja_question": "[Japanese translation needed: What is an effective way to summarize a meeting?...]",
-      "ja_explanation": "[Japanese translation needed: 会議総括は主要決定、行動項目、所有者、期限を確認。明確性と責任。...]"
+      "ja_question": "会議を要約する効果的な方法は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_027",
@@ -378,8 +378,8 @@
       ],
       "answer": 1,
       "explanation": "交渉は利益理解、ウィンウィン、明確コミュニケーション、関係維持。長期的価値。",
-      "ja_question": "[Japanese translation needed: How should you approach negotiation in a business ...]",
-      "ja_explanation": "[Japanese translation needed: 交渉は利益理解、ウィンウィン、明確コミュニケーション、関係維持。長期的価値。...]"
+      "ja_question": "ビジネスの場で交渉にどのように取り組むべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_028",
@@ -392,8 +392,8 @@
       ],
       "answer": 1,
       "explanation": "説得的議論は徹底的調査、反論理解、データ準備、異議予測。説得力と信頼度。",
-      "ja_question": "[Japanese translation needed: What should you do before making a persuasive argu...]",
-      "ja_explanation": "[Japanese translation needed: 説得的議論は徹底的調査、反論理解、データ準備、異議予測。説得力と信頼度。...]"
+      "ja_question": "会議で説得力のある議論をする前に何をすべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_029",
@@ -406,8 +406,8 @@
       ],
       "answer": 1,
       "explanation": "相違対応は異なる視点認識、共通目標焦点、理解追求。建設的対話。",
-      "ja_question": "[Japanese translation needed: How should you handle disagreement in a meeting wi...]",
-      "ja_explanation": "[Japanese translation needed: 相違対応は異なる視点認識、共通目標焦点、理解追求。建設的対話。...]"
+      "ja_question": "緊張を高めることなく、会議中の意見の相違にどう対処すればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_030",
@@ -420,8 +420,8 @@
       ],
       "answer": 1,
       "explanation": "明確化質問は理解確保、誤解防止。全員同じページに。効率的進行。",
-      "ja_question": "[Japanese translation needed: What is the purpose of clarifying questions in a m...]",
-      "ja_explanation": "[Japanese translation needed: 明確化質問は理解確保、誤解防止。全員同じページに。効率的進行。...]"
+      "ja_question": "会議で質問を明確にする目的は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_031",
@@ -434,8 +434,8 @@
       ],
       "answer": 1,
       "explanation": "異議フィードバックは建設的で敬重。特定ポイント引用。協働関係維持。",
-      "ja_question": "[Japanese translation needed: How should you respond to a colleague's presentati...]",
-      "ja_explanation": "[Japanese translation needed: 異議フィードバックは建設的で敬重。特定ポイント引用。協働関係維持。...]"
+      "ja_question": "同意できない同僚のプレゼンテーションにどう反応すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_032",
@@ -448,8 +448,8 @@
       ],
       "answer": 1,
       "explanation": "会議議事録は正式文書。日付、出席者、議題、決定、行動項目。参考記録。",
-      "ja_question": "[Japanese translation needed: What should you include in meeting minutes for off...]",
-      "ja_explanation": "[Japanese translation needed: 会議議事録は正式文書。日付、出席者、議題、決定、行動項目。参考記録。...]"
+      "ja_question": "公式文書の議事録には何を含めるべきですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_033",
@@ -462,8 +462,8 @@
       ],
       "answer": 1,
       "explanation": "ビジュアル使用は関連性。要点強化。過剰でない。理解と記憶向上。",
-      "ja_question": "[Japanese translation needed: How should you use visuals to support points durin...]",
-      "ja_explanation": "[Japanese translation needed: ビジュアル使用は関連性。要点強化。過剰でない。理解と記憶向上。...]"
+      "ja_question": "プレゼンテーション中にポイントをサポートするためにビジュアルをどのように使用する必要がありますか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_034",
@@ -476,8 +476,8 @@
       ],
       "answer": 1,
       "explanation": "フォローアップメールは決定、行動項目、所有者、期限、次ステップ。責任明確化。",
-      "ja_question": "[Japanese translation needed: What is the recommended format for a business meet...]",
-      "ja_explanation": "[Japanese translation needed: フォローアップメールは決定、行動項目、所有者、期限、次ステップ。責任明確化。...]"
+      "ja_question": "ビジネスミーティングのフォローアップメールに推奨される形式は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_035",
@@ -490,8 +490,8 @@
       ],
       "answer": 1,
       "explanation": "未知分野プレゼンは専門家謙虚さ、源泉引用、研究証明。信頼と正直。",
-      "ja_question": "[Japanese translation needed: How should you establish credibility when presenti...]",
-      "ja_explanation": "[Japanese translation needed: 未知分野プレゼンは専門家謙虚さ、源泉引用、研究証明。信頼と正直。...]"
+      "ja_question": "なじみのないトピックについてプレゼンテーションを行う場合、信頼性を確立するにはどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_036",
@@ -504,8 +504,8 @@
       ],
       "answer": 1,
       "explanation": "記憶支援は反復、ビジュアル、ストーリー、明確な主アイデア表示。保持性向上。",
-      "ja_question": "[Japanese translation needed: What technique helps audiences remember key points...]",
-      "ja_explanation": "[Japanese translation needed: 記憶支援は反復、ビジュアル、ストーリー、明確な主アイデア表示。保持性向上。...]"
+      "ja_question": "聴衆がプレゼンテーションの重要なポイントを覚えておくのに役立つテクニックは何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_037",
@@ -518,8 +518,8 @@
       ],
       "answer": 1,
       "explanation": "質問なし時は具体的プロンプト提供。参加促し。理解確認。エンゲージメント向上。",
-      "ja_question": "[Japanese translation needed: How should you handle a situation where no one is ...]",
-      "ja_explanation": "[Japanese translation needed: 質問なし時は具体的プロンプト提供。参加促し。理解確認。エンゲージメント向上。...]"
+      "ja_question": "最後に誰も質問しなくなった状況にどう対処すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_038",
@@ -532,8 +532,8 @@
       ],
       "answer": 1,
       "explanation": "複雑問題解決は背景説明、代替え、推奨と理由。思慮深い対応。買収性。",
-      "ja_question": "[Japanese translation needed: What is the best approach to presenting solutions ...]",
-      "ja_explanation": "[Japanese translation needed: 複雑問題解決は背景説明、代替え、推奨と理由。思慮深い対応。買収性。...]"
+      "ja_question": "複雑な問題に対する解決策を提示するための最良のアプローチは何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_039",
@@ -546,8 +546,8 @@
       ],
       "answer": 1,
       "explanation": "時間管理は項目別配分。進捗監視。必要調整。生産性と包括的カバレッジ。",
-      "ja_question": "[Japanese translation needed: How should you manage time in a meeting with multi...]",
-      "ja_explanation": "[Japanese translation needed: 時間管理は項目別配分。進捗監視。必要調整。生産性と包括的カバレッジ。...]"
+      "ja_question": "複数の議題がある会議の時間をどのように管理すればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_040",
@@ -560,8 +560,8 @@
       ],
       "answer": 1,
       "explanation": "主要意思決定者不在時も会議進行。状況記録。不在の影響説明。フォローアップ提案。",
-      "ja_question": "[Japanese translation needed: What should you do if a key decision-maker is abse...]",
-      "ja_explanation": "[Japanese translation needed: 主要意思決定者不在時も会議進行。状況記録。不在の影響説明。フォローアップ提案。...]"
+      "ja_question": "主要な意思決定者が会議に欠席した場合はどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_041",
@@ -574,8 +574,8 @@
       ],
       "answer": 1,
       "explanation": "説得的プレゼン終了は主メッセージ強化、CTA再言、コミットメント、エンゲージメント。影響確保。",
-      "ja_question": "[Japanese translation needed: How should you conclude a persuasive presentation?...]",
-      "ja_explanation": "[Japanese translation needed: 説得的プレゼン終了は主メッセージ強化、CTA再言、コミットメント、エンゲージメント。影響確保。...]"
+      "ja_question": "説得力のあるプレゼンテーションをどのように締めくくればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_042",
@@ -588,8 +588,8 @@
       ],
       "answer": 1,
       "explanation": "批判対応は聴取、妥当性認識、事実対応、プロフェッショナル。学習機会。",
-      "ja_question": "[Japanese translation needed: What is an effective way to address a critical com...]",
-      "ja_explanation": "[Japanese translation needed: 批判対応は聴取、妥当性認識、事実対応、プロフェッショナル。学習機会。...]"
+      "ja_question": "会議での批判的なコメントに対処する効果的な方法は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_043",
@@ -602,8 +602,8 @@
       ],
       "answer": 1,
       "explanation": "データ推奨は源泉明示、方法論説明、主要計測値、推奨接続。信頼度向上。",
-      "ja_question": "[Japanese translation needed: How should you present data-driven recommendations...]",
-      "ja_explanation": "[Japanese translation needed: データ推奨は源泉明示、方法論説明、主要計測値、推奨接続。信頼度向上。...]"
+      "ja_question": "データに基づいた推奨事項をどのように提示すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_044",
@@ -616,8 +616,8 @@
       ],
       "answer": 1,
       "explanation": "未予定の重要議題も認識。記録。別会議提案。アジェンダ維持と懸念尊重。",
-      "ja_question": "[Japanese translation needed: What should you do if a participant raises an impo...]",
-      "ja_explanation": "[Japanese translation needed: 未予定の重要議題も認識。記録。別会議提案。アジェンダ維持と懸念尊重。...]"
+      "ja_question": "参加者が議題にない重要な問題を提起した場合はどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_045",
@@ -630,8 +630,8 @@
       ],
       "answer": 1,
       "explanation": "悪いニュース提示は正直で直接的。影響説明。解決策提示。信頼維持。",
-      "ja_question": "[Japanese translation needed: How should you handle presenting bad news in a bus...]",
-      "ja_explanation": "[Japanese translation needed: 悪いニュース提示は正直で直接的。影響説明。解決策提示。信頼維持。...]"
+      "ja_question": "ビジネスの場面で悪いニュースを伝える場合、どのように対処すべきでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_046",
@@ -644,8 +644,8 @@
       ],
       "answer": 1,
       "explanation": "バックアッププラン技術障害、予期しない問題対応。プレゼン継続。プロフェッショナルさ。",
-      "ja_question": "[Japanese translation needed: What is the purpose of a backup plan or contingenc...]",
-      "ja_explanation": "[Japanese translation needed: バックアッププラン技術障害、予期しない問題対応。プレゼン継続。プロフェッショナルさ。...]"
+      "ja_question": "プレゼンテーションにおけるバックアップ計画や緊急時対応計画の目的は何ですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_047",
@@ -658,8 +658,8 @@
       ],
       "answer": 1,
       "explanation": "メタファーと類推は複雑概念簡潔化。明確で関連性。理解向上と記憶。",
-      "ja_question": "[Japanese translation needed: How should you use metaphors or analogies in a bus...]",
-      "ja_explanation": "[Japanese translation needed: メタファーと類推は複雑概念簡潔化。明確で関連性。理解向上と記憶。...]"
+      "ja_question": "ビジネスプレゼンテーションでは比喩や例え話をどのように使用すべきですか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_048",
@@ -672,8 +672,8 @@
       ],
       "answer": 1,
       "explanation": "事実エラー発見時も即座に訂正。エラー認識。正確情報継続。信頼性維持。",
-      "ja_question": "[Japanese translation needed: What should you do if you realize you made a factu...]",
-      "ja_explanation": "[Japanese translation needed: 事実エラー発見時も即座に訂正。エラー認識。正確情報継続。信頼性維持。...]"
+      "ja_question": "プレゼンテーション中に事実誤認に気づいた場合はどうすればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_049",
@@ -686,8 +686,8 @@
       ],
       "answer": 1,
       "explanation": "困難な性格対応も準備。懸念予測。プロフェッショナル。個人的でない。平静性。",
-      "ja_question": "[Japanese translation needed: How should you prepare for handling difficult pers...]",
-      "ja_explanation": "[Japanese translation needed: 困難な性格対応も準備。懸念予測。プロフェッショナル。個人的でない。平静性。...]"
+      "ja_question": "会議で扱いにくい人物に対処するにはどのように準備すればよいでしょうか?",
+      "ja_explanation": ""
     },
     {
       "id": "en_business_presentation_050",
@@ -700,8 +700,8 @@
       ],
       "answer": 1,
       "explanation": "印象的結論は開始復帰、主メッセージ強化、パワフル宣言。持続インパクト。",
-      "ja_question": "[Japanese translation needed: What is the key to delivering a memorable conclusi...]",
-      "ja_explanation": "[Japanese translation needed: 印象的結論は開始復帰、主メッセージ強化、パワフル宣言。持続インパクト。...]"
+      "ja_question": "プレゼンテーションで記憶に残る結論を伝えるための鍵は何ですか?",
+      "ja_explanation": ""
     }
   ]
 }

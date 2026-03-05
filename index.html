@@ -1469,6 +1469,10 @@ async function askGeminiAboutCurrentQuestion() {
   if (!q) return;
   const prompt = buildGeminiPrompt(q, currentExam, currentSection);
 
+  // Open Gemini immediately for faster response
+  window.open('https://gemini.google.com/app', '_blank', 'noopener,noreferrer');
+
+  // Copy to clipboard in background
   let copied = false;
   try {
     if (navigator.clipboard && window.isSecureContext) {
@@ -1498,12 +1502,14 @@ async function askGeminiAboutCurrentQuestion() {
     }
   }
 
-  window.open('https://gemini.google.com/app', '_blank', 'noopener,noreferrer');
-  if (copied) {
-    alert('Geminiを開きました。質問文をコピー済みです。貼り付けて送信してください。');
-  } else {
-    alert('Geminiを開きました。コピーできなかったため、問題文を手動で貼り付けてください。');
-  }
+  // Optional: Show status after opening
+  setTimeout(() => {
+    if (copied) {
+      alert('質問文をコピー済みです。Geminiに貼り付けて送信してください。');
+    } else {
+      alert('コピーできなかったため、問題文を手動でGeminiに貼り付けてください。');
+    }
+  }, 1000);
 }
 function renderQuestion() {
   answered = false;
@@ -1526,7 +1532,8 @@ function renderQuestion() {
   document.getElementById('qp-fill').style.width  = pct + '%';
   document.getElementById('qp-score').textContent  = score;
   document.getElementById('q-num').textContent     = `Q${currentIdx+1}`;
-  document.getElementById('q-text').textContent    = q.question;
+  // display question text; include Japanese translation if available
+  document.getElementById('q-text').textContent    = q.question + (q.ja_question ? '\n\n' + q.ja_question : '');
 
   const keys = ['A','B','C','D','E','F'];
   document.getElementById('choices').innerHTML = q.choices.map((c, i) => `
@@ -1561,7 +1568,8 @@ function selectAnswer(idx) {
   badge.className = `result-badge show ${ok ? 'correct' : 'wrong'}`;
   badge.textContent = ok ? '正解！' : '不正解';
 
-  document.getElementById('expl-text').textContent = q.explanation;
+  // show explanation; if Japanese version exists show below English
+  document.getElementById('expl-text').textContent = q.explanation + (q.ja_explanation ? '\n\n' + q.ja_explanation : '');
   document.getElementById('explanation').className = 'explanation show';
   document.getElementById('btn-next').disabled = false;
 }

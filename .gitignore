@@ -25,3 +25,5 @@ npm-debug.log*
 tmp_check.js
 data/genres.json.bak
 tmpclaude*
+__pycache__/translate_dict.cpython-39.pyc
+__pycache__/translate_to_ja.cpython-39.pyc

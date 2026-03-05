@@ -16,8 +16,8 @@
       ],
       "answer": -1,
       "explanation": "Independent speaking task requires personal experience narrative. Evaluate responses on clarity, organization, vocabulary range, and fluency. Strong responses include specific details and explain the impact on learning.",
-      "ja_question": "[Japanese translation needed: Describe a memorable academic experience. How did ...]",
-      "ja_explanation": "[Japanese translation needed: Independent speaking task requires personal experi...]"
+      "ja_question": "思い出に残る学業経験について説明してください。それはあなたの学習アプローチにどのような影響を与えましたか?",
+      "ja_explanation": "独立して話すタスクには、個人的な経験の物語が必要です。回答の明瞭さ、構成、語彙範囲、流暢さを評価します。強い反応には具体的な詳細が含まれており、学習への影響について説明されています。"
     },
     {
       "id": "en_toefl_speaking_002",
@@ -32,8 +32,8 @@
       ],
       "answer": -1,
       "explanation": "This preference question assesses ability to state position, provide reasons, and support with examples. Evaluate organization, supporting details, and coherence.",
-      "ja_question": "[Japanese translation needed: Some students prefer studying in groups; others pr...]",
-      "ja_explanation": "[Japanese translation needed: This preference question assesses ability to state...]"
+      "ja_question": "グループで勉強することを好む学生もいます。一人で勉強することを好む人もいます。どのアプローチを好みますか?またその理由は何ですか?",
+      "ja_explanation": "この好みの質問では、立場を述べ、理由を示し、例を示してサポートする能力を評価します。組織、サポートの詳細、一貫性を評価します。"
     },
     {
       "id": "en_toefl_speaking_003",
@@ -49,8 +49,8 @@
       ],
       "answer": 0,
       "explanation": "Integrated tasks require synthesis of reading and lecture information. Evaluate ability to summarize key points, make connections, and organize information clearly.",
-      "ja_question": "[Japanese translation needed: Explain how this proposal addresses the problem di...]",
-      "ja_explanation": "[Japanese translation needed: Integrated tasks require synthesis of reading and ...]"
+      "ja_question": "この提案が読書と講義で議論された問題にどのように対処するかを説明してください。",
+      "ja_explanation": "統合タスクでは、読書と講義の情報を統合する必要があります。重要なポイントを要約し、接続し、情報を明確に整理する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_004",
@@ -66,8 +66,8 @@
       ],
       "answer": 0,
       "explanation": "Listening-based integrated task requires identifying and summarizing information, plus evaluating options. Assess comprehension, summary accuracy, and reasoning.",
-      "ja_question": "[Japanese translation needed: The student offers two solutions to the scheduling...]",
-      "ja_explanation": "[Japanese translation needed: Listening-based integrated task requires identifyi...]"
+      "ja_question": "学生はスケジュールの問題に対して 2 つの解決策を提案します。彼女が提案した解決策を要約し、どちらがより現実的だと思うかを示してください。",
+      "ja_explanation": "リスニングベースの統合タスクでは、情報の特定と要約に加えて、オプションの評価が必要です。理解力、要約の正確さ、推論を評価します。"
     },
     {
       "id": "en_toefl_speaking_005",
@@ -82,8 +82,8 @@
       ],
       "answer": -1,
       "explanation": "Cultural description task. Evaluate clarity of description, accuracy of cultural detail, and ability to explain cultural significance and values.",
-      "ja_question": "[Japanese translation needed: Describe a cultural practice from your country tha...]",
-      "ja_explanation": "[Japanese translation needed: Cultural description task. Evaluate clarity of des...]"
+      "ja_question": "あなたの地域社会の価値観を反映した、あなたの国の文化的習慣について説明してください。",
+      "ja_explanation": "文化的説明タスク。説明の明瞭さ、文化的詳細の正確さ、文化的重要性と価値を説明する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_006",
@@ -99,8 +99,8 @@
       ],
       "answer": 0,
       "explanation": "Comparison task requires identifying and contrasting methods, then evaluating effectiveness. Strong responses support preference with reasoning.",
-      "ja_question": "[Japanese translation needed: The professor explains two methods for teaching en...]",
-      "ja_explanation": "[Japanese translation needed: Comparison task requires identifying and contrasti...]"
+      "ja_question": "教授は、環境意識を教えるための 2 つの方法を説明します。これらの方法を比較し、どちらが幼児にとってより効果的かを説明します。",
+      "ja_explanation": "比較タスクでは、方法を特定して対照し、有効性を評価する必要があります。強い反応は、推論による好みを裏付けます。"
     },
     {
       "id": "en_toefl_speaking_007",
@@ -116,8 +116,8 @@
       ],
       "answer": 0,
       "explanation": "Conversation comprehension and summary task. Evaluate ability to identify key information and report it clearly.",
-      "ja_question": "[Japanese translation needed: The student contacts her advisor about changing ma...]",
-      "ja_explanation": "[Japanese translation needed: Conversation comprehension and summary task. Evalu...]"
+      "ja_question": "学生は専攻変更について指導教員に連絡しました。彼女の主な懸念事項は何ですか?アドバイザーはどのようなアドバイスを提供しますか?",
+      "ja_explanation": "会話の理解と要約タスク。重要な情報を特定し、それを明確に報告する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_008",
@@ -132,8 +132,8 @@
       ],
       "answer": -1,
       "explanation": "Independent preference/opinion task. Assess articulation of position, reasoning quality, examples provided, and overall coherence.",
-      "ja_question": "[Japanese translation needed: Imagine you could change one aspect of your educat...]",
-      "ja_explanation": "[Japanese translation needed: Independent preference/opinion task. Assess articu...]"
+      "ja_question": "あなたの教育経験の一側面を変えることができると想像してみてください。何を変更し、その理由を説明しますか。",
+      "ja_explanation": "独立した好み/意見タスク。立場の明確化、推論の質、提供された例、全体的な一貫性を評価します。"
     },
     {
       "id": "en_toefl_speaking_009",
@@ -149,8 +149,8 @@
       ],
       "answer": 0,
       "explanation": "Content synthesis task. Evaluate integration of information from multiple sources, accuracy, and clear communication of main points.",
-      "ja_question": "[Japanese translation needed: According to the reading and lecture, what does th...]",
-      "ja_explanation": "[Japanese translation needed: Content synthesis task. Evaluate integration of in...]"
+      "ja_question": "読書と講義によると、新しい研究はバイリンガル使用の認知的利点について何を示唆していますか?",
+      "ja_explanation": "コンテンツ合成タスク。複数のソースからの情報の統合、正確さ、要点の明確な伝達を評価します。"
     },
     {
       "id": "en_toefl_speaking_010",
@@ -165,8 +165,8 @@
       ],
       "answer": -1,
       "explanation": "Personal goal-setting task. Evaluate clarity of goal, appropriateness of strategies, and articulate explanation of connection between actions and outcomes.",
-      "ja_question": "[Japanese translation needed: Discuss a personal goal you have set for yourself....]",
-      "ja_explanation": "[Japanese translation needed: Personal goal-setting task. Evaluate clarity of go...]"
+      "ja_question": "自分自身に設定した個人的な目標について話し合います。この目標を達成するためにどのようなステップを踏んでいるのか説明してください。",
+      "ja_explanation": "個人的な目標設定タスク。目標の明確さ、戦略の適切性、行動と結果の関連性の明確な説明を評価します。"
     },
     {
       "id": "en_toefl_speaking_011",
@@ -182,8 +182,8 @@
       ],
       "answer": 0,
       "explanation": "Problem-solution conversation task. Assess comprehension, summary accuracy, and ability to relay specific suggestions clearly.",
-      "ja_question": "[Japanese translation needed: What problem is the student experiencing, and what...]",
-      "ja_explanation": "[Japanese translation needed: Problem-solution conversation task. Assess compreh...]"
+      "ja_question": "学生はどのような問題を抱えていますか?教授は学生にそれに対して何をすべきかを示唆していますか?",
+      "ja_explanation": "問題解決の会話タスク。理解力、要約の正確さ、特定の提案を明確に伝える能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_012",
@@ -198,8 +198,8 @@
       ],
       "answer": 0,
       "explanation": "Balanced perspective task. Evaluate ability to present multiple viewpoints fairly and explain reasoning for each approach.",
-      "ja_question": "[Japanese translation needed: Some people believe that formal education is the m...]",
-      "ja_explanation": "[Japanese translation needed: Balanced perspective task. Evaluate ability to pre...]"
+      "ja_question": "正式な教育が成功への最も重要な道であると信じている人もいます。実務経験を重視する人もいます。両方の観点について話し合います。",
+      "ja_explanation": "バランスの取れた視点のタスク。複数の視点を公平に提示し、それぞれのアプローチの推論を説明する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_013",
@@ -215,8 +215,8 @@
       ],
       "answer": 0,
       "explanation": "Lecture summary with analysis task. Assess accuracy of information capture, balanced discussion of advantages and limitations, and clarity.",
-      "ja_question": "[Japanese translation needed: Summarize the main points of the lecture on renewa...]",
-      "ja_explanation": "[Japanese translation needed: Lecture summary with analysis task. Assess accurac...]"
+      "ja_question": "再生可能エネルギーに関する講義の要点をまとめます。主な利点と課題は何ですか?",
+      "ja_explanation": "分析タスクを含む講義の概要。情報取得の正確さ、利点と限界についてのバランスのとれた議論、および明確さを評価します。"
     },
     {
       "id": "en_toefl_speaking_014",
@@ -232,8 +232,8 @@
       ],
       "answer": 0,
       "explanation": "Announcement comprehension and reaction reporting task. Evaluate accurate summary of new information and clear presentation of multiple perspectives.",
-      "ja_question": "[Japanese translation needed: The vice president of student affairs announces a ...]",
-      "ja_explanation": "[Japanese translation needed: Announcement comprehension and reaction reporting ...]"
+      "ja_question": "学生担当副会長が方針変更を発表。何が変化したのでしょうか?それに対する学生の反応はどうですか?",
+      "ja_explanation": "アナウンスの理解と反応の報告タスク。新しい情報の正確な要約と複数の視点の明確なプレゼンテーションを評価します。"
     },
     {
       "id": "en_toefl_speaking_015",
@@ -248,8 +248,8 @@
       ],
       "answer": -1,
       "explanation": "Challenge-and-solution narrative. Assess storytelling coherence, problem-solving approach, and reflection on lessons learned.",
-      "ja_question": "[Japanese translation needed: Describe a challenge you have faced and explain ho...]",
-      "ja_explanation": "[Japanese translation needed: Challenge-and-solution narrative. Assess storytell...]"
+      "ja_question": "あなたが直面した課題について説明し、それをどのように克服したかを説明してください。",
+      "ja_explanation": "挑戦と解決の物語。ストーリーテリングの一貫性、問題解決のアプローチ、学んだ教訓の振り返りを評価します。"
     },
     {
       "id": "en_toefl_speaking_016",
@@ -265,8 +265,8 @@
       ],
       "answer": 0,
       "explanation": "Enhancement-of-understanding task. Evaluate ability to identify complementary information and explain how it deepens comprehension.",
-      "ja_question": "[Japanese translation needed: The reading describes a community initiative, and ...]",
-      "ja_explanation": "[Japanese translation needed: Enhancement-of-understanding task. Evaluate abilit...]"
+      "ja_question": "朗読ではコミュニティの取り組みについて説明し、講義では追加の背景を提供します。講義により、この取り組みに対する理解はどのように深まりましたか?",
+      "ja_explanation": "理解を高めるタスク。補完的な情報を特定する能力を評価し、それによってどのように理解が深まるかを説明します。"
     },
     {
       "id": "en_toefl_speaking_017",
@@ -281,8 +281,8 @@
       ],
       "answer": -1,
       "explanation": "Environment preference task. Evaluate clarity of preference, specific supporting examples, and acknowledgment of trade-offs.",
-      "ja_question": "[Japanese translation needed: Do you prefer city living or living in a rural are...]",
-      "ja_explanation": "[Japanese translation needed: Environment preference task. Evaluate clarity of p...]"
+      "ja_question": "あなたは都会に住むのが好きですか、それとも田舎に住むのが好きですか?具体的な例を挙げてあなたの好みを説明してください。",
+      "ja_explanation": "環境設定タスク。優先順位の明確さ、具体的な裏付け例、トレードオフの認識を評価します。"
     },
     {
       "id": "en_toefl_speaking_018",
@@ -298,8 +298,8 @@
       ],
       "answer": 0,
       "explanation": "Theory comparison and application task. Assess understanding of distinct approaches and ability to discuss practical implications.",
-      "ja_question": "[Japanese translation needed: The professor discusses two theories explaining be...]",
-      "ja_explanation": "[Japanese translation needed: Theory comparison and application task. Assess und...]"
+      "ja_question": "教授は行動の変化を説明する 2 つの理論について説明します。これらの理論を比較し、その応用について議論します。",
+      "ja_explanation": "理論の比較と応用タスク。独特のアプローチの理解と実際的な影響について議論する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_019",
@@ -315,8 +315,8 @@
       ],
       "answer": 0,
       "explanation": "Service interaction comprehension. Evaluate identification of student's purpose and accurate relay of service representative's information.",
-      "ja_question": "[Japanese translation needed: The student calls the financial aid office. Why is...]",
-      "ja_explanation": "[Japanese translation needed: Service interaction comprehension. Evaluate identi...]"
+      "ja_question": "学生は奨学金事務局に電話しました。学生はなぜ電話してきたのでしょうか? 代表者はどのような情報を提供しますか?",
+      "ja_explanation": "サービスインタラクションの理解。学生の目的の特定とサービス担当者の情報の正確な伝達を評価します。"
     },
     {
       "id": "en_toefl_speaking_020",
@@ -331,8 +331,8 @@
       ],
       "answer": -1,
       "explanation": "Decision-making framework task. Evaluate comprehensiveness of considerations offered and relevance of examples provided.",
-      "ja_question": "[Japanese translation needed: What should people consider before making a major ...]",
-      "ja_explanation": "[Japanese translation needed: Decision-making framework task. Evaluate comprehen...]"
+      "ja_question": "人生の重大な決断を下す前に、人々は何を考慮すべきでしょうか?例を示します。",
+      "ja_explanation": "意思決定フレームワークのタスク。提供された考慮事項の包括性と提供された例の関連性を評価します。"
     },
     {
       "id": "en_toefl_speaking_021",
@@ -348,8 +348,8 @@
       ],
       "answer": 0,
       "explanation": "Multifactorial analysis task. Assess ability to synthesize information about complex causes and present them coherently.",
-      "ja_question": "[Japanese translation needed: According to the reading and lecture, what factors...]",
-      "ja_explanation": "[Japanese translation needed: Multifactorial analysis task. Assess ability to sy...]"
+      "ja_question": "読書と講義によると、地域経済格差の持続に影響を与える要因は何でしょうか?",
+      "ja_explanation": "多因子分析タスク。複雑な原因に関する情報を総合し、それらを一貫して提示する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_022",
@@ -365,8 +365,8 @@
       ],
       "answer": 0,
       "explanation": "Academic support interaction task. Evaluate comprehension of student's question and professor's guidance.",
-      "ja_question": "[Japanese translation needed: The student approaches a professor during office h...]",
-      "ja_explanation": "[Japanese translation needed: Academic support interaction task. Evaluate compre...]"
+      "ja_question": "学生はオフィスアワー中に課題について教授に相談します。学生は何を懸念しており、教授はどのようなフィードバックを提供しますか?",
+      "ja_explanation": "アカデミックサポートインタラクションタスク。学生の質問と教授の指導の理解度を評価します。"
     },
     {
       "id": "en_toefl_speaking_023",
@@ -381,8 +381,8 @@
       ],
       "answer": -1,
       "explanation": "Biographical significance task. Assess clarity of description, explanation of significance, and supporting examples.",
-      "ja_question": "[Japanese translation needed: Describe an important historical or contemporary f...]",
-      "ja_explanation": "[Japanese translation needed: Biographical significance task. Assess clarity of ...]"
+      "ja_question": "歴史上または現代の重要な人物について説明し、なぜその人物が重要だと思うのかを説明してください。",
+      "ja_explanation": "伝記的重要性のタスク。説明の明確さ、重要性の説明、および裏付けとなる例を評価します。"
     },
     {
       "id": "en_toefl_speaking_024",
@@ -398,8 +398,8 @@
       ],
       "answer": 0,
       "explanation": "Historical process analysis task. Assess sequential understanding and ability to explain interconnections between stages.",
-      "ja_question": "[Japanese translation needed: The lecture outlines a historical process with mul...]",
-      "ja_explanation": "[Japanese translation needed: Historical process analysis task. Assess sequentia...]"
+      "ja_question": "この講義では、複数の段階からなる歴史的プロセスについて概説します。各段階を要約し、プロセス全体の重要性を説明します。",
+      "ja_explanation": "履歴プロセス分析タスク。段階的な理解と段階間の相互接続を説明する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_025",
@@ -414,8 +414,8 @@
       ],
       "answer": -1,
       "explanation": "Leadership qualities task. Evaluate thoughtfulness of qualities identified and relevance of personal examples.",
-      "ja_question": "[Japanese translation needed: What qualities make an effective leader? Provide e...]",
-      "ja_explanation": "[Japanese translation needed: Leadership qualities task. Evaluate thoughtfulness...]"
+      "ja_question": "有能なリーダーに必要な資質とは何でしょうか?あなた自身の観察から例を提供してください。",
+      "ja_explanation": "リーダーシップの資質のタスク。特定された特質についての思慮深さと個人的な例の関連性を評価します。"
     },
     {
       "id": "en_toefl_speaking_026",
@@ -431,8 +431,8 @@
       ],
       "answer": 0,
       "explanation": "Institutional information comprehension. Assess identification of programs and communication expectations.",
-      "ja_question": "[Japanese translation needed: The campus sustainability office presents informat...]",
-      "ja_explanation": "[Japanese translation needed: Institutional information comprehension. Assess id...]"
+      "ja_question": "キャンパス持続可能性オフィスでは、廃棄物削減の取り組みに関する情報を紹介しています。主な取り組みは何ですか?また、それによってどのような行動変化が促進されますか?",
+      "ja_explanation": "施設情報の理解。プログラムの特定とコミュニケーションの期待を評価します。"
     },
     {
       "id": "en_toefl_speaking_027",
@@ -447,8 +447,8 @@
       ],
       "answer": -1,
       "explanation": "Technology impact analysis task. Assess balanced discussion of effects and supporting reasoning.",
-      "ja_question": "[Japanese translation needed: How does modern technology impact human relationsh...]",
-      "ja_explanation": "[Japanese translation needed: Technology impact analysis task. Assess balanced d...]"
+      "ja_question": "現代のテクノロジーは人間関係にどのような影響を与えるのでしょうか?プラスの効果とマイナスの効果の両方について話し合います。",
+      "ja_explanation": "テクノロジーの影響分析タスク。影響と裏付けとなる推論についてのバランスの取れた議論を評価します。"
     },
     {
       "id": "en_toefl_speaking_028",
@@ -464,8 +464,8 @@
       ],
       "answer": 0,
       "explanation": "Solutions and barriers analysis task. Assess understanding of approaches and realistic assessment of implementation difficulties.",
-      "ja_question": "[Japanese translation needed: Based on the reading and lecture, what are the pri...]",
-      "ja_explanation": "[Japanese translation needed: Solutions and barriers analysis task. Assess under...]"
+      "ja_question": "読書と講義に基づいて、気候変動に対処するために使用される主な方法は何ですか?また、これらの方法はどのような課題に直面していますか?",
+      "ja_explanation": "解決策と障壁の分析タスク。アプローチの理解と実装の困難さの現実的な評価を評価します。"
     },
     {
       "id": "en_toefl_speaking_029",
@@ -481,8 +481,8 @@
       ],
       "answer": 0,
       "explanation": "Career guidance comprehension. Assess identification of student's decision context and communication of mentorship guidance.",
-      "ja_question": "[Japanese translation needed: A student discusses an internship opportunity with...]",
-      "ja_explanation": "[Japanese translation needed: Career guidance comprehension. Assess identificati...]"
+      "ja_question": "学生がキャリアメンターとインターンシップの機会について話し合っています。生徒の状況は何ですか、メンターはどのようなアドバイスをしますか?",
+      "ja_explanation": "キャリアガイダンスの理解。生徒の意思決定の背景とメンターシップのガイダンスの伝達の特定を評価します。"
     },
     {
       "id": "en_toefl_speaking_030",
@@ -497,8 +497,8 @@
       ],
       "answer": -1,
       "explanation": "Skill development narrative. Assess clarity of skill description and relevance of examples showing how it has been applied.",
-      "ja_question": "[Japanese translation needed: Describe a skill you have developed and explain ho...]",
-      "ja_explanation": "[Japanese translation needed: Skill development narrative. Assess clarity of ski...]"
+      "ja_question": "あなたが培ってきたスキルについて説明し、それがどのように役に立ったかを説明してください。",
+      "ja_explanation": "スキル開発の物語。スキルの説明の明確さと、それがどのように適用されたかを示す例の関連性を評価します。"
     },
     {
       "id": "en_toefl_speaking_031",
@@ -514,8 +514,8 @@
       ],
       "answer": 0,
       "explanation": "Research summary task. Assess understanding of research structure and ability to communicate main points clearly.",
-      "ja_question": "[Japanese translation needed: The professor presents research on a social phenom...]",
-      "ja_explanation": "[Japanese translation needed: Research summary task. Assess understanding of res...]"
+      "ja_question": "教授は社会現象に関する研究を発表します。研究課題、方法論、主な結果を要約します。",
+      "ja_explanation": "研究概要タスク。研究構造の理解と要点を明確に伝える能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_032",
@@ -530,8 +530,8 @@
       ],
       "answer": -1,
       "explanation": "Decision-making approach task. Evaluate selfawareness, method description, and soundness of approach demonstrated.",
-      "ja_question": "[Japanese translation needed: When you are faced with difficult decisions, how d...]",
-      "ja_explanation": "[Japanese translation needed: Decision-making approach task. Evaluate selfawaren...]"
+      "ja_question": "難しい決断を迫られたとき、あなたは通常どのようにアプローチしますか?",
+      "ja_explanation": "意思決定アプローチのタスク。自己認識、方法の説明、実証されたアプローチの健全性を評価します。"
     },
     {
       "id": "en_toefl_speaking_033",
@@ -547,8 +547,8 @@
       ],
       "answer": 0,
       "explanation": "Policy and stakeholder perspective task. Assess integration of multiple viewpoints and balanced representation.",
-      "ja_question": "[Japanese translation needed: The reading discusses a policy proposal, and the l...]",
-      "ja_explanation": "[Japanese translation needed: Policy and stakeholder perspective task. Assess in...]"
+      "ja_question": "朗読では政策提案について議論し、講義では影響を受けたコミュニティからの反応を紹介します。この提案は何ですか?コミュニティはそれをどのように見ていますか?",
+      "ja_explanation": "ポリシーとステークホルダーの視点のタスク。複数の視点の統合とバランスの取れた表現を評価します。"
     },
     {
       "id": "en_toefl_speaking_034",
@@ -564,8 +564,8 @@
       ],
       "answer": 0,
       "explanation": "Tutoring interaction comprehension. Assess identification of problems and clear communication of suggested strategies.",
-      "ja_question": "[Japanese translation needed: A student discusses changing study habits with a t...]",
-      "ja_explanation": "[Japanese translation needed: Tutoring interaction comprehension. Assess identif...]"
+      "ja_question": "生徒が学習習慣の変更について家庭教師と話し合います。生徒はどのような学習課題に直面しており、家庭教師はどのような戦略を提案しますか?",
+      "ja_explanation": "個別指導のインタラクションの理解。問題の特定と、提案された戦略の明確な伝達を評価します。"
     },
     {
       "id": "en_toefl_speaking_035",
@@ -580,8 +580,8 @@
       ],
       "answer": -1,
       "explanation": "Field-specific creativity task. Assess understanding of creative applications in chosen domain and quality of examples.",
-      "ja_question": "[Japanese translation needed: What role does creativity play in your field of st...]",
-      "ja_explanation": "[Japanese translation needed: Field-specific creativity task. Assess understandi...]"
+      "ja_question": "あなたの研究分野や興味のある分野において、創造性はどのような役割を果たしていますか?例を示します。",
+      "ja_explanation": "分野固有の創造性タスク。選択したドメインにおける創造的なアプリケーションの理解と例の品質を評価します。"
     },
     {
       "id": "en_toefl_speaking_036",
@@ -597,8 +597,8 @@
       ],
       "answer": 0,
       "explanation": "Causal analysis and problem-solving task. Assess understanding of system complexity and practical solution feasibility.",
-      "ja_question": "[Japanese translation needed: Based on the lecture, what are the main causes of ...]",
-      "ja_explanation": "[Japanese translation needed: Causal analysis and problem-solving task. Assess u...]"
+      "ja_question": "講義に基づいて、議論された環境現象の主な原因は何であり、考えられる解決策は何でしょうか?",
+      "ja_explanation": "原因分析と問題解決のタスク。システムの複雑さと実際のソリューションの実現可能性についての理解を評価します。"
     },
     {
       "id": "en_toefl_speaking_037",
@@ -614,8 +614,8 @@
       ],
       "answer": 0,
       "explanation": "Health services interaction comprehension. Assess identification of student's need and communication of available support.",
-      "ja_question": "[Japanese translation needed: The student visits the student health center with ...]",
-      "ja_explanation": "[Japanese translation needed: Health services interaction comprehension. Assess ...]"
+      "ja_question": "学生は心配して学生保健センターを訪れました。何が懸念されていますか?また、センターはどのような医療リソースを提供していますか?",
+      "ja_explanation": "医療サービスの相互作用の理解。生徒のニーズの特定と利用可能なサポートの伝達を評価します。"
     },
     {
       "id": "en_toefl_speaking_038",
@@ -630,8 +630,8 @@
       ],
       "answer": -1,
       "explanation": "Education-development relationship task. Assess thoughtfulness of connections made and quality of supporting examples.",
-      "ja_question": "[Japanese translation needed: What is the relationship between education and per...]",
-      "ja_explanation": "[Japanese translation needed: Education-development relationship task. Assess th...]"
+      "ja_question": "教育と自己啓発にはどのような関係があるのでしょうか?具体的な例を挙げて話し合います。",
+      "ja_explanation": "教育と開発の関係タスク。確立されたつながりの思慮深さとサポート例の質を評価します。"
     },
     {
       "id": "en_toefl_speaking_039",
@@ -647,8 +647,8 @@
       ],
       "answer": 0,
       "explanation": "Technology impact analysis task. Assess technical comprehension and nuanced discussion of consequences.",
-      "ja_question": "[Japanese translation needed: The lecture presents a technological innovation an...]",
-      "ja_explanation": "[Japanese translation needed: Technology impact analysis task. Assess technical ...]"
+      "ja_question": "この講義では、技術革新とその社会的影響について説明します。テクノロジーについて説明し、その広範な影響について話し合います。",
+      "ja_explanation": "テクノロジーの影響分析タスク。技術的な理解と結果についての微妙な議論を評価します。"
     },
     {
       "id": "en_toefl_speaking_040",
@@ -664,8 +664,8 @@
       ],
       "answer": 0,
       "explanation": "Academic research consultation comprehension. Assess accurate portrayal of research direction and constructive feedback.",
-      "ja_question": "[Japanese translation needed: The student meets with a professor to discuss a re...]",
-      "ja_explanation": "[Japanese translation needed: Academic research consultation comprehension. Asse...]"
+      "ja_question": "学生は教授と会い、研究プロジェクトの提案について話し合います。学生の研究アイデアは何ですか?教授はどのようなフィードバックを提供しますか?",
+      "ja_explanation": "学術研究相談の理解。研究の方向性と建設的なフィードバックの正確な描写を評価します。"
     },
     {
       "id": "en_toefl_speaking_041",
@@ -680,8 +680,8 @@
       ],
       "answer": -1,
       "explanation": "Place significance narrative. Assess descriptive clarity and emotional connection to location.",
-      "ja_question": "[Japanese translation needed: Describe a place that is important to you and expl...]",
-      "ja_explanation": "[Japanese translation needed: Place significance narrative. Assess descriptive c...]"
+      "ja_question": "あなたにとって重要な場所について説明し、その重要性を説明してください。",
+      "ja_explanation": "場所の重要性の物語。説明の明瞭さと場所に対する感情的なつながりを評価します。"
     },
     {
       "id": "en_toefl_speaking_042",
@@ -697,8 +697,8 @@
       ],
       "answer": 0,
       "explanation": "Sociolinguistic factors synthesis task. Assess understanding of complex social influences on language use.",
-      "ja_question": "[Japanese translation needed: According to the reading and lecture, what factors...]",
-      "ja_explanation": "[Japanese translation needed: Sociolinguistic factors synthesis task. Assess und...]"
+      "ja_question": "読書と講義によると、多言語コミュニティにおける言語選択に影響を与える要因は何ですか?",
+      "ja_explanation": "社会言語因子の合成タスク。言語使用に対する複雑な社会的影響の理解を評価します。"
     },
     {
       "id": "en_toefl_speaking_043",
@@ -714,8 +714,8 @@
       ],
       "answer": 0,
       "explanation": "Wellness consultation comprehension. Assess identification of concerns and clear communication of coping strategies.",
-      "ja_question": "[Japanese translation needed: The student seeks advice about managing stress and...]",
-      "ja_explanation": "[Japanese translation needed: Wellness consultation comprehension. Assess identi...]"
+      "ja_question": "学生はストレスと時間を効果的に管理するためのアドバイスを求めています。生徒はどのような懸念を表明し、どのような戦略が推奨されますか?",
+      "ja_explanation": "ウェルネスコンサルティングの理解。懸念事項の特定と対処戦略の明確な伝達を評価します。"
     },
     {
       "id": "en_toefl_speaking_044",
@@ -730,8 +730,8 @@
       ],
       "answer": -1,
       "explanation": "Personal growth narrative. Assess self-reflection, clear articulation of change, and understanding of influences.",
-      "ja_question": "[Japanese translation needed: How have your interests and goals evolved over tim...]",
-      "ja_explanation": "[Japanese translation needed: Personal growth narrative. Assess self-reflection,...]"
+      "ja_question": "あなたの興味や目標は時間の経過とともにどのように進化してきましたか?何がこれらの変化に影響を与えたのか説明してください。",
+      "ja_explanation": "個人の成長物語。内省、変化の明確な表現、影響の理解を評価します。"
     },
     {
       "id": "en_toefl_speaking_045",
@@ -747,8 +747,8 @@
       ],
       "answer": 0,
       "explanation": "Economic concept application task. Assess conceptual understanding and ability to identify cross-context relevance.",
-      "ja_question": "[Japanese translation needed: The professor explains an economic concept with ex...]",
-      "ja_explanation": "[Japanese translation needed: Economic concept application task. Assess conceptu...]"
+      "ja_question": "教授は、さまざまな文脈の例を挙げて経済概念を説明します。概念とその応用をまとめます。",
+      "ja_explanation": "経済概念の適用タスク。概念的な理解と、コンテキスト間の関連性を特定する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_046",
@@ -764,8 +764,8 @@
       ],
       "answer": 0,
       "explanation": "Academic advising comprehension. Assess identification of student questions and communication of institutional guidance.",
-      "ja_question": "[Japanese translation needed: A student meets with a financial advisor during re...]",
-      "ja_explanation": "[Japanese translation needed: Academic advising comprehension. Assess identifica...]"
+      "ja_question": "学生は登録計画中に財務アドバイザーと面談します。学生はどのような質問をし、アドバイザーはどのような情報を提供しますか?",
+      "ja_explanation": "学術的なアドバイスの理解。学生の質問の特定と教育機関のガイダンスの伝達を評価します。"
     },
     {
       "id": "en_toefl_speaking_047",
@@ -780,8 +780,8 @@
       ],
       "answer": -1,
       "explanation": "Academic reflection task. Assess thoughtfulness of lesson identified and ability to articulate its significance.",
-      "ja_question": "[Japanese translation needed: Describe the most important lesson you have learne...]",
-      "ja_explanation": "[Japanese translation needed: Academic reflection task. Assess thoughtfulness of...]"
+      "ja_question": "あなたが学業で学んだ最も重要な教訓について説明してください。",
+      "ja_explanation": "学術的な振り返りのタスク。特定された教訓に対する思慮深さと、その重要性を明確に説明する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_048",
@@ -797,8 +797,8 @@
       ],
       "answer": 0,
       "explanation": "Literary context analysis task. Assess historical comprehension and ability to explain cultural importance.",
-      "ja_question": "[Japanese translation needed: The lecture discusses a literary work and its cult...]",
-      "ja_explanation": "[Japanese translation needed: Literary context analysis task. Assess historical ...]"
+      "ja_question": "講義では文学作品とその文化的背景について説明します。その文化的時代における作品の重要性を説明してください。",
+      "ja_explanation": "文学的文脈分析タスク。歴史的理解と文化的重要性を説明する能力を評価します。"
     },
     {
       "id": "en_toefl_speaking_049",
@@ -814,8 +814,8 @@
       ],
       "answer": 0,
       "explanation": "Decision-making factor identification task. Assess understanding of how students evaluate major choices.",
-      "ja_question": "[Japanese translation needed: The student discusses a potential major choice wit...]",
-      "ja_explanation": "[Japanese translation needed: Decision-making factor identification task. Assess...]"
+      "ja_question": "学生は、主要な選択の可能性についてアカデミックカウンセラーと話し合います。学生の決定に影響を与える要因は何ですか?",
+      "ja_explanation": "意思決定要因の特定タスク。生徒が主要な選択肢をどのように評価するかについての理解を評価します。"
     },
     {
       "id": "en_toefl_speaking_050",
@@ -830,8 +830,8 @@
       ],
       "answer": -1,
       "explanation": "Reflective advice task. Assess thoughtfulness of recommendations, grounding in experience, and ability to explain reasoning.",
-      "ja_question": "[Japanese translation needed: What advice would you give to someone just beginni...]",
-      "ja_explanation": "[Japanese translation needed: Reflective advice task. Assess thoughtfulness of r...]"
+      "ja_question": "学問の旅を始めたばかりの人にどのようなアドバイスをしますか?あなたの推論を説明してください。",
+      "ja_explanation": "反省的なアドバイスのタスク。推奨事項の思慮深さ、経験に基づく、推論を説明する能力を評価します。"
     }
   ]
 }

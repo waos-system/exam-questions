@@ -178,7 +178,7 @@
         "ifdown eth0",
         "ip link set eth0 down",
         "systemctl stop eth0",
-        "選択肢1と2両方正しい"
+        "ifdown eth0 と ip link set eth0 down の両方"
       ],
       "answer": 3,
       "explanation": "ifdown と ip link set eth0 down は、ネットワークインターフェースを一時的に無効にする両方の方法である。"
@@ -454,7 +454,7 @@
         "ip link set eth0 mtu 1500",
         "mtu set eth0 1500",
         "ifconfig eth0 mtu 1500",
-        "選択肢1と3両方正しい"
+        "ip link set eth0 mtu 1500 と ifconfig eth0 mtu 1500 の両方"
       ],
       "answer": 3,
       "explanation": "ip link set と ifconfig はどちらも MTU を変更できるコマンドである。"
@@ -550,7 +550,7 @@
         "ip link set eth0 promisc on",
         "ifconfig eth0 promisc",
         "tcpdump -i eth0",
-        "選択肢1と2両方正しい"
+        "ip link set eth0 promisc on と ifconfig eth0 promisc の両方"
       ],
       "answer": 3,
       "explanation": "ip link set と ifconfig は両方ともプロミスキャスモードを設定できる。"
@@ -598,7 +598,7 @@
         "まったく異なるフォーマットで表示される",
         "ip route show はより新しく、より詳細な情報を提供する",
         "route -n は DNS 名前解決を無効にして数値アドレスを表示する",
-        "選択肢1と3両方正しい"
+        "AとCの両方"
       ],
       "answer": 3,
       "explanation": "route -n は数値ホストアドレスをルーティングテーブルに表示し、ip route show はより詳細で新しいフォーマットで表示する。"

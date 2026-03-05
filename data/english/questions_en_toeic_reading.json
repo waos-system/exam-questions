@@ -13,8 +13,8 @@
       ],
       "answer": 1,
       "explanation": "The subjunctive mood is required after 'requires that'. The correct form is 'be verified' (present subjunctive).",
-      "ja_question": "[Japanese translation needed: The report requires that all data _____ before sub...]",
-      "ja_explanation": "[Japanese translation needed: The subjunctive mood is required after 'requires t...]"
+      "ja_question": "報告書では、ディレクターに提出する前にすべてのデータを_____する必要があります。",
+      "ja_explanation": "「それが必要です」の後には接続法が必要です。正しい形式は「検証される」（仮定法現在）です。"
     },
     {
       "id": "en_toeic_reading_002",
@@ -27,8 +27,8 @@
       ],
       "answer": 0,
       "explanation": "After the preposition 'Despite', a noun phrase is needed. 'A decline' is the correct noun form.",
-      "ja_question": "[Japanese translation needed: Despite _____ in sales last quarter, the company r...]",
-      "ja_explanation": "[Japanese translation needed: After the preposition 'Despite', a noun phrase is ...]"
+      "ja_question": "前四半期の売上高は_____であったにもかかわらず、同社は今後の成長について依然として楽観的です。",
+      "ja_explanation": "前置詞「にもかかわらず」の後には名詞句が必要です。「衰退」は正しい名詞形です。"
     },
     {
       "id": "en_toeic_reading_003",
@@ -41,8 +41,8 @@
       ],
       "answer": 1,
       "explanation": "The phrase 'strongly oppose' suggests disapproval of a past action. 'Should have' expresses criticism of a past choice.",
-      "ja_question": "[Japanese translation needed: The manager _____ strongly oppose the proposal dur...]",
-      "ja_explanation": "[Japanese translation needed: The phrase 'strongly oppose' suggests disapproval ...]"
+      "ja_question": "部長_____は昨日の予算会議でその提案に強く反対した。",
+      "ja_explanation": "「強く反対する」という表現は、過去の行為に対する不承認を示唆します。「すべきだった」は過去の選択に対する批判を表します。"
     },
     {
       "id": "en_toeic_reading_004",
@@ -55,8 +55,8 @@
       ],
       "answer": 0,
       "explanation": "The passive voice 'are required' (to be required) is the correct completion. 'Required' is the past participle used in passive construction.",
-      "ja_question": "[Japanese translation needed: New employees are _____ to complete orientation tr...]",
-      "ja_explanation": "[Japanese translation needed: The passive voice 'are required' (to be required) ...]"
+      "ja_question": "新入社員は最初の 1 週間以内にオリエンテーション トレーニングを _____ 完了する必要があります。",
+      "ja_explanation": "受動態「are required」（必要とされる）が正しい完了です。「Required」は受動構文で使用される過去分詞です。"
     },
     {
       "id": "en_toeic_reading_005",
@@ -69,8 +69,8 @@
       ],
       "answer": 2,
       "explanation": "The past tense 'completed' is needed because the action has already occurred. The adverb 'ahead of schedule' signals a completed action.",
-      "ja_question": "[Japanese translation needed: The team _____ the project ahead of schedule becau...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'completed' is needed because the a...]"
+      "ja_question": "チームは並外れた献身的な努力のおかげで、プロジェクトを予定より早く完了しました。",
+      "ja_explanation": "アクションはすでに発生しているため、過去形の「完了」が必要です。副詞「予定より早く」は、完了したアクションを示します。"
     },
     {
       "id": "en_toeic_reading_006",
@@ -83,8 +83,8 @@
       ],
       "answer": 0,
       "explanation": "The plural noun 'questions' is appropriate after 'any' in this context. The possessive adjective indicates multiple inquiries.",
-      "ja_question": "[Japanese translation needed: The executive secretary will answer any _____ abou...]",
-      "ja_explanation": "[Japanese translation needed: The plural noun 'questions' is appropriate after '...]"
+      "ja_question": "事務局長は、会社の方針と手順に関する _____ にお答えします。",
+      "ja_explanation": "この文脈では、複数名詞「questions」は「any」の後に適切です。所有形容詞は複数の問い合わせを示します。"
     },
     {
       "id": "en_toeic_reading_007",
@@ -97,8 +97,8 @@
       ],
       "answer": 0,
       "explanation": "In conditional sentences, the if-clause uses the present tense. 'Arrives' is the correct present tense form.",
-      "ja_question": "[Japanese translation needed: If the shipment _____ on time, we will be able to ...]",
-      "ja_explanation": "[Japanese translation needed: In conditional sentences, the if-clause uses the p...]"
+      "ja_question": "出荷が時間通りに＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿、お客様の納期に間に合うでしょうか。",
+      "ja_explanation": "条件文では、if 節は現在時制を使用します。「到着」は正しい現在形です。"
     },
     {
       "id": "en_toeic_reading_008",
@@ -111,8 +111,8 @@
       ],
       "answer": 1,
       "explanation": "The infinitive 'to improve' is the correct form to show purpose after passive verbs like 'was hired'.",
-      "ja_question": "[Japanese translation needed: The consultant was hired _____ improve the company...]",
-      "ja_explanation": "[Japanese translation needed: The infinitive 'to improve' is the correct form to...]"
+      "ja_question": "コンサルタントは会社の業務効率を 25% 改善するために採用されました。",
+      "ja_explanation": "不定詞「改善する」は、「採用された」のような受動動詞の後に目的を示す正しい形式です。"
     },
     {
       "id": "en_toeic_reading_009",
@@ -125,8 +125,8 @@
       ],
       "answer": 1,
       "explanation": "An adverb is needed to modify the adjective 'secure'. 'Significantly' is the adverbial form of significant.",
-      "ja_question": "[Japanese translation needed: The software update is _____ more secure and user-...]",
-      "ja_explanation": "[Japanese translation needed: An adverb is needed to modify the adjective 'secur...]"
+      "ja_question": "ソフトウェア アップデートは、以前のバージョンよりも _____ 安全で使いやすくなりました。",
+      "ja_explanation": "形容詞「安全」を修飾するには副詞が必要です。「有意に」は、有意の副詞形です。"
     },
     {
       "id": "en_toeic_reading_010",
@@ -139,8 +139,8 @@
       ],
       "answer": 1,
       "explanation": "The past tense 'had' is correct because the action occurred at a specific past time ('last week's meeting').",
-      "ja_question": "[Japanese translation needed: Employees _____ approve the new performance evalua...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'had' is correct because the action...]"
+      "ja_question": "従業員 _____ は、先週の会議で新しい業績評価システムを全会一致で承認しました。",
+      "ja_explanation": "過去の特定の時間 (「先週の会議」) にアクションが発生したため、過去形「あった」は正しいです。"
     },
     {
       "id": "en_toeic_reading_011",
@@ -153,8 +153,8 @@
       ],
       "answer": 1,
       "explanation": "Option B contains an error. 'Employees' is plural, so the verb should be 'need', not 'needs'. Options A, C, and D are correct.",
-      "ja_question": "[Japanese translation needed: Which of the following sentences contains an error...]",
-      "ja_explanation": "[Japanese translation needed: Option B contains an error. 'Employees' is plural,...]"
+      "ja_question": "次の文のうち、間違いが含まれているものはどれですか?\n(A) 財務報告書の提出期限は今月末です。\n(B) すべての従業員は金曜日にタイムシートを提出する必要があります。\n(C) マーケティング チームは包括的な戦略を策定しました。\n(D) マネージャーもディレクターもその提案に同意します。",
+      "ja_explanation": "選択肢 B に誤りがあります。「従業員」は複数形なので、動詞は「ニーズ」ではなく「必要」である必要があります。選択肢 A、C、D は正しいです。"
     },
     {
       "id": "en_toeic_reading_012",
@@ -167,8 +167,8 @@
       ],
       "answer": 1,
       "explanation": "Option B is incorrect. 'Memo' is singular, so the verb should be 'was', not 'were'. The other options use correct singular/plural agreement.",
-      "ja_question": "[Japanese translation needed: Which sentence is grammatically incorrect?\n(A) Nei...]",
-      "ja_explanation": "[Japanese translation needed: Option B is incorrect. 'Memo' is singular, so the ...]"
+      "ja_question": "どの文が文法的に間違っていますか?\n(A) 営業マネージャーも担当者も結果に満足していませんでした。\n(B) 予算調整に関するメモは昨日送付されました。\n(C) 出席者の何人かがフィードバック フォームを提出しました。\n(D) 製品の品質は 1 年間保証されます。",
+      "ja_explanation": "選択肢Bは不正解です。「メモ」は単数形なので、動詞は「were」ではなく「was」である必要があります。他のオプションでは、正しい単数形と複数形の一致が使用されます。"
     },
     {
       "id": "en_toeic_reading_013",
@@ -181,8 +181,8 @@
       ],
       "answer": 1,
       "explanation": "The passage directly states that 'a new customer service protocol' was implemented, making option B the correct answer.",
-      "ja_question": "[Japanese translation needed: Passage: 'The company implemented a new customer s...]",
-      "ja_explanation": "[Japanese translation needed: The passage directly states that 'a new customer s...]"
+      "ja_question": "一節: 「同社は今月、新しい顧客サービス プロトコルを実装しました」。文章によれば、何が実装されたのでしょうか？\n(A) サービス料\n(B) 顧客サービスのためのプロトコル\n(C) 新しい会社方針\n(D) 経営体制",
+      "ja_explanation": "この箇所では、「新しい顧客サービス プロトコル」が実装されたことが直接述べられており、選択肢 B が正解となります。"
     },
     {
       "id": "en_toeic_reading_014",
@@ -195,8 +195,8 @@
       ],
       "answer": 0,
       "explanation": "Based on the context of typical TOEIC passages, announcements generally inform about schedule or policy changes.",
-      "ja_question": "[Japanese translation needed: What is the primary purpose of the announcement?...]",
-      "ja_explanation": "[Japanese translation needed: Based on the context of typical TOEIC passages, an...]"
+      "ja_question": "発表の主な目的は何ですか?",
+      "ja_explanation": "一般的な TOEIC 合格の文脈に基づいて、スケジュールやポリシーの変更についてのアナウンスが行われるのが一般的です。"
     },
     {
       "id": "en_toeic_reading_015",
@@ -209,8 +209,8 @@
       ],
       "answer": 1,
       "explanation": "Reading comprehension items require careful attention to explicit information in the passage.",
-      "ja_question": "[Japanese translation needed: According to the memo, which statement is true?\n(A...]",
-      "ja_explanation": "[Japanese translation needed: Reading comprehension items require careful attent...]"
+      "ja_question": "メモによると、どの記述が真実ですか?\n(A) 期限は過ぎています。\n(B) 投稿は引き続き受け付けています。\n(C) プロジェクトはキャンセルされました。\n(D) 資金が撤回された。",
+      "ja_explanation": "読解項目では、文章内の明示的な情報に細心の注意を払う必要があります。"
     },
     {
       "id": "en_toeic_reading_016",
@@ -223,8 +223,8 @@
       ],
       "answer": 0,
       "explanation": "The future tense construction 'will allocate' requires the base form of the verb. 'Allocate' is correct.",
-      "ja_question": "[Japanese translation needed: The company will _____ additional resources to ens...]",
-      "ja_explanation": "[Japanese translation needed: The future tense construction 'will allocate' requ...]"
+      "ja_question": "会社はプロジェクトの成功を確実にするために追加リソースを _____ 提供します。",
+      "ja_explanation": "未来時制の構文「will assign」には動詞の基本形が必要です。「割り当てる」が正解です。"
     },
     {
       "id": "en_toeic_reading_017",
@@ -237,8 +237,8 @@
       ],
       "answer": 0,
       "explanation": "The cause (bad weather) logically leads to postponement of the event. Option A presents the most logical consequence.",
-      "ja_question": "[Japanese translation needed: Because of the bad weather, _____....]",
-      "ja_explanation": "[Japanese translation needed: The cause (bad weather) logically leads to postpon...]"
+      "ja_question": "悪天候のため、_____。",
+      "ja_explanation": "原因（悪天候）は論理的にはイベントの延期につながります。オプション A は最も論理的な結果を示します。"
     },
     {
       "id": "en_toeic_reading_018",
@@ -251,8 +251,8 @@
       ],
       "answer": 1,
       "explanation": "'Prior' means before, which makes sense in the context of requesting payment before completion. 'Prior to' is an idiomatic expression.",
-      "ja_question": "[Japanese translation needed: The contractor requested payment _____ to the comp...]",
-      "ja_explanation": "[Japanese translation needed: 'Prior' means before, which makes sense in the con...]"
+      "ja_question": "請負業者は、第 1 段階の完了までに _____ の支払いを要求しました。",
+      "ja_explanation": "「事前」とは前を意味し、完了前に支払いを要求する文脈では意味を成します。「以前」は慣用的な表現です。"
     },
     {
       "id": "en_toeic_reading_019",
@@ -265,8 +265,8 @@
       ],
       "answer": 0,
       "explanation": "The participle 'Considering' at the start of a sentence introduces a reason or thought. It's the correct choice here.",
-      "ja_question": "[Japanese translation needed: _____ the importance of the meeting, all team memb...]",
-      "ja_explanation": "[Japanese translation needed: The participle 'Considering' at the start of a sen...]"
+      "ja_question": "_____ 会議は重要であるため、チームメンバー全員が出席することが期待されます。",
+      "ja_explanation": "文の先頭にある分詞「検討中」は、理由や考えを紹介します。ここでは正しい選択です。"
     },
     {
       "id": "en_toeic_reading_020",
@@ -279,8 +279,8 @@
       ],
       "answer": 2,
       "explanation": "The past tense 'benefited' is needed to agree with the past-tense verb 'negotiated'.",
-      "ja_question": "[Japanese translation needed: The sales representative successfully negotiated a...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'benefited' is needed to agree with...]"
+      "ja_question": "営業担当者は、双方が_____という契約交渉に成功しました。",
+      "ja_explanation": "過去形の動詞「交渉した」と一致するには、過去形「恩恵を受けた」が必要です。"
     },
     {
       "id": "en_toeic_reading_021",
@@ -293,8 +293,8 @@
       ],
       "answer": 1,
       "explanation": "The email explicitly states 'All department heads must submit revised budget proposals by Friday'.",
-      "ja_question": "[Japanese translation needed: READING COMPREHENSION: E-mail from Marketing Direc...]",
-      "ja_explanation": "[Japanese translation needed: The email explicitly states 'All department heads ...]"
+      "ja_question": "読解: マーケティング ディレクターからの電子メール\n件名: 第 4 四半期マーケティング戦略の最新情報\n\n親愛なるチームの皆様\n\n最近の戦略計画セッションに続き、第 4 四半期の新しいマーケティング戦略を発表できることを嬉しく思います。今後もデジタル変革と顧客エンゲージメントに焦点を当てていきます。すべての部門長は金曜日までに修正予算案を提出しなければならない。\n\nさらに、年次マーケティングカンファレンスが11月15日から17日までグランドホテルで開催されます。チームメンバー全員が参加することをお勧めします。\n\nよろしくお願いします。\nジェニファー・リュー\n\n質問: 予算案はいつ提出しなければなりませんか?",
+      "ja_explanation": "このメールには「すべての部門長は金曜日までに修正予算案を提出しなければならない」と明記されている。"
     },
     {
       "id": "en_toeic_reading_022",
@@ -307,8 +307,8 @@
       ],
       "answer": 1,
       "explanation": "The email states 'the annual marketing conference will take place from November 15-17 at the Grand Hotel'.",
-      "ja_question": "[Japanese translation needed: Based on the e-mail, what is the location of the m...]",
-      "ja_explanation": "[Japanese translation needed: The email states 'the annual marketing conference ...]"
+      "ja_question": "電子メールによると、マーケティング カンファレンスの場所はどこですか?",
+      "ja_explanation": "メールには「年次マーケティングカンファレンスは11月15日から17日までグランドホテルで開催される」と記載されている。"
     },
     {
       "id": "en_toeic_reading_023",
@@ -321,8 +321,8 @@
       ],
       "answer": 2,
       "explanation": "The email states 'The focus will remain on digital transformation and customer engagement', indicating digital transformation is a priority.",
-      "ja_question": "[Japanese translation needed: What can be inferred about the company's prioritie...]",
-      "ja_explanation": "[Japanese translation needed: The email states 'The focus will remain on digital...]"
+      "ja_question": "会社の優先事項について何が推測できますか?",
+      "ja_explanation": "メールには「今後もデジタル変革と顧客エンゲージメントに重点を置く」と記載されており、デジタル変革が優先事項であることが示されている。"
     },
     {
       "id": "en_toeic_reading_024",
@@ -335,8 +335,8 @@
       ],
       "answer": 1,
       "explanation": "The past tense 'approved' is required because the report was distributed (past action) after approval occurred.",
-      "ja_question": "[Japanese translation needed: The board of directors _____ the annual report bef...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'approved' is required because the ...]"
+      "ja_question": "取締役会は、株主に配布される前に年次報告書を_____します。",
+      "ja_explanation": "レポートは承認が発生した後に配布された (過去のアクション) ため、過去形の「承認済み」が必要です。"
     },
     {
       "id": "en_toeic_reading_025",
@@ -349,8 +349,8 @@
       ],
       "answer": 3,
       "explanation": "All three statements contain agreement errors. 'Team' is singular (has), 'methodology' is singular (is), and 'They' plural requires 'recommend'.",
-      "ja_question": "[Japanese translation needed: INSTRUCTION: An error is identified in the text be...]",
-      "ja_explanation": "[Japanese translation needed: All three statements contain agreement errors. 'Te...]"
+      "ja_question": "指示: 以下のテキストにエラーが示されています。エラーを見つけて特定します。\n\n「研究チームは、新しい方法論は以前のシステムよりも効果的であると結論付けました。彼らは変更を直ちに実装することを推奨しています。」\n\n最初のエラーは何ですか?",
+      "ja_explanation": "3 つのステートメントにはすべて合意上の誤りが含まれています。「チーム」は単数形 (has)、「方法論」は単数形 (is)、「They」の複数形は「recommend」が必要です。"
     },
     {
       "id": "en_toeic_reading_026",
@@ -363,8 +363,8 @@
       ],
       "answer": 1,
       "explanation": "'Financing' is a singular noun, so the past passive verb should be 'was secured', not 'were secured'.",
-      "ja_question": "[Japanese translation needed: The financing for the expansion project _____ secu...]",
-      "ja_explanation": "[Japanese translation needed: 'Financing' is a singular noun, so the past passiv...]"
+      "ja_question": "拡張プロジェクトの資金調達は、銀行融資と投資家からの資金提供を組み合わせて確保されました。",
+      "ja_explanation": "「資金調達」は単数名詞であるため、過去の受動動詞は「確保された」ではなく「確保された」である必要があります。"
     },
     {
       "id": "en_toeic_reading_027",
@@ -377,8 +377,8 @@
       ],
       "answer": 0,
       "explanation": "'If you are' introduces a conditional statement that logically connects to the registration requirement.",
-      "ja_question": "[Japanese translation needed: _____ attending the seminar next week, please subm...]",
-      "ja_explanation": "[Japanese translation needed: 'If you are' introduces a conditional statement th...]"
+      "ja_question": "_____来週のセミナーに参加する場合は、水曜日までに登録フォームを提出してください。",
+      "ja_explanation": "「If you are」では、登録要件に論理的に接続する条件ステートメントが導入されます。"
     },
     {
       "id": "en_toeic_reading_028",
@@ -391,8 +391,8 @@
       ],
       "answer": 1,
       "explanation": "The present tense 'provides' is appropriate here since the warranty is a current feature of the product.",
-      "ja_question": "[Japanese translation needed: The product warranty _____ extensive coverage for ...]",
-      "ja_explanation": "[Japanese translation needed: The present tense 'provides' is appropriate here s...]"
+      "ja_question": "製品保証 _____ 最初の 2 年間は部品と作業を広範囲にカバーします。",
+      "ja_explanation": "保証は製品の現在の機能であるため、ここでは現在形の「provides」が適切です。"
     },
     {
       "id": "en_toeic_reading_029",
@@ -405,8 +405,8 @@
       ],
       "answer": 2,
       "explanation": "The manual explicitly states 'The device must be cleaned monthly', which corresponds to option C.",
-      "ja_question": "[Japanese translation needed: Which of these is stated in the manual?\n'The devic...]",
-      "ja_explanation": "[Japanese translation needed: The manual explicitly states 'The device must be c...]"
+      "ja_question": "マニュアルに記載されているのはどれですか?\n「デバイスは毎月、柔らかい布で掃除する必要があります。」水に浸さないでください。定期的なメンテナンスにより製品の寿命が延びます。」\n(A) デバイスは 1 年ごとに交換する必要があります。\n(B) デバイスは短時間水没する可能性があります。\n(C) 毎月の清掃をお勧めします。\n(D) このデバイスには専門的なサービスが必要です。",
+      "ja_explanation": "マニュアルには「デバイスは毎月掃除する必要がある」と明記されており、これはオプション C に相当します。"
     },
     {
       "id": "en_toeic_reading_030",
@@ -419,8 +419,8 @@
       ],
       "answer": 1,
       "explanation": "'Policy' is singular, so the present perfect requires 'has been', not 'have been'.",
-      "ja_question": "[Japanese translation needed: The policy _____ been in effect since January and ...]",
-      "ja_explanation": "[Japanese translation needed: 'Policy' is singular, so the present perfect requi...]"
+      "ja_question": "ポリシー _____ は 1 月から施行されており、運用コストが大幅に削減されました。",
+      "ja_explanation": "「Policy」は単数形なので、現在完了には「have been」ではなく「has been」が必要です。"
     },
     {
       "id": "en_toeic_reading_031",
@@ -433,8 +433,8 @@
       ],
       "answer": 1,
       "explanation": "After 'rather than', a gerund (-ing form) is used. 'Replacing' is the correct gerund.",
-      "ja_question": "[Japanese translation needed: Rather than _____ the entire system, we decided to...]",
-      "ja_explanation": "[Japanese translation needed: After 'rather than', a gerund (-ing form) is used....]"
+      "ja_question": "システム全体を _____ するのではなく、段階的な改善を実施することにしました。",
+      "ja_explanation": "「むしろ」の後には動名詞 (-ing 形式) が使用されます。「replaceing」が正しい動名詞です。"
     },
     {
       "id": "en_toeic_reading_032",
@@ -447,8 +447,8 @@
       ],
       "answer": 2,
       "explanation": "The memo states 'The renovation will modernize our workspace and improve employee productivity'.",
-      "ja_question": "[Japanese translation needed: PASSAGE FOR QUESTIONS 32-34:\n\nINTERNAL MEMO: OFFIC...]",
-      "ja_explanation": "[Japanese translation needed: The memo states 'The renovation will modernize our...]"
+      "ja_question": "質問 32 ～ 34 の文章:\n\n社内メモ: オフィス改修プロジェクト\n\n経営陣はオフィス改修プロジェクトの開始を発表できることを嬉しく思います。この改修により、ワークスペースが近代化され、従業員の生産性が向上します。フェーズ1では4階の更新に重点を置き、3月1日に開始予定。2階と3階の改修を伴う第2期工事は5月1日に開始される。すべての従業員は、改装中、書類や個人の持ち物を安全で施錠可能な保管場所に保管するよう求められます。\n\nなぜオフィスを改装するのですか？",
+      "ja_explanation": "メモには「この改修により当社のワークスペースが近代化され、従業員の生産性が向上する」と記されている。"
     },
     {
       "id": "en_toeic_reading_033",
@@ -461,8 +461,8 @@
       ],
       "answer": 3,
       "explanation": "The memo clearly states 'Phase 2...will commence on May 1st'.",
-      "ja_question": "[Japanese translation needed: According to the memo, when will Phase 2 of the re...]",
-      "ja_explanation": "[Japanese translation needed: The memo clearly states 'Phase 2...will commence o...]"
+      "ja_question": "メモによると、改修のフェーズ 2 はいつ開始されますか?",
+      "ja_explanation": "メモには「フェーズ2は…5月1日に開始される」と明記されている。"
     },
     {
       "id": "en_toeic_reading_034",
@@ -475,8 +475,8 @@
       ],
       "answer": 1,
       "explanation": "The memo states 'All employees are asked to retain documents and personal items in secure, lockable storage'.",
-      "ja_question": "[Japanese translation needed: What are employees asked to do with their personal...]",
-      "ja_explanation": "[Japanese translation needed: The memo states 'All employees are asked to retain...]"
+      "ja_question": "従業員は私物をどう扱うよう求められますか?",
+      "ja_explanation": "メモには「全従業員は書類や私物を安全で施錠可能な保管場所に保管するよう求められている」と書かれている。"
     },
     {
       "id": "en_toeic_reading_035",
@@ -489,8 +489,8 @@
       ],
       "answer": 1,
       "explanation": "The past tense 'identified' is needed because the analysis has already been completed.",
-      "ja_question": "[Japanese translation needed: The consultant's analysis _____ substantial cost s...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'identified' is needed because the ...]"
+      "ja_question": "コンサルタントの分析では、第 1 四半期だけで大幅なコスト削減が達成されました。",
+      "ja_explanation": "過去形の「特定された」が必要なのは、分析がすでに完了しているためです。"
     },
     {
       "id": "en_toeic_reading_036",
@@ -503,8 +503,8 @@
       ],
       "answer": 3,
       "explanation": "In conditional statements with 'unless', the present tense is used in the if-clause. 'Replaces' is correct.",
-      "ja_question": "[Japanese translation needed: Unless the vendor _____ the defective parts, we wi...]",
-      "ja_explanation": "[Japanese translation needed: In conditional statements with 'unless', the prese...]"
+      "ja_question": "ベンダーが欠陥部品を_____しない限り、当社は代替サプライヤーを探します。",
+      "ja_explanation": "「unless」を含む条件文では、if 節で現在時制が使用されます。「置き換える」が正しいです。"
     },
     {
       "id": "en_toeic_reading_037",
@@ -517,8 +517,8 @@
       ],
       "answer": 1,
       "explanation": "The past tense 'learned' aligns with the past time reference 'During the training session'.",
-      "ja_question": "[Japanese translation needed: During the training session, participants _____ ho...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'learned' aligns with the past time...]"
+      "ja_question": "トレーニング セッション中、参加者は新しいソフトウェア システムの使用方法を _____ 学びます。",
+      "ja_explanation": "「学んだ」という過去形は、「トレーニング セッション中」という過去の時間参照と一致します。"
     },
     {
       "id": "en_toeic_reading_038",
@@ -531,8 +531,8 @@
       ],
       "answer": 0,
       "explanation": "'The shipper should' is the clear, grammatically correct form to complete this sentence in formal writing.",
-      "ja_question": "[Japanese translation needed: The contract specifies that _____ remain responsib...]",
-      "ja_explanation": "[Japanese translation needed: 'The shipper should' is the clear, grammatically c...]"
+      "ja_question": "契約では、_____ が最終目的地への配送の責任を引き続き負うことが指定されています。",
+      "ja_explanation": "「The shipper should」は、正式な文章でこの文を完成させるための明確で文法的に正しい形式です。"
     },
     {
       "id": "en_toeic_reading_039",
@@ -545,8 +545,8 @@
       ],
       "answer": 0,
       "explanation": "Option A is incorrect. It should be 'principal' (main/primary), not 'principle' (rule/fundamental truth).",
-      "ja_question": "[Japanese translation needed: Which of these contains a spelling or word choice ...]",
-      "ja_explanation": "[Japanese translation needed: Option A is incorrect. It should be 'principal' (m...]"
+      "ja_question": "スペルまたは単語の選択に誤りがあるのはどれですか?\n(A) 基本的な目標は持続可能な成長を達成することです。\n(B) 取締役会の主な関心事はキャッシュ フローに関連しています。\n(C) 当社の主任コンサルタントが戦略を推奨しました。\n(D) 上記はすべて正しいです。",
+      "ja_explanation": "選択肢Aは不正解です。それは「原則」（規則/基本的な真理）ではなく、「プリンシパル」（主要な/主要な）である必要があります。"
     },
     {
       "id": "en_toeic_reading_040",
@@ -559,8 +559,8 @@
       ],
       "answer": 0,
       "explanation": "The future tense 'will present' is indicated by 'at the next board meeting', referring to a future event.",
-      "ja_question": "[Japanese translation needed: The marketing manager _____ the revised campaign s...]",
-      "ja_explanation": "[Japanese translation needed: The future tense 'will present' is indicated by 'a...]"
+      "ja_question": "マーケティング マネージャーは、次回の取締役会会議で改訂されたキャンペーン戦略を _____ します。",
+      "ja_explanation": "未来時制の「will present」は、「at the next Board Meeting」によって示され、将来の出来事を指します。"
     },
     {
       "id": "en_toeic_reading_041",
@@ -573,8 +573,8 @@
       ],
       "answer": 0,
       "explanation": "'If' is the logical connector, suggesting a conditional relationship between outdated infrastructure and overspending.",
-      "ja_question": "[Japanese translation needed: ADVERTISEMENT: Your company might have discovered ...]",
-      "ja_explanation": "[Japanese translation needed: 'If' is the logical connector, suggesting a condit...]"
+      "ja_question": "広告: あなたの会社では、次の分野での節約を発見した可能性があります。\n\n空欄に最もよく当てはまるのはどれですか?\n_____ IT インフラストラクチャが古いため、メンテナンスとアップグレードに過剰な費用を費やしている可能性があります。",
+      "ja_explanation": "「If」は論理接続子であり、時代遅れのインフラストラクチャと過剰支出の間の条件付き関係を示唆しています。"
     },
     {
       "id": "en_toeic_reading_042",
@@ -587,8 +587,8 @@
       ],
       "answer": 1,
       "explanation": "'Is updated' (present passive) is the most appropriate as it describes a regular procedure.",
-      "ja_question": "[Japanese translation needed: The employee handbook _____ updated annually to re...]",
-      "ja_explanation": "[Japanese translation needed: 'Is updated' (present passive) is the most appropr...]"
+      "ja_question": "従業員ハンドブック _____ は、会​​社方針の変更を反映するために毎年更新されます。",
+      "ja_explanation": "通常の手順を説明するため、「更新されました」(現在受動態) が最も適切です。"
     },
     {
       "id": "en_toeic_reading_043",
@@ -601,8 +601,8 @@
       ],
       "answer": 1,
       "explanation": "Option B flows logically from 'To achieve this goal...' with 'Several strategies have been identified for implementation' connecting paragraphs logically.",
-      "ja_question": "[Japanese translation needed: What is the placement of a paragraph in the follow...]",
-      "ja_explanation": "[Japanese translation needed: Option B flows logically from 'To achieve this goa...]"
+      "ja_question": "次の文章の段落の位置は何ですか?\n\nパラグラフ A: 「コスト削減は依然として重要な優先事項である。」\n段落B: 「この目標を達成するには…」\n欠落している段落: ???\n段落 D: 「その結果、私たちは...を計画しています。」\n\n「段落欠落」に最もよく当てはまる文はどれですか?",
+      "ja_explanation": "オプション B は、「この目標を達成するには...」から「実装するためのいくつかの戦略が特定されました」という論理的な流れで段落を論理的に接続します。"
     },
     {
       "id": "en_toeic_reading_044",
@@ -615,8 +615,8 @@
       ],
       "answer": 1,
       "explanation": "The past tense 'integrated' matches the past reference 'Following the merger' (completed action).",
-      "ja_question": "[Japanese translation needed: Following the merger, the two organizations _____ ...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'integrated' matches the past refer...]"
+      "ja_question": "合併後、2 つの組織は会計システムと手順を _____ 変更しました。",
+      "ja_explanation": "過去形「統合された」は、過去の参照「合併後」（完了したアクション）と一致します。"
     },
     {
       "id": "en_toeic_reading_045",
@@ -629,8 +629,8 @@
       ],
       "answer": 0,
       "explanation": "The infinitive 'to obtain' is correct after 'in order for [noun]'.",
-      "ja_question": "[Japanese translation needed: In order for employees _____ work-from-home privil...]",
-      "ja_explanation": "[Japanese translation needed: The infinitive 'to obtain' is correct after 'in or...]"
+      "ja_question": "従業員が在宅勤務の特権を_____獲得するには、特定のパフォーマンス基準を満たしている必要があります。",
+      "ja_explanation": "「in order for [名詞]」の後の不定詞「to get」は正しいです。"
     },
     {
       "id": "en_toeic_reading_046",
@@ -643,8 +643,8 @@
       ],
       "answer": 1,
       "explanation": "The present perfect requires the past participle 'demonstrated' with 'has'.",
-      "ja_question": "[Japanese translation needed: The company has _____ its commitment to environmen...]",
-      "ja_explanation": "[Japanese translation needed: The present perfect requires the past participle '...]"
+      "ja_question": "同社は、複数の取り組みを通じて環境の持続可能性に _____ 取り組んでいます。",
+      "ja_explanation": "現在完了には、「has」で「実証された」過去分詞が必要です。"
     },
     {
       "id": "en_toeic_reading_047",
@@ -657,8 +657,8 @@
       ],
       "answer": 0,
       "explanation": "Option A provides a logical sequence of cause and effect, creating a coherent narrative.",
-      "ja_question": "[Japanese translation needed: Which sentence best completes the text?\n'The custo...]",
-      "ja_explanation": "[Japanese translation needed: Option A provides a logical sequence of cause and ...]"
+      "ja_question": "どの文がテキストを最もよく完成させますか?\n「お客様から商品について苦情が来ました…」\n(A) ...そして会社は代替品を提案しました。\n(B) ...しかし、保証は適用されませんでした。\n(C) ...そのため、顧客はすぐに返金を要求しました。\n(D) ...仕様を満たしていなかったため。",
+      "ja_explanation": "オプション A は、原因と結果の論理的な順序を提供し、一貫した物語を作成します。"
     },
     {
       "id": "en_toeic_reading_048",
@@ -671,8 +671,8 @@
       ],
       "answer": 0,
       "explanation": "The past tense 'expressed' corresponds with the implied past action of requesting updated forecasts.",
-      "ja_question": "[Japanese translation needed: The financial director _____ concern about the qua...]",
-      "ja_explanation": "[Japanese translation needed: The past tense 'expressed' corresponds with the im...]"
+      "ja_question": "財務ディレクターは、四半期の予測を懸念し、最新の予測を要求しました。",
+      "ja_explanation": "過去形の「表現された」は、更新された予測を要求するという暗黙の過去の行為に対応します。"
     },
     {
       "id": "en_toeic_reading_049",
@@ -685,8 +685,8 @@
       ],
       "answer": 2,
       "explanation": "'Has hosted' (present perfect) indicates a recent completed action, and 'develop' (infinitive form) is parallel after the verb 'help'.",
-      "ja_question": "[Japanese translation needed: CLOZE TEST: Supply the missing words.\n'The company...]",
-      "ja_explanation": "[Japanese translation needed: 'Has hosted' (present perfect) indicates a recent ...]"
+      "ja_question": "クローズテスト: 不足している単語を入力してください。\n「会社は、従業員の技術スキルを _____ 支援するための一連のワークショップを実施します。」\n(A) ホスト/開発\n(B) ホスト/開発中\n(C) ホスト/開発済み\n(D) ホスト型/開発型",
+      "ja_explanation": "「Has host」（現在完了）は最近完了したアクションを示し、「develop」（不定形）は動詞「help」の後に並列します。"
     },
     {
       "id": "en_toeic_reading_050",
@@ -699,8 +699,8 @@
       ],
       "answer": 3,
       "explanation": "'Despite' is the correct form here. 'Despite of' is not standard; 'in spite' must be followed by 'of'; 'though' can work but 'despite' is more precise.",
-      "ja_question": "[Japanese translation needed: _____ the challenges faced during implementation, ...]",
-      "ja_explanation": "[Japanese translation needed: 'Despite' is the correct form here. 'Despite of' i...]"
+      "ja_question": "_____ 実装中に直面した課題にもかかわらず、プロジェクト チームは期限を守ることに全力で取り組み続けました。",
+      "ja_explanation": "ここでは「にもかかわらず」が正しい形です。「にもかかわらず」は標準ではありません。「にもかかわらず」の後には「の」を続ける必要があります。「though」も使えますが、「にもかかわらず」の方が正確です。"
     }
   ]
 }
